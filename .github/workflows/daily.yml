@@ -1,0 +1,97 @@
+name: Edizione quotidiana
+
+on:
+  schedule:
+    # 04:30 UTC = 06:30 in Italia con l'ora legale (05:30 in inverno).
+    # GitHub può ritardare i cron anche di parecchi minuti.
+    - cron: '30 4 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Rigenera l'edizione di oggi anche se esiste già
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+env:
+  GENERATE: ${{ github.event_name != 'push' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Genera l'edizione del giorno
+        if: env.GENERATE == 'true'
+        run: npm run pipeline -- --no-notify ${{ inputs.force && '--force' || '' }}
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          MISTRAL_MODEL: ${{ vars.MISTRAL_MODEL }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_MODEL: ${{ vars.HF_MODEL }}
+
+      - name: Salva l'edizione nel repo
+        if: env.GENERATE == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/editions
+          git diff --cached --quiet || (git commit -m "Edizione del $(TZ=Europe/Rome date +%F)" && git push)
+
+      - name: Build della PWA
+        run: npm run build
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_VAPID_PUBLIC_KEY: ${{ vars.VAPID_PUBLIC_KEY }}
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  notify:
+    needs: deploy
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # include l'edizione appena committata
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run notify
+        env:
+          APP_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          VAPID_PUBLIC_KEY: ${{ vars.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}

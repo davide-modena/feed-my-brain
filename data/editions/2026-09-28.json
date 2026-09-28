@@ -1,0 +1,291 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T11:43:08.109Z",
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Trump respinge la proposta di tregua dell'Iran",
+      "summary": "Il presidente degli Stati Uniti, Donald Trump, ha respinto una proposta di tregua dell'Iran che prevedeva la fine del blocco sullo stretto di Hormuz e la ripresa di negoziati. La proposta aveva lo scopo di ridurre le tensioni nella regione, ma Trump l'ha rifiutata, interpretandola come un segno di vulnerabilità dell'Iran. Il rifiuto della proposta ha aumentato le preoccupazioni di un peggioramento della situazione nella regione.",
+      "context": "La situazione nella regione del Golfo è molto tesa a causa dei conflitti in corso e del blocco economico imposto dall'Iran. La decisione di Trump di respingere la proposta di tregua dell'Iran potrebbe avere conseguenze negative per la stabilità della regione. Il prezzo del petrolio è già alto e potrebbe aumentare ulteriormente se la situazione non si risolve.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Qc1FvbWZpaDVmUG1wRmhzOUFaa2xWVWdtM0JPZ2NIZjNld0hURzk5VFdCcVlwOGNlSEg4LUFfbFd1dW1EZ0Rra19uT21XODdkTDRMYkFGMWlZTHdKNzF2aXRiLTU5VmRNTmpEWFJHWlVGb1NsQ081dWZCdw?oc=5"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdHhoZWxoWXFyMGticjJzcWFtZG9TOUZvUHRkZXByZHNaWWFFOE9oSnI1RG40Qk4zeDhkMU4tRWQwVkdCRTVPUkFUX3JYTHBKM0FfUHcwX0VXOUFHWDNyRkYxX0c1RHJOR3BaeW9jZ3piOEJkZ1gzWDRpcVJzbk5XSnBJdFRYdmtt?oc=5"
+        },
+        {
+          "name": "Internazionale",
+          "url": "https://www.internazionale.it/opinione/pierre-haski/2026/09/28/dietro-al-no-di-trump-ai-negoziati-con-l-iran-non-c-e-una-strategia"
+        }
+      ],
+      "image": {
+        "url": "https://media.internazionale.it/images/2026/09/28/359760-hd.png",
+        "credit": "Internazionale",
+        "link": "https://www.internazionale.it/opinione/pierre-haski/2026/09/28/dietro-al-no-di-trump-ai-negoziati-con-l-iran-non-c-e-una-strategia"
+      },
+      "quiz": [
+        {
+          "question": "Perché Trump ha respinto la proposta di tregua dell'Iran?",
+          "options": [
+            "Perché la proposta non era stata discussa con gli alleati degli Stati Uniti",
+            "Perché Trump interpreta la proposta come un segno di vulnerabilità dell'Iran",
+            "Perché la proposta non era abbastanza vantaggiosa per gli Stati Uniti",
+            "Perché l'Iran non ha rispettato gli accordi precedenti"
+          ],
+          "answer": 1,
+          "explanation": "Secondo l'articolo, Trump ha respinto la proposta di tregua dell'Iran perché la interpreta come un segno di vulnerabilità dell'Iran."
+        },
+        {
+          "question": "Cosa potrebbe succedere se la situazione nella regione del Golfo non si risolve?",
+          "options": [
+            "Il prezzo del petrolio potrebbe diminuire",
+            "La situazione potrebbe migliorare senza interventi esterni",
+            "Il prezzo del petrolio potrebbe aumentare e la stabilità della regione potrebbe essere compromessa",
+            "Gli Stati Uniti potrebbero ritirare le loro truppe dalla regione"
+          ],
+          "answer": 2,
+          "explanation": "Secondo l'articolo, se la situazione nella regione del Golfo non si risolve, il prezzo del petrolio potrebbe aumentare e la stabilità della regione potrebbe essere compromessa."
+        }
+      ],
+      "id": "2026-09-28-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Società",
+      "title": "Papa Leone XIV: 'Non c'è Europa senza cristianesimo, il riarmo un'illusione'",
+      "summary": "Papa Leone XIV ha lanciato un monito all'Europa, affermando che non c'è Europa senza cristianesimo e che il riarmo è un'illusione. Ha anche sottolineato l'importanza di integrare i migranti come in famiglia e di promuovere la pace mondiale attraverso sforzi creativi.",
+      "context": "Il Papa ha fatto queste dichiarazioni durante il suo quinto viaggio apostolico in Francia, dove ha incontrato il presidente Emmanuel Macron e ha celebrato una messa a Metz.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/vaticano/notizie/2026/09/28/macron-alla-messa-del-papa-a-metz-eliseo-il-presidente-ha-riorganizzato-lagenda_06597c50-7157-4995-92b0-56d3c06016a3.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/09/papa-leone-xiv-in-francia-parigi-notre-dame-unesco-veglia-lourdes-programma-macron-422924c6-bfe2-42a4-a368-a522acfddb1a.html"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm5y5nj8ejj8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/28/9afa9bba3661757b11a628afbc767aad.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/vaticano/notizie/2026/09/28/macron-alla-messa-del-papa-a-metz-eliseo-il-presidente-ha-riorganizzato-lagenda_06597c50-7157-4995-92b0-56d3c06016a3.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha detto Papa Leone XIV sull'Europa?",
+          "options": [
+            "Che l'Europa non può esistere senza il cristianesimo",
+            "Che l'Europa deve essere governata da una sola nazione",
+            "Che l'Europa deve essere guidata solo dalla ragione",
+            "Che l'Europa deve essere una entità politica unica"
+          ],
+          "answer": 0,
+          "explanation": "Papa Leone XIV ha affermato che 'non si può parlare dell'Europa senza menzionare il cristianesimo'."
+        },
+        {
+          "question": "Cosa ha sottolineato Papa Leone XIV come alternativa al riarmo?",
+          "options": [
+            "La diplomazia come mezzo per risolvere i conflitti solo in alcuni casi",
+            "L'intervento militare come mezzo per mantenere la pace",
+            "Il dialogo e la pace come mezzi per risolvere i conflitti",
+            "La guerra come mezzo per risolvere i conflitti"
+          ],
+          "answer": 2,
+          "explanation": "Papa Leone XIV ha sottolineato l'importanza di promuovere la pace mondiale attraverso sforzi creativi e di evitare l'illusione del riarmo."
+        }
+      ],
+      "id": "2026-09-28-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech",
+      "title": "Anthropic lancia Claude Marketplace",
+      "summary": "Anthropic ha lanciato Claude Marketplace, una piattaforma di intelligenza artificiale con oltre 2.000 connector e plugin. Questo sviluppo consente una maggiore integrazione e personalizzazione delle funzionalità di Claude, l'AI di Anthropic. La piattaforma offre una vasta gamma di opzioni per gli utenti e gli sviluppatori per creare e utilizzare applicazioni basate su Claude.",
+      "context": "Lo sviluppo di Claude Marketplace è un passo importante per Anthropic, che cerca di espandere la sua presenza nel mercato dell'intelligenza artificiale. Ciò potrebbe avere un impatto significativo sul settore, poiché offre nuove possibilità per l'integrazione e l'utilizzo dell'AI in vari contesti.",
+      "sources": [
+        {
+          "name": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVnRqLTRpNnpkWHRHSUNSUW02UktpWjNRVXc2UVN6V2FjX2Q1cVBSMl9UUmFla3BYcVNOTS1vS2ItTVJUcjRYRFlEQTI3a1Q4T2hxY1J0bkhLWk9HcG9BaFo1cFF3WWRQWGp0aDZMVk9wcUJoUXlJM1RjYkdPVFY3YXU2SW1pbUJkTVpzR0xWUWZVUTdyV1BVZ1NmcGNlUVZaeHdWZGtuY3F2ZEQxakRmUzh4U1M0dmtSd19NLV9TYUFkYV9GdHAzVkRTN3p1OWJzMGc2emQ2Tzh4UUhxSkZWRtIB5gFBVV95cUxOU0FncnRFblBBNFktbE1CeHR4Y1lNYndMaTlKZFdnWmxMaW8yMDIzYWFZZVZYSURVeXhxZHB1TER3NXdBQ1lVb2Y0NmF0cGtjUmwyLUx4dkhXd1VQY2FyS3g4RGkzcGpRUU1XVmEzVFkxRm85TXdWRlVmRlFlbXhLdzBlNDl3WTBsOVVITVFId1JQcWVVRHZyb1Z6WHVLVzdncHI3ZS15NDdidFc5bERTclRWeTVRbnY2dEdQUFpweks1c3dGUkZMMUpLR0tQWU9mYV9JZ1MzcHhrRkdIbjlrb1NlTG1nZw?oc=5"
+        },
+        {
+          "name": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOREhld3dVT09MRzRiR3pseXl2d1JNOW5yWlBUVzhtVlRHZUFzZGswY29IbGlSU1d3aU1XWF9ZLTBJZ3dCeDdDQy11b1dJTTJfVW5jWC1ta2d1bmd0dWtXZVZGTWFuRFp3QUYxU1djd3BXVVFIVVdYQ1BnOFlrWFpySXJLVUEzLTE1czAwLWdmU1B3c0NiWWh3TGFlLURxWHpPdVQ4Y2tyNlNuOVB1VDlpWjRpRXFLZw?oc=5"
+        },
+        {
+          "name": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZzNJRkZUdEJ2S1AzSEQ2NlVCT2JwNl9ZLU5reFVZT19CVEIxa1JLY3Fud2NaVEg4b3RYbnFJd2VIdmhGamxUSzd5WHFMTUlaVDV5VURvbUxHVDFSa215U1ZlYjRIYkdiUXpxQjNkdHNNQWhyeG12RXZzQm9ySnczYWdpdGo?oc=5"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Quante connector e plugin sono disponibili su Claude Marketplace?",
+          "options": [
+            "Oltre 1.000",
+            "Oltre 5.000",
+            "Oltre 2.000",
+            "Oltre 3.000"
+          ],
+          "answer": 2,
+          "explanation": "Secondo le fonti, Claude Marketplace offre oltre 2.000 connector e plugin."
+        },
+        {
+          "question": "Qual è il nome dell'AI di Anthropic?",
+          "options": [
+            "Claude",
+            "Claude Marketplace",
+            "Claude Sonnet",
+            "Claude AI"
+          ],
+          "answer": 0,
+          "explanation": "Secondo le fonti, il nome dell'AI di Anthropic è semplicemente Claude, anche se esistono versioni specifiche come Claude Sonnet."
+        }
+      ],
+      "id": "2026-09-28-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Kanye West",
+      "summary": "Kanye West è un artista che ha avuto un impatto significativo sulla musica e sulla cultura pop. Ha ricevuto endorsement da parte di Jay-Z e ha influenzato la carriera di J. Cole. Inoltre, ha espresso il suo distacco dalla politica e da Donald Trump.",
+      "context": "Kanye West è una figura importante nel mondo della musica e della cultura, con un'influenza che si estende oltre la sua musica.",
+      "sources": [
+        {
+          "name": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazM5aExlNWRORHlUYmNud3hFQ2ZiSlJjWURQMGVSbDVwcjBSMUx2Y1BzQThPcUVYNXBuOG01Q2dHTHFXX1FsQVF3bm9MdHBzQ2xTbEY5UzM4SFlXZ3dFWkE3b2xOVWxRSzJpSDJKa0JYVXBvNXVnZlB4SUNGZnJ0WHVHVWVyanAwc1lNUjZGbHp1UDR2M3ZXOFQwU3FlUHdpRkFncTZyUE9MN28?oc=5"
+        },
+        {
+          "name": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84ck1GN0JidHBINFRwdklfa2tPZUNZQzI1OHlDd2FmNkNOdkV0UlFRQ29XSUhHbi1OQUprVzZPV09DLXVvdmxUX2JMczRxeFBwVUJxak9ram5CaUNPTjRBOHB6dzRONUEwUnQ0S1JmbEFHVklZZGFuNA?oc=5"
+        },
+        {
+          "name": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQblhnTkkwYnU3anV5dnFNSzRsZlg1WDcxX0c4ZTltZXBrUGZ2N3dGZnhsRTV1SEZMYXBieVJTWDFaME83bUo1ZjZ3a2xIZW1CeWdUT1dxUjMzLWR4bVdMSzJLZnE5ZVd5TjA5RXpPVkNpZk93Q0R6dGplUGUwYThlSzdqTUN1b2Y0T0dZWnhvRTEyaThTTDJkQzRVYUJUWFVsVWc?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Kanye_West_at_the_2009_Tribeca_Film_Festival_%28cropped%29.jpg/1280px-Kanye_West_at_the_2009_Tribeca_Film_Festival_%28cropped%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Kanye_West_at_the_2009_Tribeca_Film_Festival_(cropped).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha influenzato la carriera di J. Cole?",
+          "options": [
+            "Kanye West",
+            "Jay-Z",
+            "Madonna",
+            "Taylor Swift"
+          ],
+          "answer": 0,
+          "explanation": "Kanye West ha influenzato la carriera di J. Cole, insieme a Jay-Z."
+        },
+        {
+          "question": "Con chi ha avuto un momento shockante agli MTV VMAs?",
+          "options": [
+            "Jay-Z",
+            "Taylor Swift",
+            "Madonna",
+            "Britney Spears"
+          ],
+          "answer": 1,
+          "explanation": "Kanye West ha interrotto Taylor Swift agli MTV VMAs, ma la risposta corretta è Taylor Swift."
+        }
+      ],
+      "id": "2026-09-28-3"
+    },
+    {
+      "category": "storia",
+      "tag": "28 settembre 1928",
+      "title": "La scoperta della penicillina",
+      "summary": "Il biologo scozzese Alexander Fleming scopre la penicillina, un antibiotico naturale prodotto da una muffa del genere Penicillium, che è in grado di inibire la crescita dei batteri. Fleming osserva che una delle sue piastre Petri contenenti stafilococchi è contaminata da un fungo, che si rivela essere P. notatum, e che la molecola prodotta da questo fungo, chiamata penicillina, ha proprietà antibatteriche.",
+      "context": "La scoperta della penicillina ha cambiato radicalmente il trattamento delle infezioni batteriche e ha salvato milioni di vite umane. La penicillina è stata la prima sostanza antibiotica a essere scoperta e utilizzata per curare le infezioni, e ha aperto la strada allo sviluppo di altri antibiotici.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Penicillina"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Synthetic_Production_of_Penicillin_TR1468_crop.jpg/1280px-Synthetic_Production_of_Penicillin_TR1468_crop.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Synthetic_Production_of_Penicillin_TR1468_crop.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha scoperto la penicillina?",
+          "options": [
+            "Robert Koch",
+            "Joseph Lister",
+            "Alexander Fleming",
+            "Louis Pasteur"
+          ],
+          "answer": 2,
+          "explanation": "Alexander Fleming ha scoperto la penicillina nel 1928, osservando che una muffa del genere Penicillium aveva contaminato una delle sue piastre Petri contenenti stafilococchi."
+        },
+        {
+          "question": "Qual è stato l'effetto della penicillina sui topi infettati?",
+          "options": [
+            "La penicillina non ha avuto effetto",
+            "Tutti i topi sono sopravvissuti",
+            "Solo alcuni topi sono morti",
+            "Tutti i topi sono morti"
+          ],
+          "answer": 1,
+          "explanation": "I topi che hanno ricevuto la penicillina hanno mostrato una notevole riduzione della mortalità, mentre i topi del gruppo di controllo sono tutti morti."
+        }
+      ],
+      "id": "2026-09-28-4"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Risorgimento",
+      "title": "La sorprendente vittoria di Garibaldi a Bezzecca",
+      "summary": "Il 21 luglio 1866, durante la terza guerra di indipendenza italiana, le forze austriache tentarono di scacciare il Corpo Volontari Italiani guidato da Giuseppe Garibaldi, ma i volontari italiani contrattaccarono e sconfissero gli austriaci, aprendo la strada verso Trento. La vittoria fu un simbolo di riscatto militare per gli italiani dopo le sconfitte di Custoza e Lissa.",
+      "context": "La battaglia di Bezzecca fu un evento importante del Risorgimento, che vide la vittoria delle forze italiane guidate da Garibaldi contro gli austriaci, e contribuì all'unificazione dell'Italia.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Battaglia_di_Bezzecca"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Giuseppe_Garibaldi_1861.jpg/1280px-Giuseppe_Garibaldi_1861.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Giuseppe_Garibaldi_1861.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu l'esito della battaglia di Bezzecca?",
+          "options": [
+            "La battaglia fu inconcludente",
+            "Gli italiani si ritirarono senza combattere",
+            "I volontari italiani sconfissero gli austriaci",
+            "Gli austriaci sconfissero i volontari italiani"
+          ],
+          "answer": 2,
+          "explanation": "I volontari italiani guidati da Garibaldi contrattaccarono e sconfissero gli austriaci."
+        },
+        {
+          "question": "Qual fu il ruolo di Garibaldi nella battaglia di Bezzecca?",
+          "options": [
+            "Guidò le forze austriache",
+            "Guidò le forze italiane e fu ferito",
+            "Guidò le forze italiane e fu catturato",
+            "Non partecipò alla battaglia"
+          ],
+          "answer": 1,
+          "explanation": "Garibaldi guidò le forze italiane e, nonostante fosse stato ferito in precedenza, partecipò alla battaglia e diede ordini per contrattaccare gli austriaci."
+        }
+      ],
+      "id": "2026-09-28-5"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+# Configurazione di Feed My Brain.
+# Modifica questo file per cambiare fonti, argomenti e composizione dell'edizione.
+
+edition:
+  attualita: 2      # storie di attualità (per tutti)
+  perTopic: 1       # storie per ogni argomento del catalogo
+  storia: 1         # accadde oggi (Wikipedia)
+  curiosita: 1      # curiosità storica (Wikipedia)
+  quizPerCard: 1    # domande per card, raccolte nel quiz finale
+
+# Feed per l'attualità generale
+news:
+  - name: ANSA
+    url: https://www.ansa.it/sito/ansait_rss.xml
+  - name: Rai News
+    url: https://www.rainews.it/rss/tutti
+  - name: Internazionale
+    url: https://www.internazionale.it/sitemaps/rss.xml
+  - name: BBC World
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+  - name: Google News Italia # solo titoli: utile per capire cosa è importante oggi
+    url: https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it
+
+# Catalogo degli argomenti. Ogni giorno viene scritta una card per ciascuno;
+# nell'app ognuno sceglie quali seguire. `default: true` = attivo al primo avvio.
+# Le query diventano ricerche su Bing News (link diretti e un estratto dell'articolo).
+topics:
+  - id: tech
+    label: Tech e AI
+    description: tecnologia, intelligenza artificiale, nuovi modelli AI (Anthropic, OpenAI, Mistral...), big tech
+    default: true
+    queries:
+      - query: Anthropic Claude
+        lang: en
+      - query: intelligenza artificiale
+    feeds:
+      - name: The Verge
+        url: https://www.theverge.com/rss/index.xml
+      - name: Hacker News
+        url: https://hnrss.org/frontpage?points=250
+
+  - id: hiphop
+    label: Hip hop
+    description: hip hop americano, nuovi album, uscite e tour (es. Kanye West)
+    default: true
+    queries:
+      - query: Kanye West
+        lang: en
+      - query: hip hop album release
+        lang: en
+    feeds:
+      - name: HipHopDX
+        url: https://hiphopdx.com/rss/news.xml
+
+  - id: scienza
+    label: Scienza
+    description: scoperte scientifiche, medicina, clima, spazio
+    queries:
+      - query: scoperta scientifica
+      - query: NASA ESA spazio
+
+  - id: economia
+    label: Economia
+    description: economia, mercati, lavoro, prezzi e bollette
+    queries:
+      - query: economia Italia
+      - query: mercati finanziari
+
+  - id: cinema
+    label: Cinema e serie TV
+    description: film, serie TV, uscite, festival e premi
+    queries:
+      - query: film uscita cinema
+      - query: serie TV nuova stagione
+
+  - id: sport
+    label: Sport
+    description: calcio, Formula 1, tennis e grandi eventi sportivi
+    queries:
+      - query: Serie A calcio
+      - query: Formula 1
+
+# Argomenti da cui pescare le curiosità storiche (voci di Wikipedia italiana).
+history:
+  topics:
+    - Napoleone Bonaparte
+    - Impero romano
+    - Rinascimento
+    - Seconda guerra mondiale
+    - Guerra fredda
+    - Risorgimento
+    - Antico Egitto
+    - Rivoluzione francese

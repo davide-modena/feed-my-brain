@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T04:30:00.000Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia, intelligenza artificiale, nuovi modelli AI (Anthropic, OpenAI, Mistral...), big tech",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano, nuovi album, uscite e tour (es. Kanye West)",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scoperte scientifiche, medicina, clima, spazio",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia, mercati, lavoro, prezzi e bollette",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "film, serie TV, uscite, festival e premi",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "calcio, Formula 1, tennis e grandi eventi sportivi",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "id": "sample-0",
+      "category": "interessi",
+      "tag": "Guida",
+      "title": "Benvenuto in Feed My Brain",
+      "summary": "Ogni mattina trovi qui una piccola edizione: le notizie di attualità più importanti, quelle sugli argomenti che segui, un fatto accaduto in questo giorno nella storia e una curiosità. Le notizie arrivano da feed aperti e da Wikipedia; un modello AI le sceglie e le riscrive in modo chiaro.",
+      "context": "Scorri le card con uno swipe. Alla fine c'è un quiz veloce su tutto quello che hai letto: rispondere richiama alla memoria le informazioni ed è il modo più efficace per fissarle.",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/davide-modena/feed-my-brain"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1280px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Da dove arrivano i contenuti storici di Feed My Brain?",
+          "options": [
+            "Da Wikipedia",
+            "Li inventa l'AI da zero",
+            "Da un'enciclopedia a pagamento",
+            "Dai commenti degli utenti"
+          ],
+          "answer": 0,
+          "explanation": "L'AI riscrive le voci di Wikipedia invece di inventare, così i fatti restano verificabili."
+        },
+        {
+          "question": "Perché alla fine c'è un quiz?",
+          "options": [
+            "Per dare un voto al lettore",
+            "Perché richiamare alla memoria aiuta a ricordare",
+            "Per sbloccare altre notizie",
+            "Per addestrare il modello"
+          ],
+          "answer": 1,
+          "explanation": "Lo sforzo di recuperare un'informazione la consolida nella memoria."
+        }
+      ]
+    },
+    {
+      "id": "sample-1",
+      "category": "storia",
+      "tag": "2 agosto 1980",
+      "title": "La strage alla stazione di Bologna",
+      "summary": "Alle 10:25 del 2 agosto 1980 una bomba esplose nella sala d'aspetto di seconda classe della stazione di Bologna Centrale, piena di persone in partenza per le vacanze. Crollò un'intera ala dell'edificio: morirono 85 persone e oltre 200 rimasero ferite. È l'attentato più grave della storia della Repubblica italiana. Le indagini, segnate da depistaggi, portarono alla condanna definitiva di militanti dei NAR, un gruppo terroristico neofascista, tra cui Valerio Fioravanti e Francesca Mambro.",
+      "context": "La strage è il culmine della \"strategia della tensione\" degli anni di piombo, quando attentati e violenza politica segnarono l'Italia. L'orologio della stazione, fermo sulle 10:25, è rimasto come simbolo della memoria. Ancora oggi i processi cercano di chiarire mandanti e coperture.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Strage_di_Bologna"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/it/c/c6/Strage_di_Bologna%2C_1980.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Strage_di_Bologna%2C_1980.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quante persone morirono nella strage di Bologna?",
+          "options": [
+            "12",
+            "43",
+            "85",
+            "200"
+          ],
+          "answer": 2,
+          "explanation": "Le vittime furono 85, oltre 200 i feriti."
+        },
+        {
+          "question": "Che cosa simboleggia l'orologio della stazione fermo sulle 10:25?",
+          "options": [
+            "L'ora di partenza dell'ultimo treno",
+            "Il momento dell'esplosione",
+            "L'inizio dei soccorsi",
+            "L'arresto dei colpevoli"
+          ],
+          "answer": 1,
+          "explanation": "Segna l'ora esatta in cui esplose la bomba ed è diventato il simbolo della memoria della strage."
+        }
+      ]
+    },
+    {
+      "id": "sample-2",
+      "category": "curiosita",
+      "tag": "Napoleone Bonaparte",
+      "title": "Napoleone non era basso",
+      "summary": "L'immagine di un Napoleone piccolo e permaloso è uno dei miti storici più duri a morire. Alla sua morte fu misurato in 5 piedi e 2 pollici, ma in unità francesi, più lunghe di quelle inglesi: corrispondono a circa 1,69 metri, nella media o poco sopra per un francese dell'epoca. A diffondere la leggenda contribuirono le caricature britanniche, come quelle di James Gillray, che lo ritraevano come un ometto collerico.",
+      "context": "Il soprannome affettuoso \"le petit caporal\", il piccolo caporale, e il fatto che fosse spesso circondato dai granatieri della Guardia, scelti per la loro statura, rafforzarono l'equivoco. È un buon esempio di come la propaganda nemica possa plasmare per secoli la memoria di un personaggio.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Napoleone_Bonaparte"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project_2.jpg/1280px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project_2.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project_2.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quanto era alto Napoleone, secondo le stime moderne?",
+          "options": [
+            "Circa 1,52 m",
+            "Circa 1,69 m",
+            "Circa 1,80 m",
+            "Circa 1,90 m"
+          ],
+          "answer": 1,
+          "explanation": "5 piedi e 2 pollici francesi corrispondono a circa 1,69 metri."
+        },
+        {
+          "question": "Chi contribuì a diffondere il mito del Napoleone basso?",
+          "options": [
+            "Gli storici francesi dell'Ottocento",
+            "I caricaturisti britannici",
+            "Lo stesso Napoleone",
+            "I pittori di corte"
+          ],
+          "answer": 1,
+          "explanation": "Le caricature inglesi, come quelle di Gillray, lo ritraevano come un ometto collerico."
+        }
+      ]
+    }
+  ]
+}
