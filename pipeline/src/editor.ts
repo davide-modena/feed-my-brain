@@ -40,10 +40,27 @@ export interface Selection {
 
 const CANDIDATE_EXTRA = 2; // candidati di riserva, se una storia non ha abbastanza materiale
 
+// Limiti per tenere il prompt di selezione leggero: i piani gratuiti contano anche i token al minuto.
+const MAX_NEWS_ITEMS = 60;
+const MAX_TOPIC_ITEMS = 20;
+const SNIPPET_CHARS = 110;
+
 function listItems(items: NewsItem[]) {
   return items
-    .map((i) => `[${i.id}] (${i.source}) ${i.title}${i.snippet ? ` — ${i.snippet.slice(0, 160)}` : ''}`)
+    .map((i) => `[${i.id}] (${i.source}) ${i.title}${i.snippet ? ` — ${i.snippet.slice(0, SNIPPET_CHARS)}` : ''}`)
     .join('\n');
+}
+
+/** Prende al massimo `max` articoli alternando le fonti, così nessuna testata domina la lista. */
+function sample(items: NewsItem[], max: number): NewsItem[] {
+  const bySource = new Map<string, NewsItem[]>();
+  for (const i of items) bySource.set(i.source, [...(bySource.get(i.source) ?? []), i]);
+  const queues = [...bySource.values()];
+  const out: NewsItem[] = [];
+  while (out.length < max && queues.some((q) => q.length)) {
+    for (const q of queues) if (q.length && out.length < max) out.push(q.shift()!);
+  }
+  return out;
 }
 
 /**
@@ -52,14 +69,20 @@ function listItems(items: NewsItem[]) {
  * senza materiale sufficiente.
  */
 export async function selectStories(config: Config, items: NewsItem[], recentTitles: string[]): Promise<Selection> {
-  const news = items.filter((i) => i.group === 'news');
+  const news = sample(
+    items.filter((i) => i.group === 'news'),
+    MAX_NEWS_ITEMS,
+  );
   const nMondo = config.edition.mondo + CANDIDATE_EXTRA;
   const nItalia = config.edition.italia + CANDIDATE_EXTRA;
   const nTopic = config.edition.perTopic + CANDIDATE_EXTRA;
 
   const topicBlocks = config.topics
     .map((t) => {
-      const list = items.filter((i) => i.group === t.id);
+      const list = sample(
+        items.filter((i) => i.group === t.id),
+        MAX_TOPIC_ITEMS,
+      );
       return list.length ? `## Argomento "${t.id}" (${t.description})\n${listItems(list)}` : '';
     })
     .filter(Boolean)

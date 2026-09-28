@@ -24,6 +24,8 @@ interface Provider {
   disabled: boolean;
   /** Errori consecutivi: allungano la pausa successiva. */
   strikes: number;
+  /** Parametri aggiuntivi specifici del provider. */
+  extraBody?: Record<string, unknown>;
 }
 
 /** Limite temporaneo: riprovare dopo `retryMs`. */
@@ -53,6 +55,7 @@ interface ProviderSpec {
   endpoint: string;
   jsonMode: boolean;
   minIntervalMs: number;
+  extraBody?: Record<string, unknown>;
 }
 
 /**
@@ -98,6 +101,8 @@ const SPECS: ProviderSpec[] = [
     endpoint: 'https://openrouter.ai/api/v1/chat/completions',
     jsonMode: false,
     minIntervalMs: 3000,
+    // Il ragionamento dei modelli che lo supportano resta fuori dal testo della risposta.
+    extraBody: { reasoning: { exclude: true } },
   },
   {
     name: 'Gemini',
@@ -153,6 +158,7 @@ function providers(): Provider[] {
         cooldownUntil: 0,
         disabled: false,
         strikes: 0,
+        extraBody: spec.extraBody,
       });
     }
   }
@@ -167,14 +173,22 @@ let chain: Provider[] | null = null;
 let current: Provider | null = null;
 const usage: Record<string, number> = {};
 
-/** Estrae il primo oggetto JSON dal testo (tollera ```json e frasi di contorno). */
+/**
+ * Estrae l'oggetto JSON dalla risposta. Tollera ```json, frasi di contorno e i modelli che
+ * "ragionano" nel testo prima di rispondere: il ragionamento può contenere graffe, quindi si
+ * prova ogni "{" finché il testo fino all'ultima "}" è un JSON valido.
+ */
 function extractJson<T>(raw: string): T {
-  // I modelli "reasoning" possono premettere il ragionamento, che può contenere graffe.
   const content = raw.replace(/<think>[\s\S]*?<\/think>/g, '');
-  const start = content.indexOf('{');
   const end = content.lastIndexOf('}');
-  if (start === -1 || end <= start) throw new Error('nessun JSON nella risposta');
-  return JSON.parse(content.slice(start, end + 1)) as T;
+  for (let start = content.indexOf('{'); start !== -1 && start < end; start = content.indexOf('{', start + 1)) {
+    try {
+      return JSON.parse(content.slice(start, end + 1)) as T;
+    } catch {
+      // non è l'inizio del JSON: prova la graffa successiva
+    }
+  }
+  throw new Error('nessun JSON nella risposta');
 }
 
 function retryAfterMs(res: Response): number {
@@ -196,8 +210,10 @@ async function call<T>(p: Provider, system: string, user: string, temperature: n
       body: JSON.stringify({
         model: p.model,
         temperature,
-        max_tokens: 3000,
+        // Margine ampio: i modelli che ragionano consumano token prima di scrivere il JSON.
+        max_tokens: 8000,
         ...(p.jsonMode && { response_format: { type: 'json_object' } }),
+        ...p.extraBody,
         messages: [
           { role: 'system', content: system },
           { role: 'user', content: user },
