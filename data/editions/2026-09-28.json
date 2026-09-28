@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "generatedAt": "2026-09-28T17:35:33.637Z",
+  "generatedAt": "2026-09-28T18:28:10.632Z",
   "topics": [
     {
       "id": "tech",
@@ -41,68 +41,280 @@
   ],
   "cards": [
     {
-      "category": "storia",
-      "tag": "28 settembre 1928",
-      "title": "Fleming scopre la penicillina",
-      "summary": "Il 28 settembre 1928 il batteriologo scozzese Alexander Fleming, tornando dalle vacanze al St. Mary's Hospital di Londra, notò che una piastra Petri di stafilococchi lasciata incustodita era stata contaminata da una muffa che impediva la crescita dei batteri attorno a sé. Identificò il fungo come Penicillium notatum e chiamò la sostanza attiva penicillina.",
-      "context": "La scoperta avviò l'era degli antibiotici, trasformando il trattamento delle infezioni batteriche e salvando milioni di vite. La penicillina pose le basi per lo sviluppo di numerosi farmaci antimicrobici e rivoluzionò la medicina moderna.",
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "BBC in prima linea a Taiz, Yemen",
+      "summary": "La BBC ha inviato una corrispondente a Taiz, città yemenita sulla linea del fronte tra le forze governative sostenute dall'Arabia Saudita e i ribelli Houthi. I giornalisti hanno assistito a un attacco con drone, a colpi di mortaio su abitazioni e hanno intervistato residenti costretti a fuggire. Entrambe le parti dichiarano di prepararsi a una nuova offensiva.",
+      "context": "Taiz è un punto strategico nel conflitto yemenita; il suo controllo influenza le rotte commerciali del Mar Rosso e la stabilità della zona. Il reportage evidenzia l'escalation della violenza e la vulnerabilità dei civili.",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://it.wikipedia.org/wiki/Penicillina"
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss"
         }
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Penicillin_core.svg/1280px-Penicillin_core.svg.png",
-        "credit": "Wikipedia",
-        "link": "https://it.wikipedia.org/wiki/File:Penicillin_core.svg"
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/b03e/live/dca633d0-bab6-11f1-aa85-8f10bc212c53.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss"
       },
       "quiz": [
         {
-          "question": "Cosa osservò Fleming sulla piastra contaminata che lo portò alla scoperta della penicillina?",
+          "question": "In quale città yemenita la BBC ha riferito di trovarsi nella zona di combattimento tra le forze governative e gli Houthi?",
           "options": [
-            "I batteri uccidevano la muffa",
-            "La muffa impediva la crescita dei batteri attorno a sé",
-            "La muffa cambiava colore",
-            "I batteri diventavano resistenti"
+            "Hodeidah",
+            "Aden",
+            "Sana'a",
+            "Taiz"
           ],
-          "answer": 1,
-          "explanation": "Fleming vide che la muffa Penicillium notatum creava un'alone libero da batteri attorno alla colonia fungina."
+          "answer": 3,
+          "explanation": "L'articolo descrive la presenza della BBC nella città di Taiz, al confine del fronte di combattimento."
         }
       ],
       "id": "2026-09-28-0"
     },
     {
-      "category": "curiosita",
-      "tag": "Rivoluzione francese",
-      "title": "L'albero della libertà che non era necessariamente un albero",
-      "summary": "Durante la Rivoluzione francese, l'albero della libertà divenne un simbolo centrale. Un dettaglio sorprendente è che un decreto del 1792 stabiliva che non dovesse essere una vera pianta. Poteva essere un semplice palo di legno decorato con nastri tricolori e sormontato da un berretto frigio rosso, facilitando la diffusione del simbolo.",
-      "context": "Questa curiosità rivela come la Rivoluzione francese utilizzasse simboli altamente ritualizzati e facili da replicare per catturare l'immaginario collettivo e trasformare le piazze in spazi di adesione politica.",
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Francia offre documenti su Ustica, Procura pronta a ritirare archiviazione",
+      "summary": "L'ambasciata francese ha comunicato alla Farnesina la disponibilità a trasferire all'Italia tutta la documentazione relativa alla strage di Ustica, inclusi atti del ministero della Difesa fino agli anni '90. Alla luce di questa collaborazione, la Procura di Roma si prepara a ritirare la richiesta di archiviazione durante l'udienza del 30 settembre. I familiari delle vittime definiscono la mossa un risultato ottenuto grazie all'intervento politico del governo italiano.",
+      "context": "La vicenda riguarda il disastro aereo del 1980 in cui morirono 81 persone. La disponibilità francese a condividere documenti chiave potrebbe riaprire le indagini, bloccate da decenni. È un passaggio cruciale per chiarire le responsabilità e verificare eventuali collegamenti con le richieste giudiziarie italiane del passato.",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://it.wikipedia.org/wiki/Albero_della_libert%C3%A0"
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/09/28/strage-di-ustica-francia-pronta-a-collaborare-i-pm-verso-il-ritiro-archiviazione_e78ac833-95d5-4598-a57a-8a748dacdcd9.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/09/strage-ustica-inchiesta-francia-pronta-a-collaborare-si-va-verso-stop-archiviazione-99bcad0a-34a3-414b-899c-6a351381d9b6.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPWXZHZmFFZWhiZGdtZ1o5QjcxeW1nc2dMejMxRVFYODZPMkxZQWJqV2Q5WHZsV3lUelpHNzR2dEktV3ZnanoxdlVWVjVhU3dWUHNiNnBJUUFndWJnSlNSRHE0ZGduWVdXTGliYVdGWTdtZUVvNGk5QUMwazNHdFpHNllUVC1JOGtWQ095bGtSZm5KLXR0ZU9vR1VZYVR4VkQyNmpDeWVXY1VrXzgyQXlteGU5b0VWVDc2QWtfSEtxbUE2RFJKNldrS2pfUGFQajJXekM0Z2RBQzZsTTdxWVgzd0lHcmdrYmo2MVhhZWp1TVNXd2dQNmNibndyM29pSkdYMkxfMNIBigJBVV95cUxNajhaYTVYQjZjWWRySEs1ZnRSUGxOeDNGUHFlYmYtZjBHMnFLWHg4dkVWUEVOTTM3MHBTT3JJYUNMMVVqM0lRSnNQOWxEUjBBb3BBMlBTUGpjNUszcGVRWk9qVGVRazF1UExmQjFZd0RMNDFXOUNZVjVFLWRqcFRjVVVhZnRnbVB2YnhfZmdMOFJyOGVwMWNWekxUVVNXWVFnRk1kaHJ3NzI1VGl2TnJ4OVNIZHhfMFp4eW9LS2pPYjJUd3RfekxpOUpPZnU2dmZwZGItY0V1SUFrNE9wbnloOWtzelFlRlRRMm5LVFQzYS1QWDhNaFczVjVfM3ZNYWFOM3lYaHFYN0VjUQ?oc=5"
         }
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Freiheitsbaum.jpg",
-        "credit": "Wikipedia",
-        "link": "https://it.wikipedia.org/wiki/File:Freiheitsbaum.jpg"
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/6/27/d242d9d1d4db69e42ebbb66326b6d6e8.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/cronaca/2026/09/28/strage-di-ustica-francia-pronta-a-collaborare-i-pm-verso-il-ritiro-archiviazione_e78ac833-95d5-4598-a57a-8a748dacdcd9.html"
       },
       "quiz": [
         {
-          "question": "Cosa stabiliva il decreto del 1792 riguardo alla natura dell'albero della libertà?",
+          "question": "Quale conseguenza diretta ha avuto l'offerta di collaborazione della Francia sulla procedura giudiziaria italiana?",
           "options": [
-            "Era obbligatorio utilizzare un acero del Canada",
-            "Poteva essere un semplice palo di legno adornato con nastri tricolori e un berretto frigio",
-            "Doveva essere una pianta viva per garantire la continuità del simbolo",
-            "Doveva essere un albero di cartone dipinto solo per feste effimere"
+            "I familiari delle vittime hanno ritirato la loro opposizione",
+            "Il governo ha aperto un'indagine penale contro la Francia",
+            "La Procura si prepara a ritirare la richiesta di archiviazione",
+            "La Procura ha deciso di archiviare definitivamente il caso"
           ],
-          "answer": 1,
-          "explanation": "Il decreto della Convenzione del 1792 specificava che il simbolo non doveva necessariamente essere una pianta reale, ma poteva essere un semplice palo di legno con i colori tricolori e il berretto frigio."
+          "answer": 2,
+          "explanation": "La disponibilità francese a fornire documenti ha portato la Procura di Roma a orientarsi verso il ritiro della richiesta di archiviazione."
         }
       ],
       "id": "2026-09-28-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Anthropic lancia Claude Sonnet 5.5",
+      "summary": "Il 28 settembre 2026, Anthropic ha rilasciato Claude Sonnet 5.5, il secondo modello della famiglia Claude 5.5, lanciato dopo il modello di punta Opus 5.5. Il nuovo modello è progettato per compiti quotidiani come la generazione di documenti e la correzione di bug, offrendo una velocità superiore del 30% rispetto alla generazione precedente. Anthropic mantiene invariati i prezzi di Sonnet 5, ma dichiara che il modello richiede meno risorse per completare le stesse attività, riducendo i costi fino al 30%.",
+      "context": "Il lancio si inserisce nella strategia di Anthropic di ampliare la propria gamma di prodotti in vista di un'ipotetica quotazione in borsa. Il modello si posiziona come alternativa competitiva ai sistemi di OpenAI, come GPT-6, offrendo prestazioni elevate su compiti specifici a un costo contenuto, un fattore chiave per l'adozione aziendale.",
+      "sources": [
+        {
+          "name": "Reuters on MSN",
+          "url": "https://www.msn.com/en-gb/technology/tech-companies/anthropic-rolls-out-second-claude-5-5-model-as-it-builds-toward-ipo/ar-AA2d92g5"
+        },
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/"
+        },
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/anthropic-releases-claude-sonnet-5-5-at-unchanged-sonnet-5-pricing/"
+        }
+      ],
+      "image": {
+        "url": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/antrhopic-image-003.png",
+        "credit": "SiliconANGLE",
+        "link": "https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/"
+      },
+      "quiz": [
+        {
+          "question": "Quale caratteristica distintiva ha Claude Sonnet 5.5 rispetto alla generazione precedente?",
+          "options": [
+            "Costa il doppio per ogni token generato",
+            "È più lento ma più accurato nei calcoli complessi",
+            "È disponibile solo per i clienti del settore finanziario",
+            "È più veloce e costa meno per completare le stesse attività"
+          ],
+          "answer": 3,
+          "explanation": "Anthropic dichiara che il modello è oltre il 30% più veloce e richiede meno token per il lavoro, rendendolo fino al 30% più economico per task specifici."
+        }
+      ],
+      "topic": "tech",
+      "id": "2026-09-28-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Quavo e Offset si sono riuniti a Los Angeles",
+      "summary": "I rapper Quavo e Offset si sono riuniti a Los Angeles durante una festa per il nuovo album di Quavo intitolato QRÖMELIFE. I due artisti hanno mostrato sintonia e hanno anticipato una loro nuova collaborazione discografica, la prima in oltre quattro anni, lasciandosi alle spalle anni di tensioni successive allo scioglimento del gruppo Migos.",
+      "context": "Questa riconciliazione arriva a pochi anni dalla scomparsa del membro del gruppo Takeoff, ucciso nel 2022. Il riavvicinamento tra i due superstiti apre alla possibilità di nuove pubblicazioni musicali e di un tour celebrativo della loro storia.",
+      "sources": [
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/quavo-offset-reunite-collab-preview/"
+        }
+      ],
+      "image": {
+        "url": "https://townsquare.media/site/812/files/2026/09/attachment-migos-3.jpg?w=1200&format=natural",
+        "credit": "XXL",
+        "link": "https://www.xxlmag.com/quavo-offset-reunite-collab-preview/"
+      },
+      "quiz": [
+        {
+          "question": "In quale occasione Quavo e Offset si sono recentemente riuniti?",
+          "options": [
+            "A un concerto tributo a Houston",
+            "Durante una cerimonia di premiazione agli MTV Video Music Awards",
+            "Durante un'udienza in tribunale",
+            "Alla festa di lancio del nuovo album di Quavo"
+          ],
+          "answer": 3,
+          "explanation": "I due rapper sono stati visti insieme a Los Angeles per festeggiare l'uscita del nuovo progetto discografico di Quavo."
+        }
+      ],
+      "topic": "hiphop",
+      "id": "2026-09-28-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Svelato il collegamento di terra tra Sicilia e Malta",
+      "summary": "Una spedizione scientifica italo-maltese ha scoperto che in passato la Sicilia e Malta erano collegate da una striscia di terra emersa, attraversabile a piedi. Il progetto, a cui hanno partecipato l'Istituto di Scienze Marine e l'Istituto Nazionale di Oceanografia e Geofisica Sperimentale, ha mappato i fondali del Canale di Sicilia tramite la nave oceanografica Gaia Blu tra la fine del 2025 e l'inizio del 2026, rivelando un antico paesaggio emerso durante l'ultima era glaciale.",
+      "context": "Questa scoperta offre nuove informazioni sui cambiamenti climatici e morfologici del Mediterraneo antico, quando il livello del mare era notevolmente più basso. Futuri esami sui sedimenti chiariranno la cronologia esatta del sommerso e l'evoluzione dell'ecosistema locale.",
+      "sources": [
+        {
+          "name": "Il Messaggero",
+          "url": "https://www.ilmessaggero.it/scienza/sicilia_malta_ponte_di_terra_si_poteva_andare_a_piedi-9788744.html"
+        }
+      ],
+      "image": {
+        "url": "https://statics.cedscdn.it/photos/MED_HIGH/2026/09/27/9788744_27201512_befunky_collage_1_.jpg",
+        "credit": "Il Messaggero",
+        "link": "https://www.ilmessaggero.it/scienza/sicilia_malta_ponte_di_terra_si_poteva_andare_a_piedi-9788744.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha rivelato la recente spedizione scientifica tra Sicilia e Malta?",
+          "options": [
+            "Un canale artificiale scavato nel Novecento",
+            "La presenza di una civiltà sommersa avanzata",
+            "Un antico collegamento di terra emersa durante l'era glaciale",
+            "Una faglia sottomarina attiva e pericolosa"
+          ],
+          "answer": 2,
+          "explanation": "La spedizione ha scoperto che le due terre erano collegate da una striscia di terra emersa a causa dell'abbassamento del mare durante l'ultima era glaciale."
+        }
+      ],
+      "topic": "scienza",
+      "id": "2026-09-28-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Record di esoneri in Serie A: tre panchine saltate in avvio di stagione",
+      "summary": "La Serie A ha registrato un record di esoneri nella fase iniziale della stagione: in sole cinque giornate sono stati licenziati tre allenatori. Il 6 settembre la Fiorentina ha sollevato Fabio Grosso, sostituito da Paolo Vanoli; a Bologna è stato estromesso Domenico Tedesco, sostituito da Raffaele Palladino; al Parma è terminato consensualmente il contratto di Carlos Cuesta. Nei restanti top‑5 campionati europei, solo il Valencia ha cambiato allenatore.",
+      "context": "Il numero di esoneri nella Serie A supera quello degli altri quattro principali campionati europei, segnalando una maggiore instabilità dirigenziale in Italia. Sarà importante osservare se la tendenza continuerà.",
+      "sources": [
+        {
+          "name": "Sportmediaset",
+          "url": "https://www.sportmediaset.mediaset.it/calcio/serie-a-record-di-esoneri-per-i-top-5-campionati-europei-i-numeri_117077663-202602k.shtml"
+        }
+      ],
+      "image": {
+        "url": "https://img-api.cloud.mediaset.net/api/images/kn/v1/image_main/1200/675/117077654?r=9",
+        "credit": "Sportmediaset",
+        "link": "https://www.sportmediaset.mediaset.it/calcio/serie-a-record-di-esoneri-per-i-top-5-campionati-europei-i-numeri_117077663-202602k.shtml"
+      },
+      "quiz": [
+        {
+          "question": "Quanti allenatori sono stati esonerati nella Serie A nelle prime cinque giornate della stagione?",
+          "options": [
+            "4",
+            "2",
+            "5",
+            "3"
+          ],
+          "answer": 3,
+          "explanation": "Il materiale indica tre esoneri: Fabio Grosso, Domenico Tedesco e Carlos Cuesta."
+        }
+      ],
+      "topic": "sport",
+      "id": "2026-09-28-5"
+    },
+    {
+      "category": "storia",
+      "tag": "28 settembre 2005",
+      "title": "Fine della missione Shenzhou 7 e prima passeggiata spaziale cinese",
+      "summary": "Il 28 settembre 2008 la missione Shenzhou 7, terza volo umano cinese, termina con l’atterraggio nelle steppe mongole. A bordo c’erano tre astronauti: Zhai Zhigang, Liu Boming e Jing Haipeng. Il secondo giorno è stata effettuata la prima passeggiata spaziale cinese, condotta da Zhai per circa venti minuti, rendendo la Cina la terza nazione a compiere un EVA. Durante la missione è stato rilasciato un mini‑satellite di osservazione.",
+      "context": "La EVA ha dimostrato la capacità della Cina di operare fuori dalla capsula, aprendo la strada a future attività extraveicolari e a una stazione spaziale nazionale. L’esperienza ha anche mostrato la fattibilità di rilasciare piccoli satelliti in orbita.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Shenzhou_7"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Shenzhou_front_white_shadow.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Shenzhou_front_white_shadow.png"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la principale novità della missione Shenzhou 7?",
+          "options": [
+            "Prima missione cinese verso la Luna",
+            "Prima missione con due astronauti",
+            "Primo lancio di un satellite cinese",
+            "Prima passeggiata spaziale cinese"
+          ],
+          "answer": 3,
+          "explanation": "La missione è nota per la prima EVA cinese, condotta da Zhai Zhigang."
+        }
+      ],
+      "id": "2026-09-28-6"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Rivoluzione francese",
+      "title": "L'assassinio di Marat: un coltello da cucina e una lettera di presentazione",
+      "summary": "Il 13 luglio 1793, Charlotte Corday uccise Jean-Paul Marat, leader giacobino, pugnalandolo nella vasca da bagno dove curava le sue malattie cutanee. Corday, sostenitrice dei moderati girondini, lo considerava il responsabile dei massacri di settembre e del Terrore. Si era recata a Parigi con una lettera di presentazione ufficiale e aveva acquistato un lungo coltello da cucina per compiere l'atto, che definiva un legittimo tirannicidio.",
+      "context": "L'episodio segnò la fine dell'era moderata della Rivoluzione francese. L'uccisione di Marat, simbolo della radicalizzazione giacobina, accelerò l'instaurazione del Regime del Terrore e l'eliminazione fisica di ogni opposizione interna, consolidando il potere dei Montagnardi sulla Convenzione.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Charlotte_Corday"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Charlotte_Corday.PNG",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Charlotte_Corday.PNG"
+      },
+      "quiz": [
+        {
+          "question": "Perché Charlotte Corday decise di assassinare Jean-Paul Marat?",
+          "options": [
+            "Per eliminare il leader dei moderati girondini",
+            "Per vendetta personale dopo una lite politica",
+            "Per ordine diretto della famiglia reale",
+            "Per fermare la radicalizzazione rivoluzionaria e i massacri"
+          ],
+          "answer": 3,
+          "explanation": "Corday, vicina ai girondini, riteneva Marat il principale instigatore dei massacri di settembre e del nascente Terrore, e lo uccise per fermare la spirale di violenza."
+        }
+      ],
+      "id": "2026-09-28-7"
     }
   ]
 }
