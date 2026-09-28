@@ -15,7 +15,7 @@ import {
   applyTheme,
   completeToday,
   currentStreak,
-  emptyProgress,
+  progressFor,
   quizItems,
   useStore,
   visibleCards,
@@ -44,7 +44,7 @@ export function App() {
     setEdition(ed);
     setPage(0);
     if (needsOnboarding(ed)) setView('onboarding');
-    else setView(store.progress[ed.date]?.done ? 'results' : 'read');
+    else setView(progressFor(store, ed).done ? 'results' : 'read');
   };
 
   useEffect(() => {
@@ -62,14 +62,14 @@ export function App() {
 
   const cards = visibleCards(edition, store.prefs);
   const questions = quizItems(cards);
-  const progress: EditionProgress = store.progress[edition.date] ?? emptyProgress();
+  const progress: EditionProgress = progressFor(store, edition);
   const index = Math.min(progress.index, cards.length); // cards.length = schermata "quiz finale"
   const card = cards[index];
 
   const setProgress = (fn: (p: EditionProgress) => EditionProgress) =>
     update((s) => ({
       ...s,
-      progress: { ...s.progress, [edition.date]: fn(s.progress[edition.date] ?? emptyProgress()) },
+      progress: { ...s.progress, [edition.date]: fn(progressFor(s, edition)) },
     }));
 
   const goCard = (i: number, dir: 'next' | 'prev') => {

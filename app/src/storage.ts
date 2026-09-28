@@ -2,6 +2,11 @@ import { useState } from 'preact/hooks';
 import type { Card, Edition } from '../../shared/types.ts';
 
 export interface EditionProgress {
+  /**
+   * `generatedAt` dell'edizione a cui si riferiscono i progressi: se l'edizione del giorno
+   * viene rigenerata, gli id delle card restano uguali ma i contenuti no, quindi si riparte.
+   */
+  generatedAt?: string;
   /** Card corrente nel mazzo. */
   index: number;
   /** "<cardId>:<n. domanda>" → opzione scelta. */
@@ -97,8 +102,14 @@ export function completeToday(state: StoreState): StoreState {
   return { ...state, streak: { count: next, last: today } };
 }
 
-export function emptyProgress(): EditionProgress {
-  return { index: 0, answers: {} };
+export function emptyProgress(edition?: Edition): EditionProgress {
+  return { generatedAt: edition?.generatedAt, index: 0, answers: {} };
+}
+
+/** Progressi validi per questa versione dell'edizione (vuoti se è stata rigenerata). */
+export function progressFor(state: StoreState, edition: Edition): EditionProgress {
+  const saved = state.progress[edition.date];
+  return saved && saved.generatedAt === edition.generatedAt ? saved : emptyProgress(edition);
 }
 
 /** Argomenti attivi: quelli scelti, altrimenti i default dell'edizione. */

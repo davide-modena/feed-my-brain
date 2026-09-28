@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
 import { fetchEdition, fetchIndex } from '../api.ts';
-import { quizItems, visibleCards, type QuizItem, type StoreState } from '../storage.ts';
+import { progressFor, quizItems, visibleCards, type QuizItem, type StoreState } from '../storage.ts';
 import { QuizRunner } from './QuizRunner.tsx';
 
 const REVIEW_SIZE = 3;
@@ -24,7 +24,7 @@ export function Review({ store, currentDate, onClose }: { store: StoreState; cur
       const rest: QuizItem[] = [];
       for (const ed of editions) {
         if (!ed) continue;
-        const given = store.progress[ed.date]?.answers ?? {};
+        const given = progressFor(store, ed).answers;
         for (const item of quizItems(visibleCards(ed, store.prefs))) {
           const g = given[item.key];
           (g !== undefined && g !== item.question.answer ? wrong : rest).push(item);

@@ -294,6 +294,12 @@ code {
   object-fit: contain;
 }
 
+/* Schemi, formule e mappe (PNG spesso trasparenti): interi, su fondo chiaro, in ogni tema. */
+.card-figure.is-transparent {
+  padding: 10px;
+  background: #f7f6f2;
+}
+
 .card-figure-backdrop {
   position: absolute;
   inset: 0;
@@ -808,4 +814,9 @@ code {
 
 [data-theme='nothing'] .card-figure {
   border-radius: 10px;
+}
+
+/* Su fondo scuro un bianco pieno abbaglia: grigio chiaro, come un pannello acceso. */
+[data-theme='nothing'] .card-figure.is-transparent {
+  background: #e6e6e6;
 }

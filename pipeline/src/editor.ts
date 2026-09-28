@@ -1,5 +1,5 @@
 import type { Card, CardImage, Category, QuizQuestion, SourceLink } from '../../shared/types.ts';
-import type { Config } from './config.ts';
+import type { Config, TopicConfig } from './config.ts';
 import { chatJson } from './llm.ts';
 import type { Article, NewsItem } from './news.ts';
 import { wikiImage, type HistoryEvent } from './wikipedia.ts';
@@ -31,19 +31,18 @@ export interface StoryPick {
   items: NewsItem[];
 }
 
-export interface Selection {
-  mondo: StoryPick[];
-  italia: StoryPick[];
-  /** Candidati per argomento, dal migliore al peggiore. */
-  topics: Record<string, StoryPick[]>;
-}
-
 const CANDIDATE_EXTRA = 2; // candidati di riserva, se una storia non ha abbastanza materiale
 
-// Limiti per tenere il prompt di selezione leggero: i piani gratuiti contano anche i token al minuto.
+// Limiti per tenere leggeri i prompt di selezione: i piani gratuiti contano i token al minuto
+// (es. Groq: 8.000 al minuto), quindi ogni richiesta deve restare ben sotto.
 const MAX_NEWS_ITEMS = 60;
-const MAX_TOPIC_ITEMS = 20;
+const MAX_TOPIC_ITEMS = 25;
 const SNIPPET_CHARS = 110;
+const MAX_RECENT = 30;
+const MAX_ARTICLES_PER_CARD = 3;
+const ARTICLE_CHARS = 2500;
+
+type RawPick = { title: string; itemIds: number[] };
 
 function listItems(items: NewsItem[]) {
   return items
@@ -63,72 +62,91 @@ function sample(items: NewsItem[], max: number): NewsItem[] {
   return out;
 }
 
+function recentBlock(recentTitles: string[]) {
+  return recentTitles.slice(0, MAX_RECENT).map((t) => `- ${t}`).join('\n') || '- nessuna';
+}
+
+const SELECTION_RULES = `Varia i soggetti: non scegliere la stessa persona, artista o azienda già protagonista nei giorni scorsi, a meno di una notizia davvero importante.
+Per ogni storia indica gli id di TUTTI gli articoli che ne parlano (max 5), il più informativo per primo.`;
+
+function resolve(items: NewsItem[], picks: RawPick[] | undefined, tag: string): StoryPick[] {
+  const byId = new Map(items.map((i) => [i.id, i]));
+  return (picks ?? [])
+    .map((p) => ({
+      title: p.title,
+      tag,
+      items: (p.itemIds ?? []).map((id) => byId.get(id)).filter((i) => !!i),
+    }))
+    .filter((p) => p.items.length > 0);
+}
+
 /**
- * Sceglie le storie del giorno in ordine di priorità, raggruppando gli articoli che parlano
- * della stessa notizia. Restituisce più candidati del necessario: chi scrive scarta quelli
- * senza materiale sufficiente.
+ * Sceglie le storie di attualità (Mondo e Italia) in ordine di importanza, raggruppando gli
+ * articoli sulla stessa notizia. Restituisce più candidati del necessario: chi scrive scarta
+ * quelli senza materiale sufficiente.
  */
-export async function selectStories(config: Config, items: NewsItem[], recentTitles: string[]): Promise<Selection> {
+export async function selectNews(
+  config: Config,
+  items: NewsItem[],
+  recentTitles: string[],
+): Promise<{ mondo: StoryPick[]; italia: StoryPick[] }> {
   const news = sample(
     items.filter((i) => i.group === 'news'),
     MAX_NEWS_ITEMS,
   );
-  const nMondo = config.edition.mondo + CANDIDATE_EXTRA;
-  const nItalia = config.edition.italia + CANDIDATE_EXTRA;
-  const nTopic = config.edition.perTopic + CANDIDATE_EXTRA;
+  if (news.length === 0) return { mondo: [], italia: [] };
 
-  const topicBlocks = config.topics
-    .map((t) => {
-      const list = sample(
-        items.filter((i) => i.group === t.id),
-        MAX_TOPIC_ITEMS,
-      );
-      return list.length ? `## Argomento "${t.id}" (${t.description})\n${listItems(list)}` : '';
-    })
-    .filter(Boolean)
-    .join('\n\n');
+  const prompt = `Scegli le notizie di attualità di oggi, in ordine di importanza:
+- MONDO: ${config.edition.mondo + CANDIDATE_EXTRA} storie internazionali (esteri, geopolitica, economia globale).
+- ITALIA: ${config.edition.italia + CANDIDATE_EXTRA} storie italiane (politica, economia, società).
+Una storia va in una sola delle due liste.
 
-  const prompt = `Scegli le notizie di oggi, in ordine di importanza:
-- MONDO: ${nMondo} storie di attualità internazionale (esteri, geopolitica, economia globale) tra gli articoli "news".
-- ITALIA: ${nItalia} storie di attualità italiana (politica, economia, società) tra gli articoli "news".
-  Una storia va in una sola delle due liste.
-- per OGNI ARGOMENTO: ${nTopic} storie tra gli articoli di quell'argomento. Solo notizie vere e specifiche (uscite, annunci, risultati, eventi), non recensioni, liste, guide o articoli generici.
-
-Varia i soggetti: non scegliere la stessa persona, artista o azienda già protagonista nei giorni scorsi, a meno di una notizia davvero importante. Un argomento è un'area, non un singolo personaggio.
+${SELECTION_RULES}
 
 Storie già pubblicate nei giorni scorsi (non ripeterle, a meno di sviluppi importanti):
-${recentTitles.map((t) => `- ${t}`).join('\n') || '- nessuna'}
+${recentBlock(recentTitles)}
 
-# Articoli "news"
+Articoli:
 ${listItems(news)}
 
-${topicBlocks}
+Formato: {"mondo":[{"title":"titolo breve della storia","itemIds":[1,2]}],"italia":[{"title":"...","itemIds":[4]}]}`;
 
-Per ogni storia indica gli id di TUTTI gli articoli che ne parlano (max 5), il più informativo per primo.
-Formato:
-{"mondo":[{"title":"titolo breve della storia","itemIds":[1,2]}],
- "italia":[{"title":"...","itemIds":[4]}],
- "topics":{"<id argomento>":[{"title":"...","itemIds":[3]}]}}`;
+  const res = await chatJson<{ mondo?: RawPick[]; italia?: RawPick[] }>(EDITOR_SYSTEM, prompt, 0.3);
+  return { mondo: resolve(news, res.mondo, 'Mondo'), italia: resolve(news, res.italia, 'Italia') };
+}
 
-  const res = await chatJson<{
-    mondo?: { title: string; itemIds: number[] }[];
-    italia?: { title: string; itemIds: number[] }[];
-    topics?: Record<string, { title: string; itemIds: number[] }[]>;
-  }>(EDITOR_SYSTEM, prompt, 0.3);
+/** Sceglie le storie di un argomento del catalogo, in ordine di interesse. */
+export async function selectTopic(
+  topic: TopicConfig,
+  want: number,
+  items: NewsItem[],
+  recentTitles: string[],
+): Promise<StoryPick[]> {
+  const list = sample(
+    items.filter((i) => i.group === topic.id),
+    MAX_TOPIC_ITEMS,
+  );
+  if (list.length === 0) return [];
 
-  const byId = new Map(items.map((i) => [i.id, i]));
-  const resolve = (picks: { title: string; tag?: string; itemIds: number[] }[] | undefined, tag: string) =>
-    (picks ?? [])
-      .map((p) => ({
-        title: p.title,
-        tag: p.tag || tag,
-        items: (p.itemIds ?? []).map((id) => byId.get(id)).filter((i) => !!i),
-      }))
-      .filter((p) => p.items.length > 0);
+  const prompt = `Argomento: ${topic.label} (${topic.description}).
+Scegli ${want + CANDIDATE_EXTRA} storie tra questi articoli, in ordine di interesse. Solo notizie vere e specifiche (uscite, annunci, risultati, eventi), non recensioni, liste, guide o articoli generici. L'argomento è un'area, non un singolo personaggio.
 
-  const topics: Record<string, StoryPick[]> = {};
-  for (const t of config.topics) topics[t.id] = resolve(res.topics?.[t.id], t.label);
-  return { mondo: resolve(res.mondo, 'Mondo'), italia: resolve(res.italia, 'Italia'), topics };
+${SELECTION_RULES}
+
+Storie già pubblicate nei giorni scorsi (non ripeterle, a meno di sviluppi importanti):
+${recentBlock(recentTitles)}
+
+Articoli:
+${listItems(list)}
+
+Formato: {"stories":[{"title":"titolo breve della storia","itemIds":[1,2]}]}`;
+
+  const res = await chatJson<Record<string, unknown>>(EDITOR_SYSTEM, prompt, 0.3);
+  // Alcuni modelli rinominano la chiave ("storie", "items"…): vale il primo elenco presente.
+  const picks = (Array.isArray(res.stories) ? res.stories : Object.values(res).find(Array.isArray)) as
+    | RawPick[]
+    | undefined;
+  return resolve(list, picks, topic.label);
 }
 
 /** Quanti caratteri di materiale vero (testo degli articoli o estratti) ha una storia. */
@@ -192,9 +210,11 @@ export async function writeNewsCard(
   articles: Map<string, Article>,
   quizCount: number,
 ): Promise<Omit<Card, 'id'>> {
+  // Al massimo 3 articoli da ~2.500 caratteri: la richiesta resta sotto i limiti di token al minuto.
   const material = story.items
+    .slice(0, MAX_ARTICLES_PER_CARD)
     .map((i) => {
-      const body = articles.get(i.link)?.text ?? i.snippet;
+      const body = (articles.get(i.link)?.text ?? i.snippet).slice(0, ARTICLE_CHARS);
       return `### ${i.title} (${i.source})\n${body || '(solo titolo)'}`;
     })
     .join('\n\n');

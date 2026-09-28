@@ -16,10 +16,10 @@ import {
   materialSize,
   pickCuriosity,
   pickHistoryEvent,
-  selectStories,
+  selectNews,
+  selectTopic,
   writeNewsCard,
   writeWikiCard,
-  type Selection,
   type StoryPick,
 } from './editor.ts';
 import { activeProvider, llmUsage } from './llm.ts';
@@ -63,20 +63,32 @@ const recent = recentCardTitles();
 const quizCount = config.edition.quizPerCard;
 const written = (list: DraftCard[][]) => list.flat().map((c) => c.title);
 
-// --- Selezione e materiale per le notizie -------------------------------------------------
-
-let selection: Selection = { mondo: [], italia: [], topics: {} };
-try {
-  console.log('🧑‍💼 Selezione delle storie…');
-  selection = await selectStories(config, items, recent);
-} catch (err) {
-  console.error(`❌ Selezione delle storie fallita: ${(err as Error).message}`);
-}
+// --- Selezione e materiale, sezione per sezione --------------------------------------------
+// Una richiesta piccola per sezione, fatta subito prima di scriverla: un unico prompt con tutto
+// supererebbe i limiti di token al minuto dei piani gratuiti, e un errore farebbe saltare tutto.
 
 const articles = new Map<string, Article>();
-const allCandidates = [selection.mondo, selection.italia, ...Object.values(selection.topics)].flat();
-const links = [...new Set(allCandidates.flatMap((c) => c.items.slice(0, 3).map((i) => i.link)))];
-await Promise.all(links.map(async (link) => articles.set(link, await fetchArticle(link))));
+
+/** Scarica testo e immagine degli articoli dei candidati (solo quelli non ancora scaricati). */
+async function loadArticles(stories: StoryPick[]) {
+  const links = [...new Set(stories.flatMap((c) => c.items.slice(0, 3).map((i) => i.link)))].filter(
+    (link) => !articles.has(link),
+  );
+  await Promise.all(links.map(async (link) => articles.set(link, await fetchArticle(link))));
+}
+
+// Mondo e Italia escono dalla stessa richiesta; se fallisce, la sezione successiva riprova.
+let newsSelection: ReturnType<typeof selectNews> | null = null;
+function selectNewsOnce() {
+  if (!newsSelection) {
+    console.log('🧑‍💼 Selezione attualità…');
+    newsSelection = selectNews(config, items, recent).catch((err) => {
+      newsSelection = null;
+      throw err;
+    });
+  }
+  return newsSelection;
+}
 
 // --- Sezioni ------------------------------------------------------------------------------
 
@@ -90,9 +102,18 @@ interface Section {
   notes: string[];
 }
 
-/** Scorre i candidati in ordine: prima quelli con materiale pieno, poi il migliore disponibile. */
-function newsSection(key: string, label: string, want: number, candidates: StoryPick[], topic?: string): Section {
-  const queue = [...candidates];
+/**
+ * Sezione di notizie: sceglie i candidati alla prima card, poi li scorre in ordine
+ * (prima quelli con materiale pieno, poi il migliore disponibile).
+ */
+function newsSection(
+  key: string,
+  label: string,
+  want: number,
+  select: () => Promise<StoryPick[]>,
+  topic?: string,
+): Section {
+  let queue: StoryPick[] | null = null;
   const section: Section = {
     key,
     label,
@@ -100,6 +121,11 @@ function newsSection(key: string, label: string, want: number, candidates: Story
     cards: [],
     notes: [],
     async next() {
+      if (!queue) {
+        const candidates = await select(); // se fallisce, queue resta null e il giro dopo riprova
+        await loadArticles(candidates);
+        queue = [...candidates];
+      }
       if (queue.length === 0) {
         section.notes.push('nessuna storia candidata');
         return null;
@@ -130,9 +156,20 @@ const day = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', ti
 );
 
 const sections: Section[] = [
-  newsSection('mondo', 'Mondo', config.edition.mondo, selection.mondo),
-  newsSection('italia', 'Italia', config.edition.italia, selection.italia),
-  ...config.topics.map((t) => newsSection(t.id, t.label, config.edition.perTopic, selection.topics[t.id] ?? [], t.id)),
+  newsSection('mondo', 'Mondo', config.edition.mondo, async () => (await selectNewsOnce()).mondo),
+  newsSection('italia', 'Italia', config.edition.italia, async () => (await selectNewsOnce()).italia),
+  ...config.topics.map((t) =>
+    newsSection(
+      t.id,
+      t.label,
+      config.edition.perTopic,
+      () => {
+        console.log(`🧑‍💼 Selezione ${t.label}…`);
+        return selectTopic(t, config.edition.perTopic, items, [...recent, ...written(sections.map((s) => s.cards))]);
+      },
+      t.id,
+    ),
+  ),
   {
     key: 'storia',
     label: 'Accadde oggi',

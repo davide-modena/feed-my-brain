@@ -38,6 +38,9 @@ class RateLimitError extends Error {
 /** Il provider non è utilizzabile per il resto dell'esecuzione. */
 class UnavailableError extends Error {}
 
+/** Richiesta troppo grande per i limiti di questo provider: si salta solo per questa richiesta. */
+class TooLargeError extends Error {}
+
 const DEFAULT_COOLDOWN_MS = 20_000;
 const MAX_COOLDOWN_MS = 5 * 60_000;
 const MAX_WAIT_MS = 60_000;
@@ -231,6 +234,9 @@ async function call<T>(p: Provider, system: string, user: string, temperature: n
     if (QUOTA_EXHAUSTED.test(body)) throw new UnavailableError(`${p.name} ${p.model} 429 (quota esaurita): ${body}`);
     throw new RateLimitError(`${p.name} ${p.model} 429: ${body}`, retryAfterMs(res));
   }
+  if (res.status === 413) {
+    throw new TooLargeError(`${p.name} ${p.model} 413: ${(await res.text()).trim().slice(0, 160)}`);
+  }
   if (res.status >= 500) throw new RateLimitError(`${p.name} ${res.status}`, 5000);
   // Altri 4xx: chiave non valida, credito finito, modello inesistente… si passa al provider successivo.
   if (!res.ok) throw new UnavailableError(`${p.name} ${p.model} ${res.status}: ${(await res.text()).trim().slice(0, 160)}`);
@@ -251,9 +257,11 @@ async function call<T>(p: Provider, system: string, user: string, temperature: n
 export async function chatJson<T>(system: string, user: string, temperature = 0.4): Promise<T> {
   chain ??= providers();
   let lastError: Error | null = null;
+  /** Provider saltati solo per questa richiesta (troppo grande per i loro limiti). */
+  const skip = new Set<Provider>();
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
-    const available = chain.filter((p) => !p.disabled);
+    const available = chain.filter((p) => !p.disabled && !skip.has(p));
     if (available.length === 0) throw lastError ?? new Error('Nessun LLM disponibile');
 
     // Il provider corrente se è pronto, altrimenti il primo pronto nell'ordine di preferenza.
@@ -276,6 +284,12 @@ export async function chatJson<T>(system: string, user: string, temperature = 0.
       return result;
     } catch (err) {
       lastError = err as Error;
+      if (err instanceof TooLargeError) {
+        // Il provider resta valido (e resta il preferito) per le richieste più piccole.
+        skip.add(p);
+        console.warn(`↪️  ${err.message}: salto questo provider solo per questa richiesta`);
+        continue;
+      }
       if (current === p) current = null;
       if (err instanceof RateLimitError) {
         p.strikes++;
