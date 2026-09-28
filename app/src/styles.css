@@ -335,17 +335,29 @@ code {
   color: var(--muted);
 }
 
+.card-footer {
+  flex: none;
+  display: grid;
+  gap: 6px;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule);
+  margin-top: 4px;
+}
+
+/* Una riga sola: se le fonti sono tante, si tagliano con i puntini. */
 .sources {
   margin: 0;
   font-size: 0.78rem;
   color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .page-dots {
   display: flex;
   align-items: center;
   gap: 5px;
-  padding-top: 8px;
 }
 
 .page-dots span:not(.page-hint) {

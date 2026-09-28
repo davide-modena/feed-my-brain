@@ -1,7 +1,7 @@
 /**
- * Client LLM con fallback: Mistral e, se non disponibile, Hugging Face (Inference Providers,
- * API compatibile OpenAI). Un 429 mette il provider in pausa per qualche secondo invece di
- * scartarlo: i piani gratuiti hanno limiti al minuto, non solo mensili.
+ * Client LLM con fallback tra più provider compatibili con l'API di OpenAI (vedi SPECS).
+ * Un 429 mette il provider in pausa per qualche secondo invece di scartarlo: i piani
+ * gratuiti hanno limiti al minuto, non solo mensili.
  */
 import { sleep } from './util.ts';
 
@@ -34,32 +34,114 @@ const DEFAULT_COOLDOWN_MS = 20_000;
 const MAX_WAIT_MS = 60_000;
 const MAX_ATTEMPTS = 8;
 
+interface ProviderSpec {
+  name: string;
+  /** Variabile d'ambiente con la chiave; il provider è attivo solo se è impostata. */
+  keyEnv: string;
+  modelEnv: string;
+  defaultModel: string;
+  endpoint: string;
+  jsonMode: boolean;
+  minIntervalMs: number;
+}
+
+/**
+ * Provider in ordine di preferenza. Tutti espongono l'API "chat completions" di OpenAI,
+ * quindi aggiungerne uno è solo una riga qui.
+ */
+const SPECS: ProviderSpec[] = [
+  {
+    // Qualsiasi endpoint compatibile OpenAI: OmniRoute, OpenRouter, un server locale…
+    name: process.env.LLM_NAME || 'Custom',
+    keyEnv: 'LLM_API_KEY',
+    modelEnv: 'LLM_MODEL',
+    defaultModel: '',
+    endpoint: `${(process.env.LLM_BASE_URL || '').replace(/\/+$/, '')}/chat/completions`,
+    jsonMode: false,
+    minIntervalMs: 500,
+  },
+  {
+    name: 'Mistral',
+    keyEnv: 'MISTRAL_API_KEY',
+    modelEnv: 'MISTRAL_MODEL',
+    defaultModel: 'mistral-medium-latest',
+    endpoint: 'https://api.mistral.ai/v1/chat/completions',
+    jsonMode: true,
+    minIntervalMs: 1500, // il piano gratuito ha rate limit stretti
+  },
+  {
+    name: 'NVIDIA',
+    keyEnv: 'NVIDIA_API_KEY',
+    modelEnv: 'NVIDIA_MODEL',
+    defaultModel: 'mistralai/mistral-large',
+    endpoint: 'https://integrate.api.nvidia.com/v1/chat/completions',
+    jsonMode: false,
+    minIntervalMs: 1500,
+  },
+  {
+    name: 'OpenRouter',
+    keyEnv: 'OPENROUTER_API_KEY',
+    modelEnv: 'OPENROUTER_MODEL',
+    // I modelli ":free" sono gratuiti ma con limiti giornalieri; cambiano spesso nel tempo.
+    defaultModel: 'google/gemma-4-31b-it:free',
+    endpoint: 'https://openrouter.ai/api/v1/chat/completions',
+    jsonMode: false,
+    minIntervalMs: 3000,
+  },
+  {
+    name: 'Gemini',
+    keyEnv: 'GEMINI_API_KEY',
+    modelEnv: 'GEMINI_MODEL',
+    defaultModel: 'gemini-flash-latest',
+    endpoint: 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions',
+    jsonMode: true,
+    minIntervalMs: 4000,
+  },
+  {
+    name: 'Groq',
+    keyEnv: 'GROQ_API_KEY',
+    modelEnv: 'GROQ_MODEL',
+    defaultModel: 'llama-3.3-70b-versatile',
+    endpoint: 'https://api.groq.com/openai/v1/chat/completions',
+    jsonMode: true,
+    minIntervalMs: 2000,
+  },
+  {
+    name: 'Hugging Face',
+    keyEnv: 'HF_TOKEN',
+    modelEnv: 'HF_MODEL',
+    defaultModel: 'meta-llama/Llama-3.3-70B-Instruct',
+    endpoint: 'https://router.huggingface.co/v1/chat/completions',
+    jsonMode: false,
+    minIntervalMs: 500,
+  },
+];
+
 function providers(): Provider[] {
-  const base = { lastCall: 0, cooldownUntil: 0, disabled: false };
   const list: Provider[] = [];
-  if (process.env.MISTRAL_API_KEY) {
+  for (const spec of SPECS) {
+    const apiKey = process.env[spec.keyEnv];
+    if (!apiKey) continue;
+    const model = process.env[spec.modelEnv] || spec.defaultModel;
+    if (spec.keyEnv === 'LLM_API_KEY' && (!process.env.LLM_BASE_URL || !model)) {
+      console.warn('⚠️  LLM_API_KEY impostata ma mancano LLM_BASE_URL o LLM_MODEL: provider personalizzato ignorato');
+      continue;
+    }
     list.push({
-      ...base,
-      name: 'Mistral',
-      endpoint: 'https://api.mistral.ai/v1/chat/completions',
-      apiKey: process.env.MISTRAL_API_KEY,
-      model: process.env.MISTRAL_MODEL || 'mistral-medium-latest',
-      jsonMode: true,
-      minIntervalMs: 1500, // il piano gratuito ha rate limit stretti
+      name: spec.name,
+      endpoint: spec.endpoint,
+      apiKey,
+      model,
+      jsonMode: spec.jsonMode,
+      minIntervalMs: spec.minIntervalMs,
+      lastCall: 0,
+      cooldownUntil: 0,
+      disabled: false,
     });
   }
-  if (process.env.HF_TOKEN) {
-    list.push({
-      ...base,
-      name: 'Hugging Face',
-      endpoint: 'https://router.huggingface.co/v1/chat/completions',
-      apiKey: process.env.HF_TOKEN,
-      model: process.env.HF_MODEL || 'meta-llama/Llama-3.3-70B-Instruct',
-      jsonMode: false,
-      minIntervalMs: 500,
-    });
+  if (list.length === 0) {
+    throw new Error(`Nessun LLM configurato: imposta almeno una tra ${SPECS.map((s) => s.keyEnv).join(', ')}`);
   }
-  if (list.length === 0) throw new Error('Nessun LLM configurato: imposta MISTRAL_API_KEY e/o HF_TOKEN (vedi .env.example)');
   return list;
 }
 
@@ -67,7 +149,9 @@ let chain: Provider[] | null = null;
 const usage: Record<string, number> = {};
 
 /** Estrae il primo oggetto JSON dal testo (tollera ```json e frasi di contorno). */
-function extractJson<T>(content: string): T {
+function extractJson<T>(raw: string): T {
+  // I modelli "reasoning" possono premettere il ragionamento, che può contenere graffe.
+  const content = raw.replace(/<think>[\s\S]*?<\/think>/g, '');
   const start = content.indexOf('{');
   const end = content.lastIndexOf('}');
   if (start === -1 || end <= start) throw new Error('nessun JSON nella risposta');
@@ -103,17 +187,15 @@ async function call<T>(p: Provider, system: string, user: string, temperature: n
       signal: AbortSignal.timeout(120_000),
     });
   } catch (err) {
-    throw new RateLimitError(`${p.name} non raggiungibile: ${(err as Error).message}`, 5000);
+    throw new UnavailableError(`${p.name} non raggiungibile: ${(err as Error).message}`);
   }
 
   if (res.status === 429) {
     throw new RateLimitError(`${p.name} 429: ${(await res.text()).trim().slice(0, 160)}`, retryAfterMs(res));
   }
-  if ([401, 402, 403].includes(res.status)) {
-    throw new UnavailableError(`${p.name} ${res.status}: ${(await res.text()).trim().slice(0, 160)}`);
-  }
   if (res.status >= 500) throw new RateLimitError(`${p.name} ${res.status}`, 5000);
-  if (!res.ok) throw new Error(`${p.name} ${res.status}: ${(await res.text()).slice(0, 300)}`);
+  // Altri 4xx: chiave non valida, credito finito, modello inesistente… si passa al provider successivo.
+  if (!res.ok) throw new UnavailableError(`${p.name} ${res.status}: ${(await res.text()).trim().slice(0, 160)}`);
 
   const data = (await res.json()) as { choices: { message: { content: string } }[] };
   const content = data.choices[0]?.message.content ?? '';
@@ -166,4 +248,19 @@ export function activeProvider() {
 /** Numero di chiamate riuscite per provider, per il report finale. */
 export function llmUsage() {
   return { ...usage };
+}
+
+/** Prova ogni provider configurato con una richiesta minima (usato da `npm run llm:check`). */
+export async function checkProviders() {
+  const results: { name: string; model: string; ok: boolean; detail: string }[] = [];
+  for (const p of providers()) {
+    const started = Date.now();
+    try {
+      const res = await call<{ ok?: unknown }>(p, 'Rispondi solo con JSON valido.', 'Rispondi esattamente: {"ok": true}', 0);
+      results.push({ name: p.name, model: p.model, ok: res.ok === true, detail: `${Date.now() - started} ms` });
+    } catch (err) {
+      results.push({ name: p.name, model: p.model, ok: false, detail: (err as Error).message.replace(/\s+/g, ' ').slice(0, 140) });
+    }
+  }
+  return results;
 }

@@ -78,6 +78,17 @@ export function CardView({ card, page, pages, onPages }: Props) {
             <p>{card.context}</p>
           </div>
         )}
+      </Paged>
+      <footer class="card-footer">
+        {pages > 1 && (
+          <div class="page-dots" aria-label={`Pagina ${page + 1} di ${pages}`}>
+            {Array.from({ length: pages }, (_, i) => (
+              <span key={i} class={i === page ? 'is-active' : ''} />
+            ))}
+            {page < pages - 1 && <span class="page-hint">tocca a destra per continuare</span>}
+          </div>
+        )}
+        {/* Fuori dall'impaginazione: le fonti non devono mai finire da sole su una pagina in più. */}
         <p class="sources">
           {card.sources.map((s, i) => (
             <>
@@ -87,9 +98,9 @@ export function CardView({ card, page, pages, onPages }: Props) {
               </a>
             </>
           ))}
-          {image && (
+          {image && !card.sources.some((s) => s.name === image.credit) && (
             <>
-              {' · Immagine: '}
+              {' · Foto: '}
               {image.link ? (
                 <a href={image.link} target="_blank" rel="noopener noreferrer">
                   {image.credit}
@@ -100,15 +111,7 @@ export function CardView({ card, page, pages, onPages }: Props) {
             </>
           )}
         </p>
-      </Paged>
-      {pages > 1 && (
-        <div class="page-dots" aria-label={`Pagina ${page + 1} di ${pages}`}>
-          {Array.from({ length: pages }, (_, i) => (
-            <span key={i} class={i === page ? 'is-active' : ''} />
-          ))}
-          {page < pages - 1 && <span class="page-hint">tocca a destra per continuare</span>}
-        </div>
-      )}
+      </footer>
     </article>
   );
 }

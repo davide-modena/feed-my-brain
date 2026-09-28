@@ -26,6 +26,7 @@ GitHub Actions (ogni mattina)
 ```bash
 npm install
 cp .env.example .env        # inserisci MISTRAL_API_KEY e/o HF_TOKEN
+npm run llm:check           # verifica quali chiavi LLM funzionano
 npm run pipeline:dry        # prova le fonti senza chiamare l'AI
 npm run pipeline            # genera l'edizione di oggi
 npm run dev                 # apri la PWA su http://localhost:5173
@@ -38,9 +39,15 @@ Senza edizioni in `data/editions/` l'app mostra `data/sample-edition.json`.
 1. Il repo deve essere **pubblico** (GitHub Pages gratuito).
 2. *Settings → Pages → Source*: **GitHub Actions**.
 3. *Settings → Secrets and variables → Actions*:
-   - Secret `MISTRAL_API_KEY`
-   - Secret `HF_TOKEN`: fallback su Hugging Face quando Mistral esaurisce i limiti ([crea un token](https://huggingface.co/settings/tokens) con il permesso *Make calls to Inference Providers*)
-   - (facoltative) Variables `MISTRAL_MODEL` (default `mistral-medium-latest`) e `HF_MODEL` (default `meta-llama/Llama-3.3-70B-Instruct`)
+   - almeno una chiave LLM come Secret. Più ne metti, più la pipeline regge i limiti dei piani gratuiti, perché passa da un provider all'altro:
+     - `MISTRAL_API_KEY` ([console Mistral](https://console.mistral.ai))
+     - `NVIDIA_API_KEY` ([build.nvidia.com](https://build.nvidia.com))
+     - `OPENROUTER_API_KEY` ([OpenRouter](https://openrouter.ai/keys), modelli gratuiti `:free`)
+     - `GEMINI_API_KEY` ([Google AI Studio](https://aistudio.google.com/apikey))
+     - `GROQ_API_KEY` ([console Groq](https://console.groq.com/keys))
+     - `HF_TOKEN` ([token Hugging Face](https://huggingface.co/settings/tokens) con il permesso *Make calls to Inference Providers*)
+     - `LLM_API_KEY` + Variables `LLM_BASE_URL` e `LLM_MODEL`: qualsiasi endpoint compatibile OpenAI (OpenRouter, OmniRoute esposto in rete…)
+   - (facoltative) Variables `MISTRAL_MODEL`, `NVIDIA_MODEL`, `OPENROUTER_MODEL`, `GEMINI_MODEL`, `GROQ_MODEL`, `HF_MODEL` per cambiare modello
 4. *Actions → Edizione quotidiana → Run workflow* per la prima edizione. Poi parte da solo ogni mattina.
 
 L'app sarà su `https://<utente>.github.io/feed-my-brain/`.
