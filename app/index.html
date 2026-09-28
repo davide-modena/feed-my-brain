@@ -10,6 +10,14 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <title>Feed My Brain</title>
+    <script>
+      // Applica il tema salvato prima del primo disegno, per non vedere il lampo del tema sbagliato.
+      try {
+        var saved = JSON.parse(localStorage.getItem('feed-my-brain:v2') || '{}');
+        if (saved.theme) document.documentElement.dataset.theme = saved.theme;
+        if (saved.theme === 'nothing') document.querySelector('meta[name="theme-color"]').content = '#0d0d0d';
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="app"></div>

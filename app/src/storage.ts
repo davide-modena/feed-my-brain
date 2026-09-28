@@ -16,10 +16,18 @@ export interface Preferences {
   curiosita: boolean;
 }
 
+export type Theme = 'classico' | 'nothing';
+
+export const THEMES: { id: Theme; label: string; color: string }[] = [
+  { id: 'classico', label: 'Classico', color: '#f6f1e6' },
+  { id: 'nothing', label: 'Nothing', color: '#0d0d0d' },
+];
+
 export interface StoreState {
   progress: Record<string, EditionProgress>;
   streak: { count: number; last: string | null };
   prefs: Preferences;
+  theme: Theme;
 }
 
 const KEY = 'feed-my-brain:v2';
@@ -27,6 +35,7 @@ const EMPTY: StoreState = {
   progress: {},
   streak: { count: 0, last: null },
   prefs: { topics: null, storia: true, curiosita: true },
+  theme: 'classico',
 };
 
 function load(): StoreState {
@@ -57,6 +66,13 @@ export function useStore() {
       return next;
     });
   return [state, update] as const;
+}
+
+/** Applica il tema alla pagina (attributo su <html> e colore della barra di sistema). */
+export function applyTheme(theme: Theme) {
+  document.documentElement.dataset.theme = theme;
+  const color = THEMES.find((t) => t.id === theme)?.color;
+  if (color) document.querySelector('meta[name="theme-color"]')?.setAttribute('content', color);
 }
 
 export function localDate(d = new Date()) {

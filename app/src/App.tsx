@@ -1,5 +1,5 @@
 import type { ComponentChildren } from 'preact';
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useLayoutEffect, useState } from 'preact/hooks';
 import type { Edition } from '../../shared/types.ts';
 import { fetchEdition, fetchToday } from './api.ts';
 import { CardView } from './components/CardView.tsx';
@@ -12,6 +12,7 @@ import { TopicPicker } from './components/TopicPicker.tsx';
 import { longDate } from './format.ts';
 import {
   activeTopics,
+  applyTheme,
   completeToday,
   currentStreak,
   emptyProgress,
@@ -20,6 +21,7 @@ import {
   visibleCards,
   type EditionProgress,
   type Preferences,
+  type Theme,
 } from './storage.ts';
 
 type View = 'onboarding' | 'read' | 'quiz' | 'results' | 'review' | 'settings';
@@ -33,6 +35,8 @@ export function App() {
   const [page, setPage] = useState(0);
   const [pages, setPages] = useState(1);
   const [direction, setDirection] = useState<'next' | 'prev'>('next');
+
+  useLayoutEffect(() => applyTheme(store.theme), [store.theme]);
 
   const needsOnboarding = (ed: Edition) => store.prefs.topics === null && (ed.topics?.length ?? 0) > 0;
 
@@ -85,6 +89,8 @@ export function App() {
   };
 
   const startQuiz = () => (questions.length ? setView('quiz') : finish());
+
+  const setTheme = (theme: Theme) => update((s) => ({ ...s, theme }));
 
   const savePrefs = (prefs: Preferences) => {
     update((s) => ({ ...s, prefs }));
@@ -214,6 +220,8 @@ export function App() {
           topics={edition.topics ?? []}
           prefs={prefsWithTopics}
           onSavePrefs={savePrefs}
+          theme={store.theme}
+          onTheme={setTheme}
           onOpenEdition={openArchive}
           onClose={() => setView(progress.done ? 'results' : 'read')}
         />

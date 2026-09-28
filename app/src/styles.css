@@ -1,4 +1,12 @@
 @import '@fontsource-variable/source-serif-4/wght.css';
+@import '@fontsource-variable/geist/wght.css';
+
+/* Font dot-matrix di Nothing, usato dal tema "Nothing" (stesso file di trenitardo). */
+@font-face {
+  font-family: 'Ndot57';
+  src: url('./fonts/Ndot57-Regular.otf') format('opentype');
+  font-display: swap;
+}
 
 :root {
   --paper: #f6f1e6;
@@ -22,6 +30,14 @@
   --serif: 'Source Serif 4 Variable', Georgia, serif;
   --sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 
+  /* Ruoli, ridefiniti dai temi */
+  --font-title: var(--serif);
+  --font-text: var(--serif);
+  --font-ui: var(--sans);
+  --accent: var(--ink);
+  --primary: var(--ink);
+  --on-primary: var(--card);
+
   color-scheme: light;
 }
 
@@ -39,7 +55,7 @@ body {
 body {
   background: var(--paper);
   color: var(--ink);
-  font: 16px/1.55 var(--sans);
+  font: 16px/1.55 var(--font-ui);
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
 }
@@ -166,7 +182,7 @@ code {
 }
 
 .progress .is-current {
-  background: var(--ink);
+  background: var(--accent);
 }
 
 .progress .is-quiz {
@@ -304,14 +320,14 @@ code {
 
 .card-title {
   margin: 0 0 10px;
-  font: 650 1.45rem/1.2 var(--serif);
+  font: 650 1.45rem/1.2 var(--font-title);
   text-wrap: balance;
   break-after: avoid;
 }
 
 .card-summary {
   margin: 0 0 14px;
-  font: 400 1.02rem/1.6 var(--serif);
+  font: 400 1.02rem/1.6 var(--font-text);
   color: var(--ink-soft);
 }
 
@@ -325,13 +341,13 @@ code {
 
 .card-context p {
   margin: 0;
-  font: 400 0.95rem/1.55 var(--serif);
+  font: 400 0.95rem/1.55 var(--font-text);
   color: var(--ink-soft);
 }
 
 .card-context .card-context-label {
   margin-bottom: 2px;
-  font: 600 0.75rem/1.4 var(--sans);
+  font: 600 0.75rem/1.4 var(--font-ui);
   color: var(--muted);
 }
 
@@ -368,7 +384,7 @@ code {
 }
 
 .page-dots .is-active {
-  background: var(--ink) !important;
+  background: var(--accent) !important;
 }
 
 .page-hint {
@@ -401,7 +417,7 @@ code {
 
 .panel-title {
   margin: 0 0 8px;
-  font: 650 1.5rem/1.2 var(--serif);
+  font: 650 1.5rem/1.2 var(--font-title);
 }
 
 .quiz-intro {
@@ -424,9 +440,9 @@ code {
 }
 
 .btn-primary {
-  background: var(--ink);
-  border-color: var(--ink);
-  color: var(--card);
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--on-primary);
 }
 
 .link {
@@ -481,7 +497,7 @@ code {
 
 .bar div {
   height: 100%;
-  background: var(--ink);
+  background: var(--accent);
   border-radius: 2px;
   transition: width 0.2s;
 }
@@ -494,7 +510,7 @@ code {
 
 .quiz-question {
   margin: 0 0 16px;
-  font: 650 1.25rem/1.3 var(--serif);
+  font: 650 1.25rem/1.3 var(--font-title);
 }
 
 .options {
@@ -580,7 +596,7 @@ code {
 }
 
 .stat-value {
-  font: 650 2.2rem/1.1 var(--serif);
+  font: 650 2.2rem/1.1 var(--font-title);
 }
 
 /* Scelta argomenti */
@@ -606,9 +622,9 @@ code {
 }
 
 .chip.is-on {
-  background: var(--ink);
-  border-color: var(--ink);
-  color: var(--card);
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--on-primary);
 }
 
 .picker .small {
@@ -647,4 +663,149 @@ code {
   border-radius: 6px;
   padding: 10px;
   resize: vertical;
+}
+
+/* ==========================================================================
+   Tema "Nothing": sfondo scuro con trama a puntini, accento rosso Nothing,
+   Ndot57 per titoli ed etichette, Geist per il testo. Palette di trenitardo.
+   ========================================================================== */
+:root[data-theme='nothing'] {
+  --paper: #0d0d0d;
+  --card: #161616;
+  --panel-2: #1f1f1f;
+  --ink: #ffffff;
+  --ink-soft: #d9d9d9;
+  --muted: #8f8f8f;
+  --rule: #262626;
+  --rule-strong: #333333;
+  --red: #d71921;
+  --green: #28a745;
+  --dot: rgba(255, 255, 255, 0.035);
+
+  --cat-attualita: var(--red);
+  --cat-interessi: var(--red);
+  --cat-storia: var(--red);
+  --cat-curiosita: var(--red);
+
+  --correct: var(--green);
+  --correct-bg: rgba(40, 167, 69, 0.12);
+  --wrong: var(--red);
+  --wrong-bg: rgba(215, 25, 33, 0.12);
+
+  --ndot: 'Ndot57', 'Courier New', monospace;
+  --font-title: var(--ndot);
+  --font-text: 'Geist Variable', system-ui, sans-serif;
+  --font-ui: 'Geist Variable', system-ui, sans-serif;
+  --accent: var(--red);
+  --primary: var(--red);
+  --on-primary: #ffffff;
+
+  color-scheme: dark;
+}
+
+[data-theme='nothing'] body {
+  background-image: radial-gradient(var(--dot) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+/* Titoli in Ndot: il font è largo, quindi un filo più piccolo e con interlinea ariosa. */
+[data-theme='nothing'] .card-title,
+[data-theme='nothing'] .panel-title,
+[data-theme='nothing'] .quiz-question {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.3;
+}
+
+[data-theme='nothing'] .card-title {
+  font-size: 1.3rem;
+}
+
+[data-theme='nothing'] .quiz-question {
+  font-size: 1.15rem;
+}
+
+[data-theme='nothing'] .stat-value {
+  font-weight: 400;
+}
+
+/* Etichette ed elementi di interfaccia: Ndot maiuscolo e spaziato, come in trenitardo. */
+[data-theme='nothing'] .brand,
+[data-theme='nothing'] .card-category,
+[data-theme='nothing'] .card-context-label,
+[data-theme='nothing'] .label,
+[data-theme='nothing'] .quiz-progress,
+[data-theme='nothing'] .btn,
+[data-theme='nothing'] .streak {
+  font-family: var(--ndot);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+[data-theme='nothing'] .brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 3px;
+}
+
+/* Pallino rosso luminoso accanto al nome, come la testata di trenitardo. */
+[data-theme='nothing'] .brand::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--red);
+  box-shadow: 0 0 10px var(--red);
+}
+
+[data-theme='nothing'] .card-meta,
+[data-theme='nothing'] .date {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+}
+
+[data-theme='nothing'] .card,
+[data-theme='nothing'] .panel,
+[data-theme='nothing'] .quiz-screen {
+  border-color: var(--rule-strong);
+  border-radius: 14px;
+}
+
+[data-theme='nothing'] .card-context {
+  background: var(--panel-2);
+  border-radius: 10px;
+}
+
+[data-theme='nothing'] .btn,
+[data-theme='nothing'] .option,
+[data-theme='nothing'] .chip {
+  border-radius: 10px;
+}
+
+[data-theme='nothing'] .option:not(:disabled):hover,
+[data-theme='nothing'] .btn:hover:not(:disabled) {
+  border-color: var(--red);
+}
+
+/* Elemento attivo: bordo rosso su pannello più chiaro (come i tab di trenitardo). */
+[data-theme='nothing'] .chip.is-on {
+  background: var(--panel-2);
+  border-color: var(--red);
+  color: var(--ink);
+}
+
+[data-theme='nothing'] .btn-icon {
+  border-radius: 10px;
+  border-color: var(--rule-strong);
+}
+
+[data-theme='nothing'] .progress .is-current {
+  box-shadow: 0 0 8px var(--red);
+}
+
+[data-theme='nothing'] .card-figure {
+  border-radius: 10px;
 }

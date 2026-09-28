@@ -2,7 +2,7 @@ import { useEffect, useState } from 'preact/hooks';
 import { fetchIndex } from '../api.ts';
 import { longDate } from '../format.ts';
 import type { Topic } from '../../../shared/types.ts';
-import type { Preferences } from '../storage.ts';
+import { THEMES, type Preferences, type Theme } from '../storage.ts';
 import { TopicPicker } from './TopicPicker.tsx';
 import { currentSubscription, pushConfigured, pushSupported, subscribe, testNotification } from '../push.ts';
 
@@ -10,6 +10,8 @@ interface Props {
   topics: Topic[];
   prefs: Preferences & { topics: string[] };
   onSavePrefs: (prefs: Preferences) => void;
+  theme: Theme;
+  onTheme: (theme: Theme) => void;
   onOpenEdition: (date: string) => void;
   onClose: () => void;
 }
@@ -24,7 +26,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   deferredInstall = e as InstallPromptEvent;
 });
 
-export function Settings({ topics, prefs, onSavePrefs, onOpenEdition, onClose }: Props) {
+export function Settings({ topics, prefs, onSavePrefs, theme, onTheme, onOpenEdition, onClose }: Props) {
   const [subscription, setSubscription] = useState<string | null>(null);
   const [status, setStatus] = useState('');
   const [dates, setDates] = useState<string[]>([]);
@@ -62,6 +64,22 @@ export function Settings({ topics, prefs, onSavePrefs, onOpenEdition, onClose }:
         <button class="btn" onClick={onClose}>
           Chiudi
         </button>
+      </div>
+
+      <div class="setting">
+        <p class="label">Tema</p>
+        <div class="chips">
+          {THEMES.map((t) => (
+            <button
+              key={t.id}
+              class={`chip ${theme === t.id ? 'is-on' : ''}`}
+              aria-pressed={theme === t.id}
+              onClick={() => onTheme(t.id)}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       {topics.length > 0 && (

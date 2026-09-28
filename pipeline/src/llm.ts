@@ -74,13 +74,23 @@ const SPECS: ProviderSpec[] = [
     minIntervalMs: 500,
   },
   {
-    name: 'Mistral',
-    keyEnv: 'MISTRAL_API_KEY',
-    modelEnv: 'MISTRAL_MODEL',
-    defaultModel: 'mistral-medium-latest',
-    endpoint: 'https://api.mistral.ai/v1/chat/completions',
+    name: 'Groq',
+    keyEnv: 'GROQ_API_KEY',
+    modelEnv: 'GROQ_MODEL',
+    defaultModel: 'openai/gpt-oss-120b,qwen/qwen3.8-27b',
+    endpoint: 'https://api.groq.com/openai/v1/chat/completions',
     jsonMode: true,
-    minIntervalMs: 1500, // il piano gratuito ha rate limit stretti
+    minIntervalMs: 2000,
+  },
+  {
+    name: 'Gemini',
+    keyEnv: 'GEMINI_API_KEY',
+    modelEnv: 'GEMINI_MODEL',
+    // Riserve: nelle ore di punta un singolo modello risponde spesso 503 (sovraccarico).
+    defaultModel: 'gemini-flash-latest,gemini-flash-lite-latest',
+    endpoint: 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions',
+    jsonMode: true,
+    minIntervalMs: 4000,
   },
   {
     name: 'NVIDIA',
@@ -105,22 +115,13 @@ const SPECS: ProviderSpec[] = [
     extraBody: { reasoning: { exclude: true } },
   },
   {
-    name: 'Gemini',
-    keyEnv: 'GEMINI_API_KEY',
-    modelEnv: 'GEMINI_MODEL',
-    defaultModel: 'gemini-flash-latest',
-    endpoint: 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions',
+    name: 'Mistral',
+    keyEnv: 'MISTRAL_API_KEY',
+    modelEnv: 'MISTRAL_MODEL',
+    defaultModel: 'mistral-medium-latest',
+    endpoint: 'https://api.mistral.ai/v1/chat/completions',
     jsonMode: true,
-    minIntervalMs: 4000,
-  },
-  {
-    name: 'Groq',
-    keyEnv: 'GROQ_API_KEY',
-    modelEnv: 'GROQ_MODEL',
-    defaultModel: 'llama-3.3-70b-versatile',
-    endpoint: 'https://api.groq.com/openai/v1/chat/completions',
-    jsonMode: true,
-    minIntervalMs: 2000,
+    minIntervalMs: 1500, // il piano gratuito ha rate limit stretti
   },
   {
     name: 'Hugging Face',

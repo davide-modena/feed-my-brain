@@ -19,6 +19,7 @@
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p app/tsconfig.json && tsc --noEmit -p app/tsconfig.sw.json"
   },
   "dependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
     "@fontsource-variable/source-serif-4": "^5.3.0",
     "preact": "^10.29.8",
     "workbox-expiration": "^7.4.1"
