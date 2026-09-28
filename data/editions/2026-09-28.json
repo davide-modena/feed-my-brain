@@ -1,0 +1,235 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T12:28:52.396Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia, intelligenza artificiale, nuovi modelli AI (Anthropic, OpenAI, Mistral...), big tech",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano, nuovi album, uscite e tour (es. Kanye West)",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scoperte scientifiche, medicina, clima, spazio",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia, mercati, lavoro, prezzi e bollette",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "film, serie TV, uscite, festival e premi",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "calcio, Formula 1, tennis e grandi eventi sportivi",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "La morte di David Rossi",
+      "summary": "David Rossi, ex capo della comunicazione di Mps, sarebbe stato aggredito da più persone nel suo ufficio a Siena nel 2013 e ha tentato di difendersi prima di precipitare dalla finestra. Una perizia ha ricostruito la scena e ha escluso l'ipotesi di suicidio.",
+      "context": "La morte di David Rossi è stata oggetto di inchiesta e dibattito negli anni, con ipotesi di suicidio e omicidio. La perizia recente ha fornito nuove informazioni sulla dinamica dell'evento.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/09/28/perizia-su-morte-rossi-aggredito-da-piu-persone-tentava-di-difendersi_36ca01e9-b560-47c2-b79d-7beea11883f4.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/09/morte-david-rossi-vinci-fu-omicidio-scoprire-la-verita-e-chi-ha-commesso-i-gravi-fatti-bbbba29f-4f44-4be1-b649-3b994dd12803.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/09/perizia-sulla-morte-di-david-rossi-aggredito-da-piu-persone-tentava-di-difendersi-af209f23-c249-4714-9846-2833f6e454e9.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/28/5d85a84eea5331575b22bb9ffa44125f.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/cronaca/2026/09/28/perizia-su-morte-rossi-aggredito-da-piu-persone-tentava-di-difendersi_36ca01e9-b560-47c2-b79d-7beea11883f4.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa è emerso dalla perizia sulla morte di David Rossi?",
+          "options": [
+            "Si è trattato di un evento naturale",
+            "Si è trattato di un omicidio",
+            "Si è trattato di un suicidio",
+            "Si è trattato di un incidente"
+          ],
+          "answer": 1,
+          "explanation": "La perizia ha escluso l'ipotesi di suicidio e ha indicato che David Rossi è stato aggredito da più persone e ha tentato di difendersi prima di precipitare dalla finestra."
+        }
+      ],
+      "id": "2026-09-28-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Caso Garlasco: chiusura indagini su Sempio",
+      "summary": "La Procura di Pavia ha chiuso le indagini su Andrea Sempio, unico indagato per l'omicidio di Chiara Poggi del 2007. La difesa di Sempio attende la notifica del 415 bis per esaminare gli atti e presentare memorie.",
+      "context": "Il caso Garlasco è un omicidio irrisolto da anni, con un condannato in via definitiva, Alberto Stasi, che potrebbe chiedere la revisione del processo.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/09/28/garlasco-oggi-la-chiusura-delle-indagini.-la-difesa-di-sempio-spera-nella-revisione_970c682d-9070-4ffd-b604-b4234ec0b03a.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/09/delitto-garlasco-inchiesta-andrea-sempio-rinvio-a-giudizio-omicidio-chiara-poggi-alberto-stasi-indagini-da39f87a-57cd-482f-a556-25f698b2869f.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdVJEWXZPLVlPWFlJN085RWZTNU14bk5xeGY4OFFfXzc1V28tNzJXYXU3bXdPUTNZZWtIaGczbGwyb3IxUng0aFl0Qk9iNHI3N3JjUGV3Q2hESUZtQ0psazlCRnhYSFVCdFRyelJJNjZHUVpYWFJWWEJMT1BSSDZTTmxld1VmRkROcnp6UHllQVdYTndyaVVPRmc0eWJLS05qOHNiaHBEajlKM19ucVZDS2xOVGNNQTFIbDd6bWFmXzVfWXdjYkU2a0JmZ2hBLXhVNFFOc0FHUkw1RnpMQU1TMdIB5gFBVV95cUxPcEpOUjBCRUlGZEtRVjlXSE95WmlEQVNBTHNBV1ZmcG9hS3c1WGRVUkQ1OWlVamswZV9TNllib0piOTA2Q0lhUGllZVpaWHRHS3FxVHIxcjVRY1l3NktVT0k4anRRb0cycHpvSHdsV2lGbV8zQkE1S01fdnllNXBCdUpNZ2U1SXhTaTNOdlBvUVFOaE9fUzlwVC1TbVFZNjNZdm5Wc2Y2VXhManpqNHhTdy1BM0dCX0V6WlUyc1ZzeDR2ZjdwcGVmbTlnRkowNlJTclNrblZjcUFTLTZheGE3WGR6V09OUQ?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/5/7/3a56ea538f9dbc5d0c6950a062e123b1.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/cronaca/2026/09/28/garlasco-oggi-la-chiusura-delle-indagini.-la-difesa-di-sempio-spera-nella-revisione_970c682d-9070-4ffd-b604-b4234ec0b03a.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa succede ora che le indagini su Sempio sono chiuse?",
+          "options": [
+            "Il processo inizia immediatamente",
+            "La Procura di Pavia emette una sentenza di condanna",
+            "La difesa di Sempio può esaminare gli atti e presentare memorie",
+            "Il caso viene archiviato"
+          ],
+          "answer": 2,
+          "explanation": "La chiusura delle indagini consente alla difesa di Sempio di esaminare gli atti e presentare memorie, prima di una possibile richiesta di rinvio a giudizio o archiviazione."
+        }
+      ],
+      "id": "2026-09-28-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Anthropic e il mercato delle AI",
+      "summary": "Anthropic, un'azienda di intelligenza artificiale, si prepara per un'offerta pubblica iniziale (IPO) che potrebbe valere tra 1,5 e 2 trilioni di dollari. La società sta anche lavorando sulla sicurezza dell'AI, con un progetto chiamato provable-inference prototype, e altre aziende come Microsoft e Nvidia stanno rispondendo alle sfide di sicurezza nel settore.",
+      "context": "Il mercato delle AI è in rapida crescita e le aziende stanno cercando di affrontare le sfide di sicurezza e responsabilità.",
+      "sources": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/anthropic-ipo-etf-inclusion/"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-self-imposed-safety-deadline-103708422.html"
+        },
+        {
+          "name": "Blockonomi",
+          "url": "https://blockonomi.com/microsoft-msft-stock-surges-4-following-copilot-overhaul-targeting-anthropic/"
+        }
+      ],
+      "image": {
+        "url": "https://static.cryptobriefing.com/wp-content/uploads/2026/09/28074546/library-anthropic-set-for-potential-rapid-inclusion-in-major-etf-800x450.png",
+        "credit": "Crypto Briefing",
+        "link": "https://cryptobriefing.com/anthropic-ipo-etf-inclusion/"
+      },
+      "quiz": [
+        {
+          "question": "Quanto potrebbe valere l'IPO di Anthropic?",
+          "options": [
+            "Tra 10 e 20 trilioni di dollari",
+            "Tra 5 e 10 trilioni di dollari",
+            "Tra 1 e 2 trilioni di dollari",
+            "Tra 100 e 500 miliardi di dollari"
+          ],
+          "answer": 2,
+          "explanation": "L'IPO di Anthropic potrebbe valere tra 1,5 e 2 trilioni di dollari secondo le stime."
+        }
+      ],
+      "topic": "tech",
+      "id": "2026-09-28-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Kanye West e la sua controversia con la Russia",
+      "summary": "La portavoce del Ministero degli Esteri russo, Maria Zakharova, ha chiesto scusa a Kanye West per i suoi commenti su Hitler. Il rapper aveva rilasciato un clip con un coro che ripeteva 'gloria a Hitler' e aveva venduto magliette con la scritta 'Heil Hitler'.",
+      "context": "La questione è importante perché tocca un tema molto sensibile nella storia russa, la seconda guerra mondiale e le vittime del nazismo.",
+      "sources": [
+        {
+          "name": "EADaily",
+          "url": "https://eadaily.com/en/news/2026/09/27/the-whole-of-russia-has-questions-zakharova-presented-kanye-west-with-a-bill-for-27-million"
+        },
+        {
+          "name": "PRIMETIMER",
+          "url": "https://www.primetimer.com/features/what-songs-did-kanye-west-perform-rapper-makes-surprise-appearance-at-usher-and-chris-browns-l-a-tour-stop"
+        }
+      ],
+      "image": {
+        "url": "https://img7.eadaily.com/r650x400/o/6ba/0e594c5af2f20c1363f07a02aebc6.jpeg",
+        "credit": "EADaily",
+        "link": "https://eadaily.com/en/news/2026/09/27/the-whole-of-russia-has-questions-zakharova-presented-kanye-west-with-a-bill-for-27-million"
+      },
+      "quiz": [
+        {
+          "question": "Perché la portavoce del Ministero degli Esteri russo ha chiesto scusa a Kanye West?",
+          "options": [
+            "Per i suoi commenti su Vladimir Putin",
+            "Per i suoi commenti su Hitler",
+            "Per la sua musica",
+            "Per la sua moda"
+          ],
+          "answer": 1,
+          "explanation": "Maria Zakharova ha chiesto scusa a Kanye West per i suoi commenti su Hitler, in particolare per un clip con un coro che ripeteva 'gloria a Hitler' e per la vendita di magliette con la scritta 'Heil Hitler'."
+        }
+      ],
+      "topic": "hiphop",
+      "id": "2026-09-28-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Scoperta di una striscia di terra sommersa nel Canale di Sicilia",
+      "summary": "Una spedizione scientifica italo-maltese ha scoperto una striscia di terra sommersa nel Canale di Sicilia, che unisce la Sicilia e Malta. La striscia di terra era emersa durante l'ultima era glaciale, circa 22.000 anni fa, e sarebbe stata sommersa da 4500 anni.",
+      "context": "La scoperta getta nuova luce sulla storia geologica e umana del Mediterraneo",
+      "sources": [
+        {
+          "name": "Il Messaggero",
+          "url": "https://www.ilmessaggero.it/scienza/sicilia_malta_ponte_di_terra_si_poteva_andare_a_piedi-9788744.html"
+        }
+      ],
+      "image": {
+        "url": "https://statics.cedscdn.it/photos/MED_HIGH/2026/09/27/9788744_27201512_befunky_collage_1_.jpg",
+        "credit": "Il Messaggero",
+        "link": "https://www.ilmessaggero.it/scienza/sicilia_malta_ponte_di_terra_si_poteva_andare_a_piedi-9788744.html"
+      },
+      "quiz": [
+        {
+          "question": "Quando si ritiene che la striscia di terra sommersa nel Canale di Sicilia sia stata sommersa?",
+          "options": [
+            "10.000 anni fa",
+            "22.000 anni fa",
+            "4500 anni fa",
+            "7500 anni fa"
+          ],
+          "answer": 2,
+          "explanation": "La striscia di terra sarebbe stata sommersa da 4500 anni, secondo le ricerche ultime"
+        }
+      ],
+      "topic": "scienza",
+      "id": "2026-09-28-4"
+    }
+  ]
+}
