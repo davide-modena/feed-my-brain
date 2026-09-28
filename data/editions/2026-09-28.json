@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "generatedAt": "2026-09-28T14:44:00.504Z",
+  "generatedAt": "2026-09-28T17:35:33.637Z",
   "topics": [
     {
       "id": "tech",
@@ -41,125 +41,68 @@
   ],
   "cards": [
     {
-      "category": "attualita",
-      "tag": "Mondo",
-      "title": "Trump rifiuta la proposta iraniana per riaprire lo stretto di Hormuz",
-      "summary": "Il presidente statunitense Donald Trump ha respinto una proposta iraniana per riaprire lo stretto di Hormuz e riprendere i negoziati sulla base di un protocollo firmato a giugno. La proposta prevedeva la fine del doppio blocco sullo stretto di Hormuz.",
-      "context": "La situazione nel Golfo è critica a causa dei conflitti in corso e del blocco economico imposto dall'Iran.",
+      "category": "storia",
+      "tag": "28 settembre 1928",
+      "title": "Fleming scopre la penicillina",
+      "summary": "Il 28 settembre 1928 il batteriologo scozzese Alexander Fleming, tornando dalle vacanze al St. Mary's Hospital di Londra, notò che una piastra Petri di stafilococchi lasciata incustodita era stata contaminata da una muffa che impediva la crescita dei batteri attorno a sé. Identificò il fungo come Penicillium notatum e chiamò la sostanza attiva penicillina.",
+      "context": "La scoperta avviò l'era degli antibiotici, trasformando il trattamento delle infezioni batteriche e salvando milioni di vite. La penicillina pose le basi per lo sviluppo di numerosi farmaci antimicrobici e rivoluzionò la medicina moderna.",
       "sources": [
         {
-          "name": "ANSA",
-          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/28/media-7-ottobre-007-egitto-chiamarono-netanyahu-dopo-due-avvisi-inascoltati_57b11b8b-1489-4b89-b2da-cfb38c40f22d.html"
-        },
-        {
-          "name": "Internazionale",
-          "url": "https://www.internazionale.it/opinione/pierre-haski/2026/09/28/dietro-al-no-di-trump-ai-negoziati-con-l-iran-non-c-e-una-strategia"
-        },
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss"
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Penicillina"
         }
       ],
       "image": {
-        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/24/46a7c626a0997c6d322e177e1123824b.jpg",
-        "credit": "ANSA",
-        "link": "https://www.ansa.it/sito/notizie/mondo/2026/09/28/media-7-ottobre-007-egitto-chiamarono-netanyahu-dopo-due-avvisi-inascoltati_57b11b8b-1489-4b89-b2da-cfb38c40f22d.html"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Penicillin_core.svg/1280px-Penicillin_core.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Penicillin_core.svg"
       },
       "quiz": [
         {
-          "question": "Perché Trump ha rifiutato la proposta iraniana per riaprire lo stretto di Hormuz?",
+          "question": "Cosa osservò Fleming sulla piastra contaminata che lo portò alla scoperta della penicillina?",
           "options": [
-            "Perché l'Iran non ha accettato le condizioni degli Stati Uniti",
-            "Perché la proposta non era vantaggiosa per gli Stati Uniti",
-            "Perché Trump ritiene che l'Iran sia debole e voglia un accordo",
-            "Perché la proposta non era stata discussa con gli alleati degli Stati Uniti"
+            "I batteri uccidevano la muffa",
+            "La muffa impediva la crescita dei batteri attorno a sé",
+            "La muffa cambiava colore",
+            "I batteri diventavano resistenti"
           ],
           "answer": 1,
-          "explanation": "Trump ha rifiutato la proposta iraniana perché ritiene che non sia vantaggiosa per gli Stati Uniti e che l'Iran sia debole e voglia un accordo."
+          "explanation": "Fleming vide che la muffa Penicillium notatum creava un'alone libero da batteri attorno alla colonia fungina."
         }
       ],
       "id": "2026-09-28-0"
     },
     {
-      "category": "attualita",
-      "tag": "Italia",
-      "title": "Suppletive a Reggio Calabria, Roscioli in testa",
-      "summary": "Dopo 11 sezioni scrutinate, il candidato di centrodestra Fabio Roscioli è in testa con 1.079 voti, seguito da Frank Benedetto con 618 voti. L'affluenza è del 22,34%, in calo rispetto al 49,40% di quattro anni fa.",
-      "context": "Le elezioni suppletive sono state indette per assegnare il seggio alla Camera dei deputati lasciato vacante da Francesco Cannizzaro, eletto sindaco di Reggio Calabria.",
+      "category": "curiosita",
+      "tag": "Rivoluzione francese",
+      "title": "L'albero della libertà che non era necessariamente un albero",
+      "summary": "Durante la Rivoluzione francese, l'albero della libertà divenne un simbolo centrale. Un dettaglio sorprendente è che un decreto del 1792 stabiliva che non dovesse essere una vera pianta. Poteva essere un semplice palo di legno decorato con nastri tricolori e sormontato da un berretto frigio rosso, facilitando la diffusione del simbolo.",
+      "context": "Questa curiosità rivela come la Rivoluzione francese utilizzasse simboli altamente ritualizzati e facili da replicare per catturare l'immaginario collettivo e trasformare le piazze in spazi di adesione politica.",
       "sources": [
         {
-          "name": "ANSA",
-          "url": "https://www.ansa.it/sito/notizie/politica/2026/09/28/suppletive-reggio-calabria-seggi-aperti-alle-7-chiudono-alle-15_a63e6693-4c61-4c65-82d4-be0b74ae1210.html"
-        },
-        {
-          "name": "Rai News",
-          "url": "https://www.rainews.it/articoli/2026/09/elezioni-suppletive-affluenza-risultati-collegio-reggio-calabria-e10b71ca-b489-4137-af87-7ce0a034efa6.html"
-        },
-        {
-          "name": "Google News Italia",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT0wyeTBUN1lsTmE0N1Z1UmJWeFpLMFFNLXRRaUdITF93TTdnWWtIZ0xZTURDbFZDbVlwYWNkaDVnd0x5d280NUFlVDNMTzM5bmhuUk50LTBwS24ybEZwYzJSSkhTLVBDdjFpeWpGb09yMTA0QnhPLXgxN1VCUkl3em5rZ1o3ZUdtMWZOanc1cUNMbjdTUXV3SzAzZVM0U3NJdUVXLVdyV29BSF9qd0lqTUpQSExIWUNMZHpiLU9DQlrSAcYBQVVfeXFMTnpGUVF0M05pUWJta2Qyb1BkSXh6NF9JOE8yRDNLemtDdzlqem1KZ3BnUGFWVFc5dkt6VElPWXVIX1NNTG1YamRDYThxRHllU2VvTnBtZHJXR29QNlZJMjBWbVVMZ3dueXMyQU1JQTl5OVFwaGgyUHRJdXBkanQ5NjdZZjVqeF9wTnRPOWRlQXJibEVtXzNhOWZDUjR4aWFYVy1oYlNfblJsMk0wcjZuT0JZXzZyNUZTeExrcmVNTDBYUnlmMDNB?oc=5"
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Albero_della_libert%C3%A0"
         }
       ],
       "image": {
-        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/24/41fd2e00b96c60345337371e3c8ec32f.jpg",
-        "credit": "ANSA",
-        "link": "https://www.ansa.it/sito/notizie/politica/2026/09/28/suppletive-reggio-calabria-seggi-aperti-alle-7-chiudono-alle-15_a63e6693-4c61-4c65-82d4-be0b74ae1210.html"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Freiheitsbaum.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Freiheitsbaum.jpg"
       },
       "quiz": [
         {
-          "question": "Quale candidato è in testa dopo 11 sezioni scrutinate alle elezioni suppletive di Reggio Calabria?",
+          "question": "Cosa stabiliva il decreto del 1792 riguardo alla natura dell'albero della libertà?",
           "options": [
-            "Fabio Roscioli",
-            "Frank Benedetto",
-            "Francesco Toscano",
-            "Domenico Giannetta"
+            "Era obbligatorio utilizzare un acero del Canada",
+            "Poteva essere un semplice palo di legno adornato con nastri tricolori e un berretto frigio",
+            "Doveva essere una pianta viva per garantire la continuità del simbolo",
+            "Doveva essere un albero di cartone dipinto solo per feste effimere"
           ],
-          "answer": 0,
-          "explanation": "Fabio Roscioli è in testa con 1.079 voti"
+          "answer": 1,
+          "explanation": "Il decreto della Convenzione del 1792 specificava che il simbolo non doveva necessariamente essere una pianta reale, ma poteva essere un semplice palo di legno con i colori tricolori e il berretto frigio."
         }
       ],
       "id": "2026-09-28-1"
-    },
-    {
-      "category": "interessi",
-      "tag": "Tech e AI",
-      "title": "Anthropic e la sicurezza dell'AI",
-      "summary": "Anthropic, l'azienda dietro il chatbot Claude, sta per quotarsi in borsa con un valore di mercato stimato tra 1,5 e 2 trilioni di dollari. La società ha anche un deadline autodeterminato per lo sviluppo di una tecnologia di sicurezza per l'AI, il 30 settembre 2026.",
-      "context": "La sicurezza dell'AI è un tema sempre più rilevante, soprattutto con l'aumento dell'uso di tecnologie di intelligenza artificiale nella vita quotidiana.",
-      "sources": [
-        {
-          "name": "BGR on MSN",
-          "url": "https://www.msn.com/en-us/news/other/anthropic-owns-claude-but-who-owns-anthropic/ar-AA2d7As2"
-        },
-        {
-          "name": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/anthropic-ipo-etf-inclusion/"
-        },
-        {
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-self-imposed-safety-deadline-103708422.html"
-        }
-      ],
-      "image": {
-        "url": "https://static.cryptobriefing.com/wp-content/uploads/2026/09/28074546/library-anthropic-set-for-potential-rapid-inclusion-in-major-etf-800x450.png",
-        "credit": "Crypto Briefing",
-        "link": "https://cryptobriefing.com/anthropic-ipo-etf-inclusion/"
-      },
-      "quiz": [
-        {
-          "question": "Qual è il valore di mercato stimato di Anthropic in occasione della sua quotazione in borsa?",
-          "options": [
-            "500 miliardi di dollari",
-            "5 trilioni di dollari",
-            "10 trilioni di dollari",
-            "1-2 trilioni di dollari"
-          ],
-          "answer": 3,
-          "explanation": "Il valore di mercato stimato di Anthropic è tra 1,5 e 2 trilioni di dollari."
-        }
-      ],
-      "topic": "tech",
-      "id": "2026-09-28-2"
     }
   ]
 }
