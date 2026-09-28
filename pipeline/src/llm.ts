@@ -47,6 +47,7 @@ interface ProviderSpec {
   name: string;
   /** Variabile d'ambiente con la chiave; il provider è attivo solo se è impostata. */
   keyEnv: string;
+  /** Uno o più modelli separati da virgola, provati in ordine con la stessa chiave. */
   modelEnv: string;
   defaultModel: string;
   endpoint: string;
@@ -82,7 +83,8 @@ const SPECS: ProviderSpec[] = [
     name: 'NVIDIA',
     keyEnv: 'NVIDIA_API_KEY',
     modelEnv: 'NVIDIA_MODEL',
-    defaultModel: 'mistralai/mistral-large',
+    // Modelli disponibili con l'accesso gratuito; se uno non c'è per l'account (404) si passa al successivo.
+    defaultModel: 'nvidia/nemotron-3-ultra-550b-a55b,nvidia/nemotron-3-super-120b-a12b',
     endpoint: 'https://integrate.api.nvidia.com/v1/chat/completions',
     jsonMode: false,
     minIntervalMs: 1500,
@@ -91,8 +93,8 @@ const SPECS: ProviderSpec[] = [
     name: 'OpenRouter',
     keyEnv: 'OPENROUTER_API_KEY',
     modelEnv: 'OPENROUTER_MODEL',
-    // I modelli ":free" sono gratuiti ma con limiti giornalieri; cambiano spesso nel tempo.
-    defaultModel: 'google/gemma-4-31b-it:free',
+    // "openrouter/free" smista tra i modelli gratuiti disponibili; i singoli ":free" sono spesso congestionati.
+    defaultModel: 'openrouter/free,google/gemma-4-31b-it:free',
     endpoint: 'https://openrouter.ai/api/v1/chat/completions',
     jsonMode: false,
     minIntervalMs: 3000,
@@ -131,23 +133,28 @@ function providers(): Provider[] {
   for (const spec of SPECS) {
     const apiKey = process.env[spec.keyEnv];
     if (!apiKey) continue;
-    const model = process.env[spec.modelEnv] || spec.defaultModel;
-    if (spec.keyEnv === 'LLM_API_KEY' && (!process.env.LLM_BASE_URL || !model)) {
+    const models = (process.env[spec.modelEnv] || spec.defaultModel)
+      .split(',')
+      .map((m) => m.trim())
+      .filter(Boolean);
+    if (spec.keyEnv === 'LLM_API_KEY' && (!process.env.LLM_BASE_URL || models.length === 0)) {
       console.warn('⚠️  LLM_API_KEY impostata ma mancano LLM_BASE_URL o LLM_MODEL: provider personalizzato ignorato');
       continue;
     }
-    list.push({
-      name: spec.name,
-      endpoint: spec.endpoint,
-      apiKey,
-      model,
-      jsonMode: spec.jsonMode,
-      minIntervalMs: spec.minIntervalMs,
-      lastCall: 0,
-      cooldownUntil: 0,
-      disabled: false,
-      strikes: 0,
-    });
+    for (const model of models) {
+      list.push({
+        name: spec.name,
+        endpoint: spec.endpoint,
+        apiKey,
+        model,
+        jsonMode: spec.jsonMode,
+        minIntervalMs: spec.minIntervalMs,
+        lastCall: 0,
+        cooldownUntil: 0,
+        disabled: false,
+        strikes: 0,
+      });
+    }
   }
   if (list.length === 0) {
     throw new Error(`Nessun LLM configurato: imposta almeno una tra ${SPECS.map((s) => s.keyEnv).join(', ')}`);
@@ -204,12 +211,12 @@ async function call<T>(p: Provider, system: string, user: string, temperature: n
 
   if (res.status === 429) {
     const body = (await res.text()).trim().slice(0, 200);
-    if (QUOTA_EXHAUSTED.test(body)) throw new UnavailableError(`${p.name} 429 (quota esaurita): ${body}`);
-    throw new RateLimitError(`${p.name} 429: ${body}`, retryAfterMs(res));
+    if (QUOTA_EXHAUSTED.test(body)) throw new UnavailableError(`${p.name} ${p.model} 429 (quota esaurita): ${body}`);
+    throw new RateLimitError(`${p.name} ${p.model} 429: ${body}`, retryAfterMs(res));
   }
   if (res.status >= 500) throw new RateLimitError(`${p.name} ${res.status}`, 5000);
   // Altri 4xx: chiave non valida, credito finito, modello inesistente… si passa al provider successivo.
-  if (!res.ok) throw new UnavailableError(`${p.name} ${res.status}: ${(await res.text()).trim().slice(0, 160)}`);
+  if (!res.ok) throw new UnavailableError(`${p.name} ${p.model} ${res.status}: ${(await res.text()).trim().slice(0, 160)}`);
 
   const data = (await res.json()) as { choices: { message: { content: string } }[] };
   const content = data.choices[0]?.message.content ?? '';
