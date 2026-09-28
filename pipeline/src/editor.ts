@@ -32,7 +32,8 @@ export interface StoryPick {
 }
 
 export interface Selection {
-  attualita: StoryPick[];
+  mondo: StoryPick[];
+  italia: StoryPick[];
   /** Candidati per argomento, dal migliore al peggiore. */
   topics: Record<string, StoryPick[]>;
 }
@@ -52,7 +53,8 @@ function listItems(items: NewsItem[]) {
  */
 export async function selectStories(config: Config, items: NewsItem[], recentTitles: string[]): Promise<Selection> {
   const news = items.filter((i) => i.group === 'news');
-  const nNews = config.edition.attualita + CANDIDATE_EXTRA;
+  const nMondo = config.edition.mondo + CANDIDATE_EXTRA;
+  const nItalia = config.edition.italia + CANDIDATE_EXTRA;
   const nTopic = config.edition.perTopic + CANDIDATE_EXTRA;
 
   const topicBlocks = config.topics
@@ -64,8 +66,12 @@ export async function selectStories(config: Config, items: NewsItem[], recentTit
     .join('\n\n');
 
   const prompt = `Scegli le notizie di oggi, in ordine di importanza:
-- per l'ATTUALITÀ (politica, esteri, economia, società, scienza): ${nNews} storie tra gli articoli "news".
+- MONDO: ${nMondo} storie di attualità internazionale (esteri, geopolitica, economia globale) tra gli articoli "news".
+- ITALIA: ${nItalia} storie di attualità italiana (politica, economia, società) tra gli articoli "news".
+  Una storia va in una sola delle due liste.
 - per OGNI ARGOMENTO: ${nTopic} storie tra gli articoli di quell'argomento. Solo notizie vere e specifiche (uscite, annunci, risultati, eventi), non recensioni, liste, guide o articoli generici.
+
+Varia i soggetti: non scegliere la stessa persona, artista o azienda già protagonista nei giorni scorsi, a meno di una notizia davvero importante. Un argomento è un'area, non un singolo personaggio.
 
 Storie già pubblicate nei giorni scorsi (non ripeterle, a meno di sviluppi importanti):
 ${recentTitles.map((t) => `- ${t}`).join('\n') || '- nessuna'}
@@ -77,11 +83,13 @@ ${topicBlocks}
 
 Per ogni storia indica gli id di TUTTI gli articoli che ne parlano (max 5), il più informativo per primo.
 Formato:
-{"attualita":[{"title":"titolo breve della storia","tag":"Mondo|Italia|Economia|Scienza|Società","itemIds":[1,2]}],
+{"mondo":[{"title":"titolo breve della storia","itemIds":[1,2]}],
+ "italia":[{"title":"...","itemIds":[4]}],
  "topics":{"<id argomento>":[{"title":"...","itemIds":[3]}]}}`;
 
   const res = await chatJson<{
-    attualita?: { title: string; tag: string; itemIds: number[] }[];
+    mondo?: { title: string; itemIds: number[] }[];
+    italia?: { title: string; itemIds: number[] }[];
     topics?: Record<string, { title: string; itemIds: number[] }[]>;
   }>(EDITOR_SYSTEM, prompt, 0.3);
 
@@ -97,15 +105,17 @@ Formato:
 
   const topics: Record<string, StoryPick[]> = {};
   for (const t of config.topics) topics[t.id] = resolve(res.topics?.[t.id], t.label);
-  return { attualita: resolve(res.attualita, 'Attualità'), topics };
+  return { mondo: resolve(res.mondo, 'Mondo'), italia: resolve(res.italia, 'Italia'), topics };
 }
 
-/** Una storia è raccontabile se c'è il testo di almeno un articolo o estratti sufficienti. */
-export function hasEnoughMaterial(story: StoryPick, articles: Map<string, Article>) {
-  if (story.items.some((i) => (articles.get(i.link)?.text?.length ?? 0) > 500)) return true;
-  const snippets = story.items.reduce((sum, i) => sum + i.snippet.length, 0);
-  return snippets >= 350;
+/** Quanti caratteri di materiale vero (testo degli articoli o estratti) ha una storia. */
+export function materialSize(story: StoryPick, articles: Map<string, Article>) {
+  return story.items.reduce((sum, i) => sum + Math.max(articles.get(i.link)?.text?.length ?? 0, i.snippet.length), 0);
 }
+
+/** Materiale sufficiente per una buona card; sotto MIN_MATERIAL non si scrive affatto. */
+export const GOOD_MATERIAL = 500;
+export const MIN_MATERIAL = 150;
 
 /** Sceglie l'evento storico del giorno e la voce di Wikipedia da cui raccontarlo. */
 export async function pickHistoryEvent(

@@ -17,7 +17,8 @@ export interface TopicConfig {
 
 export interface Config {
   edition: {
-    attualita: number;
+    mondo: number;
+    italia: number;
     perTopic: number;
     storia: number;
     curiosita: number;

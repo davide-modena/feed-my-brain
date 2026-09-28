@@ -7,23 +7,29 @@
  *   --force   rigenera anche se l'edizione di oggi esiste già
  *   --no-notify
  */
-import { existsSync } from 'node:fs';
+import { appendFileSync, existsSync } from 'node:fs';
 import type { Card, Edition } from '../../shared/types.ts';
 import { loadConfig } from './config.ts';
 import {
-  hasEnoughMaterial,
+  GOOD_MATERIAL,
+  MIN_MATERIAL,
+  materialSize,
   pickCuriosity,
   pickHistoryEvent,
   selectStories,
   writeNewsCard,
   writeWikiCard,
+  type Selection,
+  type StoryPick,
 } from './editor.ts';
-import { activeProvider } from './llm.ts';
+import { activeProvider, llmUsage } from './llm.ts';
 import { collectNews, fetchArticle, type Article } from './news.ts';
 import { notify } from './notify.ts';
 import { editionPath, recentCardTitles, writeEdition } from './store.ts';
 import { pickRandom, romeDate } from './util.ts';
-import { onThisDay, pageExtract, pageLinks } from './wikipedia.ts';
+import { onThisDay, pageExtract, pageLinks, type HistoryEvent } from './wikipedia.ts';
+
+type DraftCard = Omit<Card, 'id'>;
 
 const args = new Set(process.argv.slice(2));
 const dry = args.has('--dry');
@@ -36,7 +42,13 @@ if (!dry && !args.has('--force') && existsSync(editionPath(date))) {
 }
 
 console.log(`🗞️  Raccolta fonti per il ${date}…`);
-const [items, events] = await Promise.all([collectNews(config), onThisDay(date).catch(() => [])]);
+const [items, events] = await Promise.all([
+  collectNews(config),
+  onThisDay(date).catch((err): HistoryEvent[] => {
+    console.warn(`⚠️  Wikipedia "accadde oggi" non disponibile: ${(err as Error).message}`);
+    return [];
+  }),
+]);
 const groups = Object.groupBy(items, (i) => i.group);
 for (const [group, list] of Object.entries(groups)) console.log(`   ${group}: ${list?.length ?? 0} articoli`);
 console.log(`   storia: ${events.length} eventi`);
@@ -49,95 +61,159 @@ if (dry) {
 console.log(`🤖 LLM: ${activeProvider()}`);
 const recent = recentCardTitles();
 const quizCount = config.edition.quizPerCard;
-const cards: Omit<Card, 'id'>[] = [];
+const written = (list: DraftCard[][]) => list.flat().map((c) => c.title);
 
-// Un errore su una singola card non deve far saltare l'intera edizione.
-async function attempt(label: string, fn: () => Promise<void>) {
-  try {
-    await fn();
-  } catch (err) {
-    console.error(`❌ ${label}: ${(err as Error).message}`);
-  }
+// --- Selezione e materiale per le notizie -------------------------------------------------
+
+let selection: Selection = { mondo: [], italia: [], topics: {} };
+try {
+  console.log('🧑‍💼 Selezione delle storie…');
+  selection = await selectStories(config, items, recent);
+} catch (err) {
+  console.error(`❌ Selezione delle storie fallita: ${(err as Error).message}`);
 }
 
-await attempt('Attualità e argomenti', async () => {
-  console.log('🧑‍💼 Selezione delle storie…');
-  const selection = await selectStories(config, items, recent);
-  const sections = [
-    { category: 'attualita' as const, topic: undefined, want: config.edition.attualita, candidates: selection.attualita },
-    ...config.topics.map((t) => ({
-      category: 'interessi' as const,
-      topic: t.id,
-      want: config.edition.perTopic,
-      candidates: selection.topics[t.id] ?? [],
-    })),
-  ];
+const articles = new Map<string, Article>();
+const allCandidates = [selection.mondo, selection.italia, ...Object.values(selection.topics)].flat();
+const links = [...new Set(allCandidates.flatMap((c) => c.items.slice(0, 3).map((i) => i.link)))];
+await Promise.all(links.map(async (link) => articles.set(link, await fetchArticle(link))));
 
-  const links = [
-    ...new Set(sections.flatMap((s) => s.candidates.flatMap((c) => c.items.slice(0, 3).map((i) => i.link)))),
-  ];
-  const articles = new Map<string, Article>();
-  await Promise.all(links.map(async (link) => articles.set(link, await fetchArticle(link))));
+// --- Sezioni ------------------------------------------------------------------------------
 
-  for (const section of sections) {
-    let written = 0;
-    for (const story of section.candidates) {
-      if (written >= section.want) break;
-      if (!hasEnoughMaterial(story, articles)) {
-        console.log(`⏭️  Salto "${story.title}": solo titoli, niente testo su cui scrivere`);
-        continue;
+interface Section {
+  key: string;
+  label: string;
+  want: number;
+  /** Scrive la prossima card della sezione; null se non c'è niente di buono da raccontare. */
+  next: () => Promise<DraftCard | null>;
+  cards: DraftCard[];
+  notes: string[];
+}
+
+/** Scorre i candidati in ordine: prima quelli con materiale pieno, poi il migliore disponibile. */
+function newsSection(key: string, label: string, want: number, candidates: StoryPick[], topic?: string): Section {
+  const queue = [...candidates];
+  const section: Section = {
+    key,
+    label,
+    want,
+    cards: [],
+    notes: [],
+    async next() {
+      if (queue.length === 0) {
+        section.notes.push('nessuna storia candidata');
+        return null;
       }
-      await attempt(story.title, async () => {
-        console.log(`✍️  [${section.topic ?? 'attualità'}] ${story.title}`);
-        const card = await writeNewsCard(story, section.category, articles, quizCount);
-        cards.push(section.topic ? { ...card, topic: section.topic } : card);
-        written++;
-      });
-    }
-  }
-});
+      const good = queue.findIndex((s) => materialSize(s, articles) >= GOOD_MATERIAL);
+      let index = good;
+      if (index === -1) {
+        // Nessuna storia con testo pieno: meglio una card breve sulla più documentata che niente.
+        const sizes = queue.map((s) => materialSize(s, articles));
+        index = sizes.indexOf(Math.max(...sizes));
+        if (sizes[index] < MIN_MATERIAL) {
+          section.notes.push('solo titoli, nessun testo su cui scrivere');
+          queue.length = 0;
+          return null;
+        }
+      }
+      const [story] = queue.splice(index, 1);
+      console.log(`✍️  [${label}] ${story.title}`);
+      const card = await writeNewsCard(story, topic ? 'interessi' : 'attualita', articles, quizCount);
+      return topic ? { ...card, topic } : card;
+    },
+  };
+  return section;
+}
 
-for (let n = 0; n < config.edition.storia; n++) {
-  await attempt('Storia', async () => {
-    const pick = await pickHistoryEvent(events, [...recent, ...cards.map((c) => c.title)]);
-    if (!pick) return;
-    const article = await pageExtract(pick.page);
-    if (!article) throw new Error(`voce "${pick.page}" non trovata`);
-    const day = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(
-      new Date(`${date}T12:00:00Z`),
-    );
-    console.log(`📜 ${pick.event.year}: ${pick.page}`);
-    cards.push(
-      await writeWikiCard(
+const day = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(
+  new Date(`${date}T12:00:00Z`),
+);
+
+const sections: Section[] = [
+  newsSection('mondo', 'Mondo', config.edition.mondo, selection.mondo),
+  newsSection('italia', 'Italia', config.edition.italia, selection.italia),
+  ...config.topics.map((t) => newsSection(t.id, t.label, config.edition.perTopic, selection.topics[t.id] ?? [], t.id)),
+  {
+    key: 'storia',
+    label: 'Accadde oggi',
+    want: config.edition.storia,
+    cards: [],
+    notes: [],
+    async next() {
+      const pick = await pickHistoryEvent(events, [...recent, ...written(sections.map((s) => s.cards))]);
+      if (!pick) return null;
+      const article = await pageExtract(pick.page);
+      if (!article) throw new Error(`voce "${pick.page}" non trovata`);
+      console.log(`📜 ${pick.event.year}: ${pick.page}`);
+      return writeWikiCard(
         article,
         'storia',
         `${day} ${pick.event.year}`,
         `Racconta questo evento accaduto il ${day} ${pick.event.year}: "${pick.event.text}". Nel titolo non serve la data. Nel context spiega cosa ha cambiato e cosa ha lasciato in eredità.`,
         quizCount,
-      ),
-    );
-  });
-}
-
-for (let n = 0; n < config.edition.curiosita; n++) {
-  await attempt('Curiosità', async () => {
-    const [topic] = pickRandom(config.history.topics, 1);
-    const links = pickRandom(await pageLinks(topic), 120);
-    const page = await pickCuriosity(topic, links, [...recent, ...cards.map((c) => c.title)]);
-    const article = await pageExtract(page);
-    if (!article) throw new Error(`voce "${page}" non trovata`);
-    console.log(`💡 ${topic} → ${article.title}`);
-    cards.push(
-      await writeWikiCard(
+      );
+    },
+  },
+  {
+    key: 'curiosita',
+    label: 'Curiosità',
+    want: config.edition.curiosita,
+    cards: [],
+    notes: [],
+    async next() {
+      const [topic] = pickRandom(config.history.topics, 1);
+      const links = pickRandom(await pageLinks(topic), 120);
+      const page = await pickCuriosity(topic, links, [...recent, ...written(sections.map((s) => s.cards))]);
+      const article = await pageExtract(page);
+      if (!article) throw new Error(`voce "${page}" non trovata`);
+      console.log(`💡 ${topic} → ${article.title}`);
+      return writeWikiCard(
         article,
         'curiosita',
         topic,
         `Scrivi una curiosità storica a partire da questa voce (collegata a "${topic}"). Punta sul dettaglio più sorprendente e poco noto, spiegandolo bene. Il titolo deve incuriosire senza essere clickbait. Nel context collega la curiosità a "${topic}".`,
         quizCount,
-      ),
-    );
-  });
+      );
+    },
+  },
+];
+
+// --- Generazione a giri: prima una card per ogni sezione, poi le eventuali in più ----------
+// Così, se l'LLM esaurisce i limiti a metà, ogni sezione ha comunque la sua card.
+
+const rounds = Math.max(...sections.map((s) => s.want));
+for (let round = 0; round < rounds; round++) {
+  for (const section of sections) {
+    if (round >= section.want) continue;
+    try {
+      const card = await section.next();
+      if (card) section.cards.push(card);
+    } catch (err) {
+      const message = (err as Error).message;
+      section.notes.push(message.slice(0, 200));
+      console.error(`❌ ${section.label}: ${message}`);
+    }
+  }
 }
+
+// --- Salvataggio e report -----------------------------------------------------------------
+
+const cards = sections.flatMap((s) => s.cards);
+
+const report = [
+  `### Edizione ${date}`,
+  '',
+  '| Sezione | Card | Note |',
+  '|---|---|---|',
+  ...sections.map(
+    (s) => `| ${s.label} | ${s.cards.map((c) => c.title).join('<br>') || '—'} | ${s.notes.join('; ').replace(/\|/g, '/')} |`,
+  ),
+  '',
+  `Chiamate LLM riuscite: ${Object.entries(llmUsage()).map(([k, v]) => `${k} ${v}`).join(', ') || 'nessuna'}`,
+].join('\n');
+console.log(`\n${report}\n`);
+// Su GitHub Actions il report compare nella pagina del run, visibile anche senza login.
+if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${report}\n`);
 
 if (cards.length === 0) {
   console.error('❌ Nessuna card generata, edizione non salvata');

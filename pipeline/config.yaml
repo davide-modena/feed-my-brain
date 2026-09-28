@@ -2,7 +2,8 @@
 # Modifica questo file per cambiare fonti, argomenti e composizione dell'edizione.
 
 edition:
-  attualita: 2      # storie di attualità (per tutti)
+  mondo: 1          # attualità internazionale (per tutti)
+  italia: 1         # attualità italiana (per tutti)
   perTopic: 1       # storie per ogni argomento del catalogo
   storia: 1         # accadde oggi (Wikipedia)
   curiosita: 1      # curiosità storica (Wikipedia)
@@ -41,16 +42,20 @@ topics:
 
   - id: hiphop
     label: Hip hop
-    description: hip hop americano, nuovi album, uscite e tour (es. Kanye West)
+    description: hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista
     default: true
     queries:
-      - query: Kanye West
+      - query: hip hop new album
         lang: en
-      - query: hip hop album release
+      - query: rapper
         lang: en
     feeds:
+      - name: XXL
+        url: https://www.xxlmag.com/feed/
       - name: HipHopDX
         url: https://hiphopdx.com/rss/news.xml
+      - name: Billboard
+        url: https://www.billboard.com/c/music/rb-hip-hop/feed/
 
   - id: scienza
     label: Scienza
