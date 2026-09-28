@@ -1,7 +1,11 @@
 /**
  * Client LLM con fallback tra più provider compatibili con l'API di OpenAI (vedi SPECS).
- * Un 429 mette il provider in pausa per qualche secondo invece di scartarlo: i piani
- * gratuiti hanno limiti al minuto, non solo mensili.
+ *
+ * Strategia:
+ * - si resta sul provider che sta funzionando ("sticky"), senza tornare ogni volta al primo;
+ * - un 429 per limite al minuto mette il provider in pausa, con pause sempre più lunghe se si ripete;
+ * - un 429 per quota o credito esauriti, un 4xx o un endpoint irraggiungibile lo scartano per
+ *   tutta l'esecuzione.
  */
 import { sleep } from './util.ts';
 
@@ -18,6 +22,8 @@ interface Provider {
   cooldownUntil: number;
   /** Chiave non valida o credito esaurito: non si riprova più in questa esecuzione. */
   disabled: boolean;
+  /** Errori consecutivi: allungano la pausa successiva. */
+  strikes: number;
 }
 
 /** Limite temporaneo: riprovare dopo `retryMs`. */
@@ -31,8 +37,11 @@ class RateLimitError extends Error {
 class UnavailableError extends Error {}
 
 const DEFAULT_COOLDOWN_MS = 20_000;
+const MAX_COOLDOWN_MS = 5 * 60_000;
 const MAX_WAIT_MS = 60_000;
-const MAX_ATTEMPTS = 8;
+const MAX_ATTEMPTS = 10;
+/** Nel testo di un 429: indica una quota giornaliera/mensile o un credito finiti, non un limite al minuto. */
+const QUOTA_EXHAUSTED = /quota|credit|billing|insufficient|per day|daily|monthly|per month|free-models-per-day/i;
 
 interface ProviderSpec {
   name: string;
@@ -137,6 +146,7 @@ function providers(): Provider[] {
       lastCall: 0,
       cooldownUntil: 0,
       disabled: false,
+      strikes: 0,
     });
   }
   if (list.length === 0) {
@@ -146,6 +156,8 @@ function providers(): Provider[] {
 }
 
 let chain: Provider[] | null = null;
+/** Ultimo provider che ha risposto bene: si continua con lui finché funziona. */
+let current: Provider | null = null;
 const usage: Record<string, number> = {};
 
 /** Estrae il primo oggetto JSON dal testo (tollera ```json e frasi di contorno). */
@@ -191,7 +203,9 @@ async function call<T>(p: Provider, system: string, user: string, temperature: n
   }
 
   if (res.status === 429) {
-    throw new RateLimitError(`${p.name} 429: ${(await res.text()).trim().slice(0, 160)}`, retryAfterMs(res));
+    const body = (await res.text()).trim().slice(0, 200);
+    if (QUOTA_EXHAUSTED.test(body)) throw new UnavailableError(`${p.name} 429 (quota esaurita): ${body}`);
+    throw new RateLimitError(`${p.name} 429: ${body}`, retryAfterMs(res));
   }
   if (res.status >= 500) throw new RateLimitError(`${p.name} ${res.status}`, 5000);
   // Altri 4xx: chiave non valida, credito finito, modello inesistente… si passa al provider successivo.
@@ -199,8 +213,15 @@ async function call<T>(p: Provider, system: string, user: string, temperature: n
 
   const data = (await res.json()) as { choices: { message: { content: string } }[] };
   const content = data.choices[0]?.message.content ?? '';
+  let parsed: T;
+  try {
+    parsed = extractJson<T>(content);
+  } catch {
+    // Risposta non in JSON: si prova con un altro provider per un po'.
+    throw new RateLimitError(`${p.name}: risposta non JSON (${content.slice(0, 80).replace(/\s+/g, ' ')})`, 60_000);
+  }
   usage[p.name] = (usage[p.name] ?? 0) + 1;
-  return extractJson<T>(content);
+  return parsed;
 }
 
 export async function chatJson<T>(system: string, user: string, temperature = 0.4): Promise<T> {
@@ -211,9 +232,10 @@ export async function chatJson<T>(system: string, user: string, temperature = 0.
     const available = chain.filter((p) => !p.disabled);
     if (available.length === 0) throw lastError ?? new Error('Nessun LLM disponibile');
 
-    // Il primo provider non in pausa, nell'ordine di preferenza.
+    // Il provider corrente se è pronto, altrimenti il primo pronto nell'ordine di preferenza.
     const now = Date.now();
-    const p = available.find((x) => x.cooldownUntil <= now);
+    const ready = available.filter((x) => x.cooldownUntil <= now);
+    const p = current && ready.includes(current) ? current : ready[0];
     if (!p) {
       const next = Math.min(...available.map((x) => x.cooldownUntil));
       const wait = Math.min(next - now, MAX_WAIT_MS);
@@ -223,17 +245,24 @@ export async function chatJson<T>(system: string, user: string, temperature = 0.
     }
 
     try {
-      return await call<T>(p, system, user, temperature);
+      const result = await call<T>(p, system, user, temperature);
+      if (current !== p) console.log(`🤖 Uso ${p.name} (${p.model})`);
+      current = p;
+      p.strikes = 0;
+      return result;
     } catch (err) {
       lastError = err as Error;
+      if (current === p) current = null;
       if (err instanceof RateLimitError) {
-        p.cooldownUntil = Date.now() + err.retryMs;
-        console.warn(`↪️  ${err.message} (pausa ${Math.ceil(err.retryMs / 1000)}s)`);
+        p.strikes++;
+        const pause = Math.min(err.retryMs * 2 ** (p.strikes - 1), MAX_COOLDOWN_MS);
+        p.cooldownUntil = Date.now() + pause;
+        console.warn(`↪️  ${err.message} (pausa ${Math.ceil(pause / 1000)}s)`);
       } else if (err instanceof UnavailableError) {
         p.disabled = true;
         console.warn(`↪️  ${err.message}: disattivato per questa esecuzione`);
-      } else if (attempt >= 3) {
-        throw err; // risposta non valida ripetuta: inutile insistere
+      } else {
+        throw err;
       }
     }
   }
