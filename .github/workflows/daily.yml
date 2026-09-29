@@ -3,8 +3,11 @@ name: Edizione quotidiana
 on:
   schedule:
     # 04:30 UTC = 06:30 in Italia con l'ora legale (05:30 in inverno).
-    # GitHub può ritardare i cron anche di parecchi minuti.
+    # GitHub ritarda i cron e a volte li salta: ci sono più tentativi. Se l'edizione del giorno
+    # esiste già, la pipeline non rigenera niente e la notifica non parte.
     - cron: '30 4 * * *'
+    - cron: '0 5 * * *'
+    - cron: '45 5 * * *'
   workflow_dispatch:
     inputs:
       force:
@@ -29,6 +32,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      generated: ${{ steps.save.outputs.generated }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -59,12 +64,19 @@ jobs:
           LLM_NAME: ${{ vars.LLM_NAME }}
 
       - name: Salva l'edizione nel repo
+        id: save
         if: env.GENERATE == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/editions
-          git diff --cached --quiet || (git commit -m "Edizione del $(TZ=Europe/Rome date +%F)" && git push)
+          if git diff --cached --quiet; then
+            echo "Nessuna edizione nuova"
+          else
+            git commit -m "Edizione del $(TZ=Europe/Rome date +%F)" && git push
+            # Solo un'edizione nuova fa partire la notifica (i tentativi successivi non la ripetono).
+            echo "generated=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Build della PWA
         run: npm run build
@@ -88,8 +100,8 @@ jobs:
         uses: actions/deploy-pages@v4
 
   notify:
-    needs: deploy
-    if: github.event_name != 'push'
+    needs: [build, deploy]
+    if: needs.build.outputs.generated == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
