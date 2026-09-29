@@ -34,6 +34,8 @@ export interface Card {
   image?: CardImage;
   /** Per le card "interessi": id dell'argomento del catalogo (vedi Edition.topics). */
   topic?: string;
+  /** Sezione dell'edizione: "mondo", "italia", id di un argomento, "storia" o "curiosita". */
+  section?: string;
   quiz: QuizQuestion[];
 }
 

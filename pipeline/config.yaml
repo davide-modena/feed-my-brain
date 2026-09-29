@@ -1,12 +1,17 @@
 # Configurazione di Feed My Brain.
 # Modifica questo file per cambiare fonti, argomenti e composizione dell'edizione.
+#
+# Regola d'oro per fonti, query e descrizioni: restare GENERICI. Un nome proprio qui
+# (un'azienda, un artista, un evento) diventa il protagonista fisso di ogni edizione.
 
+# Quante card generare ogni giorno per sezione. L'edizione ne contiene più di quante ne legga
+# una persona: nell'app ognuno sceglie quante vederne per sezione (fino a 10 in tutto).
 edition:
-  mondo: 1          # attualità internazionale (per tutti)
-  italia: 1         # attualità italiana (per tutti)
-  perTopic: 1       # storie per ogni argomento del catalogo
-  storia: 1         # accadde oggi (Wikipedia)
-  curiosita: 1      # curiosità storica (Wikipedia)
+  mondo: 2          # attualità internazionale
+  italia: 2         # attualità italiana
+  perTopic: 2       # per ogni argomento del catalogo
+  storia: 2         # accadde oggi (Wikipedia)
+  curiosita: 3      # curiosità storiche (Wikipedia)
   quizPerCard: 1    # domande per card, raccolte nel quiz finale
 
 # Feed per l'attualità generale
@@ -22,19 +27,22 @@ news:
   - name: Google News Italia # solo titoli: utile per capire cosa è importante oggi
     url: https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it
 
-# Catalogo degli argomenti. Ogni giorno viene scritta una card per ciascuno;
-# nell'app ognuno sceglie quali seguire. `default: true` = attivo al primo avvio.
-# Le query diventano ricerche su Bing News (link diretti e un estratto dell'articolo).
+# Catalogo degli argomenti: nell'app ognuno sceglie quali seguire. `default: true` = attivo al
+# primo avvio. Le query diventano ricerche su Bing News (link diretti e un estratto dell'articolo).
 topics:
   - id: tech
     label: Tech e AI
-    description: tecnologia, intelligenza artificiale, nuovi modelli AI (Anthropic, OpenAI, Mistral...), big tech
+    description: tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto
     default: true
     queries:
-      - query: Anthropic Claude
+      - query: tecnologia
+      - query: artificial intelligence
         lang: en
-      - query: intelligenza artificiale
     feeds:
+      - name: ANSA Tecnologia
+        url: https://www.ansa.it/sito/notizie/tecnologia/tecnologia_rss.xml
+      - name: Ars Technica
+        url: https://feeds.arstechnica.com/arstechnica/index
       - name: The Verge
         url: https://www.theverge.com/rss/index.xml
       - name: Hacker News
@@ -59,40 +67,48 @@ topics:
 
   - id: scienza
     label: Scienza
-    description: scoperte scientifiche, medicina, clima, spazio
+    description: scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline
     queries:
       - query: scoperta scientifica
-      - query: NASA ESA spazio
+      - query: scientists study
+        lang: en
 
   - id: economia
     label: Economia
-    description: economia, mercati, lavoro, prezzi e bollette
+    description: economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)
     queries:
-      - query: economia Italia
-      - query: mercati finanziari
+      - query: economia
+    feeds:
+      - name: ANSA Economia
+        url: https://www.ansa.it/sito/notizie/economia/economia_rss.xml
 
   - id: cinema
     label: Cinema e serie TV
-    description: film, serie TV, uscite, festival e premi
+    description: cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)
     queries:
-      - query: film uscita cinema
-      - query: serie TV nuova stagione
+      - query: cinema film
+      - query: serie TV
+    feeds:
+      - name: ANSA Cinema
+        url: https://www.ansa.it/sito/notizie/cultura/cinema/cinema_rss.xml
 
   - id: sport
     label: Sport
-    description: calcio, Formula 1, tennis e grandi eventi sportivi
+    description: sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti
     queries:
-      - query: Serie A calcio
-      - query: Formula 1
+      - query: sport
+    feeds:
+      - name: ANSA Sport
+        url: https://www.ansa.it/sito/notizie/sport/sport_rss.xml
 
-# Argomenti da cui pescare le curiosità storiche (voci di Wikipedia italiana).
-history:
-  topics:
-    - Napoleone Bonaparte
-    - Impero romano
-    - Rinascimento
-    - Seconda guerra mondiale
-    - Guerra fredda
-    - Risorgimento
-    - Antico Egitto
-    - Rivoluzione francese
+# Curiosità storiche: si pesca a caso tra le voci migliori di Wikipedia italiana ("in vetrina"
+# e "di qualità") di queste aree, così epoche e luoghi variano da soli.
+curiosities:
+  areas:
+    - storia
+    - biografie
+    - archeologia
+    - arte
+    - filosofia
+    - religione
+    - antropologia

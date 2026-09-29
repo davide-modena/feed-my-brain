@@ -58,6 +58,17 @@ body {
   font: 16px/1.55 var(--font-ui);
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
+  /* Niente selezione di testo: i tocchi servono a sfogliare, e su Android il tocco su una
+     parola aprirebbe "Tocca per cercare" di Google. */
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+textarea,
+input {
+  -webkit-user-select: text;
+  user-select: text;
 }
 
 #app {
@@ -819,4 +830,50 @@ code {
 /* Su fondo scuro un bianco pieno abbaglia: grigio chiaro, come un pannello acceso. */
 [data-theme='nothing'] .card-figure.is-transparent {
   background: #e6e6e6;
+}
+
+/* Dosaggio delle card per sezione */
+.counts {
+  display: grid;
+}
+
+.count-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stepper span {
+  min-width: 1.2em;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.stepper button {
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 8px;
+  background: var(--card);
+  font-size: 1.15rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.stepper button:disabled,
+.chip:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+[data-theme='nothing'] .stepper button {
+  border-radius: 10px;
 }

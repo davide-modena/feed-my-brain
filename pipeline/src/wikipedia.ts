@@ -93,22 +93,37 @@ export async function wikiImage(subject: string): Promise<CardImage | null> {
   return null;
 }
 
-/** Voci collegate da una pagina (solo namespace principale, senza anni e liste). */
-export async function pageLinks(title: string): Promise<string[]> {
-  const params = new URLSearchParams({
-    action: 'query',
-    prop: 'links',
-    plnamespace: '0',
-    pllimit: 'max',
-    redirects: '1',
-    titles: title,
-    format: 'json',
-    formatversion: '2',
-  });
-  const data = await fetchJson<{ query: { pages: { links?: { title: string }[] }[] } }>(
-    `${API}?${params}`,
-  );
-  return (data.query.pages[0]?.links ?? [])
-    .map((l) => l.title)
-    .filter((t) => !/^\d/.test(t) && !/^(Lista|Elenco) /.test(t));
+/** Tutte le voci (namespace principale) di una categoria, seguendo la paginazione. */
+async function categoryPages(category: string): Promise<string[]> {
+  const titles: string[] = [];
+  let cont: string | undefined;
+  do {
+    const params = new URLSearchParams({
+      action: 'query',
+      list: 'categorymembers',
+      cmtitle: `Categoria:${category}`,
+      cmnamespace: '0',
+      cmlimit: 'max',
+      format: 'json',
+      formatversion: '2',
+      ...(cont && { cmcontinue: cont }),
+    });
+    const data = await fetchJson<{
+      query?: { categorymembers: { title: string }[] };
+      continue?: { cmcontinue: string };
+    }>(`${API}?${params}`);
+    titles.push(...(data.query?.categorymembers ?? []).map((m) => m.title));
+    cont = data.continue?.cmcontinue;
+  } while (cont);
+  return titles;
+}
+
+/**
+ * Le voci migliori di Wikipedia italiana ("in vetrina" e "di qualità") per le aree indicate,
+ * es. "storia", "biografie", "arte". Un bacino ampio e vario per le curiosità.
+ */
+export async function featuredArticles(areas: string[]): Promise<string[]> {
+  const categories = areas.flatMap((a) => [`Voci in vetrina - ${a}`, `Voci di qualità - ${a}`]);
+  const lists = await Promise.all(categories.map((c) => categoryPages(c).catch(() => [])));
+  return [...new Set(lists.flat())];
 }

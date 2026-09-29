@@ -1,5 +1,5 @@
 import type { ComponentChildren } from 'preact';
-import { useEffect, useLayoutEffect, useState } from 'preact/hooks';
+import { useEffect, useLayoutEffect, useRef, useState } from 'preact/hooks';
 import type { Edition } from '../../shared/types.ts';
 import { fetchEdition, fetchToday } from './api.ts';
 import { CardView } from './components/CardView.tsx';
@@ -38,22 +38,37 @@ export function App() {
 
   useLayoutEffect(() => applyTheme(store.theme), [store.theme]);
 
-  const needsOnboarding = (ed: Edition) => store.prefs.topics === null && (ed.topics?.length ?? 0) > 0;
+  // Letti anche dai listener registrati una volta sola: servono sempre i valori aggiornati.
+  const storeRef = useRef(store);
+  storeRef.current = store;
+  /** `generatedAt` dell'ultima edizione scaricata, per accorgersi di quella nuova. */
+  const latestGenerated = useRef<string | null>(null);
 
   const open = (ed: Edition) => {
+    const s = storeRef.current;
     setEdition(ed);
     setPage(0);
-    if (needsOnboarding(ed)) setView('onboarding');
-    else setView(progressFor(store, ed).done ? 'results' : 'read');
+    if (s.prefs.topics === null && (ed.topics?.length ?? 0) > 0) setView('onboarding');
+    else setView(progressFor(s, ed).done ? 'results' : 'read');
   };
 
+  const loadLatest = () =>
+    fetchToday().then((ed) => {
+      if (ed.generatedAt === latestGenerated.current) return; // niente di nuovo
+      latestGenerated.current = ed.generatedAt;
+      setLatestDate(ed.date);
+      open(ed);
+    });
+
   useEffect(() => {
-    fetchToday()
-      .then((ed) => {
-        setLatestDate(ed.date);
-        open(ed);
-      })
-      .catch((err) => setError((err as Error).message));
+    loadLatest().catch((err) => setError((err as Error).message));
+    // Un'app installata resta aperta in background per giorni: quando torna in primo piano
+    // (anche da una notifica) controlla se è uscita un'edizione nuova e, nel caso, la apre.
+    const onVisible = () => {
+      if (document.visibilityState === 'visible') loadLatest().catch(() => {});
+    };
+    document.addEventListener('visibilitychange', onVisible);
+    return () => document.removeEventListener('visibilitychange', onVisible);
   }, []);
 
   const streak = currentStreak(store.streak);

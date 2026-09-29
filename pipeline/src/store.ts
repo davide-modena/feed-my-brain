@@ -1,7 +1,8 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
-import type { Edition } from '../../shared/types.ts';
+import type { Card, Edition } from '../../shared/types.ts';
+import { romeDate } from './util.ts';
 
 export const EDITIONS_DIR = fileURLToPath(new URL('../../data/editions/', import.meta.url));
 
@@ -22,10 +23,24 @@ export function readEdition(date: string): Edition {
   return JSON.parse(readFileSync(editionPath(date), 'utf8')) as Edition;
 }
 
-export function recentCardTitles(days = 7): string[] {
+/** Le card dei giorni precedenti a oggi (per evitare ripetizioni). */
+export function recentCards(days = 7): Pick<Card, 'title' | 'tag' | 'category'>[] {
+  const today = romeDate();
   return listEditionDates()
+    .filter((d) => d < today) // se l'edizione di oggi viene rigenerata, non conta come "già vista"
     .slice(0, days)
-    .flatMap((d) => readEdition(d).cards.map((c) => c.title));
+    .flatMap((d) => readEdition(d).cards.map(({ title, tag, category }) => ({ title, tag, category })));
+}
+
+/** Link degli articoli già usati come fonte nei giorni precedenti a oggi. */
+export function recentSourceLinks(days = 7): Set<string> {
+  const today = romeDate();
+  return new Set(
+    listEditionDates()
+      .filter((d) => d < today)
+      .slice(0, days)
+      .flatMap((d) => readEdition(d).cards.flatMap((c) => c.sources.map((s) => s.url))),
+  );
 }
 
 export function writeEdition(edition: Edition) {

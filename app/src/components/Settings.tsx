@@ -84,7 +84,7 @@ export function Settings({ topics, prefs, onSavePrefs, theme, onTheme, onOpenEdi
 
       {topics.length > 0 && (
         <div class="setting">
-          <p class="label">I tuoi argomenti</p>
+          <p class="label">Cosa leggere</p>
           <TopicPicker topics={topics} initial={prefs} submitLabel="Salva" onSubmit={onSavePrefs} />
         </div>
       )}

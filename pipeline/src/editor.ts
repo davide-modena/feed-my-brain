@@ -13,7 +13,7 @@ Regole:
 - Se il materiale è scarso, scrivi di meno. Non riempire con biografie, descrizioni generiche del soggetto o informazioni di contorno.
 - "summary": 50-80 parole.
 - "context": 25-45 parole: perché conta, collegamenti con il quadro generale, cosa tenere d'occhio. Qui puoi usare conoscenze generali consolidate.
-- "imageSubject": titolo della voce di Wikipedia italiana del soggetto da illustrare con un'immagine (la persona, il luogo, l'opera o l'evento principale, es. "Napoleone Bonaparte"), oppure "" se non c'è un soggetto chiaro.
+- "imageSubject": titolo della voce di Wikipedia italiana del soggetto da illustrare con un'immagine (la persona, il luogo, l'opera o l'evento principale di questa card), oppure "" se non c'è un soggetto chiaro.
 - "quiz": domande a scelta multipla con 4 opzioni brevi e una sola corretta. Devono verificare di aver capito il punto principale della notizia, non dettagli marginali. La risposta deve essere ricavabile da summary e context. Le opzioni sbagliate devono essere plausibili. "answer" è l'indice (0-3) dell'opzione corretta. "explanation" è una frase breve che spiega la risposta.
 Rispondi sempre e solo in JSON valido.`;
 
@@ -66,18 +66,27 @@ function recentBlock(recentTitles: string[]) {
   return recentTitles.slice(0, MAX_RECENT).map((t) => `- ${t}`).join('\n') || '- nessuna';
 }
 
-const SELECTION_RULES = `Varia i soggetti: non scegliere la stessa persona, artista o azienda già protagonista nei giorni scorsi, a meno di una notizia davvero importante.
-Per ogni storia indica gli id di TUTTI gli articoli che ne parlano (max 5), il più informativo per primo.`;
+const SELECTION_RULES = `Regole:
+- Solo notizie di oggi o di ieri: niente anniversari, ricorrenze, retrospettive, recensioni, liste, guide o articoli generici.
+- Non ripetere storie già pubblicate nei giorni scorsi, nemmeno riformulate, salvo sviluppi nuovi e importanti.
+- Varia i soggetti: non scegliere la stessa persona, artista o azienda già protagonista nei giorni scorsi.
+- Per ogni storia indica gli id di TUTTI gli articoli che ne parlano (max 5), il più informativo per primo.`;
 
 function resolve(items: NewsItem[], picks: RawPick[] | undefined, tag: string): StoryPick[] {
   const byId = new Map(items.map((i) => [i.id, i]));
-  return (picks ?? [])
-    .map((p) => ({
-      title: p.title,
-      tag,
-      items: (p.itemIds ?? []).map((id) => byId.get(id)).filter((i) => !!i),
-    }))
-    .filter((p) => p.items.length > 0);
+  return (Array.isArray(picks) ? picks : [])
+    .map((p) => {
+      // Alcuni modelli restituiscono gli id come testo ("12") o con un altro nome di chiave.
+      const raw = p as RawPick & { item_ids?: unknown; ids?: unknown };
+      const found = [raw.itemIds, raw.item_ids, raw.ids].find((v) => v != null);
+      const ids: unknown[] = Array.isArray(found) ? found : typeof found === 'string' ? found.split(/[\s,;]+/) : [];
+      return {
+        title: p.title,
+        tag,
+        items: ids.map((id) => byId.get(Number(id))).filter((i) => !!i),
+      };
+    })
+    .filter((p) => p.title && p.items.length > 0);
 }
 
 /**
@@ -99,7 +108,7 @@ export async function selectNews(
   const prompt = `Scegli le notizie di attualità di oggi, in ordine di importanza:
 - MONDO: ${config.edition.mondo + CANDIDATE_EXTRA} storie internazionali (esteri, geopolitica, economia globale).
 - ITALIA: ${config.edition.italia + CANDIDATE_EXTRA} storie italiane (politica, economia, società).
-Una storia va in una sola delle due liste.
+Una storia va in una sola delle due liste. Solo attualità generale: tecnologia, scienza, sport, cinema e musica hanno sezioni dedicate, quindi non sceglierle qui.
 
 ${SELECTION_RULES}
 
@@ -129,7 +138,7 @@ export async function selectTopic(
   if (list.length === 0) return [];
 
   const prompt = `Argomento: ${topic.label} (${topic.description}).
-Scegli ${want + CANDIDATE_EXTRA} storie tra questi articoli, in ordine di interesse. Solo notizie vere e specifiche (uscite, annunci, risultati, eventi), non recensioni, liste, guide o articoli generici. L'argomento è un'area, non un singolo personaggio.
+Scegli ${want + CANDIDATE_EXTRA} storie tra questi articoli, in ordine di interesse: notizie vere e specifiche (uscite, annunci, risultati, scoperte, eventi). L'argomento è un'area, non un singolo personaggio o una singola azienda: varia i soggetti tra le storie scelte.
 
 ${SELECTION_RULES}
 
@@ -158,39 +167,44 @@ export function materialSize(story: StoryPick, articles: Map<string, Article>) {
 export const GOOD_MATERIAL = 500;
 export const MIN_MATERIAL = 150;
 
-/** Sceglie l'evento storico del giorno e la voce di Wikipedia da cui raccontarlo. */
+/** Sceglie un evento storico del giorno (tra quelli non ancora usati) e la voce da cui raccontarlo. */
 export async function pickHistoryEvent(
   events: HistoryEvent[],
   recentTitles: string[],
+  used: Set<string> = new Set(),
 ): Promise<{ event: HistoryEvent; page: string } | null> {
-  if (events.length === 0) return null;
-  const prompt = `Ecco eventi accaduti in questo giorno nella storia. Scegline UNO da raccontare: preferisci eventi di grande importanza storica o culturale, che insegnano qualcosa (rilevanza italiana/europea benvenuta), e varia le epoche. Evita argomenti già trattati di recente:
-${recentTitles.map((t) => `- ${t}`).join('\n') || '- nessuno'}
+  const available = events.filter((e) => !used.has(e.text));
+  if (available.length === 0) return null;
+  const prompt = `Ecco eventi accaduti in questo giorno nella storia. Scegline UNO da raccontare: preferisci eventi di grande importanza storica, scientifica o culturale, che insegnano qualcosa. Varia epoche, luoghi e ambiti rispetto ai giorni scorsi. Evita argomenti già trattati:
+${recentBlock(recentTitles)}
 
 Eventi:
-${events.map((e, i) => `[${i}] ${e.year}: ${e.text} | voci: ${e.pages.map((p) => p.title).join('; ')}`).join('\n')}
+${available.map((e, i) => `[${i}] ${e.year}: ${e.text} | voci: ${e.pages.map((p) => p.title).join('; ')}`).join('\n')}
 
 Indica anche la voce di Wikipedia (tra quelle elencate per l'evento) più adatta a raccontarlo, cioè quella sull'evento stesso e non su un luogo o una persona di contorno.
 Formato: {"event": <indice>, "page": "<titolo voce>"}`;
   const res = await chatJson<{ event: number; page: string }>(EDITOR_SYSTEM, prompt, 0.7);
-  const event = events[res.event];
+  const event = available[res.event];
   if (!event) return null;
   const page = event.pages.find((p) => p.title === res.page)?.title ?? event.pages[0]?.title;
   return page ? { event, page } : null;
 }
 
-/** Tra le voci collegate a un argomento, sceglie quella per una curiosità sorprendente. */
-export async function pickCuriosity(topic: string, links: string[], recentTitles: string[]): Promise<string> {
-  const prompt = `Argomento: ${topic}.
-Tra queste voci di Wikipedia collegate, scegline UNA che possa dare una curiosità sorprendente e poco nota (un episodio, una persona, un oggetto, un'usanza). Evita concetti generici, paesi o città. Evita argomenti già trattati:
-${recentTitles.map((t) => `- ${t}`).join('\n') || '- nessuno'}
+/**
+ * Tra voci di Wikipedia estratte a caso (dalle migliori, di aree diverse), sceglie quella che
+ * promette la curiosità più sorprendente. L'estrazione casuale garantisce la varietà: il modello
+ * sceglie solo tra ciò che gli viene proposto.
+ */
+export async function pickCuriosity(candidates: string[], recentTitles: string[]): Promise<string> {
+  const prompt = `Tra queste voci di Wikipedia, scegline UNA da cui raccontare una curiosità storica sorprendente e poco nota (un episodio, un dettaglio, una persona, un oggetto, un'usanza). Preferisci voci di cui un lettore curioso probabilmente non sa nulla. Evita argomenti già trattati:
+${recentBlock(recentTitles)}
 
 Voci:
-${links.join('\n')}
+${candidates.join('\n')}
 
 Formato: {"page": "<titolo esatto>"}`;
   const res = await chatJson<{ page: string }>(EDITOR_SYSTEM, prompt, 0.9);
-  return links.includes(res.page) ? res.page : topic;
+  return candidates.includes(res.page) ? res.page : candidates[0];
 }
 
 async function writeCard(material: string, instructions: string, quizCount: number): Promise<DraftCard> {

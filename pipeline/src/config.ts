@@ -26,7 +26,8 @@ export interface Config {
   };
   news: FeedConfig[];
   topics: TopicConfig[];
-  history: { topics: string[] };
+  /** Aree di Wikipedia (voci in vetrina e di qualità) da cui pescare le curiosità. */
+  curiosities: { areas: string[] };
 }
 
 export function loadConfig(path = new URL('../config.yaml', import.meta.url)): Config {

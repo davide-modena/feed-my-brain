@@ -44,7 +44,9 @@ self.addEventListener('notificationclick', (event) => {
   event.waitUntil(
     self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((windows) => {
       const open = windows.find((w) => w.url.startsWith(self.registration.scope));
-      return open ? open.focus() : self.clients.openWindow(url);
+      if (!open) return self.clients.openWindow(url);
+      // Finestra già aperta (magari da ieri): la ricarica, così mostra l'edizione nuova.
+      return open.focus().then((w) => w.navigate(url).catch(() => w));
     }),
   );
 });

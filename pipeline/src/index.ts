@@ -25,9 +25,9 @@ import {
 import { activeProvider, llmUsage } from './llm.ts';
 import { collectNews, fetchArticle, type Article } from './news.ts';
 import { notify } from './notify.ts';
-import { editionPath, recentCardTitles, writeEdition } from './store.ts';
+import { editionPath, recentCards, recentSourceLinks, writeEdition } from './store.ts';
 import { pickRandom, romeDate } from './util.ts';
-import { onThisDay, pageExtract, pageLinks, type HistoryEvent } from './wikipedia.ts';
+import { featuredArticles, onThisDay, pageExtract, type HistoryEvent } from './wikipedia.ts';
 
 type DraftCard = Omit<Card, 'id'>;
 
@@ -42,13 +42,17 @@ if (!dry && !args.has('--force') && existsSync(editionPath(date))) {
 }
 
 console.log(`🗞️  Raccolta fonti per il ${date}…`);
-const [items, events] = await Promise.all([
+const [allItems, events] = await Promise.all([
   collectNews(config),
   onThisDay(date).catch((err): HistoryEvent[] => {
     console.warn(`⚠️  Wikipedia "accadde oggi" non disponibile: ${(err as Error).message}`);
     return [];
   }),
 ]);
+// Gli articoli già usati come fonte nei giorni scorsi non tornano: niente notizie ripetute.
+const usedLinks = recentSourceLinks();
+const items = allItems.filter((i) => !usedLinks.has(i.link));
+if (allItems.length > items.length) console.log(`   esclusi ${allItems.length - items.length} articoli già usati`);
 const groups = Object.groupBy(items, (i) => i.group);
 for (const [group, list] of Object.entries(groups)) console.log(`   ${group}: ${list?.length ?? 0} articoli`);
 console.log(`   storia: ${events.length} eventi`);
@@ -59,7 +63,13 @@ if (dry) {
 }
 
 console.log(`🤖 LLM: ${activeProvider()}`);
-const recent = recentCardTitles();
+const recentList = recentCards();
+const recent = recentList.map((c) => c.title);
+const CURIOSITY_CANDIDATES = 60;
+let curiosityPool: string[] | null = null;
+// Voci già raccontate nei giorni scorsi (il tag delle curiosità è il titolo della voce) e oggi.
+const usedArticles = new Set(recentList.filter((c) => c.category === 'curiosita').map((c) => c.tag));
+const usedEvents = new Set<string>();
 const quizCount = config.edition.quizPerCard;
 const written = (list: DraftCard[][]) => list.flat().map((c) => c.title);
 
@@ -177,8 +187,9 @@ const sections: Section[] = [
     cards: [],
     notes: [],
     async next() {
-      const pick = await pickHistoryEvent(events, [...recent, ...written(sections.map((s) => s.cards))]);
+      const pick = await pickHistoryEvent(events, [...recent, ...written(sections.map((s) => s.cards))], usedEvents);
       if (!pick) return null;
+      usedEvents.add(pick.event.text);
       const article = await pageExtract(pick.page);
       if (!article) throw new Error(`voce "${pick.page}" non trovata`);
       console.log(`📜 ${pick.event.year}: ${pick.page}`);
@@ -198,17 +209,21 @@ const sections: Section[] = [
     cards: [],
     notes: [],
     async next() {
-      const [topic] = pickRandom(config.history.topics, 1);
-      const links = pickRandom(await pageLinks(topic), 120);
-      const page = await pickCuriosity(topic, links, [...recent, ...written(sections.map((s) => s.cards))]);
+      curiosityPool ??= await featuredArticles(config.curiosities.areas);
+      // Estrazione casuale dal bacino, escluse le voci già usate di recente: è questo a garantire la varietà.
+      const fresh = curiosityPool.filter((t) => !usedArticles.has(t));
+      if (fresh.length === 0) return null;
+      const candidates = pickRandom(fresh, CURIOSITY_CANDIDATES);
+      const page = await pickCuriosity(candidates, [...recent, ...written(sections.map((s) => s.cards))]);
+      usedArticles.add(page);
       const article = await pageExtract(page);
       if (!article) throw new Error(`voce "${page}" non trovata`);
-      console.log(`💡 ${topic} → ${article.title}`);
+      console.log(`💡 ${article.title}`);
       return writeWikiCard(
         article,
         'curiosita',
-        topic,
-        `Scrivi una curiosità storica a partire da questa voce (collegata a "${topic}"). Punta sul dettaglio più sorprendente e poco noto, spiegandolo bene. Il titolo deve incuriosire senza essere clickbait. Nel context collega la curiosità a "${topic}".`,
+        article.title,
+        'Scrivi una curiosità storica a partire da questa voce. Punta sul dettaglio più sorprendente e poco noto, spiegandolo bene. Il titolo deve incuriosire senza essere clickbait. Nel context spiega il contesto storico in cui si inserisce.',
         quizCount,
       );
     },
@@ -224,7 +239,7 @@ for (let round = 0; round < rounds; round++) {
     if (round >= section.want) continue;
     try {
       const card = await section.next();
-      if (card) section.cards.push(card);
+      if (card) section.cards.push({ ...card, section: section.key });
     } catch (err) {
       const message = (err as Error).message;
       section.notes.push(message.slice(0, 200));
