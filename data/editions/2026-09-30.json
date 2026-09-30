@@ -1,0 +1,628 @@
+{
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T05:42:03.746Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacco con missili e droni nella regione di Kiev: vittime civili",
+      "summary": "Durante la notte, la cittadina di Vyshgorod, a pochi chilometri da Kiev, è stata colpita da un attacco russo con missili balistici e droni. Sono morti un bambino e una donna; tre persone sono state estratte vive, tra cui un bambino con grave trauma cranico, un uomo ferito alla testa e una donna con lesioni alle gambe. Tutti sono stati trasportati in ospedale.",
+      "context": "L'attacco evidenzia la continuità delle operazioni russe contro la capitale ucraina, con conseguenze dirette sulla popolazione civile. Le autorità locali monitorano la situazione e le difese aeree intervengono per contenere ulteriori minacce.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/30/missili-e-droni-su-regione-di-kiev-uccisi-un-bambino-e-una-donna_1ff1313b-a1de-486d-a7ad-e0aac73d5a48.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/09/guerra-ucraina-mosca-alla-nato-difenderemo-kaliningrad-con-tutto-il-nostro-arsenale-maratona-60383b09-c610-468c-b59b-26a91a1789c1.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONFhuVmhPYlpvRnVWUkp0QjV2N3g1U3FBb1RES3RMRVIxLWE1T3BMYmtpVGFuMGZpNlprbFMxdTdybkNKQk5JQnIwXzY2WU1zUGtGenZfdWZ2Y0h1REx3TmxBLWZESzBsNWxTNmEyaU5MbmFIRHNwYUJrMExsWkdEUnNzMTN6RzNK?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/23/5a4b8d420602abd6e826c26128a44083.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/mondo/2026/09/30/missili-e-droni-su-regione-di-kiev-uccisi-un-bambino-e-una-donna_1ff1313b-a1de-486d-a7ad-e0aac73d5a48.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale delle seguenti vittime civili è stata confermata morta nell'attacco a Vyshgorod?",
+          "options": [
+            "Un bambino",
+            "Un anziano",
+            "Una donna",
+            "Un uomo"
+          ],
+          "answer": 0,
+          "explanation": "Il materiale indica che il corpo di un bambino è stato recuperato tra le macerie, confermando la sua morte."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-09-30-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Seoul chiede scuse a Pyongyang per esplosioni di mine anti-persona",
+      "summary": "L'esercito della Corea del Sud ha chiesto scuse ufficiali alla Corea del Nord dopo che tre soldati sono rimasti feriti dall'esplosione di mine anti-persona lungo il confine, nella zona demilitarizzata, il 21 settembre. Seoul sostiene che le mine siano state piazzate da Pyongyang e considera l'accaduto una violazione dell'armistizio del 1953. La Corea del Nord ha respinto ogni accusa definendo le affermazioni del Sud una farsa e una provocazione politica.",
+      "context": "Le tensioni lungo il confine tra le due Coree restano alte e episodi simili rischiano di aggravare ulteriormente i rapporti bilaterali. È importante monitorare la gestione della sicurezza nella zona demilitarizzata e l'eventuale reazione di Seoul.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwj3dkvpm4e7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1795/live/6e65f480-bc7f-11f1-8f6a-cb544b8fa0f7.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cwj3dkvpm4e7o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha chiesto la Corea del Sud alla Corea del Nord dopo le esplosioni?",
+          "options": [
+            "Aiuti economici",
+            "Lo smantellamento del confine",
+            "Scuse ufficiali",
+            "Un trattato di pace definitivo"
+          ],
+          "answer": 2,
+          "explanation": "L'esercito sudcoreano ha chiesto scuse a Pyongyang in seguito alle esplosioni di mine che hanno ferito tre soldati."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-09-30-1"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Bollette elettriche: +37% per i clienti vulnerabili nel Q4 2026",
+      "summary": "L'Autorità di regolazione per energia (Arera) ha comunicato che nel quarto trimestre del 2026 la bolletta elettrica per i circa 3 milioni di clienti vulnerabili in maggior tutela aumenterà del 37,3% rispetto al trimestre precedente. La spesa annuale per l'utente tipo raggiungerà i 665 euro. L'aumento è dovuto alla crescita dei prezzi all'ingrosso e alle tensioni geopolitiche sul gas. In risposta, Eni ha lanciato uno sconto del 30% tramite Plenitude, innescando una competizione commerciale con Enel e A2A.",
+      "context": "La notizia evidenzia la persistente volatilità dei mercati energetici internazionali e il loro impatto diretto sulle fasce più deboli della popolazione. Il conflitto tra le utility per attrarre clienti con sconti riflette l'urgenza di contenere i costi in vista dell'inverno, mentre le associazioni dei consumatori chiedono interventi governativi di sostegno.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/09/bollette-elettriche-aumenti-per-i-vulnerabili-parte-la-guerra-degli-sconti-tra-le-utility-b7ef3584-ff82-4f19-94d7-234a862255d3.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2025/12/10/1765362132718_IPAAgencyALMWTH.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/articoli/2026/09/bollette-elettriche-aumenti-per-i-vulnerabili-parte-la-guerra-degli-sconti-tra-le-utility-b7ef3584-ff82-4f19-94d7-234a862255d3.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la causa principale dell'aumento del 37,3% della bolletta per i clienti vulnerabili nel Q4 2026?",
+          "options": [
+            "La riduzione della produzione di energia rinnovabile",
+            "Un errore di calcolo dell'Autorità di regolazione",
+            "La crescita dei prezzi all'ingrosso e le tensioni sul gas",
+            "L'aumento delle tasse locali"
+          ],
+          "answer": 2,
+          "explanation": "Il testo attribuisce l'incremento alla crescita dei prezzi all'ingrosso dell'energia e alle persistenti tensioni sui mercati internazionali del gas naturale."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-09-30-2"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Casi di Covid in crescita: aumento dei contagi in Francia e nel mondo",
+      "summary": "Tra il 14 e il 20 settembre, i dati in Francia hanno mostrato un aumento del 76% delle visite dai medici di base per il Covid-19 rispetto alla settimana precedente. Secondo gli esperti, questo incremento fa parte di una ripresa globale dell'epidemia che coinvolge Europa, Stati Uniti e Asia, guidata da nuove e più trasmissibili sottovarianti del virus.",
+      "context": "L'aumento ciclico dei contagi in autunno conferma la tendenza del virus a ripresentarsi con ondate periodiche, favorite da mutazioni che eludono le difese immunitarie. Le autorità sanitarie continuano a monitorare gli indicatori per proteggere le categorie più vulnerabili.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/09/covid-cosa-ce-dietro-laumento-dei-casi-fenomeno-mondiale-di-recrudescenza-dellepidemia-01dca77a-fec1-4770-8a5c-76d727ec9ad8.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2025/03/12/1741763465842_covid.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/articoli/2026/09/covid-cosa-ce-dietro-laumento-dei-casi-fenomeno-mondiale-di-recrudescenza-dellepidemia-01dca77a-fec1-4770-8a5c-76d727ec9ad8.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale andamento hanno registrato le visite dai medici di base per il Covid-19 in Francia a metà settembre?",
+          "options": [
+            "Un azzeramento dei casi",
+            "Un aumento del 76%",
+            "Una diminuzione del 50%",
+            "Una stabilità totale"
+          ],
+          "answer": 1,
+          "explanation": "Il bollettino citato indica un incremento del 76% delle visite mediche rispetto alla settimana precedente."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-09-30-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Drake pubblica i brani inediti del cortometraggio FOMO",
+      "summary": "Il musicista canadese Drake ha annunciato che pubblicherà sulle piattaforme di streaming molti dei brani inediti presentati nel suo cortometraggio \"FOMO\". Durante una diretta streaming, l'artista ha confermato l'uscita delle canzoni per giovedì primo ottobre, spiegando che non saranno disponibili tutti i pezzi ascoltati nel filmato ma una selezione consistente, che include collaborazioni e brani molto attesi dai fan.",
+      "context": "La pubblicazione di brani inediti tramite canali digitali e piattaforme di streaming è una strategia comune per mantenere alta l'attenzione del pubblico e capitalizzare sul successo di progetti visivi. Sarà da verificare quali tracce specifiche entreranno ufficialmente nei cataloghi digitali.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/drake-fomo-songs-coming-to-streaming-1236349830/"
+        },
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/drake-fomo-streaming-release-date/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/02/2089852875-e1770920504696.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/drake-fomo-songs-coming-to-streaming-1236349830/"
+      },
+      "quiz": [
+        {
+          "question": "Quando è prevista l'uscita dei brani inediti di FOMO sulle piattaforme di streaming?",
+          "options": [
+            "Lunedì 15 settembre",
+            "Venerdì prossimo",
+            "Giovedì primo ottobre",
+            "Martedì 29 settembre"
+          ],
+          "answer": 2,
+          "explanation": "Drake ha annunciato durante una diretta streaming che i brani arriveranno sulle piattaforme giovedì primo ottobre."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-09-30-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Quavo svela le collaborazioni con Justin Timberlake e Offset per il nuovo album",
+      "summary": "Il rapper statunitense Quavo ha presentato a Los Angeles il suo nuovo album solista \"QRÖMELIFE\", in uscita il 2 ottobre 2026. Durante il party di ascolto, ha svelato collaborazioni con Justin Timberlake e una reunion con Offset, segnando la prima collaborazione tra i due membri dei Migos dopo anni. Il disco è interamente prodotto da Pharrell. In concomitanza, Quavo ha rivelato di essere diventato padre per la prima volta di una bambina.",
+      "context": "Questo progetto segna una tappa importante per Quavo dopo la morte di Takeoff e la separazione dei Migos. La riconciliazione con Offset e i progetti futuri indicano una possibile chiusura del catalogo del gruppo, tenendo alta l'attenzione sulla scena trap di Atlanta.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/quavo-teases-justin-timberlake-offset-collabs-qromelife-1236350038/"
+        },
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/quavo-daughter-album-trailer/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/05/1502068748-e1777917152190.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/quavo-teases-justin-timberlake-offset-collabs-qromelife-1236350038/"
+      },
+      "quiz": [
+        {
+          "question": "Quale importante collaborazione è stata annunciata per il nuovo album di Quavo?",
+          "options": [
+            "Justin Timberlake",
+            "Kanye West",
+            "Drake",
+            "Travis Scott"
+          ],
+          "answer": 0,
+          "explanation": "L'articolo specifica che il nuovo album include una collaborazione con il cantante pop Justin Timberlake."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-09-30-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Nuova specie di pinguino scoperta nelle acque subantartiche",
+      "summary": "Un team internazionale di scienziati ha identificato una nuova specie di pinguino, il pinguino gentoo sudorientale, vissuto nelle isole Kerguelen e Heard nell'oceano Indiano meridionale. È la prima nuova specie di pinguino a essere formalmente riconosciuta in oltre un secolo. La scoperta è il risultato di uno studio genomico, morfologico ed ecologico che ha ridefinito la tassonomia dei pinguini gentoo, precedentemente considerati un'unica specie.",
+      "context": "Questa scoperta ridefinisce la classificazione scientifica di un gruppo di uccelli la cui tassonomia era dibattuta da oltre un secolo. Comprendere la biodiversità e l'isolamento genetico di queste popolazioni aiuta a monitorare gli effetti dei cambiamenti ambientali nelle regioni subantartiche.",
+      "sources": [
+        {
+          "name": "New York Post",
+          "url": "https://nypost.com/2026/09/29/science/scientists-identify-new-species-of-penguin-in-subantarctic-waters-the-first-in-over-a-century/"
+        }
+      ],
+      "image": {
+        "url": "https://nypost.com/wp-content/uploads/sites/2/2026/09/Untitled-1-14-1.jpg?quality=75&strip=all&w=1200",
+        "credit": "New York Post",
+        "link": "https://nypost.com/2026/09/29/science/scientists-identify-new-species-of-penguin-in-subantarctic-waters-the-first-in-over-a-century/"
+      },
+      "quiz": [
+        {
+          "question": "Come si chiama la nuova specie di pinguino scoperta nelle isole subantartiche?",
+          "options": [
+            "Pinguino imperatore antartico",
+            "Pinguino gentoo sudorientale",
+            "Pinguino delle Heard",
+            "Pinguino di Kerguelen settentrionale"
+          ],
+          "answer": 1,
+          "explanation": "La nuova specie scoperta e formalmente riconosciuta è il pinguino gentoo sudorientale (Pygoscelis kerguelensis)."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-09-30-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Rischio climatico nascosto sotto la calotta dell'Antartide orientale",
+      "summary": "Uno studio pubblicato il 30 settembre 2026 avverte che il Bacino Subglaciale di Wilkes, in Antartide orientale, rischia un rapido ritiro a causa del riscaldamento climatico. La ricerca, basata su dati esistenti e modelli computerizzati, indica che lo scioglimento di quest'area potrebbe innalzare notevolmente il livello globale dei mari e alterare le correnti oceaniche. Dal 1990 il ghiacciaio Cook si sta assottigliando rapidamente, perdendo circa 40 miliardi di tonnellate di ghiaccio all'anno.",
+      "context": "L'Antartide orientale contiene una quantità immensa di ghiaccio, storicamente considerata stabile. Comprendere la stabilità di queste regioni nascoste è cruciale per prevedere con precisione l'entità futura dell'innalzamento dei mari e prepararsi agli impatti globali.",
+      "sources": [
+        {
+          "name": "earthsciences.nz",
+          "url": "https://www.earthsciences.nz/news/hidden-climate-risk-beneath-east-antarctica-new-study-warns"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Antarctica.svg/1280px-Antarctica.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Antarctica.svg"
+      },
+      "quiz": [
+        {
+          "question": "Quale ghiacciaio principale del Bacino Subglaciale di Wilkes si sta assottigliando dagli anni '90?",
+          "options": [
+            "Ghiacciaio Beardmore",
+            "Ghiacciaio Cook",
+            "Ghiacciaio Ross",
+            "Ghiacciaio Thwaites"
+          ],
+          "answer": 1,
+          "explanation": "Il testo specifica che dal 1990 il principale ghiacciaio del bacino, il Cook Glacier, si sta assottigliando a un ritmo crescente."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-09-30-7"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Enel lancia uno sconto del 50% sull'elettricità a partire da aprile 2026",
+      "summary": "Enel ha comunicato che la sua offerta a prezzo fisso \"Digital luce\", attiva sul proprio sito da aprile 2026, prevede un costo di 108 euro per megawattora sulla componente energia. Secondo la società, questa tariffa biennale risulta inferiore di circa il 50% rispetto al prezzo di mercato all'ingrosso e garantisce a una famiglia media un risparmio di circa 200 euro all'anno.",
+      "context": "Le tariffe a prezzo fisso ridotte permettono ai consumatori di proteggersi dalla volatilità del mercato energetico all'ingrosso. Nel settore della vendita di energia si assiste a una concorrenza crescente tra i principali operatori per attrarre clienti con sconti consistenti.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/09/29/enel-offriamo-50-di-sconto-su-elettricita-da-aprile-26_4578c369-98d2-4ae2-8d83-1c4d37a009f1.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/09/29/a2a-dal-2023-offerte-decennali-al-50-del-prezzo-medio-allingrosso_7b09bb35-a077-46e7-a8e6-92ee9a6ab640.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2020/4/7/c032d6e48d96d3f9b61d82d0e8a68bc2.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/09/29/enel-offriamo-50-di-sconto-su-elettricita-da-aprile-26_4578c369-98d2-4ae2-8d83-1c4d37a009f1.html"
+      },
+      "quiz": [
+        {
+          "question": "Quanto fa risparmiare all'anno una famiglia media l'offerta \"Digital luce\" di Enel secondo la società?",
+          "options": [
+            "Circa 100 euro",
+            "Circa 200 euro",
+            "Circa 1000 euro",
+            "Circa 500 euro"
+          ],
+          "answer": 1,
+          "explanation": "L'offerta garantisce a una famiglia media un risparmio stimato di circa 200 euro all'anno rispetto al prezzo all'ingrosso."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-09-30-8"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Inflazione a rischio per il balzo dei prezzi industriali e dei prodotti petroliferi",
+      "summary": "Ad agosto i prezzi alla produzione dell'industria italiana sono cresciuti del 2,4% su luglio e del 10,9% su base annua, spinti principalmente dalla forte crescita dei prodotti petroliferi e dell'energia. Questo incremento rischia di trasferirsi sui prezzi al consumo, facendo salire l'inflazione già a partire da settembre e preoccupando le associazioni dei consumatori per l'impatto sul bilancio delle famiglie.",
+      "context": "L'aumento dei costi energetici e industriali si ripercuote inevitabilmente sulla catena di distribuzione, riducendo il potere d'acquisto dei cittadini. Nei prossimi mesi sarà fondamentale monitorare l'andamento dei prezzi al consumo e le eventuali contromisure governative per calmierare il mercato energetico.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/09/29/volano-i-prezzi-dellindustria-rischio-ricaduta-sullinflazione_4d7994b8-3b7f-4f52-a841-28df589d5d85.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2023/12/21/0c4cd2e30705f3c9bd6c1f1ec2b25d67.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/09/29/volano-i-prezzi-dellindustria-rischio-ricaduta-sullinflazione_4d7994b8-3b7f-4f52-a841-28df589d5d85.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il principale fattore che ha spinto al rialzo i prezzi alla produzione industriali ad agosto?",
+          "options": [
+            "Il settore dei beni durevoli",
+            "L'aumento dei beni di consumo non durevoli",
+            "Il forte calo del fatturato dei servizi",
+            "La volata dei prezzi del petrolio e dell'energia"
+          ],
+          "answer": 3,
+          "explanation": "L'aumento dei prezzi alla produzione è stato trainato in modo deciso dal boom dei prodotti petroliferi e del settore energetico."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-09-30-9"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Elio debutta alla regia cinematografica con La Crepa",
+      "summary": "Il cantante Elio, leader del gruppo Elio e le Storie Tese, esordirà a novembre come regista cinematografico con il film La Crepa. La pellicola è una commedia acida scritta dallo stesso Elio insieme a Piero Bodrato e ispirata alla realtà delle famiglie con ragazzi autistici. Nel cast figurano tra gli altri Pietro Sermonti, Cochi Ponzoni e Geppi Cucciari. Il progetto vede la collaborazione di PizzAut, con la partecipazione come attori di alcuni ragazzi che vi lavorano.",
+      "context": "Il film affronta il tema dell'autismo puntando sull'inclusione e sulla rappresentazione diretta, superando l'uso esclusivo di attori neurotipici per ruoli neurodivergenti. Nel panorama cinematografico italiano, l'attenzione alle tematiche sociali attraverso la commedia rappresenta un banco di prova importante per unire intrattenimento e sensibilizzazione.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/29/elio-debutta-alla-regia-con-la-crepa_742c2d4c-ed57-4f7f-8336-78ab43860d7d.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/29/6e242c239bed398edd3b007c6975fa64.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/29/elio-debutta-alla-regia-con-la-crepa_742c2d4c-ed57-4f7f-8336-78ab43860d7d.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il tema principale della commedia acida La Crepa diretta da Elio?",
+          "options": [
+            "Le difficoltà delle piccole imprese italiane",
+            "La storia della televisione",
+            "La realtà delle famiglie con ragazzi autistici",
+            "La vita nel mondo della musica"
+          ],
+          "answer": 2,
+          "explanation": "Il film è una commedia acida ispirata alla realtà delle famiglie con ragazzi autistici, realizzata anche con la collaborazione di PizzAut."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-09-30-10"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Adam Sandler a Torino per le riprese del nuovo film",
+      "summary": "L'attore americano Adam Sandler è arrivato a Torino insieme al cast per girare il film \"Un weekend da bamboccioni 3\". Dal 29 settembre, alcune zone del centro storico, tra cui via Roma e piazza San Carlo, sono state trasformate con scenografie per sembrare Parigi. Le riprese coinvolgono anche altri attori come Chris Rock e Kevin James, con l'uscita della pellicola prevista per il 2027.",
+      "context": "Torino conferma la sua vocazione di set cinematografico internazionale grazie al supporto della Film Commission. L'arrivo di grandi produzioni hollywoodiane porta visibilità e indotto economico, modificando temporaneamente la viabilità urbana e attirando l'attenzione di fan e curiosi.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/29/adam-sandler-sbarca-a-torino-via-roma-diventa-parigi-per-il-nuovo_fcdc2039-3fef-4c42-97c2-ac1e11d9bdaf.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/29/84aeb0e17693132552a1f680814c1d58.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/29/adam-sandler-sbarca-a-torino-via-roma-diventa-parigi-per-il-nuovo_fcdc2039-3fef-4c42-97c2-ac1e11d9bdaf.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale città europea simula il set torinese per il film di Adam Sandler?",
+          "options": [
+            "Parigi",
+            "Londra",
+            "Madrid",
+            "Berlino"
+          ],
+          "answer": 0,
+          "explanation": "Il centro di Torino, in particolare via Roma e piazza San Carlo, è stato allestito con insegne ed elementi scenografici per sembrare la capitale francese."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-09-30-11"
+    },
+    {
+      "category": "storia",
+      "tag": "30 settembre 2005",
+      "title": "Pubblicazione delle caricature di Maometto in Danimarca",
+      "summary": "Il 30 settembre 2005 il quotidiano danese Jyllands-Posten ha pubblicato dodici illustrazioni satiriche dedicate a Maometto. L'iniziativa editoriale intendeva evidenziare i limiti autoimposti nella rappresentazione del profeta dell'Islam. La pubblicazione ha innescato un vasto caso internazionale, caratterizzato da proteste e tensioni nel mondo islamico, alimentate anche dalla successiva circolazione di un dossier che includeva immagini aggiuntive.",
+      "context": "La vicenda ha ridefinito il dibattito globale sui confini tra libertà di espressione e rispetto delle sensibilità religiose. Ha lasciato in eredità una polarizzazione duratura nei rapporti tra Europa e mondo islamico e sulla sicurezza delle redazioni satiriche.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Caricature_di_Maometto_sullo_Jyllands-Posten"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Jyllandsposten_1871-10-02_1.jpg/1280px-Jyllandsposten_1871-10-02_1.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Jyllandsposten_1871-10-02_1.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale quotidiano ha pubblicato per primo le caricature di Maometto il 30 settembre 2005?",
+          "options": [
+            "Jyllands-Posten",
+            "Politiken",
+            "Weekendavisen",
+            "Magazinet"
+          ],
+          "answer": 0,
+          "explanation": "Le dodici illustrazioni satiriche sono state pubblicate per la prima volta dal quotidiano danese Jyllands-Posten."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-09-30-12"
+    },
+    {
+      "category": "storia",
+      "tag": "30 settembre 1791",
+      "title": "La prima assoluta de Il flauto magico di Mozart",
+      "summary": "Il 30 settembre 1791, al Theater auf der Wieden di Vienna, va in scena la prima assoluta dell'opera Il flauto magico di Wolfgang Amadeus Mozart. Il libretto è firmato da Emanuel Schikaneder, che recita anche nel ruolo di Papageno accanto al soprano Josepha Hofer come Regina della Notte. Nonostante un avvio tiepido, l'opera ottiene un grande successo di pubblico nelle repliche successive.",
+      "context": "L'opera ha ridefinito il genere del Singspiel tedesco unendo toni popolari a una profonda simbologia massonica e a un inedito realismo psicologico. È diventata un modello fondamentale di opera nazionale tedesca, influenzando profondamente i compositori successivi come Beethoven e Wagner.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Il_flauto_magico"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Zauberfl%C3%B6te-Theaterzettel1791.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Zauberfl%C3%B6te-Theaterzettel1791.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha scritto il libretto de Il flauto magico?",
+          "options": [
+            "Karl von Marinelli",
+            "Johann Peter Salomon",
+            "Emanuel Schikaneder",
+            "Wolfgang Amadeus Mozart"
+          ],
+          "answer": 2,
+          "explanation": "Il libretto dell'opera è stato scritto da Emanuel Schikaneder, che ha anche interpretato il ruolo di Papageno."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-09-30-13"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Henry Hall (guardiano del faro)",
+      "title": "Il guardiano del faro che sopravvisse ingerendo piombo fuso",
+      "summary": "Nel dicembre 1755, un incendio distrusse il faro di Eddystone, in Inghilterra. Il guardiano Henry Hall, novantaquattrenne, tentò di spegnere le fiamme da solo. Durante l'operazione, un getto di piombo fuso dal soffitto gli colò in bocca, finendo nello stomaco. Miracolosamente sopravvissuto per quasi due settimane, morì il 14 dicembre. L'autopsia confermò l'accaduto estraendo dal suo corpo un blocco di piombo di circa 230 grammi, oggi conservato al National Museum of Scotland.",
+      "context": "Prima dell'avvento dell'elettricità, i fari utilizzavano candele di sego o fuochi aperti, rendendo gli incendi un pericolo costante e concreto. Questo episodio ha fornito dati storici preziosi per la medicina nello studio delle ustioni degli organi interni.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Henry_Hall_(guardiano_del_faro)"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Phare-d-Eddystone-Rocks.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Phare-d-Eddystone-Rocks.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa accadde a Henry Hall durante l'incendio del faro?",
+          "options": [
+            "Ingerì un getto di piombo fuso",
+            "Cadde in mare dalla cima della torre",
+            "Fu intossicato dal fumo della stufa",
+            "Subì l'esplosione delle riserve di olio"
+          ],
+          "answer": 0,
+          "explanation": "Mentre cercava di spegnere l'incendio, Hall fu investito da un getto di piombo fuso che gli colò in bocca."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-09-30-14"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Alessio Melisseno Strategopulo",
+      "title": "Come ottocento uomini riconquistarono Costantinopoli",
+      "summary": "Nel luglio del 1261 il generale bizantino Alessio Strategopulo riconquistò Costantinopoli, finita in mano ai crociati nel 1204, guidando un piccolo contingente di appena ottocento soldati, perlopiù mercenari. L'azione permise ai bizantini di rimettere piede nella capitale dopo cinquantasette anni di dominio latino, un'impresa inattesa compiuta con forze estremamente ridotte rispetto alla grandezza della città.",
+      "context": "Dopo la Quarta Crociata del 1204 e la dissoluzione dell'Impero bizantino in vari staterelli, l'Impero di Nicea cercò a lungo di riprendersi la capitale. Questa riconquista segnò la restaurazione nominale dell'impero sotto la dinastia dei Paleologi, sebbene lo Stato fosse ormai militarmente ed economicamente debilitato.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Alessio_Melisseno_Strategopulo"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Alexios_Strategopoulos.gif",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Alexios_Strategopoulos.gif"
+      },
+      "quiz": [
+        {
+          "question": "Con quanti uomini Alessio Strategopulo riconquistò Costantinopoli nel 1261?",
+          "options": [
+            "Meno di 200 guardie",
+            "Circa 5.000 cavalieri",
+            "Oltre 10.000 soldati",
+            "Circa 800 uomini"
+          ],
+          "answer": 3,
+          "explanation": "Il generale bizantino compì l'impresa alla guida di un piccolo contingente di circa ottocento uomini."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-09-30-15"
+    },
+    {
+      "category": "curiosita",
+      "tag": "William Douglas, signore di Nithsdale",
+      "title": "Quando un cavaliere scozzese fece innamorare la principessa rifiutando il re di Francia",
+      "summary": "Nel Trecento, il nobile scozzese William Douglas si distinse per il suo valore militare durante un assedio. La sua prestanza fisica colpì così tanto la principessa Egidia di Scozia, figlia di re Roberto II, che la donna si innamorò perdutamente di lui, rifiutando persino la proposta di matrimonio del re di Francia Carlo VI. Il sovrano scozzese acconsentì all'unione, rendendo Douglas uno dei principali comandanti del regno.",
+      "context": "Nel tardo Medioevo i matrimoni dinastici erano strumenti politici fondamentali per consolidare il potere regio e stringere alleanze internazionali. Il rifiuto di un re potente come quello di Francia a favore di un nobile locale mostra il peso della carismatica aristocrazia guerriera scozzese.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/William_Douglas,_signore_di_Nithsdale"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Chi respinse la principessa Egidia di Scozia prima di innamorarsi di William Douglas?",
+          "options": [
+            "Il conte Henry Percy",
+            "Il re di Francia Carlo VI",
+            "Il barone Thomas Clifford",
+            "Il duca Tommaso Plantageneto"
+          ],
+          "answer": 1,
+          "explanation": "La principessa Egidia respinse il corteggiamento di re Carlo VI di Francia perché si era follemente innamorata di William Douglas."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-09-30-16"
+    }
+  ]
+}
