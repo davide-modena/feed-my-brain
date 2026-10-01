@@ -1,0 +1,781 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T04:33:08.166Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Russia lancia il più grande attacco alle infrastrutture energetiche ucraine da primavera",
+      "summary": "Durante la notte, la Russia ha lanciato l’attacco più grande contro le infrastrutture energetiche ucraine da primavera, colpendo soprattutto Kiev e le regioni limitrofe. Sono stati uccisi almeno cinque civili, tra cui un bambino, e la centrale elettrica di Trypilska, principale fornitore di energia per la capitale, ha subito danni. L’attacco ha interessato 11 regioni, provocando blackout in diverse aree e danni a edifici residenziali, infrastrutture sociali e ferrovie.",
+      "context": "L’attacco segna un’escalation nella campagna russa contro la rete elettrica ucraina, che ogni inverno subisce pressioni per indebolire la resistenza civile. Osservare l’evoluzione dei blackout e le risposte del governo sarà cruciale.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4cc3/live/0f9ce800-bcc0-11f1-babe-4199b0e7ccea.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'obiettivo principale dell'attacco russo descritto nella notizia?",
+          "options": [
+            "Le infrastrutture energetiche ucraine",
+            "Le basi militari russe",
+            "Le centrali nucleari russe",
+            "Le linee ferroviarie russe"
+          ],
+          "answer": 0,
+          "explanation": "La notizia descrive l'attacco come il più grande contro le infrastrutture energetiche ucraine da primavera."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-01-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Putin afferma di non voler fermare la guerra in Ucraina",
+      "summary": "Il presidente russo Vladimir Putin non mostra alcuna intenzione di fermare l'invasione dell'Ucraina, nonostante le gravi perdite militari e i danni all'economia russa. Sostenuto da un parlamento fortemente filo-governativo dopo le recenti elezioni, Mosca confida di poter ottenere una vittoria militare, puntando anche sulla carenza di missili di difesa aerea ucraini e sulle difficoltà legate all'inverno.",
+      "context": "Questa posizione conferma la prolungata stasi diplomatica e la strategia di logoramento del Cremlino. È importante monitorare il sostegno militare ed economico dell'Europa all'Ucraina e la risposta occidentale alle crescenti azioni di sabotaggio e guerra ibrida attribuite alla Russia.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4c37/live/eac38c60-bce6-11f1-8ce2-417f8f7cb095.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'atteggiamento attuale di Vladimir Putin riguardo alla guerra in Ucraina secondo le analisi?",
+          "options": [
+            "Vuole negoziare una tregua immediata",
+            "Non mostra segni di voler fermare l'invasione",
+            "Attende l'intervento dell'ONU",
+            "Pianifica il ritiro totale delle truppe"
+          ],
+          "answer": 1,
+          "explanation": "Tutti gli elementi indicano che Putin intende continuare l'invasione a pieno campo, fiducioso di poter vincere."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-01-1"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Inflazione italiana al 4,2%, Meloni chiede flessibilità all'Ue",
+      "summary": "A settembre l'inflazione in Italia è salita al 4,2%, il livello più alto da tre anni, spinta soprattutto dai prezzi dell'energia (+22,3%) e degli alimentari. Il governo Meloni annuncia l'invio di una lettera alla Commissione europea per chiedere maggiore flessibilità sui parametri di deficit, giustificandola con l'aumento dei prezzi. Parallelamente, si lavora alla manovra di bilancio per sostenere il potere d'acquisto e gestire le spese energetiche.",
+      "context": "L'aumento dei prezzi erode il potere d'acquisto degli italiani e complica la politica economica del governo in un anno elettorale. La richiesta di flessibilità a Bruxelles è cruciale per evitare tagli automatici alla spesa pubblica e per finanziare misure di sostegno alle famiglie senza aumentare il debito oltre i limiti previsti dalle regole europee.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/09/30/meloni-scrive-a-von-der-leyen-a-causa-dellinflazione-serve-piu-flessibilita_4ed9a78c-fe6a-4675-8c59-ed9737590b3c.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/09/vola-inflazione-settembre-42-governo-cerca-rimedi-salsano-84154ca6-1a5a-452c-8dfc-28cf58381708.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/30/9c0b46170a157641c79bf58392f98c0c.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/09/30/meloni-scrive-a-von-der-leyen-a-causa-dellinflazione-serve-piu-flessibilita_4ed9a78c-fe6a-4675-8c59-ed9737590b3c.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale motivazione addotta dal governo per chiedere maggiore flessibilità all'Unione Europea?",
+          "options": [
+            "Il calo delle esportazioni italiane",
+            "L'aumento dei prezzi che incide sul calcolo del deficit consentito",
+            "La necessità di aumentare la spesa militare",
+            "L'aumento dei tassi di interesse della Banca Centrale Europea"
+          ],
+          "answer": 1,
+          "explanation": "Il governo intende usare i dati sull'inflazione per richiedere nuovi margini nel calcolo dei parametri europei e del deficit consentito, al fine di sostenere famiglie e imprese."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-01-2"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Rivolta dei detenuti a Pisa: protesta online per microspie nelle celle",
+      "summary": "Il primo ottobre 2026, nel carcere Don Bosco di Pisa, alcune decine di detenuti hanno occupato un reparto e si sono barricati dopo aver scoperto microspie e telecamere nelle celle. La protesta è nata in seguito a una finta prova di evacuazione che aveva permesso l'installazione dei dispositivi. I reclusi hanno documentato la rivolta trasmettendo in diretta su TikTok, denunciando anche presunte violenze e condizioni di sovraffollamento, mentre forze dell'ordine e negoziatori sono intervenuti all'esterno.",
+      "context": "Le rivolte negli istituti penitenziari italiani evidenziano spesso tensioni croniche legate al sovraffollamento e alla gestione della sicurezza. Episodi come questo sollevano interrogativi sul controllo dei dispositivi elettronici illegali all'interno delle carceri e sull'efficacia dei canali di comunicazione interna.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/09/rivolta-carcere-pisa-protesta-online-microspie-nelle-celle-borrometi-934d9c7e-5aac-4549-b8ff-6cf40e8db6e0.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/09/30/detenuti-in-rivolta-a-pisa-hanno-trovato-microspie-nelle-celle_27b34c45-def5-46b2-a5f1-d5505ec76841.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/01/1790808308193_son_borrometi_rivolta_pisa_.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/09/rivolta-carcere-pisa-protesta-online-microspie-nelle-celle-borrometi-934d9c7e-5aac-4549-b8ff-6cf40e8db6e0.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il motivo principale che ha scatenato la rivolta dei detenuti nel carcere di Pisa?",
+          "options": [
+            "La scoperta di microspie e telecamere nascoste nelle loro celle",
+            "Il trasferimento improvviso di un gruppo di detenuti in un'altra struttura",
+            "Un aumento improvviso dei prezzi dei beni acquistabili nello spaccio",
+            "La sospensione definitiva dei colloqui con i familiari"
+          ],
+          "answer": 0,
+          "explanation": "La protesta è iniziata dopo che i reclusi hanno scoperto la presenza di microspie e dispositivi investigativi installati durante una finta prova di evacuazione."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-01-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Trump rinomina l'IA in 'Super Intelligence' e firma patto con le big tech",
+      "summary": "Donald Trump ha firmato un ordine esecutivo che impone l'uso del termine 'Super Intelligence' al posto di 'Intelligenza Artificiale' nelle comunicazioni federali. Contemporaneamente, alla Casa Bianca, ha siglato un accordo volontario con i vertici delle principali aziende tecnologiche per l'autoregolamentazione della sicurezza dell'IA, rifiutando nuove normative governative rigide.",
+      "context": "La mossa avviene a sei settimane dalle elezioni di metà mandato e mira a consolidare il primato USA sulla Cina. L'iniziativa è stata criticata da governatori come Gavin Newsom, che in California ha ordinato di mantenere la terminologia tradizionale, definendo l'accordo un tentativo di distrazione dai rischi di sicurezza.",
+      "sources": [
+        {
+          "name": "Corriere della Sera",
+          "url": "https://www.corriere.it/esteri/26_settembre_30/intelligenza-artificiale-trump-firma-con-big-della-tecnologia-un-accordo-moralmente-vincolante-4a90be82-9995-4e02-a929-92b1c4f50xlk.shtml"
+        },
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/news/politics/articles/newsom-rejects-trump-super-intelligence-035255433.html"
+        },
+        {
+          "name": "The Gazette",
+          "url": "https://www.thegazette.com/data_centers/trumps-28-trillion-ai-table-artificial-intelligence-self-policing-forged-by-worlds-richest-people-wealthiest/article_f6dd3a26-e10a-40dd-b91d-e393019720c1.html"
+        }
+      ],
+      "image": {
+        "url": "https://dimages2.corriereobjects.it/files/og_thumbnail/uploads/2026/09/30/6abc3ae21a4f4.jpeg",
+        "credit": "Corriere della Sera",
+        "link": "https://www.corriere.it/esteri/26_settembre_30/intelligenza-artificiale-trump-firma-con-big-della-tecnologia-un-accordo-moralmente-vincolante-4a90be82-9995-4e02-a929-92b1c4f50xlk.shtml"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la posizione di Trump riguardo alla regolamentazione dell'IA?",
+          "options": [
+            "Basta l'autoregolamentazione delle aziende",
+            "Serve una legge federale stringente",
+            "Le aziende devono pagare multe salate",
+            "L'IA deve essere vietata in alcuni settori"
+          ],
+          "answer": 0,
+          "explanation": "Trump ha dichiarato che non servono 'paletti' o nuove normative, sostenendo che l'industria tecnologica debba autoregolarsi."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-01-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Google presenta Gemini 4 Argon, il nuovo modello di intelligenza artificiale",
+      "summary": "Google ha annunciato Gemini 4 Argon, un nuovo modello di intelligenza artificiale progettato per gestire flussi di lavoro complessi nell'ingegneria del software, nel lavoro aziendale e nella sicurezza informatica. Il modello viene distribuito inizialmente in una fase di test tramite il programma Fairwind per i difensori della sicurezza. Il prezzo introduttivo annunciato è di due dollari per milione di token in ingresso e dieci dollari per milione di token in uscita.",
+      "context": "Gemini 4 Argon rappresenta un ulteriore passo avanti nei modelli di intelligenza artificiale avanzata per applicazioni professionali e industriali. Sarà importante monitorare la sua effettiva disponibilità commerciale e l'efficacia delle misure di sicurezza prima del rilascio al pubblico.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        }
+      ],
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
+        "credit": "Hacker News",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+      },
+      "quiz": [
+        {
+          "question": "A quale prezzo introduttivo è stato annunciato Gemini 4 Argon per i token in ingresso?",
+          "options": [
+            "2 dollari per milione di token",
+            "10 dollari per milione di token",
+            "1 dollaro per milione di token",
+            "5 dollari per milione di token"
+          ],
+          "answer": 0,
+          "explanation": "Il modello è stato lanciato a un prezzo introduttivo di 2 dollari per milione di token in ingresso."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-01-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Nas porta Beat Street a Broadway",
+      "summary": "Il rapper Nas sta portando il film cult hip‑hop del 1984 Beat Street a Broadway. Ha messo insieme un team creativo con il regista Schele Williams, lo sceneggiatore Kristoffer Diaz e il supervisore musicale Jason Michael Webb, che hanno svolto un workshop di 29 ore ad agosto. La produzione è sostenuta da Richard Fearn, Arthur Baker, Michael Holman, Peter Bittenbender e Mass Appeal.",
+      "context": "L’adattamento segna il primo grande musical di Broadway basato su un film hip‑hop, dimostrando l’influenza crescente della cultura urbana nei palcoscenici tradizionali. Seguirà l’interesse di investitori e pubblico.",
+      "sources": [
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/nas-beat-street-film-broadway-creative-team/"
+        }
+      ],
+      "image": {
+        "url": "https://townsquare.media/site/812/files/2026/09/attachment-nas-beat-street-creative-team.jpg?w=1200&format=natural",
+        "credit": "XXL",
+        "link": "https://www.xxlmag.com/nas-beat-street-film-broadway-creative-team/"
+      },
+      "quiz": [
+        {
+          "question": "Chi dirige la versione musicale di Beat Street a Broadway?",
+          "options": [
+            "Arthur Baker",
+            "Jason Michael Webb",
+            "Kristoffer Diaz",
+            "Schele Williams"
+          ],
+          "answer": 3,
+          "explanation": "Schele Williams è stato indicato come regista del musical nella notizia."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-01-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Gli Outkast fanno causa per violazione di marchio al rapper Ovrkast",
+      "summary": "Il celebre duo hip-hop Outkast ha fatto causa al rapper emergente Ovrkast, il cui vero nome è Silas Wilson, per violazione di marchio e violazione di contratto. Secondo l'azione legale, il nome d'arte del giovane artista sarebbe quasi identico e confondibile con il loro. Gli Outkast sostengono che Ovrkast avesse già accettato di cambiare nome in seguito a una trattativa, senza però rispettare l'accordo. Il rapper ha invece negato l'esistenza di un'intesa definitiva.",
+      "context": "Nel mondo della musica, la protezione legale del proprio marchio e del proprio nome d'arte è fondamentale per evitare confusioni tra artisti storici e nuovi esordienti. Questa controversia legale mostra come i conflitti sui nomi possano sfociare in vie giudiziarie quando falliscono i tentativi di accordo privato.",
+      "sources": [
+        {
+          "name": "ABC7 KABC",
+          "url": "https://abc7.com/post/outkast-sues-rapper-ovrkast-alleging-trademark-infringement-identical-name/19892692/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.abcotvs.com/dip/images/19892777_093026-kabc-outkast-lawsuit.jpg?w=1600",
+        "credit": "ABC7 KABC",
+        "link": "https://abc7.com/post/outkast-sues-rapper-ovrkast-alleging-trademark-infringement-identical-name/19892692/"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo gli Outkast hanno fatto causa al rapper Ovrkast?",
+          "options": [
+            "Per aver rubato delle apparecchiature in uno studio",
+            "Per violazione di marchio e di contratto",
+            "Per aver campionato una loro canzone senza permesso",
+            "Per aver insultato il gruppo in un'intervista"
+          ],
+          "answer": 1,
+          "explanation": "Il duo ha citato in giudizio il rapper sostenendo che il suo nome sia quasi identico e che non abbia rispettato un accordo precedente per cambiarlo."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-01-7"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Lupi grigi inbred su Isle Royale potrebbero sopravvivere",
+      "summary": "Uno studio ha analizzato i lupi grigi introdotti su Isle Royale, nell'Isola del Lago Superiore del Michigan. Dopo l'introduzione di 21 esemplari (2 iniziali più 19 successivi), la popolazione è cresciuta a 30‑39 individui in aprile 2026, distribuiti in tre branchi. Nonostante la forte inbreeding e i problemi di salute correlati, i ricercatori stimano che i lupi possano persistere fino a venti anni, sebbene la depressione da inbreeding rimanga una preoccupazione.",
+      "context": "Il risultato è rilevante per la conservazione di specie isolate: dimostra che interventi di reintegro possono mantenere una popolazione di predatori, ma evidenzia la necessità di gestire la diversità genetica per evitare problemi di salute a lungo termine.",
+      "sources": [
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/news/science/articles/inbred-gray-wolves-michigan-island-003526693.html"
+        },
+        {
+          "name": "U.S. News & World Report",
+          "url": "https://www.usnews.com/news/news/articles/2026-09-30/isle-royale-wolves-inbred-but-likely-to-survive-study-says"
+        }
+      ],
+      "image": {
+        "url": "https://s.yimg.com/lo/mysterio/api/a594742f9794af2985d8a9e6e8b47eb78fc385633628b36f869000f351f22b08/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnewsnation_articles_600%2Fb8162ee4183c83a27bb76abea614d3e7.jpg",
+        "credit": "Yahoo",
+        "link": "https://www.yahoo.com/news/science/articles/inbred-gray-wolves-michigan-island-003526693.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale conclusione dello studio sui lupi grigi di Isle Royale?",
+          "options": [
+            "I lupi inbred si estingueranno entro pochi anni",
+            "Non ci sono problemi di salute legati all'inbreeding",
+            "La popolazione è aumentata grazie a una sola introduzione",
+            "I lupi inbred possono sopravvivere fino a 20 anni nonostante la depressione da inbreeding"
+          ],
+          "answer": 3,
+          "explanation": "Lo studio indica che, nonostante l'inbreeding, i lupi potrebbero persistere per circa venti anni, anche se la depressione da inbreeding resta una preoccupazione."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-01-8"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Microplastiche diffuse nell'intero bacino del fiume Delaware",
+      "summary": "Un nuovo studio biennale condotto dal PennEnvironment Research & Policy Center ha rilevato la presenza di microplastiche in tutti i ventidue siti monitorati lungo il bacino del fiume Delaware, inclusi i fiumi Lehigh. La ricerca stabilisce un punto di riferimento per l'inquinamento da particelle di plastica inferiori a cinque millimetri nell'area, sebbene gli autori precisino che non vi sono indicazioni di livelli insolitamente alti o rischi immediati per la salute.",
+      "context": "La scoperta conferma la diffusione globale delle microplastiche nei sistemi fluviali. Poiché non esistono ancora standard normativi statali o federali sui livelli accettabili di queste particelle, l'attenzione resta concentrata sulla riduzione alla fonte dei rifiuti di plastica monouso.",
+      "sources": [
+        {
+          "name": "WFMZ",
+          "url": "https://www.wfmz.com/news/area/poconos-coal/carbon-county/study-finds-microplastics-throughout-delaware-river-watershed-including-lehigh-river/article_b6d31e48-5611-4a8c-8232-22939156212d.html"
+        }
+      ],
+      "image": {
+        "url": "https://bloximages.newyork1.vip.townnews.com/wfmz.com/content/tncms/assets/v3/editorial/3/28/328d4478-f633-551e-9463-40d5f2bbcafb/6abd9f1559d78.image.jpg?crop=1280%2C672%2C0%2C23&resize=1200%2C630&order=crop%2Cresize",
+        "credit": "WFMZ",
+        "link": "https://www.wfmz.com/news/area/poconos-coal/carbon-county/study-finds-microplastics-throughout-delaware-river-watershed-including-lehigh-river/article_b6d31e48-5611-4a8c-8232-22939156212d.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha rivelato lo studio del PennEnvironment Research & Policy Center sul bacino del fiume Delaware?",
+          "options": [
+            "L'assenza di plastiche nelle acque del fiume Lehigh",
+            "La presenza di microplastiche in tutti i 22 siti testati",
+            "Livelli di inquinamento record e pericolosi per la salute umana",
+            "Il superamento dei limiti di legge stabiliti dallo Stato"
+          ],
+          "answer": 1,
+          "explanation": "Lo studio ha rilevato microplastiche in tutti i 22 siti campionati, pur non riscontrando standard normativi superati o pericoli immediati per la salute."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-01-9"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Spread Btp-Bund supera i 100 punti a fine settembre",
+      "summary": "Il 30 settembre il differenziale tra i titoli di Stato italiani (Btp) e tedeschi (Bund) a 10 anni ha chiuso a 102,9 punti, salendo da circa 84 punti di inizio mese. Il rendimento del Btp è sceso al 4,61%, mentre quello del Bund si è mantenuto al 3,58%. Questo rialzo, dopo un periodo di riduzione nel 2025, segna un aumento del costo del debito per l'Italia in vista della Manovra 2027.",
+      "context": "L'espansione dello spread riflette la cautela degli investitori e l'impatto delle tensioni geopolitiche in Medio Oriente sui mercati energetici. Per il governo italiano, un costo del finanziamento più alto riduce i margini di spesa pubblica, rendendo più difficile bilanciare le entrate e le uscite in un anno elettorale.",
+      "sources": [
+        {
+          "name": "Sky TG24",
+          "url": "https://tg24.sky.it/economia/2026/09/30/spread-btp-bund-italia"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/09/30/-lo-spread-btp-bund-chiude-a-1029-punti-_1d56e858-9f6c-4bf6-a432-b6cc7f4c573d.html"
+        }
+      ],
+      "image": {
+        "url": "https://tg24.sky.it/assets/images/3a7279dd57504722491a084806ed4c371e8f5e93/skytg24/it/economia/2020/07/07/spread-oggi-tempo-reale-7-luglio/spread-borsa-ansa.JPG?im=Resize,width=1218",
+        "credit": "Sky TG24",
+        "link": "https://tg24.sky.it/economia/2026/09/30/spread-btp-bund-italia"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato il valore di chiusura dello spread Btp-Bund il 30 settembre?",
+          "options": [
+            "84 punti",
+            "110 punti",
+            "102,9 punti",
+            "70 punti"
+          ],
+          "answer": 2,
+          "explanation": "Le fonti indicano che il 30 settembre lo spread ha chiuso a 102,9 punti, salendo da circa 84 punti di inizio mese."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-01-10"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Meloni chiede flessibilità a Bruxelles per contrastare l'inflazione",
+      "summary": "La presidente del Consiglio Giorgia Meloni ha annunciato di aver scritto alla presidente della Commissione europea Ursula von der Leyen, insieme alla Repubblica Ceca, per chiedere maggiore flessibilità nei parametri di bilancio europei. L'obiettivo è fronteggiare l'inflazione causata dal caro energia e ottenere margini di deficit per sostenere famiglie e imprese nella prossima legge di bilancio.",
+      "context": "La richiesta di flessibilità sui conti pubblici si scontra tradizionalmente con le regole fiscali dell'Unione europea. Monitorare i prossimi incontri dell'Ecofin e del Consiglio europeo permetterà di capire se Bruxelles concederà margini di manovra ai governi.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/09/30/meloni-scrive-a-von-der-leyen-a-causa-dellinflazione-serve-piu-flessibilita_16970057-cbd6-4c38-a781-3e9ac3d61a14.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/12/15/909bb5dfe409f5fceff43bfcbb3de6dc.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/09/30/meloni-scrive-a-von-der-leyen-a-causa-dellinflazione-serve-piu-flessibilita_16970057-cbd6-4c38-a781-3e9ac3d61a14.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha chiesto la presidente del Consiglio Giorgia Meloni alla Commissione europea?",
+          "options": [
+            "La cancellazione totale del debito pubblico italiano",
+            "Il blocco immediato delle importazioni di energia",
+            "Maggiore flessibilità sui parametri di bilancio per l'inflazione",
+            "Un aumento delle tasse sulle imprese"
+          ],
+          "answer": 2,
+          "explanation": "Meloni ha chiesto flessibilità nei parametri europei e nel deficit per sostenere famiglie e imprese contro l'inflazione."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-01-11"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Game of Thrones al cinema: Aegon's Conquest esce nel 2029",
+      "summary": "Il franchise de Il Trono di Spade debutterà al cinema il 1° giugno 2029 con il film Aegon's Conquest, prodotto da Warner Bros. La pellicola racconterà la conquista di Westeros da parte di Aegon Targaryen e delle sue sorelle-mogli Visenya e Rhaenys, tre secoli prima degli eventi della serie originale. La sceneggiatura è affidata a Beau Willimon, mentre la regia sarà di Owen Harris.",
+      "context": "Questo progetto segna il primo sbarco cinematografico per il celebre universo fantasy di George R.R. Martin. L'espansione del franchise punta a replicare il successo televisivo della serie madre e dei suoi spin-off attraverso nuove storie sulle origini dei Targaryen.",
+      "sources": [
+        {
+          "name": "Il Messaggero",
+          "url": "https://www.ilmessaggero.it/spettacoli/cinema/il_trono_di_spade_cinema_quando_esce_cosa_sappiamo-9795474.html"
+        }
+      ],
+      "image": {
+        "url": "https://statics.cedscdn.it/photos/MED_HIGH/2026/09/30/9795474_30172609_daenerys.jpg",
+        "credit": "Il Messaggero",
+        "link": "https://www.ilmessaggero.it/spettacoli/cinema/il_trono_di_spade_cinema_quando_esce_cosa_sappiamo-9795474.html"
+      },
+      "quiz": [
+        {
+          "question": "Quando è prevista l'uscita del film Aegon's Conquest al cinema?",
+          "options": [
+            "1° giugno 2029",
+            "15 aprile 2027",
+            "Non è stata annunciata alcuna data",
+            "1° giugno 2031"
+          ],
+          "answer": 0,
+          "explanation": "La data di uscita nelle sale del film Aegon's Conquest è fissata per il 1° giugno 2029."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-01-12"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Greta Garbo 'resuscita' con l'IA in uno spot per cuscinetti a sfera",
+      "summary": "L'immagine della leggendaria attrice svedese Greta Garbo è stata ricreata digitalmente tramite intelligenza artificiale per una campagna pubblicitaria dell'azienda svedese Skf, con cui la diva aveva un legame storico risalente al 1921. I suoi eredi, rimasti sbalorditi dal realismo del risultato, non hanno escluso la possibilità che la versione digitale dell'attrice possa un tempo recitare in un film vero e proprio, riaprendo il dibattito sull'uso postumo dei volti celebri.",
+      "context": "L'uso dell'intelligenza artificiale per replicare attori defunti, noto come 'ghostploitation', solleva importanti questioni legali ed etiche sul controllo dell'immagine e sul consenso postumo. È un tema centrale nel cinema contemporaneo che coinvolta sempre più spesso gli eredi di grandi icone del passato.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/30/greta-garbo-rinasce-con-lia-la-divina-resuscitata-in-uno-spot_a306f686-618a-4691-ad26-7b5c01b1d49b.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2016/7/25/84eedc94b0c93701f634dc28596d6cd2.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/30/greta-garbo-rinasce-con-lia-la-divina-resuscitata-in-uno-spot_a306f686-618a-4691-ad26-7b5c01b1d49b.html"
+      },
+      "quiz": [
+        {
+          "question": "In quale contesto è stata ricreata l'immagine digitale di Greta Garbo?",
+          "options": [
+            "In un cortometraggio animato prodotto dagli eredi",
+            "In un documentario sulla storia del cinema muto",
+            "In una campagna pubblicitaria per un'azienda di cuscinetti a sfera",
+            "In un nuovo film biografico uscito nel 2025"
+          ],
+          "answer": 2,
+          "explanation": "L'immagine di Greta Garbo è stata ricreata digitalmente per uno spot pubblicitario dell'azienda svedese Skf."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-01-13"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Cristiano Ronaldo rompe con il Portogallo e lascia il ritiro",
+      "summary": "Cristiano Ronaldo ha lasciato il ritiro della nazionale portoghese a Copenaghen dopo ventiquattro anni di legame. La decisione è arrivata in seguito alle dichiarazioni del commissario tecnico Jorge Jesus, che lo aveva escluso dai titolari per la partita contro la Danimarca. Dopo aver svuotato il proprio armadietto e saltato l'allenamento, l'attaccante ha annunciato su Instagram il suo addio, promettendo di spiegare presto le ragioni del gesto.",
+      "context": "Questo strappo segna probabilmente la fine della lunghissima e trionfale carriera internazionale di uno dei giocatori più importanti della storia del calcio. Nel quadro generale, evidenzia la difficoltà dei grandi campioni nel gestire il declino fisico e il passaggio a un ruolo marginale.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/2026/09/30/rottura-fra-cr7-e-il-ct-del-portogallo-lattaccante-lascia-la-squadra_d37e4a0d-2d82-474d-88a6-c6708259e461.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/30/cristiano-ronaldo-a-tempo-debito-diro-ai-portoghesi-perche-ho-lasciato-la-nazionale_8243c14f-bec9-4cde-98b8-14eb45351659.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/29/10b7c0fa7ca6e736b291e8a21fff97bb.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/2026/09/30/rottura-fra-cr7-e-il-ct-del-portogallo-lattaccante-lascia-la-squadra_d37e4a0d-2d82-474d-88a6-c6708259e461.html"
+      },
+      "quiz": [
+        {
+          "question": "Perché Cristiano Ronaldo ha deciso di lasciare il ritiro della nazionale portoghese?",
+          "options": [
+            "Per un trasferimento urgente in un club spagnolo",
+            "Per l'esclusione dai titolari decisa dal commissario tecnico",
+            "Per dissidi economici con la presidenza della federcalcio",
+            "Per un infortunio muscolare rimediato in allenamento"
+          ],
+          "answer": 1,
+          "explanation": "L'addio è maturato dopo che il commissario tecnico Jorge Jesus lo ha escluso dalla formazione titolare per la partita contro la Danimarca."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-01-14"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Dimissioni di Diana Bianchedi da capo delegazione della Nazionale dopo le polemiche",
+      "summary": "Diana Bianchedi si è dimessa dalla carica di capo delegazione della Nazionale di calcio. La decisione arriva a seguito delle polemiche e delle dichiarazioni del ministro dello Sport Andrea Abodi relative a una presunta incompatibilità di ruoli, dato che Bianchedi è anche vicepresidente del Comitato olimpico. L'ex schermitrice ha spiegato di voler proteggere la squadra da inutili tensioni e di tutolare le istituzioni sportive.",
+      "context": "La vicenda si inserisce in un momento di forte tensione tra il Comitato olimpico e la Federazione italiana gioco calcio, con il rischio concreto di un commissariamento della federazione. La mossa di Bianchedi rimuove un potenziale conflitto istituzionale.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/2026/09/30/figc-abodi-a-commissariare-non-e-la-politica-mancini-non-in-discussione_9ada3539-58b6-47bf-b3b6-a5cef4a84751.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/30/diana-bianchedi-mi-dimetto-da-capo-delegazione-della-nazionale_f0f56001-7f44-4caf-8c4b-44675ef1be97.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/30/a32bdcc96e418d8f4d955425032bc081.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/2026/09/30/figc-abodi-a-commissariare-non-e-la-politica-mancini-non-in-discussione_9ada3539-58b6-47bf-b3b6-a5cef4a84751.html"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Diana Bianchedi si è dimessa da capo delegazione?",
+          "options": [
+            "Per divergenze con il commissario tecnico",
+            "Per assumere la guida tecnica della squadra",
+            "A causa delle polemiche e dei dubbi sulla compatibilità dei ruoli",
+            "Per scarse prestazioni della squadra"
+          ],
+          "answer": 2,
+          "explanation": "Le dimissioni sono arrivate a seguito delle polemiche e delle verifiche sulla compatibilità tra il suo incarico in federazione e il ruolo di vicepresidente del Comitato olimpico."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-01-15"
+    },
+    {
+      "category": "storia",
+      "tag": "1 ottobre 1950",
+      "title": "Alan Turing pubblica l'articolo sul test per l'intelligenza delle macchine",
+      "summary": "Il 1 ottobre 1950 il matematico Alan Turing pubblica sulla rivista Mind l'articolo in cui introduce per la prima volta il test che porta il suo nome. Il criterio serve a stabilire se una macchina è in grado di mostrare un comportamento intelligente, valutando la sua capacità di imitare un essere umano in una conversazione scritta al punto da risultare indistinguibile da esso.",
+      "context": "Il test di Turing ha gettato le basi concettuali per la nascita dell'intelligenza artificiale, spostando il dibattito sulla capacità delle macchine di simulare il pensiero umano. Ha lasciato in eredità un metro di paragone storico, pur restando al centro di ampi dibattiti filosofici sulla reale natura della coscienza artificiale.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Test_di_Turing"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Turing_Test_Version_3.svg/1280px-Turing_Test_Version_3.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Turing_Test_Version_3.svg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa misura principalmente il test di Turing introdotto nel 1950?",
+          "options": [
+            "La velocità di calcolo di un computer",
+            "Se una macchina può esibire un comportamento intelligente ed essere indistinguibile da un umano",
+            "La resistenza fisica dei componenti hardware",
+            "La capacità di memoria delle macchine a stati finiti"
+          ],
+          "answer": 1,
+          "explanation": "Il test verifica se una macchina è in grado di imitare il comportamento umano in modo tale che un osservatore non riesca a distinguerla da una persona reale."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-01-16"
+    },
+    {
+      "category": "storia",
+      "tag": "1 ottobre 1964",
+      "title": "Inaugurato lo Shinkansen tra Tokyo e Osaka",
+      "summary": "Il 1 ottobre 1964 entra in servizio lo Shinkansen, il primo treno ad alta velocità giapponese. Il convoglio collega Tokyo e Osaka, le due città più grandi del paese, riducendo drasticamente i tempi di percorrenza dai precedenti 6 ore e 40 minuti a 4 ore, poi scesi a 3 ore e 10. La linea ottiene un successo immediato, superando i cento milioni di passeggeri in meno di tre anni.",
+      "context": "L'introduzione dello Shinkansen ha dimostrato che il trasporto ferroviario poteva competere con l'aereo e l'automobile, rilanciando gli investimenti mondiali nell'alta velocità. Ha modificato lo stile di vita giapponese, permettendo spostamenti giornalieri per lavoro e affari, e ha posto le basi per la successiva espansione globale della tecnologia ferroviaria veloce.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Shinkansen"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Shinkansen_map_201703_en.png/1280px-Shinkansen_map_201703_en.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Shinkansen_map_201703_en.png"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu l'effetto principale dell'apertura del primo Shinkansen sui tempi di viaggio?",
+          "options": [
+            "I tempi rimasero invariati rispetto ai treni precedenti.",
+            "I treni impiegavano esattamente sei ore e quaranta minuti.",
+            "I tempi si ridussero drasticamente sotto le quattro ore.",
+            "Il viaggio divenne più lungo a causa delle fermate intermedie."
+          ],
+          "answer": 2,
+          "explanation": "Il nuovo treno ad alta velocità ridusse il tempo di percorrenza a quattro ore e successivamente a tre ore e dieci minuti, rispetto alle quasi sette ore dei treni precedenti."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-01-17"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Richard Roose",
+      "title": "La zuppa avvelenata che inventò la pena della bollitura",
+      "summary": "Nel febbraio 1531, nella residenza londinese del vescovo John Fisher, un porridge salato avvelenato causò la morte di due persone e il malore di molte altre. Il cuoco Richard Roose fu accusato del gesto, forse per colpire lo stesso vescovo, oppositore del divorzio di Enrico VIII. Sconvolto dall'accaduto, re Enrico VIII fece approvare una legge che puniva l'avvelenamento con la bollitura pubblica in un calderone, condanna a cui Roose fu il primo a essere sottoposto.",
+      "context": "L'episodio si inserisce nel clima di forte tensione politica e religiosa dell'Inghilterra pre-anglicana, segnato dallo scontro tra Enrico VIII e la Chiesa di Roma per il divorzio da Caterina d'Aragona. La legge sulla bollitura rimase in vigore pochi anni prima di essere abolita per la sua estrema crudeltà.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Richard_Roose"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ketel.jpg/1280px-Ketel.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Ketel.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale pena introdusse Enrico VIII a seguito del caso di Richard Roose?",
+          "options": [
+            "La bollitura a morte in un calderone",
+            "La decapitazione pubblica",
+            "L'impiccagione e sventramento",
+            "L'esilio perpetuo"
+          ],
+          "answer": 0,
+          "explanation": "Il re emanò un provvedimento che equiparava l'avvelenamento all'alto tradimento, punendolo con la bollitura pubblica."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-01-18"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Dudley Clarke",
+      "title": "Il neonato che chiese una medaglia di guerra",
+      "summary": "Dudley Clarke, noto ufficiale britannico e pioniere dell'inganno militare durante la seconda guerra mondiale, nacque in Sudafrica nel 1899. Durante la seconda guerra boera rimase intrappolato con la famiglia a Ladysmith durante il famoso assedio. Nonostante all'epoca fosse soltanto un neonato, in età adulta Clarke arrivò a tentare di ottenere un riconoscimento ufficiale per la sua presunta partecipazione a quell'evento bellico.",
+      "context": "Le operazioni di depistaggio e mascheramento strategico furono cruciali per gli Alleati nella seconda guerra mondiale, permettendo di confondere i comandi dell'Asse nel Mediterraneo. Figure eccentriche e creative come Dudley Clarke gettarono le basi della moderna guerra psicologica e informativa.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Dudley_Clarke"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Dudley_Clarke.jpg/1280px-Dudley_Clarke.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Dudley_Clarke.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale bizzarro tentativo compì Dudley Clarke da adulto riguardo alla sua infanzia?",
+          "options": [
+            "Richiese i gradi da generale per meriti di famiglia",
+            "Tentò di ottenere una medaglia per l'assedio di Ladysmith vissuto da neonato",
+            "Chiese un risarcimento per la casa distrutta a Johannesburg",
+            "Fece causa alla scuola militare per averlo respinto a sedici anni"
+          ],
+          "answer": 1,
+          "explanation": "Clarke provò a farsi riconoscere ufficialmente una partecipazione militare a un evento bellico a cui aveva assistito da neonato."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-01-19"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Campagne siriano-mesopotamiche di Sapore I",
+      "title": "Come l'esercito persiano vinceva senza soldati fissi",
+      "summary": "Durante le guerre contro l'Impero romano nel III secolo, l'esercito sasanide non era composto da soldati di professione stipendiati in modo stabile come quello romano. I sovrani persiani radunavano di volta in volta forze simili a milizie feudali, guidate da nobili a capo dei loro clan e spesso affiancate da mercenari. Questa struttura flessibile basata su cavalleria e arcieri riuscì comunque a infliggere gravi sconfitte ai Romani.",
+      "context": "Nel III secolo l'Impero romano affrontò una profonda crisi politica ed economica, trovandosi a fronteggiare sui confini orientali la nuova e aggressiva dinastia dei Sasanidi. Questo impero persiano cercava di restaurare i vecchi confini achemenidi, mettendo a dura prova la stabilità del sistema difensivo romano nel Vicino Oriente.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Campagne_siriano-mesopotamiche_di_Sapore_I"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Bas_relief_nagsh-e-rostam_al.jpg/1280px-Bas_relief_nagsh-e-rostam_al.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Bas_relief_nagsh-e-rostam_al.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Come era strutturato principalmente l'esercito sasanide durante le campagne contro i Romani?",
+          "options": [
+            "Esclusivamente con soldati mercenari stranieri senza comandanti reali",
+            "Con un sistema simile a quello feudale guidato da nobili e clan",
+            "Con legioni permanenti di soldati professionisti stipendiati",
+            "Con truppe di fanteria pesante reclutate tramite leva obbligatoria annuale"
+          ],
+          "answer": 1,
+          "explanation": "L'esercito sasanide non era permanente ma veniva radunato per ogni campagna tramite un sistema feudale basato su nobili e clan."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-01-20"
+    }
+  ]
+}
