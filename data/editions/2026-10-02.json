@@ -1,0 +1,743 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T04:32:56.121Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "USA invia terza portaerei nel Golfo per le tensioni a Hormuz",
+      "summary": "Gli Stati Uniti hanno inviato una terza portaerei nel Golfo Persico e circa 10.000 soldati, in risposta a un incendio su una petroliera a Hormuz e all’aumento delle tensioni con l’Iran. La mossa, annunciata a fine ottobre, si aggiunge a due batterie di missili Patriot già schierate per proteggere gli impianti energetici di Arabia Saudita e Qatar.",
+      "context": "Il Canale di Hormuz è una delle rotte petrolifere più strategiche al mondo; l’invio di una portaerei indica una escalation militare americana per contenere eventuali minacce iraniane e garantire la sicurezza del transito energetico.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/10/guerre-medio-oriente-hormuz-petroliera-in-fiamme-usa-inviano-terza-petroliera-f85468f8-e886-4e60-b521-f8894382c83c.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/9/13/1789279083219_small.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/maratona/2026/10/guerre-medio-oriente-hormuz-petroliera-in-fiamme-usa-inviano-terza-petroliera-f85468f8-e886-4e60-b521-f8894382c83c.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale azione militare degli Stati Uniti nel Golfo in risposta alle tensioni a Hormuz?",
+          "options": [
+            "Imposizione di sanzioni economiche all'Iran",
+            "Lancio di attacchi aerei contro l'Iran",
+            "Dispiegamento di truppe di terra in Iran",
+            "Invio di una terza portaerei e 10.000 soldati"
+          ],
+          "answer": 3,
+          "explanation": "Gli USA hanno inviato una terza portaerei e circa 10.000 uomini, come indicato nella notizia."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-02-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Trump minaccia il blocco dell'esportazione di diesel",
+      "summary": "Il presidente degli Stati Uniti Donald Trump ha dichiarato di valutare un divieto di esportazione di diesel per far fronte a una carenza globale e all'aumento dei prezzi. Il Segretario al Tesoro Scott Bessent ha chiesto all'Europa di rilasciare immediatamente le proprie riserve di carburante. In risposta alle pressioni statunitensi, il Regno Unito e i partner europei hanno avviato colloqui per coordinare una risposta e valutare la situazione.",
+      "context": "La mossa riflette le tensioni sui mercati energetici legate al conflitto in Iran e alle imminenti elezioni di metà mandato negli Stati Uniti. Nel frattempo, i prezzi del diesel in Europa e nel Regno Unito continuano a salire.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7842/live/887b3530-bdcc-11f1-b74d-89126d2b845a.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha chiesto il governo degli Stati Uniti all'Europa riguardo al diesel?",
+          "options": [
+            "Di abbassare le tasse sui carburanti",
+            "Di bloccare ogni transazione con l'Iran",
+            "Di rilasciare immediatamente le proprie riserve di carburante",
+            "Di aumentare le importazioni dagli Stati Uniti"
+          ],
+          "answer": 2,
+          "explanation": "Il Segretario al Tesoro Scott Bessent ha chiesto all'Europa di preparare e rilasciare subito le proprie riserve di diesel."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-02-1"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Giorgetti chiede flessibilità UE per la manovra",
+      "summary": "Il ministro dell'Economia Giancarlo Giorgetti ha confermato l'intenzione di presentare una legge di bilancio prudente. L'Italia, insieme alla Repubblica Ceca, ha inviato una lettera alla Commissione europea per richiedere maggiore flessibilità nelle regole di spesa. La richiesta nasce dall'aumento delle spese pubbliche dovuto all'inflazione e al caro energia. Bruxelles ha risposto con cautela, ricordando che alcune deroghe sono già state concesse, ma il tema sarà discusso nei prossimi vertici economici europei.",
+      "context": "La manovra di bilancio italiana si scontra con i vincoli fiscali europei e un'inflazione persistente che erode i margini di spesa. La pressione del governo italiano riflette la difficoltà di bilanciare il sostegno a famiglie e imprese con la stabilità dei conti pubblici, un tema cruciale per l'intera area dell'euro.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/manovra-giorgetti-sceglie-la-linea-della-prudenza-e-chiede-flessibilita-a-ue-bb20fcdc-5b68-452b-94c7-399d8af8a4c2.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/01/meloni-in-pressing-flessibilita-o-misure-restrittive.-ma-lue-e-cauta_c461cfeb-1f8a-498a-878e-2c5ebb6f7005.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/02/1790897440256_Bagnacani_sulla_manovra_economica.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/manovra-giorgetti-sceglie-la-linea-della-prudenza-e-chiede-flessibilita-a-ue-bb20fcdc-5b68-452b-94c7-399d8af8a4c2.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale motivazione alla base della richiesta di flessibilità inviata dall'Italia alla Commissione europea?",
+          "options": [
+            "L'aumento delle spese pubbliche dovuto all'inflazione e al caro energia",
+            "La necessità di finanziare nuove infrastrutture digitali",
+            "Il calo delle entrate fiscali dovuto alla crisi economica",
+            "La richiesta di ridurre il debito pubblico complessivo"
+          ],
+          "answer": 0,
+          "explanation": "Il testo specifica che la richiesta nasce perché sono aumentate tutte le spese, rendendo difficili da rispettare i target precedenti a causa dell'inflazione e dei costi energetici."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-02-2"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Avanzamento della riforma elettorale: la legge supera il primo scoglio",
+      "summary": "La riforma della legge elettorale ha superato il primo passaggio parlamentare. La maggioranza ha respinto a scrutinio segreto le cinque pregiudiziali di costituzionalità presentate dalle opposizioni, ottenendo 229 voti contrari grazie anche al sostegno di Futuro Nazionale. L'iter prevede ora la questione di fiducia posta dal governo a partire da lunedì, mentre il voto finale sull'intero provvedimento è fissato per giovedì 8 ottobre.",
+      "context": "Le riforme delle regole per votare modificano gli equilibri politici tra i partiti e la rappresentanza in Parlamento. L'iter comprende passaggi istituzionali complessi, tra cui la promulgazione presidenziale e la successiva verifica di legittimità costituzionale da parte della Consulta.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/10/riforma-elettorale-verso-il-traguardo-la-resa-dei-conti-alla-camera-539b5a07-87d4-4d79-9517-3568be4c1cbb.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNd2RtelpETFVuS3JlbHh6U1BCTTNYMDFZWk8yREMzclJWUzYxd2p6cDhpaEV1S2hPWnpGeWlVVjl3T1lIUnYwLWo4cGtOWEVvTUlBSm9zR2RQZVdJdk0xNU93WGh4cGZTbHNNazJneG15VmhWU3RkN1NVZXhJY3FMSFVlbXM2Q1JNd3VleUVPT0hjMTE5eTdhTTJIbHRvUmNWU2JpQy1TV2J1S0V6U1VBMm9aRGhpbFNGS2F2V0t0V1lvT3ZWOURBQmluRkJZSTNJQTlPTWswM2xFSVpGdGg2LU9RTnFwS2JhZktjRHNaR1J6djZUNVA0eGgwX0tXRmFOT25iT0xQeXpfSkXSAZACQVVfeXFMTUgwRUEtR2tYUmgzVmRxR0kzNlc5ODZaU2dhRTdVeGdSN0N1M0xVVWpsaGNFY1VfczFoZy1aeWd6Uy12TmRJeFgxX3NGczdBcGNYcXNLbUdVOTU3VGkwV3R3a1VueU5KWUZTdXFrbXA1bTFoblR1M3Q3SldIOFltSzFWOVZHZXpZSXRVOTJwQnJTa28xWlFSbThKSVJGRVUtZHNHUWsyUlhkZFVCZWMtdmhYVVRIWEtVV3FHeHA0NjlsVDB3Zkh2dW5ZbkVSVk5nTllTVG94dXJnYkFqZHFjME5FR1NPbC00d1pmMkt1RmpTeDlxc3UtUEZPVS1GTG5CVXpxQjVhOW1kb012b2I1bUk?oc=5"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/01/la-legge-elettorale-supera-il-primo-scoglio-la-maggioranza-compatta-nel-voto-segreto_afc2a0af-fc7e-4d3d-97eb-4fcafc26cbb0.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2022/9/24/1664042322218_rainewsdecadfde.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/articoli/2026/10/riforma-elettorale-verso-il-traguardo-la-resa-dei-conti-alla-camera-539b5a07-87d4-4d79-9517-3568be4c1cbb.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale ostacolo ha superato la riforma elettorale nel primo voto parlamentare?",
+          "options": [
+            "Il voto finale in Senato",
+            "Le pregiudiziali di costituzionalità",
+            "La promulgazione del Presidente",
+            "I decreti legislativi attuativi"
+          ],
+          "answer": 1,
+          "explanation": "La maggioranza ha respinto a scrutinio segreto le cinque pregiudiziali di costituzionalità presentate dalle opposizioni."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-02-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Google lancia Guided Vision su Gemini Live",
+      "summary": "Google ha introdotto Guided Vision su Gemini Live per dispositivi Android compatibili. La funzione utilizza l'intelligenza artificiale per fornire descrizioni audio in tempo reale di ciò che la fotocamera del telefono riprende. L'obiettivo è assistere persone con disabilità visive o chi necessita di supporto nella lettura di testi piccoli o nell'identificazione di oggetti. Gli utenti possono porre domande di follow-up e ricevere indicazioni per allineare la fotocamera.",
+      "context": "L'innovazione si inserisce nel contesto dell'accessibilità tecnologica, offrendo un'alternativa simile alle funzioni di riconoscimento vocale di Apple. È importante notare che Google sconsiglia l'uso per la navigazione o la rilevazione di ostacoli, sottolineando i limiti attuali dell'IA in ambito di sicurezza personale.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK255_Google_Gemini_B_474198.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
+      },
+      "quiz": [
+        {
+          "question": "Per quale scopo principale è progettata la funzione Guided Vision?",
+          "options": [
+            "Per migliorare la qualità delle foto scattate con la fotocamera",
+            "Per tradurre istantaneamente la lingua parlata in altre lingue",
+            "Per fornire descrizioni audio in tempo reale di oggetti e testi",
+            "Per la navigazione autonoma e la rilevazione di ostacoli"
+          ],
+          "answer": 2,
+          "explanation": "Il testo specifica che la funzione serve a dare descrizioni audio di ciò che si vede, aiutando chi ha disabilità visive, ma sconsiglia esplicitamente l'uso per la navigazione."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-02-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Apple sviluppa una smart camera per la casa che non registra video",
+      "summary": "Apple sta lavorando a una telecamera di sicurezza per la smart home che non registra né trasmette video. Secondo le indiscrezioni riferite dal giornalista Mark Gurman, il dispositivo analizzerà l'ambiente domestico tramite intelligenza artificiale integrata, fornendo agli utenti esclusivamente descrizioni testuali degli eventi e funzionalità come il riconoscimento facciale, senza memorizzare immagini.",
+      "context": "Questo progetto si inserisce nella strategia di Apple per espandersi nel settore della domotica con un nuovo ecosistema di dispositivi per la casa. L'approccio incentrato sull'elaborazione locale punta a rassicurare gli utenti sulla privacy.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK071_APPLE_I.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video"
+      },
+      "quiz": [
+        {
+          "question": "Come funziona la nuova telecamera per la casa sviluppata da Apple?",
+          "options": [
+            "Registra video in alta definizione",
+            "Usa solo onde millimetriche per la presenza",
+            "Analizza l'ambiente e fornisce solo descrizioni testuali",
+            "Trasmette filmati in diretta via streaming"
+          ],
+          "answer": 2,
+          "explanation": "Il dispositivo utilizza intelligenza artificiale per analizzare l'ambiente senza registrare o archiviare alcun filmato video."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-02-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Lil Nas X torna sulla scena musicale con il singolo 'World's Greatest!'",
+      "summary": "Il rapper Lil Nas X è tornato con il nuovo singolo \"World's Greatest!\", il suo primo brano inedito dopo oltre un anno e mezzo e dopo un periodo di riabilitazione per la salute mentale. La canzone è un inno alla resilienza e all'autostima, accompagnata da un video girato ad Atlanta che omaggia la sua infanzia e la madre defunta.",
+      "context": "Questo ritorno segna una fase di ripartenza per l'artista dopo i problemi personali dichiarati di recente. Nel panorama musicale pop e rap, i brani di forte introspezione personale aiutano spesso gli artisti a riconnettersi con il proprio pubblico.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/lil-nas-x-comeback-uplifting-worlds-greatest-single-listen-1236350051/"
+        },
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/lil-nas-x-worlds-greatest-video/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/09/lil-nas-x-worlds-greatest-single-billboard-1800.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/lil-nas-x-comeback-uplifting-worlds-greatest-single-listen-1236350051/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il significato principale del nuovo singolo 'World's Greatest!' di Lil Nas X?",
+          "options": [
+            "Un attacco contro i suoi rivali musicali",
+            "Una canzone d'amore dedicata a un fan",
+            "Un inno alla resilienza, alla fiducia in se stessi e alle proprie radici",
+            "Un brano puramente strumentale senza parti cantate"
+          ],
+          "answer": 2,
+          "explanation": "Il brano è un omaggio all'autostima e alla resilienza, che celebra il percorso di crescita dell'artista e il supporto della sua famiglia."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-02-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "L'eredità di Mac Miller pubblica l'edizione decennale di 'The Divine Feminine'",
+      "summary": "L'eredità del defunto musicista Mac Miller ha pubblicato l'edizione per il decimo anniversario del suo album \"The Divine Feminine\". Il progetto include tre nuove canzoni: l'inedito \"Butterflies\", uscito a settembre, e i brani \"Grand\" e \"Channel 13\", arrivati sulle piattaforme di streaming venerdì 2 ottobre 2026. Per l'occasione, la famiglia ha organizzato anche la trasmissione in streaming dello speciale \"The Divine Feminine Live\".",
+      "context": "La pubblicazione di materiale inedito da parte degli eredi di un artista morto prematuramente serve a mantenerne vivo il catalogo e a celebrare anniversari chiave della sua discografia. Questo tipo di operazioni è ormai comune nell'industria musicale contemporanea per valorizzare l'eredità artistica.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/mac-miller-divine-feminine-10th-anniversary-stream-1236352340/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/08/mac-miller-credit-gary-askew-billboard-1800.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/mac-miller-divine-feminine-10th-anniversary-stream-1236352340/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa include la nuova edizione decennale dell'album \"The Divine Feminine\" di Mac Miller?",
+          "options": [
+            "Un documentario cinematografico inedito",
+            "Solo una serie di interviste inedite",
+            "Un intero album di remix hip-hop",
+            "Un pacchetto di tre nuove canzoni"
+          ],
+          "answer": 3,
+          "explanation": "L'edizione decennale pubblicata dall'eredità di Mac Miller include tre nuove canzoni: \"Butterflies\", \"Grand\" e \"Channel 13\"."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-02-7"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Scoperta al largo delle Mauritius una nuova specie di squalo lunga appena venti centimetri",
+      "summary": "Una nuova specie di squalo, lunga circa venti centimetri, è stata scoperta al largo delle isole Mauritius. L'animale è stato chiamato squalo lanterna. Questa scoperta potrebbe mettere in discussione il primato della specie di squalo più piccola al mondo.",
+      "context": "Le profondità oceaniche nascondono ancora moltissime specie sconosciute. Ritrovare esemplari così piccoli e particolari aiuta a comprendere meglio la biodiversità marina e la capacità di adattamento di questi predatori in ambienti estremi.",
+      "sources": [
+        {
+          "name": "Fanpage.it",
+          "url": "https://www.fanpage.it/innovazione/scienze/scoperta-nuova-specie-di-squalo-di-circa-20-cm-puo-sfidare-il-primato-di-piu-piccolo-al-mondo/"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/1280px-Flag_of_Mauritius.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Flag_of_Mauritius.svg"
+      },
+      "quiz": [
+        {
+          "question": "Quanto misura circa la nuova specie di squalo scoperta al largo delle Mauritius?",
+          "options": [
+            "Cinque centimetri",
+            "Un metro",
+            "Venti centimetri",
+            "Due metri"
+          ],
+          "answer": 2,
+          "explanation": "La notizia specifica che il nuovo squalo misura appena una ventina di centimetri."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-02-8"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Borse europee in forte calo e petrolio sopra i 100 dollari",
+      "summary": "Le Borse europee hanno chiuso in forte calo, con Milano maglia nera a causa di un ribasso del 2,2 percento. A pesare sui mercati sono stati il ritorno del petrolio Brent sopra i 100 dollari al barile, spinto dalla crisi in Medio Oriente, e le forti tensioni sui titoli di Stato. L'aumento dei rendimenti obbligazionari riflette i timori sull'inflazione e sull'aumento dei debiti pubblici.",
+      "context": "L'aumento dei prezzi dell'energia e il rialzo dei rendimenti dei titoli di Stato mettono sotto pressione i conti pubblici europei e spingono gli investitori a temere nuovi interventi restrittivi da parte delle banche centrali sui tassi di interesse.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/01/mercati-nella-bufera-con-il-petrolio-oltre-100-dollari-si-impenna-lo-spread_94ecf17e-5b6a-4e41-b569-3c5b58cda40e.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/01/borsa-europa-conclude-in-calo-parigi-162_cbef6c8c-8ac0-4e89-9910-f6773ca39b65.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/01/borsa-leuropa-peggiora-con-wall-street-greggio-sopra-100-dollari_3ef29a77-94b3-4a0f-907d-e21b3a5d6ef2.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/4/7/5dcb3effbc64c7bbfa13ec90d6e9a7f9.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/01/mercati-nella-bufera-con-il-petrolio-oltre-100-dollari-si-impenna-lo-spread_94ecf17e-5b6a-4e41-b569-3c5b58cda40e.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale fattore ha contribuito principalmente al nervosismo e al calo delle Borse europee?",
+          "options": [
+            "La chiusura improvvisa della Banca Centrale Europea",
+            "Il crollo definitivo del dollaro americano",
+            "Il ritorno del petrolio Brent sopra i 100 dollari e le tensioni sui titoli di Stato",
+            "Il calo generale della produzione agricola"
+          ],
+          "answer": 2,
+          "explanation": "Il calo dei mercati è stato guidato dall'aumento del prezzo del petrolio oltre i 100 dollari al barile e dalle forti tensioni sui rendimenti dei titoli di Stato."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-02-9"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Banca Ifis: Bankitalia chiede 170 milioni di rettifiche e nuove politiche di dividendo",
+      "summary": "La Banca d'Italia ha chiuso un'ispezione su Banca Ifis con un giudizio parzialmente sfavorevole, chiedendo circa 170 milioni di euro di rettifiche complessive sui crediti deteriorati e sulle pratiche di credito. L'istituto di controllo ha inoltre richiesto modifiche alla politica dei dividendi e al consiglio di amministrazione. Banca Ifis sta valutando la cessione di parte dei crediti per mitigare le richieste e ha avviato un confronto con il regolatore.",
+      "context": "Le autorità di vigilanza bancaria verificano regolarmente la prudenza nella gestione dei crediti deteriorati per tuttere la stabilità degli istituti. Richieste di rettifica e svalutazione incidono direttamente sul capitale e sulle scelte di distribuzione degli utili delle banche.",
+      "sources": [
+        {
+          "name": "Corriere della Sera",
+          "url": "https://www.corriere.it/economia/finanza/26_ottobre_01/banca-ifis-bankitalia-chiede-170-milioni-di-rettifiche-cessioni-di-crediti-per-mitigare-le-richieste-4c159d96-453c-4fdc-9a56-689c81f44xlk.shtml"
+        }
+      ],
+      "image": {
+        "url": "https://dimages2.corriereobjects.it/files/og_thumbnail/uploads/2025/03/21/67ddb11d933df.jpeg",
+        "credit": "Corriere della Sera",
+        "link": "https://www.corriere.it/economia/finanza/26_ottobre_01/banca-ifis-bankitalia-chiede-170-milioni-di-rettifiche-cessioni-di-crediti-per-mitigare-le-richieste-4c159d96-453c-4fdc-9a56-689c81f44xlk.shtml"
+      },
+      "quiz": [
+        {
+          "question": "A quanto ammontano complessivamente le rettifiche richieste da Bankitalia a Banca Ifis?",
+          "options": [
+            "Circa 170 milioni di euro",
+            "Circa 50 milioni di euro",
+            "1,5 miliardi di euro",
+            "157 milioni di euro"
+          ],
+          "answer": 0,
+          "explanation": "L'ispezione della Banca d'Italia ha quantificato in circa 170 milioni di euro le svalutazioni complessive richieste all'istituto."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-02-10"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Il colosso Paramount-Warner nasce ufficialmente il 6 ottobre dopo il via libera del giudice",
+      "summary": "La maxi-fusione da 110 miliardi di dollari tra Paramount Skydance e Warner Bros Discovery entrerà in vigore il 6 ottobre, dopo che la giudice distrettuale Araceli Martínez-Olguín ha sbloccato l'accordo. L'operazione unisce marchi storici del cinema, piattaforme streaming e reti televisive come Cnn e Cbs News, superando i dubbi antitrust grazie a una serie di concessioni.",
+      "context": "Questa unione rappresenta una delle più grandi operazioni nella storia di Hollywood e ridefinisce gli equilibri dell'intrattenimento globale. Nel quadro attuale di forte competizione nello streaming, il nuovo gigante dovrà gestire un debito ingente e rispettare rigidi impegni editoriali e produttivi.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/01/paramount-warner-il-nuovo-colosso-nasce-il-6-ottobre_64240b19-5c37-46c1-b438-7be9716da7af.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/9/12/d0fac7bc80d8d9216efe687a84cb4b6e.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/01/paramount-warner-il-nuovo-colosso-nasce-il-6-ottobre_64240b19-5c37-46c1-b438-7be9716da7af.html"
+      },
+      "quiz": [
+        {
+          "question": "Quando è prevista l'entrata in vigore ufficiale della fusione tra Paramount e Warner?",
+          "options": [
+            "Il 6 ottobre",
+            "Il 5 ottobre",
+            "A febbraio",
+            "Il prossimo anno"
+          ],
+          "answer": 0,
+          "explanation": "L'accordo da 110 miliardi di dollari diventerà effettivo il 6 ottobre, in seguito al via libera del giudice."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-02-11"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Alan Ritchson nel film di Helldivers",
+      "summary": "L'attore Alan Ritchson è ufficialmente il protagonista dell'adattamento cinematografico del videogioco Helldivers, diretto da Justin Lin per Sony Pictures. Ritchson prende il posto di Jason Momoa, inizialmente scelto per la parte. In concomitanza con la conferma dell'attore, la produzione ha posticipato l'uscita del film al 9 giugno 2028, spostandola rispetto alla data autunnale precedentemente prevista per novembre 2027.",
+      "context": "I film tratti dai videogiochi sono ormai una priorità per le grandi case cinematografiche, spinte dal successo commerciale di questo tipo di adattamenti. Il rinvio al 2028 suggerisce la volontà di curare la produzione di una proprietà intellettuale importante per Sony.",
+      "sources": [
+        {
+          "name": "ComingSoon.it",
+          "url": "https://www.comingsoon.it/cinema/news/alan-ritchson-guidera-il-film-di-helldivers-ma-i-fan-dovranno-aspettare-per/n232948/"
+        }
+      ],
+      "image": {
+        "url": "https://mr.comingsoon.it/imgdb/PrimoPiano/232948_ppl.jpg",
+        "credit": "ComingSoon.it",
+        "link": "https://www.comingsoon.it/cinema/news/alan-ritchson-guidera-il-film-di-helldivers-ma-i-fan-dovranno-aspettare-per/n232948/"
+      },
+      "quiz": [
+        {
+          "question": "Chi è il nuovo protagonista del film di Helldivers?",
+          "options": [
+            "Jason Momoa",
+            "Keanu Reeves",
+            "Tom Holland",
+            "Alan Ritchson"
+          ],
+          "answer": 3,
+          "explanation": "Alan Ritchson è entrato ufficialmente nel cast come protagonista, sostituendo Jason Momoa."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-02-12"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Nations League: prima vittoria per Klopp con la Germania, pari tra Grecia e Olanda",
+      "summary": "Il primo ottobre 2026, la Germania ha battuto la Serbia per 2-0 a Monaco grazie a un gol di Florian Wirtz, regalando a Jürgen Klopp la sua prima vittoria come commissario tecnico della nazionale tedesca nella terza giornata del Gruppo 2 di Nations League. Nello stesso girone, la Grecia e i Paesi Bassi hanno pareggiato 2-2 a Salonicco.",
+      "context": "La Nations League è il torneo UEFA per nazionali che assegna trofei e incide sui ranking europei. Nel Gruppo 2, la Germania insegue in classifica la Grecia e i Paesi Bassi, rendendo ogni punto decisivo per la qualificazione.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/01/nations-league-prima-vittoria-per-klopp-con-la-germania_41e4a7c9-bb45-49d5-b84e-295edccd1e1d.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/01/nations-league-risultati_5bd1b5c9-1cf6-4ac2-862b-af854234c596.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/1/56444b1daa241c0f428b2b7d8385f90a.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/01/nations-league-prima-vittoria-per-klopp-con-la-germania_41e4a7c9-bb45-49d5-b84e-295edccd1e1d.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale risultato ha ottenuto la Germania contro la Serbia nella terza giornata di Nations League?",
+          "options": [
+            "Ha vinto 4-2",
+            "Ha pareggiato 2-2",
+            "Ha vinto 2-0",
+            "Ha perso 2-1"
+          ],
+          "answer": 2,
+          "explanation": "La Germania ha battuto la Serbia 2-0 a Monaco, ottenendo la prima vittoria con Klopp."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-02-13"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Europei di skeet: argento per Bacosi e ori a squadre per l'Italia",
+      "summary": "Agli Europei di skeet ad Atene, l'Italia ha conquistato una medaglia d'argento individuale con Diana Bacosi, superata in finale dalla britannica Amber Jo Rutter. Gli azzurri hanno però dominato le prove a squadre, vincendo il titolo continentale sia nella categoria femminile, con Bacosi, Sara Bongini e Martina Bartolomei, sia in quella maschile, con Gabriele Rossetti, Tammaro Cassandro e Eric Pittini.",
+      "context": "Questi risultati confermano l'alto livello competitivo della squadra italiana di tiro a volo nel panorama internazionale. Le competizioni a squadre e i test agonistici di alto livello come gli Europei sono fondamentali per la preparazione in vista dei prossimi appuntamenti mondiali.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/altrisport/2026/10/01/tiro-a-volo-bacosi-argento-e-squadre-azzurre-doro-agli-europei-di-skeet_d6f2edcd-abab-4a70-9855-2ff6adf7c3ee.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/1/49875fe638a741024a6809c8fd61da0f.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/altrisport/2026/10/01/tiro-a-volo-bacosi-argento-e-squadre-azzurre-doro-agli-europei-di-skeet_d6f2edcd-abab-4a70-9855-2ff6adf7c3ee.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale medaglia ha vinto Diana Bacosi nella gara individuale agli Europei di skeet?",
+          "options": [
+            "Argento",
+            "Nessuna medaglia",
+            "Bronzo",
+            "Oro"
+          ],
+          "answer": 0,
+          "explanation": "Diana Bacosi ha vinto la medaglia d'argento individuale, classificandosi seconda dietro alla britannica Amber Jo Rutter."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-02-14"
+    },
+    {
+      "category": "storia",
+      "tag": "2 ottobre 1836",
+      "title": "Charles Darwin torna in Inghilterra dopo cinque anni",
+      "summary": "Il 2 ottobre 1836 Charles Darwin fa ritorno a Falmouth, in Inghilterra, a bordo del brigantino HMS Beagle. Si conclude così una spedizione esplorativa intorno al mondo durata cinque anni, anziché i due previsti. Durante il viaggio, trascorso in gran parte a compiere osservazioni naturalistiche e geologiche sulla terraferma, Darwin raccoglie una grande quantità di dati e campioni che userà in seguito per formulare la sua teoria dell'evoluzione.",
+      "context": "Quel viaggio ha fornito la base empirica per la teoria dell'evoluzione per selezione naturale, rivoluzionando la biologia e cambiando per sempre la nostra comprensione della vita sulla Terra. Le collezioni e le osservazioni di Darwin rimangono un pilastro fondamentale della scienza moderna.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Secondo_viaggio_del_HMS_Beagle"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Charles_Darwin_01.jpg/1280px-Charles_Darwin_01.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Charles_Darwin_01.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quanto è durato complessivamente il secondo viaggio del brigantino HMS Beagle con Charles Darwin a bordo?",
+          "options": [
+            "Tre anni",
+            "Dieci anni",
+            "Due anni",
+            "Cinque anni"
+          ],
+          "answer": 3,
+          "explanation": "La spedizione, iniziata nel dicembre 1831 e conclusasi nell'ottobre 1836, è durata complessivamente cinque anni."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-02-15"
+    },
+    {
+      "category": "storia",
+      "tag": "2 ottobre 1968",
+      "title": "Il massacro di Tlatelolco",
+      "summary": "Il 2 ottobre 1968, a Città del Messico, l'esercito e la polizia hanno aperto il fuoco contro una pacifica manifestazione studentesca nella Piazza delle tre culture. La protesta, nata per denunciare l'occupazione militare dei campus, è stata repressa sanguinosamente a pochi giorni dall'inizio dei Giochi olimpici. Le stime più attendibili indicano oltre trecento morti tra i manifestanti, sebbene il governo dell'epoca abbia drasticamente ridimensionato il bilancio ufficiale delle vittime.",
+      "context": "Questo evento ha infranto l'immagine di stabilità democratica del Messico e ha segnato una svolta nella coscienza politica del Paese. Ha smascherato la violenza autoritaria dello Stato, lasciando un'eredità di impunità che ha alimentato per decenni le richieste di verità e giustizia.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Massacro_di_Tlatelolco"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/PLAZA_DE_LAS_TRES_CULTURAS-1.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:PLAZA_DE_LAS_TRES_CULTURAS-1.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Perché gli studenti protestavano a Città del Messico nel 1968?",
+          "options": [
+            "Per chiedere riforme economiche",
+            "Contro la riforma agraria",
+            "Contro l'occupazione militare dei campus",
+            "Per boicottare le Olimpiadi"
+          ],
+          "answer": 2,
+          "explanation": "Gli studenti marciavano per protestare contro l'occupazione dell'università da parte dell'esercito."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-02-16"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Disastro aereo di Tenerife",
+      "title": "La nebbia e il malinteso che generarono la peggiore tragedia dell'aviazione",
+      "summary": "Il 27 marzo 1977, sulla pista dell'aeroporto di Tenerife, due Boeing 747 della KLM e della Pan Am si scontrarono a causa della fitta nebbia e di un equivoco radiofonico. Il velivolo olandese decollò senza autorizzazione esplicita, colpendo lo युनिट statunitense che stava rullando in senso opposto. L'incidente causò 583 vittime, restando il più grave nella storia dell'aviazione civile.",
+      "context": "L'incidente di Tenerife ha rivoluzionato la sicurezza aerea mondiale, imponendo la standardizzazione delle comunicazioni radio e introducendo la cultura della gestione delle risorse in cabina di pilotaggio, per evitare che la gerarchia impedisca ai subordinati di segnalare errori.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Disastro_aereo_di_Tenerife"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Het_verongelukte_KLM-toestel_De_Rijn%2C_Bestanddeelnr_929-1005_-_cropped.jpg/1280px-Het_verongelukte_KLM-toestel_De_Rijn%2C_Bestanddeelnr_929-1005_-_cropped.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Het_verongelukte_KLM-toestel_De_Rijn%2C_Bestanddeelnr_929-1005_-_cropped.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale fattore principale ha scatenato la collisione tra i due aerei a Tenerife?",
+          "options": [
+            "L'improvviso crollo della torre di controllo",
+            "Un secondo attentato dinamitardo sulla pista",
+            "Un fraintendimento radio tra il pilota olandese e la torre",
+            "Un guasto meccanico simultaneo ai motori"
+          ],
+          "answer": 2,
+          "explanation": "Il comandante olandese interpretò erroneamente una comunicazione radio incompleta, credendo di avere l'autorizzazione al decollo mentre l'altro aereo era ancora sulla pista."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-02-17"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Wilmer McLean",
+      "title": "La casa dove iniziò e finì la guerra civile americana",
+      "summary": "Nel 1861 l'agricoltore Wilmer McLean si vide la prima battaglia di Bull Run combattuta direttamente sulla sua proprietà in Virginia, primo scontro della guerra civile americana. Per sfuggire al conflitto, McLean decise di trasferirsi a 200 chilometri di distanza ad Appomattox. Per una straordinaria coincidenza, nel 1865 i generali Grant e Lee firmarono proprio nel salotto della sua nuova casa l'armistizio che pose fine alla guerra.",
+      "context": "La guerra civile americana (1861-1865) contrappose gli Stati Uniti d'America agli Stati Confederati d'America. La coincidenza che vide McLean inseguito dalla guerra da una casa all'altra simboleggia l'inevitabilità e la portata devastante del conflitto sull'intera nazione.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Wilmer_McLean"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Wilmer_McLean_ca_1860.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Wilmer_McLean_ca_1860.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Perché Wilmer McLean si trasferì ad Appomattox?",
+          "options": [
+            "Perché la sua casa fu distrutta da un incendio doloso",
+            "Per seguire la carriera militare del fratello",
+            "Per sfuggire alla guerra dopo che la sua terra fu teatro della prima battaglia di Bull Run",
+            "Per cercare fortuna economica"
+          ],
+          "answer": 2,
+          "explanation": "McLean lasciò la sua proprietà originaria perché si trovava troppo vicina ai campi di battaglia e cercò rifugio a 200 km di distanza, finendo però per ospitare la firma della pace."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-02-18"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Filatoio Rosso di Caraglio",
+      "title": "La fabbrica della seta nata nel Seicento",
+      "summary": "Costruito tra il 1676 e il 1678 dal conte Giovanni Girolamo Galleani, il Filatoio Rosso di Caraglio, in provincia di Cuneo, è uno dei primi impianti per la produzione della seta d'Europa. La fabbrica concentrava l'intera filiera produttiva, dall'allevamento dei bachi alla lavorazione del pregiato organzino piemontese, impiegando trecento giovani operaie e sfruttando l'energia idraulica di cinque mulini.",
+      "context": "Nel Seicento il Ducato di Savoia puntò con decisione sulla produzione serica per competere con i mercati esteri, anticipando le forme della moderna proto-industrializzazione. Oggi questi siti di archeologia industriale testimoniano la complessa evoluzione economica e sociale del territorio piemontese.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Filatoio_Rosso_di_Caraglio"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/FilatoioCaraglio01.jpg/1280px-FilatoioCaraglio01.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:FilatoioCaraglio01.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale prodotto di eccellenza veniva realizzato principalmente nel Filatoio Rosso di Caraglio?",
+          "options": [
+            "Il fustagno di cotone",
+            "La viscosa industriale",
+            "L'organzino piemontese",
+            "La lana grezza sarda"
+          ],
+          "answer": 2,
+          "explanation": "Lo stabilimento era specializzato nella produzione dell'organzino piemontese, un filato serico doppio ritorto molto richiesto in Francia."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-02-19"
+    }
+  ]
+}
