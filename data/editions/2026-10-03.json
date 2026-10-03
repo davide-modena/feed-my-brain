@@ -1,0 +1,633 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T04:40:47.317Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacco russo al ponte sud di Kiev",
+      "summary": "Il 3 ottobre 2026 l'esercito russo ha colpito per il secondo giorno consecutivo il ponte sud di Kiev, sul fiume Dnipro, con droni. L’attacco ha chiuso il ponte al traffico veicolare e alla metropolitana, interrompendo i collegamenti tra le due sponde della città. Il sindaco Vitalii Klitschko ha avvertito che le forze russe mirano a creare panico e a distruggere infrastrutture chiave, parte di una campagna più ampia di attacchi contro energia, comunicazioni e servizi civili in Ucraina.",
+      "context": "L’attacco al ponte sud di Kiev evidenzia l’escalation russa contro le infrastrutture ucraine, mirata a paralizzare i trasporti e a indebolire la resilienza civile. Si inserisce in una strategia più ampia di colpi su energia e comunicazioni.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/il-momento-dellattacco-al-ponte-nord-di-kiev-colpito-due-giorni-di-seguito-drone-russo-si-abbatte-sulla-struttura-62f24e40-c11d-4f13-943d-2fa2b6b7b52f.html"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRTk3Q3BLdU9BVEJnVUZad3B6eTdReGttbkczTVVlUV9OYVNwM09ZanUtdENkOUV0OXhlYjFkVVNpeXFXWmdFQ1R2RnF4NDlHempOODJaQWM4clc1dmJDbkpXdlBPazdPYlBzei1RNDNvM3UyQ3dvYS15Vm1YNV9jWi1CRnpzNHFD?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/03/1791001652048_Immagine.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/il-momento-dellattacco-al-ponte-nord-di-kiev-colpito-due-giorni-di-seguito-drone-russo-si-abbatte-sulla-struttura-62f24e40-c11d-4f13-943d-2fa2b6b7b52f.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la conseguenza principale dell'attacco russo al ponte sud di Kiev?",
+          "options": [
+            "Le forze russe hanno occupato il ponte",
+            "Nessun danno è stato segnalato",
+            "Il ponte è stato completamente distrutto",
+            "Il ponte è stato chiuso al traffico veicolare e alla metropolitana"
+          ],
+          "answer": 3,
+          "explanation": "L'attacco ha costretto la chiusura del ponte al traffico veicolare e alla metropolitana, interrompendo i collegamenti nella città."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-03-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "G7 rilascia 100 milioni di barili di petrolio e diesel",
+      "summary": "Il G7 ha concordato il rilascio coordinato di 100 milioni di barili di petrolio e diesel dalle riserve strategiche per calmierare i prezzi, schizzati in alto per le tensioni sull'offerta. L'accordo, mediato dall'Agenzia Internazionale dell'Energia, prevede un consistente rilascio di diesel nei primi 20 giorni e l'impegno a non imporre restrizioni all'esportazione di energia tra i membri. La mossa segue la minaccia di Trump di bloccare l'export di diesel USA se l'Europa non avesse immesso scorte sul mercato.",
+      "context": "L'iniziativa mira a stabilizzare i mercati energetici globali e proteggere famiglie e imprese dagli shock sui prezzi, evitando una guerra commerciale sull'energia. Da monitorare l'effettiva attuazione nei tempi previsti e il coinvolgimento dei paesi partner extra-G7.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1c16/live/be292300-be89-11f1-babe-4199b0e7ccea.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo principale del rilascio coordinato di 100 milioni di barili concordato dal G7?",
+          "options": [
+            "Riempire le riserve strategiche europee",
+            "Calmierare i prezzi di petrolio e diesel alleggerendo le tensioni sull'offerta",
+            "Punire la Russia per l'invasione dell'Ucraina",
+            "Sostenere l'industria petrolifera statunitense"
+          ],
+          "answer": 1,
+          "explanation": "Il comunicato congiunto del G7 indica esplicitamente che il rilascio serve ad alleviare le pressioni sull'offerta che hanno fatto schizzare i prezzi."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-03-1"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Il bonus libri slitta al 2027",
+      "summary": "Il governo ha posticipato al 2027 l'introduzione del bonus libri scolastici attraverso una modifica inserita nel decreto scuola. La misura, inizialmente prevista con una dotazione annua di venti milioni di euro per famiglie con Isee fino a 30 mila euro, viene prorogata aumentando la soglia Isee a 40 mila euro. Riguarderà gli studenti delle prime medie e delle prime e terze superiori. I fondi previsti per il 2026 andranno invece direttamente ai Comuni per finanziare testi gratuiti.",
+      "context": "L'acquisto dei libri scolastici rappresenta una delle spese più gravose per le famiglie a inizio anno. Il rinvio sposta l'aiuto diretto statale, affidando temporaneamente la gestione del sostegno economico alle amministrazioni comunali tramite le agevolazioni sociali già attive.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/02/dl-scuola-slitta-il-bonus-libri-per-il-2026_01c07ec6-5fc8-4bfa-91f1-fe479eebee4c.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/9/3/5ad6660a17420bdca3aac8ff0ff859b4.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/02/dl-scuola-slitta-il-bonus-libri-per-il-2026_01c07ec6-5fc8-4bfa-91f1-fe479eebee4c.html"
+      },
+      "quiz": [
+        {
+          "question": "Che destinazione avranno i fondi per il bonus libri stanziati per il 2026?",
+          "options": [
+            "Saranno trasferiti ai Comuni per garantire libri gratuiti",
+            "Saranno anticipati solo agli studenti delle scuole elementari",
+            "Verranno cancellati per ridurre il debito pubblico",
+            "Verranno spesi per dotare le classi di dispositivi digitali"
+          ],
+          "answer": 0,
+          "explanation": "I 20 milioni di euro stanziati per il 2026 sono stati riassegnati al fondo dei Comuni per la gratuità dei testi scolastici."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-03-2"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Manovra: scostamento da 29 miliardi, tagliati fondi alla difesa",
+      "summary": "Il Consiglio dei ministri ha approvato il Documento programmatico di finanza pubblica. Il ministro Giancarlo Giorgetti ha annunciato uno scostamento di bilancio per circa 29 miliardi nel biennio 2027-2028 (1,2% del Pil), equamente divisi tra energia e difesa. Rispetto ai 36 miliardi previsti un mese fa, lo spazio per la difesa è stato ridotto di 7 miliardi (0,3% Pil). Il deficit sale al 3,4% nel 2027, ma al netto dello scostamento resta sotto il 3%.",
+      "context": "La manovra riflette la prudenza chiesta da Bruxelles e l'incertezza su inflazione e tassi. Il taglio alla difesa evidenzia tensioni nella maggioranza, mentre l'uscita dalla procedura d'infrazione Ue dipenderà dal rispetto dei parametri sul deficit strutturale.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/02/via-libera-del-consiglio-dei-ministri-al-dpfp-e-a-scostamento-per-energia_8463ed4f-c10a-459f-8be8-a56ee2f0b01a.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/2/881975519653a326e43cf7a8d11bd878.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/02/via-libera-del-consiglio-dei-ministri-al-dpfp-e-a-scostamento-per-energia_8463ed4f-c10a-459f-8be8-a56ee2f0b01a.html"
+      },
+      "quiz": [
+        {
+          "question": "Quanto ammonta lo scostamento di bilancio approvato per il biennio 2027-2028 e come viene ripartito?",
+          "options": [
+            "36 miliardi, interamente per la difesa",
+            "29 miliardi, equamente divisi tra energia e difesa",
+            "29 miliardi, interamente per l'energia",
+            "36 miliardi, equamente divisi tra energia e difesa"
+          ],
+          "answer": 1,
+          "explanation": "Il Documento programmatico prevede 29 miliardi (1,2% Pil) ripartiti al 50% tra energia e difesa, riducendo di 7 miliardi lo stanziamento per la difesa rispetto ai 36 miliardi annunciati in precedenza."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-03-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Cancellati i concerti di Kanye West a San Pietroburgo",
+      "summary": "Sono stati cancellati i due concerti che il rapper Kanye West, noto anche come Ye, avrebbe dovuto tenere il 10 e l'11 ottobre alla Gazprom Arena di San Pietroburgo, in Russia. L'annuncio della cancellazione è arrivato dall'agenzia promotrice Say Agency, dopo mesi di incertezze e dichiarazioni contrastanti sulla firma dei contratti di affitto dello stadio.",
+      "context": "L'evento avrebbe segnato la prima esibizione di un rapper occidentale in Russia dall'inizio del conflitto in Ucraina. La cancellazione arriva in un contesto di tensioni politiche, controlli governativi sugli organizzatori e polemiche locali per le precedenti dichiarazioni del musicista.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/kanye-west-russian-stadium-concerts-canceled-1236351799/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/10/2293421846-e1790865375661.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/kanye-west-russian-stadium-concerts-canceled-1236351799/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa è successo ai concerti di Kanye West a San Pietroburgo?",
+          "options": [
+            "Sono stati spostati in un'altra città russa",
+            "Sono stati anticipati di una settimana",
+            "Sono stati cancellati dagli organizzatori",
+            "Si sono tenuti regolarmente a ottobre"
+          ],
+          "answer": 2,
+          "explanation": "L'agenzia promotrice Say Agency ha annunciato la cancellazione dei due concerti previsti alla Gazprom Arena."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-03-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Drake pubblica l'edizione deluxe di 'HABIBTI' con quattro brani inediti",
+      "summary": "Il 2 ottobre 2026 Drake ha pubblicato su tutte le piattaforme streaming l'edizione deluxe di 'HABIBTI', battezzata 'HABIBTI (FOMO)'. Il pacchetto contiene quattro brani presentati in anteprima nel cortometraggio 'FOMO' il 15 settembre: 'Cold Shoulder' e 'Solar Eclipse' con Don Toliver (quest'ultima interpola 'Choosin' Texas' di Ella Langley), 'Quebec' e la versione estesa 'Classic Pt. 2'. L'artista aveva anticipato l'uscita durante una diretta su Kick.",
+      "context": "L'operazione segue la storica tripletta di maggio (ICEMAN, HABIBTI, MAID OF HONOUR) che ha portato Drake ai primi tre posti della Billboard 200. Il rapper prepara ora il primo tour nordamericano dal 2023, confermando una strategia di rilascio continuo tra film, streaming e singoli.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/drake-fomo-habibti-deluxe-stream-1236352176/"
+        },
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/lists/drake-habibti-fomo-deluxe-ranked/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/05/1248577804-e1780597377509.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/drake-fomo-habibti-deluxe-stream-1236352176/"
+      },
+      "quiz": [
+        {
+          "question": "Quanti e quali brani compongono l'edizione deluxe di 'HABIBTI' pubblicata il 2 ottobre 2026?",
+          "options": [
+            "Quattro: due featuring Don Toliver, 'Quebec' e 'Classic Pt. 2'",
+            "Tre: 'Cold Shoulder', 'Solar Eclipse' e 'Quebec'",
+            "Due: solo le collaborazioni con Don Toliver",
+            "Cinque: i quattro del cortometraggio FOMO più un inedito"
+          ],
+          "answer": 0,
+          "explanation": "Il deluxe include esattamente quattro tracce: 'Cold Shoulder' e 'Solar Eclipse' con Don Toliver, 'Quebec' e la versione estesa 'Classic Pt. 2'."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-03-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Nuova scoperta di virus negli abissi oceanici della Clarion-Clipperton",
+      "summary": "Un gruppo di ricercatori ha scoperto che il 99% dei virus presenti nella zona di frattura Clarion-Clipperton, nell'Oceano Pacifico, è del tutto nuovo per la scienza. Analizzando campioni di sedimenti raccolti tra il 2023 e il 2024, gli scienziati hanno identificato quasi 12.000 virus distinti. Lo studio serve a stabilire una base ecologica prima che abbiano inizio le attività di estrazione mineraria dei fondali marini in questa ricca area.",
+      "context": "Questa scoperta è fondamentale per valutare l'impatto ambientale delle future miniere sottomarine in una delle aree più ricche di minerali al mondo. Sarà importante monitorare come le attività di estrazione influenzeranno questi ecosistemi microbici ancora poco conosciuti.",
+      "sources": [
+        {
+          "name": "ScienceAlert",
+          "url": "https://www.sciencealert.com/almost-all-the-viruses-found-in-a-vast-deep-sea-mining-zone-were-new-to-science"
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencealert.com/images/2026/10/GettyImages-1363031549-2560x1440-1.jpg",
+        "credit": "ScienceAlert",
+        "link": "https://www.sciencealert.com/almost-all-the-viruses-found-in-a-vast-deep-sea-mining-zone-were-new-to-science"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha rivelato il recente studio sui virus nella zona Clarion-Clipperton?",
+          "options": [
+            "Che il 99% dei virus scoperti è nuovo per la scienza",
+            "Che i virus locali sono identici a quelli di superficie",
+            "Che i virus bloccano la formazione di noduli metallici",
+            "Che non ci sono virus nei sedimenti abissali"
+          ],
+          "answer": 0,
+          "explanation": "Lo studio ha dimostrato che quasi tutti i virus trovati nell'area (il 99%) non erano mai stati documentati prima."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-03-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Scoperto il primo superconduttore di tipo I che rompe la simmetria temporale",
+      "summary": "Ricercatori dell'IISER Bhopal hanno identificato nell'YbSb₂ il primo superconduttore di tipo I che rompe la simmetria di inversione temporale. Raffreddando cristalli singoli vicino allo zero assoluto e impiantando muoni come sonde magnetiche, hanno rilevato campi magnetici interni spontanei all'ingresso nello stato superconduttivo. Finora questo fenomeno era documentato solo nei superconduttori di tipo II. Lo studio, pubblicato su Physical Review Letters, ipotizza una fase di tripletto non unitario antisimmetrico interno come origine del comportamento anomalo.",
+      "context": "La rottura della simmetria temporale in un superconduttore di tipo I è inedita e suggerisce nuove fisiche esotiche, come la possibile presenza di modi di Majorana gapless. Ridefinisce i confini tra superconduttività convenzionale e non convenzionale, stimolando la ricerca di altri materiali di tipo I con proprietà simili per applicazioni quantistiche.",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-10-scientists-superconductor-reversal-symmetry.html"
+        }
+      ],
+      "image": {
+        "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/scientists-discover-a-19.jpg",
+        "credit": "Phys.org",
+        "link": "https://phys.org/news/2026-10-scientists-superconductor-reversal-symmetry.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la novità principale della scoperta sull'YbSb₂ rispetto ai superconduttori noti in precedenza?",
+          "options": [
+            "È il primo superconduttore scoperto da ricercatori indiani",
+            "È il primo superconduttore a mostrare levitazione magnetica",
+            "È il primo superconduttore di tipo I a rompere la simmetria di inversione temporale",
+            "È il primo superconduttore a funzionare a temperatura ambiente"
+          ],
+          "answer": 2,
+          "explanation": "Finora la rottura della simmetria di inversione temporale era stata osservata esclusivamente nei superconduttori di tipo II; l'YbSb₂ è il primo caso confermato in un materiale di tipo I."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-03-7"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Fast & Furious diventa serie TV, annuncia Vin Diesel",
+      "summary": "Vin Diesel ha confermato che Fast & Furious arriverà in TV con una serie live‑action prodotta da Universal Television. Lo show, guidato dagli showrunner Mike Daniels e Wolfe Coleman, sarà distribuito su Peacock e dovrebbe debuttare entro il 2028, in parallelo al film Fast Forever previsto per il 17 marzo 2028. Diesel è produttore esecutivo e ha annunciato che seguiranno altre tre serie nello stesso universo.",
+      "context": "Il passaggio di Fast & Furious dal cinema alla televisione amplia l’universo narrativo, offre nuovi spazi per i personaggi e segna una strategia di espansione di Universal verso lo streaming.",
+      "sources": [
+        {
+          "name": "Libero",
+          "url": "https://www.libero.it/magazine/news/fast-furious-serie-tv-data-d-uscita-vin-diesel-anticipzioni-futuro-saga-225230"
+        }
+      ],
+      "image": {
+        "url": "https://wips.plug.it/cips/libero.it/magazine/cms/2026/10/fast-furious-serie-tv.jpg",
+        "credit": "Libero",
+        "link": "https://www.libero.it/magazine/news/fast-furious-serie-tv-data-d-uscita-vin-diesel-anticipzioni-futuro-saga-225230"
+      },
+      "quiz": [
+        {
+          "question": "Su quale piattaforma sarà trasmessa la nuova serie TV di Fast & Furious?",
+          "options": [
+            "Amazon Prime Video",
+            "Disney+",
+            "Netflix",
+            "Peacock"
+          ],
+          "answer": 3,
+          "explanation": "L'articolo specifica che la serie arriverà sulla piattaforma streaming Peacock."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-03-8"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Woody Allen gira a Madrid il suo 51esimo film",
+      "summary": "Woody Allen, che a novembre compirà 91 anni, è a Madrid per iniziare il 5 ottobre le riprese del suo 51esimo film, una commedia con romance, intrigo e infedeltà. Il regista ha scelto la capitale spagnola per la sua atmosfera diplomatica ed elegante. La produzione riceve 1,5 milioni di euro dalla Comunità di Madrid, che richiede la promozione della città nel titolo. Allen ha confermato l'intenzione di ritirarsi dopo questa pellicola, definita troppo appassionante per rinunciarvi, ed espresso preoccupazione per il ritorno del fascismo nel mondo.",
+      "context": "Dopo anni di inattività seguiti alle accuse della figlia Dylan e al dibattito #MeToo, Allen torna a dirigere in Europa dove ottiene finanziamenti pubblici. Il progetto segna un possibile addio al cinema per il regista newyorkese, che aveva già girato in Spagna 'Vicky Cristina Barcelona' e 'Rifkin's Festival'.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/01/woody-allen-il-mondo-attraversa-una-fase-molto-critica_492ca970-e9cd-482c-aa04-c75d05456e29.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/1/6029af9666ab79cb577519d2c40c4e9a.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/01/woody-allen-il-mondo-attraversa-una-fase-molto-critica_492ca970-e9cd-482c-aa04-c75d05456e29.html"
+      },
+      "quiz": [
+        {
+          "question": "Perché Woody Allen ha scelto Madrid come location per il suo nuovo film?",
+          "options": [
+            "Per la vicinanza agli studi cinematografici di Hollywood",
+            "Per motivi fiscali legati alla produzione",
+            "Per l'atmosfera diplomatica ed elegante della città",
+            "Perché è la sua città natale"
+          ],
+          "answer": 2,
+          "explanation": "Allen ha spiegato in conferenza stampa di aver voluto un'atmosfera diplomatica e di considerare Madrid bella, elegante e un luogo logico per ambientare la storia."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-03-9"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Italia-Francia 1-1: Bastoni firma la rimonta allo Stade de France",
+      "summary": "L'Italia ha pareggiato 1-1 in casa della Francia nella terza giornata della Nations League, giocata il 2 ottobre 2026 allo Stade de France. Dopo il vantaggio francese di Michael Olise su punizione, Alessandro Bastoni ha pareggiato per gli azzurri. La partita si è conclusa con l'espulsione di Upamecano per doppia ammonizione. L'evento ha segnato il debutto di Zinedine Zidane come commissario tecnico della Francia.",
+      "context": "La partita ha mostrato la crescita tattica della squadra di Mancini, capace di gestire il vantaggio avversario e sfruttare le ripartenze. Il pareggio contro una top team come la Francia, nel debutto di Zidane, consolida la fiducia del gruppo azzurro in vista delle prossime sfide internazionali.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/02/nations-league-litalia-rimonta-con-bastoni-e-spaventa-la-francia-1-1-a-parigi_0b9560c4-5f14-4a8a-bd50-8435fc3c5e93.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/02/la-rivincita-di-bastoni-e-le-certezze-di-mancini-ora-siamo-squadra_d40c8f35-8330-4bd7-8bc0-1bbb258ee7af.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/02/la-rivincita-di-bastoni-ma-io-non-ho-mai-perso-la-fiducia-in-me-stesso_d2e6a49a-73f5-4f55-8caa-55d4f3cd9676.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/2/74f8a687a8b432ec2bb9a5f99c93caca.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/02/nations-league-litalia-rimonta-con-bastoni-e-spaventa-la-francia-1-1-a-parigi_0b9560c4-5f14-4a8a-bd50-8435fc3c5e93.html"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha segnato il gol del pareggio per l'Italia?",
+          "options": [
+            "Alessandro Bastoni",
+            "Gianluigi Donnarumma",
+            "Michael Olise",
+            "Roberto Mancini"
+          ],
+          "answer": 0,
+          "explanation": "Alessandro Bastoni ha realizzato la rete che ha portato il risultato sul 1-1, rimontando il vantaggio iniziale della Francia."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-03-10"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Belgio batte 3-0 la Turchia nella Nations League",
+      "summary": "A Liegi il Belgio supera 3-0 la Turchia nella Nations League e sale a quota sei punti nel Gruppo 1, due in più dell'Italia. Decisiva la doppietta di Kevin De Bruyne (10' e 59') e il gol di Romelu Lukaku al 76'. Per la Turchia di Vincenzo Montella è la terza sconfitta consecutiva, che la lascia ultima a zero punti. La Francia guida con sette punti. Prossimo turno: Francia-Belgio e Italia-Turchia.",
+      "context": "Il risultato rafforza il Belgio in chiave qualificazione ai quarti di finale, mentre la Turchia rischia la retrocessione in Lega B. Lo scontro diretto con la Francia nel prossimo turno deciderà probabilmente il primato del girone.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/02/nations-league-il-belgio-batte-3-0-la-turchia_dc1bfca4-3f6c-4b51-a01b-629a5c54a769.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/2/13cfeb1a09e533f2bed4742fcc04c600.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/02/nations-league-il-belgio-batte-3-0-la-turchia_dc1bfca4-3f6c-4b51-a01b-629a5c54a769.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale risultato ha permesso al Belgio di salire a sei punti nel Gruppo 1 della Nations League?",
+          "options": [
+            "Sconfitta 0-2 contro la Turchia",
+            "Vittoria 3-0 sulla Turchia",
+            "Vittoria 2-1 sull'Italia",
+            "Pareggio 1-1 con la Francia"
+          ],
+          "answer": 1,
+          "explanation": "Il Belgio ha battuto 3-0 la Turchia a Liegi grazie a una doppietta di De Bruyne e un gol di Lukaku."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-03-11"
+    },
+    {
+      "category": "storia",
+      "tag": "3 ottobre 2017",
+      "title": "Nobel per la fisica 2017 a Weiss, Thorne e Barish per LIGO",
+      "summary": "Il 3 ottobre 2017 l'Accademia reale svedese delle scienze ha assegnato il Premio Nobel per la fisica a Rainer Weiss, Kip Thorne e Barry Barish per aver fondato il progetto LIGO, che ha permesso la prima osservazione diretta delle onde gravitazionali previste da Einstein. La scoperta, confermata nel 2015 dopo decenni di sviluppo tecnologico, ha aperto una nuova finestra sull'universo.",
+      "context": "Ha trasformato le onde gravitazionali da previsione teorica a strumento di osservazione astronomica, inaugurando l'astronomia multi-messaggera e permettendo lo studio di buchi neri e stelle di neutroni in modi impossibili con la luce.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Premio_Nobel_per_la_fisica"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Usa_edcp_location_map.svg/1280px-Usa_edcp_location_map.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Usa_edcp_location_map.svg"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo è stato assegnato il Nobel per la fisica 2017 a Weiss, Thorne e Barish?",
+          "options": [
+            "Per gli studi sulla materia oscura",
+            "Per la scoperta del bosone di Higgs",
+            "Per l'invenzione del laser a elettroni liberi",
+            "Per aver fondato il progetto LIGO e aver rilevato le onde gravitazionali"
+          ],
+          "answer": 3,
+          "explanation": "Il premio ha riconosciuto il loro ruolo decisivo nella creazione di LIGO, l'osservatorio che per primo ha captato le onde gravitazionali nel 2015."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-03-12"
+    },
+    {
+      "category": "storia",
+      "tag": "3 ottobre 2010",
+      "title": "La Germania estingue i debiti di Versailles dopo 92 anni",
+      "summary": "Il 3 ottobre 2010, nel ventesimo anniversario della riunificazione, la Germania ha versato l'ultima rata di 69,9 milioni di euro chiudendo definitivamente la partita delle riparazioni di guerra. Il pagamento regolava i debiti rinegoziati con l'accordo di Londra del 1953, che includevano le somme imposte dal Trattato di Versailles del 1919 e i prestiti internazionali degli anni Venti.",
+      "context": "L'evento chiude simbolicamente un capitolo storico lungo quasi un secolo, rimuovendo l'ultimo onere finanziario diretto della Grande Guerra. L'accordo del 1953 aveva ridotto drasticamente il debito e legato i pagamenti alla capacità economica, favorendo la ripresa tedesca e ponendo le basi per l'integrazione europea.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Indennit%C3%A0_di_guerra"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/William_Orpen_-_The_Signing_of_Peace_in_the_Hall_of_Mirrors%2C_Versailles.jpg/1280px-William_Orpen_-_The_Signing_of_Peace_in_the_Hall_of_Mirrors%2C_Versailles.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:William_Orpen_-_The_Signing_of_Peace_in_the_Hall_of_Mirrors%2C_Versailles.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha concluso il pagamento tedesco del 3 ottobre 2010?",
+          "options": [
+            "I debiti derivanti dal Trattato di Versailles rinegoziati nel 1953",
+            "I risarcimenti per i danni della seconda guerra mondiale",
+            "I pagamenti alle vittime dell'Olocausto",
+            "La restituzione dei brevetti sequestrati nell'Operazione Paperclip"
+          ],
+          "answer": 0,
+          "explanation": "L'ultima rata ha estinto i debiti esteri ricalcolati dall'accordo di Londra del 1953, originati dal Trattato di Versailles e dai prestiti degli anni Venti."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-03-13"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Takashi Paolo Nagai",
+      "title": "L'ateo che testò l'esistenza di Dio come un'ipotesi scientifica",
+      "summary": "Nel 1931 Takashi Nagai, medico ateo e positivista convinto, decise di verificare l'ipotesi dell'esistenza di Dio con metodo sperimentale. Si trasferì a Urakami, quartiere abitato dai discendenti dei \"cristiani nascosti\" perseguitati per secoli, andando a vivere in casa della famiglia Moriyama. Quella convivenza, unita alla lettura di Pascal e al ricordo dello sguardo della madre morente, smantellò il suo materialismo portandolo alla conversione e al battesimo con il nome di Paolo.",
+      "context": "Nel Giappone militarista degli anni '30, Urakami era un'anomalia: una comunità cattolica sopravvissuta a 250 anni di clandestinità. Nagai, formato sulla scienza occidentale, cercò risposte che la sola razionalità non gli dava, trovandole nella testimonianza concreta di quei fedeli.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Takashi_Paolo_Nagai"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Paul_Takashi_Nagai_in_1946.gif",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Paul_Takashi_Nagai_in_1946.gif"
+      },
+      "quiz": [
+        {
+          "question": "In che modo Takashi Nagai, da ateo e scienziato, affrontò la questione dell'esistenza di Dio nel 1931?",
+          "options": [
+            "Come un'ipotesi da verificare sperimentalmente, andando a vivere con una famiglia di \"cristiani nascosti\".",
+            "Rifiutandola categoricamente dopo aver letto i \"Pensieri\" di Pascal.",
+            "Accettandola per paura della morte dopo una grave meningite.",
+            "Attraverso una visione mistica durante il bombardamento atomico di Nagasaki."
+          ],
+          "answer": 0,
+          "explanation": "Nagai trattò la fede come un'ipotesi scientifica da testare sul campo, scegliendo di convivere con i discendenti dei kakure kirishitan a Urakami per osservarne la vita e verificarne la coerenza."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-03-14"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Zerai Deres",
+      "title": "Il leone rubato e la scimitarra: la protesta di Zerai Deres a Roma",
+      "summary": "Il 15 giugno 1938 Zerai Deres, traduttore eritreo al servizio del Ministero delle colonie, si inginocchiò davanti al Leone di Giuda – simbolo della monarchia etiope trafugato e posto sotto il monumento ai caduti italiani di Dogali – e attaccò con una scimitarra tre militari italiani. Le autorità lo dichiararono infermo di mente per evitare un processo politico e lo internarono nel manicomio giudiziario di Barcellona Pozzo di Gotto, dove morì nel 1945 dopo sette anni di vani tentativi di dimostrare la propria lucidità.",
+      "context": "L'episodio svela come il regime fascista usasse la psichiatria per neutralizzare la resistenza anticoloniale: Deres, testimone delle deportazioni degli aristocratici etiopi dopo la strage di Addis Abeba, trasformò un atto devozionale in sfida simbolica all'occupazione, ma la sua 'follia' fu l'unica risposta ammessa dal potere.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Zerai_Deres"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Zerai_Deres.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Zerai_Deres.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Perché le autorità italiane fecero internare Zerai Deres in un manicomio giudiziario dopo l'episodio del 1938?",
+          "options": [
+            "Perché soffriva di una malattia mentale preesistente diagnosticata durante la sua permanenza in Eritrea.",
+            "Perché fu dichiarato incapace di intendere e di volere per depoliticizzare il suo gesto anticoloniale.",
+            "Perché fu riconosciuto colpevole di tentato omicidio e condannato a una pena detentiva alternativa.",
+            "Perché si rifiutò di collaborare con le autorità fasciste e fu punito con l'internamento psichiatrico."
+          ],
+          "answer": 1,
+          "explanation": "Il Tribunale speciale per la difesa dello Stato lo assolse per incapacità mentale, trasformando un atto di resistenza politica in un caso clinico per evitare risonanza internazionale."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-03-15"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Alimentazione medievale",
+      "title": "Quando il castoro era pesce: i trucchi medievali per mangiare carne in Quaresima",
+      "summary": "La Chiesa vietava la carne per circa un terzo dell'anno, ma la definizione di 'pesce' fu allargata fino ad includere balene, pulcinelle di mare, oche nere e castori. Poiché i castori nuotano e hanno la coda squamosa, le autorità ecclesiastiche ne permisero il consumo nei giorni di magro, trasformando un roditore in un'opzione quaresimale lecita.",
+      "context": "Il digiuno medievale non mirava a condannare certi cibi come impuri, ma a insegnare l'auto-moderazione. La distinzione tra carne (proibita) e pesce (concesso) si basava sull'habitat più che sulla biologia: animali acquatici o semi-acquatici rientravano nel permesso. Questo portò a classificazioni creative che soddisfacevano il dettato canonico senza rinunciare alle proteine animali.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Alimentazione_medievale"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/American_Beaver.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:American_Beaver.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Perché nel Medioevo si poteva mangiare il castoro durante la Quaresima?",
+          "options": [
+            "I monaci lo allevavano nei chiostri e ne erano esenti per regola monastica",
+            "La sua carne era classificata come 'verdura' per via della dieta erbivora",
+            "Il Papa aveva emanato una bolla speciale per i roditori acquatici",
+            "Era considerato un pesce perché vive in acqua e ha la coda squamosa"
+          ],
+          "answer": 3,
+          "explanation": "Le autorità ecclesiastiche estendevano la definizione di 'pesce' ad animali marini o semi-acquatici; la coda squamosa e le abitudini natatorie del castoro ne giustificavano l'inclusione."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-03-16"
+    }
+  ]
+}
