@@ -1,0 +1,645 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T04:37:19.698Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Russia colpisce il secondo ponte di Kiev",
+      "summary": "Sabato 6 ottobre, l’esercito russo ha colpito con droni il Ponte Pivnichnyi, il secondo grande ponte di Kiev ad essere attaccato nella settimana. L’attacco ha ferito due persone, danneggiato la carreggiata e i cavi del filobus, bloccando il traffico. L’operazione segue i recenti colpi al Ponte Pivdennyi e fa parte di una campagna mirata alle infrastrutture critiche della capitale.",
+      "context": "Colpire i due ponti che collegano le sponde del Dnipro rischia di dividere la città, ostacolando trasporti, logistica militare e vita quotidiana. Gli attacchi mostrano l’escalation russa contro le infrastrutture ucraine.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQSjBYSGtkV1kxbFFNR2lyYTZ1YlBiU2xnVFJOUmJ4eVFvLWtHaDFPMUZUQmtTa2JkczNhc2YyTGlJaEZUSy1BQXFvWjhfS1owckxVUWdPSllyZjFSZmJrOEhkMjhQRnNBNTRmcndTYlg2TDJMeC1BbFFqRlV5OHZ1Rjc0S1B6MUtNaEV3cGlTUWdnenlEb0VaTXZBdGN0cFpMUE80NDBVQmRKemh0bGNqajdfdnFVZlp3ampRRUV1Q3IzazMtc09EeF92YWx2RTNTVGVTWnR2Q2w5YlBIWmdVRXRXX2l6QU9yeGlNS0xzU2FfM3h2eF9wVWFjbUlSd0haSktDNHY3ONIBjAJBVV95cUxNVlg5VWUxZDhnOGplSWZEWFpHQTBPS29LN2pWRTBKbndjWnNYSXduYUJZZXRNV1RwTW1NZnN6c3VKYjBRMUJCRFRkNXUwZUdxQjBXSnJQUUFCQ1FVT2s1Ukl6NE9tNmpNY2R6YXlyMmhsWDBrSWJySFVGRWROYW9TRWN6NjdoQ0Z4ZDZZcEpubUJtYjhaV1J3SmlGbDNYUFBvb2NBSEt1empqbWFBSllfNzU5SmlMM2cycHpPVkM3QXo1WTBQaXFRc0Vyc28xeElvSXNybTNZUmRUM3ZyQjhsZ1RZT1JqeXAtOWoyVTBoSkwzOG0wQjRMQXBoMGRnSl9GZ014VC1OTGZYdzl0?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/554e/live/87c08780-bf1b-11f1-9b47-174f268aae1d.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale ponte di Kiev è stato colpito da un attacco russo per la seconda volta nella settimana?",
+          "options": [
+            "Ponte di San Vito",
+            "Ponte di Khreshchatyk",
+            "Ponte Pivdennyi",
+            "Ponte Pivnichnyi"
+          ],
+          "answer": 3,
+          "explanation": "L’attacco di sabato ha colpito il Ponte Pivnichnyi, dopo i precedenti colpi al Ponte Pivdennyi."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-04-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Proteste di massa in Spagna per la crisi abitativa",
+      "summary": "Decine di migliaia di persone hanno manifestato a Madrid e in altre città spagnole contro il caro-affitti e gli sfratti, dopo che il Congresso dei deputati ha bocciato due decreti legge del governo Sánchez. Le misure prevedevano la sospensione degli sfratti per i vulnerabili, limiti agli affitti turistici e il rinnovo automatico dei contratti. Il voto contrario di PP, Vox e Junts per Catalunya ha affondato i provvedimenti. Il Sindacato degli Inquilini chiede ora uno sciopero generale. A Valencia ci sono stati scontri con la polizia.",
+      "context": "Il voto segna una sconfitta per il governo di minoranza PSOE-Sumar e riapre lo scenario di elezioni anticipate prima del 2027. La crisi abitativa, alimentata da speculazione e turismo, è diventata il principale fronte di conflitto sociale in Spagna, con il caso dell'ottantasettenne Mari Carmen sfrattata a settembre come scintilla.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/03/spagna-una-marea-umana-invade-madrid-ora-sciopero-generale-_4f405557-4cb6-43dc-b8e7-13cc7060d3f4.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/marea-sociale-contro-il-caro-affitti-in-spagna-le-piazze-spingono-snchez-verso-le-urne-8a237f6c-aace-4595-b111-21d5c9b1373e.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/225b/live/a58f5d00-bf24-11f1-bc2e-018d645d8d21.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la causa immediata delle proteste di massa in tutta la Spagna?",
+          "options": [
+            "L'annuncio di un aumento delle tasse sulla prima casa",
+            "La bocciatura parlamentare di due decreti per tutelare gli affitti e bloccare gli sfratti",
+            "Gli scontri tra polizia e manifestanti a Valencia",
+            "L'indizione di uno sciopero generale da parte dei sindacati"
+          ],
+          "answer": 1,
+          "explanation": "Le proteste sono scoppiate dopo che il Congresso ha respinto i due decreti legge del governo su sfratti, affitti turistici e rinnovo contratti, con i voti decisivi di PP, Vox e Junts."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-04-1"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Guerra in Iran: rincari record per le famiglie italiane",
+      "summary": "Secondo uno studio del Codacons, la guerra in Iran ha causato un aumento dei prezzi che nel 2026 costerà in media 1.415 euro in più a una famiglia con due figli. L'impatto varia in base alla composizione del nucleo: un pensionato solo spenderà 667 euro in più, una coppia senza figli 1.167 euro. La Cna stima che il caro energia abbia già imposto a famiglie e imprese un esborso aggiuntivo di circa 16,5 miliardi di euro rispetto ai prezzi di febbraio, con benzina, gasolio, elettricità e gas come voci principali.",
+      "context": "Il conflitto in Iran sta destabilizzando i mercati energetici globali, con ripercussioni dirette sul costo della vita in Italia. L'aumento delle tariffe energetiche pesa su tutti i settori, ma colpisce maggiormente le famiglie con più componenti o redditi da lavoro dipendente. È fondamentale monitorare l'evoluzione dei prezzi al dettaglio e le eventuali misure di sostegno governative.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/03/pioggia-di-rincari-per-la-guerra-per-una-famiglia-con-2-figli-1.415_3e2029cd-ed62-4914-8ed6-ab8fc7cd9d36.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/7/27/804ff0f2968942809dd6b8ed75ab5c06.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/pioggia-di-rincari-per-la-guerra-per-una-famiglia-con-2-figli-1.415_3e2029cd-ed62-4914-8ed6-ab8fc7cd9d36.html"
+      },
+      "quiz": [
+        {
+          "question": "Quanto costerà in media in più a una famiglia con due figli nel 2026 a causa dei rincari legati alla guerra in Iran?",
+          "options": [
+            "667 euro",
+            "1.415 euro",
+            "1.616 euro",
+            "1.167 euro"
+          ],
+          "answer": 1,
+          "explanation": "Il Codacons stima che una coppia con due figli a carico dovrà sostenere un aggravio di spesa annua di 1.415 euro."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-04-2"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Borghi (Lega) attacca Meloni: \"Ignora il deficit, arriva il temporale\"",
+      "summary": "Il senatore della Lega Claudio Borghi ha criticato apertamente la premier Giorgia Meloni e il ministro dell'Economia Giancarlo Giorgetti, esortandoli a disattendere i vincoli del Patto di stabilità europeo sul deficit. Borghi sostiene che di fronte a un imminente \"temporale\" economico il governo debba avere il coraggio di spendere di più per sostenere l'economia, anziché osservare rigidi parametri di bilancio. L'uscita evidenzia forti tensioni all'interno della maggioranza in vista della manovra finanziaria.",
+      "context": "La Lega preme per una politica fiscale espansiva, in contrasto con la prudenza di Giorgetti e gli impegni presi con l'Ue. Lo scontro riflette la difficoltà di conciliare crescita debole, debito elevato e nuove regole europee senza spaccare la coalizione.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONDJqNmZ2cjUxamE2d1I0YlhHTTJTNDBIbjFNNDltWHVyNmVqVlBDbUlYdUFJM1pvbmd5UTA4VGs1cUdscjdCV2k5NDBZSFZGUkJtVlZlcFpNSkNnMFVvYkFYOXVmeGxLX0RRcXlOSzl3X2ZfNlR3Q3BJaFdJdVEzSXZNSzFrbVduVGZyMU5KNkltclZu?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/24-02-23_Convegno_Europarlamentari_Gruppo_ID_Friuli_30_%283x4_cropped%29.jpg/1280px-24-02-23_Convegno_Europarlamentari_Gruppo_ID_Friuli_30_%283x4_cropped%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:24-02-23_Convegno_Europarlamentari_Gruppo_ID_Friuli_30_(3x4_cropped).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha chiesto Claudio Borghi a Giorgia Meloni riguardo al deficit pubblico?",
+          "options": [
+            "Di dimettersi per lasciare spazio a un governo tecnico",
+            "Di ignorare i vincoli sul deficit per affrontare la crisi economica in arrivo",
+            "Di rispettare rigorosamente i parametri del Patto di stabilità europeo",
+            "Di aumentare le tasse per ridurre il debito pubblico"
+          ],
+          "answer": 1,
+          "explanation": "Borghi ha esortato la premier a \"fregarsene del deficit\" e del Patto di stabilità per reagire al \"temporale\" economico con maggiore spesa pubblica."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-04-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Arrestato CEO USA per contrabbando di chip Nvidia in Cina",
+      "summary": "Il dipartimento di Giustizia degli Stati Uniti ha arrestato Greg Lui, 38 anni, CEO di Earthmade Computer, per aver contrabbandato server contenenti GPU Nvidia A100 e H100, valutati oltre 300 milioni di dollari, verso la Cina. L’accusa sostiene che Lui abbia usato documenti falsi e catene logistiche in Malesia e Singapore per mascherare le spedizioni, violando le norme di esportazione.",
+      "context": "Il caso evidenzia le tensioni tra USA e Cina sul controllo delle tecnologie AI, mostrando come le autorità americane stiano intensificando le indagini su violazioni delle esportazioni di chip avanzati.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1258977050-2-1024x648.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il ruolo di Greg Lui nell'arresto per contrabbando di chip Nvidia?",
+          "options": [
+            "Avvocato di una società di spedizioni",
+            "CEO di Earthmade Computer",
+            "Direttore di Nvidia",
+            "Funzionario del Dipartimento di Giustizia"
+          ],
+          "answer": 1,
+          "explanation": "Greg Lui è stato arrestato in qualità di CEO di Earthmade Computer, accusato di aver contrabbandato i chip Nvidia."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-04-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Ricercatore sicurezza OpenAI si dimette e denuncia cultura \"rotta\"",
+      "summary": "David Robinson, autore dei report di sicurezza per i principali modelli di OpenAI, ha rassegnato le dimissioni e su The Atlantic ha definito la cultura del settore \"rotta\", dominata da \"estrema fiducia\" e \"sprint perenni\" che sottovalutano i rischi. Chiede che i laboratori di frontiera operino con standard paragonabili a centrali nucleari o aeroporti, con ridondanze e pianificazione accurata. È l'ultimo di una serie di addetti alla sicurezza che lasciano Anthropic, Google DeepMind e OpenAI.",
+      "context": "Le dimissioni a catena segnalano un conflitto interno tra pressione competitiva e gestione dei rischi nell'AI generativa; autorità e opinione pubblica monitorano se i grandi laboratori adotteranno davvero standard più rigorosi.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la critica principale di David Robinson alla cultura di OpenAI e dell'industria dell'AI?",
+          "options": [
+            "Conflitti personali con il consiglio di amministrazione",
+            "Eccessiva prudenza che rallenta l'innovazione",
+            "Mancanza di finanziamenti per la ricerca sulla sicurezza",
+            "Cultura \"rotta\" con eccessiva fiducia e fretta, serve approccio stile nucleare"
+          ],
+          "answer": 3,
+          "explanation": "Robinson ha definito la cultura \"rotta\" e chiesto salvaguardie paragonabili a quelle delle centrali nucleari."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-04-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Eminem collabora con Kid Rock su album cristiano",
+      "summary": "Eminem è presente come ospite nel brano \"7 Sins\" del nuovo album cristiano di Kid Rock, \"Halfway to Jesus\", in uscita il 17 ottobre. La collaborazione ha scatenato polemiche tra i fan, dato che Kid Rock è un noto sostenitore di Donald Trump, mentre Eminem si era espresso in modo critico nei confronti del presidente e dei suoi seguaci nel 2017. Kid Rock ha difeso la scelta, sottolineando che i due restano amici nonostante le differenze politiche.",
+      "context": "L'episodio evidenzia come le divisioni politiche negli Stati Uniti stiano influenzando anche le dinamiche artistiche e personali tra figure pubbliche. La reazione del pubblico riflette la polarizzazione attuale, dove le alleanze musicali sono spesso valutate attraverso la lente delle posizioni politiche degli artisti coinvolti.",
+      "sources": [
+        {
+          "name": "Hoodline",
+          "url": "https://hoodline.com/2026/10/eminem-joins-kid-rock-s-christian-album-despite-years-of-political-feuding/"
+        },
+        {
+          "name": "AOL",
+          "url": "https://www.aol.com/articles/kid-rock-speaks-eminem-collab-190000000.html"
+        },
+        {
+          "name": "AOL",
+          "url": "https://www.aol.com/articles/kid-rock-speaks-eminem-fans-182504000.html"
+        }
+      ],
+      "image": {
+        "url": "https://img.hoodline.com/2026/10/eminem-joins-kid-rock-s-christian-album-despite-years-of-political-feuding.webp",
+        "credit": "Hoodline",
+        "link": "https://hoodline.com/2026/10/eminem-joins-kid-rock-s-christian-album-despite-years-of-political-feuding/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la principale motivazione delle critiche rivolte a Eminem per questa collaborazione?",
+          "options": [
+            "Il brano è stato registrato senza il consenso di Eminem",
+            "L'album contiene testi contro la religione",
+            "Kid Rock è un sostenitore politico di Donald Trump",
+            "Eminem ha abbandonato la musica rap"
+          ],
+          "answer": 2,
+          "explanation": "Le polemiche nascono dal contrasto tra la posizione politica di Kid Rock, vicino a Trump, e le precedenti dichiarazioni anti-Trump di Eminem."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-04-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Rick Ross arrestato per violenza domestica a Miami",
+      "summary": "Il rapper Rick Ross si è consegnato alle autorità di Miami ed è comparso in tribunale giovedì 1 ottobre per rispondere di un'accusa di strangolamento (reato grave) e percosse (reato minore) mosse dall'ex fidanzata Jazzma Kendrick. L'episodio risalirebbe al 28 agosto. Ross si è dichiarato non colpevole ed è stato rilasciato su cauzione di 5.000 dollari.",
+      "context": "Il caso coinvolge una star dell'hip-hop e solleva l'attenzione sulle accuse di violenza domestica nel mondo dello spettacolo; si attende l'evoluzione del processo.",
+      "sources": [
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/rick-ross-not-guilty-plea-domestic-violence/"
+        },
+        {
+          "name": "KCEN-TV",
+          "url": "https://www.kcentv.com/video/entertainment/music/rapper-rick-ross-faces-domestic-violence-charges/500-8c2a41ec-4945-4d2a-aab9-a4aeabe025c2"
+        }
+      ],
+      "image": {
+        "url": "https://townsquare.media/site/812/files/2026/10/attachment-rick-ross-court-1.jpg?w=1200&format=natural",
+        "credit": "XXL",
+        "link": "https://www.xxlmag.com/rick-ross-not-guilty-plea-domestic-violence/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'esito dell'udienza del 1 ottobre?",
+          "options": [
+            "Il giudice ha ordinato l'arresto immediato senza possibilità di cauzione",
+            "Il processo è stato rinviato a data da destinarsi",
+            "Ross è stato rilasciato su cauzione dopo essersi dichiarato non colpevole",
+            "Il giudice ha respinto le accuse per mancanza di prove"
+          ],
+          "answer": 2,
+          "explanation": "Ross si è dichiarato non colpevole delle accuse ed è stato rilasciato dietro pagamento di una cauzione di 5.000 dollari."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-04-7"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Intesa alza l'offerta cash per l'Opas su Mps a 31,4 miliardi",
+      "summary": "Il consiglio di amministrazione di Intesa Sanpaolo ha deciso di aumentare di 25 centesimi per azione la componente in denaro dell'Offerta pubblica di acquisto e scambio su Monte dei Paschi di Siena. Con questa modifica, in caso di adesione totale, il valore complessivo dell'operazione raggiunge i 31,4 miliardi di euro, suddivisi tra 27,6 miliardi in azioni e 3,8 miliardi in contanti.",
+      "context": "Questa mossa si inserisce nella complessa partita per il controllo e la riorganizzazione del settore bancario italiano. Seguire l'evolversi delle offerte e delle contromosse tra i grandi istituti di credito permette di capire il futuro assetto del mercato finanziario nazionale.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/03/intesa-aumenta-di-025-euro-il-corrispettivo-cash-dellopas-su-mps_915339f2-111b-44d1-bdac-f54577aa67f4.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/6/7/64f41f8e2b0a5935a348616d8f11bff0.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/intesa-aumenta-di-025-euro-il-corrispettivo-cash-dellopas-su-mps_915339f2-111b-44d1-bdac-f54577aa67f4.html"
+      },
+      "quiz": [
+        {
+          "question": "Di quanto ha aumentato Intesa Sanpaolo la componente in denaro per azione dell'Opas su Mps?",
+          "options": [
+            "2,50 euro",
+            "1 euro",
+            "25 centesimi di euro",
+            "50 centesimi di euro"
+          ],
+          "answer": 2,
+          "explanation": "Il consiglio di amministrazione straordinario di Intesa ha incrementato la componente in denaro di 25 centesimi di euro per azione."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-04-8"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Mimit: oltre 10mila distributori aderiscono al price cap sui carburanti",
+      "summary": "Oltre 10.400 distributori su circa 20.140 (il 51,7% per la benzina, 52,2% per il gasolio) hanno aderito al price cap che fissa i prezzi massimi a 2 euro per la benzina e 2,20 per il gasolio. Il ministro Urso definisce il risultato superiore alle attese e convoca per giovedì un tavolo con le raffinerie per aumentare la produzione.",
+      "context": "L'adesione volontaria delle maggiori compagnie (Eni, IP, Q8, Tamoil) ha abbassato i prezzi medi, ma l'esecutivo punta a risolvere il collo di bottiglia strutturale della capacità di raffinazione europea, aggravato dalle tensioni geopolitiche e dalla richiesta USA di maggiori scorte.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/03/mimit-oltre-10mila-distributori-hanno-aderito-a-price-cap-carburanti_c4488638-d85b-4156-a391-82cfdba965d9.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/03/oltre-10mila-i-distributori-che-hanno-aderito-al-price-cap_d589a273-bd43-4b9a-bb4f-8ad19633e300.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/03/urso-visita-stabilimenti-isab-a-priolo-tutelata-la-prima-raffineria-ditalia_47b1a14f-ad6d-4953-be6f-1f63e9e0a5fe.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/11/7/d8a48c144323942697667ded995033d8.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/mimit-oltre-10mila-distributori-hanno-aderito-a-price-cap-carburanti_c4488638-d85b-4156-a391-82cfdba965d9.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale risultato ha raggiunto il price cap sui carburanti secondo i dati del Mimit aggiornati al 3 ottobre?",
+          "options": [
+            "Ha portato il prezzo medio della benzina sotto 1,50 euro al litro",
+            "Ha coinvolto tutti i 20.140 distributori italiani",
+            "È stato reso obbligatorio per legge per tutte le compagnie petrolifere",
+            "Ha superato la metà della rete nazionale con oltre 10.400 adesioni"
+          ],
+          "answer": 3,
+          "explanation": "Il Mimit ha comunicato che oltre 10.400 impianti su 20.140 (più del 51%) praticano prezzi inferiori alle soglie fissate, superando le previsioni iniziali."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-04-9"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Inghilterra 7-0 Croazia in Nations League a Fiume",
+      "summary": "L'Inghilterra ha battuto la Croazia 7-0 nella terza giornata della Nations League, giocata a Fiume. Harry Kane e Bukayo Saka hanno realizzato entrambe le doppiette; hanno segnato anche Anthony Gordon, Jude Bellingham (che ha fornito tre assist) e Morgan Rogers. La partita, prevista a porte chiuse, ha accolto circa 6.000 bambini e un centinaio di tifosi. L'Inghilterra, guidata da Thomas Tuchel, punta a chiudere il girone tra i primi due per accedere ai quarti di finale.",
+      "context": "La vittoria rafforza le ambizioni dell'Inghilterra di qualificarsi per i quarti di Nations League, mentre la Croazia subisce una pesante sconfitta che complica il suo percorso nel girone.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/03/nations-league-linghilterra-annichilisce-la-croazia-7-0-a-fiume_a49e071c-1051-42e8-ae6d-dc793342009f.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/3/0eb2da9e568507156d35aae9c92ec515.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/03/nations-league-linghilterra-annichilisce-la-croazia-7-0-a-fiume_a49e071c-1051-42e8-ae6d-dc793342009f.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato il risultato della partita tra Inghilterra e Croazia nella Nations League?",
+          "options": [
+            "3-2 a favore dell'Inghilterra",
+            "7-0 a favore dell'Inghilterra",
+            "0-7 a favore della Croazia",
+            "2-2 pareggio"
+          ],
+          "answer": 1,
+          "explanation": "L'Inghilterra ha vinto 7-0 contro la Croazia."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-04-10"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Brasile-India 4-0: prima storica amichevole a Calcutta",
+      "summary": "Il Brasile ha battuto l'India 4-0 nella prima sfida ufficiale tra le due nazionali, giocata a Calcutta davanti a uno stadio semivuoto per l'alto costo dei biglietti. La squadra di Carlo Ancelotti ha segnato con Estevao, Pedro e una doppietta di Samuel Lino. L'India, 138ª nel ranking FIFA, ha opposto poca resistenza. Per i verdeoro è l'ottava vittoria nelle ultime undici partite.",
+      "context": "Prima storica sfida tra le due nazioni: il Brasile conferma la sua superiorità tecnica, mentre l'India fatica a richiamare pubblico nonostante l'evento. Da monitorare lo sviluppo del calcio indiano e la gestione Ancelotti in vista dei prossimi impegni.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/03/prima-sfida-tra-le-nazionali-di-india-e-brasile-i-verdeoro-vincono-4-0_e7223353-2b1c-4b40-81be-f7c198cc3abf.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/25/bba7dae958533558cb039cea05811821.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/03/prima-sfida-tra-le-nazionali-di-india-e-brasile-i-verdeoro-vincono-4-0_e7223353-2b1c-4b40-81be-f7c198cc3abf.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato il risultato della prima partita ufficiale tra Brasile e India, giocata a Calcutta?",
+          "options": [
+            "4-0 per il Brasile",
+            "1-1",
+            "3-1 per il Brasile",
+            "2-0 per l'India"
+          ],
+          "answer": 0,
+          "explanation": "Il Brasile ha vinto 4-0 con gol di Estevao, Pedro e doppietta di Samuel Lino."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-04-11"
+    },
+    {
+      "category": "storia",
+      "tag": "4 ottobre 1957",
+      "title": "Lancio dello Sputnik 1",
+      "summary": "Il 4 ottobre 1957 l’Unione Sovietica lanciò dallo spazioporto di Bajkonur lo Sputnik 1, una sfera di alluminio di 58 cm di diametro e 83,6 kg di peso dotata di quattro antenne radio. Il satellite entrò in un’orbita ellittica bassa, completando ogni giro in 96,2 minuti e trasmettendo segnali a 20,005 e 40,002 MHz per 21 giorni, prima che le batterie si esaurissero.",
+      "context": "Lo Sputnik 1 dimostrò la capacità di mettere oggetti in orbita, innescando la corsa allo spazio e spingendo gli Stati Uniti a intensificare i loro programmi scientifici e militari.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Sputnik_1"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sputnik_asm.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Sputnik_asm.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato il primo satellite artificiale a orbitare attorno alla Terra?",
+          "options": [
+            "Sputnik 1",
+            "Explorer 1",
+            "Vostok 1",
+            "Luna 1"
+          ],
+          "answer": 0,
+          "explanation": "Il satellite lanciato il 4 ottobre 1957 fu lo Sputnik 1, il primo oggetto artificiale a orbitare attorno alla Terra."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-04-12"
+    },
+    {
+      "category": "storia",
+      "tag": "4 ottobre 2004",
+      "title": "SpaceShipOne vince il premio Ansari X",
+      "summary": "Il 4 ottobre 2004 la navetta suborbitale SpaceShipOne, costruita da Scaled Composites, ha ricevuto il premio Ansari X da 10 milioni di dollari. Il premio è stato assegnato perché SpaceShipOne è stata la prima navicella privata a raggiungere lo spazio due volte in meno di due settimane, dimostrando la fattibilità di voli spaziali commerciali a basso costo.",
+      "context": "Il successo ha dimostrato che le imprese private possono operare nello spazio, aprendo la strada a nuovi investimenti e a progetti come la suborbita Virgin Galactic. Si osserva l'emergere di un mercato di voli turistici.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Veicolo_spaziale"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg/1280px-SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato il criterio principale per l'assegnazione del premio Ansari X a SpaceShipOne?",
+          "options": [
+            "Prima navicella a utilizzare propulsione elettrica",
+            "Prima navicella a essere riutilizzabile più di cinque volte",
+            "Prima navicella a trasportare astronauti in orbita",
+            "Prima navicella privata a raggiungere lo spazio due volte in meno di due settimane"
+          ],
+          "answer": 3,
+          "explanation": "Il premio è stato assegnato perché SpaceShipOne ha compiuto due voli suborbitali entro due settimane, soddisfacendo i requisiti del concorso."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-04-13"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Francesca Scanagatta",
+      "title": "La donna che divenne tenente nell'esercito imperiale fingendosi un uomo",
+      "summary": "Francesca Scanagatta, milanese, si travestì da uomo per entrare all'Accademia militare di Wiener Neustadt nel 1794. Si laureò alfiere nel 1797, servì in battaglie contro i francesi e fu promossa tenente nel 1800. Il padre ne svelò l'identità per proteggerla, ottenendo il congedo e una pensione imperiale.",
+      "context": "Nella Europa delle guerre rivoluzionarie francesi, l'esercito austriaco accettò reclute senza controlli rigorosi, permettendo a una donna di servire come ufficiale decenni prima che l'accesso femminile fosse ammesso.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Francesca_Scanagatta"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Francesca_Scanagatta.jpg/1280px-Francesca_Scanagatta.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Francesca_Scanagatta.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu il risultato più sorprendente dell'inganno di Francesca Scanagatta?",
+          "options": [
+            "Fu scoperta solo dopo essere stata ferita in battaglia",
+            "Dopo il congedo divenne una celebre scrittrice di memorie militari",
+            "Divenne la prima donna a laurearsi in un'accademia militare e a servire come ufficiale nell'esercito asburgico",
+            "Combatté come generale nelle guerre napoleoniche"
+          ],
+          "answer": 2,
+          "explanation": "Si diplomò all'Accademia teresiana nel 1797 e raggiunse il grado di tenente prima di essere congedata nel 1800."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-04-14"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Giganti di Mont'e Prama",
+      "title": "I giganti di pietra che precedevano i Greci",
+      "summary": "Nel 1974, a Cabras in Sardegna, sono stati scoperti casualmente 38 giganti di pietra alta fino a 2,5 metri. Scolpiti in calcarenite, raffigurano arcieri, guerrieri e pugilatori della civiltà nuragica. Datazione al carbonio e reperti indicano un'origine tra il XII e il IX secolo a.C., rendendoli il complesso statuario più antico d'Europa occidentale, antecedente ai kouroi greci.",
+      "context": "Queste statue testimoniano un'alta civiltà sarda del Bronzo recente, spesso ignorata rispetto ai centri classici. La loro scoperta ha ridefinito la storia dell'arte mediterranea, mostrando una tradizione scultorea complessa legata al culto funerario guerriero, parallela ma distinta da quella egizia e greca.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Giganti_di_Mont%27e_Prama"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Et%C3%A0_nuragica%2C_giganti_di_monte_prama%2C_xiii-ix_secolo_ac_ca.%2C_da_cabras%2C_pugilatore_19%2C_02.jpg/1280px-Et%C3%A0_nuragica%2C_giganti_di_monte_prama%2C_xiii-ix_secolo_ac_ca.%2C_da_cabras%2C_pugilatore_19%2C_02.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Et%C3%A0_nuragica%2C_giganti_di_monte_prama%2C_xiii-ix_secolo_ac_ca.%2C_da_cabras%2C_pugilatore_19%2C_02.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Perché i Giganti di Mont'e Prama sono considerati storicamente rilevanti?",
+          "options": [
+            "Raffigurano figure mitologiche egizie importate",
+            "Sono state scolpite in marmo bianco di Carrara",
+            "Sono il complesso statuario a tutto tondo più antico d'Europa occidentale",
+            "Sono le uniche statue in pietra rimaste in Sardegna"
+          ],
+          "answer": 2,
+          "explanation": "Le statue sono antecedenti ai kouroi greci e rappresentano il più antico gruppo di sculture a tutto tondo nel Mediterraneo occidentale."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-04-15"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Scipione Piattoli",
+      "title": "L'abate toscano che ispirò Tolstoj e scrisse la Costituzione polacca",
+      "summary": "L'intellettuale e prete toscano Scipione Piattoli, vissuto tra il Settecento e l'Ottocento, ebbe una vita pubblica straordinaria. Dopo aver insegnato a Modena e promosso la costruzione dei primi cimiteri fuori città per motivi igienici, si trasferì in Polonia. Qui divenne il segretario del re Stanislao e contribuì in modo determinante alla stesura della Costituzione di maggio del 1791. Piattoli ispirò inoltre a Lev Tolstoj il personaggio dell'abate Morio in Guerra e pace.",
+      "context": "Figura centrale dell'Illuminismo europeo, Piattoli si mosse tra Italia, Polonia, Francia e Russia, partecipando alle reti della massoneria e ai dibattiti politici riformatori. Le sue idee e i suoi contatti diplomatici anticiparono i grandi riassetti geopolitici dell'Ottocento, influenzando persino il Congresso di Vienna attraverso i piani elaborati con il principe Czartoryski.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Scipione_Piattoli"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Scipione_Piattoli.PNG/1280px-Scipione_Piattoli.PNG",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Scipione_Piattoli.PNG"
+      },
+      "quiz": [
+        {
+          "question": "Quale importante testo politico contribuì a redigere Scipione Piattoli in Polonia?",
+          "options": [
+            "La Costituzione di maggio del 1791",
+            "Lo statuto della massoneria modenese",
+            "La Costituzione civile del clero",
+            "Il trattato Sur le système politique"
+          ],
+          "answer": 0,
+          "explanation": "Piattoli fu un importante esponente dell'Illuminismo polacco e contribuì alla stesura della Costituzione di maggio del 1791."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-04-16"
+    }
+  ]
+}
