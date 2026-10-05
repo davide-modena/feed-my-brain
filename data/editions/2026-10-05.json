@@ -1,0 +1,645 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T04:32:49.650Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Flávio Bolsonaro vince il primo turno delle elezioni brasiliane",
+      "summary": "Il 2 ottobre 2024 il primo turno delle elezioni presidenziali brasiliane è stato vinto da Flávio Bolsonaro, figlio dell’ex presidente Jair Bolsonaro, con il 47,1 % dei voti contro il 45,0 % di Luiz Inácio Lula da Silva. Non avendo raggiunto la soglia del 50 %, i due candidati dovranno affrontare un ballottaggio il 25 ottobre.",
+      "context": "Il risultato mantiene il Brasile al centro di una sfida tra destra e sinistra, con il ballottaggio che deciderà se il paese seguirà la tendenza latinoamericana verso governi conservatori o resterà sotto la guida di Lula.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/05/bolsonaro-avanti-su-lula-47-contro-il-45-il-25-ottobre-ci-sara-il-ballottaggio_bef2f600-8fd3-4a6b-8402-5f40da9c9da1.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/brasile-il-sorpasso-di-bolsonaro-la-ciris-di-lula-guanella-analisi-f8cd9deb-5a0a-4fef-92a0-5bd1818fef3f.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/e4ea/live/56a0e6c0-c053-11f1-babe-4199b0e7ccea.png",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha vinto il primo turno delle elezioni presidenziali brasiliane del 2024?",
+          "options": [
+            "Luiz Inácio Lula da Silva",
+            "Michelle Bolsonaro",
+            "Flávio Bolsonaro",
+            "Jair Bolsonaro"
+          ],
+          "answer": 2,
+          "explanation": "Flávio Bolsonaro ha ottenuto circa il 47 % dei voti, superando Lula, ma senza la maggioranza assoluta."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-05-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Guerra totale in Yemen contro gli Houthi",
+      "summary": "Il governo dello Yemen ha annunciato una guerra totale per riconquistare i territori controllati dai ribelli Houthi. L'annuncio arriva dopo una serie di attacchi con missili balistici e droni rivendicati dagli Houthi contro siti petroliferi della Saudi Aramco in Arabia Saudita. In risposta, le forze governative e la coalizione saudita hanno colpito postazioni ribelli in diverse zone dello Yemen.",
+      "context": "Il conflitto yemenita è una complessa guerra per procura tra l'Iran, che sostiene gli Houthi, e l'Arabia Saudita, principale alleato del governo riconosciuto. La protezione degli impianti petroliferi sauditi e la stabilità della regione restano nodi cruciali per l'economia globale.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7653/live/2853dd30-bffa-11f1-8c3e-3b2eab095459.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale evento ha preceduto l'annuncio della guerra totale da parte del governo yemenita?",
+          "options": [
+            "Un accordo di pace definitivo",
+            "Attacchi con missili e droni degli Houthi contro siti petroliferi in Arabia Saudita",
+            "Il ritiro delle truppe saudite dallo Yemen",
+            "Un embargo navale internazionale"
+          ],
+          "answer": 1,
+          "explanation": "L'annuncio della guerra totale è arrivato in seguito agli attacchi con missili e droni rivendicati dagli Houthi contro i siti petroliferi della Saudi Aramco."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-05-1"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Renzi lancia appello ai centristi e riformisti di FI per un nuovo governo",
+      "summary": "Matteo Renzi, durante la Leopolda, ha invitato i centristi e i riformisti di Forza Italia a unirsi a Italia Viva. Ha chiesto a Giuseppe Conte garanzie precise per l'alleanza di centrosinistra: esclusione di Matteo Salvini dal Viminale, di Giorgetti dal governo e opposizione a Donald Trump. L'obiettivo è unire il centrosinistra per sconfiggere Giorgia Meloni, offrendo in cambio garanzie su primarie e presidenza della Repubblica.",
+      "context": "La mossa mira a consolidare l'opposizione al governo Meloni, evitando la frammentazione che ha favorito la destra nel 2022. L'eventuale ingresso di esponenti di Forza Italia in Italia Viva potrebbe ridisegnare gli equilibri politici italiani e influenzare le future alleanze per le elezioni europee e locali.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/04/renzi-appello-a-centristi-e-ai-riformisti-di-forza-italia-venite-con-noi_c456b782-516c-4c5e-b706-17e902aa68bd.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/2/63d7e1af78d102e85557fab78a5a486a.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/04/renzi-appello-a-centristi-e-ai-riformisti-di-forza-italia-venite-con-noi_c456b782-516c-4c5e-b706-17e902aa68bd.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo principale dell'appello lanciato da Renzi ai riformisti di Forza Italia?",
+          "options": [
+            "Dividere ulteriormente l'opposizione per ottenere più posti",
+            "Appoggiare la candidatura di Giorgia Meloni al Quirinale",
+            "Unire il centrosinistra per sconfiggere il governo Meloni",
+            "Creare un nuovo partito di destra"
+          ],
+          "answer": 2,
+          "explanation": "Renzi ha dichiarato che la posta in gioco è mandare a casa Giorgia Meloni e che l'unica salvezza del centrodestra sarebbe la divisione del centrosinistra, che loro devono evitare."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-05-2"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Mattarella ad Assisi: basta guerre e armi benedette in nome di Dio",
+      "summary": "Durante le celebrazioni per gli ottocento anni dalla morte di San Francesco ad Assisi, il presidente della Repubblica Sergio Mattarella ha invocato la pace e la fine delle guerre. Intervenendo dal loggione della basilica, il capo dello Stato ha criticato chi benedice le armi e usa insegne religiose per giustificare i conflitti, definendo la figura del santo un profeta universale di pace e non un semplice pacifista stereotipato.",
+      "context": "Le parole di Mattarella si inseriscono nel contesto dei conflitti internazionali in corso, richiamando l'attualità del messaggio di San Francesco contro la violenza. La ricorrenza francescana offre tradizionalmente ai leader istituzionali un'occasione per riflessioni pubbliche sui temi della pace e della convivenza globale.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/04/mattarella-ad-assisi-il-mondo-si-illumini-e-indichi-la-via-della-pace_9bd6a1a6-d122-438a-918d-1082646e670f.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/4/1ad09ab5f4c7812f4f7396e58657175d.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/04/mattarella-ad-assisi-il-mondo-si-illumini-e-indichi-la-via-della-pace_9bd6a1a6-d122-438a-918d-1082646e670f.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha criticato in particolare il presidente Mattarella durante il suo discorso ad Assisi?",
+          "options": [
+            "L'eccessiva burocrazia nelle celebrazioni religiose",
+            "Chi benedice le armi e usa insegne religiose per giustificare la guerra",
+            "La mancanza di fondi per la tutela ambientale",
+            "La commercializzazione della figura di San Francesco"
+          ],
+          "answer": 1,
+          "explanation": "Mattarella ha criticato chi torna a benedire le armi e a porre gli eserciti sotto insegne religiose durante i conflitti."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-05-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Trump crea la \"Super Intelligence Force\" guidata da Jay Clayton",
+      "summary": "Il presidente statunitense Donald Trump ha istituito una nuova unità speciale governativa sull'intelligenza artificiale, ribattezzata \"Super Intelligence Force\". A guidarla sarà Jay Clayton, attuale direttore dell'Intelligence nazionale. La task force risponderà direttamente alla Casa Bianca e coordinerà i rapporti federali con aziende tecnologiche, consumatori e organizzazioni civili. L'obiettivo principale è mantenere la leadership degli Stati Uniti nello sviluppo del settore.",
+      "context": "La mossa segue un accordo tra la Casa Bianca e i vertici delle grandi aziende tecnologiche. Nonostante le richieste di regole più severe, l'amministrazione Trump continua a privilegiare l'autoregolamentazione per non frenare la competizione globale.",
+      "sources": [
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/news/politics/articles/trump-announces-super-intelligence-force-013313145.html"
+        },
+        {
+          "name": "AOL",
+          "url": "https://www.aol.com/articles/president-trump-announces-super-intelligence-015813000.html"
+        },
+        {
+          "name": "Gizmodo",
+          "url": "https://gizmodo.com/trump-names-national-intelligence-director-as-new-super-intelligence-czar-2000821343"
+        }
+      ],
+      "image": {
+        "url": "https://s.yimg.com/lo/mysterio/api/033fc0b8ae4de2bedba8fd80035a2e3f78d33a752a7b2246aa10f29d220fc379/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2F1f2c17a98aa225fae5abf9bc4346f47a.jpg",
+        "credit": "Yahoo",
+        "link": "https://www.yahoo.com/news/politics/articles/trump-announces-super-intelligence-force-013313145.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il compito principale assegnato alla \"Super Intelligence Force\"?",
+          "options": [
+            "Coordinare i rapporti federali sull'intelligenza artificiale e mantenere il primato tecnologico statunitense",
+            "Vietare l'uso dei modelli di intelligenza artificiale nelle infrastrutture critiche",
+            "Sostituire interamente il personale federale con sistemi automatizzati",
+            "Imporre sanzioni pecuniarie immediate alle aziende tecnologiche inadempienti"
+          ],
+          "answer": 0,
+          "explanation": "La task force è stata creata per coordinare l'azione del governo con aziende e cittadini, tutelando la leadership degli Stati Uniti nel settore."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-05-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Leak sul nuovo Fitbit Edge, successore della linea Charge",
+      "summary": "Nuove immagini trapelate online mostrano il Fitbit Edge, il presunto nuovo fitness tracker di Google pensato come successore della linea Charge. Il dispositivo si colloca esteticamente e funzionalmente tra il Pixel Watch e il Fitbit Air, offrendo uno schermo per i widget, GPS integrato, altimetro, un'autonomia stimata di sette giorni e un supporto limitato ad alcune applicazioni come Google Maps e YouTube Music.",
+      "context": "Il mercato dei dispositivi indossabili per il fitness cerca continuamente un equilibrio tra funzioni avanzate e durata della batteria. Questo nuovo modello colma il vuoto nella fascia media dopo l'ultimo aggiornamento della linea Charge nel 2023.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24438538/Fitbit_STK151_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks"
+      },
+      "quiz": [
+        {
+          "question": "Quale ruolo dovrebbe ricoprire il Fitbit Edge nella gamma di prodotti?",
+          "options": [
+            "Una nuova console per la riproduzione musicale",
+            "Uno smartwatch di fascia alta sostitutivo del Pixel Watch",
+            "Un tracker minimalista ed economico inferiore al modello Air",
+            "Il successore della linea Charge nella fascia media"
+          ],
+          "answer": 3,
+          "explanation": "Il Fitbit Edge è descritto come il successore della linea Charge e si posiziona nella fascia media dei dispositivi per il fitness."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-05-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "LAPD indaga per tentato omicidio dopo rissa a ComplexCon",
+      "summary": "Il 3 ottobre, durante il ComplexCon a Los Angeles, è scoppiata una violenta rissa tra i team dei rapper Lucki e Playboi Carti. Quattro persone sono rimaste ferite, tra cui Lucki, che ha subito una lacerazione al collo. La polizia di Los Angeles (LAPD) sta indagando sul fatto come tentato omicidio. Non ci sono ancora arresti e non è chiaro il numero esatto dei sospettati coinvolti nella zuffa.",
+      "context": "L'episodio evidenzia i rischi di sicurezza legati ai conflitti personali tra artisti durante grandi eventi pubblici. La classificazione come tentato omicidio segnala la gravità degli atti violenti, che vanno oltre semplici risse. Si attende chiarimenti su eventuali responsabilità penali e sull'impatto sul calendario delle performance degli artisti coinvolti.",
+      "sources": [
+        {
+          "name": "VICE",
+          "url": "https://www.vice.com/en/article/lapd-investigating-attempted-murder-after-violent-complexcon-brawl-leaves-rapper-bloodied/"
+        },
+        {
+          "name": "Los Angeles Times",
+          "url": "https://www.latimes.com/entertainment-arts/story/2026-10-04/rapper-lucki-alleged-stabbed-in-bloody-brawl-outside-complexcon"
+        },
+        {
+          "name": "Daily Mail",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16182927/lucki-injured-fight-la-complexcon-playboi-carti.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/LAPD-Investigating-Attempted-Murder-After-Violent-ComplexCon-Brawl-Leaves-Rapper-Bloodied.jpg?w=1200",
+        "credit": "VICE",
+        "link": "https://www.vice.com/en/article/lapd-investigating-attempted-murder-after-violent-complexcon-brawl-leaves-rapper-bloodied/"
+      },
+      "quiz": [
+        {
+          "question": "Come sta indagando la polizia di Los Angeles sulla rissa avvenuta a ComplexCon?",
+          "options": [
+            "Come disturbo della quiete pubblica",
+            "Come incidente stradale",
+            "Come tentato omicidio",
+            "Come aggressione semplice"
+          ],
+          "answer": 2,
+          "explanation": "La LAPD ha classificato l'indagine come tentato omicidio a causa della gravità delle ferite riportate dalle vittime."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-05-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Victoria Monét vince il sondaggio di Billboard con 'Frequency of Love'",
+      "summary": "Il nuovo album della cantante Victoria Monét, intitolato \"Frequency of Love\", ha conquistato il primo posto in un sondaggio pubblicato il 2 ottobre 2026 dalla rivista Billboard. La raccolta di ventidue brani ha ottenuto il quaranta percento delle preferenze del pubblico, superando le nuove uscite di artisti come Noah Kahan, Miranda Lambert e Drake.",
+      "context": "Il successo nei sondaggi di gradimento anticipa l'inizio del tour da solista della cantante, previsto per fine ottobre negli Stati Uniti. Questi riconoscimenti aiutano a consolidare la visibilità degli artisti nelle classifiche digitali.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/victoria-monet-frequency-of-love-new-music-poll-results-1236354023/"
+        },
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/victoria-monet-frequency-of-love-new-music-poll-results-1236354023/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/10/victoria-monet-2026-press-lede-cr-MARVIN-billboard-1800-.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/victoria-monet-frequency-of-love-new-music-poll-results-1236354023/"
+      },
+      "quiz": [
+        {
+          "question": "Quale percentuale di voti ha ottenuto l'album di Victoria Monét nel sondaggio di Billboard?",
+          "options": [
+            "Il 40%",
+            "Il 29%",
+            "Il 50%",
+            "Il 6%"
+          ],
+          "answer": 0,
+          "explanation": "L'album ha conquistato il primo posto del sondaggio con il 40% delle preferenze del pubblico."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-05-7"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Gas naturale: prezzi in rialzo ad Amsterdam e +38% da inizio anno",
+      "summary": "Il prezzo del gas naturale sulla piazza Ttf di Amsterdam è salito a 76,35 euro al megawattora per i contratti di novembre, segnando un incremento del 2,12% in una singola seduta e del 38% dall'inizio dell'anno. A spingere i prezzi al rialzo contribuiscono la crisi in Medio Oriente e il ritardo della Germania nel riempire le proprie scorte invernali, ferme al 58,2%.",
+      "context": "L'andamento del gas olandese influisce direttamente sulle bollette italiane, poiché la produzione termoelettrica copre oltre la metà del fabbisogno nazionale di energia elettrica. La situazione delle scorte tedesche resta un elemento critico da monitorare per la stabilità energetica europea.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/04/il-prezzo-del-gas-sale-ancora-da-inizio-anno-38-ad-amsterdam_d4603b6a-1fea-4610-b0d8-45a00a15d37e.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2023/11/9/6f0b65661ec31e74305be1ebe63b3020.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/04/il-prezzo-del-gas-sale-ancora-da-inizio-anno-38-ad-amsterdam_d4603b6a-1fea-4610-b0d8-45a00a15d37e.html"
+      },
+      "quiz": [
+        {
+          "question": "A quanto ammonta il rialzo percentuale del prezzo del gas ad Amsterdam dall'inizio dell'anno?",
+          "options": [
+            "Del 38%",
+            "Del 2,12%",
+            "Dell'87,39%",
+            "Del 51%"
+          ],
+          "answer": 0,
+          "explanation": "Il testo riporta che i contratti segnano una crescita del 38% dall'inizio dell'anno."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-05-8"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Allarme caro-carburanti: 4,7 miliardi di spesa extra in sei mesi per gli automobilisti italiani",
+      "summary": "Nei primi sei mesi del 2026, tra marzo e agosto, il caro-carburanti è costato agli automobilisti italiani una spesa aggiuntiva di oltre 4,7 miliardi di euro rispetto all'analogo periodo dell'anno precedente. Secondo i dati diffusi da Adusbef, i rifornimenti totali hanno raggiunto i 30 miliardi di euro, contro i 25,3 miliardi del 2025. Solo tra luglio e agosto l'aggravio ha toccato quota 1,7 miliardi.",
+      "context": "L'aumento dei prezzi dei carburanti incide direttamente sui bilanci familiari e sui costi della logistica nazionale. L'andamento dei prezzi alla pompa, influenzato anche dalle variazioni fiscali e delle accise, resta un indicatore chiave da monitorare per l'inflazione.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/04/il-caro-carburanti-e-costato-in-6-mesi-47-miliardi-agli-automobilisti_5aaba82b-e7f8-4b57-8307-9329a3e23e03.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/04/mimit-prezzo-medio-self-benzina-a-2049-euro-al-litro-gasolio-a-2244_6cf3e3cf-9261-448f-9511-ea3823e0638f.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/26/7f25ddb1f4c0c41a2bb5c19beb8913dd.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/04/il-caro-carburanti-e-costato-in-6-mesi-47-miliardi-agli-automobilisti_5aaba82b-e7f8-4b57-8307-9329a3e23e03.html"
+      },
+      "quiz": [
+        {
+          "question": "A quanto ammonta la spesa aggiuntiva sostenuta dagli automobilisti italiani per il caro-carburanti tra marzo e agosto 2026?",
+          "options": [
+            "25,3 miliardi di euro",
+            "30 miliardi di euro",
+            "4,7 miliardi di euro",
+            "1,7 miliardi di euro"
+          ],
+          "answer": 2,
+          "explanation": "Nei sei mesi tra marzo e agosto 2026, i rincari hanno comportato una spesa aggiuntiva di oltre 4,7 miliardi di euro rispetto all'anno precedente."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-05-9"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Il film 'Master' vince il Lucca Film Festival",
+      "summary": "Il film 'Master', diretto dal regista del Bangladesh Rezwan Shahriar Sumit, ha vinto il premio come miglior lungometraggio alla ventiduesima edizione del Lucca Film Festival. Durante la manifestazione sono stati assegnati anche diversi premi alla carriera, tra cui quelli a Julian Schnabel, Liliana Cavani, Nanni Moretti e Gordon Getty, oltre a riconoscimenti per cortometraggi e sezioni speciali.",
+      "context": "Il Lucca Film Festival è un appuntamento cinematografico importante per scoprire il cinema indipendente e internazionale in Italia. La premiazione di un'opera dal Bangladesh conferma l'attenzione della manifestazione verso cinematografie meno tradizionali e lontane dai grandi circuiti commerciali.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/04/master-di-rezwan-shahriar-sumit-vince-il-lucca-film-festival_655eea07-d40a-496f-9a7b-e652529d864c.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/4/f3f9fe66953a337779c252a64afe93c9.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/04/master-di-rezwan-shahriar-sumit-vince-il-lucca-film-festival_655eea07-d40a-496f-9a7b-e652529d864c.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale film ha vinto il premio come miglior lungometraggio al Lucca Film Festival?",
+          "options": [
+            "Apes",
+            "Snake Milkers and the Miserable Lady",
+            "Kurtuluş - Salvation",
+            "Master"
+          ],
+          "answer": 3,
+          "explanation": "Il film 'Master' di Rezwan Shahriar Sumit ha vinto il premio come miglior lungometraggio alla ventiduesima edizione del festival."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-05-10"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Il social network di cinema Letterboxd diventa un caso economico e fa gola a Netflix",
+      "summary": "Il social network di cinema Letterboxd, nato nel 2011 e forte di quasi trenta milioni di utenti, è diventato un caso economico con una valutazione stimata sui trecento milioni di dollari per il 2026. A seguito della forte crescita di traffico e ricavi, stimati a quindici milioni per l'anno, giganti come Netflix, Sony Pictures e Paramount hanno manifestato interesse per l'acquisizione della piattaforma.",
+      "context": "La forte attrattiva esercitata da Letterboxd sui grandi gruppi dello streaming e dell'intrattenimento si spiega con la centralità dei suoi dati: la piattaforma raccoglie infatti gusti, recensioni e tendenze di un pubblico prevalentemente giovane, un segmento di mercato difficile da intercettare per i canali tradizionali.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/04/e-un-caso-letterboxd-social-di-recensioni-cinema-che-vale-milioni-dollari_85d60cb6-ba85-436a-8154-4bb983831b68.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/4/d2da4c70bb64032251793a95367a8f1b.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/04/e-un-caso-letterboxd-social-di-recensioni-cinema-che-vale-milioni-dollari_85d60cb6-ba85-436a-8154-4bb983831b68.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale valutazione economica viene stimata per Letterboxd nel 2026?",
+          "options": [
+            "Oltre un miliardo di dollari",
+            "Circa 300 milioni di dollari",
+            "50 milioni di dollari",
+            "15 milioni di dollari"
+          ],
+          "answer": 1,
+          "explanation": "La valutazione della piattaforma si aggira sui 300 milioni di dollari, in base alle previsioni di ricavi per il 2026."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-05-11"
+    },
+    {
+      "category": "storia",
+      "tag": "5 ottobre 1991",
+      "title": "Linus Torvalds pubblica la prima versione del kernel Linux",
+      "summary": "Il 5 ottobre 1991 lo studente finlandese Linus Torvalds pubblica la versione 0.02 del kernel Linux, un mese dopo la versione iniziale. Creato come alternativa libera ispirata a UNIX e sviluppato con la collaborazione di molte persone, il progetto fornisce le funzioni essenziali per la gestione delle risorse hardware e del sistema operativo.",
+      "context": "Linux ha rivoluzionato l'informatica introducendo il modello di sviluppo open source su larga scala. Oggi il kernel alimenta la maggior parte dei server mondiali, i dispositivi Android e i supercomputer, ponendo le basi per il software libero moderno.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Linux_(kernel)"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:LinuxCon_Europe_Linus_Torvalds_03_(cropped).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha pubblicato Linus Torvalds il 5 ottobre 1991?",
+          "options": [
+            "La versione 0.02 del kernel Linux",
+            "Il processore Intel 8086",
+            "La prima versione stabile 1.0.0 di Linux",
+            "Il sistema operativo GNU completo"
+          ],
+          "answer": 0,
+          "explanation": "Il 5 ottobre 1991 Linus Torvalds pubblicò la versione 0.02 del kernel Linux, dopo la prima versione 0.01 che non aveva avuto grande successo."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-05-12"
+    },
+    {
+      "category": "storia",
+      "tag": "5 ottobre 1789",
+      "title": "La marcia delle donne su Versailles",
+      "summary": "Il 5 ottobre 1789, settemila donne partite a piedi da Parigi arrivano alla Reggia di Versailles per protestare contro la carestia e l'alto prezzo del pane. Le manifestanti costringono Luigi XVI ad accettare la Dichiarazione dei diritti dell'uomo e del cittadino e a trasferirsi a Parigi insieme alla famiglia.",
+      "context": "Questo evento ha ridotto il divario tra la corte e il popolo, mostrando la forza politica delle donne nella Rivoluzione francese. Ha sancito il controllo popolare sul re, un precedente fondamentale per la fine della monarchia assoluta.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Marcia_su_Versailles"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/A_Versailles%2C_%C3%A0_Versailles_5_octobre_1789_-_Restoration.jpg/1280px-A_Versailles%2C_%C3%A0_Versailles_5_octobre_1789_-_Restoration.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:A_Versailles%2C_%C3%A0_Versailles_5_octobre_1789_-_Restoration.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa spinse principalmente le donne di Parigi a marciare verso Versailles?",
+          "options": [
+            "Il desiderio di votare in Parlamento",
+            "La volontà di abolire la nobiltà",
+            "La mancanza di pane e la carestia",
+            "Un invito ufficiale del re"
+          ],
+          "answer": 2,
+          "explanation": "La marcia fu scatenata dalla rabbia per la mancanza di pane, il costo elevato e la carestia in corso a Parigi."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-05-13"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Pah Wongso",
+      "title": "Quando un attivista finì in prigione e trasformò la sua cauzione in una scuola",
+      "summary": "Nel 1938 l'attivista sociale Pah Wongso fu arrestato nelle Indie orientali olandesi con l'accusa di estorsione, dopo una disputa legata a una fiera di beneficenza. Per la sua difesa legale, i sostenitori raccolsero migliaia di fiorini. Una volta concluso il procedimento giudiziario con una multa minima, Pah Wongso decisi di non usare quel denaro per sé, ma di impiegarlo interamente per fondare una nuova scuola per bambini poveri a Giacarta.",
+      "context": "La vicenda si inserisce nelle Indie orientali olandesi degli anni trenta, un territorio dominato dal colonialismo olandese dove le comunità locali e cinesi affrontavano forti disuguaglianze sociali ed economiche. Figure come Pah Wongso cercavano di colmare queste lacune attraverso l'attivismo e la beneficenza, anticipando le tensioni che avrebbero portato all'occupazione giapponese e alla successiva indipendenza indonesiana.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Pah_Wongso"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Pah_Wongso_with_Chinese_flag.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Pah_Wongso_with_Chinese_flag.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Come utilizzò Pah Wongso il fondo di difesa raccolto per il suo processo nel 1938?",
+          "options": [
+            "Per girare un film autobiografico",
+            "Per finanziare la Croce Rossa cinese",
+            "Per fondare una scuola per bambini poveri",
+            "Per pagare una multa salatissima"
+          ],
+          "answer": 2,
+          "explanation": "Pah Wongso utilizzò i soldi raccolti dai sostenitori per aprire la Pah Wongso Crèches, una scuola dedicata ai bambini poveri."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-05-14"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Spedizione Donner",
+      "title": "La scorciatoia che trasformò un viaggio in un incubo sulla neve",
+      "summary": "Nel 1846 la spedizione Donner, un gruppo di pionieri statunitensi diretti in California, decise di seguire una nuova via pubblicizzata da una guida. La cosiddetta scorciatoia si rivelò un percorso impervio che fece perdere tempo prezioso. Bloccati da una massiccia nevicata precoce sulla catena montuosa della Sierra Nevada, i viaggiatori rimasero senza cibo e alcuni di loro ricorsero al cannibalismo per sopravvivere. Soltanto 48 degli 87 componenti iniziali raggiunsero vivi la destinazione.",
+      "context": "L'episodio si inserisce nella grande stagione delle migrazioni verso l'Ovest americano, spinta dalla filosofia del destino manifesto. La necessità di rispettare tempi stretti per evitare le intemperie montane rese cruciali e spesso fatali le scelte sui percorsi.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Spedizione_Donner"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/PatrickBreenDiaryPage28.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:PatrickBreenDiaryPage28.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale imprevisto bloccò definitivamente la spedizione Donner sulla Sierra Nevada?",
+          "options": [
+            "Un attacco di nativi americani",
+            "Un incendio boschivo estivo",
+            "Una massiccia nevicata precoce",
+            "La rottura dei carri speciali"
+          ],
+          "answer": 2,
+          "explanation": "La carovana fu bloccata all'inizio di novembre del 1846 da una massiccia nevicata precoce che rese impossibile proseguire."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-05-15"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Tango della morte",
+      "title": "La vera storia del Tango della morte",
+      "summary": "Nel campo di concentramento di Janowska, in Ucraina, le SS avrebbero commissionato un brano musicale intitolato \"Tango della morte\" a un musicista ebreo detenuto. La leggenda vuole che l'orchestra di prigionieri suonasse il pezzo durante lo sterminio di altri internati e poi per se stessa, prima di essere uccisa nel 1943. Tuttavia, le analisi storiche mostrano che non esistono partiture né prove documentali di questo brano specifico, il cui nome riflette probabilmente la percezione drammatica della musica nei lager.",
+      "context": "Nei campi di concentramento nazisti l'uso della musica era frequente. Le autorità imponevano orchestre di prigionieri per accompagnare i lavori forzati, gli appelli o le esecuzioni, sfruttando la cultura come strumento di ulteriore annientamento psicologico dei deportati.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Tango_della_morte"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Map_of_Janowska_camp.svg/1280px-Map_of_Janowska_camp.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Map_of_Janowska_camp.svg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa dicono le ricerche storiche sul brano noto come \"Tango della morte\"?",
+          "options": [
+            "Esistono numerose partiture originali conservate ad Auschwitz",
+            "Non esistono prove documentali o partiture originali del brano",
+            "Venne suonato solo durante la liberazione del campo nel 1945",
+            "Fu composto esclusivamente da musicisti tedeschi non ebrei"
+          ],
+          "answer": 1,
+          "explanation": "Di un brano intitolato specificamente Todestango non esistono partiture e la sua storia si muove tra memoria e leggenda."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-05-16"
+    }
+  ]
+}
