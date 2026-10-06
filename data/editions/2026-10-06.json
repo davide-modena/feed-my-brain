@@ -1,0 +1,771 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T04:37:38.657Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "USA ritira i bombardieri B‑1 da RAF Fairford per minaccia di sicurezza",
+      "summary": "Il 27 settembre la base aerea RAF Fairford, nel Gloucestershire, è stata oggetto di un allarme quando la polizia ha segnalato tre veicoli sospetti nei pressi dell’aeroporto. In risposta a una minaccia non specificata, gli Stati Uniti hanno ritirato i bombardieri B‑1, spostandoli da poco. Il presidente Trump ha confermato l’esistenza di una “minaccia specifica”, mentre le autorità hanno arrestato sei uomini, tra cui un cittadino iraniano‑britannico, poi rilasciati su cauzione.",
+      "context": "Il ritiro dei B‑1 evidenzia la vulnerabilità delle forze statunitensi in Europa a minacce di sabotaggio o attacchi terroristici, soprattutto in un periodo di tensioni con l’Iran. Osservatori seguiranno eventuali cambiamenti nella presenza militare americana.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7744/live/83f27ce0-c0fa-11f1-812d-715b1c9a79e7.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il motivo dichiarato per il ritiro dei bombardieri B‑1 dagli USA da RAF Fairford?",
+          "options": [
+            "Problemi tecnici ai velivoli",
+            "Una minaccia di sicurezza specifica",
+            "Rotazione di routine delle unità",
+            "Una protesta diplomatica"
+          ],
+          "answer": 1,
+          "explanation": "Le autorità hanno indicato una minaccia di sicurezza specifica, legata a veicoli sospetti, come motivo del ritiro."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-06-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Droni ucraini colpiscono l'Oblast' di Mosca",
+      "summary": "Nella notte tra il 5 e il 6 ottobre 2026, droni ucraini hanno lanciato un attacco di massa contro l'Oblast' di Mosca, entrando simultaneamente da diverse direzioni e in più ondate mentre le difese aeree russe erano impegnate, secondo fonti di monitoraggio citate dal Kyiv Independent e dal canale Telegram Exilenova Plus.",
+      "context": "L'attacco segnala un'escalation della guerra russo-ucraina, mostrando la capacità di Kiev di colpire profondamente il territorio russo e mettendo alla prova le difese aeree di Mosca; potrebbe provocare una risposta russa e influenzare i negoziati internazionali.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/06/droni-ucraini-hanno-colpito-la-regione-di-mosca_0231200e-b392-4867-969d-b60d3337c436.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/20/2923b2879fb0b09dac2b23ec905634d2.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/mondo/2026/10/06/droni-ucraini-hanno-colpito-la-regione-di-mosca_0231200e-b392-4867-969d-b60d3337c436.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'obiettivo dell'attacco di droni ucraini riportato nelle fonti?",
+          "options": [
+            "La frontiera polacca",
+            "La regione di Mosca",
+            "Il Mar Nero",
+            "La città di Kiev"
+          ],
+          "answer": 1,
+          "explanation": "Le fonti indicano che i droni hanno preso di mira l'Oblast' di Mosca, entrando da diverse direzioni in più ondate."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-06-1"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Meloni registra la voce per un marchio UE contro i deepfake",
+      "summary": "Giorgia Meloni ha depositato presso l'Ufficio dell'Unione europea per la proprietà intellettuale (EUIPO) un campione vocale di quattro secondi, ripetendo due volte \"Io sono Giorgia Meloni\". L'obiettivo è ottenere un marchio registrato per difendersi dall'uso non autorizzato della sua voce tramite intelligenza artificiale generativa. La mossa arriva in un contesto di crescente minaccia da deepfake audio, che richiedono pochi secondi di registrazione e bassi costi per essere realizzati.",
+      "context": "La registrazione anticipa possibili elezioni anticipate e protegge l'immagine politica della premier. Segue una tendenza globale in cui celebrità e politici cercano di tutelarsi legalmente dalla clonazione vocale, fenomeno in forte aumento a causa dell'accessibilità degli strumenti di IA generativa.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/canale_tecnologia/notizie/cybersecurity/2026/10/05/deepfake-audio-per-realizzarli-servono-tre-secondi-di-voce-vera-e-30-euro_5898ae45-4e2d-4c10-b91e-f985e1a6ea47.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/05/il-voto-a-maggio-piu-vicino-e-meloni-tutela-la-sua-voce-dai-deepfake_166e0661-729d-445b-b106-17c3ea8888c6.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DbGh2V1V6dnA4TkVaNmdUR2d4eWRTeHNtVW4wemNNLXpRNGdWRzZ6bld4NXd1QzRjaHRDWWpSMzBDWDJPbnd1SW1TdXMyQWRvQnQxWkh5Q3FRQmlMY2g3eEJDX2RmLVl6NkVaUjVVRzZ4RUNhYzZxR1JaSWVrNGc?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/2/1/8f2355c349cbb2227f9928ef03715013.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/canale_tecnologia/notizie/cybersecurity/2026/10/05/deepfake-audio-per-realizzarli-servono-tre-secondi-di-voce-vera-e-30-euro_5898ae45-4e2d-4c10-b91e-f985e1a6ea47.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la durata del campione vocale registrato da Meloni per il marchio?",
+          "options": [
+            "Tre secondi",
+            "Quattro secondi",
+            "Cinque secondi",
+            "Dieci secondi"
+          ],
+          "answer": 1,
+          "explanation": "Il testo specifica che Meloni ha registrato la frase due volte, per un totale di quattro secondi."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-06-2"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Pressione fiscale al 43,5% del PIL in Italia",
+      "summary": "Nel secondo trimestre l'Istat rileva che la pressione fiscale totale in Italia è aumentata di mezzo punto rispetto all'anno precedente, raggiungendo il 43,5% del PIL. Nonostante un lieve aumento del reddito disponibile delle famiglie, il potere d'acquisto è calato dello 0,9% a causa dell'inflazione, riducendo la capacità di spesa e la propensione al risparmio.",
+      "context": "L'aumento della pressione fiscale si inserisce in un contesto di inflazione persistente che erode il potere d'acquisto delle famiglie italiane, aggravando il rischio di povertà nonostante modeste crescite del reddito. Monitorare l'equilibrio tra tributi e costo della vita è cruciale per la politica economica.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/istat-aumentano-le-tasse-e-i-prezzi-gli-italiani-sono-piu-poveri-marchetti-1bf21894-87ed-463e-bd15-27a084788b14.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/06/1791241375877_son_marchetti_istat.transferframe.jpeg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/istat-aumentano-le-tasse-e-i-prezzi-gli-italiani-sono-piu-poveri-marchetti-1bf21894-87ed-463e-bd15-27a084788b14.html"
+      },
+      "quiz": [
+        {
+          "question": "Secondo l'Istat, qual è la pressione fiscale totale in Italia nel secondo trimestre?",
+          "options": [
+            "42,5% del PIL",
+            "43,0% del PIL",
+            "43,5% del PIL",
+            "44,0% del PIL"
+          ],
+          "answer": 2,
+          "explanation": "L'Istat ha rilevato un aumento di mezzo punto rispetto all'anno precedente, portando la pressione fiscale al 43,5% del PIL."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-06-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "MCP: il protocollo per agenti AI rischia di diffondere prompt malevoli",
+      "summary": "Il ricercatore Syed Anas Mohiuddin ha dimostrato come il Model Context Protocol, un sistema che fa comunicare tra loro gli assistenti digitali intelligenti all'interno delle aziende, possa essere sfruttato per diffondere istruzioni dannose. Sfruttando la totale fiducia reciproca tra i vari agenti e la mancanza di controlli adeguati, un attacco riesce a passare da un assistente all'altro per sottrarre dati sensibili.",
+      "context": "Questo problema evidenzia i rischi legati alla crescente automazione aziendale. Poiché i protocolli di comunicazione nascono spesso isolati e senza barriere di sicurezza adeguate, in futuro sarà fondamentale introdurre controlli più rigidi sui dati che passano tra i diversi sistemi.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale vulnerabilità emersa nell'uso del protocollo MCP per gli agenti AI?",
+          "options": [
+            "La mancanza di crittografia nei messaggi",
+            "La fiducia cieca tra agenti interni che propaga prompt dannosi",
+            "Il blocco totale dei server di Google",
+            "La corruzione dei dati sui database dei governi"
+          ],
+          "answer": 1,
+          "explanation": "Gli agenti si fidano ciecamente l'uno dell'altro e, in assenza di difese adeguate, eseguono le istruzioni dannose ricevute dai colleghi digitali."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-06-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Google expands Call for Me to message friends and family",
+      "summary": "Google may expand its ‘Call for Me’ AI feature beyond business calls to let users send short messages to friends and family via phone. An APK teardown revealed a ‘Gemini Calling’ screen with examples such as calling Mom to say you’ll be 15 minutes late or asking John about dinner plans, indicating the AI will handle brief, text‑like calls.",
+      "context": "The expansion could help people who prefer voice calls over texts, such as older relatives or those with limited texting habits, while granular app permissions let users control which apps can trigger Gemini calls, addressing privacy concerns about unsolicited automated calls.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-Photos-of-Phone-7.jpg?quality=90&strip=all&crop=0%2C10.731298651824%2C100%2C78.537402696352&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors"
+      },
+      "quiz": [
+        {
+          "question": "What does the expanded Gemini Call for Me feature aim to do, based on the APK teardown examples?",
+          "options": [
+            "Send short messages like telling mom you'll be late",
+            "Replace all text messaging",
+            "Block incoming calls",
+            "Make full-length phone calls with relatives"
+          ],
+          "answer": 0,
+          "explanation": "The examples show the AI delivering brief messages, such as informing Mom of a delay or asking John about dinner, rather than conducting full conversations."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-06-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Yung Miami annuncia l'album di debutto \"Watch Dis\"",
+      "summary": "Yung Miami ha annunciato il suo album solista di debutto, Watch Dis, previsto per il 23 ottobre 2026. Ha già pubblicato due singoli, “F You” (produzione di London On Da Track, con campione di Yo Gotti e Meek Mill) e “2008” (produzione di J White, con video). L’album segue il successo di “Spend Dat”, che ha raggiunto il 17 nella Hot 100.",
+      "context": "L'uscita segna il primo album completo di Yung Miami come solista, consolidando il suo passaggio da membro di City Girls a artista indipendente dopo un singolo top‑20.",
+      "sources": [
+        {
+          "name": "uDiscoverMusic",
+          "url": "https://www.udiscovermusic.com/news/yung-miami-debut-album-watch-dis/"
+        }
+      ],
+      "image": {
+        "url": "https://www.udiscovermusic.com/wp-content/uploads/2026/10/yung-miami-watch.jpg",
+        "credit": "uDiscoverMusic",
+        "link": "https://www.udiscovermusic.com/news/yung-miami-debut-album-watch-dis/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la data di uscita prevista per l'album di debutto solista di Yung Miami, \"Watch Dis\"?",
+          "options": [
+            "1 dicembre 2026",
+            "15 gennaio 2027",
+            "5 ottobre 2026",
+            "23 ottobre 2026"
+          ],
+          "answer": 3,
+          "explanation": "L'articolo indica che l'album è previsto per il 23 ottobre 2026."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-06-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Chance the Rapper pensa di cambiare nome d'arte",
+      "summary": "Chance the Rapper ha rivelato nel podcast 'Tea Time' che sta valutando di cambiare il suo nome d'arte da 'Chance the Rapper' a semplicemente 'The Rapper', spiegando che vuole attribuire tutto il suo lavoro all'hip‑hop e approfondire il genere. Ha detto che l'idea gli è venuta anche mentre faceva la doccia il giorno dell'intervista e durante il tour per il decimo anniversario di 'Coloring Book'.",
+      "context": "Il possibile cambio nome riflette la volontà di Chance di legare ancora più strettamente la propria identità all'hip‑hop, dopo aver vinto tre Grammy con il mixtape 'Coloring Book' e aver influenzato la scena musicale indipendente.",
+      "sources": [
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/entertainment/music/articles/chance-rapper-says-thinking-chopping-132719605.html"
+        },
+        {
+          "name": "WDTN",
+          "url": "https://www.wdtn.com/entertainment/music/in-a-twist-to-my-2016-self-chance-the-rapper-may-change-his-stage-name/"
+        }
+      ],
+      "image": {
+        "url": "https://s.yimg.com/lo/mysterio/api/23a826d72384d1bc2f666372f28c9a4d5134a973bcf59a78dcf371f117d84712/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbillboard_547%2Fbfd5ee86ea04da148b4b8129bab7992b.jpg",
+        "credit": "Yahoo",
+        "link": "https://www.yahoo.com/entertainment/music/articles/chance-rapper-says-thinking-chopping-132719605.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il nuovo nome d'arte che Chance the Rapper sta considerando?",
+          "options": [
+            "Chancellor Bennett",
+            "The Rapper",
+            "Chance",
+            "Kanye West"
+          ],
+          "answer": 1,
+          "explanation": "Nel podcast ha detto che sta pensando di passare da 'Chance the Rapper' a semplicemente 'The Rapper'."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-06-7"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Five hidden subtypes of common liver disease identified",
+      "summary": "Researchers at Mayo Clinic and Virginia Tech analyzed genetic and clinical data from over 4,600 patients with metabolic dysfunction-associated steatotic liver disease (MASLD) and identified five biologically distinct subtypes. Each subtype follows different pathways and carries varying risks for heart disease, liver failure, cancer and transplantation, revealing that MASLD is not a single condition.",
+      "context": "Understanding that MASLD comprises multiple subtypes helps explain varied patient outcomes and opens the door to targeted therapies based on underlying biology, potentially improving prevention and treatment strategies for a disease affecting nearly 30% of adults worldwide.",
+      "sources": [
+        {
+          "name": "SciTechDaily",
+          "url": "https://scitechdaily.com/scientists-discover-5-hidden-forms-of-a-liver-disease-affecting-30-of-adults/"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Non-alcoholic_fatty_liver_disease1.jpg/1280px-Non-alcoholic_fatty_liver_disease1.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Non-alcoholic_fatty_liver_disease1.jpg"
+      },
+      "quiz": [
+        {
+          "question": "What did researchers discover about metabolic dysfunction-associated steatotic liver disease (MASLD)?",
+          "options": [
+            "They discovered MASLD is caused by alcohol.",
+            "They found a single new treatment for MASLD.",
+            "They identified five distinct subtypes of MASLD with different risks.",
+            "They proved MASLD only affects obese people."
+          ],
+          "answer": 2,
+          "explanation": "The study revealed five biologically distinct subtypes of MASLD, each with unique pathways and varying risks for complications such as heart disease, liver failure, cancer and transplantation."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-06-8"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Nobel Prize in Medicine 2026 awarded for optogenetics breakthrough",
+      "summary": "The 2026 Nobel Prize in Physiology or Medicine was awarded to Karl Deisseroth, Peter Hegemann and Georg Nagel for developing optogenetics, a technique that uses light to control specific neurons in living brains, enabling precise study of brain circuits linked to behavior and disease.",
+      "context": "Optogenetics has transformed neuroscience by allowing researchers to turn neurons on or off with light, providing insights into conditions such as depression and Alzheimer's and opening paths to potential therapies.",
+      "sources": [
+        {
+          "name": "WRTV",
+          "url": "https://www.wrtv.com/news/health-spotlight/3-scientists-win-nobel-prize-in-medicine-awarded-for-using-light-to-control-brain-neurons/"
+        },
+        {
+          "name": "USA TODAY",
+          "url": "https://www.usatoday.com/story/news/state/california/2026/10/05/stanford-scientist-left-speechless-after-winning-nobel-prize/92109699007/"
+        }
+      ],
+      "image": {
+        "url": "https://www.wrtv.com/wp-content/uploads/2026/10/05/AP26278347243526-scaled-e1791232359558.jpg",
+        "credit": "WRTV",
+        "link": "https://www.wrtv.com/news/health-spotlight/3-scientists-win-nobel-prize-in-medicine-awarded-for-using-light-to-control-brain-neurons/"
+      },
+      "quiz": [
+        {
+          "question": "For what achievement were the 2026 Nobel laureates in Medicine awarded the prize?",
+          "options": [
+            "Discovery of the CRISPR gene-editing system",
+            "Development of optogenetics to control neurons with light",
+            "First complete sequencing of the human genome",
+            "Invention of magnetic resonance imaging (MRI)"
+          ],
+          "answer": 1,
+          "explanation": "The prize recognized their work creating optogenetics, a method that uses light to switch specific nerve cells on or off to study brain function."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-06-9"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Roma penultima in Europa per riscaldamento green",
+      "summary": "Secondo un rapporto di Greenpeace Europa centro-orientale, Roma si classifica al 14° posto su 15 città europee nella transizione verso il riscaldamento green, davanti solo ad Atene e Bucarest. Stoccolma, Parigi e Vienna guidano la classifica grazie a piani a lungo termine, investimenti nelle reti di riscaldamento e misure di protezione sociale.",
+      "context": "La posizione di Roma evidenzia il ritardo italiano nella decarbonizzazione del riscaldamento, settore chiave per raggiungere gli obiettivi climatici europei. Senza un piano strutturato di phase-out del gas e investimenti in rinnovabili, le famiglie continuano a fronteggiare bollette alte e vulnerabilità energetica.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/06/greenpeace-roma-penultima-in-europa-su-transizione-a-riscaldamento-green_9f4b09f2-0bf1-4d71-b6e6-84e6639e3cc3.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2016/10/18/9e2b10eb8d21d90479d95db7d7c16a80.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/06/greenpeace-roma-penultima-in-europa-su-transizione-a-riscaldamento-green_9f4b09f2-0bf1-4d71-b6e6-84e6639e3cc3.html"
+      },
+      "quiz": [
+        {
+          "question": "Secondo il rapporto Greenpeace citato, qual è la posizione di Roma nella classifica europea sulla transizione al riscaldamento green?",
+          "options": [
+            "Prima",
+            "Quindicesima",
+            "Quinta",
+            "Quattordicesima"
+          ],
+          "answer": 3,
+          "explanation": "Il rapporto colloca Roma al 14° posto su 15 città, davanti solo ad Atene e Bucarest."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-06-10"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Festival nazionale dell'economia civile 2026: successo a Firenze e nomine degli Ambasciatori 2026",
+      "summary": "L'ottava edizione del Festival nazionale dell'economia civile si è svolta a Firenze dal 1° al 4 ottobre 2026, registrando oltre 4.000 partecipanti, più di 120 relatori e 500 studenti. Sul tema «Il rumore della foresta che cresce» sono intervenuti Shirin Ebadi, Jan‑Emmanuel De Neve e sono stati presentati il Rapporto del Benvivere 2026 e la piattaforma benvivere.nexteconomia.org; inoltre cinque amministrazioni condivise sono state nominate Ambasciatori 2026.",
+      "context": "Il Festival promuove un modello di sviluppo equo e sostenibile, unendo imprese, istituzioni, terzo settore e cittadini. L'edizione 2026 ha consolidato il ruolo dell'economia civile come leva per politiche inclusive e ha designato nuovi Ambasciatori per diffonderne i principi.",
+      "sources": [
+        {
+          "name": "Adnkronos",
+          "url": "https://www.adnkronos.com/economia/firenze-successo-per-ledizione-2026-del-festival-nazionale-delleconomia-civile_tVoZWwXONzRTNRKSlEFni"
+        },
+        {
+          "name": "LaPresse on MSN",
+          "url": "https://www.msn.com/it-it/notizie/other/festival-nazionale-dell-economia-civile-5-amministrazioni-condivise-nominate-ambasciatori-2026/ar-AA2dBlDh"
+        }
+      ],
+      "image": {
+        "url": "https://www.adnkronos.com/resources/02aa-21c0ecf6ec72-477c0a26c20c-1000/fnec_finale_comm.jpeg",
+        "credit": "Adnkronos",
+        "link": "https://www.adnkronos.com/economia/firenze-successo-per-ledizione-2026-del-festival-nazionale-delleconomia-civile_tVoZWwXONzRTNRKSlEFni"
+      },
+      "quiz": [
+        {
+          "question": "Quante amministrazioni condivise sono state nominate Ambasciatori 2026 durante il Festival nazionale dell'economia civile a Firenze?",
+          "options": [
+            "6",
+            "5",
+            "4",
+            "3"
+          ],
+          "answer": 1,
+          "explanation": "Secondo la fonte LaPresse, cinque amministrazioni condivise sono state nominate Ambasciatori 2026."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-06-11"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Digger flop e il debutto di Skydance",
+      "summary": "La dark comedy 'Digger', diretta da Alejandro G. Iñárritu e interpretata da Tom Cruise, ha esordito con soli 8 milioni di dollari negli USA e 20 milioni nel mondo, segnando il peggior debutto della star in 19 anni. Il flop coincide con l'ultimo weekend di indipendenza di Warner Bros. Discovery prima del lancio di Skydance, il nuovo colosso hollywoodiano di David Ellison previsto per il 6 ottobre 2025.",
+      "context": "Il risultato evidenzia la vulnerabilità anche di star di prima grandezza e anticipa il riassetto di Hollywood con la nascita di Skydance, che prenderà il controllo di Warner Bros. Discovery e promette un nuovo equilibrio di potere tra i grandi studi.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/05/digger-un-flop-per-la-warner-alla-vigilia-della-nascita-di-skydance_010d4603-68a2-4da2-9a90-2f03b1143ad4.html"
+        },
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/04/digger-si-arena-a-8-milioni-verity-guida-il-botteghino-usa_4d05ff5a-698e-4483-a052-eb344a499625.html"
+        },
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/05/incassi-cinema-primo-e-naza-in-sette-giorni-ha-superato-i-3-milioni-di-euro_9001813a-d9e7-47fc-890a-c6e2e5603922.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/5/7645495ac29126e2a9f506b19e848df8.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/05/digger-un-flop-per-la-warner-alla-vigilia-della-nascita-di-skydance_010d4603-68a2-4da2-9a90-2f03b1143ad4.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'incasso domestico di apertura di 'Digger' negli Stati Uniti e Canada?",
+          "options": [
+            "8 milioni di dollari",
+            "20 milioni di dollari",
+            "130 milioni di dollari",
+            "33 milioni di dollari"
+          ],
+          "answer": 0,
+          "explanation": "Secondo le fonti, il film ha incassato appena 8 milioni di dollari nel weekend di apertura negli USA e Canada."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-06-12"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Materiale mancante su Guadagnino e IA",
+      "summary": "Il materiale fornito non contiene alcuna informazione sulla presunta presentazione a New York del nuovo film di Luca Guadagnino sull’intelligenza artificiale né sul presunto rifiuto da parte di A; si limita a elencare titoli di serie TV e film e a riportare dichiarazioni unrelated su altri argomenti nel testo oggi.",
+      "context": "Senza fonti specifiche sull’evento, non è possibile valutare il suo impatto sul cinema o sul dibattito sull’IA; la notizia resta quindi non verificabile sulla base del materiale disponibile.",
+      "sources": [
+        {
+          "name": "la Repubblica",
+          "url": "https://www.repubblica.it/spettacoli/cinema/2026/10/06/news/luca_guadagnino_a_chi_fa_paura_artificial_il_mio_film_sui_padroni_dell_ia-425628325/"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/10/06/011034254-1fa2150b-0755-4ca5-88c1-2e8544160a05.jpg",
+        "credit": "la Repubblica",
+        "link": "https://www.repubblica.it/spettacoli/cinema/2026/10/06/news/luca_guadagnino_a_chi_fa_paura_artificial_il_mio_film_sui_padroni_dell_ia-425628325/"
+      },
+      "quiz": [
+        {
+          "question": "Secondo il materiale fornito, cosa si afferma riguardo alle informazioni sulla presentazione del film di Guadagnino sull'IA a New York?",
+          "options": [
+            "Sono descritte in dettaglio con data e luogo.",
+            "Non sono presenti nel materiale.",
+            "Confermano il rifiuto da parte di A.",
+            "Sono menzionate solo le reazioni del pubblico."
+          ],
+          "answer": 1,
+          "explanation": "Il testo fornito non contiene alcuna informazione sull'evento, limitandosi a elencare altri titoli e dichiarazioni unrelated."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-06-13"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Italia Under 21 batte la Polonia 6-2 e vola agli Europei 2027",
+      "summary": "L'Italia Under 21 ha battuto la Polonia 6-2 a Pescara nell'ultima giornata del girone E di qualificazione agli Europei 2027, qualificandosi grazie alla migliore differenza reti. I gol azzurri sono stati segnati da Koleosho, Ndour (doppietta), Lipani, Fini e Cherubini. La squadra guidata dal ct Baldini ha chiuso il girone a pari punti con la Polonia ma davanti per differenza reti, ottenendo così l'accesso diretto alla fase finale.",
+      "context": "La vittoria permette agli azzurrini di partecipare alla fase finale degli Europei Under 21 2027, competizione che mette in mostra i migliori talenti europei e spesso anticipa futuri protagonisti delle nazionali maggiori. L'Italia punta a ripetere il successo del 2004.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/05/calcio-6-2-alla-polonia-litalia-under-21-si-qualifica-agli-europei-2027_7e7acac7-5fa5-4913-893c-d5ca7b49f1ed.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/05/calcio-6-2-alla-polonia-litalia-under-21-si-qualifica-agli-europei-2027_5fac3fa3-750b-416c-b77b-caf39eacdfcd.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/6/4/dc7e11ae56966c4766ef5f9b40dc0095.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/05/calcio-6-2-alla-polonia-litalia-under-21-si-qualifica-agli-europei-2027_7e7acac7-5fa5-4913-893c-d5ca7b49f1ed.html"
+      },
+      "quiz": [
+        {
+          "question": "Come ha ottenuto l'Italia Under 21 la qualificazione agli Europei 2027?",
+          "options": [
+            "Superando i rigori nello spareggio",
+            "Avendo la migliore differenza reti dopo il 6-2 sulla Polonia",
+            "Essendo sorteggiata come migliore seconda",
+            "Vincendo tutte le partite del girone"
+          ],
+          "answer": 1,
+          "explanation": "L'Italia ha chiuso il girone a pari punti con la Polonia ma davanti per differenza reti, grazie al 6-2 ottenuto nell'ultima partita."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-06-14"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Francia batte il Belgio 4-1 in Nations League",
+      "summary": "Il 5 ottobre 2026, nella quarta giornata della UEFA Nations League, la Francia ha battuto il Belgio 4-1 allo Stade de France di Saint Denis. Dopo il vantaggio belga di Lukebakio al 35', i gol di Doué (77'), Cherki (81') e la doppietta di Olise (88', 90') hanno ribaltato il risultato.",
+      "context": "La vittoria permette alla Francia di consolidare la posizione nel girone della Nations League, mentre il Belgio subisce una battuta d'arresto che complica il percorso verso le fasi finali. Il risultato evidenzia la profondità offensiva dei transalpini.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/05/nations-league-francia-belgio-4-1_bfbe4f95-dc2f-44f3-be30-7e877909f898.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/5/42e304d4db53861c876dc27edd2195a8.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/05/nations-league-francia-belgio-4-1_bfbe4f95-dc2f-44f3-be30-7e877909f898.html"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha segnato il gol del vantaggio per il Belgio nella partita Francia-Belgio 4-1?",
+          "options": [
+            "Doué",
+            "Lukebakio",
+            "Cherki",
+            "Olise"
+          ],
+          "answer": 1,
+          "explanation": "Lukebakio ha segnato il gol del vantaggio belga al 35' minuto."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-06-15"
+    },
+    {
+      "category": "storia",
+      "tag": "6 ottobre 1995",
+      "title": "Scoperto il primo pianeta attorno a una stella simile al Sole",
+      "summary": "Il 6 ottobre 1995 Michel Mayor e Didier Queloz annunciarono su Nature la scoperta di 51 Pegasi b, il primo pianeta individuato attorno a una stella simile al Sole, usando il metodo della velocità radiale all'Observatoire de Haute-Provence. La scoperta aprì la ricerca degli esopianeti. Il risultato valse loro il Nobel per la fisica 2019.",
+      "context": "La scoperta dimostrò che pianeti giganti possono orbitare molto vicino alle loro stelle, rivoluzionando i modelli di formazione planetaria e inaugurando l'era degli esopianeti, con oltre 5000 scoperti oggi.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/51_Pegasi_b"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Quale tecnica osservativa ha permesso la scoperta di 51 Pegasi b?",
+          "options": [
+            "Metodo del transito",
+            "Velocità radiale",
+            "Lente gravitazionale",
+            "Immagine diretta"
+          ],
+          "answer": 1,
+          "explanation": "La scoperta avvenne misurando le piccole variazioni di velocità radiale della stella dovute all'attrazione gravitazionale del pianeta."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-06-16"
+    },
+    {
+      "category": "storia",
+      "tag": "6 ottobre 1973",
+      "title": "Scoppia la guerra del Kippur",
+      "summary": "Il 6 ottobre 1973 Egitto e Siria lanciarono un attacco a sorpresa contro Israele durante lo Yom Kippur, attraversando il canale di Suez e avanzando nel Golan. Dopo iniziali difficoltà, le forze israeliane contrattaccarono, riattraversarono il canale e isolarono la 3ª Armata egiziana. Il conflitto si concluse con un cessate il fuoco imposto da USA e URSS, provocando le dimissioni dei vertici israeliani e l'embargo petrolifero arabo che innescò la crisi energetica degli anni settanta.",
+      "context": "La guerra dimostrò che gli eserciti arabi potevano sfidare Israele, modificando gli equilibri regionali e portando a negoziati di pace successivi. L'embargo petrolifero arabo scatenò la crisi energetica globale degli anni settanta, evidenziando il legame tra conflitti mediorientali e economia mondiale.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Guerra_del_Kippur"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Yom_Kippur_War_Montage.png/1280px-Yom_Kippur_War_Montage.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Yom_Kippur_War_Montage.png"
+      },
+      "quiz": [
+        {
+          "question": "Quale evento segnò l'inizio della guerra del Kippur?",
+          "options": [
+            "L'attacco israeliano al Libano",
+            "L'attacco a sorpresa di Egitto e Siria durante lo Yom Kippur",
+            "L'invasione sovietica dell'Afghanistan",
+            "La firma degli Accordi di Camp David"
+          ],
+          "answer": 1,
+          "explanation": "La guerra iniziò il 6 ottobre 1973 con l'offensiva congiunta di Egitto e Siria contro Israele, avvenuta durante la festività ebraica dello Yom Kippur."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-06-17"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Francis Pegahmagabow",
+      "title": "Francis Pegahmagabow: il cecchino che catturò 300 nemici",
+      "summary": "Durante la Prima Guerra Mondiale Francis Pegahmagabow divenne il miglior tiratore scelto alleato con 378 uccisioni confermate e ottenne la Military Medal con due barre. Meno noto è che, nella battaglia del Monte Sorrel del giugno 1916, lui e i suoi commilitoni catturarono circa 300 soldati tedeschi, un risultato raro per un cecchino.",
+      "context": "Pegahmagabow, appartenente agli Ojibway-Anishinaabe del Canada, combatté nonostante le restrizioni imposte agli indigeni e, dopo la guerra, divenne un attivista per i diritti delle Prime Nazioni, lottando contro le politiche governative sulle riserve.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Francis_Pegahmagabow"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Francis_Pegahmagabow_in_Uniform.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Francis_Pegahmagabow_in_Uniform.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale impresa meno nota di Francis Pegahmagabow avvenne durante la Prima Guerra Mondiale?",
+          "options": [
+            "Catturò circa 300 soldati tedeschi al Monte Sorrel",
+            "Pilotò un aereo da ricognizione",
+            "Vinse la Victoria Cross",
+            "Negozió il Trattato di Versailles"
+          ],
+          "answer": 0,
+          "explanation": "Secondo il materiale, nella battaglia del Monte Sorrel del giugno 1916 Pegahmagabow e i suoi commilitoni catturarono circa 300 nemici, un risultato sorprendente per un cecchino."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-06-18"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Costanza d'Antiochia",
+      "title": "Quando una principessa crociata chiese aiuto al nemico musulmano",
+      "summary": "Nel 1130 la madre di Costanza d'Antiochia, Alice, inviò un messaggero al musulmano Zengī, atabeg di Aleppo, chiedendo il suo sostegno militare contro le minacce esterne al principato. Questo tentativo di alleanza con un 'infedele' è raro nella storia dei regni crociati.",
+      "context": "Nel primo XII secolo gli Stati crociati dovettero fronteggiare pressioni sia da rivali cristiani che da poteri musulmani; le alleanze trasversali erano insolite ma talvolta cercate per garantire la sopravvivenza di territori vulnerabili come Antiochia.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Costanza_d%27Antiochia"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Quale azione insolita compì Alice, madre di Costanza, nei primi anni di reggenza di Antiochia?",
+          "options": [
+            "Chiese aiuto militare a Zengī",
+            "Invitò Zengī a corte a Antiochia",
+            "Si sposò con Zengī",
+            "Si convertì all'islam"
+          ],
+          "answer": 0,
+          "explanation": "Alice inviò un messaggero a Zengī, atabeg di Aleppo, chiedendo il suo sostegno militare per difendere Antiochia, un'alleanza insolita tra una reggente crociata e un leader musulmano."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-06-19"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Umfredo Plantageneto, duca di Gloucester",
+      "title": "Il duca di Gloucester e la moglie accusata di stregoneria",
+      "summary": "Umfredo Plantageneto, duca di Gloucester, perse gran parte del suo potere dopo che la seconda moglie, Eleonora Cobham, fu processata per stregoneria nel 1441. L'accusa, orchestrata dai suoi rivali di corte, lo privò delle cariche di Lord Protettore e reggente, segnando l'inizio del suo declino politico e contribuì a creare le tensioni che avrebbero poi sfociato nella guerra delle due rose.",
+      "context": "Durante la minorenne di Enrico VI, il duca di Gloucester era Lord Protettore e potenziale erede al trono, posizione che lo metteva in conflitto con i Beaufort e con William de la Pole, duca di Suffolk, che cercavano di eliminarlo per consolidare il proprio potere.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Umfredo_Plantageneto,_duca_di_Gloucester"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/HumphreyGloucester.jpg/1280px-HumphreyGloucester.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:HumphreyGloucester.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa accadde a Eleonora Cobham, seconda moglie di Umfredo Plantageneto, nel 1441?",
+          "options": [
+            "Fu incoronata regina d'Inghilterra",
+            "Fu esiliata in Francia",
+            "Fu processata per stregoneria",
+            "Divenne reggente del giovane Enrico VI"
+          ],
+          "answer": 2,
+          "explanation": "Il materiale afferma che Eleonora Cobham fu processata per stregoneria nel 1441, evento che portò alla perdita delle cariche politiche di Umfredo."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-06-20"
+    }
+  ]
+}
