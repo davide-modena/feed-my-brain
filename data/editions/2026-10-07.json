@@ -1,0 +1,729 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T04:34:13.484Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Petroliera Aframax Rio in fiamme nel Mar Nero",
+      "summary": "Una petroliera, l'Aframax Rio, ha preso fuoco nel Mar Nero vicino a Sochi dopo un attacco attribuito da Mosca a droni navali ucraini. I 23 membri dell'equipaggio, tutti cittadini indiani, sono stati salvati senza vittime. Il petrolio sta bruciando in superficie e le operazioni di spegnimento attendono che le fiamme si attenuino per consentire l'avvicinamento delle navi di soccorso.",
+      "context": "L'incidente si inserisce in un quadro di crescente tensione marittima nel Mar Nero, dove si registrano frequenti attacchi a navi commerciali. La situazione solleva preoccupazioni per la sicurezza delle rotte commerciali e per l'espansione geografica del conflitto, con rischi di coinvolgimento di paesi terzi.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/petroliera-in-fiamme-nel-mar-nero-la-linea-di-fuoco-vista-dalla-costa-db376e0d-7886-4fdb-89c5-9190bd1f30c7.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/10/guerra-ucraina-altra-notte-di-raid-su-kiev-navi-sotto-attacco-nel-mar-nero-mosca-berlino-crea-nemici-immaginari-c0f694de-ef4b-4189-be3a-54260cef99f4.html"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/07/1791346625044_vlcsnaphms.png",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/petroliera-in-fiamme-nel-mar-nero-la-linea-di-fuoco-vista-dalla-costa-db376e0d-7886-4fdb-89c5-9190bd1f30c7.html"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha condotto l'attacco alla petroliera Aframax Rio, secondo le autorità russe?",
+          "options": [
+            "Sottomarini russi",
+            "Navi da guerra turche",
+            "Droni navali ucraini",
+            "Missili balistici"
+          ],
+          "answer": 2,
+          "explanation": "Il ministero dei Trasporti russo ha dichiarato che l'attacco è stato condotto da droni navali ucraini."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-07-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Proteste studentesche in Francia",
+      "summary": "Migliaia di studenti delle scuole superiori sono scesi in piazza in diverse città francesi, tra cui Parigi, Lione e Strasburgo, per protestare contro le condizioni del sistema scolastico e il collasso degli istituti delle periferie. Le manifestazioni, a cui hanno partecipato anche genitori e docenti, hanno visto tra le 250.000 persone (secondo il ministero dell'Interno) e il doppio (per gli organizzatori). I cortei sono stati segnati da tensioni e scontri tra la polizia e gruppi di manifestanti violenti.",
+      "context": "Le proteste studentesche in Francia rappresentano storicamente un banco di prova cruciale per i governi in carica. La partecipazione delle periferie e il tema delle disuguaglianze sociali accendono il dibattito pubblico, imponendo all'esecutivo di gestire il malcontento giovanile evitando un'escalation di tensione.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZFR1Vm5SQUFQX0t2dVk3dVE2dDZOUGNQZVBRdFVqM0lwVWFqMm5qZm1EVzRLLVpQdFZ5SkROcm9xcGYwUlNsX3RfSGs4RGFRelFXY1NDa0ZqVE9UOUpULWhaUlZCMlBiVjh0UXB5ck1ic3pkVEtIYU1uZHBmWTJaVFVHNUctSTNveHJwclN5MWo?oc=5"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/06/cortei-e-scontri-torna-londa-degli-studenti-in-tutta-la-francia_61be088a-aa44-46d7-8df7-fb0d51c1e14e.html"
+        },
+        {
+          "name": "Internazionale",
+          "url": "https://www.internazionale.it/opinione/ulysse-rabate/2026/10/06/proteste-scuola-francia"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/6/ddafbda9d7e58a870c48e2c61c730903.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/mondo/2026/10/06/cortei-e-scontri-torna-londa-degli-studenti-in-tutta-la-francia_61be088a-aa44-46d7-8df7-fb0d51c1e14e.html"
+      },
+      "quiz": [
+        {
+          "question": "Chi sono i principali protagonisti di questa mobilitazione in Francia?",
+          "options": [
+            "I sindacati dei trasporti pubblici",
+            "Gli universitari delle facoltà umanistiche di Parigi",
+            "I liceali delle periferie e delle scuole popolari",
+            "I pensionati delle grandi città"
+          ],
+          "answer": 2,
+          "explanation": "La protesta è guidata dai giovanissimi liceali ed è nata proprio negli istituti popolari della periferia parigina."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-07-1"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Camera approva la terza fiducia sulla legge elettorale",
+      "summary": "La Camera dei deputati ha approvato oggi la terza fiducia sulla riforma della legge elettorale, dopo due precedenti voti favorevoli (226 e 227 sì). Il testo, modificato a Palazzo Madama, introduce le preferenze per i parlamentari e cambia le regole di raccolta firme. Il voto è stato palese e il governo attende il scrutinio segreto previsto per giovedì, considerato quasi certo.",
+      "context": "La riforma elettorale definisce le modalità di voto per le prossime elezioni, introducendo preferenze e semplificando la raccolta delle firme, perciò il suo esito influenzerà la composizione del Parlamento e le strategie dei partiti.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQSmJkajJHSEtRZ3NITzlsUUpYaDdncmhBNkdEa3lQNWR0OENkUjc2NXFBWFRPakFSRlZwelN3V3h5RUhjM0tVMzBzT3JYY3lzX3lJN3Q2MFdNTUc3bGplcmJKbG9fbzUwcTFOaE8wM1JTTmZkNEIxdDRLZFBWRVc1VHFyMW9tZHpmcnBSREhQUVlaYjFrNjB3VzVqVU4wUS02SlBOX01zTGk2UGtEa1dram1ITVVTZ3ZDLXBpX2NYZ0V1MFJsd05Ea0xZbkRRVkFiUlEzcTZIckdjdEZpcW81WFFLOW5HcUtWeVR5V2F3RzJjQkF0SXhzSHBLLXBMRG5TQnkyQWFmSXg3b1ox0gGSAkFVX3lxTE9VNjZNSEhaOFc3TTNmOTNWQ285VnBjdEFmQVVMbnFCdWV5N1VYSzd4RHBOOFBzeVZpT1NPM3Z0LXhjUkZPblUxQkJpQXd2RWNOdUR0bnZVM25saDNyem9obFBHczE2amN6dHEwcG5RNVVQLVhFQzdXZ19XSTh0S3lhYktNVEhfRWN2WDE1QW43VTZHUGh5S1BRbHdGSmR1NTlqeTlnbWd4WEl0TEpiMkY3Q0NYYlcxdmVSTFRkYjhCT1lTOV9qbmxSSDk4OThueUc1RV92S1ZQZzB6TEtOR0lLeFhwdDNRLURZZjdnS3dpVUVtcmpqa250bXNnRTU5azBGMXp2d1hvSWdZNTJMOXdHcEE?oc=5"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/06/legge-elettorale-ok-della-camera-alla-fiducia-sullarticolo-2-227-si_3b6319fb-ba23-405a-8f6e-c67558a8a218.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/6/c2aa6e698c97fafcd0a6380b43d83fcf.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/06/legge-elettorale-ok-della-camera-alla-fiducia-sullarticolo-2-227-si_3b6319fb-ba23-405a-8f6e-c67558a8a218.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'esito della terza fiducia della Camera sulla legge elettorale?",
+          "options": [
+            "Respinta",
+            "Approvata",
+            "Annullata",
+            "Posticipata"
+          ],
+          "answer": 1,
+          "explanation": "Il testo indica che la Camera ha approvato la terza fiducia, quindi l'esito è 'Approvata'."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-07-2"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Occhiuto: 'Il centrodestra ha paura dei diritti civili'",
+      "summary": "Durante un evento all'Università della Calabria, il presidente della Regione e vicesegretario di Forza Italia Roberto Occhiuto ha criticato il proprio schieramento politico. Secondo Occhiuto, il centrodestra affronta i diritti civili con troppa timidezza e imbarazzo, rischiando di apparire politicamente superato rispetto alle nuove generazioni che discutono di questi temi con grande libertà.",
+      "context": "La posizione di Occhiuto evidenzia le tensioni interne alla coalizione di governo su temi etici e sociali. Mostra come una parte di Forza Italia cerchi di smarcarsi dalle linee più tradizionaliste per intercettare un elettorato più giovane e moderato.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/speciali/italia-innovativa/2026/10/06/occhiuto-i-diritti-civili-non-sono-trattati-con-sufficiente-coraggio-dal_56bc8501-3f5b-4f78-a709-1bd54a7fc96c.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/6/8f5340c1db9b18ac4020ad9c76156c11.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/speciali/italia-innovativa/2026/10/06/occhiuto-i-diritti-civili-non-sono-trattati-con-sufficiente-coraggio-dal_56bc8501-3f5b-4f78-a709-1bd54a7fc96c.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha criticato Roberto Occhiuto riguardo al suo schieramento politico?",
+          "options": [
+            "La scarsa tutela e il timore nell'affrontare i diritti civili",
+            "La politica estera in Europa",
+            "La gestione economica del governo",
+            "I provvedimenti contro il caro carburante"
+          ],
+          "answer": 0,
+          "explanation": "Occhiuto ha affermato che il centrodestra tratta i diritti civili con troppa timidezza e imbarazzo."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-07-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "OpenAI pubblica soluzioni a problemi matematici con IA",
+      "summary": "OpenAI ha pubblicato un lotto di 722 manoscritti contenenti 372 famiglie di risultati, che includono soluzioni a centinaia di problemi matematici aperti. I risultati provengono da un modello di frontiera ancora non rilasciato e, secondo l’azienda, la media di calcolo per ogni soluzione equivale a tre ore di utilizzo di ChatGPT Pro. I documenti sono stati messi a disposizione su GitHub, con linee guida fornite dal gruppo consulenziale AGMAI.",
+      "context": "La notizia segna un passo significativo nell’applicazione dell’IA alla ricerca matematica, dimostrando che i modelli possono risolvere problemi aperti e sollevando questioni su etica e pubblicazione.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2297765991.jpg?quality=90&strip=all&crop=0%2C10.744316765259%2C100%2C78.511366469482&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github"
+      },
+      "quiz": [
+        {
+          "question": "Quanti manoscritti ha rilasciato OpenAI contenenti soluzioni a problemi matematici?",
+          "options": [
+            "250",
+            "500",
+            "722",
+            "1000"
+          ],
+          "answer": 2,
+          "explanation": "Il comunicato indica che sono stati pubblicati 722 manoscritti."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-07-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Hacker ottengono certificati TLS contraffatti violando tre registri di dominio",
+      "summary": "Alcuni hacker hanno violato tre registri di domini nazionali, modificando i record DNS e i server dei nomi per superare i controlli di sicurezza. In questo modo hanno ottenuto certificati TLS non autorizzati per Google e altri grandi servizi, sfruttando la capacità di deviare il traffico. Google ha dichiarato che l'infrastruttura dei proprietari dei domini non è stata compromessa e che i certificati noti sono stati bloccati dai browser.",
+      "context": "La sicurezza del web si basa sulla fiducia nei certificati digitali e nella gestione dei domini. Quando i registri vengono compromessi, i controlli automatici possono fallire, rendendo necessarie contromisure urgenti da parte dei browser per proteggere gli utenti.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/broken-https-tls-1152x648.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/"
+      },
+      "quiz": [
+        {
+          "question": "Come hanno fatto gli hacker a ottenere i certificati contraffatti?",
+          "options": [
+            "Violando i server delle autorità di certificazione",
+            "Violando tre registri di dominio e modificando i record DNS",
+            "Attaccando direttamente i computer degli utenti finali",
+            "Corrompendo i dipendenti di Google"
+          ],
+          "answer": 1,
+          "explanation": "Gli hacker hanno preso il controllo di tre registri di dominio modificando i record DNS e i server dei nomi per superare i controlli di convalida."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-07-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Young Thug annuncia album R&B con Drake",
+      "summary": "Il rapper americano Young Thug ha dichiarato, nell'intervista del 6 ottobre 2026 al podcast The Crew Has It registrata a ComplexCon, che uscirà entro la fine dell'anno un album R&B ispirato a Mary J. Blige. Ha confermato la presenza di alcune tracce con Drake, tra cui brani già trapelati, e ha descritto il progetto come per lo più sessuale con poche canzoni di cuori spezzati.",
+      "context": "Il passaggio di Young Thug verso un album R&B completo, con collaborazioni di Drake, segna un cambiamento stilistico significativo per un artista noto per il trap, e potrebbe influenzare le tendenze del genere nel 2026.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/young-thug-drake-rb-album-mary-j-blige-1236355666/"
+        },
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/young-thug-album-drake-collaborations/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/05/2243549116-e1778706928553.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/young-thug-drake-rb-album-mary-j-blige-1236355666/"
+      },
+      "quiz": [
+        {
+          "question": "Quale genere musicale ha annunciato Young Thug per il suo prossimo album?",
+          "options": [
+            "Pop",
+            "Trap",
+            "R&B",
+            "Hip‑hop"
+          ],
+          "answer": 2,
+          "explanation": "Nell'intervista ha detto esplicitamente che l'album sarà R&B, ispirato a Mary J. Blige."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-07-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Polizia perquisisce la casa del rapper Trippie Redd",
+      "summary": "La polizia ha eseguito un mandato di perquisizione nella casa del rapper Trippie Redd a Southwest Ranches, in Florida. Diverse volanti sono state notate davanti all'abitazione. L'intervento, condotto dalla polizia di Davie a supporto di quella di Miami, rientra in un'indagine in corso. Le autorità non hanno ancora diffuso dettagli sui motivi della ricerca o sugli oggetti sequestrati.",
+      "context": "L'intervento arriva pochi mesi dopo l'arresto del musicista all'aeroporto di Miami, avvenuto a luglio in base a un mandato del 2023. La vicenda giudiziaria in corso potrebbe avere sviluppi legati a questi precedenti provvedimenti.",
+      "sources": [
+        {
+          "name": "NBC 6 South Florida",
+          "url": "https://www.nbcmiami.com/news/local/trippie-redd-search-warrant-southwest-ranches/3869457/"
+        }
+      ],
+      "image": {
+        "url": "https://media.nbcmiami.com/2026/10/10062026-Trippie-Redd-search-warrant-Davie.jpg?quality=85&strip=all&resize=1200%2C675",
+        "credit": "NBC 6 South Florida",
+        "link": "https://www.nbcmiami.com/news/local/trippie-redd-search-warrant-southwest-ranches/3869457/"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo la polizia ha perquisito la casa di Trippie Redd?",
+          "options": [
+            "Per un controllo fiscale",
+            "Per una denuncia dei vicini",
+            "Per una violazione di domicilio",
+            "Per un'indagine in corso"
+          ],
+          "answer": 3,
+          "explanation": "La perquisizione è stata eseguita dalle forze dell'ordine nell'ambito di un'indagine in corso, i cui dettagli non sono stati ancora resi pubblici."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-07-7"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Nobel 2026 per la Fisica a Francis Halzen per i neutrini cosmici",
+      "summary": "Il 6 ottobre 2026, l'Accademia svedese ha assegnato il Premio Nobel per la Fisica al fisico belga Francis Halzen. Il riconoscimento premia i suoi contributi decisivi all'IceCube Neutrino Observatory, un rilevatore situato nel ghiaccio del Polo Sud. Grazie a questo strumento, Halzen ha reso possibile la scoperta di neutrini ad alta energia di origine astrofisica, particelle che trasportano informazioni da eventi cosmici estremamente energetici.",
+      "context": "La scoperta conferma l'esistenza di una nuova finestra sull'universo, oltre alla luce. I neutrini, chiamati 'messaggeri fantasma', permettono di studiare fenomeni come i buchi neri. Il termine 'neutrino' fu coniato da Enrico Fermi nel 1932, legando il premio alla storia della fisica italiana.",
+      "sources": [
+        {
+          "name": "Il Messaggero",
+          "url": "https://www.ilmessaggero.it/scienza/premio_nobel_fisica_2026_francis_halzen_scoperta-9807415.html"
+        },
+        {
+          "name": "Corriere della Sera",
+          "url": "https://www.corriere.it/cronache/26_ottobre_06/nobel-fisica-2026-oggi-c868add6-c294-4032-bee5-25624a7d9xlk.shtml"
+        }
+      ],
+      "image": {
+        "url": "https://statics.cedscdn.it/photos/MED_HIGH/2026/10/06/9807415_06115044_premio_nobel_fisica.jpg",
+        "credit": "Il Messaggero",
+        "link": "https://www.ilmessaggero.it/scienza/premio_nobel_fisica_2026_francis_halzen_scoperta-9807415.html"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo specifico Francis Halzen ha ricevuto il Nobel per la Fisica 2026?",
+          "options": [
+            "Per aver inventato il termine 'neutrino'",
+            "Per aver costruito il primo telescopio spaziale",
+            "Per i contributi all'IceCube e la scoperta di neutrini astrofisici",
+            "Per aver dimostrato la teoria della relatività"
+          ],
+          "answer": 2,
+          "explanation": "L'Accademia svedese ha premiato Halzen per il suo ruolo chiave nell'IceCube Neutrino Observatory e per la scoperta di neutrini ad alta energia provenienti dallo spazio."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-07-8"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Nuovo metodo per produrre idrogeno pulito dall'acqua usando la luce",
+      "summary": "Ricercatori della Oregon State University hanno sviluppato un nuovo materiale, appartenente alla famiglia dei framework metallo-organici, capace di produrre idrogeno dall'acqua sfruttando direttamente la luce solare. Questo sistema funziona come un fotocatalizzatore e riesce a separare le molecole d'acqua senza la necessità di aggiungere costosi metalli di supporto, affrontando uno dei principali limiti economici della produzione di idrogeno pulito.",
+      "context": "La domanda globale di idrogeno supera i cento milioni di tonnellate, ma la maggior parte proviene da combustibili fossili. Tecnologie più pulite, basate sull'energia solare, sono essenziali per ridurre i costi e le emissioni inquinanti del settore.",
+      "sources": [
+        {
+          "name": "ZME Science",
+          "url": "https://www.zmescience.com/science/chemistry/scientists-find-a-new-way-to-produce-hydrogen-from-water-using-light/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.zmescience.com/wp-content/uploads/2026/10/Zeolite-ZSM-5-vdW.png",
+        "credit": "ZME Science",
+        "link": "https://www.zmescience.com/science/chemistry/scientists-find-a-new-way-to-produce-hydrogen-from-water-using-light/"
+      },
+      "quiz": [
+        {
+          "question": "Quale novità presenta il nuovo materiale sviluppato dai ricercatori?",
+          "options": [
+            "Produce ammoniaca direttamente dall'aria",
+            "Separa l'idrogeno dall'acqua usando la luce senza bisogno di metalli di supporto",
+            "Usa combustibili fossili per produrre energia",
+            "Sostituisce completamente gli elettrolizzatori industriali"
+          ],
+          "answer": 1,
+          "explanation": "Il nuovo fotocatalizzatore sfrutta la luce solare per estrarre idrogeno dall'acqua senza ricorrere a componenti metallici aggiuntivi costosi."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-07-9"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Scade lo sconto fiscale sul gasolio: +6,1 centesimi al litro",
+      "summary": "Il 5 ottobre è scaduto lo sconto fiscale di 6,1 centimetri al litro sul gasolio introdotto dal governo. In assenza del provvedimento sulle accise mobili, le imposte sul diesel sono tornate al livello normale, facendo aumentare il prezzo di circa sei centesimi. La media nazionale self‑service è passata a 2,244 €/l, mentre su autostrada a 2,267 €/l; Eni ha adeguato il suo tetto a 2,25 €/l, superando il limite di 2,19 €/l previsto con lo sconto.",
+      "context": "Il ritorno delle accise normali rende più costoso il carburante per famiglie e imprese, influenzando i costi di trasporto. Si osserva se il governo introdurrà presto il meccanismo delle accise mobili per mitigare l’aumento.",
+      "sources": [
+        {
+          "name": "VareseNews",
+          "url": "https://www.varesenews.it/2026/10/scade-lo-sconto-fiscale-e-niente-accise-mobili-sul-gasolio-scatta-laumento-di-61-centesimi-al-litro/2699812/"
+        },
+        {
+          "name": "Corriere della Sera",
+          "url": "https://www.corriere.it/economia/energie/26_ottobre_06/gasolio-salta-il-tetto-a-2-19-euro-al-litro-non-e-scattato-lo-sconto-sulle-accise-mobili-5d956181-4283-44aa-b263-8bd0044dbxlk.shtml"
+        }
+      ],
+      "image": {
+        "url": "https://www.varesenews.it/photogallery_new/images/2015/02/diesel-gasolio-benzina-distributore-pompa-438530.1024x768.jpg",
+        "credit": "VareseNews",
+        "link": "https://www.varesenews.it/2026/10/scade-lo-sconto-fiscale-e-niente-accise-mobili-sul-gasolio-scatta-laumento-di-61-centesimi-al-litro/2699812/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa è avvenuto al prezzo del gasolio dopo la scadenza dello sconto fiscale di 6,1 centesimi al litro?",
+          "options": [
+            "È diminuito di circa 6 centesimi al litro",
+            "È rimasto invariato",
+            "È aumentato di circa 6 centesimi al litro",
+            "È stato introdotto un nuovo sconto"
+          ],
+          "answer": 2,
+          "explanation": "Con la scadenza dello sconto e senza il meccanismo delle accise mobili, il prezzo del diesel è salito di circa 6 centesimi al litro."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-07-10"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Ecofin: verso l'accordo sulla supervisione dei mercati UE e extraprofitti",
+      "summary": "Il Consiglio Ecofin riunito a Lussemburgo si avvia verso un accordo sulla riforma della supervisione dei mercati finanziari europei, che amplia i poteri dell'Autorità europea degli strumenti finanziari e dei mercati per ridurre la frammentazione della vigilanza nazionale. Durante la riunione, i ministri affronteranno anche il tema degli extraprofitti in seguito a una lettera inviata dal governo italiano, mentre non è previsto un confronto formale sulla flessibilità di bilancio legata all'inflazione.",
+      "context": "L'Unione dei mercati dei capitali punta a integrare i sistemi finanziari europei per renderli più competitivi. La supervisione centralizzata riduce le divisioni nazionali ma richiede complessi compromessi politici tra gli Stati membri sulla ripartizione dei poteri.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/06/lecofin-verso-un-accordo-sulla-nuova-supervisione-dei-mercati-ue_2a9a98e6-f42e-46d3-b869-1af96fb39796.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/06/fonti-a-ecofin-non-atteso-confronto-su-flessibilita-punto-su-extraprofitti_02cb5e87-564e-4b7f-a4ac-88e329166d24.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/11/13/d4d79825df7b70e0ee309b87eb59581c.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/06/lecofin-verso-un-accordo-sulla-nuova-supervisione-dei-mercati-ue_2a9a98e6-f42e-46d3-b869-1af96fb39796.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale tema è al centro del possibile accordo in discussione all'Ecofin?",
+          "options": [
+            "Un nuovo piano di aiuti militari congiunti",
+            "La riforma della supervisione dei mercati finanziari UE",
+            "L'introduzione immediata di una tassa globale sugli extraprofitti",
+            "L'eliminazione totale delle autorità di vigilanza nazionali"
+          ],
+          "answer": 1,
+          "explanation": "L'Ecofin punta a un accordo per riformare la supervisione dei mercati finanziari e ampliare i poteri dell'Autorità europea."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-07-11"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Addio a Eva Marie Saint, premio Oscar per Fronte del Porto",
+      "summary": "È morta a Los Angeles per cause naturali l'attrice Eva Marie Saint, una delle ultime leggende dell'epoca d'oro di Hollywood. Aveva vinto il premio Oscar come migliore attrice non protagonista nel 1954 per il suo debutto cinematografico in Fronte del Porto, accanto a Marlon Brando. Nel corso della sua carriera ha lavorato con registi come Alfred Hitchcock in Intrigo internazionale e ha recitato accanto ai maggiori divi del cinema prima di passare con successo alla televisione.",
+      "context": "La scomparsa di Eva Marie Saint segna la perdita di una delle ultime protagoniste della stagione classica di Hollywood. La sua transizione verso la televisione negli anni Settanta ha anticipato una tendenza comune a molti attori cinematografici di fronte al mutare dell'industria.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/06/addio-a-eva-marie-saint-vinse-loscar-per-fronte-del-porto_3a76cabd-e2ed-4182-805d-bccaa59ee81a.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2024/6/30/ca1f9bc453efe9b2fccf35777f4dfaa9.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/06/addio-a-eva-marie-saint-vinse-loscar-per-fronte-del-porto_3a76cabd-e2ed-4182-805d-bccaa59ee81a.html"
+      },
+      "quiz": [
+        {
+          "question": "Per quale film Eva Marie Saint ha vinto il premio Oscar?",
+          "options": [
+            "Intrigo internazionale",
+            "Fronte del Porto",
+            "Exodus",
+            "Superman Returns"
+          ],
+          "answer": 1,
+          "explanation": "Eva Marie Saint vinse l'Oscar come migliore attrice non protagonista nel 1954 per il suo debutto in Fronte del Porto."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-07-12"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Arriva al cinema Zustissia, il film sul caso di Beniamino Zuncheddu",
+      "summary": "Esce nelle sale cinematografiche Zustissia, l'opera prima di Francesco Piras che racconta il caso di Beniamino Zuncheddu, considerato il più lungo errore giudiziario della storia italiana recente. Zuncheddu è stato condannato all'ergastolo nel 1991 per un triplice omicidio a Sinnai e assolto nel 2024, dopo aver trascorso circa 33 anni in carcere da innocente. Il film, interpretato da Fabrizio Ferracane e Michele Riondino, arriva in anteprima in Sardegna l'8 ottobre e dal 15 ottobre in tutta Italia.",
+      "context": "La vicenda di Beniamino Zuncheddu riaccende il dibattito sui limiti del sistema giudiziario italiano e sui tempi della giustizia. Il caso evidenzia la difficoltà di ottenere risarcimenti tempestivi e solleva interrogativi urgenti sulla gestione delle indagini e sulla prevenzione degli errori giudiziari.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/06/zuncheddu-dopo-33-anni-in-carcere-da-innocente-nessuno-mi-ha-chiesto-scusa_cdeaef85-a907-4f46-8b11-b5218207c310.html"
+        },
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/06/cucciari-abbiamo-il-diritto-di-arrabbiarci-anche-per-le-ingiustizie-verso-gli-altri_a2d73fcc-33c5-49ed-8ab7-30ad003db5b6.html"
+        },
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/06/riondino-errori-giudiziari-e-processi-in-tv-la-politica-dia-risposte_2406344a-df49-49a0-97ef-e7f3efe0bc4c.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/6/515444da9ff1e8e924d0ca10ad0eedbc.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/06/zuncheddu-dopo-33-anni-in-carcere-da-innocente-nessuno-mi-ha-chiesto-scusa_cdeaef85-a907-4f46-8b11-b5218207c310.html"
+      },
+      "quiz": [
+        {
+          "question": "Quanti anni ha trascorso Beniamino Zuncheddu in carcere prima di essere assolto?",
+          "options": [
+            "40 anni",
+            "20 anni",
+            "10 anni",
+            "Circa 33 anni"
+          ],
+          "answer": 3,
+          "explanation": "Zuncheddu è stato riconosciuto innocente e assolto nel 2024, dopo circa 33 anni trascorsi in carcere in seguito alla condanna del 1991."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-07-13"
+    },
+    {
+      "category": "storia",
+      "tag": "7 ottobre 1959",
+      "title": "La prima foto della faccia nascosta della Luna",
+      "summary": "Il 7 ottobre 1959 la sonda sovietica Luna 3 ha fotografato per la prima volta nella storia la faccia opposta della Luna, invisibile dalla Terra. La missione ha permesso di coprire il settanta percento di quell'emisfero sconosciuto, mostrando una superficie diversa e montuosa rispetto a quella nota.",
+      "context": "Questa missione ha aperto l'era dell'esplorazione planetaria e ha fornito le prime mappe di una regione altrimenti in osservabile. Ha posto le basi per la futura cartografia spaziale e ha dimostrato la fattibilità di complesse manovre orbitali fotografiche.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Luna_3"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Luna-3_%28Memorial_Museum_of_Astronautics%29.JPG/1280px-Luna-3_%28Memorial_Museum_of_Astronautics%29.JPG",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Luna-3_(Memorial_Museum_of_Astronautics).JPG"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha fotografato per la prima volta la sonda Luna 3 il 7 ottobre 1959?",
+          "options": [
+            "I crateri di Venere",
+            "Il polo nord terrestre",
+            "La faccia nascosta della Luna",
+            "La superficie di Marte"
+          ],
+          "answer": 2,
+          "explanation": "La sonda Luna 3 ha raggiunto e fotografato per la prima volta la faccia opposta della Luna."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-07-14"
+    },
+    {
+      "category": "storia",
+      "tag": "7 ottobre 1993",
+      "title": "La scoperta dell'Uomo di Altamura",
+      "summary": "Il 7 ottobre 1993, nella grotta di Lamalunga ad Altamura, alcuni speleologi hanno scoperto i resti fossili di un uomo neandertaliano vissuto tra 130.000 e 172.000 anni fa. Lo scheletro, quasi interamente integro, è rimasto bloccato in una cavità sotterranea e parzialmente inglobato da depositi calcarei di stalattiti e stalagmiti che ne hanno permesso la conservazione eccezionale nel tempo.",
+      "context": "Il ritrovamento ha cambiato la ricerca offrendo uno scheletro di Neanderthal tra i più completi al mondo e protetto in situ, senza la necessità di estrarlo. Ha aperto la strada a nuove tecniche di analisi genetica e morfologica non invasiva, ridiscussa anche grazie ai modelli in 3D.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Uomo_di_Altamura"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cranio_dell%27uomo_di_altamura.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Cranio_dell'uomo_di_altamura.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quando e dove è stato scoperto l'Uomo di Altamura?",
+          "options": [
+            "Il 15 maggio 1989 in una cava di pietra",
+            "Il 7 ottobre 1995 nei pressi di Bari",
+            "Il 7 ottobre 1993 nella grotta di Lamalunga",
+            "Il 20 ottobre 1993 in una grotta in Spagna"
+          ],
+          "answer": 2,
+          "explanation": "Lo scheletro è stato scoperto il 7 ottobre 1993 da alcuni speleologi all'interno della grotta di Lamalunga, ad Altamura."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-07-15"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Giovanni Passannante",
+      "title": "Il paese che cambiò nome per punizione",
+      "summary": "Nel 1878 l'anarchico Giovanni Passannante tentò di assassinare re Umberto I a Napoli con un piccolo coltello, ferendolo lievemente a un braccio. L'attentato fallì e l'uomo fu arrestato. In seguito a questi eventi, il suo paese natale, Salvia in Basilicata, fu costretto a cambiare nome in Savoia di Lucania in segno di penitenza verso la monarchia, sebbene gli abitanti continuino ancora oggi a chiamarsi salviani.",
+      "context": "L'episodio si inserisce nella difficile fase di consolidamento dello Stato unitario italiano, segnato da forti tensioni sociali, povertà diffusa e dalla nascita dei primi movimenti rivoluzionari e anarchici. Gli attentati ai monarchi erano visti come una minaccia esistenziale per l'ordine costituito.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Giovanni_Passannante"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Giovanni_passannante.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Giovanni_passannante.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Perché il paese natale di Giovanni Passannante cambiò nome?",
+          "options": [
+            "In memoria del padre dell'anarchico",
+            "In segno di penitenza per l'attentato al re",
+            "In onore del re dopo l'unificazione",
+            "Per una votazione popolare dei cittadini"
+          ],
+          "answer": 1,
+          "explanation": "Il paese di Salvia fu ribattezzato Savoia di Lucania come punizione e atto di penitenza verso la famiglia reale."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-07-16"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Tumulto dei Ciompi",
+      "title": "Il nome “Ciompi” è un'etichetta postuma: così si chiamavano davvero gli operai di Firenze nel 1378",
+      "summary": "Nel 1378 i lavoratori della lana di Firenze scesero in piazza per chiedere diritti, ma il nome con cui li chiamiamo oggi, “Ciompi”, non compare nelle fonti dell’epoca. Le cronache dell’evento li indicano come «Popolo di Dio», termine che usavano per affermare la loro dignità religiosa e sociale. Solo successivamente gli storici hanno adottato “Ciompi” come etichetta retrospettiva.",
+      "context": "La rivolta dei Ciompi avvenne in una Firenze del XIV secolo segnata da guerre guelfe‑ghibelline, crisi bancarie e peste, dove il potere era monopolizzato dalle corporazioni delle arti maggiori.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Tumulto_dei_Ciompi"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/G._L._Gatteri%2C_Il_tumulto_dei_ciompi%2C_Trieste%2C_CMSA.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:G._L._Gatteri%2C_Il_tumulto_dei_ciompi%2C_Trieste%2C_CMSA.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Come si definivano gli operai della lana di Firenze durante la rivolta del 1378?",
+          "options": [
+            "Arti",
+            "Ciompi",
+            "Popolo di Dio",
+            "Gonfaloniere"
+          ],
+          "answer": 2,
+          "explanation": "Le cronache dell’epoca li chiamano «Popolo di Dio», il nome “Ciompi” è stato attribuito solo in seguito."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-07-17"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Effie Gray",
+      "title": "Effie Gray: 27 proposte di matrimonio prima di Ruskin",
+      "summary": "Prima di sposare il critico d'arte John Ruskin, Effie Gray, giovane nobildonna scozzese, fu corteggiata da numerosi pretendenti. Nei suoi quindici anni di vita adulta, gli amici e le famiglie dell'alta società le presentarono ben ventisette proposte di matrimonio, testimonianza della sua bellezza e del suo ruolo di ricercata nella rigida scena sociale vittoriana.",
+      "context": "Nel XIX secolo l'aristocrazia britannica vedeva il matrimonio come strumento di alleanze familiari. Le numerose proposte a Effie riflettono la pressione sulle donne dell'epoca a coniugarsi per ragioni sociali ed economiche, non solo sentimentali.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Effie_Gray"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Euphemia_%28%27Effie%27%29_Chalmers_%28n%C3%A9e_Gray%29%2C_Lady_Millais_by_Thomas_Richmond.jpg/1280px-Euphemia_%28%27Effie%27%29_Chalmers_%28n%C3%A9e_Gray%29%2C_Lady_Millais_by_Thomas_Richmond.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Euphemia_('Effie')_Chalmers_(n%C3%A9e_Gray)%2C_Lady_Millais_by_Thomas_Richmond.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quante proposte di matrimonio ricevette Effie Gray prima del suo matrimonio con John Ruskin?",
+          "options": [
+            "41",
+            "34",
+            "27",
+            "12"
+          ],
+          "answer": 2,
+          "explanation": "Il testo indica che Effie ricevette ventisette proposte di matrimonio."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-07-18"
+    }
+  ]
+}
