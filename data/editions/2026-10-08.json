@@ -1,0 +1,697 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T04:34:38.865Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Texas esegue il primo condannato a morte negli USA dopo il caso Pike",
+      "summary": "Il Texas ha eseguito per via letale l'iniezione di pentobarbital il condannato a morte Jamaal Howard, 46 anni, mercoledì sera a Huntsville. È stato il primo esecutivo negli USA dopo il tentativo fallito di Christa Pike la settimana precedente. Howard era stato condannato per l'omicidio di Vickie Swartout, avvenuto durante una rapina nel 2000. I suoi avvocati avevano chiesto una sospensione per dubbi sul farmaco, ma i tribunali, compresa la Corte Suprema, hanno respinto le richieste.",
+      "context": "L'esecuzione segna il ritorno delle condanne a morte negli USA dopo il caso di Christa Pike, riaccendendo il dibattito sulla sicurezza dei farmaci letali e sulla trasparenza delle procedure.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw4g1j2z5zvzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d330/live/7a937e50-c2bd-11f1-a495-0d8c3b3fd3d3.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cw4g1j2z5zvzo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Chi è stato il primo condannato a morte eseguito negli Stati Uniti dopo il tentativo fallito di Christa Pike?",
+          "options": [
+            "Jamaal Howard",
+            "John Smith",
+            "Michael Brown",
+            "David Johnson"
+          ],
+          "answer": 0,
+          "explanation": "L'esecuzione è stata quella di Jamaal Howard, condannato per l'omicidio del 2000."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-08-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacchi Houthi su aeroporti sauditi: tre morti",
+      "summary": "Tre persone sono morte e decine sono rimaste ferite in una serie di attacchi con droni e missili balistici contro due aeroporti in Arabia Saudita, compiuti tra il 6 e il 7 ottobre. Gli attacchi, rivendicati dai ribelli Houthi dello Yemen, hanno colpito lo scalo internazionale di Abha, vicino al confine, e l'aeroporto King Khalid della capitale Riyadh, segnando una netta escalation nel conflitto regionale.",
+      "context": "Questi attacchi mostrano come la guerra civile in Yemen stia travalicando i confini nazionali, coinvolgendo direttamente l'Arabia Saudita. Il controllo dello Stretto di Bab el-Mandeb e delle rotte sul Mar Rosso resta un punto critico per la stabilità globale e i commerci marittimi.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwn8d5rx22rdo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/bb7a/live/b062fdf0-c2b6-11f1-babe-4199b0e7ccea.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cwn8d5rx22rdo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quali aeroporti in Arabia Saudita sono stati colpiti dagli attacchi?",
+          "options": [
+            "Abha e King Khalid",
+            "King Khalid e Aden",
+            "Gedda e Riad",
+            "Abha e Aden"
+          ],
+          "answer": 0,
+          "explanation": "Gli attacchi rivendicati dai ribelli Houthi hanno colpito l'aeroporto internazionale di Abha e l'aeroporto King Khalid a Riyadh."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-08-1"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Gasolio in rialzo, Meloni valuta accise mobili",
+      "summary": "Dopo la fine dello sconto fiscale sul diesel, il prezzo medio del gasolio è salito a 2,261 euro al litro. La premier Giorgia Meloni ha dichiarato che il governo sta valutando l'uso di 170 milioni di euro per attivare il meccanismo delle accise mobili. Ha inoltre chiesto alle compagnie petrolifere di rispettare rigorosamente i limiti di prezzo stabiliti, mentre Eni ha ridotto il costo del proprio diesel di 4 centesimi.",
+      "context": "La mossa serve a contenere l'inflazione e l'impatto sui costi energetici dopo la scadenza delle misure temporanee. Il dibattito si inserisce nel più ampio contesto europeo sulla tassazione degli extraprofitti delle aziende energetiche.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/07/il-gasolio-sale-ancora.-meloni-pensa-ad-accise-mobili-dopo-il-price-cap_46fbd961-ef1b-4cd5-901a-9b66b19ca22d.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/7/4c92ea62fdac2f693690fd83dce4939d.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/07/il-gasolio-sale-ancora.-meloni-pensa-ad-accise-mobili-dopo-il-price-cap_46fbd961-ef1b-4cd5-901a-9b66b19ca22d.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale strumento sta valutando il governo per intervenire sui prezzi del gasolio?",
+          "options": [
+            "Un aumento immediato dell'IVA",
+            "Il meccanismo delle accise mobili",
+            "Un sussidio diretto ai consumatori",
+            "Un divieto di vendita al dettaglio"
+          ],
+          "answer": 1,
+          "explanation": "Meloni ha specificato che il governo sta considerando l'uso di fondi per attivare le accise mobili."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-08-2"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Il grande sgombero di Ferrara: centinaia di persone lasciate in strada",
+      "summary": "La notte dell'11 gennaio 2026, un incendio scoppiato nel vano contatori della torre B del cosiddetto grattacielo di Ferrara ha costretto i residenti a evacuare l'edificio. Quello che doveva essere un intervento temporaneo si è trasformato in uno sgombero permanente. Tra gli abitanti rimasti senza casa c'è Amara Sacko, che aveva acquistato regolarmente un appartamento con un mutuo e ora continua a pagarlo senza poterci abitare, ricevendo poche risposte dalle autorità.",
+      "context": "La gestione degli sgomberi e delle emergenze abitative evidenzia spesso la fragilità delle tutele per i proprietari meno abbienti e le tensioni sociali nelle periferie urbane. Situazioni simili ripropongono il tema della sicurezza degli edifici e del supporto pubblico agli sfollati.",
+      "sources": [
+        {
+          "name": "Internazionale",
+          "url": "https://www.internazionale.it/reportage/annalisa-camilli/2026/10/07/sgombero-ferrara-grattacielo-ignorato"
+        }
+      ],
+      "image": {
+        "url": "https://media.internazionale.it/images/2026/09/23/359327-hd.png",
+        "credit": "Internazionale",
+        "link": "https://www.internazionale.it/reportage/annalisa-camilli/2026/10/07/sgombero-ferrara-grattacielo-ignorato"
+      },
+      "quiz": [
+        {
+          "question": "Cosa è successo agli abitanti del grattacielo di Ferrara dopo l'incendio dell'11 gennaio 2026?",
+          "options": [
+            "Hanno potuto fare ritorno nelle case dopo pochi giorni",
+            "L'evacuazione è diventata uno sgombero permanente",
+            "Sono stati trasferiti tutti in alloggi popolari comunali",
+            "Hanno ottenuto il rimborso immediato del mutuo dalla banca"
+          ],
+          "answer": 1,
+          "explanation": "L'evacuazione disposta la notte dell'incendio si è trasformata in uno sgombero permanente, lasciando i residenti senza un'abitazione."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-08-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "OpenAI porta GPT-6 e interfacce interattive su ChatGPT",
+      "summary": "OpenAI ha rilasciato GPT-6 su ChatGPT, introducendo la funzione Intelligent UI. Questo aggiornamento permette al modello di rispondere con grafici, diagrammi e pulsanti interattivi oltre al testo. La versione Sol è disponibile per gli abbonati a pagamento, mentre la versione Luna, più efficiente, sarà estesa agli utenti gratuiti entro giovedì. Il sistema migliora anche la ricerca web e la resistenza ai tentativi di aggirare i filtri di sicurezza.",
+      "context": "L'aggiornamento segna il passaggio da semplici risposte testuali a strumenti digitali interattivi generati in tempo reale. Rende l'assistente più utile per compiti complessi come calcoli o visualizzazioni dati, riducendo la necessità di aprire altre applicazioni. È un passo verso un'intelligenza artificiale che non solo informa, ma fornisce strumenti operativi direttamente nella chat.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/gpt-6-for-everyone/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Intelligent-UI.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale novità introdotta dalla funzione Intelligent UI in ChatGPT?",
+          "options": [
+            "La rimozione completa dei filtri di sicurezza per una maggiore libertà",
+            "La capacità di navigare in internet senza limiti di tempo",
+            "La possibilità di rispondere con elementi visivi interattivi come grafici e pulsanti",
+            "L'accesso illimitato a tutti i modelli GPT-6 per gli utenti gratuiti"
+          ],
+          "answer": 2,
+          "explanation": "La funzione Intelligent UI consente a ChatGPT di generare risposte che includono diagrammi, tabelle e pulsanti interattivi, non solo testo."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-08-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Microsoft presenta nuovo hardware per l'intelligenza artificiale e Windows",
+      "summary": "Durante il suo primo evento dal vivo in due anni, Microsoft ha presentato il nuovo Surface Laptop Ultra e la Surface RTX Spark Dev Box, dispositivi progettati per sfruttare i chip grafici di Nvidia e gestire compiti di intelligenza artificiale locale. Il Surface Laptop Ultra parte da 2.599 dollari e sarà disponibile dal 16 ottobre, mentre la Dev Box costa 5.999 dollari.",
+      "context": "Questi annunci mostrano la spinta dell'industria tecnologica verso l'intelligenza artificiale eseguita direttamente sul dispositivo anziché nel cloud. È importante osservare se la domanda per questi hardware costosi giustificherà gli investimenti dedicati agli sviluppatori e agli utenti avanzati.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Surface-Laptop-Ultra-Opened-1152x648.png",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il prezzo di partenza del nuovo Surface Laptop Ultra presentato da Microsoft?",
+          "options": [
+            "3.599 dollari",
+            "5.999 dollari",
+            "2.599 dollari",
+            "1.599 dollari"
+          ],
+          "answer": 2,
+          "explanation": "Il Surface Laptop Ultra ha un prezzo di partenza di 2.599 dollari."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-08-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Rihanna rivela almeno 170 brani inediti",
+      "summary": "Durante una diretta su TikTok per Fenty Beauty, il 7 ottobre 2026 Rihanna ha risposto a una domanda dei fan indicando di possedere “almeno 170” brani non pubblicati. Ha spiegato il calcolo usando la metafora dei “vault” della sua linea cosmetica: 10 prodotti per vault moltiplicati per 17 vault. Il suo compagno A$AP Rocky ha confermato che la cantante era in studio ad agosto.",
+      "context": "La presenza di almeno 170 tracce inedite suggerisce che Rihanna potrebbe tornare con nuova musica dopo dieci anni dall'album ANTI, suscitando grande attesa tra fan e industria.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/rihanna-unreleased-songs-vault-fenty-beauty-1236356644/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/03/2244878033-e1774463750387.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/rihanna-unreleased-songs-vault-fenty-beauty-1236356644/"
+      },
+      "quiz": [
+        {
+          "question": "Quante canzoni non pubblicate ha detto di avere Rihanna?",
+          "options": [
+            "150",
+            "170",
+            "200",
+            "120"
+          ],
+          "answer": 1,
+          "explanation": "Rihanna ha dichiarato di avere almeno 170 brani inediti."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-08-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Lil Wayne conferma l'esistenza di materiale inedito con Drake risalente al 2014",
+      "summary": "Il rapper statunitense Lil Wayne ha confermato, durante il podcast The Joint Venture condotto con Craig Carton, di possedere numerosi brani inediti registrati in collaborazione con Drake tra il 2014 e il 2015. Wayne ha spiegato di rivedere regolarmente i file salvati nei suoi hard disk e di inviare le versioni aggiornate al collega, il quale chiede spesso quando i pezzi verranno pubblicati.",
+      "context": "Le collaborazioni tra Lil Wayne e Drake hanno segnato profondamente il rap commerciale degli anni Duemila e Dieci. Questo archivio inedito alimenta l'attesa dei fan per un eventuale ritorno discografico congiunto della coppia, che non pubblica nuova musica insieme dal 2021.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/lil-wayne-drake-have-unreleased-collabs-1236356083/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/10/lil-wayne-drake-2015-billboard-1800.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/lil-wayne-drake-have-unreleased-collabs-1236356083/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha dichiarato Lil Wayne riguardo a Drake durante il podcast The Joint Venture?",
+          "options": [
+            "Di aver chiuso definitivamente ogni rapporto lavorativo",
+            "Di avere molti brani inediti registrati insieme nel 2014 e 2015",
+            "Di voler pubblicare un album solista senza ospiti",
+            "Di non avere più contatti musicali dal 2021"
+          ],
+          "answer": 1,
+          "explanation": "Lil Wayne ha confermato di avere un archivio di brani inediti realizzati con Drake nel 2014 e 2015."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-08-7"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Stanford researchers develop two‑part molecule that turns lymphoma driver into kill switch",
+      "summary": "Stanford Medicine scientists created a bifunctional small molecule that binds the lymphoma‑promoting protein BCL6 and links it to a death‑activating protein. In mice with aggressive B‑cell lymphoma, twice‑daily dosing eliminated tumors in 11 days. The approach rewires the cancer driver to trigger apoptosis rather than merely inhibiting it, and the study was published in Cell.",
+      "context": "The work shows a new way to exploit a cancer‑specific protein, potentially extending to other tumours and autoimmune diseases, and highlights molecular rewiring as an emerging therapeutic strategy.",
+      "sources": [
+        {
+          "name": "Mirage News",
+          "url": "https://www.miragenews.com/stanford-scientists-turn-cancer-driver-into-1756792/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn1.miragenews.com/tmp_cache?cdn=images.unsplash.com%2Fphoto-1581595220921-eec2071e5159%3Fixlib%3Drb-4.0.3%26amp%3Bixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26amp%3Bauto%3Dformat%26amp%3Bfit%3Dcrop%26amp%3Bw%3D1170%26amp%3Bq%3D80",
+        "credit": "Mirage News",
+        "link": "https://www.miragenews.com/stanford-scientists-turn-cancer-driver-into-1756792/"
+      },
+      "quiz": [
+        {
+          "question": "How does the new two‑part molecule combat B‑cell lymphoma?",
+          "options": [
+            "It links BCL6 to a protein that activates cell death",
+            "It stimulates the immune system",
+            "It degrades BCL6",
+            "It blocks BCL6 activity"
+          ],
+          "answer": 0,
+          "explanation": "The molecule connects BCL6 to a death‑inducing protein, converting the cancer driver into a trigger for apoptosis."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-08-8"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Temperature calde e aumento di peso",
+      "summary": "Uno studio del Pennington Biomedical Center ha scoperto che le temperature calde attivano alcuni neuroni cerebrali riducendo l'appetito, ma riducono anche il dispendio energetico del corpo in misura maggiore. Questo squilibrio tra minori calorie assunte e minor consumo energetico può portare nel tempo a un aumento di peso, evidenziando l'effetto degli ambienti caldi sulla regolazione corporea.",
+      "context": "Questa scoperta sposta l'attenzione dai soli fattori di dieta e attività fisica al ruolo dell'ambiente sulla regolazione del peso. Il dato suggerisce che gli ambienti moderni a temperatura controllata potrebbero contribuire all'obesità in modi finora sottovalutati.",
+      "sources": [
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/news/science/articles/study-warm-temperatures-might-influence-222318113.html"
+        }
+      ],
+      "image": {
+        "url": "https://s.yimg.com/lo/mysterio/api/6d5bdfdffd97662e0ba03f1bdefa1c180eaad0e5250f7357ee88960fd04c1d08/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwvla_baton_rouge_articles_384%2F2c7ea7a8dcf3410eebcb9c54d1ecf6b0.jpg",
+        "credit": "Yahoo",
+        "link": "https://www.yahoo.com/news/science/articles/study-warm-temperatures-might-influence-222318113.html"
+      },
+      "quiz": [
+        {
+          "question": "Perché le temperature calde possono causare un aumento di peso secondo lo studio?",
+          "options": [
+            "Perché spengono i neuroni legati al senso di pienezza",
+            "Perché bloccano l'attività fisica",
+            "Perché riducono il dispendio energetico più di quanto riducano l'appetito",
+            "Perché aumentano drasticamente l'appetito"
+          ],
+          "answer": 2,
+          "explanation": "Il caldo riduce l'appetito ma fa calare ancora di più le calorie bruciate dal corpo, favorendo l'aumento di peso."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-08-9"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Allarme Fmi sul debito: mercati in calo e spread Btp-Bund a 115 punti",
+      "summary": "La direttrice generale del Fmi, Kristalina Georgieva, ha lanciato l'allarme sui mercati globali, citando l'inflazione da shock energetico e i rendimenti in rialzo. Lo spread tra Btp e Bund è salito a 115,2 punti base, con il rendimento del decennale italiano al 4,62%. La Borsa di Milano è scesa sotto i 50.000 punti, perdendo il 2,52%, mentre i bond francesi registrano i peggiori risultati in Europa.",
+      "context": "La mossa evidenzia la fragilità del debito sovrano europeo in un contesto di tassi alti e incertezza politica. L'Italia, pur non essendo più l'osservato speciale, mostra segnali di stress finanziario che potrebbero influenzare le future manovre di bilancio e la stabilità dell'eurozona.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/07/borse-bond-ed-euro-a-picco-fmi-lancia-lallarme-sul-debito_2dda54e9-caef-43ca-ba4f-50d5c58081e3.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/07/lo-spread-btp-bund-termina-in-crescita-a-1152-punti_ab74c07c-1d51-4f70-a9f2-61ad843ce9e5.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/07/borsa-milano-sotto-i-50.000-punti-dopo-lavvio-di-wall-street-spread_6282b39c-61a5-42c0-8322-5f894b76c985.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2024/12/19/d3de7f02a2ce8e7747ac231dd6b3f623.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/07/borse-bond-ed-euro-a-picco-fmi-lancia-lallarme-sul-debito_2dda54e9-caef-43ca-ba4f-50d5c58081e3.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale causa citata dal Fmi per l'aumento dei rendimenti dei bond?",
+          "options": [
+            "Lo shock energetico e l'inflazione",
+            "La crescita economica accelerata",
+            "L'aumento della domanda di azioni",
+            "La svalutazione dell'euro"
+          ],
+          "answer": 0,
+          "explanation": "Il Fmi collega l'aumento dei rendimenti all'inflazione causata dallo shock energetico, con il petrolio che ha superato i 100 dollari."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-08-10"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Core Stack e Green Arrow investono 1 miliardo in 13 data center in Italia",
+      "summary": "Core Stack e Green Arrow Capital hanno presentato a Roma un piano da oltre 1 miliardo di euro per realizzare una rete di 13 data center di medie dimensioni in Italia nei prossimi quattro anni. Gli impianti sorgeranno preferibilmente su aree industriali dismesse, con un approvvigionamento energetico basato su fonti rinnovabili prodotte in loco. I primi due impianti avanzati si trovano vicino a Cremona e Verona, con permessi attesi entro il 2027 e avvio nel 2028.",
+      "context": "Questo investimento risponde alla crescente domanda di infrastrutture digitali in Italia, puntando al contempo sul recupero di aree industriali dismesse e sulla sostenibilità energetica. Sarà importante monitorare l'effettivo rispetto dei tempi di autorizzazione e la concreta integrazione delle energie rinnovabili.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/07/core-stack-e-green-arrow-1-miliardo-per-rete-di-13-data-center-in-italia_3b98bfce-39ec-4323-8628-85acfa96a09a.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/7/903e38353c4aa79288293197786c51e4.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/07/core-stack-e-green-arrow-1-miliardo-per-rete-di-13-data-center-in-italia_3b98bfce-39ec-4323-8628-85acfa96a09a.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il valore complessivo dell'investimento annunciato da Core Stack e Green Arrow Capital?",
+          "options": [
+            "100 milioni di euro",
+            "Oltre 1 miliardo di euro",
+            "500 milioni di euro",
+            "2 miliardi di euro"
+          ],
+          "answer": 1,
+          "explanation": "Il piano prevede un investimento di oltre 1 miliardo di euro nei prossimi 4 anni."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-08-11"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Skydance e la fusione Paramount-Warner Bros: nasce un colosso da 69 miliardi",
+      "summary": "Il 6 ottobre 2026 ha preso ufficialmente vita Skydance, il nuovo colosso dell'intrattenimento nato dalla fusione tra Paramount e Warner Bros Discovery. La nuova società registra 69 miliardi di dollari di ricavi e 200 milioni di abbonati nello streaming, posizionandosi come seconda azienda media al mondo dietro Disney. Il gruppo eredita un portafoglio che include marchi come Harry Potter, Barbie e Cnn, oltre a un debito di 86 miliardi di dollari.",
+      "context": "Questa operazione ridefinisce gli equilibri del mercato globale dei media e dello streaming, dove la scala è ormai fondamentale per competere. La sfida principale per la nuova azienda sarà ridurre l'enorme esposizione debitoria attraverso la fusione delle piattaforme e il taglio dei costi.",
+      "sources": [
+        {
+          "name": "Corriere della Sera",
+          "url": "https://www.corriere.it/economia/finanza/26_ottobre_07/skydance-il-nuovo-colosso-del-cinema-paramount-warner-bros-harry-potter-barbie-e-30-film-prodotti-all-anno-come-cambia-lo-096fb2a7-1387-4a4e-b330-80b958b18xlk.shtml"
+        }
+      ],
+      "image": {
+        "url": "https://dimages2.corriereobjects.it/files/image_1200_900/files/fp/uploads/2026/10/07/6ac5fb48dd744.r_d.279-163-0.jpeg",
+        "credit": "Corriere della Sera",
+        "link": "https://www.corriere.it/economia/finanza/26_ottobre_07/skydance-il-nuovo-colosso-del-cinema-paramount-warner-bros-harry-potter-barbie-e-30-film-prodotti-all-anno-come-cambia-lo-096fb2a7-1387-4a4e-b330-80b958b18xlk.shtml"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il valore dei ricavi con cui parte il nuovo gruppo Skydance?",
+          "options": [
+            "200 miliardi di dollari",
+            "86 miliardi di dollari",
+            "110 miliardi di dollari",
+            "69 miliardi di dollari"
+          ],
+          "answer": 3,
+          "explanation": "L'aggregazione tra Paramount e Warner Bros Discovery dà vita a un gruppo che parte con 69 miliardi di dollari di ricavi."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-08-12"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "The Social: esce il film su Mark Zuckerberg con Jeremy Strong",
+      "summary": "Arriva nei cinema l'8 ottobre \"The Social - Il prezzo della verità\", diretto da Aaron Sorkin. Il film racconta lo scandalo dei \"Facebook Files\" del 2021 e la gestione della piattaforma da parte di Mark Zuckerberg, interpretato da Jeremy Strong. La pellicola segue l'inchiesta del giornalista Jeff Horwitz, basata sui documenti rivelati dall'informatrice Frances Haugen sulla diffusione di odio e disinformazione online.",
+      "context": "Il film esplora l'impatto sociale ed economico dei giganti della tecnologia, affrontando temi cruciali come la disinformazione e la responsabilità delle piattaforme digitali. Si inserisce in un filone cinematografico recente che analizza il potere dei magnati del web.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/07/the-social-zuckerberg-e-la-sua-pubblica-piazza-piena-dodio_3657991e-7377-414f-9796-d52bbf4c63ed.html"
+        },
+        {
+          "name": "MilanoToday",
+          "url": "https://www.milanotoday.it/social/segnalazioni/nuove-uscite-cinema-film-8-ottobre-2026.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/7/911dcf7912a9e52d724c2440bc76b391.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/07/the-social-zuckerberg-e-la-sua-pubblica-piazza-piena-dodio_3657991e-7377-414f-9796-d52bbf4c63ed.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale scandalo viene raccontato nel film \"The Social - Il prezzo della verità\"?",
+          "options": [
+            "La fondazione iniziale della piattaforma nel 2004",
+            "La fusione tra Facebook e Instagram",
+            "Lo scandalo dei Facebook Files del 2021",
+            "Il furto dei dati delle carte di credito del 2015"
+          ],
+          "answer": 2,
+          "explanation": "Il film di Aaron Sorkin si concentra sullo scandalo mondiale dei Facebook Files emerso nel 2021 grazie alle rivelazioni dell'informatrice Frances Haugen."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-08-13"
+    },
+    {
+      "category": "storia",
+      "tag": "8 ottobre 2001",
+      "title": "Disastro aereo di Linate",
+      "summary": "L'8 ottobre 2001, all'aeroporto di Milano-Linate, un bimotore Cessna Citation e un aereo di linea della Scandinavian Airlines si sono scontrati in fase di decollo a causa della fitta nebbia, di carenze strutturali dell'aeroporto e di errori umani. Nell'impatto e nel successivo incendio sono morte 118 persone, rendendo l'accaduto l'incidente aereo con più vittime nella storia d'Italia.",
+      "context": "Il disastro ha evidenziato gravi falle nella sicurezza aeroportuale e nella gestione del traffico aereo in condizioni di scarsa visibilità. Ha portato a una profonda ristrutturazione dello scalo di Linate, all'introduzione di standard di sicurezza più rigidi a livello internazionale e all'istituzione della giornata nazionale 'Per non dimenticare'.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Disastro_aereo_di_Linate"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/McDonnell_Douglas_MD-87_%28DC-9-87%29%2C_Scandinavian_Airlines_-_SAS_AN0193728.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:McDonnell_Douglas_MD-87_(DC-9-87)%2C_Scandinavian_Airlines_-_SAS_AN0193728.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quali furono le cause principali del disastro aereo di Linate?",
+          "options": [
+            "Un guasto meccanico improvviso a entrambi i motori del velivolo SAS",
+            "Deficienze strutturali dell'aeroporto e una serie di errori umani",
+            "Un attentato terroristico rivendicato da gruppi ribelli",
+            "Le pessime condizioni meteorologiche estive con forti raffiche di vento"
+          ],
+          "answer": 1,
+          "explanation": "Le indagini hanno stabilito che l'incidente fu causato da carenze strutturali dell'aeroporto e da errori umani legati a procedure ed errati posizionamenti nella nebbia."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-08-14"
+    },
+    {
+      "category": "storia",
+      "tag": "8 ottobre 1604",
+      "title": "L'avvistamento della supernova di Keplero",
+      "summary": "Il 9 ottobre 1604 viene osservata per la prima volta una nuova e luminosissima stella nella nostra galassia, la Via Lattea. L'astronomo tedesco Giovanni Keplero la studia a lungo, legando il suo nome a questo evento visibile a occhio nudo per diciotto mesi.",
+      "context": "Questo evento ha smentito l'antica teoria della perfezione e immutabilità dei cieli, sostenuta da Aristotele e dalla Chiesa. Ha aperto la strada alla rivoluzione scientifica moderna e resta l'ultima supernova osservata direttamente nella nostra galassia.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/SN_1604"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Keplers_supernova.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Keplers_supernova.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha dimostrato l'osservazione della supernova del 1604?",
+          "options": [
+            "Che le stelle possono mutare e nascere",
+            "Che la Terra è al centro dell'universo",
+            "Che la Via Lattea è più piccola del previsto",
+            "Che i pianeti brillano più delle stelle"
+          ],
+          "answer": 0,
+          "explanation": "L'osservazione ha smentito l'ipotesi aristotelica secondo cui il cielo fosse immutabile."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-08-15"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Thomas Chatterton",
+      "title": "Il poeta adolescente che inventò un monaco medievale",
+      "summary": "Nel Settecento il giovane poeta inglese Thomas Chatterton creò un elaborato falso storico, attribuendo le sue poesie a un monaco medievale immaginario di nome Thomas Rowley. Per dare credibilità alle sue opere, scritte in realtà imitando lo stile antico, studiò a fondo i documenti medievali conservati in una chiesa di Bristol. Trasferitosi a Londra per vivere di scrittura, morì suicida per stenti e disperazione nel 1770, a diciassette anni.",
+      "context": "La vicenda di Chatterton si inserisce nel clima culturale della Gran Bretagna del Settecento, divisa tra razionalismo illuminista e un crescente fascino per il passato gotico e medievale. La sua tragica parabola anticipò e ispirò il movimento romantico.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Thomas_Chatterton"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Engraving_Chatterton_%28cropped%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Engraving_Chatterton_(cropped).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Chi era Thomas Rowley nella finzione creata da Thomas Chatterton?",
+          "options": [
+            "Un antico editore di Bristol",
+            "Un monaco medievale inventato dal poeta",
+            "Un famoso nobile inglese del Cinquecento",
+            "Un mecenate realmente esistito"
+          ],
+          "answer": 1,
+          "explanation": "Chatterton inventò l'alter ego Thomas Rowley, un frate medievale a cui attribuì le poesie che scriveva in prima persona."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-08-16"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Henry Hall (guardiano del faro)",
+      "title": "Il guardiano del faro che ingoiò 230 grammi di piombo fuso",
+      "summary": "Nella notte tra il primo e il due dicembre 1755, un incendio distrusse il faro di Eddystone, in Inghilterra. Il guardiano Henry Hall, all'epoca novantaquattrenne, tentò di spegnere le fiamme da solo. Mentre guardava in alto con la bocca aperta, fu investito da un getto di piombo fuso dal soffitto, che ne inghiottì circa 230 grammi. Sopravvissuto per dodici giorni e morto tra le sofferenze, l'evento fu confermato solo dall'autopsia.",
+      "context": "Nel diciottesimo secolo i fari dipendevano da fuochi aperti o candele, rendendo gli incendi un pericolo costante per le strutture in legno. Il caso di Henry Hall divenne celebre nella storia della medicina legale per studiare le ustioni interne estreme.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Henry_Hall_(guardiano_del_faro)"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Phare-d-Eddystone-Rocks.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Phare-d-Eddystone-Rocks.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa accadde a Henry Hall durante l'incendio del faro di Eddystone nel 1755?",
+          "options": [
+            "Fu colpito da un blocco di piombo fuso che ingerì",
+            "Cadde in mare durante la tempesta ed annegò",
+            "Rimase intrappolato nella stanza sottostante senza scampo",
+            "Vigila sul faro fino all'età di cento anni"
+          ],
+          "answer": 0,
+          "explanation": "Mentre cercava di spegnere l'incendio, Hall fu investito da un getto di piombo fuso che gli penetrò in gola, venendo poi estratto durante l'autopsia."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-08-17"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Olivier Messiaen",
+      "title": "La musica nata dietro il filo spinato",
+      "summary": "Nel 1940 il compositore francese Olivier Messiaen fu fatto prigioniero durante l'invasione tedesca della Francia e internato in un campo di lavoro. Trovando per caso tre musicisti tra i compagni e ottenendo il permesso da un ufficiale tedesco appassionato di musica, scrisse una delle sue opere più celebri, il Quartetto per la fine del tempo, eseguito per la prima volta nel campo nel gennaio del 1941 davanti a quattrocento persone tra prigionieri e guardie.",
+      "context": "La composizione in condizioni estreme riflette la drammaticità della seconda guerra mondiale e dei campi di prigionia nazidi. Nonostante la durezza della prigionia, in alcuni casi la musica veniva tollerata o persino incoraggiata dai carcerieri, offrendo ai detenuti una rara forma di sopravvivenza spirituale e umana.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Olivier_Messiaen"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Lezing_Franse_compoist_Olivier_Messiaen_in_Koninklijk_Conservatorium_in_Den_Haa%2C_Bestanddeelnr_933-8262.jpg/1280px-Lezing_Franse_compoist_Olivier_Messiaen_in_Koninklijk_Conservatorium_in_Den_Haa%2C_Bestanddeelnr_933-8262.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Lezing_Franse_compoist_Olivier_Messiaen_in_Koninklijk_Conservatorium_in_Den_Haa%2C_Bestanddeelnr_933-8262.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Dove ha composto il 'Quartetto per la fine del tempo' Olivier Messiaen?",
+          "options": [
+            "Al Conservatorio di Parigi",
+            "In un campo di prigionia tedesco",
+            "Nella chiesa della Sainte-Trinité",
+            "Durante un viaggio in India"
+          ],
+          "answer": 1,
+          "explanation": "Messiaen compose l'opera nel 1940 mentre era internato come prigioniero di guerra nello Stalag VIII-A."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-08-18"
+    }
+  ]
+}
