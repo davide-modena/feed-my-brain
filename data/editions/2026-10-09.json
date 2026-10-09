@@ -1,0 +1,561 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T04:33:08.439Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacco russo su bus a Kramatorsk: decine di vittime civili",
+      "summary": "Un attacco aereo russo con bombe guidate ha colpito due autobus di linea a Kramatorsk, nell'est dell'Ucraina, uccidendo almeno trenta persone e ferendone altre diciotto. Altre tre vittime si registrano nella vicina Bilenke. Di fronte all'intensificarsi dei raid, l'amministrazione regionale ha sospeso il trasporto pubblico ed esortato i residenti a evacuare verso zone più sicure.",
+      "context": "Kramatorsk e Slov\"jansk formano l'ultima linea difensiva controllata da Kiev nel nord del Donec'k, regione che la Russia punta a conquistare del tutto. Il bombardamento coincide con un netto aumento degli attacchi russi e delle perdite tra i civili.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/08/raid-russo-sui-bus-fa-strage-a-kramatorsk-almeno-33-morti_018897e4-3f1d-4038-ae12-ebd2df011b00.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/0a5b/live/25d71060-c2fa-11f1-b8c6-6d610e41a5d9.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale misura hanno adottato le autorità locali subito dopo il raid sui bus a Kramatorsk?",
+          "options": [
+            "La creazione di corridoi umanitari verso il confine russo",
+            "La chiusura immediata delle stazioni ferroviarie regionali",
+            "L'introduzione della legge marziale e del coprifuoco diurno",
+            "La sospensione del trasporto pubblico e l'invito a evacuare"
+          ],
+          "answer": 3,
+          "explanation": "Per tutelare la popolazione dai bombardamenti, l'amministrazione ha bloccato i mezzi pubblici e invitato i cittadini a spostarsi in zone più sicure."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-09-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Deportazioni statunitensi in Africa giudicate illegali",
+      "summary": "L'organizzazione Human Rights Watch ha denunciato come illegali le deportazioni di migranti dagli Stati Uniti verso paesi africani terzi, definendole una misura per sfruttare la sofferenza e scoraggiare l'immigrazione. Secondo il rapporto, dal ritorno di Donald Trump alla presidenza nel 2025 più di 500 persone senza cittadinanza in quei luoghi sono state trasferite in nazioni come Eswatini, Ghana e Sud Sudan, dove avrebbero subito detenzioni arbitrarie e maltrattamenti.",
+      "context": "Le espulsioni verso paesi terzi rappresentano un tema centrale nelle politiche di controllo delle frontiere. La pratica solleva interrogativi sul rispetto del diritto internazionale e sul principio che vieta di rimpatriare persone in luoghi dove rischiano persecuzioni.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gn55433jo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/85e7/live/fdeabc50-c308-11f1-8f04-85217d686658.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c9p8gn55433jo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Cosa denuncia il rapporto di Human Rights Watch sulle deportazioni statunitensi?",
+          "options": [
+            "Che i voli costano troppo per le casse dello Stato",
+            "Che violano gli accordi commerciali con i paesi africani",
+            "Che sono illegali e mirano a scoraggiare l'immigrazione provocando sofferenza",
+            "Che i migranti vengono impiegati in lavori forzati"
+          ],
+          "answer": 2,
+          "explanation": "Il gruppo sostiene che le deportazioni verso paesi terzi non cittadini siano una politica illegale pensata per spaventare e dissuadere i migranti."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-09-1"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Approvata la riforma elettorale: legge sul voto segreto e preferenze",
+      "summary": "La Camera dei Deputati ha approvato, con 227 voti a favore e 164 contrari, la riforma elettorale proposta dal governo Meloni. Il testo introduce un sistema proporzionale con premio di maggioranza per la coalizione che superi il 42 % dei voti, riattiva le preferenze con capilista bloccati e prevede l’indicazione del candidato premier. L’opposizione l’ha definita una “truffa” e annuncia ricorsi alla Corte Costituzionale.",
+      "context": "La riforma cambia il meccanismo elettorale italiano, favorendo una maggioranza stabile e influenzando le elezioni del 2025. La sfida in Corte Costituzionale potrà ritardare o modificare l’applicazione del nuovo sistema.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/08/la-riforma-elettorale-e-legge-lopposizione-una-truffa.-meloni-centrodestra-unito-avanti_356b6a03-efcc-4966-982f-f363b3c3c7fc.html"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/8/d522f6a52097b39c570ec0706bb3fc30.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/08/la-riforma-elettorale-e-legge-lopposizione-una-truffa.-meloni-centrodestra-unito-avanti_356b6a03-efcc-4966-982f-f363b3c3c7fc.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la novità principale introdotta dalla riforma elettorale approvata dalla Camera?",
+          "options": [
+            "Voto elettronico obbligatorio",
+            "Premio di maggioranza per la coalizione vincente",
+            "Sistema maggioritario puro",
+            "Obbligo di alternanza nei capilista"
+          ],
+          "answer": 1,
+          "explanation": "Il testo prevede un premio di maggioranza di 105 seggi per la coalizione che superi il 42 % dei voti, nuova caratteristica della riforma."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-09-2"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Sciopero nazionale di 24 ore dei lavoratori ex Ilva",
+      "summary": "I sindacati hanno proclamato ventiquattro ore di sciopero nazionale in tutti gli stabilimenti dell'ex Ilva, a partire da lunedì. La decisione arriva dopo un incontro a Palazzo Chigi con il governo, in concomitanza con l'annuncio di Acciaierie d'Italia sullo stop agli impianti di Taranto, Genova e Novi Ligure e sulla richiesta di ammortizzatori sociali.",
+      "context": "La crisi dell'ex Ilva rappresenta una delle vicende industriali e occupazionali più complesse in Italia, tra impatto ambientale, tutela della salute e salvaguardia dei posti di lavoro. Nei prossimi mesi sarà cruciale verificare la tenuta degli ammortizzatori sociali e il futuro piano industriale.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/08/i-sindacati-da-lunedi-sciopero-nazionale-ex-ilva-di-24-ore_df14583b-44b1-4574-a8f3-c6ab01e5526e.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2024/6/20/373a94bc3d7c12f942ff39092b8b8d7a.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/08/i-sindacati-da-lunedi-sciopero-nazionale-ex-ilva-di-24-ore_df14583b-44b1-4574-a8f3-c6ab01e5526e.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale decisione hanno preso i sindacati per gli stabilimenti ex Ilva?",
+          "options": [
+            "Un blocco totale delle merci per una settimana",
+            "Le dimissioni in blocco dei rappresentanti",
+            "L'occupazione pacifica di Palazzo Chigi",
+            "Uno sciopero nazionale di 24 ore"
+          ],
+          "answer": 3,
+          "explanation": "I sindacati hanno proclamato ventiquattro ore di sciopero nazionale in seguito agli annunci di stop agli impianti e alla richiesta di cassa integrazione."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-09-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "SpaceX chiede maggiore coordinazione orbitale dopo quasi-collisioni",
+      "summary": "Michael Nicolls, vicepresidente di SpaceX, ha denunciato quasi-collisioni ravvicinate tra i satelliti Starlink durante il Congresso Astronautico Internazionale in Turchia. Ha chiesto una migliore condivisione dei dati di posizione tra gli operatori per gestire il traffico spaziale. Con oltre 11.000 satelliti attivi, Starlink rappresenta circa due terzi dei veicoli in orbita bassa, rendendo la coordinazione cruciale per evitare incidenti.",
+      "context": "La proliferazione di mega-costellazioni come Starlink, Starmind e quelle cinesi aumenta il rischio di collisioni che genererebbero detriti spaziali. L'assenza di trattati globali obbligatori per la condivisione dei dati rende la gestione del traffico orbitale una sfida crescente per la sicurezza spaziale.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/starshipflight14_deploy-1152x648-1791410362.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale richiesta fatta da SpaceX durante il Congresso Astronautico Internazionale?",
+          "options": [
+            "L'obbligo di smantellare tutte le costellazioni concorrenti",
+            "Una migliore condivisione dei dati di posizione tra gli operatori",
+            "La creazione di una nuova agenzia spaziale globale",
+            "Il divieto di lanciare nuovi satelliti in orbita bassa"
+          ],
+          "answer": 1,
+          "explanation": "Nicolls ha sottolineato la necessità di condividere informazioni su dove si trovano e dove vanno i satelliti per migliorare la gestione del traffico spaziale."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-09-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Anthropic lancia scansioni di sicurezza AI gratuite per progetti open‑source",
+      "summary": "L'azienda Anthropic ha lanciato un nuovo servizio gratuito chiamato OSS Scanner, pensato per offrire scansioni di sicurezza periodiche ai progetti open-source che decidono di aderire. Il sistema sfrutta i modelli più avanzati dell'azienda, incluso Claude Mythos, per generare rapporti sulle vulnerabilità in modo rapido e senza revisione umana, con l'obiettivo di offrire un vantaggio difensivo tempestivo ma con il rischio di possibili errori nei report.",
+      "context": "L'uso dell'intelligenza artificiale per individuare difetti informatici è in crescita, ma la gestione di un alto volume di segnalazioni automatiche rappresenta una sfida complessa per molti sviluppatori. È importante monitorare l'efficacia e l'affidabilità di questi strumenti nel tempo.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+      },
+      "quiz": [
+        {
+          "question": "Come funzionano principalmente i rapporti di sicurezza del nuovo OSS Scanner di Anthropic?",
+          "options": [
+            "Vengono prodotti esclusivamente su richiesta manuale degli sviluppatori Linux",
+            "Vengono verificati e filtrati da esperti umani prima dell'invio",
+            "Sono generati interamente dai modelli di intelligenza artificiale senza revisione umana",
+            "Sono a pagamento per tutti i progetti commerciali"
+          ],
+          "answer": 2,
+          "explanation": "I report di OSS Scanner sono interamente generati dai modelli di Anthropic senza una revisione o un triage umano, per consentire scansioni più rapide."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-09-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Drake non presenta i suoi album 2026 per i Grammy 2027",
+      "summary": "Drake non ha inviato alla Recording Academy nessuno dei suoi tre album pubblicati nel 2026 (Iceman, Habibti, Maid of Honour) per la candidatura ai Grammy 2027. La notizia, riportata da Billboard, conferma il suo astensione dalle premiazioni, un trend iniziato dopo le critiche al 2017. Nonostante il successo commerciale, con i tre dischi che hanno occupato le prime tre posizioni della classifica Billboard 200, il rapper ha scelto di non partecipare alla competizione per le categorie generali.",
+      "context": "L'assenza di Drake si inserisce in un contesto di ridotta partecipazione di artisti hip-hop di spicco ai Grammy 2027, affiancato da gruppi come BTS e Stray Kids. Questo segnala una crescente distanza tra il mainstream del rap e l'istituzione accademica, influenzando potenzialmente la percezione di rilevanza delle categorie musicali dell'evento.",
+      "sources": [
+        {
+          "name": "Music Business Worldwide",
+          "url": "https://www.musicbusinessworldwide.com/five-time-grammy-winner-drake-did-not-submit-any-of-his-three-2026-albums-for-consideration-joining-bts-and-stray-kids-in-sitting-out-the-2027-awards-report/"
+        },
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/drake-didnt-submit-any-music-2027-grammy-consideration/"
+        }
+      ],
+      "image": {
+        "url": "https://www.musicbusinessworldwide.com/files/2025/03/Drake.jpg",
+        "credit": "Music Business Worldwide",
+        "link": "https://www.musicbusinessworldwide.com/five-time-grammy-winner-drake-did-not-submit-any-of-his-three-2026-albums-for-consideration-joining-bts-and-stray-kids-in-sitting-out-the-2027-awards-report/"
+      },
+      "quiz": [
+        {
+          "question": "Perché Drake non sarà in lizza per i Grammy 2027?",
+          "options": [
+            "I suoi album non sono stati considerati di qualità sufficiente dalla giuria",
+            "Non ha inviato ufficialmente i suoi lavori alla Recording Academy",
+            "Ha ritirato le candidature dopo averle presentate",
+            "I suoi album sono stati esclusi per motivi contrattuali"
+          ],
+          "answer": 1,
+          "explanation": "Le fonti confermano che Drake non ha inviato alcun materiale, inclusi i tre album del 2026, per la valutazione delle candidature."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-09-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Pacific Music Group apre a Tokyo e firma il rapper JP THE WAVY",
+      "summary": "La società Pacific Music Group ha aperto una sede a Tokyo, chiamata PMG Japan, e ha firmato un contratto a lungo termine con il rapper giapponese JP THE WAVY. L'accordo copre musica registrata, gestione e partnership. Si tratta del primo grande contratto per la nuova sede giapponese dell'azienda, con l'uscita di nuova musica prevista già per questo autunno.",
+      "context": "L'espansione a Tokyo evidenzia l'interesse delle etichette nel connettere la scena musicale asiatica con i mercati occidentali. Mosse di questo tipo mirano a sfruttare la crescente popolarità globale del hip-hop giapponese, offrendo agli artisti una struttura internazionale.",
+      "sources": [
+        {
+          "name": "Music Business Worldwide",
+          "url": "https://www.musicbusinessworldwide.com/pacific-music-group-expands-to-tokyo-with-launch-of-pmg-japan-signs-japanese-rapper-jp-the-wavy/"
+        }
+      ],
+      "image": {
+        "url": "https://www.musicbusinessworldwide.com/files/2026/10/New-Project-7.jpg",
+        "credit": "Music Business Worldwide",
+        "link": "https://www.musicbusinessworldwide.com/pacific-music-group-expands-to-tokyo-with-launch-of-pmg-japan-signs-japanese-rapper-jp-the-wavy/"
+      },
+      "quiz": [
+        {
+          "question": "Quale importante accordo ha annunciato la nuova sede di Tokyo di Pacific Music Group?",
+          "options": [
+            "La fusione con un'etichetta concorrente",
+            "Il ritiro dal mercato asiatico",
+            "La firma del rapper JP THE WAVY",
+            "L'acquisto di uno studio di registrazione"
+          ],
+          "answer": 2,
+          "explanation": "La notizia principale riguarda l'apertura della sede PMG Japan e la firma del rapper JP THE WAVY per un contratto a lungo termine."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-09-7"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Scoperto DRT3: il nuovo sistema di difesa batterica che sfida i dogmi della biologia",
+      "summary": "I ricercatori hanno scoperto DRT3, un sistema di difesa usato dai batteri contro i virus che sfida i dogmi della biologia. Composto da due proteine e un RNA, DRT3 costruisce un filamento di DNA senza utilizzare alcuno stampo preesistente. Mentre la proteina Drt3a usa l'RNA per creare un filamento con ripetizioni GT, la proteina Drt3b genera il filamento complementare AC sfruttando direttamente la forma dei suoi amminoacidi per decidere quali basi inserire.",
+      "context": "Questa scoperta è importante perché mette in discussione il dogma centrale della biologia molecolare, dimostrando che in questo caso è una proteina a guidare la sintesi del DNA. Le ricerche future dovranno chiarire i limiti e la diffusione di questi meccanismi.",
+      "sources": [
+        {
+          "name": "Everyeye Tech",
+          "url": "https://tech.everyeye.it/notizie/clamorosa-scoperta-mette-discussione-dogma-centrale-biologia-conosciuta-904981.html"
+        }
+      ],
+      "image": {
+        "url": "https://images.everyeye.it/img-notizie/una-clamorosa-scoperta-mette-discussione-dogma-centrale-biologia-finora-conosciuta-v3-904981.jpg",
+        "credit": "Everyeye Tech",
+        "link": "https://tech.everyeye.it/notizie/clamorosa-scoperta-mette-discussione-dogma-centrale-biologia-conosciuta-904981.html"
+      },
+      "quiz": [
+        {
+          "question": "Come fa la proteina Drt3b a costruire il filamento di DNA?",
+          "options": [
+            "Utilizzando le istruzioni contenute in un acido nucleico circolare",
+            "Copiando il DNA del virus attaccante",
+            "Sfruttando la forma e la posizione dei suoi amminoacidi senza uno stampo",
+            "Usando una molecola di RNA come stampo"
+          ],
+          "answer": 2,
+          "explanation": "Drt3b costruisce il filamento complementare senza alcuno stampo di DNA o RNA, affidandosi alla disposizione dei suoi amminoacidi per inserire le basi."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-09-8"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "I cani di taglia grande invecchiano più velocemente a livello epigenetico",
+      "summary": "Un studio pubblicato a ottobre su Science ha analizzato i campioni di sangue di quasi 900 cani per capire perché i cani di taglia grande vivano meno rispetto a quelli piccoli. I ricercatori hanno scoperto che i cani grandi invecchiano più rapidamente a livello biologico a causa della perdita di marcatori epigenetici che controllano i cosiddetti geni saltanti, sequenze di DNA capaci di muoversi e danneggiare i cromosomi.",
+      "context": "Nei mammiferi le specie più grandi vivono di solito più a lungo, ma nei cani questa regola si inverte. Capire i meccanismi genetici dell'invecchiamento canino aiuta a studiare il legame tra età biologica, malattie e durata della vita.",
+      "sources": [
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/news/science/articles/big-dogs-age-faster-epigenetic-215911452.html"
+        },
+        {
+          "name": "AOL",
+          "url": "https://www.aol.com/articles/big-dogs-die-younger-scientists-182912000.html"
+        }
+      ],
+      "image": {
+        "url": "https://s.yimg.com/lo/mysterio/api/9b917dd2268f67759ce47e1f4d42406e168396dd2603a853c8398f8c625929a2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Flive_science_953%2F4d043fe7c0a754981ed89efb007478f5.jpg",
+        "credit": "Yahoo",
+        "link": "https://www.yahoo.com/news/science/articles/big-dogs-age-faster-epigenetic-215911452.html"
+      },
+      "quiz": [
+        {
+          "question": "Perché i cani di taglia grande invecchiano più velocemente secondo la ricerca?",
+          "options": [
+            "Perché producono meno globuli rossi",
+            "Perché perdono il controllo sui geni saltanti nel DNA",
+            "Perché fanno meno attività fisica",
+            "Perché mangiano più cibo industriale"
+          ],
+          "answer": 1,
+          "explanation": "Lo studio mostra che i cani grandi perdono i meccanismi di controllo sui geni saltanti, che danneggiano il DNA e accelerano l'invecchiamento."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-09-9"
+    },
+    {
+      "category": "storia",
+      "tag": "9 ottobre 1874",
+      "title": "La nascita dell'Unione postale universale con il Trattato di Berna",
+      "summary": "Il 9 ottobre 1874, con la firma del Trattato di Berna a seguito di una conferenza internazionale tra ventidue nazioni, è stata istituita l'Unione postale universale. L'accordo, ideato dall'ufficiale postale tedesco Heinrich von Stephan, aveva l'obiettivo di unificare i diversi servizi postali e i regolamenti nazionali per consentire il libero scambio della posta internazionale.",
+      "context": "Questo trattato ha superato la frammentazione dei sistemi postali nazionali, gettando le basi per la moderna comunicazione globale e la cooperazione internazionale. Oggi l'organizzazione facilita i flussi di corrispondenza transfrontaliera; in futuro è utile osservare come gestisce la digitalizzazione dei servizi.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Trattato_di_Berna"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Flag_of_UPU.svg/1280px-Flag_of_UPU.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Flag_of_UPU.svg"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato lo scopo principale del Trattato di Berna del 1874?",
+          "options": [
+            "Unificare i servizi postali per permettere il libero scambio della posta internazionale",
+            "Creare una nuova moneta comune per tutti i paesi firmatari",
+            "FONDARE un unico servizio telegrafico gestito dalla Svizzera",
+            "Stabilire le tariffe doganali per le merci in Europa"
+          ],
+          "answer": 0,
+          "explanation": "Il trattato servì proprio a unificare i diversi servizi postali e regolamenti per facilitare la corrispondenza internazionale."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-09-10"
+    },
+    {
+      "category": "storia",
+      "tag": "9 ottobre 1446",
+      "title": "La creazione dell'alfabeto hangůl in Corea",
+      "summary": "Il 9 ottobre 1446 viene creato ufficialmente in Corea l'alfabeto hangůl. Questo nuovo sistema di scrittura nasce per facilitare l'alfabetizzazione della popolazione, offrendo uno strumento fonetico semplice rispetto ai complessi caratteri cinesi utilizzati fino ad allora.",
+      "context": "L'introduzione dell'hangůl ha rivoluzionato la comunicazione scritta in Corea, abbattendo le barriere di classe e riducendo l'analfabetismo. Oggi questo alfabeto rappresenta un pilastro fondamentale dell'identità culturale coreana sia al nord che al sud.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Corea"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Hangeul.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Hangeul.png"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il motivo principale della creazione dell'hangůl nel 1446?",
+          "options": [
+            "Favorire l'alfabetizzazione della popolazione",
+            "Favorire gli scambi commerciali con l'Europa",
+            "Sostituire la lingua parlata",
+            "Adottare i caratteri giapponesi"
+          ],
+          "answer": 0,
+          "explanation": "L'alfabeto fu creato per offrire uno strumento di scrittura semplice che facilitasse l'alfabetizzazione rispetto ai complessi caratteri cinesi."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-09-11"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Massimino il Trace",
+      "title": "L'imperatore che non mise mai piede a Roma",
+      "summary": "Massimino il Trace fu imperatore romano dal 235 al 238. Fu il primo sovrano a raggiungere il potere senza essere cittadino romano né senatore, grazie unicamente all'appoggio delle legioni. Durante i suoi tre anni di regno, trascorsi interamente a combattere lungo i confini, non mise mai piede a Roma.",
+      "context": "Questo regno si inserisce nella crisi del terzo secolo, un periodo di grande instabilità politica in cui il potere passava rapidamente di mano in mano attraverso le armi, segnando l'inizio dell'anarchia militare nell'Impero romano.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Massimino_il_Trace"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Maximinus_Thrax_Musei_Capitolini_MC473.jpg/1280px-Maximinus_Thrax_Musei_Capitolini_MC473.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Maximinus_Thrax_Musei_Capitolini_MC473.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale primato caratterizzò il regno di Massimino il Trace?",
+          "options": [
+            "Fu l'ultimo imperatore di stirpe esclusivamente patrizia",
+            "Fu il più giovane imperatore della storia di Roma",
+            "Fu il primo imperatore a non mettere mai piede a Roma",
+            "Regnò per oltre cinquant'anni senza interruzioni"
+          ],
+          "answer": 2,
+          "explanation": "Massimino il Trace trascorse tutti i suoi tre anni di regno impegnato nelle campagne militari e non visitò mai la capitale."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-09-12"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Giovan Francesco Caroto",
+      "title": "Il fanciullo che disegna come un bambino vero",
+      "summary": "Nel museo di Castelvecchio a Verona è conservato il dipinto \"Fanciullo con disegno\" del pittore cinquecentesco Giovan Francesco Caroto. L'opera raffigura un bambino che mostra un disegno infantile stilizzato, caratterizzato da un tratto volutamente goffo e immaturo. Questo soggetto rappresenta una rarità assoluta per il panorama artistico del XVI secolo, in cui la rappresentazione dell'infanzia seguiva solitamente canoni di perfezione adulta o idealizzata.",
+      "context": "Nel Rinascimento l'arte italiana tendeva a idealizzare i soggetti umani, compresi i bambini, spesso ritratti come piccoli adulti. L'intuizione di Caroto di riprodurre un vero disegno infantile anticipa di secoli l'interesse moderno per l'espressività spontanea dei bambini, un aspetto che la critica d'arte ha iniziato a valorizzare molto più tardi.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Giovan_Francesco_Caroto"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/GiovanFrancescoCaroto.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:GiovanFrancescoCaroto.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale particolarità rende celebre il dipinto \"Fanciullo con disegno\" di Caroto?",
+          "options": [
+            "È l'unico autoritratto noto dell'artista da bambino",
+            "Fu dipinto interamente con la mano sinistra",
+            "Rappresenta un bambino che mostra un disegno infantile e goffo",
+            "Contiene messaggi cifrati sulla storia di Verona"
+          ],
+          "answer": 2,
+          "explanation": "Il dipinto si distingue per la riproduzione realistica di un disegno infantile primitivo, un unicum per l'arte del Cinquecento."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-09-13"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Flavio Torello Baracchini",
+      "title": "Il furto del distintivo che rese famoso l'asso dei cieli",
+      "summary": "Nel 1915, dopo aver ottenuto il brevetto di pilota militare al campo di Venaria Reale, il giovane Flavio Torello Baracchini staccò per impazienza un distintivo da pilota dalla giacca di un capitano per mostrarlo a casa. Il piccolo furto scatenò un'indagine interna: Baracchini confessò alla fine della licenza e non fu punito. Divenne poi uno dei più grandi assi dell'aviazione italiana della prima guerra mondiale, ottenendo 31 vittorie in soli sei mesi.",
+      "context": "Durante la prima guerra mondiale, l'aviazione passò rapidamente da mezzo di ricognizione a strumento di combattimento autonomo. I piloti da caccia godevano di grande popolarità mediatica, e le loro vittorie venivano usate dalla propaganda per sostenere il morale del paese.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Flavio_Torello_Baracchini"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/it/6/6c/Flavio_Torello_Baracchini.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Flavio_Torello_Baracchini.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Flavio Torello Baracchini rischiò un procedimento disciplinare durante l'addestramento?",
+          "options": [
+            "Distrusse un velivolo durante il primo atterraggio",
+            "Abbandonò il campo di addestramento senza permesso",
+            "Staccò un distintivo da pilota dalla giacca di un capitano",
+            "Rubò un aereo per fare un volo non autorizzato"
+          ],
+          "answer": 2,
+          "explanation": "Baracchini prese un distintivo dalla giacca di un superiore per mostrarlo a casa, autodenunciandosi poi al termine della licenza."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-09-14"
+    }
+  ]
+}
