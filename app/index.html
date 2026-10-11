@@ -14,8 +14,15 @@
       // Applica il tema salvato prima del primo disegno, per non vedere il lampo del tema sbagliato.
       try {
         var saved = JSON.parse(localStorage.getItem('feed-my-brain:v2') || '{}');
-        if (saved.theme) document.documentElement.dataset.theme = saved.theme;
-        if (saved.theme === 'nothing') document.querySelector('meta[name="theme-color"]').content = '#0d0d0d';
+        if (saved.theme) {
+          var dark = saved.theme === 'nothing';
+          var color = dark ? '#0d0d0d' : '#f6f1e6';
+          var root = document.documentElement;
+          root.dataset.theme = saved.theme;
+          root.style.colorScheme = dark ? 'dark' : 'light';
+          root.style.backgroundColor = color;
+          document.querySelector('meta[name="theme-color"]').content = color;
+        }
       } catch (e) {}
     </script>
   </head>

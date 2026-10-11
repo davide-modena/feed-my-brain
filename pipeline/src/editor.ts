@@ -2,6 +2,7 @@ import type { Card, CardImage, Category, QuizQuestion, SourceLink } from '../../
 import type { Config, TopicConfig } from './config.ts';
 import { chatJson } from './llm.ts';
 import type { Article, NewsItem } from './news.ts';
+import { checkCardText, longDateIt } from './validate.ts';
 import { wikiImage, type HistoryEvent } from './wikipedia.ts';
 
 const EDITOR_SYSTEM = `Sei il caporedattore di "Feed My Brain", una rassegna quotidiana per un lettore italiano giovane e curioso che vuole capire il mondo e farsi una cultura. Scegli con giudizio giornalistico: rilevanza, impatto, capacità di insegnare qualcosa. Evita cronaca nera locale, gossip, sport minore, clickbait. Rispondi sempre e solo in JSON valido.`;
@@ -9,7 +10,8 @@ const EDITOR_SYSTEM = `Sei il caporedattore di "Feed My Brain", una rassegna quo
 const WRITER_SYSTEM = `Sei un giornalista che scrive per "Feed My Brain". Scrivi in italiano chiaro, preciso e asciutto, senza enfasi né retorica. Spiega le cose come a un amico intelligente che non conosce l'argomento: niente sigle o nomi non spiegati.
 Regole:
 - Racconta LA NOTIZIA: cosa è successo, chi, quando, dove, perché. Il testo deve riguardare il fatto specifico del titolo, non il soggetto in generale.
-- Usa solo i fatti presenti nel materiale. Non inventare cifre, date o citazioni.
+- Scrivi SEMPRE e solo in italiano, anche se il materiale è in inglese o in un'altra lingua: traduci. Vale per titolo, riassunto, contesto, domande, opzioni e spiegazioni. Usa solo l'alfabeto latino: i nomi stranieri si traslitterano, niente caratteri di altri alfabeti.
+- Usa solo i fatti presenti nel materiale. Non inventare cifre, date, giorni della settimana o citazioni. Se il materiale non indica la data, usa "oggi", "ieri" o "nei giorni scorsi", senza il giorno della settimana.
 - Se il materiale è scarso, scrivi di meno. Non riempire con biografie, descrizioni generiche del soggetto o informazioni di contorno.
 - "summary": 50-80 parole.
 - "context": 25-45 parole: perché conta, collegamenti con il quadro generale, cosa tenere d'occhio. Qui puoi usare conoscenze generali consolidate.
@@ -207,15 +209,53 @@ Formato: {"page": "<titolo esatto>"}`;
   return candidates.includes(res.page) ? res.page : candidates[0];
 }
 
-async function writeCard(material: string, instructions: string, quizCount: number): Promise<DraftCard> {
-  const prompt = `${instructions}
+/** Data dell'edizione (YYYY-MM-DD), per dire al modello che giorno è oggi e controllare le date. */
+let editionDate = '';
+export function setEditionDate(date: string) {
+  editionDate = date;
+}
+
+const MAX_WRITE_ATTEMPTS = 3;
+
+/**
+ * Scrive una card e ne controlla il testo (alfabeto, lingua, date). Se qualcosa non va, la fa
+ * riscrivere dicendo al modello cosa correggere; dopo MAX_WRITE_ATTEMPTS tentativi lascia perdere.
+ */
+async function writeCard(
+  material: string,
+  instructions: string,
+  quizCount: number,
+  kind: 'news' | 'wiki',
+): Promise<DraftCard> {
+  const today = editionDate ? `Oggi è ${longDateIt(editionDate)}.\n` : '';
+  const prompt = `${today}${instructions}
 
 Genera esattamente ${quizCount} ${quizCount === 1 ? 'domanda' : 'domande'} di quiz.
 Formato: {"title":"titolo breve e chiaro","summary":"...","context":"...","imageSubject":"...","quiz":[{"question":"...","options":["...","...","...","..."],"answer":0,"explanation":"..."}]}
 
 MATERIALE:
 ${material}`;
-  return chatJson<DraftCard>(WRITER_SYSTEM, prompt, 0.4);
+
+  let problems: string[] = [];
+  for (let attempt = 1; attempt <= MAX_WRITE_ATTEMPTS; attempt++) {
+    const fix = problems.length
+      ? `\n\nATTENZIONE: la versione precedente non andava, correggi: ${problems.join('; ')}.`
+      : '';
+    const draft = await chatJson<DraftCard>(WRITER_SYSTEM, prompt + fix, 0.4);
+    const texts = [
+      draft.title,
+      draft.summary,
+      draft.context,
+      ...(draft.quiz ?? []).flatMap((q) => [q.question, q.explanation, ...(q.options ?? [])]),
+    ];
+    problems = checkCardText(texts, {
+      date: editionDate || new Date().toISOString().slice(0, 10),
+      news: kind === 'news',
+    });
+    if (problems.length === 0) return draft;
+    console.warn(`↻  Card da riscrivere (${attempt}/${MAX_WRITE_ATTEMPTS}): ${problems.join('; ').slice(0, 160)}`);
+  }
+  throw new Error(`Card scartata dopo ${MAX_WRITE_ATTEMPTS} tentativi: ${problems.join('; ').slice(0, 160)}`);
 }
 
 export async function writeNewsCard(
@@ -236,6 +276,7 @@ export async function writeNewsCard(
     material,
     `Scrivi la card per la notizia "${story.title}", unendo le informazioni di tutte le fonti.`,
     quizCount,
+    'news',
   );
   const sources: SourceLink[] = story.items.slice(0, 3).map((i) => ({ name: i.source, url: i.link }));
   // Prima l'immagine dell'articolo (copertina o feed), poi Wikipedia sul soggetto.
@@ -258,7 +299,7 @@ export async function writeWikiCard(
   instructions: string,
   quizCount: number,
 ): Promise<Omit<Card, 'id'>> {
-  const draft = await writeCard(`### ${article.title}\n${article.text}`, instructions, quizCount);
+  const draft = await writeCard(`### ${article.title}\n${article.text}`, instructions, quizCount, 'wiki');
   // Il soggetto indicato dal modello (es. Napoleone) e, in mancanza, l'immagine della voce stessa.
   const image = (await subjectImage(draft.imageSubject)) ?? (await subjectImage(article.title));
   return finalize(draft, category, tag, [{ name: 'Wikipedia', url: article.url }], image);

@@ -32,6 +32,15 @@ export function recentCards(days = 7): Pick<Card, 'title' | 'tag' | 'category'>[
     .flatMap((d) => readEdition(d).cards.map(({ title, tag, category }) => ({ title, tag, category })));
 }
 
+/** Titoli delle voci di Wikipedia usate come curiosità in tutte le edizioni passate, dalla più vecchia. */
+export function pastCuriosityTags(): string[] {
+  const today = romeDate();
+  return listEditionDates()
+    .filter((d) => d < today)
+    .reverse() // listEditionDates() è dalla più recente
+    .flatMap((d) => readEdition(d).cards.filter((c) => c.category === 'curiosita').map((c) => c.tag));
+}
+
 /** Link degli articoli già usati come fonte nei giorni precedenti a oggi. */
 export function recentSourceLinks(days = 7): Set<string> {
   const today = romeDate();

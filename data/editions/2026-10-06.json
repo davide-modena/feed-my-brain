@@ -217,9 +217,9 @@
     {
       "category": "interessi",
       "tag": "Tech e AI",
-      "title": "Google expands Call for Me to message friends and family",
-      "summary": "Google may expand its ‘Call for Me’ AI feature beyond business calls to let users send short messages to friends and family via phone. An APK teardown revealed a ‘Gemini Calling’ screen with examples such as calling Mom to say you’ll be 15 minutes late or asking John about dinner plans, indicating the AI will handle brief, text‑like calls.",
-      "context": "The expansion could help people who prefer voice calls over texts, such as older relatives or those with limited texting habits, while granular app permissions let users control which apps can trigger Gemini calls, addressing privacy concerns about unsolicited automated calls.",
+      "title": "Google amplia Call for Me per inviare messaggi a amici e familiari",
+      "summary": "Google potrebbe ampliare la sua funzione AI 'Call for Me' oltre le chiamate di lavoro per permettere agli utenti di inviare brevi messaggi a amici e familiari via telefono. Un'analisi di un APK ha rivelato una schermata 'Gemini Calling' con esempi come chiamare la mamma per dire che arriverai con 15 minuti di ritardo o chiedere a John i piani per la cena, indicando che l'AI gestira' chiamate brevi simili a messaggi di testo.",
+      "context": "L'espansione potrebbe aiutare le persone che preferiscono le chiamate vocali ai messaggi di testo, come i parenti anziani o chi ha abitudini limitate di texting, mentre le autorizzazioni granulari delle app consentono agli utenti di controllare quali app possono attivare le chiamate Gemini, affrontando le preoccupazioni sulla privacy relative a chiamate automatiche non richieste.",
       "sources": [
         {
           "name": "The Verge",
@@ -233,15 +233,15 @@
       },
       "quiz": [
         {
-          "question": "What does the expanded Gemini Call for Me feature aim to do, based on the APK teardown examples?",
+          "question": "Cosa mira a fare la funzione Gemini Call for Me ampliata, secondo gli esempi dell'analisi dell'APK?",
           "options": [
-            "Send short messages like telling mom you'll be late",
-            "Replace all text messaging",
-            "Block incoming calls",
-            "Make full-length phone calls with relatives"
+            "Inviare brevi messaggi come dire alla mamma che arriverai in ritardo",
+            "Sostituire tutti i messaggi di testo",
+            "Bloccare le chiamate in arrivo",
+            "Effettuare chiamate lunghe con i parenti"
           ],
           "answer": 0,
-          "explanation": "The examples show the AI delivering brief messages, such as informing Mom of a delay or asking John about dinner, rather than conducting full conversations."
+          "explanation": "Gli esempi mostrano l'AI che fornisce messaggi brevi, come informare la mamma di un ritardo o chiedere a John i piani per la cena, piuttosto che condurre conversazioni complete."
         }
       ],
       "topic": "tech",
@@ -323,9 +323,9 @@
     {
       "category": "interessi",
       "tag": "Scienza",
-      "title": "Five hidden subtypes of common liver disease identified",
-      "summary": "Researchers at Mayo Clinic and Virginia Tech analyzed genetic and clinical data from over 4,600 patients with metabolic dysfunction-associated steatotic liver disease (MASLD) and identified five biologically distinct subtypes. Each subtype follows different pathways and carries varying risks for heart disease, liver failure, cancer and transplantation, revealing that MASLD is not a single condition.",
-      "context": "Understanding that MASLD comprises multiple subtypes helps explain varied patient outcomes and opens the door to targeted therapies based on underlying biology, potentially improving prevention and treatment strategies for a disease affecting nearly 30% of adults worldwide.",
+      "title": "Cinque sottotipi nascosti di comuni malattie epatiche identificati",
+      "summary": "Ricercatori del Mayo Clinic e della Virginia Tech hanno analizzato dati genetici e clinici di oltre 4600 pazienti con steatosi epatica associata a disfunzione metabolica (MASLD) e hanno identificato cinque sottotipi biologicamente distinti. Ogni sottotipo segue percorsi diversi e comporta rischi variabili per malattie cardiache, insufficienza epatica, cancro e trapianto, rivelando che la MASLD non è una condizione unica.",
+      "context": "Comprendere che la MASLD comprende molteplici sottotipi aiuta a spiegare i risultati variabili dei pazienti e apre la strada a terapie mirate basate sulla biologia sottostante, potenzialmente migliorando le strategie di prevenzione e trattamento per una malattia che colpisce quasi il 30% degli adulti nel mondo.",
       "sources": [
         {
           "name": "SciTechDaily",
@@ -339,15 +339,15 @@
       },
       "quiz": [
         {
-          "question": "What did researchers discover about metabolic dysfunction-associated steatotic liver disease (MASLD)?",
+          "question": "Cosa hanno scoperto i ricercatori sulla steatosi epatica associata a disfunzione metabolica (MASLD)?",
           "options": [
-            "They discovered MASLD is caused by alcohol.",
-            "They found a single new treatment for MASLD.",
-            "They identified five distinct subtypes of MASLD with different risks.",
-            "They proved MASLD only affects obese people."
+            "Hanno scoperto che la MASLD è causata dall'alcol.",
+            "Hanno trovato un unico nuovo trattamento per la MASLD.",
+            "Hanno identificato cinque sottotipi distinti di MASLD con rischi diversi.",
+            "Hanno dimostrato che la MASLD colpisce solo le persone obese."
           ],
           "answer": 2,
-          "explanation": "The study revealed five biologically distinct subtypes of MASLD, each with unique pathways and varying risks for complications such as heart disease, liver failure, cancer and transplantation."
+          "explanation": "Lo studio ha rivelato cinque sottotipi biologicamente distinti di MASLD, ognuno con percorsi unici e rischi variabili per complicazioni come malattie cardiache, insufficienza epatica, cancro e trapianto."
         }
       ],
       "topic": "scienza",
@@ -357,9 +357,9 @@
     {
       "category": "interessi",
       "tag": "Scienza",
-      "title": "Nobel Prize in Medicine 2026 awarded for optogenetics breakthrough",
-      "summary": "The 2026 Nobel Prize in Physiology or Medicine was awarded to Karl Deisseroth, Peter Hegemann and Georg Nagel for developing optogenetics, a technique that uses light to control specific neurons in living brains, enabling precise study of brain circuits linked to behavior and disease.",
-      "context": "Optogenetics has transformed neuroscience by allowing researchers to turn neurons on or off with light, providing insights into conditions such as depression and Alzheimer's and opening paths to potential therapies.",
+      "title": "Premio Nobel per la Medicina 2026 assegnato per la scoperta dell'optogenetica",
+      "summary": "Il Premio Nobel per la Fisiologia o Medicina 2026 è stato assegnato a Karl Deisseroth, Peter Hegemann e Georg Nagel per lo sviluppo dell'optogenetica, una tecnica che utilizza la luce per controllare neuroni specifici nei cervelli viventi, consentendo lo studio preciso dei circuiti cerebrali legati al comportamento e alle malattie.",
+      "context": "L'optogenetica ha trasformato le neuroscienze permettendo ai ricercatori di attivare o inibire i neuroni con la luce, fornendo intuizioni su condizioni come la depressione e l'Alzheimer e aprendo percorsi verso potenziali terapie.",
       "sources": [
         {
           "name": "WRTV",
@@ -377,15 +377,15 @@
       },
       "quiz": [
         {
-          "question": "For what achievement were the 2026 Nobel laureates in Medicine awarded the prize?",
+          "question": "Per quale risultato sono stati premiati i laureati Nobel 2026 in Medicina?",
           "options": [
-            "Discovery of the CRISPR gene-editing system",
-            "Development of optogenetics to control neurons with light",
-            "First complete sequencing of the human genome",
-            "Invention of magnetic resonance imaging (MRI)"
+            "Scoperta del sistema di editing genetico CRISPR",
+            "Sviluppo dell'optogenetica per controllare i neuroni con la luce",
+            "Prima sequenza completa del genoma umano",
+            "Invento della risonanza magnetica (MRI)"
           ],
           "answer": 1,
-          "explanation": "The prize recognized their work creating optogenetics, a method that uses light to switch specific nerve cells on or off to study brain function."
+          "explanation": "Il premio ha riconosciuto il loro lavoro nella creazione dell'optogenetica, un metodo che utilizza la luce per accendere o spegnere specifiche cellule nervose per studiare la funzione cerebrale."
         }
       ],
       "topic": "scienza",

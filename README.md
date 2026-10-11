@@ -56,9 +56,9 @@ L'app sarà su `https://<utente>.github.io/feed-my-brain/`.
 
 Il catalogo degli argomenti (Tech e AI, Hip hop, Scienza, Economia, Cinema, Sport…) sta in `pipeline/config.yaml`, sotto `topics`.
 
-Ogni giorno la pipeline genera più card di quante ne legga una persona (vedi `edition` in `config.yaml`). Nell'app ognuno sceglie, al primo avvio o dalle impostazioni, quali argomenti seguire e quante card vedere per sezione (Mondo, Italia, ogni argomento, Accadde oggi, Curiosità), fino a 10 al giorno. Le scelte restano salvate sul dispositivo.
+Ogni giorno la pipeline genera una card per sezione: Mondo, Italia, ogni argomento, Accadde oggi e Curiosità (vedi `edition` in `config.yaml`). Nell'app ognuno sceglie, al primo avvio o dalle impostazioni, quali argomenti seguire e se vedere "Accadde oggi" e le curiosità storiche. La scelta resta salvata sul dispositivo. Il numero di card per sezione non è modificabile dall'utente: lo decide `config.yaml`.
 
-Per aggiungere un argomento basta una nuova voce con `id`, `label`, `description` e alcune `queries` (ricerche su Bing News) o `feeds` RSS. Descrizioni e query devono restare **generiche**: un nome proprio (un'azienda, un artista) diventerebbe il protagonista fisso di ogni edizione. Ogni argomento in più costa qualche chiamata all'LLM al giorno.
+Per aggiungere un argomento basta una nuova voce con `id`, `label`, `description` e alcune `queries` (ricerche su Bing News) o `feeds` RSS. Descrizioni e query devono restare **generiche**: un nome proprio (un'azienda, un artista) diventerebbe il protagonista fisso di ogni edizione. Ogni argomento in più costa una card e qualche chiamata all'LLM al giorno.
 
 Le curiosità storiche vengono pescate a caso tra le voci "in vetrina" e "di qualità" di Wikipedia italiana delle aree elencate in `curiosities.areas` (storia, biografie, arte…), così epoche e luoghi variano da soli.
 

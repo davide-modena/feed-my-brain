@@ -38,6 +38,21 @@ export function App() {
 
   useLayoutEffect(() => applyTheme(store.theme), [store.theme]);
 
+  // Android può rimettere i colori di sistema quando l'app torna in primo piano: si riapplicano.
+  useEffect(() => {
+    const reapply = () => {
+      if (document.visibilityState === 'visible') applyTheme(storeRef.current.theme);
+    };
+    document.addEventListener('visibilitychange', reapply);
+    window.addEventListener('pageshow', reapply);
+    const late = setTimeout(reapply, 500); // dopo che la finestra di sistema è pronta
+    return () => {
+      document.removeEventListener('visibilitychange', reapply);
+      window.removeEventListener('pageshow', reapply);
+      clearTimeout(late);
+    };
+  }, []);
+
   // Letti anche dai listener registrati una volta sola: servono sempre i valori aggiornati.
   const storeRef = useRef(store);
   storeRef.current = store;

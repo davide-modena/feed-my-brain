@@ -18,6 +18,7 @@ import {
   pickHistoryEvent,
   selectNews,
   selectTopic,
+  setEditionDate,
   writeNewsCard,
   writeWikiCard,
   type StoryPick,
@@ -25,7 +26,7 @@ import {
 import { activeProvider, llmUsage } from './llm.ts';
 import { collectNews, fetchArticle, type Article } from './news.ts';
 import { notify } from './notify.ts';
-import { editionPath, recentCards, recentSourceLinks, writeEdition } from './store.ts';
+import { editionPath, pastCuriosityTags, recentCards, recentSourceLinks, writeEdition } from './store.ts';
 import { pickRandom, romeDate } from './util.ts';
 import { featuredArticles, onThisDay, pageExtract, type HistoryEvent } from './wikipedia.ts';
 
@@ -34,6 +35,7 @@ type DraftCard = Omit<Card, 'id'>;
 const args = new Set(process.argv.slice(2));
 const dry = args.has('--dry');
 const date = romeDate();
+setEditionDate(date);
 const config = loadConfig();
 
 if (!dry && !args.has('--force') && existsSync(editionPath(date))) {
@@ -68,7 +70,12 @@ const recent = recentList.map((c) => c.title);
 const CURIOSITY_CANDIDATES = 60;
 let curiosityPool: string[] | null = null;
 // Voci già raccontate nei giorni scorsi (il tag delle curiosità è il titolo della voce) e oggi.
-const usedArticles = new Set(recentList.filter((c) => c.category === 'curiosita').map((c) => c.tag));
+// Voci già raccontate in TUTTE le edizioni passate (il tag delle curiosità è il titolo della voce),
+// dalla più vecchia alla più recente: la finestra di 7 giorni dei titoli recenti non basta, una
+// curiosità tornava dopo 8-10 giorni.
+const pastCuriosities = [...new Set(pastCuriosityTags())];
+const usedArticles = new Set(pastCuriosities);
+let poolRecycled = false;
 const usedEvents = new Set<string>();
 const quizCount = config.edition.quizPerCard;
 const written = (list: DraftCard[][]) => list.flat().map((c) => c.title);
@@ -210,14 +217,32 @@ const sections: Section[] = [
     notes: [],
     async next() {
       curiosityPool ??= await featuredArticles(config.curiosities.areas);
-      // Estrazione casuale dal bacino, escluse le voci già usate di recente: è questo a garantire la varietà.
-      const fresh = curiosityPool.filter((t) => !usedArticles.has(t));
-      if (fresh.length === 0) return null;
-      const candidates = pickRandom(fresh, CURIOSITY_CANDIDATES);
-      const page = await pickCuriosity(candidates, [...recent, ...written(sections.map((s) => s.cards))]);
-      usedArticles.add(page);
-      const article = await pageExtract(page);
-      if (!article) throw new Error(`voce "${page}" non trovata`);
+      let fresh = curiosityPool.filter((t) => !usedArticles.has(t));
+      // Bacino quasi esaurito: si "dimenticano" le voci raccontate più tempo fa, così si riparte
+      // dalle più vecchie e una stessa voce non torna mai a distanza di pochi giorni.
+      if (fresh.length < CURIOSITY_CANDIDATES && !poolRecycled) {
+        poolRecycled = true;
+        for (const t of pastCuriosities.slice(0, Math.ceil(pastCuriosities.length / 2))) usedArticles.delete(t);
+        fresh = curiosityPool.filter((t) => !usedArticles.has(t));
+        console.log(`♻️  Bacino curiosità quasi esaurito: riammesse ${fresh.length} voci tra le più vecchie`);
+      }
+      // Estrazione casuale dal bacino: è questo, non il modello, a garantire la varietà.
+      let article: Awaited<ReturnType<typeof pageExtract>> = null;
+      let page = '';
+      // Un redirect può far comparire la voce con un altro titolo: se è già stata usata, si riprova.
+      for (let attempt = 0; attempt < 3 && fresh.length > 0; attempt++) {
+        const candidates = pickRandom(fresh, CURIOSITY_CANDIDATES);
+        page = await pickCuriosity(candidates, [...recent, ...written(sections.map((s) => s.cards))]);
+        usedArticles.add(page);
+        fresh = fresh.filter((t) => t !== page);
+        const extract = await pageExtract(page);
+        if (!extract) throw new Error(`voce "${page}" non trovata`);
+        if (usedArticles.has(extract.title) && extract.title !== page) continue;
+        usedArticles.add(extract.title);
+        article = extract;
+        break;
+      }
+      if (!article) return null;
       console.log(`💡 ${article.title}`);
       return writeWikiCard(
         article,

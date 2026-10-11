@@ -14,24 +14,11 @@ export interface EditionProgress {
   done?: boolean;
 }
 
-/** Quante card vedere per sezione ("perTopic" vale per ciascun argomento seguito). */
-export interface SectionCounts {
-  mondo: number;
-  italia: number;
-  perTopic: number;
-  storia: number;
-  curiosita: number;
-}
-
-/** Massimi per sezione: quante card ne genera ogni giorno la pipeline (pipeline/config.yaml). */
-export const COUNT_LIMITS: SectionCounts = { mondo: 2, italia: 2, perTopic: 2, storia: 2, curiosita: 3 };
-export const MAX_CARDS = 10;
-const DEFAULT_COUNTS: SectionCounts = { mondo: 1, italia: 1, perTopic: 1, storia: 1, curiosita: 1 };
-
 export interface Preferences {
   /** Argomenti scelti; null = non ancora scelti (mostra l'onboarding). */
   topics: string[] | null;
-  counts: SectionCounts;
+  storia: boolean;
+  curiosita: boolean;
 }
 
 export type Theme = 'classico' | 'nothing';
@@ -52,18 +39,22 @@ const KEY = 'feed-my-brain:v2';
 const EMPTY: StoreState = {
   progress: {},
   streak: { count: 0, last: null },
-  prefs: { topics: null, counts: DEFAULT_COUNTS },
+  prefs: { topics: null, storia: true, curiosita: true },
   theme: 'classico',
 };
 
-/** Converte le preferenze salvate dalle versioni precedenti (storia/curiosità come sì/no). */
-function migratePrefs(saved: Partial<Preferences> & { storia?: boolean; curiosita?: boolean } = {}): Preferences {
-  const counts = { ...DEFAULT_COUNTS, ...saved.counts };
-  if (!saved.counts) {
-    if (saved.storia === false) counts.storia = 0;
-    if (saved.curiosita === false) counts.curiosita = 0;
-  }
-  return { topics: saved.topics ?? null, counts };
+/**
+ * Converte le preferenze salvate da versioni precedenti: il numero di card per sezione non si
+ * sceglie più, e una sezione portata a 0 diventa "nascosta".
+ */
+function migratePrefs(
+  saved: Partial<Preferences> & { counts?: { storia?: number; curiosita?: number } } = {},
+): Preferences {
+  return {
+    topics: saved.topics ?? null,
+    storia: saved.counts ? (saved.counts.storia ?? 1) > 0 : saved.storia !== false,
+    curiosita: saved.counts ? (saved.counts.curiosita ?? 1) > 0 : saved.curiosita !== false,
+  };
 }
 
 function load(): StoreState {
@@ -98,9 +89,20 @@ export function useStore() {
 
 /** Applica il tema alla pagina (attributo su <html> e colore della barra di sistema). */
 export function applyTheme(theme: Theme) {
-  document.documentElement.dataset.theme = theme;
+  const root = document.documentElement;
   const color = THEMES.find((t) => t.id === theme)?.color;
-  if (color) document.querySelector('meta[name="theme-color"]')?.setAttribute('content', color);
+  root.dataset.theme = theme;
+  // Dice a Chrome/Android se il fondo è chiaro o scuro: da qui dipende anche il colore dei tasti di sistema.
+  root.style.colorScheme = theme === 'nothing' ? 'dark' : 'light';
+  if (color) {
+    root.style.backgroundColor = color;
+    // Il tag va sostituito, non modificato: così Chrome rilegge il colore anche per la barra in basso.
+    document.querySelectorAll('meta[name="theme-color"]').forEach((m) => m.remove());
+    const meta = document.createElement('meta');
+    meta.name = 'theme-color';
+    meta.content = color;
+    document.head.appendChild(meta);
+  }
 }
 
 export function localDate(d = new Date()) {
@@ -140,32 +142,15 @@ export function activeTopics(edition: Edition, prefs: Preferences): string[] {
   return prefs.topics ?? (edition.topics ?? []).filter((t) => t.default).map((t) => t.id);
 }
 
-/** Totale di card al giorno con questi dosaggi e questo numero di argomenti seguiti. */
-export function totalCards(counts: SectionCounts, topicCount: number) {
-  return counts.mondo + counts.italia + counts.perTopic * topicCount + counts.storia + counts.curiosita;
-}
-
-/** Sezione di una card; le edizioni precedenti al campo `section` la ricavano da categoria e tag. */
-function sectionOf(c: Card): string {
-  if (c.section) return c.section;
-  if (c.category === 'attualita') return c.tag === 'Italia' ? 'italia' : 'mondo';
-  if (c.category === 'interessi') return c.topic ?? 'altro';
-  return c.category;
-}
-
-/** Le card da mostrare: per ogni sezione le prime N, secondo i dosaggi scelti. */
+/** Le card da mostrare: quelle dell'edizione per gli argomenti seguiti (quante, lo decide la pipeline). */
 export function visibleCards(edition: Edition, prefs: Preferences): Card[] {
-  const { counts } = prefs;
-  const take = (section: string, n: number) => edition.cards.filter((c) => sectionOf(c) === section).slice(0, n);
-  const known = new Set(['mondo', 'italia', 'storia', 'curiosita', ...(edition.topics ?? []).map((t) => t.id)]);
-  return [
-    ...edition.cards.filter((c) => !known.has(sectionOf(c))), // es. la card di benvenuto dell'esempio
-    ...take('mondo', counts.mondo),
-    ...take('italia', counts.italia),
-    ...activeTopics(edition, prefs).flatMap((t) => take(t, counts.perTopic)),
-    ...take('storia', counts.storia),
-    ...take('curiosita', counts.curiosita),
-  ].slice(0, MAX_CARDS);
+  const topics = activeTopics(edition, prefs);
+  return edition.cards.filter((c) => {
+    if (c.category === 'storia') return prefs.storia;
+    if (c.category === 'curiosita') return prefs.curiosita;
+    if (c.topic) return topics.includes(c.topic);
+    return true;
+  });
 }
 
 export interface QuizItem {

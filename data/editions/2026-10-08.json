@@ -315,9 +315,9 @@
     {
       "category": "interessi",
       "tag": "Scienza",
-      "title": "Stanford researchers develop two‑part molecule that turns lymphoma driver into kill switch",
-      "summary": "Stanford Medicine scientists created a bifunctional small molecule that binds the lymphoma‑promoting protein BCL6 and links it to a death‑activating protein. In mice with aggressive B‑cell lymphoma, twice‑daily dosing eliminated tumors in 11 days. The approach rewires the cancer driver to trigger apoptosis rather than merely inhibiting it, and the study was published in Cell.",
-      "context": "The work shows a new way to exploit a cancer‑specific protein, potentially extending to other tumours and autoimmune diseases, and highlights molecular rewiring as an emerging therapeutic strategy.",
+      "title": "Ricercatori di Stanford sviluppano molecola a due parti che trasforma il driver del linfoma in un interruttore di morte",
+      "summary": "Gli scienziati di Stanford Medicine hanno creato una piccola molecola bifunzionale che si lega alla proteina promotrice del linfoma BCL6 e la collega a una proteina che attiva la morte cellulare. Nei topi con linfoma aggressivo a cellule B, una somministrazione due volte al giorno ha eliminato i tumori in 11 giorni. L'approccio riconfigura il driver del cancro per innescare l'apoptosi anziché limitarlo, e lo studio è stato pubblicato su Cell.",
+      "context": "Il lavoro mostra un nuovo modo di sfruttare una proteina specifica del cancro, potenzialmente estendibile ad altri tumori e malattie autoimmuni, e mette in evidenza la riorganizzazione molecolare come strategia terapeutica emergente.",
       "sources": [
         {
           "name": "Mirage News",
@@ -331,15 +331,15 @@
       },
       "quiz": [
         {
-          "question": "How does the new two‑part molecule combat B‑cell lymphoma?",
+          "question": "Come combatte la nuova molecola a due parti il linfoma a cellule B?",
           "options": [
-            "It links BCL6 to a protein that activates cell death",
-            "It stimulates the immune system",
-            "It degrades BCL6",
-            "It blocks BCL6 activity"
+            "Collega BCL6 a una proteina che attiva la morte cellulare",
+            "Stimola il sistema immunitario",
+            "Degrada BCL6",
+            "Blocca l'attività di BCL6"
           ],
           "answer": 0,
-          "explanation": "The molecule connects BCL6 to a death‑inducing protein, converting the cancer driver into a trigger for apoptosis."
+          "explanation": "La molecola collega BCL6 a una proteina che induce la morte, trasformando il driver del cancro in un innesco per l'apoptosi."
         }
       ],
       "topic": "scienza",

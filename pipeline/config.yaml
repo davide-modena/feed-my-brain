@@ -4,14 +4,15 @@
 # Regola d'oro per fonti, query e descrizioni: restare GENERICI. Un nome proprio qui
 # (un'azienda, un artista, un evento) diventa il protagonista fisso di ogni edizione.
 
-# Quante card generare ogni giorno per sezione. L'edizione ne contiene più di quante ne legga
-# una persona: nell'app ognuno sceglie quante vederne per sezione (fino a 10 in tutto).
+# Quante card generare ogni giorno per sezione: è anche quanto vede chi segue quella sezione.
+# Le curiosità pescano da un bacino di circa 380 voci di Wikipedia senza ripetersi: con 1 al
+# giorno bastano per oltre un anno, con 2 per circa 6 mesi, con 3 per circa 4.
 edition:
-  mondo: 2          # attualità internazionale
-  italia: 2         # attualità italiana
-  perTopic: 2       # per ogni argomento del catalogo
-  storia: 2         # accadde oggi (Wikipedia)
-  curiosita: 3      # curiosità storiche (Wikipedia)
+  mondo: 1          # attualità internazionale
+  italia: 1         # attualità italiana
+  perTopic: 1       # per ogni argomento del catalogo
+  storia: 1         # accadde oggi (Wikipedia)
+  curiosita: 1      # curiosità storiche (Wikipedia)
   quizPerCard: 1    # domande per card, raccolte nel quiz finale
 
 # Feed per l'attualità generale
