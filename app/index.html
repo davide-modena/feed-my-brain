@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#f6f1e6" />
+    <meta name="theme-color" content="#0d0d0d" />
     <meta name="description" content="La tua dose quotidiana di attualità, storia e curiosità, con quiz per fissarla." />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -14,15 +14,14 @@
       // Applica il tema salvato prima del primo disegno, per non vedere il lampo del tema sbagliato.
       try {
         var saved = JSON.parse(localStorage.getItem('feed-my-brain:v2') || '{}');
-        if (saved.theme) {
-          var dark = saved.theme === 'nothing';
-          var color = dark ? '#0d0d0d' : '#f6f1e6';
-          var root = document.documentElement;
-          root.dataset.theme = saved.theme;
-          root.style.colorScheme = dark ? 'dark' : 'light';
-          root.style.backgroundColor = color;
-          document.querySelector('meta[name="theme-color"]').content = color;
-        }
+        var theme = saved.theme || 'classico';
+        var dark = theme === 'nothing';
+        var color = dark ? '#0d0d0d' : '#f6f1e6';
+        var root = document.documentElement;
+        root.dataset.theme = theme;
+        root.style.colorScheme = dark ? 'dark' : 'light';
+        root.style.backgroundColor = color;
+        document.querySelector('meta[name="theme-color"]').content = color;
       } catch (e) {}
     </script>
   </head>

@@ -27,8 +27,10 @@ export default defineConfig({
         start_url: '.',
         scope: '.',
         display: 'standalone',
-        background_color: '#f6f1e6',
-        theme_color: '#f6f1e6',
+        // Scuri: su Android la striscia sotto l'app (barra di navigazione) prende il colore del
+        // manifest, non quello della pagina. Lo stato di tema chiaro cambia solo il colore in alto.
+        background_color: '#0d0d0d',
+        theme_color: '#0d0d0d',
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
