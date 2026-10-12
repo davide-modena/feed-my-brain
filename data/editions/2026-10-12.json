@@ -1,0 +1,362 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T04:31:56.041Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Corea del Nord lancia missili balistici nel Mar del Giappone, condanna di Seul e Tokyo",
+      "summary": "La Corea del Nord ha lanciato, intorno alle 9:20, diversi missili balistici verso il Mar del Giappone, con uno che ha percorso più di 900 km prima di cadere in mare. Il Giappone ha rilevato almeno due proiettili, fuori dalla sua zona economica esclusiva, senza danni. Seoul ha tenuto una riunione d’emergenza, condannando i lanci come violazione delle risoluzioni ONU e li ha definiti una dimostrazione di forza in risposta al recente test ipersonico sudcoreano.",
+      "context": "Il lancio aumenta le tensioni nella penisola coreana, dove la Corea del Nord risponde ai recenti test ipersonici di Seul e alle pressioni internazionali. Gli osservatori seguiranno le reazioni di Washington e le prossime mosse di Pyongyang.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/10/la-corea-del-nord-lancia-missili-balistici-nel-mar-del-giappone-condanna-di-seul-e-tokyo-c6af4e7c-8411-47a3-8105-cd4ae7bb8bd6.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/12/1791772612625_DXKDX.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/articoli/2026/10/la-corea-del-nord-lancia-missili-balistici-nel-mar-del-giappone-condanna-di-seul-e-tokyo-c6af4e7c-8411-47a3-8105-cd4ae7bb8bd6.html"
+      },
+      "quiz": [
+        {
+          "question": "Secondo Seoul, i lanci nordcoreani sono una risposta a cosa?",
+          "options": [
+            "Il recente test ipersonico sudcoreano",
+            "Una prova di capacità nucleare",
+            "Una ribellione interna",
+            "Un addestramento militare"
+          ],
+          "answer": 0,
+          "explanation": "Seoul ha dichiarato che i lanci sono una dimostrazione di forza in risposta al test ipersonico di Corea del Sud."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-12-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Silvia Salis: la patrimoniale non serve",
+      "summary": "Silvia Salis, ospite del programma di Pippo Fazio, ha dichiarato che l'introduzione di una tassa patrimoniale non è necessaria. Nel corso dell'intervista, la politica ha anche inviato messaggi alla segretaria del Partito Democratico, Elly Schlein, e alla presidente del Consiglio, Giorgia Meloni. Salis ha inoltre precisato che, allo stato attuale, non ci sono le condizioni perché lei possa assumere un ruolo di mediazione o federazione politica.",
+      "context": "La dichiarazione si inserisce nel dibattito economico italiano sull'aumento della pressione fiscale. Le parole di Salis riflettono la cautela del governo e delle forze politiche di maggioranza sull'introduzione di nuove tasse dirette, preferendo altre leve di politica economica.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOGhydDVKTXNoamduV3RYR0RMejdsYXFsZEFsYlNLWm13c1NWakg2WTJwTlNMTXZ5clVmWU1NYnIwaXRCQm5Wc3J1RUt0U0p4aHZwM3FtbjBNLTZSek9DdVZVLS1YLU9LSkJzUmtNM3Qzd0I5MXpuczJrNUlaTlRyZjBXbDR2Q3E5NW1kMTdUSjFtUDVjcUE1TXJR?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Silvia_Salis_2025.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Silvia_Salis_2025.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Secondo Silvia Salis, perché la patrimoniale non servirebbe?",
+          "options": [
+            "Perché l'economia è in forte crescita",
+            "Perché non è necessaria in questo momento",
+            "Perché i cittadini sono già troppo tassati",
+            "Perché sarebbe troppo complessa da applicare"
+          ],
+          "answer": 1,
+          "explanation": "Salis ha affermato esplicitamente che la patrimoniale non serve, indicando la sua attuale inutilità come motivo principale."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-12-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "NASA pubblica oltre 800 GB di dati della missione Artemis II",
+      "summary": "La NASA ha reso disponibili online oltre 800 GB di dati scientifici, immagini e video relativi alla missione Artemis II. L'archivio, caricato sul sito dedicato, contiene più di 11.000 foto e video, oltre 8,5 ore di audio e immagini annotate dall'equipaggio. Tra i contenuti spiccano le riprese dell'osservazione di lampi da impatto sulla faccia nascosta della Luna, potenzialmente i più deboli mai visti a occhio nudo, e tre rapporti tecnici che accompagnano il rilascio dei dati grezzi.",
+      "context": "Il rilascio rappresenta una risorsa fondamentale per la comunità scientifica, permettendo l'analisi indipendente dei dati raccolti durante il volo. Offre uno sguardo senza precedenti all'interno di una missione storica e supporta la ricerca futura sull'ambiente lunare, collegando l'esplorazione umana ai progressi nella scienza planetaria.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/art002e016252_impactflash_annotation_croppedlarge.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data"
+      },
+      "quiz": [
+        {
+          "question": "Quale tipo di fenomeno è stato osservato dall'equipaggio di Artemis II e documentato nei dati rilasciati?",
+          "options": [
+            "Formazione di crateri nuovi in tempo reale",
+            "Eruzioni vulcaniche attive sulla superficie lunare",
+            "Tempeste di radiazioni solari intense",
+            "Lampi da impatto sulla faccia nascosta della Luna"
+          ],
+          "answer": 3,
+          "explanation": "Il materiale menziona specificamente l'osservazione di lampi da impatto sulla faccia oscura della Luna, descritti come potenzialmente i più deboli mai visti a occhio nudo."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-12-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Soulja Boy annuncia l'intenzione di candidarsi alle presidenziali statunitensi del 2028",
+      "summary": "Il rapper statunitense Soulja Boy ha pubblicato su Instagram l'intenzione di esplorare una candidatura alle elezioni presidenziali del 2028. L'artista ha indicato quattro priorità programmatiche: opportunità economiche, riforma della giustizia penale, educazione e futuro della tecnologia e dell'intelligenza artificiale. Non è ancora chiaro se si tratti di una campagna formale o di un'iniziativa preliminare.",
+      "context": "Negli ultimi anni diversi artisti hip-hop, tra cui Kanye West, hanno tentato di entrare nella politica statunitense. L'annuncio di Soulja Boy si inserisce in questa tendenza di personaggi dello spettacolo che esplorano la transizione verso il servizio pubblico.",
+      "sources": [
+        {
+          "name": "VICE",
+          "url": "https://www.vice.com/en/article/soulja-boy-wants-to-be-the-first-rapper-to-become-president-of-the-united-states/"
+        },
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/soulja-boy-teases-2028-presidential-run-1236358638/"
+        },
+        {
+          "name": "AllHipHop",
+          "url": "https://allhiphop.com/rumors/soulja-boy-for-president-rapper-sets-his-sights-on-the-white-house-in-2028/"
+        }
+      ],
+      "image": {
+        "url": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Soulja-Boy-Wants-to-Become-The-First-Rapper-to-Become-U.S.-President.jpg?w=1200",
+        "credit": "VICE",
+        "link": "https://www.vice.com/en/article/soulja-boy-wants-to-be-the-first-rapper-to-become-president-of-the-united-states/"
+      },
+      "quiz": [
+        {
+          "question": "Quali sono i quattro punti programmatici indicati da Soulja Boy per la sua possibile candidatura?",
+          "options": [
+            "Crescita demografica, sicurezza nazionale, commercio internazionale e istruzione",
+            "Ambiente, trasporti pubblici, legalizzazione delle droghe e intelligenza artificiale",
+            "Opportunità economiche, riforma della giustizia penale, educazione e futuro della tecnologia e dell'intelligenza artificiale",
+            "Riforma sanitaria, immigrazione, tasse e politica estera"
+          ],
+          "answer": 2,
+          "explanation": "Il rapper ha esplicitamente citato opportunità economiche, riforma della giustizia penale, educazione e il futuro della tecnologia e dell'intelligenza artificiale come i suoi quattro punti di interesse."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-12-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Analisi delle rocce in Val Chisone svela un segreto geologico delle Alpi vecchio di 530 milioni di anni",
+      "summary": "Un'indagine condotta da ricercatori dell'Universita di Torino su due rocce trovate in Val Chisone ha rivelato che alcune componenti del basamento delle Alpi piemontesi risalgono a circa 530 milioni di anni fa, all'inizio del periodo Cambriano. Questa scoperta sposta indietro nel tempo le origini geologiche dell'area rispetto ai circa 300 milioni di anni precedentemente stimati.",
+      "context": "Datazioni geologiche cosi antiche aiutano a ricostruire cicli orogenetici precedenti, come quello Cadomiano, offrendo una mappa piu precisa della frammentazione e della collisione dei continenti primordiali prima della formazione delle catene montuose attuali.",
+      "sources": [
+        {
+          "name": "Giornale La Voce",
+          "url": "https://www.giornalelavoce.it/news/attualita/745533/le-alpi-nascondono-un-segreto-di-530-milioni-di-anni-la-scoperta-che-cambia-la-storia-del-piemonte.html"
+        }
+      ],
+      "image": {
+        "url": "https://giornalelavoce.cdn.m33cloud.com/resizer/600/315/true/2026_10_11/Panorama_Alpina_allAlba-1791739932071.jpg--le_alpi_nascondono_un_segreto_di_530_milioni_di_anni__la_scoperta_che_cambia_la_storia_del_piemonte.webp?1791739932469",
+        "credit": "Giornale La Voce",
+        "link": "https://www.giornalelavoce.it/news/attualita/745533/le-alpi-nascondono-un-segreto-di-530-milioni-di-anni-la-scoperta-che-cambia-la-storia-del-piemonte.html"
+      },
+      "quiz": [
+        {
+          "question": "A quale periodo risalgono le rocce analizzate dai ricercatori in Val Chisone?",
+          "options": [
+            "Al Cambriano, circa 530 milioni di anni fa",
+            "Alla nascita delle Alpi moderne, circa 40 milioni di anni fa",
+            "Al Paleozoico recente, circa 300 milioni di anni fa",
+            "All'epoca dei dinosauri, circa 150 milioni di anni fa"
+          ],
+          "answer": 0,
+          "explanation": "Le nuove analisi hanno dimostrato che i reperti risalgono a circa 530 milioni di anni fa, all'inizio del periodo Cambriano."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-12-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Unione Europea e Cina trovano un accordo sui limiti alle importazioni di auto ibride",
+      "summary": "L'Unione europea ha raggiunto un accordo politico con la Cina per limitare le importazioni di veicoli ibridi a 350 mila unità all'anno. La misura di salvaguardia, che potrebbe partire dal primo dicembre e durerà quattro anni, prevede un incremento annuo del tetto pari al 6%. Per rispettare le norme del commercio internazionale, il limite si applicherà a tutte le importazioni globali di auto ibride.",
+      "context": "Questo accordo arriva dopo una missione a Pechino del commissario europeo al Commercio per affrontare il deficit commerciale e rappresenta un tentativo di evitare una guerra commerciale tra Bruxelles e la Cina, in attesa di ulteriori sviluppi sulle terre rare.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/11/lue-limitera-a-350mila-lanno-le-importazioni-di-auto-ibride-cinesi_d192d7fd-5ed8-45ec-9170-cbfd95b72c4b.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/11/limiti-ue-alle-ibride-cinesi-dal-primo-dicembre-import-a-350mila-lanno_5b5ebb6b-3c1e-4ffa-9f71-73397ac11767.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/4/23/c77166032562e4ac80cfaf064d86188c.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/11/lue-limitera-a-350mila-lanno-le-importazioni-di-auto-ibride-cinesi_d192d7fd-5ed8-45ec-9170-cbfd95b72c4b.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il limite annuale fissato per le importazioni di auto ibride?",
+          "options": [
+            "500 mila auto",
+            "350 mila auto",
+            "250 mila auto",
+            "150 mila auto"
+          ],
+          "answer": 1,
+          "explanation": "L'accordo prevede un tetto di 350 mila veicoli ibridi all'anno per il primo anno di validità della misura."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-12-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Furio Benussi vince la sua quarta Barcolana di fila con Arca Sgr",
+      "summary": "Il velista triestino Furio Benussi ha vinto la cinquantatreesima edizione della Barcolana al timone di Arca Sgr, conquistando il suo quarto successo consecutivo nella nota regata e festeggiando la sua cinquantesima partecipazione. L'imbarcazione ha completato il percorso in poco più di un'ora, superando i problemi tecnici iniziali. Al secondo posto si è classificato Prosecco Doc Shockwave 3 e al terzo Marta 07, guidata dalla figlia diciannovenne Marta Benussi.",
+      "context": "La Barcolana è una delle regate veliche più grandi e partecipate del mondo, che si tiene ogni anno nel Golfo di Trieste. L'evento attira migliaia di imbarcazioni e grandi campioni, rappresentando un appuntamento centrale nel panorama della vela internazionale.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/altrisport/2026/10/11/furio-benussi-ancora-re-della-barcolana-quarta-vittoria-di-fila_1e0a6c93-eaa7-4f39-8544-700da8007e06.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/altrisport/2026/10/11/red-bull-protagonista-alla-barcolana-58-con-sua-imbarcazione-e-equipaggio-deccezione_b3b53812-6fbc-49a3-98ea-362dfb35f025.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/11/e352052b3db97b3086be4c91aa24da04.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/altrisport/2026/10/11/furio-benussi-ancora-re-della-barcolana-quarta-vittoria-di-fila_1e0a6c93-eaa7-4f39-8544-700da8007e06.html"
+      },
+      "quiz": [
+        {
+          "question": "Quante vittorie consecutive alla Barcolana ha raggiunto Furio Benussi con questa edizione?",
+          "options": [
+            "Due",
+            "Tre",
+            "Quattro",
+            "Cinque"
+          ],
+          "answer": 2,
+          "explanation": "Furio Benussi ha conquistato la sua quarta vittoria di fila al timone di Arca Sgr."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-12-6"
+    },
+    {
+      "category": "storia",
+      "tag": "12 ottobre 1931",
+      "title": "Guglielmo Marconi illumina il Cristo Redentore da Roma",
+      "summary": "Guglielmo Marconi ha inviato un segnale radio da Roma, attraverso i trasmettitori di Coltano, per illuminare la statua del Cristo Redentore a Rio de Janeiro. L'operazione, avvenuta nei decenni scorsi, è servita a dimostrare l'affidabilità e l'importanza delle comunicazioni radio intercontinentali.",
+      "context": "Questa dimostrazione ha aperto la strada alle moderne telecomunicazioni su scala globale, dimostrando la fattibilità pratica dei collegamenti a grandissima distanza senza l'uso di cavi. Oggi questo tipo di tecnologia è alla base della connettività mondiale e delle reti globali di comunicazione.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Guglielmo_Marconi"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Guglielmo_Marconi.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Guglielmo_Marconi.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale obiettivo aveva la dimostrazione radio intercontinentale guidata da Guglielmo Marconi?",
+          "options": [
+            "Testare una nuova rete telefonica via cavo tra Italia e Brasile",
+            "Trasmettere programmi radiofonici di intrattenimento",
+            "Illuminare il Cristo Redentore a Rio de Janeiro da Roma",
+            "Inviare messaggi di soccorso in mare aperto"
+          ],
+          "answer": 2,
+          "explanation": "Il segnale radio partito da Roma e trasmesso da Coltano servì proprio a illuminare la statua brasiliana per dimostrare l'affidabilità delle comunicazioni radio intercontinentali."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-12-7"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Assedio di Costantinopoli (717)",
+      "title": "La profezia che scatenò il secondo assedio di Costantinopoli",
+      "summary": "Tra il 717 e il 718, le forze terrestri e navali del Califfato omayyade assediarono Costantinopoli. L'attacco fu fortemente voluto dal califfo Sulayman, spinto da una profezia secondo cui la città sarebbe stata conquistata da un sovrannome legato a un profeta. La spedizione fallì miseramente a causa della resistenza delle fortificazioni, degli attacchi dei bulgari e dell'uso devastante del fuoco greco contro la flotta araba.",
+      "context": "Questo scontro bloccò l'espansione musulmana nell'Europa sudorientale per sette secoli, in un'epoca di forte instabilità per l'impero bizantino, lacerato da lotte dinastiche e rapidi cambi al vertice. Il salvataggio della capitale imperiale protesse i confini orientali della cristianità.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Assedio_di_Costantinopoli_(717)"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/ByzantineEmpire717AD.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:ByzantineEmpire717AD.png"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo il califfo Sulayman volle fortemente l'assedio di Costantinopoli nel 717?",
+          "options": [
+            "L'impero bizantino aveva attaccato per primo la città di Damasco",
+            "Una profezia prometteva la conquista della città a un califfo con il nome di un profeta",
+            "I bizantini non avevano pagato i tributi annuali pattuiti",
+            "Voleva vendicare la sconfitta subita nel primo assedio del secolo precedente"
+          ],
+          "answer": 1,
+          "explanation": "Sulayman lanciò la massiccia campagna militare spinto da una specifica profezia legata al proprio nome di califfo."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-12-8"
+    }
+  ]
+}
