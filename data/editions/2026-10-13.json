@@ -1,0 +1,404 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T04:33:39.118Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "NATO avverte la Russia, Ucraina denuncia attacchi a centrali energetiche",
+      "summary": "Il generale americano Alexus Grynkewich, al Warsaw Security Forum, ha dichiarato che la NATO è un'alleanza difensiva e che, se la Russia dovesse attaccare un membro, l'alleanza combatterà per rendere vano l’attacco. Contestualmente, il presidente ucraino Volodymyr Zelensky ha denunciato sei attacchi russi a infrastrutture energetiche ucraine, avvenuti subito dopo l’annuncio del presidente americano Donald Trump di una tregua energetica, con 33 feriti.",
+      "context": "L’avvertimento della NATO aumenta il rischio di un confronto diretto con Mosca, mentre gli attacchi alle centrali ucraine mostrano che la presunta tregua energetica non è rispettata, alimentando le tensioni nella guerra russo‑ucraina.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/12/il-comandante-della-nato-non-vogliamo-la-guerra-ma-se-attaccati-combatteremo_7364761a-cbe5-4b07-9fbe-ea591f6dfa39.html"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/12/4be631a0ea10f2c08312bd62ea1c893f.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/mondo/2026/10/12/il-comandante-della-nato-non-vogliamo-la-guerra-ma-se-attaccati-combatteremo_7364761a-cbe5-4b07-9fbe-ea591f6dfa39.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha affermato la NATO riguardo a un eventuale attacco russo a un suo alleato?",
+          "options": [
+            "Che combatterà",
+            "Che imporrà sanzioni",
+            "Che negozierà un accordo",
+            "Che ritirerà le truppe"
+          ],
+          "answer": 0,
+          "explanation": "Il generale Grynkewich ha detto che la NATO combatterà se la Russia attaccherà un alleato."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-13-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Salvini si dimette da segretario della Lega",
+      "summary": "Matteo Salvini ha rassegnato le dimissioni da segretario della Lega, un passaggio formale necessario per potersi ricandidare al vertice del partito. La mossa segue il consiglio federale e precede il congresso straordinario previsto per il 24 e 25 ottobre a Milano. Fino a quella data, la gestione del partito sarà affidata al tesoriere Alberto Di Rubba. Salvini ha inoltre annunciato la creazione di una segreteria politica e una revisione del simbolo del partito.",
+      "context": "La decisione chiude le tensioni interne emerse durante l'estate e risponde alla richiesta di una gestione più collegiale. Il congresso servirà a definire le linee guida per la prossima campagna elettorale e per la manovra di bilancio, consolidando la posizione di Salvini in vista delle prossime elezioni politiche.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5tWG1PbHlQSl9ibjdEZzdrSHFlRGpGNWk1X1VKQWNBX3lQXzJseUNiVEdVakNJWU13Vzg0a2ZpY0JWRmJJTWdUSGZBMXl1N3hQOGdNU0NNdWxCQW1wcldnSnQwbFUwVWJydUdwclhLZlAtV01QdEludUxmX1BKQQ?oc=5"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/12/salvini-si-dimette-da-segretario-della-lega-necessario-per-ricandidarmi_bdef9006-eaa9-4211-8fd7-635e42b1d1cb.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/12/348ec65558ca46b0fa34ebaa11f2a2a0.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/12/salvini-si-dimette-da-segretario-della-lega-necessario-per-ricandidarmi_bdef9006-eaa9-4211-8fd7-635e42b1d1cb.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la motivazione principale indicata da Salvini per le sue dimissioni da segretario?",
+          "options": [
+            "Accettare le dimissioni dei tre vicesegretari",
+            "Preparare la successione in vista di un'eventuale uscita dal governo",
+            "Cedere il posto a un nuovo leader designato dai governatori",
+            "Permettersi di ricandidarsi al vertice del partito"
+          ],
+          "answer": 3,
+          "explanation": "Il materiale specifica che le dimissioni sono un passo formale ma necessario affinché Salvini possa ricandidarsi al congresso."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-13-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Meta lancia i modelli di intelligenza artificiale Muse Wonder",
+      "summary": "Meta ha presentato oggi due nuovi modelli di intelligenza artificiale, Muse Wonder e Muse Wonder Full, sviluppati dalla divisione Superintelligence Labs. I modelli sono già disponibili per gli abbonati al servizio Muse Code e tramite interfaccia per sviluppatori. Secondo l'azienda, i nuovi sistemi possono competere con i prodotti di punta di OpenAI e Anthropic, integrando capacità avanzate per gestire compiti complessi, scrittura di codice e funzioni di memoria per compiti professionali.",
+      "context": "Il lancio fa parte del piano di Meta per recuperare terreno e affermarsi come punto di riferimento nell'intelligenza artificiale. L'azienda ha investito miliardi in infrastrutture e talenti per integrare agenti virtuali intelligenti nei propri prodotti destinati a miliardi di utenti.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://research.meta.ai/blog/muse-wonder"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+      },
+      "quiz": [
+        {
+          "question": "A chi sono attualmente accessibili i nuovi modelli Muse Wonder appena presentati da Meta?",
+          "options": [
+            "In esclusiva alle aziende partner di OpenAI e Anthropic",
+            "Soltanto ai centri di ricerca universitari selezionati dall'azienda",
+            "A tutti gli utenti dei servizi Meta in modo completamente gratuito",
+            "Agli abbonati al servizio Muse Code e tramite interfaccia per sviluppatori"
+          ],
+          "answer": 3,
+          "explanation": "I modelli Muse Wonder sono disponibili da oggi per gli abbonati a Muse Code e attraverso l'interfaccia per sviluppatori di Meta."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-13-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "A$AP Rocky annuncia tour in Australia e Nuova Zelanda",
+      "summary": "Il rapper A$AP Rocky ha annunciato una tournée di cinque concerti in Australia e Nuova Zelanda per dicembre 2026, parte del suo Don’t Be Dumb World Tour. È la prima visita nella regione in otto anni. Le date sono: 5 dicembre a Melbourne (Rod Laver Arena), 9 dicembre a Sydney (Afterpay Arena), 12 dicembre a Auckland (Spark Arena), 14 dicembre a Brisbane (Brisbane Entertainment Centre) e 17 dicembre a Perth (RAC Arena). I biglietti saranno in vendita dal 16 ottobre.",
+      "context": "Il tour segna il ritorno di A$AP Rocky in Oceania dopo otto anni, promuovendo il suo nuovo album Don’t Be Dumb e dimostra l’interesse crescente per il rap nei mercati australiani e neozelandesi.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/asap-rocky-australia-new-zealand-tour-2026-1236359625/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/10/asap-rocky-tour-e1791865140812.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/asap-rocky-australia-new-zealand-tour-2026-1236359625/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la prima data del tour di A$AP Rocky in Australia?",
+          "options": [
+            "5 dicembre a Melbourne",
+            "9 dicembre a Sydney",
+            "14 dicembre a Brisbane",
+            "12 dicembre a Auckland"
+          ],
+          "answer": 0,
+          "explanation": "La prima data è il 5 dicembre al Rod Laver Arena di Melbourne."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-13-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Scoperta in Cina una nuova specie di dinosauro con ali piumate",
+      "summary": "Gli studiosi hanno descritto Norellraptor barsboldi, un piccolo dinosauro predatore del genere Microraptor, lungo 57 cm, vissuto tra 145 e 100 milioni di anni fa. Il fossile, ritrovato nella Formazione Jiufotang nel nord‑est della Cina, mostra lunghe piume che formano ali su arti anteriori e posteriori. L'esemplare aveva almeno tre anni al momento della morte. Pubblicata su Nature Communications, la ricerca guidata da Andrea Cau e Qiang Ji indica che circa il 30 % dei cambiamenti anatomici legati al volo nei Microraptor è comparso anche negli uccelli, suggerendo evoluzioni indipendenti di tali caratteristiche.",
+      "context": "La scoperta rafforza l'idea che le strutture per il volo siano emerse più volte in modo convergente tra i dinosauri, arricchendo il record della Formazione Jiufotang, nota per i suoi fossili ben conservati.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/canale_scienza/notizie/ragazzi/news/2026/10/12/scoperta-in-cina-una-nuova-specie-di-dinosauro-con-ali-e-piume_9b08fc46-d283-422d-9913-5ac9ba7224d3.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/1/d9cc464d8edfcf7c778fe197e9d5c570.jpeg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/canale_scienza/notizie/ragazzi/news/2026/10/12/scoperta-in-cina-una-nuova-specie-di-dinosauro-con-ali-e-piume_9b08fc46-d283-422d-9913-5ac9ba7224d3.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il nome scientifico della nuova specie di dinosauro scoperta in Cina?",
+          "options": [
+            "Archaeopteryx lithographica",
+            "Velociraptor mongoliensis",
+            "Norellraptor barsboldi",
+            "Microraptor gui"
+          ],
+          "answer": 2,
+          "explanation": "L'articolo indica che la specie è stata chiamata Norellraptor barsboldi."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-13-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Nobel Economia 2026 a Hall e Woodford per i modelli di stabilizzazione",
+      "summary": "Il Premio Nobel per le Scienze Economiche 2026 è stato assegnato agli americani Robert E. Hall e Michael Woodford. Il comitato li ha premiati per aver sviluppato nuovi modelli macroeconomici basati su fondamenti microeconomici. Questi strumenti migliorano la capacità di attuare politiche di stabilizzazione efficaci, permettendo a banche centrali e governi di ridurre i picchi e le flessioni dell'economia reagendo tempestivamente agli shock.",
+      "context": "Il lavoro premia l'approccio che collega le decisioni individuali di famiglie e imprese all'andamento complessivo del sistema. È rilevante per comprendere come le politiche monetarie e fiscali possano influenzare inflazione e occupazione, offrendo una base teorica più solida per le decisioni delle banche centrali.",
+      "sources": [
+        {
+          "name": "Adnkronos",
+          "url": "https://www.adnkronos.com/economia/nobel-economia-2026-hall-woodford-stabilizzazione_6da99itSZiwQFHI8zfYKIJ"
+        },
+        {
+          "name": "la Repubblica",
+          "url": "https://www.repubblica.it/economia/2026/10/12/news/premio_nobel_economia_2026_robert_hall_michael_woodford-425642462/"
+        },
+        {
+          "name": "il Giornale",
+          "url": "https://www.ilgiornale.it/news/attualita/nobel-per-leconomia-2026-a-robert-e-hall-e-michael-woodford-per-i-fondamenti-microeconomici-della-stabilizzazione-macroeconomica/"
+        }
+      ],
+      "image": {
+        "url": "https://www.adnkronos.com/resources/02aa-21cf039d1f80-17074db90703-1000/nobel_economia_2026_afp.jpeg",
+        "credit": "Adnkronos",
+        "link": "https://www.adnkronos.com/economia/nobel-economia-2026-hall-woodford-stabilizzazione_6da99itSZiwQFHI8zfYKIJ"
+      },
+      "quiz": [
+        {
+          "question": "Quale caratteristica principale distingue i modelli premiati con il Nobel 2026?",
+          "options": [
+            "Si basano esclusivamente su correlazioni statistiche storiche",
+            "Fondano la macroeconomia sulle decisioni microeconomiche di famiglie e imprese",
+            "Ignorano il ruolo delle banche centrali nella stabilizzazione",
+            "Si concentrano solo sull'analisi dei mercati finanziari"
+          ],
+          "answer": 1,
+          "explanation": "Il comitato ha premiato Hall e Woodford per aver costruito modelli macroeconomici su basi microeconomiche, analizzando come le azioni aggregate dei singoli influenzino l'economia complessiva."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-13-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Morto Rj Mitte, l'attore di Breaking Bad",
+      "summary": "L'attore americano RJ Mitte è morto a 34 anni. La notizia è stata data dal suo agente Sean Reilly, che non ha specificato la causa del decesso. Mitte era noto per aver interpretato Flynn, il figlio con paralisi cerebrale del protagonista Walter White nella serie Breaking Bad. Anche nella vita reale soffriva della stessa patologia, che ha utilizzato come spunto per attività filantropiche e di sensibilizzazione.",
+      "context": "La sua morte rappresenta una perdita significativa per il mondo dello spettacolo e per le associazioni per la disabilità, delle quali era ambasciatore. La sua interpretazione in Breaking Bad è considerata un punto di forza della serie, rendendo il personaggio credibile grazie alla sua esperienza personale.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/13/morto-a-34-anni-rj-mitte-uno-dei-protagonisti-di-breaking-bad_76f15d6e-eca5-43f1-8aae-124717b93014.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/11/5/a5c2c7441f85a5ba8410e32f044118e7.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/13/morto-a-34-anni-rj-mitte-uno-dei-protagonisti-di-breaking-bad_76f15d6e-eca5-43f1-8aae-124717b93014.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale ruolo ha interpretato RJ Mitte nella serie Breaking Bad?",
+          "options": [
+            "Il protagonista Walter White",
+            "Il figlio Flynn, affetto da paralisi cerebrale",
+            "Un chimico rivale",
+            "Un poliziale antagonista"
+          ],
+          "answer": 1,
+          "explanation": "Mitte interpretava Flynn, l'adolescente figlio del protagonista, un ruolo che rispecchiava la sua condizione reale di persona con paralisi cerebrale."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-13-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Collari d'Oro: premiati Fontana e il Napoli, assente Sinner",
+      "summary": "A Roma si è svolta la cerimonia di consegna dei Collari d'Oro al merito sportivo, la massima onorificenza dello sport italiano. Tra i premiati figurano campioni olimpici e paralimpici di Milano Cortina 2026 come Arianna Fontana, oltre a società storiche come il Napoli e la Fiorentina nel loro centenario. Spicca l'assenza del tennista Jannik Sinner, fermo per problemi al ginocchio che lo terranno lontano dai campi da gioco fino al 2027.",
+      "context": "Il Collare d'Oro celebra i risultati sportivi di vertice a livello mondiale e olimpico. La cerimonia ha fatto il punto sullo stato del movimento dopo i Giochi invernali del 2026 e ha confermato lo stop prolungato del numero uno del tennis italiano.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/2026/10/12/collari-doro-tra-i-premiati-anche-fontana-e-il-napoli-di-de-laurentiis_66412853-7b50-4db6-a286-716b97dc35b7.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/12/438b5f13eeaa587ef7e060ff53fd188c.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/2026/10/12/collari-doro-tra-i-premiati-anche-fontana-e-il-napoli-di-de-laurentiis_66412853-7b50-4db6-a286-716b97dc35b7.html"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Jannik Sinner non ha partecipato alla cerimonia dei Collari d'Oro?",
+          "options": [
+            "Era impegnato in un torneo ufficiale del circuito tennistico",
+            "Si trovava all'estero per una vacanza al termine della stagione agonistica",
+            "È a riposo per curare un infortunio al ginocchio che lo fermerà fino al 2027",
+            "Ha rifiutato il premio in polemica con la dirigenza sportiva"
+          ],
+          "answer": 2,
+          "explanation": "Sinner non ha preso parte all'evento perché è convalescente per problemi al ginocchio che lo costringeranno a tornare in campo solo nel 2027."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-13-7"
+    },
+    {
+      "category": "storia",
+      "tag": "13 ottobre 1894",
+      "title": "Arresto di Alfred Dreyfus per spionaggio",
+      "summary": "Il 13 ottobre 1894, il capitano Alfred Dreyfus, ufficiale di artiglieria ebreo alsaziano, ricevette l'ordine di presentarsi al Ministero della Guerra francese per un'ispezione. L'arresto seguì la scoperta di una nota segreta, il bordereau, che i servizi segreti attribuirono a Dreyfus, accusandolo di aver venduto informazioni militari alla Germania. La mossa segnò l'inizio di un processo politico e giudiziario che avrebbe diviso la società francese per oltre un decennio.",
+      "context": "L'Affare Dreyfus rivelò la corruzione dei vertici militari e l'antisemitismo radicato nella Terza Repubblica. Divise il Paese in due schieramenti opposti, accelerando la crisi dei valori tradizionali e rafforzando la repubblica democratica. L'episodio divenne un simbolo universale della lotta per la giustizia e i diritti civili.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Affare_Dreyfus"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Alfred-Dreyfus.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Alfred-Dreyfus.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Qual era la principale accusa mossa contro Alfred Dreyfus al momento dell'arresto?",
+          "options": [
+            "Avere partecipato alla Comune di Parigi",
+            "Avere venduto documenti militari alla Germania",
+            "Avere rubato gioielli dall'ambasciata tedesca",
+            "Avere criticato pubblicamente il presidente della Repubblica"
+          ],
+          "answer": 1,
+          "explanation": "Dreyfus fu accusato di tradimento per aver passato informazioni segrete sull'artiglieria francese agli agenti tedeschi."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-13-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Linciaggio di Jesse Washington",
+      "title": "Il linciaggio di Waco venduto come cartolina",
+      "summary": "Il 15 maggio 1916, a Waco, in Texas, una folla di oltre diecimila persone ha linciato Jesse Washington, un bracciante afroamericano di diciassette anni. Dopo essere stato condannato per l'omicidio di Lucy Fryer, Washington è stato trascinata fuori dal tribunale, castrato, mutilato e bruciato vivo. L'evento, avvenuto durante la pausa pranzo con la presenza di bambini e funzionari pubblici, è stato documentato da un fotografo professionista. Le immagini del corpo carbonizzato sono state stampate e vendute come souvenir e cartoline, trasformando l'orrore in un prodotto commerciale.",
+      "context": "L'episodio si inserisce nel periodo di massima diffusione dei linciaggi razziali negli Stati Uniti del Sud. La vendita delle foto come cartoline evidenzia la normalizzazione sociale della violenza razziale dell'epoca. Questo caso specifico ha contribuito a spostare l'opinione pubblica nazionale, aiutando le prime organizzazioni per i diritti civili a mobilitare il dissenso contro la pratica.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Linciaggio_di_Jesse_Washington"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Jesse_Washington_hanging.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Jesse_Washington_hanging.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Come sono state utilizzate le fotografie scattate durante il linciaggio di Jesse Washington?",
+          "options": [
+            "Sono state distrutte per ordine della polizia",
+            "Sono state stampate e vendute come cartoline souvenir",
+            "Sono state inviate alla Casa Bianca per denuncia",
+            "Sono state usate come prove in un secondo processo"
+          ],
+          "answer": 1,
+          "explanation": "Il materiale riporta che un fotografo scattò le immagini, che furono poi stampate e vendute a Waco come cartoline."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-13-9"
+    }
+  ]
+}
