@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T04:31:50.091Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Il capo di MI5 avverte minacce da Russia, Iran e IA",
+      "summary": "Il direttore di MI5, Sir Ken McCallum, ha dichiarato che le minacce provenienti da Russia, Iran e intelligenza artificiale sono quadruplicate negli ultimi dieci anni. Ha definito la Russia \"aggressore numero uno\", ha segnalato un aumento degli attacchi iraniani contro siti ebraici e basi militari, e ha avvertito che gruppi estremisti usano l'IA per potenziare cyber‑attacchi, droni e bioweapon. MI5 sta destinando più risorse a questi pericoli, ora considerati di pari importanza rispetto al terrorismo tradizionale.",
+      "context": "La dichiarazione indica un cambiamento strategico nella sicurezza britannica, con l'intensificarsi della guerra ibrida e l'uso dell'IA da parte di stati e gruppi estremisti, fattori che influenzeranno la difesa europea.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7572/live/20ee0d90-c702-11f1-9a39-31b474234113.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quali tre fonti di minaccia ha evidenziato il capo di MI5?",
+          "options": [
+            "Iran, gruppi estremisti e cambiamento climatico",
+            "Russia, Cina e cybercriminalità",
+            "Cina, Corea del Nord e intelligenza artificiale",
+            "Russia, Iran e intelligenza artificiale"
+          ],
+          "answer": 3,
+          "explanation": "Nel suo intervento McCallum ha indicato Russia, Iran e IA come le principali minacce multi‑front."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-14-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Governo rinvia manovra, taglio Irpef in dubbio",
+      "summary": "Il governo Meloni ha rinviato la presentazione della manovra di bilancio al Parlamento, attendendo l'esito della procedura europea sulla clausola di salvaguardia prevista per il 9 novembre. Di conseguenza, il taglio dell'Irpef per il ceto medio, inizialmente considerato certo, è stato congelato. Al suo posto si sta valutando un bonus per le categorie più fragili, generando tensioni all'interno della maggioranza.",
+      "context": "La decisione riflette la necessità di rispettare i vincoli di bilancio imposti dall'Unione Europea. Il rinvio e la modifica delle misure fiscali indicano un'incertezza sulle politiche di sostegno al reddito e sulle coperture finanziarie per il prossimo anno.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/13/slittano-i-tempi-della-manovra.-tensione-sul-taglio-dellirpef_5bd42336-64a7-46bf-b4e1-fda7a507461a.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOREhieEh1eU9YbXRSdXFPN28yNXMxQlA2bVA5WE1uQkFoWTdyUVMyQWpBeWVfOVFFTnlCNFpfbmVUWG5mbk5vZmJjNUIyeldPRlo1YnRpSjhQdTg1ZW5kMkNyN2thc0ViSWFaT3FNNy1DeWx5Q3NjRllwbWNjRHVsTlhpREhiSVdfejVodnhKUEhmM3BuckJpdU9WMzFUdw?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/1/7/bfb0cbb98bda2ae1513616fa786d48a6.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/13/slittano-i-tempi-della-manovra.-tensione-sul-taglio-dellirpef_5bd42336-64a7-46bf-b4e1-fda7a507461a.html"
+      },
+      "quiz": [
+        {
+          "question": "Perché il taglio dell'Irpef per il ceto medio è stato messo in dubbio?",
+          "options": [
+            "Perché manca il consenso unanime di tutti i partiti di opposizione",
+            "Perché le coperture finanziarie sono state già interamente assegnate ad altri progetti",
+            "Perché il governo attende l'esito della procedura europea sulla clausola di salvaguardia",
+            "Perché il Parlamento ha bocciato il Documento programmatico di bilancio"
+          ],
+          "answer": 2,
+          "explanation": "Il governo ha deciso di attendere il verdetto dell'Eurogruppo per definire una manovra con contorni definiti, congelando di fatto la misura Irpef."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-14-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Un ingegnere di OpenAI arrestato per aver piazzato una cimice in una sala riunioni",
+      "summary": "Un ingegnere della societa di intelligenza artificiale OpenAI, Abdulrahman Alfozan, e stato arrestato con l'accusa di aver nascosto un dispositivo di registrazione in una sala riunioni esecutiva della sede di San Francisco. La cimice, collegata alla porta USB di un televisore, e stata scoperta dal personale di sicurezza. L'azienda ha licenziato il dipendente e ha collaborato con le autorita federali per le indagini.",
+      "context": "La sicurezza delle informazioni e cruciale per le aziende che sviluppano intelligenza artificiale avanzata, dove i segreti commerciali e strategici hanno un valore altissimo. Questo episodio evidenzia i rischi legati alle minacce interne e l'uso di strumenti digitali per proteggere gli spazi aziendali.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device"
+      },
+      "quiz": [
+        {
+          "question": "Dove e stata trovata la cimice nascosta all'interno degli uffici di OpenAI?",
+          "options": [
+            "Sotto la scrivania del direttore generale",
+            "Nella porta USB di un televisore in una sala riunioni esecutiva",
+            "Nello zaino personale del fondatore",
+            "All'interno di un server principale"
+          ],
+          "answer": 1,
+          "explanation": "Il dispositivo di registrazione e stato scoperto collegato alla porta USB di un televisore in una sala riunioni riservata ai dirigenti."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-14-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Il Fondo Monetario Internazionale rivede al rialzo la crescita globale nel 2026",
+      "summary": "Il Fondo Monetario Internazionale ha presentato a Bangkok il nuovo rapporto economico mondiale, rivedendo leggermente al rialzo la crescita globale al 3,1% per quest'anno e al 3,4% per il 2027. L'economia mondiale ha resistito a guerre, crisi energetica e tensioni commerciali, trainata soprattutto dal boom tecnologico e dall'intelligenza artificiale. L'organizzazione avverte però che la resilienza è vicina al limite, segnalando rischi legati all'aumento del debito pubblico, ai conflitti geopolitici e a possibili pressioni sull'inflazione.",
+      "context": "Le stime del Fondo Monetario Internazionale servono a orientare le politiche economiche dei governi globali. Attualmente, l'alto livello del debito pubblico e la fragilità dei conti statali rappresentano le principali preoccupazioni per la stabilità finanziaria internazionale.",
+      "sources": [
+        {
+          "name": "la Repubblica",
+          "url": "https://www.repubblica.it/economia/2026/10/13/news/il_fondo_monetario_l_economia_mondiale_cresce_ancora_ma_aumentano_i_rischi-425644157/"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/10/fmi-economia-globale-resiliente-ma-pesano-guerre-debito-e-inflazione-b686f7df-2217-457e-a742-8d3136de30ef.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/13/il-fmi-promuove-la-crescita-ma-avverte-resilienza-globale-al-limite_2089935d-08bd-4191-8c42-a22b39aadc29.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/10/13/061259016-60bfd7a3-24f0-49b6-8276-da90022aa800.jpg",
+        "credit": "la Repubblica",
+        "link": "https://www.repubblica.it/economia/2026/10/13/news/il_fondo_monetario_l_economia_mondiale_cresce_ancora_ma_aumentano_i_rischi-425644157/"
+      },
+      "quiz": [
+        {
+          "question": "A quanto è stata stimata la crescita economica globale per il 2026 dal Fondo Monetario Internazionale?",
+          "options": [
+            "Al 3,1%",
+            "Al 2,3%",
+            "All'1,1%",
+            "Al 4,7%"
+          ],
+          "answer": 0,
+          "explanation": "Il rapporto prevede che l'economia mondiale cresca del 3,1% nel 2026."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-14-3"
+    },
+    {
+      "category": "storia",
+      "tag": "14 ottobre 1947",
+      "title": "Chuck Yeager supera la velocità del suono con il Bell X-1",
+      "summary": "Nei giorni scorsi, il pilota Charles Chuck Yeager ha compiuto una storica impresa ai comandi del Bell X-1, un velivolo sperimentale statunitense. Il aereo è diventato il primo mezzo pilotato a superare la velocità del suono in volo orizzontale. L'apparecchio, progettato per esplorare il regime transonico, ha aperto una nuova era per l'aviazione e la ricerca aerodinamica.",
+      "context": "Questo traguardo ha dimostrato che la barriera del suono poteva essere superata, cancellando l'idea che fosse un limite insuperabile. Ha gettato le basi per i successivi aerei supersonici e per il programma spaziale statunitense degli anni sessanta.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Bell_X-1"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/ChuckYeager.jpg/1280px-ChuckYeager.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:ChuckYeager.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale impresa ha compiuto Chuck Yeager ai comandi del Bell X-1?",
+          "options": [
+            "Ha battuto il record di autonomia di volo",
+            "Ha pilotato il primo aereo a reazione della storia",
+            "Ha superato la velocità del suono in volo orizzontale",
+            "Ha completato il primo volo nello spazio"
+          ],
+          "answer": 2,
+          "explanation": "Il Bell X-1 fu il primo velivolo pilotato a superare la velocità del suono in volo orizzontale."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-14-4"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Crociata norvegese",
+      "title": "Il re norvegese che guidò una flotta nel Mediterraneo",
+      "summary": "Tra il 1107 e il 1111, il re Sigurd I di Norvegia guidò una spedizione militare e di pellegrinaggio armato nel Mediterraneo, al comando di migliaia di uomini su sessanta imbarcazioni. La flotta toccò Inghilterra, penisola iberica, Baleari, Sicilia e Palestina, dove Sigurd collaborò all'assedio di Sidone. Senza subire alcuna sconfitta, il sovrano tornò in patria via terra passando per Costantinopoli.",
+      "context": "Nel XII secolo il fenomeno delle spedizioni armate verso la Terra Santa si intrecciava con i pellegrinaggi e le ambizioni dei monarchi europei. L'impresa di Sigurd elevò il prestigio della Norvegia cristiana, anticipando altre missioni simili e inserendosi nell'espansione dei regni crociati nel Vicino Oriente.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Crociata_norvegese"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Magnussonnenes_saga_4_-_G._Munthe.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Magnussonnenes_saga_4_-_G._Munthe.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu il destino delle navi di re Sigurd a Costantinopoli?",
+          "options": [
+            "Furono vendute ai mercanti veneziani",
+            "Furono distrutte da una tempesta",
+            "Furono affondate per bloccare il porto",
+            "Furono cedute all'imperatore Alessio I Comneno"
+          ],
+          "answer": 3,
+          "explanation": "A Costantinopoli Sigurd cedette le sue imbarcazioni all'imperatore Alessio I Comneno, il quale reclutò molti dei superstiti nella Guardia variaga."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-14-5"
+    }
+  ]
+}
