@@ -1,0 +1,403 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T04:37:18.806Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Musk accusa USA di rallentare i droni ucraini",
+      "summary": "Elon Musk ha dichiarato su X che i limiti di velocità imposti a Starshield, il servizio militare di Starlink, sono decisi dal governo degli Stati Uniti. I limiti, introdotti ieri notte a 100 miglia all’ora, hanno interrotto la connessione di droni ucraini più veloci, ostacolando le missioni sul campo. Musk ha chiesto la rimozione immediata del vincolo, attribuendolo alle decisioni del presidente e dell’esercito americano.",
+      "context": "Starlink è l’unica rete che permette ai droni ucraini di ricevere comandi in tempo reale; i limiti di velocità riducono la loro efficacia e mostrano una tensione tra Washington e Kiev su chi controlla la tecnologia militare.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/10/kiev-al-buio-dopo-i-missili-russi-musk-frena-starlink-zelensky-da-burnham-tradito-da-trump-f4246e28-b8f4-4e76-97c4-55804b7a0626.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONDF5U3RUc0VDUklOS2RnUHVoUzI4Qm54TVUwSnJlSG5lTHFfRGRnd3JxNTVWR3hXRE9rTVhYUmJjWGk0Xy1QYjB3TXhqMVl5TGhMSDFIS0puZmItNWUyU1RESzFuOXlhXzkyNlY2Y0YyY1Nncks0d3piOGxoSzhRYzlJQkRiWmxFei1jYzhUcjlDeGlJZGo4X1FJS0hnMGRUdUMyd2lWdnpYUzNZZzV1M2ZVQ1BoYmJnMXBUclczcG9WbWc3Qm5iS2w2TWNtaXYwZHRRSUlEYnV0ZGNkRHZZYThpRDRTdTRCZlhxZWliZlhYeVFGb2ZLbFhBaEI?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9f7e/live/76dbc1b0-c848-11f1-94ec-7f952cae1636.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Secondo Elon Musk, chi decide i limiti di velocità su Starshield?",
+          "options": [
+            "Il governo degli Stati Uniti",
+            "Il governo ucraino",
+            "Il governo russo",
+            "Gli ingegneri di SpaceX"
+          ],
+          "answer": 0,
+          "explanation": "Musk ha scritto che i limiti sono decisi dal governo americano, in particolare dal presidente e dal dipartimento della difesa."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-15-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Meloni critica l'accordo USA-Russia sul gasolio",
+      "summary": "Giorgia Meloni ha accusato Donald Trump di aver raggiunto un'intesa rischiosa con la Russia sull'importazione di gasolio, definendola una legittimazione di Vladimir Putin. Nel discorso al Parlamento, la premier ha ribadito il sostegno all'Ucraina, essenziale per la pace, e ha criticato le posizioni interne al centrodestra favorevoli a una rapida tregua. Mosca ha risposto che la questione non riguarda l'Italia, mentre Bruxelles attende la posizione italiana.",
+      "context": "La mossa di Meloni segna un allineamento più netto con la linea europea sull'Ucraina, contrastando le pressioni americane per un rapido accordo con Mosca. Il dissenso interno alla maggioranza e le reazioni internazionali evidenziano le tensioni geopolitiche attuali.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/14/meloni-lintesa-di-trump-sul-gasolio-russo-e-rischiosa.-non-siamo-guerrafondai_a88938b7-13d2-405b-959f-54aa581fe58c.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPd1VTQzd1OTc2NW9ENnFmVUNmS0hUb252ZzJVaHFxUVlyMXVyTW5ZWmhqWmduTmpYYnVtTmpYZm1aUDdNMVpTN193bHh6ZWEyWllKQkxfTHNJRk5Ja2Vka3pfcF9DWFVtYUtBdjNnVkRkVTlZWjNkeV83dWR0YWlJcVZDU2NHOTROMXVWUkp0Z0J1UF9fU0kwQjVVX0xCMlZYM2V3Snp1Zmp4X2RqOE9OTnJpbDVYd1ltWmZPVnIwT0xSMjl6eWZCbmRjTHRQMWtDQ0xXMW42UTdDbFE3VngxaC1lZ0pHaXpRY3NN0gHwAUFVX3lxTFBmMnhYbF9lYk42VjZJMTk1RE9aVFhJSW1HNG5JZXdycXktYW1vX3d5WXUxYk9wV0M5SDZodW1CMjI0a2tKNUlpSC1mNFVNY0lrOUlzMWF6V2RwQVdkVjVGZ3JWTjQzeGR3eTlVdXdoTlE5UFJRSmhXenN2N1haOHZqT1p1RHUwcEx6S1pva1RoT3k2YzdHT0NVR2lXUFFYemtxVUlSREs4RmJzcE12SmowcFh5ZnAyTUFjNnhTODF0eHBoQ2xqV0c3UVdkTWZKaDY5V3VxQzJTekVvMFhEMjFQZEs0QTB6eUs0Sk5qMTJ4bw?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/14/1b9b05260220e4d5983e6941163762bf.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/14/meloni-lintesa-di-trump-sul-gasolio-russo-e-rischiosa.-non-siamo-guerrafondai_a88938b7-13d2-405b-959f-54aa581fe58c.html"
+      },
+      "quiz": [
+        {
+          "question": "Perché Meloni ha definito rischiosa l'intesa tra Trump e Putin sul gasolio?",
+          "options": [
+            "Perché indebolirebbe la posizione degli Stati Uniti",
+            "Perché viola le normative europee sull'ambiente",
+            "Perché rischia di legittimare le azioni di Putin",
+            "Perché aumenterebbe i prezzi dell'energia in Italia"
+          ],
+          "answer": 2,
+          "explanation": "La premier ha affermato che l'accordo rischia di legittimare Putin, sostenendo che il sostegno all'Ucraina è necessario per la pace."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-15-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "L'intelligenza artificiale progetta enzimi per tagliare altre proteine",
+      "summary": "Un gruppo di ricercatori ha utilizzato strumenti di intelligenza artificiale per creare proteine sintetiche capaci di spezzare e degradare proteine bersaglio. I legami peptidici che compongono le proteine sono stabili per secoli, ma gli enzimi naturali noti come proteasi possono romperli. Gli scienziati hanno prelevato il nucleo catalitico di due proteasi e ne hanno riprogettato l'intera struttura esterna con l'IA, testando con successo il taglio di proteine legate a malattie neurologiche.",
+      "context": "La capacità di progettare enzimi su misura apre nuove possibilità per la medicina molecolare. Potrebbe consentire di degradare in modo mirato proteine tossiche o difettose collegate a malattie finora incurabili, accelerando lo sviluppo di terapie senza attendere l'evoluzione naturale.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298087641-1152x648.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/"
+      },
+      "quiz": [
+        {
+          "question": "In che modo i ricercatori hanno sfruttato l'intelligenza artificiale in questa ricerca?",
+          "options": [
+            "Per riprogettare la struttura delle proteasi attorno al loro nucleo catalitico",
+            "Per sintetizzare amminoacidi artificiali non presenti in natura",
+            "Per rendere i legami peptidici indistruttibili all'interno delle cellule",
+            "Per mappare la sequenza genetica delle patologie neurologiche"
+          ],
+          "answer": 0,
+          "explanation": "I ricercatori hanno mantenuto il nucleo catalitico delle proteasi e hanno impiegato l'intelligenza artificiale per riprogettare il resto della molecola, programmando il taglio di proteine specifiche."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-15-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Drake stabilisce il record storico di album al vertice della classifica R&B e hip-hop",
+      "summary": "Nei giorni scorsi Drake è diventato l'artista con il maggior numero di dischi al vertice della classifica statunitense Top R&B/Hip-Hop Albums di Billboard. Con il ritorno al primo posto del suo album \"Habibti\", spinto dalla pubblicazione dell'edizione deluxe, il rapper canadese ha ottenuto il suo diciottesimo primato. Ha così superato The Temptations, storico gruppo soul che deteneva o condivideva il record dal 1966, e Future, entrambi fermi a diciassette titoli.",
+      "context": "Il risultato consolida il dominio commerciale di Drake nell'industria musicale contemporanea, superando figure storiche della Motown e colleghi celebri come Jay-Z e Kanye West. L'artista ha inoltre in programma un tour mondiale per il 2027.",
+      "sources": [
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/entertainment/music/articles/drake-sets-record-most-no-233942419.html"
+        },
+        {
+          "name": "The News International",
+          "url": "https://www.thenews.com.pk/latest/1419853-drake-achieves-major-feat-as-rb-and-hip-hop-artist"
+        }
+      ],
+      "image": {
+        "url": "https://s.yimg.com/lo/mysterio/api/ce01b64e967944e01e1596e12f2009ebaaa800af89ca6c65d9278e7021e2c454/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcover_media_us_articles_275%2F53e5c692210b9dc68d07ea92569123b8.jpg",
+        "credit": "Yahoo",
+        "link": "https://www.yahoo.com/entertainment/music/articles/drake-sets-record-most-no-233942419.html"
+      },
+      "quiz": [
+        {
+          "question": "Quali artisti ha superato Drake per conquistare il primato assoluto in classifica?",
+          "options": [
+            "The Temptations e Future",
+            "Jay-Z e Kanye West",
+            "R. Kelly e Stevie Wonder",
+            "Eminem e Kendrick Lamar"
+          ],
+          "answer": 0,
+          "explanation": "Con il suo diciottesimo album al primo posto, Drake ha superato The Temptations e Future, entrambi fermi a quota 17."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-15-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Scoperto un meccanismo nascosto che mantiene l'infiammazione attiva",
+      "summary": "Uno studio del Boston Children's Hospital, pubblicato il 23 settembre 2026 su Nature, ha identificato una struttura cellulare nascosta, il myddosome, che si forma quando le proteine di segnalazione si separano dai recettori Toll‑like. Questa struttura attiva i geni infiammatori, mantenendo viva l’infiammazione anche dopo il distacco, e potrebbe rappresentare un nuovo bersaglio per le terapie autoimmuni.",
+      "context": "Il ritrovamento sposta l’attenzione dalle tradizionali terapie che bloccano i recettori Toll‑like verso un bersaglio interno alla cellula, potenzialmente più efficace per controllare malattie autoimmuni.",
+      "sources": [
+        {
+          "name": "SciTechDaily",
+          "url": "https://scitechdaily.com/scientists-discover-a-hidden-trigger-that-keeps-inflammation-alive/"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual è la struttura cellulare scoperta che mantiene l'infiammazione attiva dopo il distacco delle proteine dai recettori Toll‑like?",
+          "options": [
+            "Nucleo",
+            "Apparato di Golgi",
+            "Lisosoma",
+            "Myddosome"
+          ],
+          "answer": 3,
+          "explanation": "Lo studio ha mostrato che le proteine formano il myddosome, che attiva i geni infiammatori."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-15-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Stabilimenti ex Ilva: i commissari confermano la produzione",
+      "summary": "I commissari straordinari di Adi in amministrazione straordinaria confermano che gli stabilimenti ex Ilva di Taranto, Genova e Novi Ligure non chiuderanno. A Taranto e Genova la produzione continua, con accordi per la laminazione conto terzi e il richiamo del personale dalla cassa integrazione. Per Novi Ligure è stato attivato un piano per contenere la contrazione produttiva e tutelare l'occupazione. Le brevi sospensioni tecniche sono parte di un piano di continuità, non di cessazione dell'attività.",
+      "context": "La mossa è cruciale per evitare la chiusura di siti strategici e la perdita di posti di lavoro in aree industriali sensibili. Il governo e i sindacati monitorano la situazione, con il ministro Urso che ha chiarito come la separazione dell'area nord da Taranto sia possibile ma non ancora proposta da nessun acquirente entro la scadenza del 9 novembre.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/14/commissari-gli-stabilimenti-ex-ilva-di-genova-taranto-e-novi-ligure-non-chiudono_98379dd2-104b-46bd-9bdc-a7da62786301.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/14/lavoratori-dellex-ilva-occupano-la-prefettura-di-genova_9292dcfc-fd66-4ae4-bef9-2dc39db3a32e.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/12/d8d8326842533d075354762290c4cc93.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/14/commissari-gli-stabilimenti-ex-ilva-di-genova-taranto-e-novi-ligure-non-chiudono_98379dd2-104b-46bd-9bdc-a7da62786301.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo principale del piano attivato dai commissari per gli stabilimenti ex Ilva?",
+          "options": [
+            "Vendere immediatamente gli stabilimenti a un unico acquirente",
+            "Chiudere definitivamente lo stabilimento di Novi Ligure",
+            "Spostare tutte le attività produttive esclusivamente a Taranto",
+            "Contenere la contrazione produttiva e salvaguardare i livelli occupazionali"
+          ],
+          "answer": 3,
+          "explanation": "Il piano mira a mantenere la produzione e proteggere i posti di lavoro, evitando la chiusura degli stabilimenti."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-15-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Narnia: trailer con Daniel Craig e Meryl Streep, uscita a febbraio",
+      "summary": "Greta Gerwig ha diffuso il trailer di 'Il Nipote del Mago', primo film della saga di Narnia prodotto da Netflix. Il cast include Daniel Craig e la voce di Meryl Streep. La colonna sonora presenta 'Stairway to Heaven' dei Led Zeppelin, autorizzata per la prima volta. Il film, ambientato negli anni Cinquanta, uscirà nelle sale il 12 febbraio prima di arrivare in streaming.",
+      "context": "Si tratta del primo film di Netflix con distribuzione cinematografica globale. La scelta di Gerwig, nota per 'Barbie', segna un nuovo modello di rilascio ibrido. L'uso della canzone dei Led Zeppelin è un evento raro per i diritti musicali.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/14/narnia-debutta-il-trailer-con-daniel-craig-e-la-voce-di-meryl-streep_e49b1b68-07b4-4cc5-8c69-a182c21ec765.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/8/28/22a7d03c6c2c7daa3ab112c54b6389ee.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/14/narnia-debutta-il-trailer-con-daniel-craig-e-la-voce-di-meryl-streep_e49b1b68-07b4-4cc5-8c69-a182c21ec765.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la particolarità della distribuzione di questo film?",
+          "options": [
+            "Sarà disponibile solo in streaming",
+            "È il primo film di Netflix con uscita globale al cinema",
+            "Uscirà solo in Italia",
+            "Non avrà una data di uscita fissa"
+          ],
+          "answer": 1,
+          "explanation": "Il film uscirà nelle sale il 12 febbraio, diventando il primo titolo Netflix con distribuzione cinematografica globale."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-15-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Champions League: il Real Madrid rimonta la Roma e vince 4-3",
+      "summary": "Ieri sera la Roma è stata sconfitta per 4-3 dal Real Madrid nella seconda giornata di Champions League. Dopo l'1-0 di De Roon e il pari di Mbappé, la squadra di Gian Piero Gasperini si era portata sul 3-1 con una doppietta di Malen. Nell'ultima mezz'ora gli spagnoli di José Mourinho hanno però ribaltato la gara, segnando tre reti su altrettanti calci d'angolo con Espí, Endrick e l'ex difensore Rüdiger.",
+      "context": "La sconfitta lascia l'amaro in bocca ai giallorossi, che oltre ai punti persi dopo un'ora dominata devono valutare i problemi fisici di Manu Koné e Paulo Dybala. Il successo conferma invece la consueta tenacia europea del Real Madrid.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/14/champions-da-3-1-a-3-4-roma-ripresa-e-superata-dal-real-madrid_4523d3df-60e3-4d59-a5ee-9cb4ddf3fb16.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/14/champions-gasperini-real-surclassato-in-tutto-peccato-aver-buttato-la-vittoria_6151a01b-1e0a-4697-9db7-64090920452d.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/14/champions-mourinho-due-gare-in-una-difficile-per-la-roma-tenere-quel_fe3b8a4e-e407-4346-b062-5bf1a7ec7cb9.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/14/aae44496267d87e70018c5c1fa241c7b.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/14/champions-da-3-1-a-3-4-roma-ripresa-e-superata-dal-real-madrid_4523d3df-60e3-4d59-a5ee-9cb4ddf3fb16.html"
+      },
+      "quiz": [
+        {
+          "question": "In che modo il Real Madrid ha ribaltato il risultato contro la Roma?",
+          "options": [
+            "Grazie a una tripletta di Mbappé nel secondo tempo",
+            "Sfruttando la superiorità numerica dopo un'espulsione",
+            "Trasformando due calci di rigore nei minuti di recupero",
+            "Segnando tre gol sugli sviluppi di calci d'angolo"
+          ],
+          "answer": 3,
+          "explanation": "Dopo essere andato sotto 3-1, il Real Madrid ha segnato tre reti consecutive arrivate tutte da situazioni di calcio d'angolo."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-15-7"
+    },
+    {
+      "category": "storia",
+      "tag": "15 ottobre 1940",
+      "title": "Charlie Chaplin sfida Hitler con Il grande dittatore",
+      "summary": "Il 15 ottobre 1940 uscì nelle sale statunitensi \"Il grande dittatore\", capolavoro satirico scritto, diretto e interpretato da Charlie Chaplin. Nel film, Chaplin vestì il doppio ruolo di un umile barbiere ebreo perseguitato e del feroce tiranno Adenoid Hynkel, parodia diretta di Adolf Hitler. L'opera, costata due milioni di dollari, affrontò apertamente la minaccia del regime nazista e le violenze del ghetto, segnando anche il debutto del regista nel cinema sonoro.",
+      "context": "La pellicola dimostrò come il cinema potesse diventare una potente arma politica contro il totalitarismo durante la Seconda guerra mondiale. Il celebre discorso finale sulla fratellanza e sui diritti umani ha lasciato un'impronta indelebile nella cultura democratica globale.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Il_grande_dittatore"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/The_Great_Dictator_%281940%29_poster.jpg/1280px-The_Great_Dictator_%281940%29_poster.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:The_Great_Dictator_(1940)_poster.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale novità tecnica e stilistica introdusse Il grande dittatore nella carriera di Chaplin?",
+          "options": [
+            "Fu la sua prima opera girata interamente a colori",
+            "Fu il suo primo film interamente sonoro",
+            "Fu il suo primo documentario d'inchiesta",
+            "Fu il primo film in cui non recitò come protagonista"
+          ],
+          "answer": 1,
+          "explanation": "\"Il grande dittatore\" fu la prima pellicola completamente sonora realizzata da Charlie Chaplin, che scelse di usare la parola per denunciare il nazismo."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-15-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Busto di Girolamo Benivieni",
+      "title": "Il falso rinascimentale del Louvre che ritraeva un operaio",
+      "summary": "Nel 1866 il Museo del Louvre acquistò per l'enorme somma di oltre 13.000 franchi un presunto capolavoro rinascimentale: il busto del poeta Girolamo Benivieni, attribuito a maestri come Verrocchio o Lorenzo di Credi. La scultura, esposta accanto a Michelangelo, era in realtà un falso moderno realizzato tra il 1863 e il 1864 dal fiorentino Giovanni Bastianini. Il modello non era un illustre umanista, ma Giuseppe Bonaiuti, un anziano operaio di una manifattura di tabacchi.",
+      "context": "Nell'Ottocento la riscoperta del Rinascimento alimentò una frenesia collezionistica internazionale. La perizia tecnica di abili scultori come Bastianini mise in crisi la neonata critica d'arte, dimostrando la vulnerabilità delle grandi istituzioni museali di fronte a falsi stilisticamente impeccabili.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Busto_di_Girolamo_Benivieni"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Michele_gordigiani%2C_ritratto_dello_scultore_giovanni_bastianin.jpg/1280px-Michele_gordigiani%2C_ritratto_dello_scultore_giovanni_bastianin.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Michele_gordigiani%2C_ritratto_dello_scultore_giovanni_bastianin.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Chi posò come modello per il presunto busto rinascimentale acquistato dal Louvre?",
+          "options": [
+            "Un anziano operaio fiorentino di una fabbrica di tabacco",
+            "Lo scultore stesso attraverso uno studio di autoritratto",
+            "Il poeta quattrocentesco Girolamo Benivieni in gioventù",
+            "Un noto antiquario e commerciante d'arte di Parigi"
+          ],
+          "answer": 0,
+          "explanation": "Bastianini non ritrasse l'umanista Benivieni, ma Giuseppe Bonaiuti, un settantenne fiorentino impiegato nell'industria del tabacco."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-15-9"
+    }
+  ]
+}
