@@ -1,0 +1,408 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T04:35:56.885Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "UE: dibattito sul nuovo bilancio e nodo energia",
+      "summary": "I capi di Stato e di governo dell'Unione europea si sono riuniti a Bruxelles per un Consiglio europeo intensivo. La prima giornata è stata dominata dall'emergenza energetica, con prezzi in rialzo e preoccupazioni per l'inverno, e dal dibattito sul nuovo bilancio comunitario. Il cancelliere tedesco Friedrich Merz ha spinto per un rigore finanziario, chiedendo tagli alla spesa e una revisione dell'Emission Trading System, considerato un nodo critico.",
+      "context": "Il confronto tra i Ventisette è cruciale per la stabilità economica dell'Europa: la gestione del bilancio e della crisi energetica influenzerà le finanze nazionali e la sicurezza dell'approvvigionamento nei mesi freddi. Da monitorare le decisioni su tagli di spesa e riforme dell'ETS.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUWtYbnhfRVJCQ2czaWR1TzQzUmxVZHNXVU5mRXNndjZSZzduTW52M2VMT19OLVFYamV4TVdGMjM4MTF5VjlmYmFJem9sMTJycTZwSmh5UEcwMWpRODY4NHNtZ2c1bFhkSW1qaUJFOHp3cDBVTUxYOENfNDNFdktGWXdLVVEyODE1Q1drMEpRM2tiaVNOQnBCZ2ZmUC1kNjZpcktXdU12NFUzMkxvNUR4VEd6LWQ2TWxfQllaSk5mcHVRMzVCQ0poZE1ZYTRoM2ZVOUE?oc=5"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/vertice-ue-tra-caro-energia-e-tagli-ai-conti-poi-larrivo-di-zelensky-66b6c788-a76d-4a07-acf6-124e0b6b4c07.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/16/1792106466354_SON_Lucrezio_Consiglio_Ue_.transferframe.jpeg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/vertice-ue-tra-caro-energia-e-tagli-ai-conti-poi-larrivo-di-zelensky-66b6c788-a76d-4a07-acf6-124e0b6b4c07.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il tema principale del dibattito al Consiglio europeo di Bruxelles",
+          "options": [
+            "Nuovo bilancio comunitario",
+            "Politica agricola comune",
+            "Politica estera",
+            "Riforma giudiziaria"
+          ],
+          "answer": 0,
+          "explanation": "Il Consiglio ha concentrato la discussione sul nuovo bilancio e sulla crisi energetica, rendendo il bilancio il tema centrale."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-16-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Manovra 2026: 5 miliardi da banche e assicurazioni",
+      "summary": "Il governo ha inviato a Bruxelles il documento programmatico di bilancio per la manovra 2026, che parte da 23,5 miliardi di euro. Per finanziare le spese, il Tesoro chiede a banche e assicurazioni un contributo di 5 miliardi nel 2027 e quasi 11 nel triennio. Il settore finanziario si dichiara sorpreso e contrario, poiché l'anno scorso era stato raggiunto un accordo triennale per 10 miliardi. La richiesta è arrivata senza negoziazione, lasciando incertezza su come sarà ripartito l'onere tra le diverse società finanziarie.",
+      "context": "La mossa è cruciale per garantire la sostenibilità dei conti pubblici e finanziare le priorità sociali e infrastrutturali. Il contrasto con il settore bancario evidenzia la tensione tra esigenze di copertura fiscale e la capacità di carico del sistema finanziario, un tema che potrebbe influenzare la fiducia degli investitori.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/15/manovra-5-miliardi-da-banche-e-assicurazioni.-istituti-sorpresi_c3055dc9-ff3a-429b-ace4-53b8b73047e2.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/15/loffensiva-di-meloni-sulla-flessibilita-sullenergia-e-scontro-aperto-in-ue_99106306-33f9-404f-a92d-d2297a3adfba.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/23/b4322deffc8fea9efe60c60de194ac29.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/15/manovra-5-miliardi-da-banche-e-assicurazioni.-istituti-sorpresi_c3055dc9-ff3a-429b-ace4-53b8b73047e2.html"
+      },
+      "quiz": [
+        {
+          "question": "Perché il settore bancario ha reagito con sorpresa alla richiesta di contributo nella manovra?",
+          "options": [
+            "Perché l'importo richiesto è inferiore a quello dell'anno scorso",
+            "Perché le banche hanno rifiutato di pagare le tasse",
+            "Perché il governo ha escluso le assicurazioni dal contributo",
+            "Perché era già stato raggiunto un accordo triennale per 10 miliardi"
+          ],
+          "answer": 3,
+          "explanation": "Il materiale specifica che lo scorso anno era stato raggiunto un accordo triennale per 10 miliardi, rendendo la nuova richiesta inattesa e non negoziata."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-16-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "KDE compie 30 anni e lancia Plasma 6.8",
+      "summary": "In occasione del trentesimo anniversario, KDE ha rilasciato Plasma 6.8, definendolo l'edizione speciale. L'aggiornamento introduce funzionalità remote e migliora l'integrazione dei backup. La novità principale è l'abbandono del supporto nativo per le sessioni X11, a favore del protocollo Wayland. Le vecchie applicazioni X11 continueranno a funzionare tramite un livello di compatibilità, mentre gli utenti che rimarranno sulla versione 6.7 conserveranno le sessioni attuali.",
+      "context": "La transizione verso Wayland segna un passo storico per gli ambienti desktop, dopo che anche GNOME ha eliminato il supporto predefinito a X11. Questo cambiamento prepara il terreno per future ottimizzazioni grafiche e di sicurezza, riducendo la dipendenza da protocolli obsoleti.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/10/kde-turns-30-with-plasma-6-8-remote-upgrades-and-an-x11-farewell/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/KDE_Birthday_30th_Laptop-1070x648.png",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/gadgets/2026/10/kde-turns-30-with-plasma-6-8-remote-upgrades-and-an-x11-farewell/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa succede al supporto per le sessioni X11 in Plasma 6.8?",
+          "options": [
+            "Viene sostituito da un nuovo protocollo proprietario KDE",
+            "Viene eliminato nativamente, ma le app funzionano via compatibilità",
+            "Viene mantenuto come opzione predefinita per compatibilità",
+            "Viene rimosso del tutto, impedendo l'uso di vecchie applicazioni"
+          ],
+          "answer": 1,
+          "explanation": "Plasma 6.8 rimuove l'avvio nativo di sessioni X11, ma le applicazioni legacy restano utilizzabili tramite il livello di compatibilità XWayland."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-16-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Chance the Rapper vince 1,5 milioni contro ex manager",
+      "summary": "Chance the Rapper ha ottenuto una sentenza da 1,5 milioni di dollari in un secondo processo contro l’ex manager Pat Corcoran, ritenuto responsabile di violazione dei doveri fiduciari per aver tratto fondi segreti da fornitori di merchandising. Il giudice James Hanlon ha ordinato il rimborso delle commissioni del 15 % e la restituzione dei fondi illeciti; l’ammontare finale sarà confermato in udienza a fine novembre.",
+      "context": "La decisione conferma che i manager musicali sono fiduciari dell’artista, creando un precedente legale per future dispute contrattuali e segnalando un controllo più severo sui pagamenti di merchandising.",
+      "sources": [
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/chance-the-rapper-wins-1-5-million-lawsuit-former-manager/"
+        },
+        {
+          "name": "Complex on MSN",
+          "url": "https://www.msn.com/en-us/news/other/chance-the-rapper-s-ex-manager-ordered-to-forfeit-nearly-1-5-million-over-merch-kickbacks/ar-AA2elmp0"
+        },
+        {
+          "name": "WBEZ",
+          "url": "https://www.wbez.org/music/2026/10/15/chance-the-rapper-pat-corcoran-court-case"
+        }
+      ],
+      "image": {
+        "url": "https://townsquare.media/site/812/files/2026/10/attachment-chance-the-rapper-1-5-million-former-manager.jpg?w=1200&format=natural",
+        "credit": "XXL",
+        "link": "https://www.xxlmag.com/chance-the-rapper-wins-1-5-million-lawsuit-former-manager/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'esito principale del processo contro l'ex manager di Chance the Rapper?",
+          "options": [
+            "Corcoran è stato condannato a pagare 1,5 milioni di dollari",
+            "Il caso è stato archiviato",
+            "Chance ha ricevuto solo 35 dollari",
+            "Corcoran ha vinto una causa da 3,8 milioni"
+          ],
+          "answer": 0,
+          "explanation": "Il giudice ha ordinato a Pat Corcoran di restituire i fondi illeciti, fissando un risarcimento di 1,5 milioni di dollari."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-16-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Microplastiche: reazione con l'acqua causa infiammazione",
+      "summary": "Uno studio pubblicato su Nature rivela che le microplastiche comuni generano spontaneamente radicali liberi quando a contatto con l'acqua. Queste reazioni chimiche danneggiano proteine e globuli rossi in laboratorio, spiegando potenzialmente l'infiammazione cellulare osservata in studi precedenti. La scoperta contraddice l'idea che le plastiche siano chimicamente inerti e suggerisce un meccanismo diretto per i danni ai tessuti umani.",
+      "context": "La scoperta è cruciale perché fornisce una spiegazione chimica ai danni biologici delle microplastiche, finora considerate inerti. Poiché il sangue e le cellule sono ricchi di acqua, queste reazioni potrebbero avvenire costantemente nell'organismo, influenzando malattie cardiovascolari e neurologiche e aumentando l'urgenza di sviluppare plastiche biodegradabili.",
+      "sources": [
+        {
+          "name": "News-Medical.Net",
+          "url": "https://www.news-medical.net/news/20261015/Scientists-discover-water-triggered-reactions-that-may-explain-microplastic-harm.aspx"
+        },
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/news/science/articles/microplastics-trigger-inflammation-linked-disease-213300628.html"
+        },
+        {
+          "name": "MeteoWeb",
+          "url": "https://www.meteoweb.eu/2026/10/microplastiche-nel-mediterraneo-la-scoperta-dellenea-oltre-una-pallina-di-posidonia-su-tre-contiene-plastica/1001991417/"
+        }
+      ],
+      "image": {
+        "url": "https://www.news-medical.net/images/news/ImageForNews_848947_17921115561972063.jpg",
+        "credit": "News-Medical.Net",
+        "link": "https://www.news-medical.net/news/20261015/Scientists-discover-water-triggered-reactions-that-may-explain-microplastic-harm.aspx"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il meccanismo principale scoperto nello studio che spiega la tossicità delle microplastiche?",
+          "options": [
+            "Le microplastiche rilasciano metalli pesanti nell'acqua",
+            "Le microplastiche generano radicali liberi a contatto con l'acqua",
+            "Le microplastiche bloccano fisicamente i vasi sanguigni",
+            "Le microplastiche assorbono l'ossigeno dal sangue"
+          ],
+          "answer": 1,
+          "explanation": "Lo studio ha dimostrato che l'interazione tra microplastiche e acqua genera spontaneamente radicali liberi che danneggiano le cellule."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-16-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Bce autorizza Unicredit a controllare Commerzbank",
+      "summary": "La Banca Centrale Europea ha autorizzato Unicredit a superare la soglia del 30% di partecipazione in Commerzbank, permettendole di aumentare la quota senza limiti massimi. Il completamento dei passaggi regolamentari è previsto per la fine dell'anno. A quel punto, Unicredit deterrà circa il 50% dei diritti di voto e assumerà il controllo della banca tedesca.",
+      "context": "L'operazione consolida la presenza di Unicredit in Germania e ridisegna il panorama bancario europeo. Il controllo di Commerzbank rafforza la posizione competitiva del gruppo italiano nel mercato del credito tedesco, uno dei più rilevanti in Europa.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/15/via-libera-della-bce-a-unicredit-per-il-controllo-di-commerzbank_6572488f-4eee-4371-89db-80de1ba4a152.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/5/5/d9e350d0d447ad64179b5568e812b03f.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/15/via-libera-della-bce-a-unicredit-per-il-controllo-di-commerzbank_6572488f-4eee-4371-89db-80de1ba4a152.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale quota di diritti di voto Unicredit deterrà in Commerzbank al completamento dell'operazione?",
+          "options": [
+            "Circa il 30%",
+            "Circa il 50%",
+            "Il 100%",
+            "Il 25%"
+          ],
+          "answer": 1,
+          "explanation": "Il testo specifica che, al termine dei passaggi regolamentari previsti per la fine dell'anno, Unicredit deterrà circa il 50% dei diritti di voto."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-16-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Street Fighter al cinema il 15 ottobre 2026",
+      "summary": "Il nuovo film 'Street Fighter', tratto dall’omonima serie di Capcom, arriva nelle sale italiane il 15 ottobre 2026, un giorno prima dell’uscita negli Stati Uniti. Diretto da Kitao Sakurai e prodotto da Legendary Pictures, il film è ambientato nel 1993 e vede protagonisti Ryu (Andrew Koji), Ken (Noah Centineo) e Chun‑Li (Callina Liang). Tra i volti noti, Jason Momoa interpreta Blanka, Roman Reigns è Akuma e 50 Cent è Balrog.",
+      "context": "L’uscita anticipata in Italia sottolinea l’interesse globale per il franchise di Street Fighter, mentre la presenza di celebrità del cinema, del wrestling e della musica punta a un pubblico più ampio oltre i videogiocatori.",
+      "sources": [
+        {
+          "name": "Multiplayer.it",
+          "url": "https://multiplayer.it/notizie/street-fighter-il-film-con-ryu-ken-e-chun-li-arriva-al-cinema-il-15-ottobre.html"
+        }
+      ],
+      "image": {
+        "url": "https://multiplayer.net-cdn.it/thumbs/images/2026/10/02/streetfighter_70x100_cropped_0_158_2756_1701_jpeg_1280x720_crop_q85.jpg",
+        "credit": "Multiplayer.it",
+        "link": "https://multiplayer.it/notizie/street-fighter-il-film-con-ryu-ken-e-chun-li-arriva-al-cinema-il-15-ottobre.html"
+      },
+      "quiz": [
+        {
+          "question": "Quando uscirà nelle sale italiane il film 'Street Fighter'?",
+          "options": [
+            "30 settembre 2026",
+            "1 novembre 2026",
+            "15 ottobre 2026",
+            "16 ottobre 2026"
+          ],
+          "answer": 2,
+          "explanation": "Il film è programmato per l'uscita in Italia il 15 ottobre 2026, un giorno prima del debutto negli Stati Uniti."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-16-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Milan 4-0 Salzburg, Cissé con la tripletta",
+      "summary": "Il Milan ha battuto il Salzburg per 4-0 nella seconda giornata di Europa League, giocata il 15 ottobre 2026. Alphadjo Cissé, 19 anni, ha realizzato una tripletta (15’, 32’ e 4’), diventando il più giovane italiano a segnare tre reti in una competizione europea. Gonçalo Ramos ha aggiunto il quarto gol.",
+      "context": "La vittoria riporta il Milan in vantaggio in Europa League dopo la sconfitta contro il Benfica e il pareggio con il Sassuolo, e mette in luce il talento emergente di Cissé, che batte il record di Inzaghi.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/15/europa-league-salisburgo-milan-0-4_66cf3fc2-0c4f-490e-9b26-df44a8a0f4f8.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/15/europa-league-show-a-salisburgo-il-milan-vince-4-0_485db349-5cd7-470e-8205-5feece55ce97.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/15/27c6573ae7b7167efd5fe9fa1a5a8e56.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/15/europa-league-salisburgo-milan-0-4_66cf3fc2-0c4f-490e-9b26-df44a8a0f4f8.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato il risultato della partita tra Milan e Salzburg e chi ha segnato una tripletta?",
+          "options": [
+            "Milan 4-0, Alphadjo Cissé",
+            "Milan 3-1, Gonçalo Ramos",
+            "Milan 2-2, Tomori",
+            "Milan 1-0, Rabiot"
+          ],
+          "answer": 0,
+          "explanation": "Il Milan ha vinto 4-0 e Cissé ha realizzato tre reti."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-16-7"
+    },
+    {
+      "category": "storia",
+      "tag": "16 ottobre 1843",
+      "title": "La scoperta dei quaternioni",
+      "summary": "Il matematico irlandese William Rowan Hamilton formalizza i quaternioni, un sistema di numeri a quattro dimensioni che estende i numeri complessi. L'intuizione arriva durante una passeggiata a Dublino, spingendo Hamilton a incidere la formula fondamentale sul ponte Broom Bridge. Questa scoperta richiede l'abbandono della proprietà commutativa della moltiplicazione.",
+      "context": "L'introduzione dei quaternioni ha rivoluzionato l'algebra imponendo il superamento della proprietà commutativa. Oggi questa struttura matematica è fondamentale nella computer grafica tridimensionale, nella robotica e nella gestione dell'assetto dei veicoli spaziali per la sua stabilità numerica.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Quaternione"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/WilliamRowanHamilton.jpeg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:WilliamRowanHamilton.jpeg"
+      },
+      "quiz": [
+        {
+          "question": "Quale proprietà fondamentale è stato necessario abbandonare introducendo i quaternioni?",
+          "options": [
+            "La proprietà commutativa della moltiplicazione",
+            "La proprietà associativa della somma",
+            "L'utilizzo delle quattro dimensioni",
+            "L'uso dei numeri reali"
+          ],
+          "answer": 0,
+          "explanation": "La formalizzazione dei quaternioni ha richiesto l'abbandono della proprietà commutativa del prodotto."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-16-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Giacomo Stewart, duca di Ross",
+      "title": "Due fratelli con lo stesso nome nel tardo Medioevo scozzese",
+      "summary": "Nel tardo Medioevo scozzese non era raro che in una stessa famiglia due o tre fratelli portassero lo stesso nome. Un caso celebre fu quello del re Giacomo IV di Scozia e del suo fratello minore, battezzato anch'egli con il nome di Giacomo. Quest'ultimo, duca di Ross ed erede al trono, fu tenuto ai margini del potere e nominato arcivescovo per escluderlo dalla successione. La sua figura ispirò Ludovico Ariosto per il personaggio di Zerbino.",
+      "context": "Nel Rinascimento europeo le strategie dinastiche e la gestione dei rami cadetti della famiglia reale erano fondamentali per evitare guerre civili. Spesso la carriera ecclesiastica veniva imposta ai fratelli dei monarchi per neutralizzare pretese al trono, un meccanismo politico diffuso prima della nascita degli Stati moderni.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Giacomo_Stewart,_duca_di_Ross"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/James_IV_of_Scotland_%282%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:James_IV_of_Scotland_(2).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Giacomo Stewart, duca di Ross, fu nominato arcivescovo di St. Andrews?",
+          "options": [
+            "Per sostituire il fratello maggiore sul trono di Scozia",
+            "Per una sincera vocazione religiosa maturata fin da bambino",
+            "Per tenerlo sotto controllo ed escluderlo dalla successione al trono",
+            "Per espressa richiesta della Chiesa di Roma"
+          ],
+          "answer": 2,
+          "explanation": "Il re Giacomo IV nominò il fratello arcivescovo per limitare la sua influenza politica ed evitare che potesse ribellarsi o insidiare la successione."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-16-9"
+    }
+  ]
+}
