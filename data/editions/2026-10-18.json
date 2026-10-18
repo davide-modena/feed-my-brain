@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T04:31:48.967Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacco aereo a San Pietroburgo: blackout e danni a infrastruttura digitale",
+      "summary": "Nella notte, un attacco con droni ha colpito il centro dati del social network VKontakte e la sottostazione elettrica Vostochnaya, situati nel villaggio di Novosergievka, nell'oblast di Leningrado, al confine con San Pietroburgo. L'impatto ha causato un blackout parziale nella città e interruzioni nei servizi online. Il governatore locale ha dichiarato di aver abbattuto 126 droni, mentre VK ha confermato l'attacco assicurando che i servizi sono tornati operativi.",
+      "context": "L'evento evidenzia l'estensione dei conflitti bellici alle infrastrutture civili e digitali russe, oltre i confini ucraini. Colpire centri dati e reti energetiche rappresenta una strategia per destabilizzare la comunicazione e la logistica, segnando un'escalation significativa nel teatro operativo.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/listante-dellimpatto-del-drone-in-picchiata-sulla-raffineria-di-san-pietroburgo-video-attacco-ucraino-61e5a123-6c89-483f-810c-74e92c4407f3.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/10/blackout-a-san-pietroburgo-media-colpiti-centro-dati-e-stazione-elettrica-guerra-in-ucraina-84222445-89c5-4f66-8e86-41172526b59f.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/10/trump-congela-le-sanzioni-a-mosca-zelensky-regalo-a-putin-c02441a4-2f29-4446-a822-292a814017a3.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/18/1792297554004_c.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/listante-dellimpatto-del-drone-in-picchiata-sulla-raffineria-di-san-pietroburgo-video-attacco-ucraino-61e5a123-6c89-483f-810c-74e92c4407f3.html"
+      },
+      "quiz": [
+        {
+          "question": "Quali infrastrutture sono state colpite dall'attacco con droni?",
+          "options": [
+            "Una centrale nucleare e un aeroporto",
+            "Un centro dati di VKontakte e una sottostazione elettrica",
+            "Una base militare e un porto commerciale",
+            "Un ospedale e una stazione di polizia"
+          ],
+          "answer": 1,
+          "explanation": "Il materiale specifica che sono stati attaccati il centro dati del social network VKontakte e la sottostazione elettrica Vostochnaya."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-18-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Cgil annuncia sciopero generale il 20 novembre contro la spesa per la difesa",
+      "summary": "Durante una manifestazione a Roma, il segretario generale della Cgil Maurizio Landini ha annunciato uno sciopero generale per il 20 novembre. La mobilitazione, il quinto consecutivo, è indirizzata contro l'inclusione di 14 miliardi di euro per la spesa militare nella prossima legge di Bilancio. Landini ha criticato il governo Meloni, chiedendo risposte concrete su salari, sanità e istruzione pubblica, e rilanciando la proposta di una tassa sulle grandi ricchezze.",
+      "context": "Lo sciopero si inserisce nel conflitto tra sindacati e governo sulla manovra economica. La data coincide con la mobilitazione europea degli studenti. L'evento evidenzia la tensione politica sul bilancio statale e sulle priorità di spesa tra difesa e welfare.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc0pfa3pvQmpjUThHcjJpMDJocVRNRVNGaGFwd3JKVUl0R3dXOGV6aHlfTnZWc09qNEFHUm1ZYUVlYzZJNTNYa1BTS29lSERPTDR0QldLWHczUWFFUEtCajNGTXFWQlZPd3M5OXg3LUgtU3N1UG4xNUx4aTlIVVdHbUJCMVZPRlR5em8yamFEM3pYaVZWZTJxZGppMjgxeklaalVMSnVEM2JjQ1JWakHSAbMBQVVfeXFMT01wQkN2VTVJamdmWGJlT0w3MlpncWhSX3RhMldCMF9fdnRVSU1tNjRXdkZkeWR3MVRLUExXbHVOQVlDcHZ5cHlvSlFVbDRZd1NKMEEweDZ1ZEtHb0JCZ2Mzb1RmbklzYVFPbTd2TzYxSmxmQ3N4SG1fZTEzc1BtNTZTVHNNQ2dieDZLclQzTWN2VnkzYlRIcnV4TURYWmcyNmV4R3pCbGhiSlRaa0FBamlNMDA?oc=5"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/17/cgil-in-piazza-siamo-100mila-il-20-novembre-sciopero-generale_c4547ea9-f018-4e78-adda-67ad7af8e7d0.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/17/2bb0c102b2ea7af8b96b72e600d99d8d.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/17/cgil-in-piazza-siamo-100mila-il-20-novembre-sciopero-generale_c4547ea9-f018-4e78-adda-67ad7af8e7d0.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la ragione principale dello sciopero generale annunciato dalla Cgil?",
+          "options": [
+            "Richiesta di aumento immediato delle pensioni",
+            "Contro la riforma del lavoro",
+            "Protesta contro la legge elettorale",
+            "Opposizione alla spesa di 14 miliardi per le armi"
+          ],
+          "answer": 3,
+          "explanation": "Landini ha specificato che lo sciopero è contro l'allocazione di 14 miliardi per la difesa nella legge di Bilancio."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-18-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Siti web bloccano agenti AI autonomi",
+      "summary": "Negli ultimi giorni, diversi siti web hanno iniziato a bloccare l'accesso agli agenti di intelligenza artificiale autonomi. Yelp, Delta Air Lines, JPMorgan Chase e Charles Schwab hanno confermato di impedire a questi strumenti di eseguire azioni come prenotazioni o accessi agli account, citando motivi di sicurezza o la necessità di licenze a pagamento. Anche Amazon ha continuato la sua battaglia legale contro Perplexity, mentre altri servizi come Meta e OpenAI segnalano ostacoli simili nell'interazione con piattaforme esterne.",
+      "context": "Il blocco riflette la resistenza delle aziende tradizionali verso l'automazione che riduce il traffico umano e le pubblicità. La situazione mette in crisi la promessa degli agenti AI di agire per conto degli utenti, creando un conflitto giuridico e tecnico tra sviluppatori di AI e proprietari di siti web.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo principale JPMorgan Chase e Charles Schwab bloccano gli agenti AI?",
+          "options": [
+            "Perché gli agenti non parlano italiano",
+            "Per evitare la concorrenza di altre banche",
+            "Per aumentare le vendite di azioni",
+            "Per motivi di sicurezza degli account"
+          ],
+          "answer": 3,
+          "explanation": "Le banche hanno confermato di bloccare l'accesso degli agenti AI per proteggere la sicurezza dei conti correnti degli utenti."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-18-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Nas anticipa nuova musica e critica l'industria discografica",
+      "summary": "Nei giorni scorsi il rapper Nas ha pubblicato una lettera su Instagram per criticare lo stato attuale dell'industria musicale e del rap, lamentando la tendenza a dimenticare e sfruttare i fondatori del genere. Mentre lavora a nuova musica, l'artista ha invitato i creatori a unirsi e a superare la logica delle mode passeggere.",
+      "context": "Le critiche di artisti storici verso l'industria mettono in luce il rapporto complesso tra le radici del genere e il mercato moderno. Sostenere il valore della storia musicale aiuta a preservare l'identità culturale del settore.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/nas-music-industry-1236362126/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/10/2283783226-e1792177917682.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/nas-music-industry-1236362126/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha spinto Nas a criticare l'industria discografica?",
+          "options": [
+            "Il costo eccessivo dei concerti dal vivo",
+            "Il calo delle vendite dei dischi in vinile",
+            "La mancanza di compensi e rispetto per i fondatori del genere",
+            "La chiusura degli studi di registrazione storici"
+          ],
+          "answer": 2,
+          "explanation": "Nas ha criticato l'industria per aver dimenticato e non compensato adeguatamente le figure che hanno fondato la storia della musica."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-18-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Cgil, Landini annuncia lo sciopero generale per il 20 novembre",
+      "summary": "Il segretario generale della Cgil, Maurizio Landini, ha annunciato uno sciopero generale per il 20 novembre. L'annuncio è arrivato da Roma, durante la manifestazione della Via maestra in piazza del Popolo. Landini ha chiesto risposte concrete al governo sulla manovra di Bilancio, puntando l'attenzione sulla precarietà, sui bassi salari e sulla difesa dei diritti dei giovani.",
+      "context": "Gli scioperi generali proclamati dai sindacati rappresentano uno strumento di pressione politica ed economica sulle scelte di bilancio del governo. Nei prossimi mesi sarà centrale monitorare il confronto tra le parti sociali e l'esecutivo sulle politiche economiche.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/17/landini-sciopero-generale-il-20-novembre_eda40ae6-9260-4a05-ab78-a363f308ab03.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/17/ce2e8a35c8127aeba3f779e737d6de15.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/17/landini-sciopero-generale-il-20-novembre_eda40ae6-9260-4a05-ab78-a363f308ab03.html"
+      },
+      "quiz": [
+        {
+          "question": "Quando è stato annunciato lo sciopero generale della Cgil?",
+          "options": [
+            "Il 20 novembre",
+            "Nei mesi scorsi",
+            "Il giorno dopo la manovra di Bilancio",
+            "Durante la manifestazione in piazza del Popolo a Roma"
+          ],
+          "answer": 3,
+          "explanation": "Maurizio Landini ha fatto l'annuncio dal palco della manifestazione in piazza del Popolo a Roma."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-18-4"
+    },
+    {
+      "category": "storia",
+      "tag": "18 ottobre 1968",
+      "title": "Il leggendario salto in lungo di Bob Beamon a Città del Messico",
+      "summary": "Durante i Giochi olimpici di Città del Messico, l'atleta Bob Beamon ha stabilito il record del mondo nel salto in lungo saltando la misura di 8,90 metri. Questo risultato ha migliorato il precedente primato di ben cinquantacinque centimetri ed è diventato il record più duraturo nella storia dell'atletica leggera, resistendo per ventitré anni.",
+      "context": "Questo salto ha ridefinito i limiti fisici della disciplina, mostrando l'impatto dell'altitudine sulla prestazione e stabilendo un primato che è rimasto in vigore fino al 1991. L'evento ha fissato un punto di riferimento storico per l'atletica mondiale.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Progressione_del_record_mondiale_del_salto_in_lungo_maschile"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/1992_Bob_Beamon.JPG",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:1992_Bob_Beamon.JPG"
+      },
+      "quiz": [
+        {
+          "question": "Di quanto Bob Beamon ha migliorato il precedente record del mondo di salto in lungo?",
+          "options": [
+            "Di ottantacinque centimetri",
+            "Di un solo centimetro",
+            "Di ventitré centimetri",
+            "Di cinquantacinque centimetri"
+          ],
+          "answer": 3,
+          "explanation": "Bob Beamon ha incrementato la misura del precedente primato di ben cinquantacinque centimetri, raggiungendo gli 8,90 metri."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-18-5"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Lucio Orbilio Pupillo",
+      "title": "Il maestro severo che ha dato il nome a una parafilia",
+      "summary": "Il grammatico romano Lucio Orbilio Pupillo, vissuto tra il secondo e il primo secolo avanti Cristo, è diventato celebre soprattutto grazie al suo allievo Orazio, che lo soprannominò plagosus per la sua abitudine di picchiare gli studenti. Nei secoli successivi la sua figura ha generato l'orbilianismo, un termine nato in un libello francese del settecento per indicare gli educatori che provano piacere nell'usare le punizioni corporali.",
+      "context": "Nel mondo antico romano le punizioni corporali erano una pratica educativa comune e accettata. La figura di Orbilio è sopravvissuta nei secoli come archetipo del docente violento, trasformandosi in età moderna in un simbolo polemico sfruttato per denunciare i metodi punitivi tradizionali.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Lucio_Orbilio_Pupillo"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Benevento_Cattedrale_Orbilio.jpg/1280px-Benevento_Cattedrale_Orbilio.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Benevento_Cattedrale_Orbilio.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Da dove deriva il termine storico orbilianismo?",
+          "options": [
+            "Da un libello francese del settecento sulle punizioni corporali",
+            "Da un poema epico composto dal poeta Orazio",
+            "Da un trattato di pedagogia scritto dallo stesso Orbilio",
+            "Da una legge dell'antica Roma sui diritti degli studenti"
+          ],
+          "answer": 0,
+          "explanation": "Il termine deriva da un libello francese pubblicato nel 1764 per denunciare gli abusi fisici degli educatori."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-18-6"
+    }
+  ]
+}
