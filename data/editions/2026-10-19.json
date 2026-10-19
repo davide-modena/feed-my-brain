@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T04:34:14.587Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacco a impianti petroliferi a San Pietroburgo",
+      "summary": "Durante la notte di lunedì 19 ottobre, due impianti petroliferi di San Pietroburgo – il terminal petrolifero della città e il deposito Ruchyi – sono stati colpiti da droni, provocando incendi, un morto e almeno cinque feriti. Sono stati danneggiati anche un centro logistico di Ozon e un data centre di VKontakte; l’aeroporto Pulkovo è stato chiuso temporaneamente.",
+      "context": "L’attacco mira a colpire le entrate energetiche della Russia, parte della strategia ucraina di indebolire il finanziamento della guerra, e mostra la capacità di colpire obiettivi urbani anche a distanza.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4966/live/70482900-cad8-11f1-a64c-550be9e3c66b.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale tipo di infrastruttura è stata principalmente colpita nell'attacco di notte a San Pietroburgo?",
+          "options": [
+            "Impianti petroliferi",
+            "Stazioni ferroviarie",
+            "Ospedali",
+            "Scuole"
+          ],
+          "answer": 0,
+          "explanation": "L'attacco ha colpito il terminal petrolifero e il deposito di petrolio, causando incendi e vittime."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-19-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Meloni convoca vertice sicurezza dopo nuovi scontri a Milano",
+      "summary": "Dopo i nuovi scontri e saccheggi nel centro di Milano, avvenuti a meno di 24 ore da quelli precedenti, la premier Giorgia Meloni ha convocato un vertice sull'ordine pubblico. Oltre 200 persone sono state fermate, circa l'80% minorenni. Il sindaco Sala ha criticato la presenza delle forze dell'ordine, scatenando una polemica con il ministro Piantedosi. I danni stimati in altre città come Torino e Bologna superano mezzo milione di euro.",
+      "context": "L'episodio evidenzia le difficoltà nel gestire le violenze urbane giovanili e le criticità nella coordinazione tra governo centrale e amministrazioni locali. Il vertice servirà a valutare nuove strategie di prevenzione e repressione per evitare il ripetersi di questi eventi in altre città italiane.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/a-milano-ancora-scontri-meloni-convoca-il-vertice-sulla-sicurezza_7945d5b5-a8b2-4eed-96ae-375261367822.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/18/3f336b1f3d2b32667c59e074f9bcb4ae.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/a-milano-ancora-scontri-meloni-convoca-il-vertice-sulla-sicurezza_7945d5b5-a8b2-4eed-96ae-375261367822.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la decisione immediata presa dalla premier Meloni in risposta ai nuovi scontri?",
+          "options": [
+            "Ha ordinato il coprifuoco a Milano",
+            "Ha convocato un vertice sull'ordine pubblico",
+            "Ha dichiarato lo stato di emergenza nazionale",
+            "Ha chiesto le dimissioni del sindaco Sala"
+          ],
+          "answer": 1,
+          "explanation": "Il testo specifica che la premier ha convocato un vertice sull'ordine pubblico dopo gli eventi di sabato e domenica."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-19-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Anthropic concede accesso interno a valutatori esterni",
+      "summary": "Anthropic ha concesso a sei dipendenti di METR, un gruppo di ricerca indipendente, un accesso ai propri sistemi interni paragonabile a quello dei suoi team di sicurezza. Gli valutatori riceveranno hardware aziendale e spazio in ufficio per monitorare i rischi dell'intelligenza artificiale. Anthropic non paga per questo accordo, che mira a rassicurare gli investitori in vista dell'offerta pubblica iniziale prevista quest'anno. I valutatori potranno pubblicare le loro analisi, salvo redazioni per dati sensibili o segreti industriali.",
+      "context": "La mossa risponde alla crescente pressione per dimostrare la sicurezza dei modelli di intelligenza artificiale avanzati. Permette a terzi indipendenti di verificare i rischi prima che diventino critici, un passo importante per la trasparenza del settore in un momento di forte investimento pubblico.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/claudebyanthropic-1024x648.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+      },
+      "quiz": [
+        {
+          "question": "Quale condizione pone Anthropic alla pubblicazione delle analisi da parte di METR?",
+          "options": [
+            "Deve approvare ogni singola parola prima della pubblicazione",
+            "Non può vietare la pubblicazione, ma può richiedere la rimozione di dati sensibili o segreti industriali",
+            "Può vietare completamente la pubblicazione se non è d'accordo con le conclusioni",
+            "La pubblicazione è vietata fino al completamento dell'offerta pubblica iniziale"
+          ],
+          "answer": 1,
+          "explanation": "Il testo specifica che Anthropic non può veto la pubblicazione, ma può richiedere la redazione di informazioni come dati dei clienti o dettagli sull'architettura dei modelli."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-19-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Eminem difende la collaborazione con Kid Rock",
+      "summary": "Il rapper Eminem ha difeso pubblicamente la sua collaborazione con Kid Rock nel brano \"Heal My Faith\", parte del nuovo album di quest'ultimo. La traccia ha suscitato le critiche di diversi fan a causa delle loro visioni politiche opposte: Eminem ha sostenuto Kamala Harris e criticato Donald Trump, di cui Kid Rock è invece un fervido sostenitore. Eminem ha spiegato che non si tratta di schierarsi, ma di fare musica con un vecchio amico.",
+      "context": "Entrambi originari dell'area di Detroit, i due artisti sono legati da un'amicizia decennale e avevano già collaborato in passato. Negli Stati Uniti, dove la polarizzazione politica è molto forte, il brano punta a lanciare un messaggio di riconciliazione e superamento delle divisioni.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/eminem-defends-kid-rock-collaboration-heal-my-faith-1236362405/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/10/1439397202.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/eminem-defends-kid-rock-collaboration-heal-my-faith-1236362405/"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo la recente collaborazione tra Eminem e Kid Rock ha suscitato critiche?",
+          "options": [
+            "Per le posizioni politiche opposte dei due artisti",
+            "Per una disputa legale sui diritti d'autore del brano",
+            "Perché i due cantanti avevano interrotto i rapporti personali",
+            "Per il passaggio inaspettato di Eminem alla musica country"
+          ],
+          "answer": 0,
+          "explanation": "Eminem è un noto critico di Donald Trump e ha sostenuto Kamala Harris, mentre Kid Rock è un esplicito sostenitore di Trump."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-19-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Economia cinese: Pil al 4,5% nel terzo trimestre",
+      "summary": "Nel terzo trimestre del 2026 il prodotto interno lordo della Cina è cresciuto del 4,5% rispetto allo stesso periodo dell'anno precedente. Secondo l'Ufficio nazionale di statistica, il risultato migliora il 4,3% del secondo trimestre, pur restando nella fascia bassa dell'obiettivo governativo compreso tra il 4,5% e il 5%. A settembre la produzione industriale ha segnato un'accelerazione, salendo al 5,5% su base annua rispetto al 5,2% registrato ad agosto.",
+      "context": "I dati indicano una tenuta dell'attività produttiva in Cina, ma la crescita economica si mantiene vicina alla soglia minima stabilita da Pechino. Resta da verificare se le misure a sostegno dell'economia basteranno a centrare i target annuali complessivi.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/19/pil-cinese-al-45-nel-terzo-trimestre-crescita-stabile_924b68a8-fbc2-494b-a2ab-f3270238c3f7.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/5/13/c67fe99a023b1be4bed4f502b07169c9.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/19/pil-cinese-al-45-nel-terzo-trimestre-crescita-stabile_924b68a8-fbc2-494b-a2ab-f3270238c3f7.html"
+      },
+      "quiz": [
+        {
+          "question": "Come si posiziona la crescita del 4,5% rispetto agli obiettivi fissati da Pechino?",
+          "options": [
+            "Al di sopra del limite massimo fissato per l'anno",
+            "Esattamente al centro della forchetta stabilita",
+            "Al di sotto della soglia minima di crescita tollerata",
+            "Nella parte più bassa della fascia prevista dal governo"
+          ],
+          "answer": 3,
+          "explanation": "Il governo cinese ha fissato un obiettivo di crescita tra il 4,5% e il 5%, dunque il risultato del terzo trimestre tocca la soglia inferiore."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-19-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Javier Bardem riceve il premio alla carriera alla Festa di Roma",
+      "summary": "Nei giorni scorsi l'attore spagnolo Javier Bardem ha ricevuto il premio alla carriera alla Festa del Cinema di Roma, consegnato dal regista Paolo Sorrentino all'Auditorium Parco della Musica. In occasione della presentazione del film «L'essere amato» di Rodrigo Sorogoyen, Bardem ha elogiato il cinema come strumento capace di unire le persone. Ha inoltre ricordato l'importanza dell'impegno civico per impedire che figure contrarie ai diritti umani salgano al potere.",
+      "context": "La Festa del Cinema di Roma assegna tradizionalmente riconoscimenti a grandi protagonisti della scena mondiale. L'intervento di Bardem evidenzia come i principali festival cinematografici continuino a essere palcoscenici di riflessione politica e sociale oltre che artistica.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/17/bardem-premio-alla-carriera-alla-festa-di-roma-il-cinema-ha-il-potere-di-unirci_2417ddd5-5a03-48ff-a4f3-01954ab5cd58.html"
+        },
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/17/bardem-quando-rinunciamo-al-dovere-di-cittadini-arrivano-mussolini-e-netanyahu_01cc349b-a10b-423b-a26a-6642ebcd9bc3.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/8/c85a06c9a71bd0e1dd4e531f91f841f4.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/17/bardem-premio-alla-carriera-alla-festa-di-roma-il-cinema-ha-il-potere-di-unirci_2417ddd5-5a03-48ff-a4f3-01954ab5cd58.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale regista ha consegnato il premio alla carriera a Javier Bardem alla Festa di Roma?",
+          "options": [
+            "Paolo Sorrentino",
+            "Rodrigo Sorogoyen",
+            "Federico Fellini",
+            "Salvatore Nastasi"
+          ],
+          "answer": 0,
+          "explanation": "Il premio alla carriera è stato consegnato all'attore spagnolo dal regista italiano Paolo Sorrentino."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-19-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Serie A: la Lazio batte 3-0 la Juventus a Torino",
+      "summary": "Nel posticipo della settima giornata di Serie A, la Lazio ha battuto la Juventus per 3-0 all'Allianz Stadium di Torino. I biancocelesti guidati da Gennaro Gattuso si sono imposti grazie alle reti di Anton Provstgaard nel primo tempo, Gustav Isaksen nella ripresa e Fisayo Dele-Bashiru nel finale. La Juventus, guidata in panchina dal vice Domenichini per la squalifica di Luciano Spalletti, è apparsa lenta e senza idee, uscendo tra i fischi del pubblico.",
+      "context": "Con questa vittoria storica, la prima a Torino dal 2017, la Lazio centra sei successi nelle prime sette gare e resta in vetta alla classifica insieme all'Inter. Per i bianconeri di Spalletti si apre invece un momento complicato.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/18/serie-a-lazio-da-sogno-e-juve-da-incubo-allo-stadium-finisce-0-3_02c6a963-1886-4a93-92ec-be0857426a7b.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/18/serie-a-juventus-lazio-0-3_8f6784f6-f6fa-47be-af02-20c57ab99f40.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/18/spalletti-juve-inferiore-uno-0-3-difficile-da-spiegare_17585831-252f-4089-b13f-0a8646d55d68.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/18/32b90d6995ad82e95d9f97638d002fbe.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/18/serie-a-lazio-da-sogno-e-juve-da-incubo-allo-stadium-finisce-0-3_02c6a963-1886-4a93-92ec-be0857426a7b.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale traguardo ha raggiunto la Lazio superando la Juventus a Torino?",
+          "options": [
+            "Ha ottenuto sei vittorie in sette giornate, rimanendo in vetta con l'Inter",
+            "Ha conquistato il primato solitario staccando l'Inter in classifica",
+            "Ha centrato la prima vittoria in trasferta dell'intera stagione",
+            "Ha inflitto alla Juventus la prima sconfitta interna della sua storia"
+          ],
+          "answer": 0,
+          "explanation": "Con il 3-0 a Torino, la Lazio ha raggiunto quota sei vittorie nelle prime sette gare, confermandosi in testa al campionato affiancata all'Inter."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-19-6"
+    },
+    {
+      "category": "storia",
+      "tag": "19 ottobre 1987",
+      "title": "Il crollo del Lunedì nero sui mercati finanziari",
+      "summary": "Il 19 ottobre 1987 i mercati azionari di tutto il mondo subirono un crollo improvviso e devastante. La crisi partì dalla borsa di Hong Kong, per poi travolgere l'Europa occidentale e gli Stati Uniti. A Wall Street, l'indice Dow Jones perse il 22,61%, segnando il peggior calo percentuale giornaliero della storia economica. Il panico colpì anche la piazza finanziaria italiana, dopo le crescenti tensioni sui tassi di interesse.",
+      "context": "L'evento ha portato all'introduzione dei cosiddetti interruttori di circuito, meccanismi automatici che bloccano le contrattazioni in caso di crolli improvvisi. Questo sistema ha trasformato la gestione delle emergenze sui mercati per impedire che vendite indiscriminate alimentino crisi sistemiche.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Luned%C3%AC_nero"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Black_Monday_FTSE.svg/1280px-Black_Monday_FTSE.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Black_Monday_FTSE.svg"
+      },
+      "quiz": [
+        {
+          "question": "Quale primato negativo fu registrato a Wall Street durante il Lunedì nero del 1987?",
+          "options": [
+            "Il maggior calo percentuale giornaliero nella storia del Dow Jones",
+            "Il fallimento simultaneo delle maggiori banche americane",
+            "La chiusura definitiva delle negoziazioni per oltre un mese",
+            "La svalutazione totale di tutti i titoli quotati in borsa"
+          ],
+          "answer": 0,
+          "explanation": "Con una perdita giornaliera del 22,61%, l'indice Dow Jones stabilì il record storico per il crollo percentuale più grave mai registrato."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-19-7"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Crociata lituana",
+      "title": "Le finte conversioni che fermavano i crociati",
+      "summary": "Durante la crociata lituana, durata dal 1283 al 1410, il Granducato di Lituania rimase l'ultimo baluardo pagano d'Europa. Per resistere ai Cavalieri teutonici, militarmente superiori, i granduchi lituani adottarono un'astuta diplomazia: promisero più volte al Papa di convertirsi al cristianesimo. Questi annunci spingevano la Santa Sede a ordinare tregue immediate, dando ai lituani il tempo di riorganizzarsi e modernizzare l'esercito prima di ritrattare e riprendere le ostilità.",
+      "context": "Lo scontro si inserisce nelle crociate del Nord, con cui ordini cavallereschi tedeschi cercavano di espandersi nel Baltico. Il conflitto si chiuse con l'unione tra Polonia e Lituania e la sconfitta teutonica a Grunwald nel 1410.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Crociata_lituana"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lietuviai_kovoja_su_vokie%C4%8Diais.Lithuanians_fighting_Teutonic_Knights_%282%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Lietuviai_kovoja_su_vokie%C4%8Diais.Lithuanians_fighting_Teutonic_Knights_(2).jpg"
+      },
+      "quiz": [
+        {
+          "question": "In che modo i sovrani lituani riuscirono a fermare temporaneamente gli attacchi dell'Ordine teutonico?",
+          "options": [
+            "Offrendo contingenti militari per le spedizioni cristiane in Terra Santa",
+            "Promettendo alla Santa Sede una conversione al cristianesimo poi rimandata",
+            "Cedendo il controllo definitivo delle rotte commerciali sul mar Baltico",
+            "Pagando ingenti tributi annuali in argento ai vertici dell'Ordine"
+          ],
+          "answer": 1,
+          "explanation": "I granduchi lituani fecero ripetute promesse di battesimo al Papa, spingendo la Chiesa a imporre tregue che bloccavano l'avanzata teutonica."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-19-8"
+    }
+  ]
+}
