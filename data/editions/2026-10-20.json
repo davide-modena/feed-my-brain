@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T04:33:05.976Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Coprifuoco a Parigi e altre città dopo le rivolte",
+      "summary": "Dopo una settimana di rivolte e saccheggi in tutta la Francia, le autorità hanno imposto un coprifuoco notturno in alcune zone del centro di Parigi, tra Place de la République e Les Halles, dalle 23:00 alle 06:00. Misure analoghe sono state adottate a Marsiglia, Bordeaux, Nizza, Lione, Lille e altre città. Sono stati arrestati più di 2.500 persone, circa 1.000 agenti feriti e un manifestante ha perso una mano per una granata di controllo.",
+      "context": "Il coprifuoco mostra come le proteste, iniziate per le condizioni scolastiche, siano sfociate in violenze diffuse, spingendo il governo a misure restrittive e a valutare uno stato di emergenza nazionale.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ac1pQRHE2SjZPMHZmRWo2S2Y3UmNLb3UydzA3R1NDbEhMQkRkakFTUGd2ekJUZVNGaTFNWDJVWkVYOVV4LVVGOTVyZ1NTNzg4Nk0wR2RfREUzOEw4RjYzdnhVOEo2Vndu0gFuQVVfeXFMUHNZLVZ2a1B4MDRjNV9pcG1ycUhQMllIN0wyMTFYZ1pRZVJrcXVVWkFJSEs5VlBkVnNlb00yWF9iYkxFQjdFV0RjVDNSQjJMbi1udFJQZVZqRUFIck9pYUo2RmFfX1M5dkdHWVJ2enc?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a4a4/live/f9b4b1d0-cc1e-11f1-94fe-b94794c2a157.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la misura principale adottata dalle autorità francesi dopo le rivolte del weekend?",
+          "options": [
+            "Dichiarazione di guerra",
+            "Chiusura delle scuole",
+            "Aumento delle tasse",
+            "Coprifuoco notturno in alcune zone"
+          ],
+          "answer": 3,
+          "explanation": "Le autorità hanno imposto un coprifuoco notturno per contenere le violenze."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-20-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Sciopero dei camionisti in Sicilia: mancano i rifornimenti nei supermercati",
+      "summary": "In Sicilia lo sciopero degli autotrasportatori contro il caro carburante sta provocando gravi carenze nei supermercati. Nei punti vendita, in particolare nella provincia di Catania, scarseggiano frutta, verdura, prodotti freschi, surgelati e acqua minerale. La mobilitazione, in corso da diversi giorni nell'isola e in gran parte del Sud Italia, ha bloccato la normale distribuzione delle merci, lasciando molti scaffali e bancali completamente vuoti.",
+      "context": "Il trasporto su gomma è essenziale per l'approvvigionamento alimentare delle isole e del Mezzogiorno. L'aumento dei costi del carburante mette sotto pressione i margini delle aziende di logistica, con rischi crescenti di ripercussioni prolungate sulla filiera e sui consumatori.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/protesta-autotrasportatori-in-sicilia-scaffali-vuoti-al-supermercato-12ecbf30-6f79-4919-8457-89748970f915.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/20/1792468439654_videoframe.png",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/protesta-autotrasportatori-in-sicilia-scaffali-vuoti-al-supermercato-12ecbf30-6f79-4919-8457-89748970f915.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la causa principale della protesta degli autotrasportatori?",
+          "options": [
+            "Il blocco dei traghetti per il continente",
+            "Il rincaro dei pedaggi autostradali",
+            "L'aumento del costo del carburante",
+            "L'introduzione di nuovi limiti agli orari di guida"
+          ],
+          "answer": 2,
+          "explanation": "I camionisti stanno protestando da diversi giorni contro il caro carburante, causando disagi alla distribuzione alimentare."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-20-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Crisi di debito di CoreWeave minaccia il mercato del calcolo AI",
+      "summary": "CoreWeave ha visto le sue obbligazioni entrare in zona di distress, con rendimenti 1000 punti base sopra i titoli di Stato. Le azioni sono scese di oltre il 20% e la società deve più di 35 miliardi di dollari, in gran parte per prestiti garantiti da GPU. I cofondatori hanno dichiarato l’intenzione di ottenere debito di grado investimento per accedere a capitali assicurativi, alimentando timori di un contagio nel mercato del calcolo AI.",
+      "context": "CoreWeave è uno dei principali fornitori di potenza di calcolo per l’intelligenza artificiale; il suo elevato indebitamento e il rischio di costi di finanziamento più alti potrebbero limitare gli investimenti nel settore e creare effetti a catena su altre aziende AI.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Vrg_Illo_AI_Bubble.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale preoccupazione legata al debito di CoreWeave?",
+          "options": [
+            "Un calo delle vendite",
+            "Un possibile contagio nel mercato del calcolo AI",
+            "Una nuova partnership con assicuratori",
+            "Una riduzione del personale"
+          ],
+          "answer": 1,
+          "explanation": "Il timore principale è che l’alto debito di CoreWeave possa estendersi al mercato del calcolo AI, creando un effetto contagio."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-20-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "A$AP Rocky anticipa l'uscita di 'Don't Be Dumb – Disc 2' nel video di 'Shroom Clouds'",
+      "summary": "A$AP Rocky ha pubblicato il video di 'Shroom Clouds', diretto con Aisultan Seitov e Pietro Biz Biasia. Nel clip, il rapper indossa un cappello di pelliccia gialla e appare in un paradiso tra le nuvole. In un dettaglio nascosto, un'auto della polizia di New York scontrata contro un muro reca la data 30 ottobre, suggerendo l'uscita della riedizione deluxe 'Don't Be Dumb – Disc 2'. La canzone, originariamente chiamata 'Mushroom Clouds', era stata eseguita dal vivo già nel 2021.",
+      "context": "Il brano fa parte della promozione del secondo disco della serie, contenente tracce non incluse nel primo album. La data indicata nel video potrebbe confermare il lancio imminente, seguendo il successo del disco originale che ha raggiunto la prima posizione nelle classifiche.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/asap-rocky-shroom-clouds-video-disc-2-1236362936/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/10/asap-rocky-shroom-clouds-billboard-1800.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/asap-rocky-shroom-clouds-video-disc-2-1236362936/"
+      },
+      "quiz": [
+        {
+          "question": "Quale dettaglio nel video di 'Shroom Clouds' suggerisce la data di uscita di 'Don't Be Dumb – Disc 2'?",
+          "options": [
+            "Un'auto della polizia con la data 30 ottobre",
+            "Una nonna che passa una sigaretta elettronica",
+            "Un cappello di pelliccia gialla indossato dal rapper",
+            "Un murale dedicato ad A$AP Yams"
+          ],
+          "answer": 0,
+          "explanation": "Nel video è visibile un'auto della polizia scontrata contro un muro con un adesivo che riporta la data 30 ottobre."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-20-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Borsa di Tokyo in calo per timori su titoli tecnologici",
+      "summary": "La Borsa di Tokyo ha aperto in calo dello 0,41%, con il Nikkei a 64.653,11, perdendo 263 punti. Il ribasso è stato causato da timori sulle valutazioni e sulla redditività degli investimenti nel settore dell'intelligenza artificiale, che hanno spinto al ribasso i titoli dei semiconduttori. Gli investitori attendono le trimestrali delle principali aziende del comparto. Sul mercato valutario lo yen è rimasto stabile a 158,50 per dollaro e 177,80 per euro.",
+      "context": "Il calo evidenzia la sensibilità del mercato giapponese ai timori sull'intelligenza artificiale e sui semiconduttori, settori chiave per l'economia. Sarà importante monitorare i risultati trimestrali delle aziende tecnologiche.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/20/borsa-tokyo-apertura-in-calo-041_9125046e-dee7-4101-a645-ab9fbbf52e24.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/11/84d6f9dd927994b635ca91f0f668821e.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/20/borsa-tokyo-apertura-in-calo-041_9125046e-dee7-4101-a645-ab9fbbf52e24.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale ragione del calo della Borsa di Tokyo oggi?",
+          "options": [
+            "Aumento del valore dello yen",
+            "Calo dei prezzi del petrolio",
+            "Timori sulla redditività dei titoli legati all'intelligenza artificiale",
+            "Miglioramento dei dati sull'occupazione"
+          ],
+          "answer": 2,
+          "explanation": "Il calo è stato attribuito ai timori sulle valutazioni e sulla redditività degli investimenti nel comparto dell'intelligenza artificiale, che hanno spinto al ribasso i titoli dei semiconduttori."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-20-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Il documentario di Kasia Smutniak sul Nepal presentato alla Festa di Roma",
+      "summary": "L'attrice e regista Kasia Smutniak ha presentato in gara alla Festa del Cinema di Roma il suo nuovo documentario, intitolato Mustang. Il film racconta un viaggio durato ventitré anni nella remota regione del Nepal settentrionale, iniziato nel 2003 con Pietro Taricone e proseguito nel tempo attraverso immagini personali e familiari, documentando anche la nascita di una scuola per i bambini locali.",
+      "context": "Il documentario segna la nuova prova da regista per Kasia Smutniak dopo l'esordio con Mur. I progetti legati al cinema del reale permettono spesso ad attori e autori di esplorare temi sociali e personali con un contatto diretto e documentato.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/19/smutniak-in-mustang-lon-the-road-della-mia-vita-tra-speranza_cbe4ff5e-4cd6-437e-8c02-6998e7c9438c.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/19/53d9c6d99292cdf1e766265d65941b69.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/19/smutniak-in-mustang-lon-the-road-della-mia-vita-tra-speranza_cbe4ff5e-4cd6-437e-8c02-6998e7c9438c.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il tema principale del documentario Mustang di Kasia Smutniak?",
+          "options": [
+            "Un viaggio di ventitré anni nella regione del Mustang in Nepal e il legame con quel territorio",
+            "La crisi economica in Europa raccontata attraverso storie di vita quotidiana",
+            "Un viaggio in solitaria nei boschi della Bielorussia per aiutare i migranti",
+            "La storia del cinema italiano dagli anni duemila a oggi"
+          ],
+          "answer": 0,
+          "explanation": "Il documentario racconta un viaggio iniziato nel 2003 nel Mustang, in Nepal, esplorando nell'arco di ventitré anni la regione e la creazione di una scuola locale."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-20-5"
+    },
+    {
+      "category": "storia",
+      "tag": "20 ottobre 1973",
+      "title": "Inaugurata la Sydney Opera House",
+      "summary": "La regina Elisabetta II ha inaugurato la Sydney Opera House, celebre edificio situato nella baia di Sydney progettato dall'architetto danese Jorn Utzon. L'apertura dell'opera, caratterizzata da una struttura moderna con grandi tetti a forma di guscio rivestiti da piastrelle bianche e crema, e' stata trasmessa in televisione con spettacoli pirotecnici e l'esecuzione della Nona sinfonia di Beethoven.",
+      "context": "L'opera ha ridefinito il design del ventesimo secolo, diventando un simbolo iconico dell'Australia e patrimonio dell'UNESCO. Ha lasciato in eredita un modello di architettura espressionista e una meta turistica globale, pur mantenendo nel tempo il dibattito sulla qualita acustica degli spazi interni.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Teatro_dell%27Opera_di_Sydney"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Sydney_Opera_House_01.jpg/1280px-Sydney_Opera_House_01.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Sydney_Opera_House_01.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha inaugurato ufficialmente la Sydney Opera House?",
+          "options": [
+            "Il premier australiano",
+            "Il sindaco di Sydney",
+            "L'architetto Jorn Utzon",
+            "La regina Elisabetta II"
+          ],
+          "answer": 3,
+          "explanation": "Il teatro dell'opera e' stato inaugurato dalla regina Elisabetta II il 20 ottobre 1973."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-20-6"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Costanzo Gallo",
+      "title": "La malattia che salvò Costanzo Gallo",
+      "summary": "Nel 337, alla morte dell'imperatore Costantino primo, l'esercito romano sterminò quasi tutti i membri maschili della famiglia imperiale per evitare dispute sulla successione. Tra i pochissimi a salvarsi ci fu il giovane Costanzo Gallo. La ragione principale della sua sopravvivenza fu probabilmente il fatto che, in quel momento, era affetto da una grave malattia ritenuta mortale dai carnefici.",
+      "context": "Questo episodio rientra nelle spietate lotte di potere che caratterizzarono la dinastia costantiniana dopo la morte del fondatore. Mantenere il controllo della successione imperiale richiedeva l'eliminazione sistematica di ogni possibile pretendente al trono.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Costanzo_Gallo"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Solidus-Constantius_Gallus-thessalonica_RIC_149.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Solidus-Constantius_Gallus-thessalonica_RIC_149.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Costanzo Gallo si salvò dalle purghe imperiali del 337?",
+          "options": [
+            "Perché era gravemente malato e ritenuto vicino alla morte",
+            "Perché fu protetto dal papa dell'epoca",
+            "Perché fu nascosto dai senatori di Roma",
+            "Perché fuggì all'estero travestito da soldato"
+          ],
+          "answer": 0,
+          "explanation": "Le fonti storiche indicano che Gallo fu risparmiato dai carnefici probabilmente a causa di una grave malattia che lo faceva ritenere spacciato."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-20-7"
+    }
+  ]
+}
