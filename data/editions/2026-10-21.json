@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T04:31:53.187Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Incontro dell'emissario USA con Putin in Russia",
+      "summary": "Domani, 22 ottobre 2026, l'emissario statunitense per la diplomazia, identificato come Witkoff, incontrerà il presidente russo Vladimir Putin in Russia per discutere proposte di pace. L'incontro segue i colloqui di martedì a Oslo, a cui hanno partecipato anche il presidente finlandese Alexander Stubb e il genero di Trump, Jared Kushner, quest'ultimo via collegamento video. Dopo la riunione, un funzionario USA ha definito i colloqui \"molto produttivi\" e ha confermato un forte allineamento tra USA, Ucraina ed Europa sui prossimi passi. Zelensky ha dichiarato che la condivisione di intelligence tra Ucraina e USA ora funziona, sottolineando l'importanza di avvisi precoci su missili balistici.",
+      "context": "L'incontro è rilevante perché segna un nuovo tentativo di mediazione tra USA, Russia e Ucraina, con l'obiettivo di avanzare su proposte di pace e migliorare la cooperazione di intelligence, elementi chiave nella guerra in corso.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9998/live/a337cac0-cd01-11f1-9999-4d9f447f1e4c.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Chi incontrerà il presidente russo Vladimir Putin domani in Russia?",
+          "options": [
+            "Il presidente ucraino Zelensky",
+            "Jared Kushner via video",
+            "Il presidente finlandese Alexander Stubb",
+            "L'emissario statunitense Witkoff"
+          ],
+          "answer": 3,
+          "explanation": "Il materiale indica che l'emissario USA, chiamato Witkoff, è programmato per incontrare Putin domani."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-21-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Blocco dei tir in Campania: corsa alle scorte nei supermercati",
+      "summary": "In Campania i supermercati registrano una corsa alle scorte di beni di prima necessità a causa del blocco dei trasporti stradali. Gli autotrasportatori hanno interrotto i servizi in protesta contro il caro carburante. Sebbene il governo abbia promesso aiuti economici, tra cui 480 milioni di crediti d'imposta, le agitazioni continuano in diverse regioni del Sud, causando ritardi nelle consegne di frutta e verdura.",
+      "context": "La protesta evidenzia la fragilità della catena logistica italiana. I blocchi regionali rischiano di generare carenze locali e aumento dei prezzi al consumo, mettendo alla prova la capacità del governo di trovare una soluzione rapida al conflitto con il settore dell'autotrasporto.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWFdpbFdESzRSQ19EUnJWb08xNDdKV29lUlRnUENpcFFwYUxyMWk3NkRVWVB2RzdlVFE0Vlp6SkFHdlB1RmNmRjZsRGRxR2swTGxFTmQ0WjlQTDJWWDhFcTVQdjhwUkdlcFo0LUNTSEoyMk1MMzNMUjduNEY3ZnpPTXNtaTk0dGNjeGxTZkgxeGFwTnNWdmJKY3A5V3RRdXlOZzJhMmwyTEhvMmNiNnYzR0VnZHExOXBXREd2Uzk5QnIwQXhOd21IdV9UWnczRHlrMHBqZlR2cGs4TlNCU21yNjEzYk5xTWg4ZEdJR3hR0gHzAUFVX3lxTE9xbC1ueXZSUlhFM1lCWnk1NHBTVHZlQ25iMXE5dTF4VUotbnk5bTVSVUx6Z01EYXF2NUhULVZ0VjRiWFJZdXZoTU93WGNVdmxsVnVOZ2lnMG5PUUdYSE1CNktPQ3gzbE52TFBjOTBuaFhxb05KZUdUb1dva2VncE5ac1NicHRMYU80WlVsRlRnRHNXNEEyZFdxZHFuXzRqRVpZbzFVSFp5MnpucDBDcmNGVEVWU3kxNlNwUWFRMFdHcEZWZXVBZXJzRnpjVkI2Y1JxSHRtRVVOdWRhVy01UUpOY01hdndTdTJNU3hJZHdKOWUxMA?oc=5"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/tir-governo-promette-aiuti-stop-blocchi-in-sicilia-si-continua-in-altre-regioni-sud-caviglioli-e7e4a6bb-0b25-4866-bcf0-090edc87b30e.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/19/1792405063237_rainewscbaecefadca.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/tir-governo-promette-aiuti-stop-blocchi-in-sicilia-si-continua-in-altre-regioni-sud-caviglioli-e7e4a6bb-0b25-4866-bcf0-090edc87b30e.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la causa principale della corsa alle scorte nei supermercati campani?",
+          "options": [
+            "Il blocco dei trasporti stradali da parte degli autotrasportatori",
+            "Chiusure temporanee dei negozi per manutenzione",
+            "Una carenza di produzione agricola locale",
+            "L'aumento improvviso dei prezzi al dettaglio"
+          ],
+          "answer": 0,
+          "explanation": "Il blocco dei tir ha interrotto le forniture, spingendo i cittadini ad acquistare in anticipo per paura di carenze."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-21-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Jean-Pierre Jeunet e Sergio Castellitto alla Festa di Roma",
+      "summary": "Il regista Jean-Pierre Jeunet presenta in anteprima alla Festa del Cinema di Roma il film Cambiare l'acqua ai fiori, tratto dall'omonimo romanzo di Valerie Perrin. La pellicola, coprodotta dall'Italia con la societa Palomar e distribuita in sala dal 5 gennaio da Lucky Red, vede nel cast Leila Bekhti nel ruolo della protagonista e Sergio Castellitto nei panni di Sasha, l'ex custode di un cimitero in Borgogna che fa da angelo custode alla protagonista.",
+      "context": "La Festa del Cinema di Roma offre ogni anno vetrine internazionali per importanti adattamenti letterari. Il ritorno alla regia di Jeunet, celebre per il suo stile surreale e fiabesco, unisce autorialita francese e maestranze italiane in un progetto tratto da un grande successo editoriale globale.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/20/castellitto-in-cambiare-lacqua-ai-fiori-divento-un-angelo-custode_40aa45f6-4ef9-4a03-8e27-34de0ce6faa5.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/10/festa-del-cinema-di-roma-2026-edizione-21-film-in-programma-46e842dc-d1ae-4b8e-bab6-eef69cb22783.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/20/72b50a9900b4bbec69c35be943850702.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/20/castellitto-in-cambiare-lacqua-ai-fiori-divento-un-angelo-custode_40aa45f6-4ef9-4a03-8e27-34de0ce6faa5.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale ruolo interpreta Sergio Castellitto nel film di Jean-Pierre Jeunet?",
+          "options": [
+            "Un visitatore del cimitero",
+            "Un marito infedele",
+            "Un angelo custode ed ex custode del cimitero",
+            "Un regista teatrale"
+          ],
+          "answer": 2,
+          "explanation": "Sergio Castellitto interpreta Sasha, l'ex custode del cimitero che funge da angelo custode per la protagonista."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-21-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Champions League, il Como sfida il Manchester United: le parole di Fabregas",
+      "summary": "Il Como si prepara a vivere una giornata storica affrontando il Manchester United in Champions League allo stadio Sinigaglia. Il tecnico Cesc Fabregas ha presentato la sfida invitando la squadra a non temere gli avversari e a rifiutare l'idea che gli inglesi siano in crisi. Nonostante alcune assenze per infortunio, tra cui Rodriguez, e l'incertezza sul portiere titolare tra Butez e Sanchez, i lariani scenderanno in campo per fare il loro gioco e provare a vincere.",
+      "context": "Per il Como la partecipazione alla massima competizione europea rappresenta una fase di crescita e novità assoluta. Affrontare club storici come il Manchester United testa le ambizioni della squadra in un contesto internazionale molto competitivo.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/20/champions-fabregas-il-como-non-pensi-che-lavversario-e-piu-forte_1b426d17-1457-4adc-9d3a-68d430249387.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/20/champions-fabregas-storico-faremo-di-tutto-per-battere-lo-united_86200dd2-2230-4e47-8e8b-f91e9528636c.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/20/champions-fabregas-domani-ce-douvikas-ma-il-portiere-non-lo-dico_eb591432-52a6-4086-83c5-29501fc5e338.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/20/50c904c3882f101b3c612157b0655a47.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/20/champions-fabregas-il-como-non-pensi-che-lavversario-e-piu-forte_1b426d17-1457-4adc-9d3a-68d430249387.html"
+      },
+      "quiz": [
+        {
+          "question": "Come ha definito Cesc Fabregas la partita del Como contro il Manchester United?",
+          "options": [
+            "Una gara semplice contro una squadra in crisi",
+            "Un momento storico e una serata speciale",
+            "Un test inutile per la classifica",
+            "Una partita da affrontare con paura"
+          ],
+          "answer": 1,
+          "explanation": "Il tecnico ha definito l'appuntamento come un momento storico e una serata speciale per il club."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-21-3"
+    },
+    {
+      "category": "storia",
+      "tag": "21 ottobre 1959",
+      "title": "Apre a New York il Solomon R. Guggenheim Museum",
+      "summary": "Il Solomon R. Guggenheim Museum ha aperto ufficialmente al pubblico a New York. La nuova sede del museo di arte moderna e contemporanea è ospitata all'interno dell'edificio progettato dal celebre architetto Frank Lloyd Wright, caratterizzato da una struttura a spirale che si sviluppa attorno a un cilindro.",
+      "context": "L'opera di Frank Lloyd Wright ha rotto con la tradizione dei grattacieli di Manhattan, introducendo un concetto architettonico radicale per uno spazio espositivo. Ha ridefinito il rapporto tra visitatore, percorso e museo d'arte moderna.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Guggenheim_museum_exterior.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Guggenheim_museum_exterior.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale architetto ha progettato l'edificio del Guggenheim Museum aperto a New York?",
+          "options": [
+            "Vasilij Kandinskij",
+            "Frank Lloyd Wright",
+            "Piet Mondrian",
+            "Gwathmey Siegel"
+          ],
+          "answer": 1,
+          "explanation": "Il celebre edificio a spirale del museo newyorkese è stato progettato da Frank Lloyd Wright."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-21-4"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Aspasia di Mileto",
+      "title": "La cortigiana che educava i filosofi nell'Antica Grecia",
+      "summary": "Nell'Atene del quinto secolo avanti Cristo, Aspasia di Mileto fu una figura intellettuale di primo piano e compagna del politico Pericle. Poiché era una straniera e probabilmente un'etera, ovvero una cortigiana di alto livello, godeva di una libertà inconsueta per le donne ateniesi dell'epoca. La sua casa divenne un centro culturale frequentato da pensatori come Socrate, il quale le riconosceva grandi competenze oratorie e filosofiche.",
+      "context": "Nella Grecia classica le donne rispettabili vivevano relegate in casa e sotto tutela maschile. Le etere rappresentavano l'unica eccezione: pur marginalizzate socialmente, potevano muoversi liberamente e ricevere un'educazione raffinata, diventando spesso interlocutrici alla pari dei grandi uomini politici e filosofi.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Aspasia_di_Mileto"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Aspasie_Pio-Clementino_Inv272.jpg/1280px-Aspasie_Pio-Clementino_Inv272.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Aspasie_Pio-Clementino_Inv272.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale ruolo sociale permetteva ad Aspasia di muoversi liberamente nella vita pubblica ateniese?",
+          "options": [
+            "Quello di moglie di un magistrato romano",
+            "Quello di regina di Sparta",
+            "Quello di sacerdotessa del Partenone",
+            "Quello di etera e donna straniera"
+          ],
+          "answer": 3,
+          "explanation": "Essendo una straniera e probabilmente un'etera, Aspasia non era soggetta ai rigidi vincoli legali imposti alle donne sposate ateniesi."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-21-5"
+    }
+  ]
+}
