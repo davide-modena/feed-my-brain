@@ -1,0 +1,400 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T04:34:27.774Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Missili su Kyiv e ripresa dei colloqui di pace Russia‑Ucraina",
+      "summary": "Alle ore serali di mercoledì, missili russi hanno colpito abitazioni a Kyiv, ferendo sei persone, poche ore dopo che Mosca ha dichiarato di essere 'pronta in linea di principio' a riprendere i colloqui di pace con l'Ucraina. L'emissario americano Steve Witkoff ha incontrato Vladimir Putin a San Pietroburgo; le parti hanno accennato a un nuovo round di trattative a Abu Dhabi a metà novembre, mentre le autorità russe hanno definito le proposte poco utili ma in evoluzione.",
+      "context": "Il nuovo attacco dimostra che, nonostante la dichiarata disponibilità al dialogo, le ostilità continuano; i prossimi colloqui trilaterali a Abu Dhabi potrebbero segnare un passo verso una soluzione, ma le parti rimangono scettiche.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSVpqQ0lDTHpWTi1kdjRWaTRwSkxyU3NuaVdhYi1tdG5QM1V5Z3JGM0lyYl9xVlVuNzJZTTlqMksxcUQwSmM4ZFpNNU93MVNQYVhLSmo2V185RmU2VnVUemllakdYM0N6am9fcGJvX0c2blRvekE1Zl9OZXVrNE02UzZuSWFqX19Z?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/abac/live/5ed152f0-cd8f-11f1-b1e7-39558e114359.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale evento è avvenuto poche ore dopo la dichiarazione russa di essere pronta a riprendere i colloqui di pace?",
+          "options": [
+            "Un attacco missilistico su Kyiv",
+            "Un cessate il fuoco dichiarato",
+            "La sospensione delle sanzioni USA",
+            "Il ritiro delle truppe russe"
+          ],
+          "answer": 0,
+          "explanation": "L'articolo riporta che missili russi hanno colpito Kyiv poche ore dopo la dichiarazione di Mosca sulla ripresa dei colloqui."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-22-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Ponte sullo Stretto: la Procura di Roma acquisisce documenti al Mit e amplia l'inchiesta",
+      "summary": "La Procura di Roma ha acquisito documenti presso il Ministero delle Infrastrutture e altre società per indagare su presunta corruzione nel progetto del Ponte sullo Stretto. L'inchiesta, che vede già tre indagati, mira a verificare se modifiche all'opera e aumenti di costi abbiano evitato nuove gare d'appalto. Gli inquirenti analizzano atti relativi a delibere e decreti recenti, mentre il Ministero e la società Stretto di Messina dichiarano piena collaborazione e estraneità ai fatti.",
+      "context": "Il caso tocca un'opera infrastrutturale da 13,5 miliardi di euro, simbolo di grandi investimenti pubblici. L'indagine verifica la regolarità amministrativa delle procedure di appalto. È cruciale capire se le modifiche progettuali abbiano aggirato le regole di trasparenza, con possibili ripercussioni sulla governance del progetto.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON05VS0sxeU5mWkI4MDdVeHFhek9weXBtM1ZwNXM3SW15UjEtUGVKME5MbkVTa3huRFUxLTdmWVplSXBya1pVMGhYV2Yzc0dzVWlQd0U5RS0yc3N1WEEwRWNJd1lsWms5WHZPN1dTTVQyMWcxWjBuZGNkSzc0blRNbW9ha2ozTDRMS083MEpVVnVkS1lrb1MtRllnQWZoSEpZaWlUbUhKLWlUd281dGsta1N6S2gxYWpsQTJsbA?oc=5"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/21/indagine-sul-ponte-dello-stretto-acquisiti-documenti-al-mit-e-al-cipess_190dac35-b44c-4fb9-a1cf-952f1b09ff2f.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/10/29/df99e6d280881c04ea65f556d067b14d.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/21/indagine-sul-ponte-dello-stretto-acquisiti-documenti-al-mit-e-al-cipess_190dac35-b44c-4fb9-a1cf-952f1b09ff2f.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il sospetto principale degli inquirenti riguardo alle modifiche al progetto del Ponte?",
+          "options": [
+            "Che servissero a evitare nuove gare d'appalto",
+            "Che fossero richieste dai cittadini",
+            "Che migliorassero la sicurezza strutturale",
+            "Che siano state fatte per risparmiare tempo"
+          ],
+          "answer": 0,
+          "explanation": "Gli investigatori sospettano che le modifiche all'opera e l'aumento dei costi siano stati utilizzati per non dover indire nuove gare di appalto."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-22-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Meta lancia nuove azioni non votanti per finanziare l'intelligenza artificiale",
+      "summary": "Meta ha annunciato l'emissione di una nuova classe di azioni senza diritto di voto per finanziare i propri progetti di intelligenza artificiale. La decisione, comunicata nel rapporto trimestrale, servirà anche per acquisizioni e compensi ai dipendenti. Le operazioni di mercato inizieranno nel 2027. L'azienda prevede spese in conto capitale tra 135 e 145 miliardi di dollari per espandere le infrastrutture e restare competitiva nel settore.",
+      "context": "La mossa riflette la corsa al finanziamento delle infrastrutture per l'IA, che richiede investimenti enormi. Per Meta, diversificare le fonti di capitale è cruciale per sostenere lo sviluppo di modelli avanzati e agenti autonomi come Muse, mantenendo al contempo la flessibilità strategica necessaria in un mercato in rapida evoluzione.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+      },
+      "quiz": [
+        {
+          "question": "Qual è lo scopo principale della nuova classe di azioni emessa da Meta?",
+          "options": [
+            "Aumentare il potere di voto degli azionisti esistenti",
+            "Finanziare esclusivamente la ricerca su nuove piattaforme social",
+            "Finanziare i progetti di intelligenza artificiale e le acquisizioni",
+            "Rimborsare i debiti accumulati negli ultimi anni"
+          ],
+          "answer": 2,
+          "explanation": "Meta ha specificato che le nuove azioni non votanti serviranno a finanziare le iniziative di IA, potenziali acquisizioni e la compensazione dei dipendenti."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-22-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Kid Cudi scriverà, dirigerà e interpreterà Basquiat nel biopic 'Jean'",
+      "summary": "Il musicista e attore Kid Cudi ha annunciato che scriverà, dirigerà e interpreterà un film biografico intitolato \"Jean\", dedicato all'artista Jean-Michel Basquiat. Le riprese inizieranno nel 2027. L'artista statunitense ha spiegato di aver deciso di scrivere la sceneggiatura in prima persona dopo anni di progetti mai realizzati, mostrando anche le prime immagini delle prove di costume. Il film racconterà la New York degli anni Ottanta.",
+      "context": "Jean-Michel Basquiat è stato tra le figure più influenti dell'arte contemporanea, scomparso a ventisette anni nel 1988. Per Kid Cudi si tratta di un importante passo nella sua carriera a Hollywood, dove ha già recitato in varie produzioni cinematografiche.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/kid-cudi-jean-michel-basquiat-movie-1236365215/"
+        },
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/kid-cudi-basquiat-biopic/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/06/2226382927-e1780325645143.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/kid-cudi-jean-michel-basquiat-movie-1236365215/"
+      },
+      "quiz": [
+        {
+          "question": "Quale ruolo ricoprirà Kid Cudi nella realizzazione del film biografico \"Jean\"?",
+          "options": [
+            "Sarà esclusivamente il regista, affidando il ruolo principale a un altro attore",
+            "Sarà sceneggiatore, regista e attore protagonista nei panni di Basquiat",
+            "Curerà soltanto la colonna sonora e la produzione esecutiva",
+            "Interpreterà un critico d'arte newyorkese senza dirigere il film"
+          ],
+          "answer": 1,
+          "explanation": "Kid Cudi ha annunciato che scriverà la sceneggiatura, curerà la regia e interpreterà personalmente Jean-Michel Basquiat."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-22-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Creato un materiale che si muove e si sincronizza da solo",
+      "summary": "Un gruppo di ricercatori delle università di Birmingham e Amsterdam ha sviluppato un materiale capace di coordinare i propri movimenti senza una guida centrale. Lo studio, pubblicato su Nature, mostra come minuscole tessere esagonali vibranti disposte a nido d'ape, partite da oscillazioni caotiche, riescano a sincronizzarsi spontaneamente su un unico ritmo. Modificando la frequenza o la disposizione dei singoli elementi, la struttura può ruotare o deformarsi in modo controllato.",
+      "context": "La scoperta apre la strada a una nuova generazione di materiali intelligenti e robot modulari. Sistemi simili consentiranno di costruire macchine semplici e versatili, capaci di svolgere compiti diversi sfruttando principi di auto-organizzazione già diffusi nei sistemi biologici.",
+      "sources": [
+        {
+          "name": "Il Messaggero",
+          "url": "https://www.ilmessaggero.it/tecnologia/news/materiali_auto_organizzanti_scoperta_robotica_nature-9839288.html"
+        }
+      ],
+      "image": {
+        "url": "https://statics.cedscdn.it/photos/MED_HIGH/2026/10/21/9839288_21124547_thumbnail_da_fotogramma.jpg",
+        "credit": "Il Messaggero",
+        "link": "https://www.ilmessaggero.it/tecnologia/news/materiali_auto_organizzanti_scoperta_robotica_nature-9839288.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la caratteristica principale del materiale descritto nello studio?",
+          "options": [
+            "Si decompone spontaneamente dopo aver completato un movimento programmato",
+            "Funziona solo se immerso in specifici liquidi conduttori",
+            "Sincronizza le proprie vibrazioni in modo autonomo senza una guida centrale",
+            "Richiede un supercomputer centrale per coordinare ogni singolo elemento"
+          ],
+          "answer": 2,
+          "explanation": "Le tessere del materiale partono da oscillazioni disordinate e trovano spontaneamente lo stesso ritmo, muovendosi all'unisono senza bisogno di un controllo esterno."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-22-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Mercato auto europeo in crescita, le elettriche al 22,7%",
+      "summary": "A settembre 2026 le immatricolazioni di auto in Europa occidentale sono state 1.363.210, cioè un aumento del 10,2% rispetto allo stesso mese del 2025. Nei primi nove mesi dell'anno le vendite totali hanno raggiunto 10.555.351 unità, in crescita del 6,3% su base annua. Le auto elettriche rappresentano il 22,7% del mercato, diventando la seconda motorizzazione più scelta. Stellantis ha venduto 172.977 veicoli a settembre, con una quota di mercato del 12,7%.",
+      "context": "Il dato evidenzia una ripresa della domanda di auto in Europa dopo il rallentamento post‑pandemia e conferma la crescente penetrazione delle elettriche, che ora superano un quinto del mercato. Sarà importante monitorare se la quota elettrica continuerà a salire nei prossimi mesi.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/22/mercato-europeo-dellauto-102-a-settembre-nei-9-mesi-quota-delle-elettriche_b30640fc-e6f3-41b0-be85-4daf1884cd37.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/9/1/ef3917ecf13f8f7c2f0c719d03b6fe86.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/22/mercato-europeo-dellauto-102-a-settembre-nei-9-mesi-quota-delle-elettriche_b30640fc-e6f3-41b0-be85-4daf1884cd37.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la quota delle auto elettriche nel mercato europeo nei primi nove mesi del 2026?",
+          "options": [
+            "22,7%",
+            "10,2%",
+            "12,7%",
+            "14,5%"
+          ],
+          "answer": 0,
+          "explanation": "Secondo i dati, le immatricolazioni di auto elettriche rappresentano il 22,7% del mercato nei primi nove mesi del 2026."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-22-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Sony Pictures sviluppa il film horror \"Mouthwashing\"",
+      "summary": "Secondo l'insider Daniel Richtman, Sony Pictures starebbe sviluppando un adattamento cinematografico del videogioco horror psicologico Mouthwashing. Il progetto, affidato all'etichetta Screen Gems, si trova nelle primissime fasi di sviluppo. Non sono ancora noti regista, sceneggiatore o data di uscita. Il gioco, pubblicato nel 2024 dallo studio svedese Wrong Organ, ha venduto oltre 500.000 copie su Steam e gode di un'ottima reputazione tra gli utenti.",
+      "context": "La notizia evidenzia la tendenza delle grandi major a trasformare i successi indie del videogioco in prodotti cinematografici. Screen Gems ha una solida esperienza nel genere horror, rendendo plausibile la scelta di adattare un titolo con una forte base di fan e una narrativa disturbante.",
+      "sources": [
+        {
+          "name": "TecnoAndroid",
+          "url": "https://www.tecnoandroid.it/news/mouthwashing-al-cinema-sony-avrebbe-un-film-in-sviluppo-1997607/"
+        }
+      ],
+      "image": {
+        "url": "https://www.tecnoandroid.it/wp-content/uploads/2026/10/Denis-1920-x-1080-2026-10-19T151909.243.jpg",
+        "credit": "TecnoAndroid",
+        "link": "https://www.tecnoandroid.it/news/mouthwashing-al-cinema-sony-avrebbe-un-film-in-sviluppo-1997607/"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha lanciato la notizia sullo sviluppo del film di Mouthwashing?",
+          "options": [
+            "La casa di produzione Screen Gems",
+            "L'editore Critical Reflex",
+            "L'insider Daniel Richtman",
+            "Lo studio svedese Wrong Organ"
+          ],
+          "answer": 2,
+          "explanation": "La notizia è stata diffusa dal noto insider Daniel Richtman tramite il suo profilo Patreon."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-22-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Champions League: il Como travolge il Manchester United 4-1",
+      "summary": "Nella terza giornata di Champions League, il Como ha battuto il Manchester United 4-1 nella serata del 21 ottobre 2026. Nico Paz ha segnato due reti, una al secondo minuto e l'altra al dodicesimo della ripresa. Hanno completato il punteggio Douvikas e Ramon. Il Manchester United ha trovato il gol della bandiera con Zirkzee nel recupero del secondo tempo.",
+      "context": "La vittoria conferma la solidità del Como in Europa dopo un esordio positivo contro il Lipsia. Il risultato evidenzia le difficoltà del Manchester United in trasferta e la capacità della squadra italiana di gestire il vantaggio contro avversari di alto livello.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/21/champions-league-como-batte-manchester-united-4-1_1b426d17-1457-4adc-9d3a-68d430249387.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/21/champions-show-del-como-manchester-united-travolto-4-1_59a7ee90-a419-45e4-b83d-c298e523adf5.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/21/efcb452c9f849dbb2882956f1f2f3aa8.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/21/champions-league-como-batte-manchester-united-4-1_1b426d17-1457-4adc-9d3a-68d430249387.html"
+      },
+      "quiz": [
+        {
+          "question": "Quanti gol ha segnato Nico Paz nella partita contro il Manchester United?",
+          "options": [
+            "Due",
+            "Uno",
+            "Quattro",
+            "Tre"
+          ],
+          "answer": 0,
+          "explanation": "Nico Paz ha realizzato una doppietta, segnando al secondo minuto e al dodicesimo della ripresa."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-22-7"
+    },
+    {
+      "category": "storia",
+      "tag": "22 ottobre 2004",
+      "title": "La rivista Nature pubblica la scoperta di una nuova specie umana",
+      "summary": "La rivista scientifica Nature pubblica la descrizione di una nuova specie di ominidi, l'Homo floresiensis, scoperta sull'isola di Flores in Indonesia da un gruppo di ricercatori australiani e indonesiani. I resti fossili, tra cui un cranio appartenuto a un adulto alto poco più di un metro, mostrano caratteristiche uniche come il nanismo insulare e una capacità cranica molto ridotta.",
+      "context": "Questa scoperta ha rivoluzionato la paleoantropologia, dimostrando che l'evoluzione umana non è stata lineare e che specie nane possono convivere con l'uomo moderno. Ha aperto nuove linee di ricerca sul nanismo insulare e sulle migrazioni preistoriche fuori dall'Africa.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Homo_floresiensis"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Homo_floresiensis.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Homo_floresiensis.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale specie umana è stata descritta sulla rivista Nature in seguito alla scoperta a Flores?",
+          "options": [
+            "Homo habilis",
+            "Homo erectus",
+            "Homo floresiensis",
+            "Homo sapiens"
+          ],
+          "answer": 2,
+          "explanation": "La rivista ha pubblicato la scoperta dei resti fossili attribuiti alla nuova specie Homo floresiensis sull'isola di Flores."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-22-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Rurik Rostislavič",
+      "title": "Il principe che tornava sempre al potere, anche da monaco",
+      "summary": "Rurik Rostislavič fu una figura centrale e controversa della politica della Rus' di Kiev tra il dodicesimo e il tredicesimo secolo. Riuscì a salire sul trono di Kiev in numerose occasioni, venendo scacciato e poi sempre capace di tornare al potere grazie a eserciti o alleanze. Non rinunciò al potere nemmeno quando fu costretto alla tonsura e a farsi monaco per espiare un pesante sterminio.",
+      "context": "La frammentazione politica della Rus' di Kiev nel medioevo fu caratterizzata da feroci lotte dinastiche tra rami rivali per il controllo della capitale. Questo contesto di instabilità favoriva continui rovesciamenti di fronte, alleanze spregiudicate e scontri per la supremazia territoriale.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Rurik_Rostislavi%C4%8D"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/%D0%A0%D1%8E%D1%80%D0%B8%D0%BA_%D0%A0%D0%BE%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%B8%D1%87_%D1%83%D0%B7%D0%BD%D0%B0%D1%91%D1%82_%D0%BE_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%B8_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%B0_II_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE%2C_%D1%81%D0%B1%D1%80%D0%B0%D1%81%D1%8B%D0%B2%D0%B0%D0%B5%D1%82_%D0%B8%D0%BD%D0%BE%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%B8%D0%B3_%D0%B8_%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F_%D0%BD%D0%B0_%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BB.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:%D0%A0%D1%8E%D1%80%D0%B8%D0%BA_%D0%A0%D0%BE%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%B8%D1%87_%D1%83%D0%B7%D0%BD%D0%B0%D1%91%D1%82_%D0%BE_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%B8_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%B0_II_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE%2C_%D1%81%D0%B1%D1%80%D0%B0%D1%81%D1%8B%D0%B2%D0%B0%D0%B5%D1%82_%D0%B8%D0%BD%D0%BE%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%B8%D0%B3_%D0%B8_%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F_%D0%BD%D0%B0_%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BB.png"
+      },
+      "quiz": [
+        {
+          "question": "Quale misura drastica subì Rurik Rostislavič nel corso delle sue lotte di potere?",
+          "options": [
+            "Fu privato di tutti i beni ereditari",
+            "Fu costretto alla tonsura e a farsi monaco",
+            "Fu esiliato permanentemente a Bisanzio",
+            "Fu imprigionato per dieci anni a Novgorod"
+          ],
+          "answer": 1,
+          "explanation": "Rurik fu costretto alla tonsura e a farsi monaco da Romano Mstislavič per espiare il grande sterminio dei kievani, ma continuò comunque a cercare di riprendersi il potere."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-22-9"
+    }
+  ]
+}
