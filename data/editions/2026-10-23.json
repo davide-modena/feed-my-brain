@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T04:31:59.166Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Possibile vertice trilaterale Putin-Trump-Xi e tensioni sull'Ucraina",
+      "summary": "Il presidente russo Vladimir Putin ha dichiarato, il 22 ottobre, di essere pronto a riprendere negoziati trilaterali di pace con gli Stati Uniti e l'Ucraina, ma ha ribadito che i territori dell’Ucraina orientale sono “terre storicamente russe” e non accetterà cedimenti. Parallelamente, il presidente cinese Xi Jinping ha espresso interesse per un possibile vertice trilaterale con Trump e Putin, in cui si affronterà anche la questione ucraina.",
+      "context": "Un vertice tra Russia, USA e Cina potrebbe influenzare il conflitto in Ucraina, ma le richieste russe sui territori orientali rischiano di bloccare ogni accordo di pace. Si osserva l’evoluzione diplomatica.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/la-russia-e-pronta-putin-apre-ai-colloqui-di-pace-trilaterali-ma-non-cede-sui-territori-lintervista-69058f6a-6d3b-4802-9801-49d441498c91.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/10/putin-i-territori-nellucraina-orientale-sono-terre-storicamente-russe-la-guerra-in-ucraina-c219e9c6-80e1-4fc2-a57e-178e99390e16.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRmQ1aXBHaVBTSXJ3WkMxSUtBYmhyU0diSm02U01BNVlBVm4xejF1ZjdEazlfaFVlVV84RFpVVm9Ca241WXFubUFHa1VraEFoaTJ4WlRkbUExU3N2dWRpeV9EWUpsV08tMDQxVEpfTHVZc21TR1htbGRlNHIxN2J5QTM1MU02WGhjVXdna0pJZEQtelRyWkxNcUpfcC13TmFHR3RlcXRJbVl2VjQwTjFKZ0QzX1NmaXJ6OFZndmh1YnVQTDk50gHKAUFVX3lxTE1DNUpaOVVjcUl3djgxYmR6Q1dhUEVGM0dNTmpXR0tDZTRSSUhOdzNOc2ZBdHVPbEV6XzZDSlhyeE1FVlV1d29lMzNwZlptUTZBdHpXRGFna0VncURHaG5vbS02U0VTMDByR3Z3NzNCeFRlS1R4UGFDSUJGc2c2Z3VYbkczU3NNcndqdW5JTFctTUJNUjUzZVdwNG54QzQtRGNuVVpwX0R3YkE5M1V5aC1XYUd1R1ZVcjlvcENjejU4aHU2ZDMwSzB3UXc?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/23/1792728894264_Immagine__.png",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/la-russia-e-pronta-putin-apre-ai-colloqui-di-pace-trilaterali-ma-non-cede-sui-territori-lintervista-69058f6a-6d3b-4802-9801-49d441498c91.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la posizione di Putin sui territori dell'Ucraina orientale nel contesto dei colloqui trilaterali?",
+          "options": [
+            "Li considera parte integrante della Russia",
+            "Li definisce terre storicamente russe ma non intende cederli",
+            "È disposto a cederli per la pace",
+            "Non ha espresso opinioni"
+          ],
+          "answer": 1,
+          "explanation": "Putin ha detto che sono terre storicamente russe e ha affermato che non accetterà perdite territoriali."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-23-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Governo stanzia 175 milioni per crisi autotrasporto",
+      "summary": "Il Consiglio dei ministri ha approvato un decreto-legge da 175 milioni di euro per arginare i blocchi stradali degli autotrasportatori. La somma è destinata ad autotrasporto, agricoltura e pesca, con 105 milioni riservati ai camionisti per mitigare l'aumento dei costi del carburante. Il provvedimento include anche lo slittamento al 2027 della tassa sui piccoli pacchi. La premier Giorgia Meloni ha avvertito che l'intimidazione non sarà tollerata, mentre la Commissione di Garanzia sugli scioperi ha chiesto la precettazione degli autisti per garantire il flusso delle merci.",
+      "context": "La mossa governativa mira a prevenire una paralisi economica nazionale causata dalla crisi dei costi energetici nel settore logistico. La situazione evidenzia la tensione tra le esigenze di protesta sociale e la necessità di mantenere operative le catene di approvvigionamento essenziali per il Paese.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/22/il-cdm-approva-il-decreto-sugli-aiuti-105-milioni-per-i-tir-e-70-per_416e7ef3-b46a-4594-90dd-671b4eb1cc0e.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOM3pndVN3ZVVQYklmUGJYRG1QN0NncTUxbmRSeW14SzQ2OFF5WU9kS1Q0ZUdNUUpLazBQWGN0bjdJYTNwY2FUeEQ0UmRsdW1jSjhVQ0ZlaHFKcE94Y2luRWxWS3ZwczhwdmswU2NCcmFzWjBHdC1MTUNOQkhpb01kNFZjalVXWnRpOVRVN0xqU2xrdDFMd1lULXh2YVB3ak8xeGFBdE9nNlg3dm9Ja2VFNmF3NWhydE5XWEtaMUp2TGx4eU5Qdk1ub0hKX2FyTHM1aS1LcDFDOTF6MXNXNHlQYzRpb0g0MVpKa3I3NXdKamM0YXVJUGQyYjFyZFE1X04zOU9tWk5YRzZ2cUlGVDRGZVN5Sy1Cb05BVlFSaGFGY9IBpAJBVV95cUxPaW5SYUFpeEM2Mi02OWRJV3NyWE9IUVpoMjU3ODNYaDZOSW9rQnY3YmtoQWo4Szh5OTVtY0o1RUROYVd0UGU2M1VpeG9vZ2t2Z19xQVN6cUhqUnJBWjdqTE1ESVdkQzdkOER5NXhfREFaZFQ4TUNZSnhNY3F0blR0SHR6ZUpiUVM3bFZSV2M5RXlMaTFkX2YzX080WDRwbjFvcGdaRUxzNXJwQWZVTWlQNlE5QklES2VxTTI3dzFxWmJ2SmpYb1pCOW5peEtSbTZWQVlnSmZKVEtVV2hBdXBJelJLd1c2QWl4eXllemNhNGlwamtTVFllZU5zME1SNlhlVzhCSDREY3pGWTRTOHJmUlJDVXR4SFA0VjdvYk9jZUpXcWFC?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/22/56c814a56243d487916c965adc68d3c0.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/22/il-cdm-approva-il-decreto-sugli-aiuti-105-milioni-per-i-tir-e-70-per_416e7ef3-b46a-4594-90dd-671b4eb1cc0e.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale misura è stata introdotta dal decreto-legge oltre allo stanziamento dei fondi?",
+          "options": [
+            "L'aumento immediato del prezzo del carburante",
+            "La cancellazione totale delle tasse per gli agricoltori",
+            "L'obbligo di precettazione immediata per tutti gli autisti",
+            "Lo slittamento al 2027 della tassa sui minipacchi"
+          ],
+          "answer": 3,
+          "explanation": "Il decreto prevede specificamente lo slittamento della tassa sui minipacchi al primo gennaio 2027, oltre all'allocazione dei fondi."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-23-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Vaccino mRNA Moderna-Merck riduce rischio recidiva melanoma del 42%",
+      "summary": "Nuovi dati della fase 3 mostrano che il vaccino personalizzato intismeran (mRNA-4157) di Moderna, somministrato con l'immunoterapia Keytruda di Merck, riduce del 42% il rischio di recidiva o morte nei pazienti con melanoma resecato. Dopo due anni, l'82% del gruppo trattato è sopravvissuto senza recidiva, contro il 70% del gruppo di controllo. Il vaccino usa mRNA sintetico per targettare fino a 34 mutazioni specifiche del tumore del paziente.",
+      "context": "È il primo studio di fase 3 a dimostrare un miglioramento clinicamente significativo rispetto alla standard of care nel trattamento adiuvante del melanoma. Segna un passo avanti cruciale nell'uso dei vaccini a mRNA contro il cancro, offrendo una nuova opzione per prevenire il ritorno della malattia dopo la chirurgia.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2260256951-1152x648.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'effetto principale del vaccino intismeran combinato con Keytruda dopo due anni di follow-up?",
+          "options": [
+            "Ha aumentato la sopravvivenza senza metastasi del 59%",
+            "Ha sostituito la necessità di chirurgia",
+            "Ha ridotto del 42% il rischio di recidiva o morte",
+            "Ha eliminato completamente il tumore in tutti i pazienti"
+          ],
+          "answer": 2,
+          "explanation": "Lo studio ha mostrato una riduzione del 42% del rischio di recidiva o morte rispetto al gruppo di controllo, mentre la riduzione delle metastasi è stata del 38%."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-23-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Ex dipendente di Eminem si dichiara colpevole per furto e vendita di brani inediti",
+      "summary": "Joseph Strange, ex dipendente del rapper Eminem, si è dichiarato colpevole di violazione del diritto d'autore per aver copiato e venduto brani musicali inediti. Strange, che ha lavorato per l'artista dal 2007 al 2021, ha sottratto i file dai computer dello studio e li ha venduti online per circa 50.000 dollari. Le tracce sono state poi caricate su piattaforme di streaming, ottenendo oltre otto milioni di ascolti. Rischia fino a cinque anni di carcere.",
+      "context": "Il furto e la diffusione non autorizzata di materiale musicale inedito danneggiano il controllo creativo degli artisti e i loro guadagni futuri. La tutela della proprietà intellettuale nel settore digitale resta una priorità per le autorità giudiziarie.",
+      "sources": [
+        {
+          "name": "Rolling Stone",
+          "url": "https://www.rollingstone.com/music/music-news/eminem-former-employee-guilty-leaking-unreleased-music-1235646780/"
+        },
+        {
+          "name": "CBS News on MSN",
+          "url": "https://www.msn.com/en-us/news/other/ex-eminem-employee-pleads-guilty-to-selling-rappers-unreleased-music-for-about-50000/ar-AA2fRigg"
+        },
+        {
+          "name": "BNO News",
+          "url": "https://bnonews.com/index.php/2026/10/former-eminem-employee-pleads-guilty-to-selling-rappers-unreleased-music/"
+        }
+      ],
+      "image": {
+        "url": "https://www.rollingstone.com/wp-content/uploads/2026/10/GettyImages-2248970739.jpg?w=1600&h=900&crop=1",
+        "credit": "Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-news/eminem-former-employee-guilty-leaking-unreleased-music-1235646780/"
+      },
+      "quiz": [
+        {
+          "question": "Di quale reato si è dichiarato colpevole l'ex dipendente di Eminem?",
+          "options": [
+            "Estorsione",
+            "Evasione fiscale",
+            "Violazione del diritto d'autore",
+            "Truffa aggravata"
+          ],
+          "answer": 2,
+          "explanation": "Joseph Strange si è dichiarato colpevole del reato di violazione del diritto d'autore per aver venduto brani inediti."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-23-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Kering: ricavi stabili ma Gucci continua a soffrire, la priorità è il rilancio",
+      "summary": "Nel terzo trimestre il gruppo Kering ha registrato ricavi stabili a 3.345 milioni di euro, ma in calo dell'uno percento su base comparabile. Mentre marchi come Saint Laurent e Bottega Veneta hanno rispettato le attese, il marchio Gucci ha segnato una flessione del sei percento su base comparabile. Il vertice del gruppo ha confermato che il rilancio di Gucci rappresenta la priorità assoluta, un percorso che richiederà diverse stagioni.",
+      "context": "Le difficoltà di Gucci pesano sui conti di Kering in un mercato del lusso complesso. Il rilancio del marchio principale è fondamentale per la stabilità del gruppo e richiede tempo e investimenti mirati sulla rete di vendita e sui prodotti.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/22/kering-ricavi-stabili-ma-soffre-ancora-gucci_693b3f82-6b4a-4a70-a532-e9fd4041b17a.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/1/19/f70a0e2dc19643088a8da580e9fc7e39.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/22/kering-ricavi-stabili-ma-soffre-ancora-gucci_693b3f82-6b4a-4a70-a532-e9fd4041b17a.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale marchio del gruppo Kering ha registrato la maggiore sofferenza nei ricavi del terzo trimestre?",
+          "options": [
+            "Saint Laurent",
+            "Gucci",
+            "Brioni",
+            "Bottega Veneta"
+          ],
+          "answer": 1,
+          "explanation": "Gucci ha registrato ricavi in flessione del sei percento su base comparabile, confermandosi la principale preoccupazione per il gruppo."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-23-4"
+    },
+    {
+      "category": "storia",
+      "tag": "23 ottobre 2001",
+      "title": "Lancio del primo Apple iPod",
+      "summary": "Apple ha presentato e messo in commercio la prima versione del lettore musicale iPod. Il dispositivo era dotato di un hard disk da 5 GB, capace di contenere un migliaio di brani in formato MP3, ed era compatibile esclusivamente con i computer Macintosh. Per la gestione della musica utilizzava una rotella meccanica e un collegamento Firewire.",
+      "context": "L'arrivo dell'iPod ha ridefinito l'industria discografica e le abitudini di ascolto, inaugurando l'era della musica digitale portatile. Ha aperto la strada all'ecosistema di dispositivi mobili Apple e al negozio online iTunes, cambiando per sempre il mercato tecnologico.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/IPod_classic"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/IPods_2010.svg/1280px-IPods_2010.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:IPods_2010.svg"
+      },
+      "quiz": [
+        {
+          "question": "Quale caratteristica aveva la prima versione dell'iPod del 2001?",
+          "options": [
+            "Era compatibile solo con i sistemi Macintosh",
+            "Aveva uno schermo a colori per le foto",
+            "Disponeva di una memoria da 40 GB",
+            "Poteva connettersi a internet"
+          ],
+          "answer": 0,
+          "explanation": "La prima versione dell'iPod era dotata di un hard disk da 5 GB ed era compatibile solamente con i sistemi Macintosh."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-23-5"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Texas francese",
+      "title": "Quando un errore di navigazione fondò il Texas francese",
+      "summary": "Nel 1685 l'esploratore René Robert Cavelier de La Salle fondò Fort Saint Louis nell'odierno Texas, credendo di trovarsi alla foce del fiume Mississippi. A causa di errori nelle mappe e nella navigazione, la spedizione francese era sbarcata seicentoquarantacinque chilometri più a ovest. Sopravvissuta per soli tre anni tra epidemie e ostilità, la colonia fu distrutta dagli indiani Karankawa, ma fornì alla Francia il pretesto per rivendicare quei territori.",
+      "context": "Alla fine del diciassettesimo secolo, le potenze europee si contendevano i territori dell'America settentrionale per frenare l'espansione rivale. La creazione di insediamenti strategici serviva a legittimare pretese territoriali in zone controllate o ambite dalla Spagna, ridisegnando gli equilibri coloniali del continente.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Texas_francese"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Cavelier_de_la_salle.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Cavelier_de_la_salle.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Perché la colonia di Fort Saint Louis fu fondata nel luogo sbagliato?",
+          "options": [
+            "Per ordine diretto del re di Spagna",
+            "Perché i nativi americani avevano bloccato la rotta principale",
+            "A causa di un ammutinamento dei marinai",
+            "A causa di imprecisioni nelle mappe e di errori di navigazione"
+          ],
+          "answer": 3,
+          "explanation": "La spedizione mancò la foce del Mississippi e sbarcò centinaia di chilometri più a ovest a causa di errori nelle mappe e nella navigazione."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-23-6"
+    }
+  ]
+}
