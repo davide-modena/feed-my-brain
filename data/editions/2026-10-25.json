@@ -1,0 +1,378 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T05:35:58.723Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Francia: quasi 1.000 arresti dopo nuove proteste di massa",
+      "summary": "In Francia, centinaia di migliaia di persone hanno manifestato sabato contro il costo della vita e le condizioni scolastiche. Stime ufficiali indicano 410.000 partecipanti, mentre i sindacati ne contano circa 800.000. Nonostante l'impiego di 70.000 agenti di polizia, si sono verificati scontri a Parigi, Marsiglia e Bordeaux. La polizia ha segnalato quasi 1.000 fermi, evitando però i saccheggi e i disordini su larga scala registrati la settimana precedente.",
+      "context": "Le proteste fanno seguito ai gravi disordini del 17 ottobre. Il governo ha imposto restrizioni, permettendo solo manifestazioni organizzate da sindacati riconosciuti. L'alto numero di agenti schierati ha limitato la violenza, ma la tensione sociale rimane elevata a causa delle rivendicazioni economiche.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/24/parigi-scontri-alla-fine-del-corteo-polizia-con-lacrimogeni-e-idranti_bd1e06f5-b847-4c45-8875-1bde48915478.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNmJJc2s2ZVE3cXQtblFvd2NfSnRtWWsta3dtRmlONWRPcklLbkVwTzVyRnZDNjRSX2hCT1BEWW8tTkVqaFIxX1JqWFpaNUozaGFuR1hTYzFUaGw2eFRwQkFwekpZYnhBYngyekQ1VHB3MHIyTmxDUXhYSzBlNDdVdTMzWUNUUnR1ZUFIT0FSb0xsOFpqSmFEMG80dy1IOHR1SENnclEzZDd6STAzclRoN0lOci12b0p1cmNZbEpacXfSAcYBQVVfeXFMT3BYRUJpb1A1aktjMnpFSjJBeGk4VHhMSTRVQXBoWVRsNTljM2duTExEcnVmajFJcExjemhQZ0N5RDhVQTFOUXNjOHVLTlJMTWFkcWtIc2RiTGw1N0dMVmJIblQ3dEU1cnR4VEo0UEpyektxUkRNbVVHdjd6M29FVXZPVjlQUEdneUs1R2tLVGwzNkxzMmd5OGVFT1c4aWVWdmpDa2xfeUgyRWZZQmRMRDV3cFRneHNnNGhTQXEtbHZGVGFCTHl3?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quanti agenti di polizia sono stati schierati per gestire le proteste?",
+          "options": [
+            "Circa 1.000",
+            "800.000",
+            "70.000",
+            "410.000"
+          ],
+          "answer": 2,
+          "explanation": "Le fonti indicano che sono stati mobilitati 70.000 agenti di polizia, gendarmi e servizi speciali per prevenire i disordini."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-25-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Proteste e fermi a Torino, Bologna e Roma",
+      "summary": "In Italia si sono svolte nuove proteste contro le misure del governo, con cortei a Torino, Bologna e Roma. Le forze dell'ordine hanno identificato quasi 5mila persone e ne hanno fermate 371, di cui 110 minori. A Torino si sono verificati scontri, mentre a Roma i manifestanti sono stati respinti ai cancelli del Colosseo. La polizia ha indagato un uomo ritenuto il promotore del movimento.",
+      "context": "Le manifestazioni seguono i disordini della settimana precedente. Il governo ha approvato misure per prevenire le violenze e garantire la sicurezza urbana. La situazione evidenzia la tensione sociale e le sfide dell'ordine pubblico durante le proteste.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU2R4eUdxdVp6NVNIRmViS0VrNS1EcHRXbUlwMEVDWVR6S1FDdnNHRnlPcklsQ0tDbVNoTVVWaEtKMS1xLVVhYVJEYkdtZnNPNE14M2hJc05xSjFkbFhPS1VqTV9hMEVLQVpGdmFmX0ZqcE5GMzVBem1LV2Mxd3R0WFo3TmpLeGQ1NWozN3NUdEtGQjc0aGg3cjNwNA?oc=5"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/25/cortei-e-tensioni-scontri-a-torino.-incursione-al-colosseo.-meloni-sicurezza-garantita_a5328565-eeb0-4566-bf29-d289f2b330a3.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/videogallery/italia/2026/10/24/corteo-a-roma-i-manifestanti-respinti-ai-cancelli-del-colosseo_125d6fb1-6bb7-45a2-bf5b-ef52b6dbc30d.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/24/9efc21e7ca5e2733a3a1a2f72e791825.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/25/cortei-e-tensioni-scontri-a-torino.-incursione-al-colosseo.-meloni-sicurezza-garantita_a5328565-eeb0-4566-bf29-d289f2b330a3.html"
+      },
+      "quiz": [
+        {
+          "question": "Quanti fermi sono stati effettuati durante le proteste di oggi?",
+          "options": [
+            "110",
+            "371",
+            "5.000",
+            "9"
+          ],
+          "answer": 1,
+          "explanation": "Il materiale riporta che sono state fermate 371 persone, di cui 110 minori."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-25-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Pennsylvania approva legge per etichettare gli annunci pubblicitari generati dall'AI",
+      "summary": "Il governatore della Pennsylvania, Josh Shapiro, ha firmato la legge sull'inganno pubblicitario tramite intelligenza artificiale. Il testo obbliga a inserire un'etichetta visibile su qualsiasi pubblicità, di qualsiasi formato, che sia stata significativamente modificata o creata con l'AI. La norma si applica anche a spot prodotti altrove ma trasmessi nello stato. Restano aperti dubbi su cosa si intenda per modifica significativa o contenuto chiaramente fittizio.",
+      "context": "È uno dei primi stati americani a regolamentare specificamente la trasparenza degli annunci digitali. La legge mira a proteggere i consumatori dalla disinformazione commerciale, ma le definizioni vaghe lasciano spazio a interpretazioni legali future e possibili contenziosi.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK445_ADVERTISING_STK093_GOOGLE_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+      },
+      "quiz": [
+        {
+          "question": "Quale requisito principale impone la nuova legge della Pennsylvania?",
+          "options": [
+            "Cancellazione immediata di tutti i contenuti fittizi",
+            "Divieto assoluto di usare l'AI negli spot televisivi",
+            "Obbligo di etichettare gli annunci significativamente modificati dall'AI",
+            "Banda larga obbligatoria per le aziende pubblicitarie"
+          ],
+          "answer": 2,
+          "explanation": "La legge richiede specificamente che gli annunci pubblicitari generati o modificati in modo significativo dall'intelligenza artificiale includano un'etichetta di disclosure."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-25-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Jay-Z torna a Los Angeles con Blue Ivy e la reunion delle Destiny's Child tra il pubblico",
+      "summary": "Venerdì sera Jay-Z ha aperto la sua due giorni di concerti al SoFi Stadium di Los Angeles per celebrare i trent'anni dall'uscita del suo primo album, Reasonable Doubt. Sul palco sono saliti ospiti speciali come il rapper Scarface, DJ Khaled, John Legend e la figlia Blue Ivy alla tastiera. Tra gli spettatori c'erano Rihanna e i membri delle Destiny's Child, con Beyoncé, Kelly Rowland e Michelle Williams riunite insieme.",
+      "context": "Lo spettacolo segue i concerti a New York, Londra e Parigi per il tour celebrativo JAY-Z30. Negli stessi giorni circolano voci non confermate su una sua possibile esibizione durante lo spettacolo dell'intervallo del prossimo Super Bowl, ospitato nello stesso stadio.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/jay-z-la-night-one-guests-blue-ivy-john-legend-scarface-1236367544/"
+        },
+        {
+          "name": "TMZ",
+          "url": "https://www.tmz.com/2026/10/24/destinys-child-rihanna-attend-jay-z-show-blue-performs/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/10/jay-z-la-oct-24-2026-cr-roc-nation-billboard-1800.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/jay-z-la-night-one-guests-blue-ivy-john-legend-scarface-1236367544/"
+      },
+      "quiz": [
+        {
+          "question": "Quale ruolo ha avuto la figlia Blue Ivy durante l'esibizione di Jay-Z a Los Angeles?",
+          "options": [
+            "Ha cantato come voce solista in apertura di serata",
+            "Ha suonato la tastiera accompagnando il padre sul palco",
+            "Si è esibita ballando insieme alle Destiny's Child",
+            "Ha presentato gli ospiti speciali all'inizio del concerto"
+          ],
+          "answer": 1,
+          "explanation": "Blue Ivy è salita sul palco per suonare la tastiera durante i brani 'The Story of O.J.' e 'Dead Presidents'."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-25-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "IA migliora le previsioni di El Niño con un anno di anticipo",
+      "summary": "Uno studio australiano pubblicato su Science Advances ha dimostrato che lo stato dell’oceano Pacifico al momento della previsione è cruciale per la sua affidabilità. Le previsioni effettuate durante una fase di La Niña risultano più attendibili fino a un anno, mentre in condizioni neutre i modelli tradizionali falliscono. L’intelligenza artificiale potrebbe colmare questo gap.",
+      "context": "Prevedere El Niño con largo anticipo permette a governi e comunità di prepararsi a siccità o inondazioni. Il nuovo approccio evidenzia il ruolo dell’Intelligenza Artificiale quando i modelli fisici sono meno affidabili.",
+      "sources": [
+        {
+          "name": "Il Messaggero",
+          "url": "https://www.ilmessaggero.it/ambiente/el_nino_previsioni_un_anno_prima_intelligenza_artificiale_pacifico-9845961.html"
+        }
+      ],
+      "image": {
+        "url": "https://statics.cedscdn.it/photos/MED_HIGH/2026/10/24/9845961_24125601_thumbnail_da_fotogramma.jpg",
+        "credit": "Il Messaggero",
+        "link": "https://www.ilmessaggero.it/ambiente/el_nino_previsioni_un_anno_prima_intelligenza_artificiale_pacifico-9845961.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale condizione oceanica rende le previsioni di El Niño più affidabili a lungo termine secondo lo studio?",
+          "options": [
+            "Fase di El Niño",
+            "Nessuna differenza",
+            "Fase di La Niña",
+            "Condizioni neutre"
+          ],
+          "answer": 2,
+          "explanation": "Lo studio ha trovato che le previsioni fatte durante la fase di La Niña sono sistematicamente più attendibili anche a distanza di un anno."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-25-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Disuguaglianza dei redditi in Italia al minimo dal 2014 ma sopra la media UE",
+      "summary": "Nel 2025 l'Italia ha registrato il più basso coefficiente di Gini dal 2014, sceso a 31,0 rispetto al 32,2 del 2024. Nonostante il miglioramento, il valore resta superiore alla media europea, pari a 29,2. Anche l'indice per gli under‑18 è diminuito a 29,3, ma rimane al di sopra dei 28,6 UE. Il rischio di povertà è del 18,6%, più alto della media UE del 16,3%. I trasferimenti sociali hanno ridotto le disuguaglianze, ma il divario di genere supera il 40%, ben oltre la media OCSE del 35%.",
+      "context": "Il calo dell'indice di Gini indica una riduzione delle disparità, ma il valore ancora superiore alla media UE segnala persistenti problemi di equità. È importante monitorare l'evoluzione dei trasferimenti sociali e del divario di genere per valutare l'efficacia delle politiche redistributive.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/24/eurostat-disuguaglianza-redditi-in-italia-ai-minimi-da-2014-ma-resta-oltre-media-ue_1c1bff46-bdcc-4101-82ad-85a380f9b398.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/24/eurostat-disuguaglianza-redditi-in-italia-ai-minimi-da-2014-ma-resta-oltre-media-ue_51cebd88-4753-4d67-b0f0-bbc25a46d832.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/eurostat-disuguaglianza-redditi-in-italia-ai-minimi-da-2014-ma-resta-oltre-media-ue_1c1bff46-bdcc-4101-82ad-85a380f9b398.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il coefficiente di Gini dell'Italia nel 2025 secondo Eurostat?",
+          "options": [
+            "35,1",
+            "29,2",
+            "32,2",
+            "31,0"
+          ],
+          "answer": 3,
+          "explanation": "Il testo indica che il Gini italiano è sceso a 31,0 nel 2025."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-25-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Festa del Cinema di Roma 2026: vince 'I See Buildings Fall Like Lightning'",
+      "summary": "La ventunesima edizione della Festa del Cinema di Roma si è conclusa sabato 24 ottobre con la premiazione del concorso Progressive Cinema. Il premio per il miglior film è andato a 'I See Buildings Fall Like Lightning' di Clio Barnard. Tra i riconoscimenti italiani, Paolo Pierobon ha vinto il premio per il miglior attore per 'Brianza', mentre Kasia Smutniak ha ottenuto il Premio del Pubblico con 'Mustang', condiviso con 'Congo Boy'.",
+      "context": "L'evento conferma il ruolo di Roma come vetrina per il cinema internazionale e indipendente. La vittoria di opere che trattano temi sociali precari evidenzia l'attenzione del festival verso le questioni contemporanee, offrendo visibilità a registi e attori emergenti o meno noti al grande pubblico.",
+      "sources": [
+        {
+          "name": "MYmovies",
+          "url": "https://www.mymovies.it/"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/festa-del-cinema-di-roma-miglior-film-i-see-buildings-fall-like-lightning-f820e737-c5ce-4222-9ae6-fd9f5d78ef29.html"
+        },
+        {
+          "name": "Vogue Italia",
+          "url": "https://www.vogue.it/article/festa-del-cinema-di-roma-2026-vincitori"
+        }
+      ],
+      "image": {
+        "url": "https://pad.mymovies.it/cinemanews/2026/197368/roma.jpg",
+        "credit": "MYmovies",
+        "link": "https://www.mymovies.it/"
+      },
+      "quiz": [
+        {
+          "question": "Quale film ha vinto il premio per il Miglior Film alla Festa del Cinema di Roma 2026?",
+          "options": [
+            "I See Buildings Fall Like Lightning",
+            "Mustang",
+            "Brianza",
+            "Congo Boy"
+          ],
+          "answer": 0,
+          "explanation": "Il premio principale del concorso Progressive Cinema è stato assegnato a 'I See Buildings Fall Like Lightning' diretto da Clio Barnard."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-25-6"
+    },
+    {
+      "category": "storia",
+      "tag": "25 ottobre 2007",
+      "title": "Primo volo commerciale per l'Airbus A380",
+      "summary": "La compagnia aerea Singapore Airlines ha effettuato il primo volo commerciale con l'Airbus A380, un aereo quadrimotore a doppio ponte. Il velivolo ha completato la tratta da Singapore a Sydney, segnando l'entrata in servizio del più grande aereo di linea per numero massimo di passeggeri e di peso.",
+      "context": "L'A380 ha ridefinito il trasporto aereo di massa puntando sul modello da hub a hub, ma l'evoluzione del mercato verso aerei bimotori più piccoli ed efficienti ha reso il velivolo economicamente insostenibile, portando alla chiusura della produzione.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Airbus_A380"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Emirates_Airbus_A380-861_A6-EER_MUC_2015_04.jpg/1280px-Emirates_Airbus_A380-861_A6-EER_MUC_2015_04.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Emirates_Airbus_A380-861_A6-EER_MUC_2015_04.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale compagnia aerea ha effettuato il primo volo commerciale con l'Airbus A380?",
+          "options": [
+            "Emirates",
+            "Singapore Airlines",
+            "Air France",
+            "British Airways"
+          ],
+          "answer": 1,
+          "explanation": "La prima consegna è stata effettuata a Singapore Airlines, che ha realizzato il primo volo commerciale da Singapore a Sydney."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-25-7"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Congresso di Ljubeč",
+      "title": "Come un vertice medievale cambiò le regole del potere nella Rus' di Kiev",
+      "summary": "Nell'ottobre del 1097, i principi della Rus' di Kiev si riunirono al congresso di Ljubeč per porre fine a una sanguinosa guerra di successione. Per trovare un accordo con il principe ribelle Oleg Svjatoslavič, i leader riconobbero formalmente il possesso delle rispettive terre a ogni nobile presente, abbandonando nei fatti il vecchio sistema rotale che prevedeva la successione tra fratelli e favorendo la trasmissione ereditaria dei domini.",
+      "context": "Il congresso segnò un tentativo di stabilizzare la Rus' di Kiev dopo decenni di lotte intestine seguite alla morte di Jaroslav il Saggio. Garantire patrimoni fissi ai principi servì anche a compattare le forze contro le minacce esterne, in particolare le tribù nomadi dei poloviciani.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Congresso_di_Ljube%C4%8D"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Location_of_Kyivan_Rus.png/1280px-Location_of_Kyivan_Rus.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Location_of_Kyivan_Rus.png"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu la principale conseguenza del congresso di Ljubeč sui criteri di potere?",
+          "options": [
+            "La cessione di tutti i territori alle tribù poloviciane",
+            "L'accentramento di ogni potere nelle mani di un unico principe forestiero",
+            "Il passaggio verso la trasmissione ereditaria dei domini anziché il sistema rotale tra fratelli",
+            "L'abolizione totale della monarchia a favore di una repubblica"
+          ],
+          "answer": 2,
+          "explanation": "L'incontro riconobbe formalmente il possesso delle terre ai singoli principi, favorendo la stabilità patrimoniale e superando il vecchio sistema rotale."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-25-8"
+    }
+  ]
+}
