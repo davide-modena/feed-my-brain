@@ -1,0 +1,391 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T05:36:00.040Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Lula rieletto presidente del Brasile",
+      "summary": "Inacio Lula da Silva è stato rieletto presidente del Brasile con il 51,74% dei voti, superando Flavio Bolsonaro. La vittoria è storica per il numero di consensi, oltre 64 milioni, e per la rimonta dopo la sconfitta al primo turno. L'esito è stato contestato dal rivale, che ha chiesto l'annullamento del voto a causa di una proroga delle operazioni di scrutinio decisa all'ultimo momento da un giudice.",
+      "context": "La rielezione di Lula rafforza la sua influenza politica dopo anni di contenziosi giudiziari. La contestazione del risultato da parte dell'opposizione e le irregolarità procedurali durante il voto segnalano tensioni istituzionali che potrebbero influenzare la stabilità del nuovo mandato.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/25/il-brasile-al-voto-lultimo-sondaggio-bolsonaro-in-lieve-vantaggio-su-lula_56cc4597-7350-4738-9bed-c5925ac6574d.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/lula-presidente-operaio-che-vince-controcorrente-profilo-carboni-65932506-dd43-4946-b381-6c10743af1b1.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOaHJjeXVWazREd0V1OUZiWTB5aTVXQjRiTHA0aGduMTJOMkxUU1FOcGs1SnJmYUtIOWNpMmdQa3JOc1EzUnA4OU80akVRS1RueWlzY0JsaHA1ZlZ3ZkRpYlJ6aHhkTWtXeXlTanp1ajF6WTJfdXpHQ3hzaE40ejFYbVlwQ1JDNU5NM1dDZGpfYjJzcnlGdDlSaFpkX3FRU3RuVFh3ckVNeFFFUG41VDByNXhfVlhEaElQaXRmVmtaNnpyQmRtRDdtTEpxWWU2RHQ5R2lmWTllcXR1RlJRRUJ0NmJRaV9rNWlCS2VkcWNjODMtY0NaS2Q00gH8AUFVX3lxTFA2cWYxM184Ukx6V1FfRmp3Rm9rMENMQXVXTXpyTGowR25iVmNEdDdsQldza2tlaGxVQlYtX3pPMk9DZnJvTENnR2g2S25MVnNVczd6NVJ1NXFKNXZDRXNRcXhMMGRXSWlSbFVXVHd5MFFnOXNuMWZyMGpIblF3amFVR29aMkpxaUhnN2FuTmFfVF9ENWdjQVh3UWdSYXdCdF9TRWNnQUVaeGtkMU1LdHROZU9jblJKMHdkdEFiU1NJVUplNGFQUnpJQXJ4Z2RjQ3FjVXE3Rjk2U2U5LWFRTGJyaGZnelV4OFJKT2dhR21aZjE1bzZ2UkR3Zk1mdQ?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/25/70ea3c9b3861b8d9c7036b67320f64f8.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/mondo/2026/10/25/il-brasile-al-voto-lultimo-sondaggio-bolsonaro-in-lieve-vantaggio-su-lula_56cc4597-7350-4738-9bed-c5925ac6574d.html"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Flavio Bolsonaro ha chiesto l'annullamento delle elezioni?",
+          "options": [
+            "Perché Lula ha ricevuto più voti del 60% dei suffragi",
+            "Perché una proroga del voto è stata decisa all'ultimo momento, causando confusione",
+            "Perché i seggi sono stati chiusi troppo presto in tutto il paese",
+            "Perché il tribunale ha vietato l'uso del trasporto pubblico"
+          ],
+          "answer": 1,
+          "explanation": "Il rivale ha contestato l'esito a causa di una proroga delle operazioni di voto decisa da un giudice pochi minuti prima della chiusura, che ha creato caos e ritardi in molti seggi."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-26-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Scandalo \"lista stupri\" al liceo Righi di Roma",
+      "summary": "Il 26 ottobre 2026 è stata scoperta, nei bagni della sede di via Boncompagni del Liceo Righi a Roma, una scritta che elenca i nomi di studenti accompagnati da una svastica e dalla frase “lista stupri”. Il messaggio è stato segnalato dal collettivo studentesco Ludus Righi durante un aperitivo, cancellato subito ma denunciato dal preside Giovanni Cogliandro come gesto abominevole. L’episodio segue un caso analogo avvenuto l’anno precedente al Liceo Giulio Cesare.",
+      "context": "Il caso evidenzia la persistenza di una cultura patriarcale e di violenza verbale nelle scuole italiane, richiamando l'attenzione su necessità di prevenzione e interventi più efficaci.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/25/una-lista-stupri-nei-bagni-del-liceo-righi-a-roma_4a4f14f2-a323-4aa5-a4e4-dea55e0441ba.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/25/7ca8ff32b75a2a31ce6972f260f95afa.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/25/una-lista-stupri-nei-bagni-del-liceo-righi-a-roma_4a4f14f2-a323-4aa5-a4e4-dea55e0441ba.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa è stato scoperto nei bagni del Liceo Righi a Roma?",
+          "options": [
+            "Una lista di nomi di studenti associata alla frase “lista stupri”",
+            "Un murales artistico",
+            "Un nuovo laboratorio scientifico",
+            "Una squadra sportiva vincente"
+          ],
+          "answer": 0,
+          "explanation": "La notizia riguarda la comparsa di una scritta con la frase “lista stupri” e i nomi degli studenti, poi rimossa ma denunciata."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-26-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Google rivoluziona la ricerca AI, colpisce il traffico dei publisher",
+      "summary": "Google ha introdotto nel 2024 le “AI Overviews”, un riassunto generato dall’intelligenza artificiale che appare in cima ai risultati di ricerca, seguito da link alle fonti. La funzione ha ridotto i click verso i siti di notizie, con il traffico dei publisher in calo, come segnalato dall’alleanza News/Media Alliance e da indagini del Press Gazette. Nel 2025 è stato lanciato “AI Mode”, un’interfaccia chatbot che sostituisce la ricerca tradizionale.",
+      "context": "Il cambiamento segna una rottura del modello tradizionale di traffico da Google verso i media, influenzando i ricavi online e indicando una tendenza verso motori di ricerca dominati dall’AI.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK414_STK480_AI_DIS_MISINFO_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'effetto principale delle nuove funzioni di ricerca AI di Google sui editori online?",
+          "options": [
+            "Aumento del traffico verso i loro siti",
+            "Mantenimento del traffico invariato",
+            "Miglioramento della qualità dei contenuti",
+            "Diminuzione del traffico a causa dei riassunti AI"
+          ],
+          "answer": 3,
+          "explanation": "Le AI Overviews mostrano un riassunto in cima ai risultati, riducendo i click verso le fonti dei media."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-26-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Trump commenta il corpo di Nicki Minaj al raduno di Port Huron",
+      "summary": "Il 25 ottobre 2026, durante un raduno repubblicano a Port Huron, Michigan, il presidente Donald Trump ha detto a Nicki Minaj di aver visto “un culo davvero bello”, chiedendole di alzarsi. Il pubblico ha applaudito; Trump ha poi chiesto scusa, affermando che la cantante non fosse insultata e che la “amiamo”. Minaj, che si definisce fan numero 1 di Trump, era presente per sostenere i candidati repubblicani.",
+      "context": "Il episodio mostra come la cultura hip‑hop si intrecci con la politica americana e riaccende il dibattito sulle osservazioni di Trump sul corpo delle donne, con possibili ripercussioni elettorali.",
+      "sources": [
+        {
+          "name": "India Today",
+          "url": "https://www.indiatoday.in/world/us-news/story/donald-trump-lewd-nicki-minaj-remark-michigan-rally-3024984-2026-10-26"
+        },
+        {
+          "name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-drops-bizarre-nicki-minaj-remark-amid-obsession-with-jon-husteds-body-hell-of-a-beautiful-a-101792961323090.html"
+        },
+        {
+          "name": "Sports Chosun",
+          "url": "https://www.sportschosun.com/en/culture/2026-10-26/202610260100161420010522"
+        }
+      ],
+      "image": {
+        "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/donald-trump-and-nicki-minaj-in-michigan-photo-reuters-262746823-16x9_0.jpg?VersionId=Qoqm3yhUnOxwJqHx6V76OJxq_COTQR4u",
+        "credit": "India Today",
+        "link": "https://www.indiatoday.in/world/us-news/story/donald-trump-lewd-nicki-minaj-remark-michigan-rally-3024984-2026-10-26"
+      },
+      "quiz": [
+        {
+          "question": "In quale città ha pronunciato Donald Trump il commento sul corpo di Nicki Minaj?",
+          "options": [
+            "Chicago, Illinois",
+            "Los Angeles, California",
+            "New York, New York",
+            "Port Huron, Michigan"
+          ],
+          "answer": 3,
+          "explanation": "Il commento è stato fatto durante il raduno a Port Huron, Michigan, il 25 ottobre 2026."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-26-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Caldo estivo uccide oltre 50.000 persone in Europa",
+      "summary": "Uno studio peer‑reviewed pubblicato su Nature Health stima che il caldo estivo del 2026 abbia provocato più di 50.000 morti in città e paesi europei. Il numero è tre volte superiore a quello che si sarebbe verificato senza il riscaldamento causato dall’uso di petrolio, gas e carbone. I ricercatori hanno analizzato 854 aree urbane in 30 nazioni, includendo fattori demografici e socio‑economici.",
+      "context": "Il risultato evidenzia l’impatto diretto del cambiamento climatico sulla salute pubblica, suggerendo che le ondate di caldo future potrebbero causare morti ancora più elevate se non si riducono le emissioni di gas serra.",
+      "sources": [
+        {
+          "name": "sanjuandailystar",
+          "url": "https://www.sanjuandailystar.com/post/summer-heat-killed-an-estimated-50-000-in-europe-study-finds"
+        }
+      ],
+      "image": {
+        "url": "https://static.wixstatic.com/media/a793f9_a06cb69e1c6643efaa8b92407d46c153~mv2.png/v1/fill/w_1000,h_1000,al_c,q_90,usm_0.66_1.00_0.01/a793f9_a06cb69e1c6643efaa8b92407d46c153~mv2.png",
+        "credit": "sanjuandailystar",
+        "link": "https://www.sanjuandailystar.com/post/summer-heat-killed-an-estimated-50-000-in-europe-study-finds"
+      },
+      "quiz": [
+        {
+          "question": "Quante morti sono state stimate dallo studio per il caldo estivo del 2026 in Europa?",
+          "options": [
+            "meno di 10.000",
+            "oltre 50.000",
+            "circa 30.000",
+            "circa 15.000"
+          ],
+          "answer": 1,
+          "explanation": "Lo studio ha stimato più di 50.000 decessi legati al caldo estivo."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-26-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Audi costruirà una fabbrica in Georgia per 4 miliardi di dollari",
+      "summary": "Audi ha annunciato un investimento di 4 miliardi di dollari per aprire il suo primo stabilimento negli Stati Uniti, in Georgia. L'impianto, con avvio lavori previsto per il 2027 e produzione per gli anni '30, produrrà 200.000 SUV premium l'anno per il mercato nordamericano. Il progetto creerà 4.500 posti di lavoro e consolida il Nord America come terzo pilastro produttivo globale per il marchio tedesco.",
+      "context": "La mossa risponde alla necessità di produrre localmente per evitare dazi e servire meglio il mercato USA. Rafforza la presenza di Audi in un'area strategica, affiancando i siti in Europa e Cina.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/25/audi-va-in-usa-e-investe-4-miliardi-di-dollari-per-un-impianto-in-georgia_17086dd0-0dc7-4052-890a-5068be132fef.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2024/9/8/12d580d01bdda915a8e10c7977228835.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/25/audi-va-in-usa-e-investe-4-miliardi-di-dollari-per-un-impianto-in-georgia_17086dd0-0dc7-4052-890a-5068be132fef.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la capacità produttiva annua prevista per il nuovo stabilimento Audi in Georgia?",
+          "options": [
+            "100.000 veicoli",
+            "50.000 veicoli",
+            "200.000 veicoli",
+            "300.000 veicoli"
+          ],
+          "answer": 2,
+          "explanation": "Il testo specifica che l'impianto è progettato per una capacità produttiva annua fino a 200.000 veicoli."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-26-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Panel \"Under the Italian Spell\" a Los Angeles",
+      "summary": "Oggi, all'Istituto Italiano di Cultura di Los Angeles, si è tenuto il panel 'Under the Italian Spell' nell'ambito della 26ª Settimana della Lingua Italiana nel Mondo. Hanno partecipato Charles Ferraro (UTA), la produttrice Jill Gillet, l’attore David Giuntoli e la giornalista Valentina Martelli. Hanno discusso dell’interesse di Hollywood per la lingua italiana e delle opportunità di raccontare storie italiane su piattaforme streaming.",
+      "context": "La discussione evidenzia il crescente interesse di Hollywood per contenuti in lingua italiana, aprendo nuove collaborazioni transatlantiche e rispondendo alla saturazione dei mercati di streaming nordamericani.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/25/hollywood-lincantesimo-della-lingua-italiana-conquista-cinema-e-serie-tv_94954e7e-212e-4a8c-aed7-582c830e0e5c.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/25/c42fc9967cdeab459ca631764bb6a2c2.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/25/hollywood-lincantesimo-della-lingua-italiana-conquista-cinema-e-serie-tv_94954e7e-212e-4a8c-aed7-582c830e0e5c.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual era lo scopo principale del panel \"Under the Italian Spell\" tenuto a Los Angeles?",
+          "options": [
+            "Promuovere la lingua italiana e le storie italiane nel cinema e nelle serie TV di Hollywood",
+            "Annunciare un nuovo film italiano",
+            "Celebrare la cucina italiana",
+            "Lanciare una piattaforma di streaming italiana"
+          ],
+          "answer": 0,
+          "explanation": "Il panel è stato organizzato per promuovere l'uso della lingua italiana e delle storie italiane nel cinema e nelle serie TV di Hollywood."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-26-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Real Madrid batte il Barcellona con Mbappé",
+      "summary": "Nei giorni scorsi il Real Madrid ha battuto il Barcellona per due a uno in trasferta al Camp Nou, durante la partita di campionato della Liga. L'attaccante Kylian Mbappé è stato il protagonista dell'incontro segnando una doppietta per i suoi, al quarantunesimo e all'ottantasettesimo minuto. Per i padroni di casa il gol temporaneo del pareggio è stato realizzato da Raphinha.",
+      "context": "Questa sfida tra le due squadre più importanti di Spagna, nota come Clasico, incide direttamente sulla classifica della Liga. La vittoria permette al Real Madrid di accorciare le distanze in vetta, infliggendo al Barcellona la prima sconfitta stagionale in campionato.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/25/liga-il-real-batte-il-barca-al-camp-nou_00d1af8a-1687-4902-b046-21670c7a7317.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/25/6490e785812e7016e0d44b2b966cac34.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/25/liga-il-real-batte-il-barca-al-camp-nou_00d1af8a-1687-4902-b046-21670c7a7317.html"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha segnato i gol della vittoria per il Real Madrid contro il Barcellona?",
+          "options": [
+            "José Mourinho",
+            "Kylian Mbappé",
+            "Hans-Dieter Flick",
+            "Raphinha"
+          ],
+          "answer": 1,
+          "explanation": "Mbappé ha realizzato la doppietta decisiva che ha permesso al Real Madrid di vincere la partita."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-26-7"
+    },
+    {
+      "category": "storia",
+      "tag": "26 ottobre 1977",
+      "title": "Ali Maow Maalin e l'ultimo caso di vaiolo nella storia",
+      "summary": "Il cuoco e operatore sanitario somalo Ali Maow Maalin contrae il vaiolo in Somalia, diventando l'ultima persona al mondo colpita da infezione naturale della malattia. Dopo la guarigione del paziente, l'Organizzazione mondiale della sanità dichiara il vaiolo ufficialmente eradicato due anni più tardi, nel 1979.",
+      "context": "L'eradicazione del vaiolo ha dimostrato per la prima volta che la medicina poteva cancellare una malattia infettiva globale attraverso la vaccinazione di massa e il tracciamento dei contagi, aprendo la strada alle successive campagne di immunizzazione nel mondo.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Ali_Maow_Maalin"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Chi è stato Ali Maow Maalin nella storia della medicina?",
+          "options": [
+            "Il medico che ha scoperto il vaccino",
+            "Il fondatore dell'Organizzazione mondiale della sanità",
+            "L'ultima persona al mondo ad ammalarsi di vaiolo",
+            "Il primo paziente guarito dalla poliomielite"
+          ],
+          "answer": 2,
+          "explanation": "Ali Maow Maalin è noto per essere stato l'ultimo essere umano a contrarre il vaiolo per via naturale, prima della sua definitiva eradicazione."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-26-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Renzo Ravenna",
+      "title": "Il podestà fascista di origini ebraiche",
+      "summary": "Renzo Ravenna, un avvocato di importanti origini ebraiche, fu nominato podestà fascista di Ferrara nel 1926 grazie al forte legame con il gerarca Italo Balbo. Nonostante le persecuzioni future, in quella fase iniziale della dittatura la sua nomina fu resa possibile da una rete di relazioni politiche locali e dalla sua adesione al nazionalismo.",
+      "context": "Prima delle leggi razziali del 1938, una parte della borghesia ebraica italiana aderì al fascismo, spinta da sentimenti nazionalisti e interventisti nati durante la prima guerra mondiale. Figure come Ravenna furono presto travolte dalla svolta antisemita del regime.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Renzo_Ravenna"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Renzo_Ravenna.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Renzo_Ravenna.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Chi favorì la nomina di Renzo Ravenna a podestà di Ferrara?",
+          "options": [
+            "Italo Balbo",
+            "Benito Mussolini",
+            "Nello Quilici",
+            "Giorgio Bassani"
+          ],
+          "answer": 0,
+          "explanation": "La nomina di Renzo Ravenna a podestà fu fortemente sostenuta e voluta dal gerarca fascista Italo Balbo, amico di vecchia data."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-26-9"
+    }
+  ]
+}
