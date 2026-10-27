@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T05:35:56.580Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacco notturno a Kiev: 1 morto, 10 feriti e danni al ponte e alla metropolitana",
+      "summary": "Nella notte di martedì 27 ottobre, la capitale ucraina è stata nuovamente colpita da missili russi dopo il raid di lunedì. L’attacco ha ucciso una persona, ferito dieci, distrutto veicoli, infranto vetri e provocato danni al Ponte Meridionale sul fiume Dnipro e alle infrastrutture della metropolitana, costringendo alla sospensione del traffico nella zona.",
+      "context": "L’attacco dimostra la continua escalation della guerra russo-ucraina, colpendo infrastrutture civili chiave e ostacolando i trasporti urbani, fattori che influenzeranno la risposta umanitaria e la resilienza della città.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/esplosioni-udite-a-kiev-mentre-la-capitale-e-sotto-shock-per-il-micidiale-attacco-russo-c6092e59-672d-42b0-8c27-9fd1367309e1.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/10/ucraina-guerra-missili-russi-su-kiev-morti-feriti-oleshky-tregua-prime-evacuazioni-maratona-06d5ab26-3eaa-486b-852e-8588af6c9f8c.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNVDl1MFd4aU0zVGw5QXd4X0FZUWhFT3VUZUdVR1RuYkNoaEM2TmRMZmR1dklxSDBvdVBnRllGOV82WDRpVVNkTmdXWk5nZWtqZFZxMGRjV3lhOWhHeFk3Y3BjY1pxVWNpTG9mc1BpYjdPdDBhMTdBOFlMM1VkajNDSmNKZFI2ZTgtX0ZLaVRQV3llZGV6blEteW5XZWVrcmkwaDdsdUhQb3VNX2JNS3docjNCZjRPT3cyYWlUU3RlNVF0LV9iQ0JsQlM2bTFRY2gtLXFCOWlpVllqd0tvU0tWVmRScDYxR0NHX2U1ZnhsR0lPWGtHbE5vaF91UE82QVZuTXFr0gGIAkFVX3lxTE9jTWprTURKaGszRDQwc003cjdGYVBoanhVNklyNEFRM3ZYQXpnb2VMRlBHcmluNWNxVTc2V29vQUpsYmFITGVmQU9ZYllaY0JxNXBwM1pnZ0dnX2d0Tjh5SHFPTURQckV2czlLbWdxRHJ5SnV2NWdXakNZM0xROTdkZ1hOMzNWdHJRUUctczRncnBCdTJTenBZdEdlakxZQkFoalg4ZHJmWUh1WFlDY0E0N3ZROEFNVjFJWHBXMzlLWlZTWHM1UzczYUxkc2ROZVFXbTRJT2xiR0xRRXJyR01JQ0ktYm5icnNmMUdYUE1VcFZianFjY0x5dVhYbWFaM1F4SEpyNnN6dw?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/27/1793077587404_TZLOPRPRTRMADPBASEIMAGEXUKRAINECRISISKYIVATTACK.JPG",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/esplosioni-udite-a-kiev-mentre-la-capitale-e-sotto-shock-per-il-micidiale-attacco-russo-c6092e59-672d-42b0-8c27-9fd1367309e1.html"
+      },
+      "quiz": [
+        {
+          "question": "Quante persone sono state uccise nell’attacco notturno a Kiev del 27 ottobre 2026?",
+          "options": [
+            "Due",
+            "Nessuna",
+            "Tre",
+            "Una"
+          ],
+          "answer": 3,
+          "explanation": "Le fonti indicano un solo decesso."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-27-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Manovra di bilancio: il CdM affronta le ultime incognite",
+      "summary": "Il Consiglio dei ministri approverà la legge di bilancio mercoledì, dopo un vertice serale tra Giorgia Meloni, Giancarlo Giorgetti e i leader di maggioranza. Le risorse disponibili sono inferiori ai dieci miliardi, costringendo a scelte difficili tra le numerose richieste di Lega, Forza Italia e Noi Moderati. Un nodo critico riguarda i cinque miliardi attesi dal settore finanziario, mentre Bruxelles ha escluso sussidi per combustibili fossili ma ha confermato margini di flessibilità energetica.",
+      "context": "La manovra è cruciale per la tenuta dei conti pubblici italiani e il rapporto con l'Unione Europea. La limitatezza delle risorse evidenzia il conflitto tra le promesse elettorali delle forze politiche e i vincoli di bilancio, rendendo le scelte di copertura e spesa determinanti per la stabilità economica del Paese.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/10/la-manovra-di-bilancio-domani-in-consiglio-dei-ministri-tra-le-incognite-63370b9f-2e50-496c-830e-86706dc89658.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/manovra-poche-risorse-tante-richieste-di-spesa-bagnacani-8b8f9bf5-1448-49bf-9223-84057bc65326.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/26/mercoledi-il-cdm-sulla-manovra.-lue-risponde-ma-ancora-nodi-da-sciogliere_d8929f9e-cae5-4b75-a4ce-ccd9d2236aaf.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/02/02/1770033467372_rainewsbeaeadfdbffdeafeee.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/articoli/2026/10/la-manovra-di-bilancio-domani-in-consiglio-dei-ministri-tra-le-incognite-63370b9f-2e50-496c-830e-86706dc89658.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale criticità legata alle coperture della manovra?",
+          "options": [
+            "L'assenza di richieste da parte delle forze politiche",
+            "La necessità di attingere 5 miliardi dal settore finanziario",
+            "Il rifiuto delle banche cooperative a contribuire",
+            "L'opposizione totale della Commissione Europea"
+          ],
+          "answer": 1,
+          "explanation": "Il governo punta a reperire circa 5 miliardi di euro dal settore creditizio e assicurativo, una fonte di copertura ancora incerta e discussa."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-27-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "OpenAI annuncia tre scoperte scientifiche e un nuovo modello di collaborazione accademica",
+      "summary": "OpenAI ha pubblicato oggi su GitHub tre risultati in matematica, informatica e fisica. In informatica, un algoritmo smentisce l'ipotesi del tempo esponenziale, con verifica da parte di esperti indipendenti. In matematica, è stato rilasciato un output diretto per la verifica dei ricercatori. In fisica, è stata dimostrata l'esistenza di teorie di campo quantistiche interagenti, inclusa la cromodinamica quantistica. Il processo prevede la guida di esperti esterni.",
+      "context": "L'evento segnala un tentativo di integrare l'intelligenza artificiale nella ricerca fondamentale, affrontando le sfide della validazione peer-review. La collaborazione con accademici di spalto mira a garantire la correttezza dei risultati, mentre il rilascio immediato dei materiali risponde alle critiche sulla trasparenza e l'accesso equo alle scoperte generate dall'IA.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+      },
+      "quiz": [
+        {
+          "question": "Come ha scelto OpenAI di gestire la validazione della scoperta in informatica?",
+          "options": [
+            "Chiedendo la verifica esclusiva a David Gross",
+            "Pubblicando solo il codice senza spiegazioni",
+            "Affidando l'esame a un gruppo indipendente di informatici",
+            "Mantenendo segreta la prova per un anno"
+          ],
+          "answer": 2,
+          "explanation": "Il materiale specifica che un gruppo di lavoro indipendente guidato da esperti come Impagliazzo e Williams esaminerà la prova."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-27-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Primary Wave sigla una partnership per il catalogo di Mary J. Blige",
+      "summary": "La società Primary Wave Music ha annunciato una partnership con la cantante Mary J. Blige per la gestione del suo catalogo musicale, che comprende sia composizioni che registrazioni. L'accordo include celebri successi come Family Affair e My Life, e offre all'artista l'accesso alle risorse di marketing, branding e sincronizzazione dell'editore indipendente. Vincitrice di nove Grammy Awards, Blige ha venduto oltre cinquanta milioni di dischi in tutto il mondo nel corso della sua carriera.",
+      "context": "Gli accordi sui cataloghi permettono alle società editoriali di valorizzare brani storici attraverso cinema, pubblicità e streaming. L'intesa rafforza la presenza commerciale di Blige, mentre l'artista è impegnata in una serie di spettacoli a Las Vegas estesa fino al 2027.",
+      "sources": [
+        {
+          "name": "Digital Music News",
+          "url": "https://www.digitalmusicnews.com/2026/10/26/primary-wave-mary-j-blige-partnership/"
+        }
+      ],
+      "image": {
+        "url": "https://www.digitalmusicnews.com/wp-content/uploads/2026/10/primary-wave-music-mary-j-blige-partnership.png",
+        "credit": "Digital Music News",
+        "link": "https://www.digitalmusicnews.com/2026/10/26/primary-wave-mary-j-blige-partnership/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa prevede la partnership annunciata tra Primary Wave Music e Mary J. Blige?",
+          "options": [
+            "La gestione e promozione del catalogo di composizioni e registrazioni dell'artista",
+            "Il ritiro a tempo indeterminato della cantante dalle scene musicali",
+            "La cancellazione della serie di concerti in programma a Las Vegas",
+            "L'acquisizione da parte della cantante dell'etichetta discografica indipendente"
+          ],
+          "answer": 0,
+          "explanation": "L'accordo affida a Primary Wave la gestione del catalogo di successi di Mary J. Blige, offrendo supporto nelle attività di marketing e sincronizzazione."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-27-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Scoperti i primi fossili di Gerrothorax maritimus, anfibio marino corazzato",
+      "summary": "Scienziati di UC Davis, dell'Università di Pechino e del Museo Geologico di Guizhou hanno descritto due scheletri quasi completi di Gerrothorax maritimus, un anfibio delle dimensioni di una salamandra, lungo quasi un metro, con corpo appiattito e armatura ossea. I resti, risalenti al tardo Triassico (circa 237 milioni di anni), provengono dalla provincia cinese di Guizhou, allora coperta da mare. L'armatura avrebbe protetto la pelle permeabile dall'assorbimento di sale, permettendo all'animale di bere acqua di mare e filtrarla tramite le branchie, rendendolo il primo anfibio completamente marino noto.",
+      "context": "La scoperta dimostra che gli anfibi potevano colonizzare ambienti marini grazie a adattamenti strutturali, ampliando la comprensione dell'evoluzione dei vertebrati. Sarà importante monitorare ulteriori ritrovamenti che possano confermare altre forme marine tra gli anfibi preistorici.",
+      "sources": [
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/news/science/articles/uc-davis-study-unearths-fossils-222454075.html"
+        }
+      ],
+      "image": {
+        "url": "https://s.yimg.com/lo/mysterio/api/4ecc3ad784b159b72659577f7cf394fbc3e8337c0138c9d26bd539bba7e3e6cd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsacramento_bee_mcclatchy_569%2Fb14e7d3409e638fbbd1fe4853ef528e3.jpg",
+        "credit": "Yahoo",
+        "link": "https://www.yahoo.com/news/science/articles/uc-davis-study-unearths-fossils-222454075.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale novità della scoperta di Gerrothorax maritimus?",
+          "options": [
+            "È il primo rettile marino conosciuto",
+            "È il primo pesce con armatura ossea",
+            "È il primo anfibio marino corazzato",
+            "È il più grande anfibio terrestre mai trovato"
+          ],
+          "answer": 2,
+          "explanation": "I fossili mostrano che Gerrothorax maritimus è il primo anfibio noto ad aver vissuto completamente in ambiente marino grazie alla sua armatura."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-27-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Subaru chiude vendite benzina e diesel in Europa, punta solo su EV dal 2028",
+      "summary": "Subaru ha deciso di interrompere la vendita di auto con motore a benzina o diesel in Europa entro la fine del 2027, per adeguarsi alle normative UE sulle emissioni di CO₂ e sui sistemi di assistenza alla guida. Dal 2028 il marchio offrirà solo veicoli elettrici, iniziando con i modelli Solterra, E‑Outback e Uncharted, sviluppati con Toyota. L’Outback sarà l’ultimo modello a combustione venduto quest’anno.",
+      "context": "La decisione segna il passaggio di Subaru al mercato elettrico europeo, in linea con la pressione normativa UE per ridurre le emissioni. Osserviamo come la nuova gamma EV influenzerà le vendite e la concorrenza.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/27/subaru-chiude-con-benzina-e-diesel-in-europa-solo-ev-dal-2028_9484e0e6-cca2-4e75-ab48-cc43ec90e670.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/27/6f2735fd36536c3d9a180c4ce13c59c5.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/27/subaru-chiude-con-benzina-e-diesel-in-europa-solo-ev-dal-2028_9484e0e6-cca2-4e75-ab48-cc43ec90e670.html"
+      },
+      "quiz": [
+        {
+          "question": "Entro quando Subaru cesserà di vendere auto a benzina e diesel in Europa?",
+          "options": [
+            "Nel 2029",
+            "Fine 2028",
+            "Inizio 2028",
+            "Fine 2027"
+          ],
+          "answer": 3,
+          "explanation": "Subaru ha annunciato la chiusura delle vendite di motori a combustione entro la fine del 2027."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-27-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Musk sfida Nolan: pubblicato il primo corto sull'Odissea generato dall'IA Grok",
+      "summary": "L'assistente di intelligenza artificiale Grok, di proprietà di X, ha pubblicato un cortometraggio di sette minuti sull'Odissea. È la prima puntata di una serie annunciata da Elon Musk tre mesi fa. Il progetto, sviluppato con Wonder Studios e il regista Dev Walker, nasce in polemica con il film di Christopher Nolan. Musk critica la versione di Nolan per le scelte di casting, promuovendo invece contenuti interamente generati dall'IA.",
+      "context": "La vicenda evidenzia il conflitto tra due visioni del cinema: l'automazione totale tramite intelligenza artificiale e la produzione tradizionale. Il film di Nolan è tra i favoriti per gli Oscar, mentre il corto di Grok mostra progressi tecnici ma limiti narrativi. Si osserverà l'accoglienza del pubblico verso questa nuova forma di intrattenimento.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/26/musk-sfida-nolan-e-pubblica-il-primo-corto-sullodissea-generato-dallia-grok_d2b7c421-007b-4e84-ae30-0215e6ad612f.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/26/5e4abc33caa503af49ac6dff38337d1a.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/26/musk-sfida-nolan-e-pubblica-il-primo-corto-sullodissea-generato-dallia-grok_d2b7c421-007b-4e84-ae30-0215e6ad612f.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale motivazione alla base della pubblicazione del corto sull'Odissea da parte di Grok?",
+          "options": [
+            "Collaborare con Wonder Studios per un lungometraggio",
+            "Promuovere il lancio del nuovo social network X",
+            "Rispondere alle critiche di Christopher Nolan sul film dell'Odissea",
+            "Dimostrare la superiorità tecnica dell'IA rispetto al cinema tradizionale"
+          ],
+          "answer": 2,
+          "explanation": "Il progetto nasce in contesa diretta con Christopher Nolan, dopo che Musk aveva criticato apertamente le scelte di casting nel film del regista britannico."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-27-6"
+    },
+    {
+      "category": "storia",
+      "tag": "27 ottobre 1986",
+      "title": "I leader religiosi del mondo riuniti ad Assisi per la pace",
+      "summary": "I principali rappresentanti delle religioni mondiali e delle chiese cristiane si sono riuniti ad Assisi per una giornata di preghiera comune dedicata alla pace. L'evento, promosso da papa Giovanni Paolo II, ha visto i leader religiosi pregare ciascuno secondo il proprio rito. L'iniziativa ha portato a una giornata di tregua globale dai conflitti armati in gran parte del mondo.",
+      "context": "L'incontro ha inaugurato il cosiddetto \"Spirito di Assisi\", un nuovo modello di dialogo interreligioso basato sulla fraternità e sulla cooperazione per la pace. Ha cambiato la diplomazia religiosa, lasciando in eredità una tradizione di incontri periodici tra fedi diverse.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Incontro_interreligioso_di_Assisi"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/it/5/5b/Gpii.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Gpii.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha promosso il primo incontro interreligioso mondiale ad Assisi?",
+          "options": [
+            "Il Cardinale Etchegaray",
+            "Il Dalai Lama",
+            "Monsignor Lefebvre",
+            "Papa Giovanni Paolo II"
+          ],
+          "answer": 3,
+          "explanation": "L'incontro interreligioso ad Assisi è stato promosso da papa Giovanni Paolo II."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-27-7"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Battaglia di Rorke's Drift",
+      "title": "L'avamposto difeso da malati e feriti",
+      "summary": "Durante la guerra anglo-zulu nel Sudafrica orientale, la missione di Rorke's Drift fu trasformata in un avamposto militare britannico e lasciata a una guarnigione composta in parte da feriti e invalidi. Nei giorni scorsi del gennaio 1879, dopo la pesante sconfitta britannica a Isandlwana, circa centotrentanove soldati difesero con successo la posizione contro un attacco di migliaia di guerrieri zulu, grazie alla disciplina e alla superiorità tecnologica.",
+      "context": "La battaglia di Rorke's Drift è entrata nella storia militare per la sproporzione delle forze in campo ed è celebre per aver fruttato l'assegnazione di undici Victoria Cross, il record assoluto per un singolo scontro. L'episodio servì a risollevare il prestigio britannico dopo la disfatta di Isandlwana, alimentando la propaganda coloniale e la narrativa della superiorità tecnologica occidentale.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Battaglia_di_Rorke%27s_Drift"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Lady_butler_defense_rorkes_drift.jpg/1280px-Lady_butler_defense_rorkes_drift.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Lady_butler_defense_rorkes_drift.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Chi difese l'avamposto di Rorke's Drift durante l'attacco zulu?",
+          "options": [
+            "Una coalizione di coloni boeri armati di tutto punto",
+            "Un intero reggimento scelto inviato direttamente da Londra",
+            "Un piccolo distaccamento britannico che comprendeva anche feriti e invalidi",
+            "Le truppe coloniali svedesi di stanza in Sudafrica"
+          ],
+          "answer": 2,
+          "explanation": "L'avamposto era stato occupato dai britannici che vi avevano lasciato un ridotto distaccamento di uomini, in parte feriti e invalidi, prima di proseguire nell'invasione."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-27-8"
+    }
+  ]
+}
