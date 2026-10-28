@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T05:34:08.347Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Elezioni in Israele: il Likud resta primo, Netanyahu punta a un governo di destra",
+      "summary": "Nei giorni scorsi si sono tenute le elezioni legislative in Israele. I dati preliminari indicano che il Likud di Benjamin Netanyahu è il partito più grande, seguito da Yashar di Gadi Eisenkot. Tuttavia, il blocco di opposizione guidato da Eisenkot totalizza più seggi rispetto alla coalizione di Netanyahu. I partiti arabi hanno ottenuto un risultato storico, con un forte aumento dei seggi. Netanyahu ha dichiarato l'intenzione di formare un ampio governo di destra, evitando alleanze con i partiti arabi.",
+      "context": "Il voto si è svolto in un clima di forte tensione dopo gli eventi del 7 ottobre 2023. L'alta affluenza, record storico, riflette la volontà degli elettori di cambiare o confermare la rotta politica. La frammentazione del parlamento rende cruciale la formazione della coalizione, con il rischio di un governo minoritario o di nuove elezioni se le trattative falliscono.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/flash/2026/10/28/-netanyahu-attesa-ma-e-chiaro-che-likud-partito-piu-grande-_36e9820b-1da6-406b-bf9a-a7f5dfa3b80d.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/27/israele-spaccato-netanyahu-regge-ma-il-blocco-di-eisenkot-e-avanti_b2e19377-c270-4498-ba32-400374367485.html"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/flash/2026/10/28/-netanyahu-attesa-ma-e-chiaro-che-likud-partito-piu-grande-_36e9820b-1da6-406b-bf9a-a7f5dfa3b80d.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale differenza tra il risultato del Likud e quello del blocco di Eisenkot secondo i dati preliminari?",
+          "options": [
+            "I due blocchi hanno ottenuto esattamente lo stesso numero di seggi",
+            "Il Likud è il partito singolo più grande, ma il blocco di Eisenkot ha più seggi complessivi",
+            "Il Likud ha ottenuto più seggi totali del blocco di Eisenkot",
+            "Il blocco di Eisenkot non ha raggiunto la soglia di sbarramento"
+          ],
+          "answer": 1,
+          "explanation": "Il materiale specifica che il Likud è il partito più grande (24 seggi), ma il blocco di Eisenkot (52 seggi) supera quello di Netanyahu (50 seggi) in termini totali."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-28-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Tensioni nella maggioranza: Irpef, CSM e politica sull'Ucraina",
+      "summary": "Il Consiglio dei Ministri di oggi è alle prese con tre questioni critiche. Forza Italia vuole mantenere il taglio dell'Irpef e ampliarne l'applicazione al 33%. La Lega, guidata da Matteo Salvini, insiste su un rifiuto di ulteriori aiuti all'Ucraina, contrapposto alla linea del governo. Inoltre, l'elezione dei membri laici del Consiglio Superiore della Magistratura è al centro di un acceso dibattito, con la proposta di includere Antonio Di Pietro, figura controversa per la coalizione.",
+      "context": "Questi nodi mettono a rischio la coesione della coalizione di centrodestra, influenzando la legge di bilancio, la politica estera e la composizione dell'organo giudiziario. La loro evoluzione sarà decisiva per la stabilità governativa.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/tensioni-nella-maggioranza-nodo-irpef-per-forza-italia-scontro-sul-csm-e-ucraina-b973bc0e-64ba-46e8-9378-c607e7a03704.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/divisioni-nel-governo-sullucraina-e-nodo-primarie-per-il-centrosinistra-c9a7a5c0-51a7-443a-aaa9-3a641d808b62.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/28/1793146076554_son_biagiotti_maggioranza.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/tensioni-nella-maggioranza-nodo-irpef-per-forza-italia-scontro-sul-csm-e-ucraina-b973bc0e-64ba-46e8-9378-c607e7a03704.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale misura fiscale è al centro della disputa tra Forza Italia e gli altri partiti della maggioranza?",
+          "options": [
+            "Imposta di bollo",
+            "Tassa di successione",
+            "Imposta sul valore aggiunto",
+            "Irpef"
+          ],
+          "answer": 3,
+          "explanation": "Forza Italia vuole mantenere il taglio dell'Irpef e ampliarne l'applicazione, rendendola la principale fonte di tensione fiscale."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-28-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Apple lancia iMac e MacBook Pro entry‑level con chip M6",
+      "summary": "Apple ha annunciato oggi una iMac e un MacBook Pro da 14 pollici entry‑level con il chip M6. L’iMac è disponibile in due versioni: due porte Thunderbolt (CPU/GPU a 10 core, max 24 GB RAM) o quattro porte (CPU/GPU a 12 core, max 32 GB RAM). Il MacBook Pro usa il M6 a 12 core, fino a 32 GB RAM. Entrambi supportano Wi‑Fi 7, Bluetooth 6 e promettono fino al 40 % di miglioramento CPU, il doppio di prestazioni grafiche e quasi cinque volte l’AI rispetto al M4.",
+      "context": "L’introduzione del chip M6 nei modelli entry‑level segna un salto di prestazioni per iMac e MacBook Pro, posizionando Apple più competitiva nel segmento desktop e portatile di fascia media, con nuove connettività Wi‑Fi 7 e Bluetooth 6.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/M6-iMac-1152x648.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/"
+      },
+      "quiz": [
+        {
+          "question": "Quale nuovo chip è stato introdotto nei nuovi iMac e MacBook Pro entry‑level annunciati da Apple?",
+          "options": [
+            "M5",
+            "M3",
+            "M4",
+            "M6"
+          ],
+          "answer": 3,
+          "explanation": "Apple ha presentato il chip M6 in questi modelli."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-28-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Macklemore lancia il tour gratuito a sostegno della Palestina",
+      "summary": "Nei giorni scorsi il rapper Macklemore ha dato il via al suo tour gratuito a sostegno della Palestina a Dublino, in Irlanda. Durante il concerto tutto esaurito, l'artista ha presentato il suo nuovo brano di protesta intitolato \"Where Is Our Love\" e ha ospitato diversi artisti locali e internazionali sul palco. L'iniziativa ha lo scopo di raccogliere fondi per organizzazioni umanitarie che offrono assistenza medica e supporto ai palestinesi.",
+      "context": "Il tour nasce dopo l'esclusione del rapper dai concerti di Ed Sheeran a causa delle sue posizioni sulla Palestina. Questo tipo di iniziative musicali unisce l'attivismo politico alla raccolta fondi benefica, mantenendo alta l'attenzione pubblica sul conflitto in Medio Oriente.",
+      "sources": [
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/macklemore-free-palestine-tour-dublin-where-is-our-love/"
+        }
+      ],
+      "image": {
+        "url": "https://townsquare.media/site/812/files/2026/10/attachment-macklemore-free-palestine-tour-dublin.jpg?w=1200&format=natural",
+        "credit": "XXL",
+        "link": "https://www.xxlmag.com/macklemore-free-palestine-tour-dublin-where-is-our-love/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è lo scopo principale del tour lanciato da Macklemore?",
+          "options": [
+            "Sostituire i concerti cancellati con Ed Sheeran a Dublino",
+            "Promuovere il suo nuovo album in Europa",
+            "Raccogliere fondi per il supporto umanitario ai palestinesi",
+            "Festeggiare i suoi premi musicali vinti in passato"
+          ],
+          "answer": 2,
+          "explanation": "Il tour è stato creato per raccogliere fondi destinati a organizzazioni che forniscono cure mediche e aiuti umanitari ai palestinesi."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-28-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "BCE dà il via libera a Intesa Sanpaolo per l'acquisizione di MPS",
+      "summary": "La Banca Centrale Europea ha concesso a Intesa Sanpaolo l'autorizzazione preventiva per acquisire il controllo diretto di Monte dei Paschi di Siena e di diverse partecipate indirette, inclusi asset legati a Mediobanca. Contestualmente, Intesa ha ottenuto il via libera anche dalla Banca d'Italia per altre partecipazioni finanziarie e fiduciarie collegate all'operazione.",
+      "context": "L'operazione rappresenta un passaggio chiave nel consolidamento del settore bancario italiano ed europeo. Le autorità di vigilanza valutano la stabilità e la sostenibilità patrimoniale dei gruppi coinvolti per evitare rischi sistemici e garantire la trasparenza del mercato.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/27/dalla-bce-via-libera-a-intesa-sanpaolo-allacquisizione-di-mps_aeb6b178-cb0b-41a2-beef-12578feb5794.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/27/deb93b64c048768b72671bc9478e4681.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/27/dalla-bce-via-libera-a-intesa-sanpaolo-allacquisizione-di-mps_aeb6b178-cb0b-41a2-beef-12578feb5794.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale istituzione ha rilasciato l'autorizzazione preventiva a Intesa Sanpaolo per il controllo di MPS?",
+          "options": [
+            "La Banca Mondiale",
+            "La Consob",
+            "La Corte dei Conti",
+            "La Banca Centrale Europea"
+          ],
+          "answer": 3,
+          "explanation": "L'autorizzazione preventiva all'acquisizione del controllo di MPS è stata concessa dalla Banca Centrale Europea."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-28-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Cobolli batte Dimitrov a Vienna e conquista gli ottavi",
+      "summary": "Il tennista italiano Flavio Cobolli ha sconfitto il bulgaro Grigor Dimitrov in tre set, con il punteggio di 6-4, 3-6, 6-3, qualificandosi per gli ottavi di finale del torneo Atp 500 di Vienna. Nel prossimo turno del torneo austriaco, l'atleta azzurro affronterà il connazionale Matteo Berrettini in un derby tutto italiano.",
+      "context": "Questa vittoria conferma la crescita del tennis italiano nel circuito internazionale maschile. Gli scontri diretti tra connazionali nei tornei principali offrono importanti punti per la classifica mondiale e grande visibilità al movimento nazionale.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/tennis/2026/10/27/tennis-cobolli-agli-ottavi-a-vienna-battuto-dimitrov_48248501-416f-4e47-aeab-3a03b13d8aeb.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/5/f879b658ca282f3567aface33e4f86a9.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/tennis/2026/10/27/tennis-cobolli-agli-ottavi-a-vienna-battuto-dimitrov_48248501-416f-4e47-aeab-3a03b13d8aeb.html"
+      },
+      "quiz": [
+        {
+          "question": "Con quale avversario si scontrerà Flavio Cobolli agli ottavi del torneo di Vienna?",
+          "options": [
+            "Con il connazionale Matteo Berrettini",
+            "Con il numero uno del mondo",
+            "Con il bulgaro Grigor Dimitrov",
+            "Con un tennista spagnolo"
+          ],
+          "answer": 0,
+          "explanation": "Dopo aver battuto Dimitrov, Cobolli affronterà il compagno di nazionale Matteo Berrettini nel prossimo turno."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-28-5"
+    },
+    {
+      "category": "storia",
+      "tag": "28 ottobre 1965",
+      "title": "Roma, papa Paolo VI promulga la dichiarazione Nostra aetate",
+      "summary": "Il papa Paolo VI ha promulgato la dichiarazione Nostra aetate durante il Concilio Vaticano II. Il documento definisce il rapporto della Chiesa cattolica con le religioni non cristiane, promuovendo il dialogo interreligioso, la stima verso l'islam e l'ebraismo, e la fratellanza universale. In particolare, il testo respinge la responsabilità collettiva degli ebrei nella morte di Gesù e condanna ogni forma di antisemitismo.",
+      "context": "Il documento ha cambiato radicalmente la teologia cattolica superando secoli di ostilità, soprattutto verso l'ebraismo, e ha aperto la strada al dialogo interreligioso. Ha lasciato in eredità il rifiuto dell'antisemitismo, che va tenuto d'occhio come base costante per la pace tra religioni.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Nostra_aetate"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Paulus_VI%2C_by_Fotografia_Felici%2C_1969.jpg/1280px-Paulus_VI%2C_by_Fotografia_Felici%2C_1969.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Paulus_VI%2C_by_Fotografia_Felici%2C_1969.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa afferma la dichiarazione Nostra aetate riguardo agli ebrei?",
+          "options": [
+            "Esclude la responsabilità collettiva nella morte di Gesù e condanna l'antisemitismo",
+            "Li riconosce come unici detentori della salvezza divina",
+            "Li accusa formalmente della morte di Gesù di Nazareth",
+            "impone la conversione obbligatoria al cristianesimo"
+          ],
+          "answer": 0,
+          "explanation": "La dichiarazione esclude la responsabilità collettiva degli ebrei nella morte di Gesù e condanna ogni forma di antisemitismo."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-28-6"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Tesoro delle Sante Croci",
+      "title": "La leggenda medievale del duca che donò la croce a Brescia",
+      "summary": "Il Tesoro delle Sante Croci nel Duomo vecchio di Brescia custodisce una reliquia della Vera Croce e la Croce del Campo. Secondo una leggenda del Quattrocento, la reliquia fu donata da Carlo Magno al duca Namo di Baviera, il quale si sarebbe convertito dopo un miracolo dei santi Faustino e Giovita. Gli storici hanno dimostrato che si tratta di una favola priva di riscontri reali.",
+      "context": "Le leggende medievali servivano spesso a legittimare e dare prestigio alle reliquie cittadine, legandole a grandi figure come Carlo Magno. In epoca comunale, questi oggetti sacri assumevano anche un forte valore politico e identitario, venendo esposti durante le battaglie per rinsaldare la coesione della comunità.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Tesoro_delle_Sante_Croci"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Duomo_vecchio_facciata_Brescia.jpg/1280px-Duomo_vecchio_facciata_Brescia.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Duomo_vecchio_facciata_Brescia.jpg"
+      },
+      "quiz": [
+        {
+          "question": "A chi attribuisce la leggenda il dono originario della reliquia della Croce a Brescia?",
+          "options": [
+            "A san Faustino",
+            "Al duca Namo di Baviera",
+            "Al vescovo Alberto da Reggio",
+            "A sant'Elena"
+          ],
+          "answer": 1,
+          "explanation": "La leggenda narrata nel Quattrocento sostiene che la reliquia fosse stata donata da Carlo Magno al duca Namo di Baviera, personaggio celebre del ciclo carolingio ma privo di riscontri storici."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-28-7"
+    }
+  ]
+}
