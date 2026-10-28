@@ -226,7 +226,8 @@ async function call<T>(p: Provider, system: string, user: string, temperature: n
       signal: AbortSignal.timeout(120_000),
     });
   } catch (err) {
-    throw new UnavailableError(`${p.name} non raggiungibile: ${(err as Error).message}`);
+    // Timeout o rete assente: spesso passeggero, quindi pausa (sempre più lunga se si ripete) e non scarto.
+    throw new RateLimitError(`${p.name} non raggiungibile: ${(err as Error).message}`, 15_000);
   }
 
   if (res.status === 429) {

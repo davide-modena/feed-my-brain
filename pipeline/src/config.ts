@@ -11,6 +11,8 @@ export interface TopicConfig {
   label: string;
   description: string;
   default?: boolean;
+  /** Quanto indietro guardare per le notizie di questo argomento (default 72 ore). */
+  maxAgeHours?: number;
   queries?: { query: string; lang?: 'it' | 'en' }[];
   feeds?: FeedConfig[];
 }

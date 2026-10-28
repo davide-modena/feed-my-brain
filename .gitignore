@@ -3,3 +3,4 @@ dist/
 app/public/api/
 .env
 *.log
+.wrangler/

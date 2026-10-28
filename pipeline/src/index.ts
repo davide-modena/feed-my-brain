@@ -27,7 +27,7 @@ import { activeProvider, llmUsage } from './llm.ts';
 import { collectNews, fetchArticle, type Article } from './news.ts';
 import { notify } from './notify.ts';
 import { editionPath, pastCuriosityTags, recentCards, recentSourceLinks, writeEdition } from './store.ts';
-import { pickRandom, romeDate } from './util.ts';
+import { pickRandom, romeDate, sleep } from './util.ts';
 import { featuredArticles, onThisDay, pageExtract, type HistoryEvent } from './wikipedia.ts';
 
 type DraftCard = Omit<Card, 'id'>;
@@ -117,6 +117,8 @@ interface Section {
   next: () => Promise<DraftCard | null>;
   cards: DraftCard[];
   notes: string[];
+  /** L'ultimo tentativo è fallito per un errore (limiti dell'LLM, risposta malformata…): vale la pena riprovare. */
+  failed?: boolean;
 }
 
 /**
@@ -259,17 +261,41 @@ const sections: Section[] = [
 // Così, se l'LLM esaurisce i limiti a metà, ogni sezione ha comunque la sua card.
 
 const rounds = Math.max(...sections.map((s) => s.want));
+
+/** Prova a scrivere la prossima card di una sezione; ricorda se è fallita per un errore. */
+async function tryNext(section: Section) {
+  section.failed = false;
+  try {
+    const card = await section.next();
+    if (card) section.cards.push({ ...card, section: section.key });
+  } catch (err) {
+    const message = (err as Error).message;
+    section.failed = true;
+    section.notes.push(message.slice(0, 200));
+    console.error(`❌ ${section.label}: ${message}`);
+  }
+}
+
 for (let round = 0; round < rounds; round++) {
   for (const section of sections) {
-    if (round >= section.want) continue;
-    try {
-      const card = await section.next();
-      if (card) section.cards.push({ ...card, section: section.key });
-    } catch (err) {
-      const message = (err as Error).message;
-      section.notes.push(message.slice(0, 200));
-      console.error(`❌ ${section.label}: ${message}`);
-    }
+    if (round < section.want) await tryNext(section);
+  }
+}
+
+// --- Secondo tentativo per le sezioni rimaste vuote per un errore --------------------------
+// Prima una sezione persa per i limiti dell'LLM restava vuota per tutto il giorno. Dopo una pausa
+// (i limiti sono al minuto) si riprova: un candidato nuovo, o una nuova selezione se era fallita.
+
+const RECOVERY_PASSES = 2;
+const RECOVERY_WAIT_MS = 75_000;
+for (let pass = 1; pass <= RECOVERY_PASSES; pass++) {
+  const retry = sections.filter((s) => s.failed && s.cards.length < s.want);
+  if (retry.length === 0) break;
+  console.log(`🔁 Nuovo tentativo (${pass}/${RECOVERY_PASSES}) tra ${RECOVERY_WAIT_MS / 1000}s: ${retry.map((s) => s.label).join(', ')}`);
+  await sleep(RECOVERY_WAIT_MS);
+  for (const section of retry) {
+    await tryNext(section);
+    if (!section.failed && section.cards.length >= section.want) section.notes.push(`riuscita al tentativo ${pass + 1}`);
   }
 }
 

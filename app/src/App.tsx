@@ -10,6 +10,7 @@ import { Settings } from './components/Settings.tsx';
 import { Stage } from './components/Stage.tsx';
 import { TopicPicker } from './components/TopicPicker.tsx';
 import { longDate } from './format.ts';
+import { syncPush } from './push.ts';
 import {
   activeTopics,
   applyTheme,
@@ -80,8 +81,11 @@ export function App() {
     // Un'app installata resta aperta in background per giorni: quando torna in primo piano
     // (anche da una notifica) controlla se è uscita un'edizione nuova e, nel caso, la apre.
     const onVisible = () => {
-      if (document.visibilityState === 'visible') loadLatest().catch(() => {});
+      if (document.visibilityState !== 'visible') return;
+      loadLatest().catch(() => {});
+      syncPush().catch(() => {}); // riregistra il dispositivo se serve (al massimo ogni 6 ore)
     };
+    syncPush().catch(() => {});
     document.addEventListener('visibilitychange', onVisible);
     return () => document.removeEventListener('visibilitychange', onVisible);
   }, []);

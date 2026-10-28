@@ -83,6 +83,7 @@ jobs:
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
           VITE_VAPID_PUBLIC_KEY: ${{ vars.VAPID_PUBLIC_KEY }}
+          VITE_PUSH_API_URL: ${{ vars.PUSH_API_URL }}
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
@@ -117,5 +118,7 @@ jobs:
           APP_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
           VAPID_PUBLIC_KEY: ${{ vars.VAPID_PUBLIC_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
-          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
+          PUSH_API_URL: ${{ vars.PUSH_API_URL }}
+          PUSH_ADMIN_TOKEN: ${{ secrets.PUSH_ADMIN_TOKEN }}
+          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }} # vecchio sistema, ancora letto se presente
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}

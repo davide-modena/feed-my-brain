@@ -26,7 +26,9 @@ export interface Article {
 /** Immagini che di solito sono loghi o segnaposto, non la foto della notizia. */
 const GENERIC_IMAGE = /logo|placeholder|default|favicon|sprite|share-image|og-image/i;
 
-const MAX_AGE_MS = 36 * 60 * 60 * 1000;
+/** Attualità: solo ultime 36 ore. Gli argomenti hanno meno notizie e una finestra più larga (vedi TOPIC_MAX_AGE_HOURS). */
+const NEWS_MAX_AGE_HOURS = 36;
+const TOPIC_MAX_AGE_HOURS = 72;
 const MAX_PER_FEED = 20;
 
 type MediaNode = { $?: { url?: string; medium?: string; type?: string } };
@@ -85,14 +87,14 @@ function unwrapLink(link: string) {
   return link;
 }
 
-async function fetchFeed(feed: FeedConfig, group: string): Promise<Omit<NewsItem, 'id'>[]> {
+async function fetchFeed(feed: FeedConfig, group: string, maxAgeHours: number): Promise<Omit<NewsItem, 'id'>[]> {
   try {
     const parsed = await parser.parseURL(feed.url);
     const now = Date.now();
     return parsed.items
       .filter((item) => {
         const date = item.isoDate ? Date.parse(item.isoDate) : NaN;
-        return Number.isNaN(date) || now - date < MAX_AGE_MS;
+        return Number.isNaN(date) || now - date < maxAgeHours * 3_600_000;
       })
       .slice(0, MAX_PER_FEED)
       .map((item) => ({
@@ -112,11 +114,12 @@ async function fetchFeed(feed: FeedConfig, group: string): Promise<Omit<NewsItem
 }
 
 export async function collectNews(config: Config): Promise<NewsItem[]> {
-  const jobs = config.news.map((feed) => fetchFeed(feed, 'news'));
+  const jobs = config.news.map((feed) => fetchFeed(feed, 'news', NEWS_MAX_AGE_HOURS));
   for (const topic of config.topics) {
-    for (const feed of topic.feeds ?? []) jobs.push(fetchFeed(feed, topic.id));
+    const maxAge = topic.maxAgeHours ?? TOPIC_MAX_AGE_HOURS;
+    for (const feed of topic.feeds ?? []) jobs.push(fetchFeed(feed, topic.id, maxAge));
     for (const q of topic.queries ?? []) {
-      jobs.push(fetchFeed({ name: 'Bing News', url: bingNewsUrl(q.query, q.lang) }, topic.id));
+      jobs.push(fetchFeed({ name: 'Bing News', url: bingNewsUrl(q.query, q.lang) }, topic.id, maxAge));
     }
   }
 

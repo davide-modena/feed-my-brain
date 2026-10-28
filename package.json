@@ -10,6 +10,7 @@
     "pipeline:dry": "node --env-file-if-exists=.env --import tsx pipeline/src/index.ts --dry",
     "notify": "node --env-file-if-exists=.env --import tsx pipeline/src/notify-cli.ts",
     "llm:check": "node --env-file-if-exists=.env --import tsx scripts/llm-check.ts",
+    "test": "node --import tsx --test worker/worker.test.ts pipeline/src/notify.test.ts",
     "vapid": "node --import tsx scripts/vapid.ts",
     "icons": "node --import tsx scripts/icons.ts",
     "api": "node --import tsx scripts/prepare-api.ts",

@@ -25,6 +25,10 @@ news:
     url: https://www.internazionale.it/sitemaps/rss.xml
   - name: BBC World
     url: https://feeds.bbci.co.uk/news/world/rss.xml
+  - name: Corriere della Sera
+    url: https://www.corriere.it/rss/homepage.xml
+  - name: Repubblica
+    url: https://www.repubblica.it/rss/cronaca/rss2.0.xml
   - name: Google News Italia # solo titoli: utile per capire cosa è importante oggi
     url: https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it
 
@@ -65,14 +69,34 @@ topics:
         url: https://hiphopdx.com/rss/news.xml
       - name: Billboard
         url: https://www.billboard.com/c/music/rb-hip-hop/feed/
+      - name: HipHopWired
+        url: https://hiphopwired.com/feed/
 
   - id: scienza
     label: Scienza
     description: scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline
     queries:
-      - query: scoperta scientifica
-      - query: scientists study
-        lang: en
+      - query: ricerca scientifica
+      - query: scienza
+    feeds:
+      - name: Focus
+        url: https://www.focus.it/rss
+      - name: INAF Media
+        url: https://www.media.inaf.it/feed/
+      - name: Galileo
+        url: https://www.galileonet.it/feed/
+      - name: BBC Science
+        url: https://feeds.bbci.co.uk/news/science_and_environment/rss.xml
+      - name: The Guardian Science
+        url: https://www.theguardian.com/science/rss
+      - name: ScienceDaily
+        url: https://www.sciencedaily.com/rss/all.xml
+      - name: Phys.org
+        url: https://phys.org/rss-feed/
+      - name: Ars Technica Science
+        url: https://feeds.arstechnica.com/arstechnica/science
+      - name: Science News
+        url: https://www.sciencenews.org/feed
 
   - id: economia
     label: Economia
@@ -82,6 +106,16 @@ topics:
     feeds:
       - name: ANSA Economia
         url: https://www.ansa.it/sito/notizie/economia/economia_rss.xml
+      - name: Il Sole 24 Ore
+        url: https://www.ilsole24ore.com/rss/economia.xml
+      - name: Corriere Economia
+        url: https://www.corriere.it/rss/economia.xml
+      - name: Repubblica Economia
+        url: https://www.repubblica.it/rss/economia/rss2.0.xml
+      - name: Money.it
+        url: https://www.money.it/spip.php?page=backend
+      - name: The Guardian Business
+        url: https://www.theguardian.com/business/rss
 
   - id: cinema
     label: Cinema e serie TV
@@ -92,6 +126,14 @@ topics:
     feeds:
       - name: ANSA Cinema
         url: https://www.ansa.it/sito/notizie/cultura/cinema/cinema_rss.xml
+      - name: Movieplayer
+        url: https://movieplayer.it/rss/news.xml
+      - name: BadTaste
+        url: https://www.badtaste.it/feed/
+      - name: The Guardian Film
+        url: https://www.theguardian.com/film/rss
+      - name: Variety
+        url: https://variety.com/feed/
 
   - id: sport
     label: Sport
@@ -101,6 +143,14 @@ topics:
     feeds:
       - name: ANSA Sport
         url: https://www.ansa.it/sito/notizie/sport/sport_rss.xml
+      - name: Gazzetta dello Sport
+        url: https://www.gazzetta.it/rss/home.xml
+      - name: Sky Sport
+        url: https://sport.sky.it/rss/sport.xml
+      - name: BBC Sport
+        url: https://feeds.bbci.co.uk/sport/rss.xml
+      - name: The Guardian Sport
+        url: https://www.theguardian.com/sport/rss
 
 # Curiosità storiche: si pesca a caso tra le voci migliori di Wikipedia italiana ("in vetrina"
 # e "di qualità") di queste aree, così epoche e luoghi variano da soli.

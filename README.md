@@ -18,6 +18,7 @@ GitHub Actions (ogni mattina)
 | `pipeline/config.yaml` | **Fonti, catalogo degli argomenti, temi storici, composizione dell'edizione** |
 | `pipeline/src/` | Raccolta notizie, Wikipedia, prompt per Mistral, notifiche |
 | `app/` | PWA (Preact + Vite + service worker) |
+| `worker/` | Registro dei dispositivi per le notifiche (Cloudflare Worker, gratuito) |
 | `data/editions/` | Archivio delle edizioni generate (committato dal workflow) |
 | `shared/types.ts` | Formato dei dati condiviso tra pipeline, app e API |
 
@@ -66,10 +67,14 @@ Le curiosità storiche vengono pescate a caso tra le voci "in vetrina" e "di qua
 
 **Opzione A: Web Push (notifica nativa della PWA)**
 
+Ogni persona preme **Attiva notifiche** nelle impostazioni dell'app e il suo dispositivo si registra da solo, senza codici da copiare. Serve un registro dei dispositivi, un piccolo servizio gratuito su Cloudflare: guida in [worker/README.md](worker/README.md).
+
 1. `npm run vapid` e salva le chiavi: Variable `VAPID_PUBLIC_KEY`, Secret `VAPID_PRIVATE_KEY`.
-2. Rilancia il workflow, così la PWA viene ricompilata con la chiave pubblica.
-3. Installa la PWA sul telefono (su iPhone: Condividi → Aggiungi a Home), apri ⚙︎ → **Attiva notifiche** → **Copia codice**.
-4. Incolla il codice nel Secret `PUSH_SUBSCRIPTION`. Per più dispositivi usa un array JSON: `[{...}, {...}]`.
+2. Pubblica il registro (vedi [worker/README.md](worker/README.md)) e salva su GitHub la Variable `PUSH_API_URL` e il Secret `PUSH_ADMIN_TOKEN`.
+3. **Run workflow** una volta, così l'app viene ricompilata con l'indirizzo del registro.
+4. Sul telefono: installa la PWA (su iPhone: Condividi → Aggiungi a Home), apri ☰ → **Attiva notifiche**.
+
+L'app riconferma la registrazione ad ogni apertura, quindi si ripara da sola se il browser rinnova la subscription o se reinstalli l'app. La pipeline manda le notifiche con priorità alta, rimuove i dispositivi scaduti e, se non arriva a nessuno, fa fallire il job *notify* (GitHub ti avvisa); il dettaglio è nel riepilogo del run.
 
 Quando arriva la notifica, sull'icona dell'app compare anche un pallino, che sparisce quando finisci l'edizione.
 

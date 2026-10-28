@@ -1,0 +1,12 @@
+name = "feed-my-brain-push"
+main = "src/index.ts"
+compatibility_date = "2026-01-01"
+
+[vars]
+# Origini che possono chiamare il worker dal browser (l'app su GitHub Pages; la seconda serve in locale).
+ALLOWED_ORIGINS = "https://davide-modena.github.io,http://localhost:4173"
+
+# Crea l'archivio con `npx wrangler kv namespace create SUBS` e incolla qui l'id che stampa.
+[[kv_namespaces]]
+binding = "SUBS"
+id = "0279dd99666c4cd8809dcfee011e1501"

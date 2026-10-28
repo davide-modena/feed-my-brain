@@ -9,5 +9,5 @@
     "noEmit": true,
     "types": ["node"]
   },
-  "include": ["pipeline/src", "scripts", "shared", "vite.config.ts"]
+  "include": ["pipeline/src", "scripts", "shared", "worker", "vite.config.ts"]
 }

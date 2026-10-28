@@ -4,7 +4,7 @@ import { longDate } from '../format.ts';
 import type { Topic } from '../../../shared/types.ts';
 import { THEMES, type Preferences, type Theme } from '../storage.ts';
 import { TopicPicker } from './TopicPicker.tsx';
-import { currentSubscription, pushConfigured, pushSupported, subscribe, testNotification } from '../push.ts';
+import { disablePush, enablePush, isRegistered, pushConfigured, pushSupported, testNotification } from '../push.ts';
 
 interface Props {
   topics: Topic[];
@@ -27,31 +27,37 @@ window.addEventListener('beforeinstallprompt', (e) => {
 });
 
 export function Settings({ topics, prefs, onSavePrefs, theme, onTheme, onOpenEdition, onClose }: Props) {
-  const [subscription, setSubscription] = useState<string | null>(null);
+  // null = sto controllando; true = questo dispositivo è registrato sul server.
+  const [registered, setRegistered] = useState<boolean | null>(null);
+  const [busy, setBusy] = useState(false);
   const [status, setStatus] = useState('');
   const [dates, setDates] = useState<string[]>([]);
-  const [copied, setCopied] = useState(false);
+
+  const refreshStatus = () =>
+    isRegistered()
+      .then(setRegistered)
+      .catch(() => setRegistered(false));
 
   useEffect(() => {
-    currentSubscription().then((s) => s && setSubscription(JSON.stringify(s)));
+    if (pushSupported() && pushConfigured()) refreshStatus();
+    else setRegistered(false);
     fetchIndex()
       .then((i) => setDates(i.dates))
       .catch(() => {});
   }, []);
 
-  const enable = async () => {
+  const toggle = async (enable: boolean) => {
+    setBusy(true);
+    setStatus('');
     try {
-      setStatus('');
-      setSubscription(JSON.stringify(await subscribe()));
+      if (enable) await enablePush();
+      else await disablePush();
+      await refreshStatus();
     } catch (err) {
       setStatus((err as Error).message);
+    } finally {
+      setBusy(false);
     }
-  };
-
-  const copy = async () => {
-    if (!subscription) return;
-    await navigator.clipboard.writeText(subscription);
-    setCopied(true);
   };
 
   const standalone = window.matchMedia('(display-mode: standalone)').matches;
@@ -97,29 +103,28 @@ export function Settings({ topics, prefs, onSavePrefs, theme, onTheme, onOpenEdi
             {isIOS && !standalone && ' Su iPhone prima aggiungi l\'app alla schermata Home (Condividi → Aggiungi a Home).'}
           </p>
         ) : !pushConfigured() ? (
-          <p class="muted">
-            Le notifiche non sono ancora configurate: genera le chiavi con <code>npm run vapid</code> (vedi README).
-          </p>
-        ) : subscription ? (
+          <p class="muted">Le notifiche non sono ancora configurate sul server.</p>
+        ) : registered === null ? (
+          <p class="muted">Controllo lo stato…</p>
+        ) : registered ? (
           <>
-            <p>
-              Notifiche attive su questo dispositivo. Copia il codice qui sotto e incollalo nel secret{' '}
-              <code>PUSH_SUBSCRIPTION</code> del repo su GitHub: ogni mattina ti arriverà l'avviso.
-            </p>
-            <textarea class="code" readOnly rows={4} value={subscription} />
+            <p>Attive su questo dispositivo: ogni mattina ti avviso quando l'edizione è pronta.</p>
             <div class="row">
-              <button class="btn" onClick={copy}>
-                {copied ? 'Copiato ✓' : 'Copia codice'}
-              </button>
-              <button class="btn" onClick={() => testNotification()}>
+              <button class="btn" disabled={busy} onClick={() => testNotification()}>
                 Prova notifica
+              </button>
+              <button class="btn" disabled={busy} onClick={() => toggle(false)}>
+                Disattiva
               </button>
             </div>
           </>
         ) : (
-          <button class="btn btn-primary" onClick={enable}>
-            Attiva notifiche
-          </button>
+          <>
+            <p class="muted">Ricevi un avviso la mattina, quando l'edizione è pronta.</p>
+            <button class="btn btn-primary" disabled={busy} onClick={() => toggle(true)}>
+              {busy ? 'Attivo…' : 'Attiva notifiche'}
+            </button>
+          </>
         )}
         {status && <p class="error">{status}</p>}
       </div>

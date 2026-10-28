@@ -123,7 +123,10 @@ ${listItems(news)}
 Formato: {"mondo":[{"title":"titolo breve della storia","itemIds":[1,2]}],"italia":[{"title":"...","itemIds":[4]}]}`;
 
   const res = await chatJson<{ mondo?: RawPick[]; italia?: RawPick[] }>(EDITOR_SYSTEM, prompt, 0.3);
-  return { mondo: resolve(news, res.mondo, 'Mondo'), italia: resolve(news, res.italia, 'Italia') };
+  const picks = { mondo: resolve(news, res.mondo, 'Mondo'), italia: resolve(news, res.italia, 'Italia') };
+  // Con 60 articoli a disposizione, nessuna storia scelta vuol dire che il modello ha risposto male.
+  if (picks.mondo.length + picks.italia.length === 0) throw new Error('il modello non ha scelto nessuna storia valida');
+  return picks;
 }
 
 /** Sceglie le storie di un argomento del catalogo, in ordine di interesse. */
@@ -157,7 +160,9 @@ Formato: {"stories":[{"title":"titolo breve della storia","itemIds":[1,2]}]}`;
   const picks = (Array.isArray(res.stories) ? res.stories : Object.values(res).find(Array.isArray)) as
     | RawPick[]
     | undefined;
-  return resolve(list, picks, topic.label);
+  const stories = resolve(list, picks, topic.label);
+  if (stories.length === 0) throw new Error('il modello non ha scelto nessuna storia valida');
+  return stories;
 }
 
 /** Quanti caratteri di materiale vero (testo degli articoli o estratti) ha una storia. */
@@ -252,6 +257,10 @@ ${material}`;
       date: editionDate || new Date().toISOString().slice(0, 10),
       news: kind === 'news',
     });
+    // Risposta troncata o con chiavi sbagliate: si riprova invece di perdere la card.
+    if (!draft.title?.trim() || !draft.summary?.trim()) {
+      problems.unshift('il JSON è incompleto: servono "title", "summary", "context" e "quiz"');
+    }
     if (problems.length === 0) return draft;
     console.warn(`↻  Card da riscrivere (${attempt}/${MAX_WRITE_ATTEMPTS}): ${problems.join('; ').slice(0, 160)}`);
   }
