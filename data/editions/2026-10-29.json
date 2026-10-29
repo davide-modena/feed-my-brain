@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T05:37:58.129Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Cina fornisce componenti per i droni usati da Russia e Ucraina",
+      "summary": "Un’inchiesta di Le Monde, citata da Internazionale, ha scoperto che la maggior parte dei componenti dei droni impiegati nella guerra tra Russia e Ucraina è prodotta in Cina e fornita a entrambe le parti. Anche se Pechino nega di vendere armi, aziende cinesi riforniscono direttamente società russe sanzionate, i cui droni FPV vengono usati per colpire obiettivi militari e civili, azioni che le Nazioni Unite potrebbero definire crimini contro l’umanità.",
+      "context": "Il ruolo della Cina nella catena di fornitura dei droni influisce sulla capacità bellica di Russia e Ucraina, mette alla prova le sanzioni occidentali e solleva interrogativi su responsabilità legali internazionali.",
+      "sources": [
+        {
+          "name": "Internazionale",
+          "url": "https://www.internazionale.it/video/2026/10/29/guerra-droni-russia-ucraina-cina"
+        }
+      ],
+      "image": {
+        "url": "https://media.internazionale.it/images/2026/10/27/362309-hd.jpg",
+        "credit": "Internazionale",
+        "link": "https://www.internazionale.it/video/2026/10/29/guerra-droni-russia-ucraina-cina"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il ruolo della Cina nella guerra dei droni tra Russia e Ucraina?",
+          "options": [
+            "Non ha alcun coinvolgimento",
+            "Supporta logisticamente solo l'Ucraina",
+            "Fornisce armi nucleari",
+            "Produce componenti dei droni usati da entrambe le parti"
+          ],
+          "answer": 3,
+          "explanation": "L'inchiesta indica che la Cina produce e fornisce i componenti dei droni a Russia e Ucraina."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-29-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Approvata la manovra 2027: taglio Irpef e flat tax estesa",
+      "summary": "Il governo Meloni ha approvato la manovra economica per il 2027, dal valore di 26 miliardi di euro. Le misure principali includono l'estensione dell'aliquota Irpef al 33% fino a 55.000 euro di reddito annuo e l'innalzamento della soglia per il regime forfettario a 100.000 euro. Sono previsti anche incentivi per le assunzioni di giovani e donne, un aumento di 3,4 miliardi per la sanità e l'abolizione strutturale del bollo auto per veicoli fino a 80 kW. Il testo è stato approvato dal Consiglio dei ministri con il consenso della maggioranza.",
+      "context": "La manovra segna la quinta legge di bilancio del governo, puntando a consolidare il potere d'acquisto e sostenere la natalità. L'estensione della flat tax e la riduzione delle tasse sul ceto medio sono pilastri della strategia fiscale di centrodestra, mentre l'aumento dei fondi sanitari risponde alle esigenze strutturali del Servizio sanitario nazionale.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/28/via-libera-del-consiglio-dei-ministri-alla-manovra.-meloni-vale_a800dc0a-5e17-4252-b135-567ad9587d2b.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNLWdDc1lOeFhEU0dqV0xCM2YzSVRWWlBOYUxNTEM0cUJTbjAtMWVobkFuSDNydV9felhIRXU4dEhfcWNGcDd2aDBxQ05CQW8yOVc1clFfd3REQkN3aGRTVC16SV9DU3JndGF3bnhFYjNHMDdBVVd6VFBwMnJCZlpWWFBSdmc2WGlYUWk4RHdzWk5MSk0?oc=5"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/10/irpef-affitti-sanita-e-bollo-auto-ecco-cosa-prevede-la-manovra-2027-27cc2e08-8cac-455b-8063-a7b54387cb82.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/28/fabdc6847a6755f5b3e1f576f6f812f8.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/28/via-libera-del-consiglio-dei-ministri-alla-manovra.-meloni-vale_a800dc0a-5e17-4252-b135-567ad9587d2b.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la nuova soglia di reddito annuo per accedere all'aliquota Irpef del 33%?",
+          "options": [
+            "100.000 euro",
+            "50.000 euro",
+            "55.000 euro",
+            "35.000 euro"
+          ],
+          "answer": 2,
+          "explanation": "La manovra estende la soglia del secondo scaglione Irpef fino a 55.000 euro, mantenendo l'aliquota al 33%."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-29-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Europa avvia il primo cavo dati sottomarino transartico",
+      "summary": "L'Unione europea ha annunciato il progetto Pan‑Arctic Cable, il primo cavo dati sottomarino che collegherà direttamente l'UE al Groenland e, in futuro, potrà estendersi al Canada, al Giappone e alla Corea del Sud. Il percorso bypassa gli Stati Uniti, riducendo la dipendenza da rotte attraverso il Mar Rosso, soggette a conflitti in Yemen.",
+      "context": "Il cavo rafforza l'autonomia digitale europea, garantendo comunicazioni più sicure e meno vulnerabili a tensioni geopolitiche, e risponde al rischio crescente delle rotte attuali nel Mar Rosso.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/EU-and-Greenland-meeting-1152x648.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo principale del progetto Pan‑Arctic Cable?",
+          "options": [
+            "Creare una rotta turistica sottomarina",
+            "Collegare direttamente l'UE al Giappone",
+            "Bypassare gli Stati Uniti per collegare l'Europa al Canada e all'Asia",
+            "Fornire energia elettrica al Groenland"
+          ],
+          "answer": 2,
+          "explanation": "Il progetto prevede un collegamento dall'UE al Groenland, con possibili estensioni verso Canada, Giappone e Corea del Sud, evitando il transito attraverso gli Stati Uniti."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-29-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "J. Cole smentisce il ritiro e riflette sulla pressione di Jay-Z",
+      "summary": "In un'intervista a GQ rilasciata mercoledì 28 ottobre a Las Vegas, il rapper J. Cole ha chiarito di non avere intenzione di ritirarsi dalla musica. Sebbene avesse creato l'album The Fall-Off pensando che sarebbe stato l'ultimo, ha cambiato idea dopo il successo del tour. Ha anche discusso della pressione esercitata da Jay-Z all'inizio della sua carriera, riconoscendo oggi come quel peso lo abbia aiutato a crescere artisticamente.",
+      "context": "La notizia chiarisce le future mosse di un artista di primo piano dopo speculazioni sul suo addio. Il riferimento alla dinamica con Jay-Z offre uno sguardo sulla gestione delle aspettative nell'industria musicale, mentre il tour in corso segna un momento di alta visibilità per l'artista.",
+      "sources": [
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/j-cole-retirement-jay-z-pressure-gq-interview/"
+        },
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/j-cole-kendrick-lamar-feud-not-retiring-1236369930/"
+        },
+        {
+          "name": "Baller Alert on MSN",
+          "url": "https://www.msn.com/en-us/entertainment/music/j-cole-drops-retirement-plans-after-admitting-he-thought-the-fall-off-would-be-his-last-album/ar-AA2ghYWj"
+        }
+      ],
+      "image": {
+        "url": "https://townsquare.media/site/812/files/2026/10/attachment-j-cole-24.jpg?w=1200&format=natural",
+        "credit": "XXL",
+        "link": "https://www.xxlmag.com/j-cole-retirement-jay-z-pressure-gq-interview/"
+      },
+      "quiz": [
+        {
+          "question": "Perché J. Cole ha cambiato idea sul ritiro dalla musica?",
+          "options": [
+            "Jay-Z gli ha chiesto direttamente di pubblicare un nuovo album.",
+            "Voleva rispondere alle critiche ricevute dai fan sui social media.",
+            "Il successo del tour di The Fall-Off lo ha motivato a continuare.",
+            "Ha ricevuto un'offerta economica vantaggiosa da una nuova etichetta."
+          ],
+          "answer": 2,
+          "explanation": "J. Cole ha dichiarato che, pur avendo creato l'album come se fosse l'ultimo, il successo del tour successivo lo ha portato a rifiutare l'idea del ritiro."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-29-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "La cometa interstellare 3I/Atlas analizzata dal telescopio James Webb",
+      "summary": "Un team internazionale guidato dall’astrofisica Silvia Protopapa ha utilizzato il telescopio spaziale James Webb per analizzare la cometa interstellare 3I/Atlas. Sfruttando lo strumento NirSpec, i ricercatori hanno osservato la cometa in tre momenti chiave, prima e dopo il suo passaggio al perielio avvenuto il 29 ottobre 2025. I dati hanno rivelato la presenza di minuscoli aggregati di ghiaccio d’acqua mescolati a polvere.",
+      "context": "Lo studio dei corpi interstellari permette di comprendere la chimica di sistemi planetari esterni al nostro. Telescopi avanzati come il James Webb sono essenziali per analizzare la composizione volatile di questi rari visitatori cosmici durante il loro transito.",
+      "sources": [
+        {
+          "name": "INAF Media",
+          "url": "https://www.media.inaf.it/2026/10/28/il-ghiaccio-sporco-della-cometa-interstellare-3i-atlas/"
+        }
+      ],
+      "image": {
+        "url": "https://www.media.inaf.it/wp-content/uploads/2026/10/3IATLAS_Gemini.jpg",
+        "credit": "INAF Media",
+        "link": "https://www.media.inaf.it/2026/10/28/il-ghiaccio-sporco-della-cometa-interstellare-3i-atlas/"
+      },
+      "quiz": [
+        {
+          "question": "Quale strumento del telescopio James Webb è stato utilizzato per analizzare la cometa 3I/Atlas?",
+          "options": [
+            "Lo spettrometro ultravioletto",
+            "Lo spettrografo NirSpec",
+            "La fotocamera a raggi X",
+            "Il radar di superficie"
+          ],
+          "answer": 1,
+          "explanation": "Il team ha impiegato lo spettrografo NirSpec del telescopio James Webb per ottenere la copertura spettrale della cometa."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-29-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "La Fed lascia i tassi d'interesse invariati e spiega le motivazioni della pausa",
+      "summary": "La banca centrale degli Stati Uniti ha deciso di lasciare i tassi di interesse invariati tra il 3,75% e il 4%, adottando un approccio di attesa. Due membri del consiglio hanno votato contro la pausa, chiedendo un aumento. Il presidente Kevin Warsh ha negato qualsiasi influenza della politica nelle decisioni, ribadendo l'attenzione alla stabilità dei prezzi.",
+      "context": "Le decisioni sui tassi influenzano il costo dei prestiti e dei mutui per i cittadini. La pausa della banca centrale arriva in un contesto di inflazione superiore al target del 2%, offrendo un momento di osservazione dei dati economici futuri.",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms"
+        },
+        {
+          "name": "Money.it",
+          "url": "https://www.money.it/tassi-fed-invariati-al-375-4-nonostante-inflazione-quasi-doppia-rispetto-al-target-i-mercati-aspettano-warsh"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/7880dcf74afd8e1464e25cee2da4b52881ed5e8e/1146_740_2868_2294/master/2868.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b081c701087cb6d833262061fe8004b7",
+        "credit": "The Guardian Business",
+        "link": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la decisione della banca centrale statunitense sui tassi d'interesse?",
+          "options": [
+            "Li ha lasciati invariati",
+            "Li ha dimezzati",
+            "Li ha aumentati ulteriormente",
+            "Li ha azzerati"
+          ],
+          "answer": 0,
+          "explanation": "La banca centrale ha deciso di mantenere i tassi stabili tra il 3,75% e il 4% durante l'ultima riunione."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-29-5"
+    },
+    {
+      "category": "storia",
+      "tag": "29 ottobre 1969",
+      "title": "Il primo collegamento tra computer",
+      "summary": "Nei giorni scorsi del 1969 viene stabilito il primo collegamento da computer a computer tramite la rete ARPANET. Il sistema, realizzato con il supporto del governo statunitense e di diverse università, permette di inviare con successo un comando di accesso a un computer collegato in remoto, ponendo le basi per lo sviluppo delle future comunicazioni digitali.",
+      "context": "ARPANET ha introdotto la commutazione di pacchetto, la tecnologia fondamentale che permette ancora oggi di dividere le informazioni in frammenti autonomi e ricostruirli a destinazione. Questo esperimento ha aperto la strada a Internet e alla condivisione globale delle informazioni.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/ARPANET"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Arpanet_logical_map%2C_march_1977.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Arpanet_logical_map%2C_march_1977.png"
+      },
+      "quiz": [
+        {
+          "question": "Quale innovazione tecnologica chiave è stata introdotta da ARPANET?",
+          "options": [
+            "Il World Wide Web",
+            "La commutazione di pacchetto",
+            "La fibra ottica",
+            "La posta elettronica"
+          ],
+          "answer": 1,
+          "explanation": "ARPANET fu la prima rete al mondo a utilizzare la commutazione di pacchetto per suddividere e inviare i dati."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-29-6"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Galleria Vittorio Emanuele II",
+      "title": "Il paradosso del coperto dei Figini",
+      "summary": "La costruzione della galleria Vittorio Emanuele II a Milano fu resa possibile grazie a tre decreti regi firmati tra il 1859 e il 1860, che autorizzavano tra l'altro la lotteria per raccogliere i fondi e l'esproprio dei palazzi da demolire. Tra gli edifici abbattuti per fare spazio alla nuova opera vi fu il coperto dei Figini, un antico porticato medievale sopravvissuto per secoli alle demolizioni delle dominazioni precedenti.",
+      "context": "Nel XIX secolo le principali città europee iniziarono a realizzare passaggi coperti in ferro e vetro dedicati al commercio. A Milano, l'esigenza di svecchiare il tessuto urbano medievale si intrecciò con il fervore patriottico successivo all'unità d'Italia.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Galleria_Vittorio_Emanuele_II"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Galleria_Milano_%28179532365%29-edit.jpg/1280px-Galleria_Milano_%28179532365%29-edit.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Galleria_Milano_(179532365)-edit.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale antico edificio milanese fu demolito per fare spazio alla galleria Vittorio Emanuele II?",
+          "options": [
+            "Il palazzo dell'Indipendenza",
+            "La galleria De Cristoforis",
+            "La loggia Reale",
+            "Il coperto dei Figini"
+          ],
+          "answer": 3,
+          "explanation": "Il coperto dei Figini, un antico porticato medievale, fu demolito proprio per consentire la realizzazione della nuova galleria."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-29-7"
+    }
+  ]
+}
