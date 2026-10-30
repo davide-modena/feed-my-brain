@@ -1,0 +1,400 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T05:36:14.016Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Sciopero globale dei portuali contro il conflitto in Gaza",
+      "summary": "Lavoratori di oltre cento porti in 22 paesi si sono fermati oggi, 30 ottobre 2026, per uno sciopero globale contro il conflitto a Gaza e la militarizzazione dei porti. Promossa da più di 25 sindacati, la protesta punta a denunciare il transito di armi e materiale bellico e a bloccare decine di migliaia di container, rappresentando la più grande mobilitazione internazionale di questo settore.",
+      "context": "Questa protesta globale evidenzia il ruolo strategico dei lavoratori della logistica nelle catene di approvvigionamento globali. Il coinvolgimento dei sindacati in vari paesi dimostra come le tensioni geopolitiche internazionali possano tradursi direttamente in azioni sindacali transnazionali nei nodi commerciali chiave.",
+      "sources": [
+        {
+          "name": "Internazionale",
+          "url": "https://www.internazionale.it/notizie/joan-mas-autonell/2026/10/30/sciopero-portuali-armi-israele-gaza"
+        }
+      ],
+      "image": {
+        "url": "https://media.internazionale.it/images/2026/10/29/362540-hd.jpg",
+        "credit": "Internazionale",
+        "link": "https://www.internazionale.it/notizie/joan-mas-autonell/2026/10/30/sciopero-portuali-armi-israele-gaza"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il motivo principale dello sciopero globale dei portuali?",
+          "options": [
+            "Richiedere salari più alti",
+            "Protestare contro il conflitto a Gaza e il passaggio di armi",
+            "Chiedere la riduzione dell'orario di lavoro",
+            "Protestare contro l'aumento dei costi dei container"
+          ],
+          "answer": 1,
+          "explanation": "Lo sciopero è organizzato contro il conflitto a Gaza, l'economia di guerra e la militarizzazione dei porti attraverso cui transitano armi."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-30-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Proteste in Italia contro il caro vita e il riarmo, più di 50 città in piazza",
+      "summary": "Oggi in Italia si tiene uno sciopero generale proclamato dai sindacati di base contro il caro vita, il caro energia e il riarmo. Lavoratori e studenti sono scesi in corteo in oltre cinquanta città, tra cui Roma, Milano e Napoli. Il Ministero dell'Interno ha blindato i percorsi e disposto fermi preventivi, mentre gli organizzatori denunciano la repressione dei giovani.",
+      "context": "Queste proteste riflettono il malessere sociale legato all'inflazione e alle spese militari. Il confronto tra sindacati di base e governo sui temi del lavoro e dell'ordine pubblico resta un nodo centrale da seguire nei prossimi mesi.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/10/venerdi-di-fuoco-litalia-scende-in-piazza-in-piu-di-50-citta-d8534af0-f4ea-4f37-9bef-a5a86ad4f680.html"
+        },
+        {
+          "name": "Repubblica",
+          "url": "https://www.repubblica.it/cronaca/2026/10/30/news/manifestazioni_no_a_riarmo_e_carovita_cortei_in_cinquanta_citta_isoleremo_i_violenti-425685919/?rss"
+        },
+        {
+          "name": "Repubblica",
+          "url": "https://www.repubblica.it/cronaca/2026/10/30/news/scontri_piazza_intervista_madre-425685666/?rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/30/1793337578837_rainewsaeffdcccfecf.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/10/venerdi-di-fuoco-litalia-scende-in-piazza-in-piu-di-50-citta-d8534af0-f4ea-4f37-9bef-a5a86ad4f680.html"
+      },
+      "quiz": [
+        {
+          "question": "Quali temi hanno motivato lo sciopero generale e le proteste in più di cinquanta città italiane?",
+          "options": [
+            "I tagli alla sanità pubblica e alla scuola",
+            "La riforma della giustizia e delle pensioni",
+            "Le nuove norme sulla sicurezza stradale",
+            "Il caro vita, il caro energia e il riarmo"
+          ],
+          "answer": 3,
+          "explanation": "Le proteste sono state organizzate dai sindacati di base per contestare il caro vita, il caro energia e le spese per il riarmo."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-30-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Reddit richiede il login per tutti gli utenti",
+      "summary": "Reddit ha annunciato che, a partire da oggi, tutti gli utenti dovranno accedere con un account per usare il sito e le app. La decisione, spiegata dal CEO Steve Huffman, serve a migliorare il tracciamento degli utenti, l’efficacia pubblicitaria, la sicurezza e a contrastare la perdita di traffico da Google, che ha ridotto i referral di ricerca a causa delle nuove modalità AI.",
+      "context": "La mossa rende Reddit una piattaforma più controllata e attraente per gli inserzionisti, mentre cerca di compensare il calo di visite provenienti da Google. Osserviamo se l’obbligo di login aumenterà l’engagement e i ricavi.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2025/07/reddit-icon-1152x648-1752522571.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale novità che Reddit ha introdotto per tutti gli utenti?",
+          "options": [
+            "Richiede l’accesso con account per usare il sito e le app",
+            "Ha chiuso l’app mobile",
+            "Ha eliminato la pubblicità",
+            "Ha fuso la piattaforma con Google"
+          ],
+          "answer": 0,
+          "explanation": "Reddit ha dichiarato che tutti gli utenti devono ora effettuare il login per accedere, per migliorare tracciamento, pubblicità e sicurezza."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-30-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Post Malone anticipa il ritorno all'hip-hop con 'Eternal Buzz'",
+      "summary": "Post Malone ha condiviso su Instagram brani del nuovo album \"Eternal Buzz\" che segnano un ritorno al suo suono hip-hop melodico, dopo l'album country \"F-1 Trillion\" del 2024. Ha posticipato di tre settimane il tour \"Big Ass Stadium\" (previsto da maggio 2026 a El Paso) per completare il doppio album da 40 brani, potenzialmente diviso tra rap e country. Già a luglio aveva anticipato \"Chrome Heartbreaker\" e ora \"Bad Mood\".",
+      "context": "Dopo anni nel country e polemiche passate sull'hip-hop, Malone sembra voler riconquistare le radici che lo hanno reso famoso. Il progetto ambizioso potrebbe unire i due generi. Da seguire la data d'uscita e la conferma della struttura a doppio disco.",
+      "sources": [
+        {
+          "name": "VICE",
+          "url": "https://www.vice.com/en/article/post-malone-teases-return-to-hip-hop-after-spending-years-in-country-music/"
+        },
+        {
+          "name": "Complex on MSN",
+          "url": "https://www.msn.com/en-us/news/other/post-malone-teases-new-song-reminiscent-of-his-hip-hop-output-says-eternal-buzz-is-coming-soon/ar-AA2gkRuS"
+        },
+        {
+          "name": "Whiskey Riff",
+          "url": "https://www.whiskeyriff.com/2026/10/28/post-malones-latest-teaser-has-fans-wondering-if-hes-going-back-to-hip-hop-with-new-album/"
+        }
+      ],
+      "image": {
+        "url": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Post-Malone-Teases-Return-to-Hip-Hop-After-Spending-Years-in-Country-Music.jpg?w=1200",
+        "credit": "VICE",
+        "link": "https://www.vice.com/en/article/post-malone-teases-return-to-hip-hop-after-spending-years-in-country-music/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha fatto Post Malone per anticipare il nuovo album \"Eternal Buzz\"?",
+          "options": [
+            "Ha cancellato il tour per problemi di salute",
+            "Ha annunciato un tour esclusivamente country",
+            "Ha condiviso brani hip-hop e posticipato il tour per finire il doppio album",
+            "Ha pubblicato 40 brani country su streaming"
+          ],
+          "answer": 2,
+          "explanation": "Ha anticipato due brani rap (\"Chrome Heartbreaker\" a luglio e \"Bad Mood\" ora) e spostato il tour di tre settimane per completare il doppio album."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-30-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Cambiamenti nell'Antartide e impatto sulla circolazione oceanica",
+      "summary": "Una recente ricerca scientifica mostra che la drastica perdita di ghiaccio marino antartico registrata dal 2016 sta modificando le proprietà e la circolazione delle acque profonde e superficiali. Secondo gli scienziati, l'oceano attorno all'Antartide potrebbe entrare in un nuovo stato permanente, influenzando la circolazione oceanica globale, gli ecosistemi e il clima della Terra in tempi brevi.",
+      "context": "L'oceano Antartico è cruciale per la circolazione globale e per assorbire la CO2 emessa dall'uomo. Monitorare questi cambiamenti è fondamentale perché i modelli climatici attuali faticano a prevedere con precisione la rapidità della perdita di ghiaccio marino.",
+      "sources": [
+        {
+          "name": "Ars Technica Science",
+          "url": "https://arstechnica.com/science/2026/10/antarctic-sea-ice-loss-could-reshape-weather-far-beyond-the-pole/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/antarctic-seaice-1024x648.jpg",
+        "credit": "Ars Technica Science",
+        "link": "https://arstechnica.com/science/2026/10/antarctic-sea-ice-loss-could-reshape-weather-far-beyond-the-pole/"
+      },
+      "quiz": [
+        {
+          "question": "Quale fenomeno sta alterando la circolazione delle acque oceaniche vicino all'Antartide?",
+          "options": [
+            "La drastica perdita di ghiaccio marino dal 2016",
+            "Un forte aumento delle emissioni di carbonio locali",
+            "Il riscaldamento improvviso dei fondali oceanici tropicali",
+            "La riduzione della velocità dei venti atmosferici"
+          ],
+          "answer": 0,
+          "explanation": "La ricerca evidenzia che la rapida perdita di ghiaccio marino antartico iniziata nel 2016 sta modificando le proprietà e la circolazione delle acque oceaniche."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-30-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Prezzo del gas in Europa: allarme delle aziende per i costi energetici",
+      "summary": "Nei giorni scorsi il prezzo di riferimento del gas sul mercato di Amsterdam ha superato i cento euro per megawattora, spingendo la società consortile Gas Intensive a lanciare un allarme per i costi energetici che gravano sulle industrie manifatturiere ad alta intensità di consumo. Il settore chiede interventi urgenti per l'inverno, evidenziando che gli strumenti attuali e futuri non sono sufficienti a gestire l'emergenza immediata.",
+      "context": "Il costo del gas influisce direttamente sulla competitività delle aziende manifatturiere europee, incidendo sui margini di profitto e sulla continuità produttiva. Monitorare questi rincari permette di comprendere la tenuta economica del settore industriale nei mesi freddi.",
+      "sources": [
+        {
+          "name": "Il Sole 24 Ore",
+          "url": "https://www.ilsole24ore.com/art/con-gas-100-euro-mwh-l-industria-non-regge-servono-misure-immediate-AJi9CayB"
+        }
+      ],
+      "image": {
+        "url": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/30/Immagini/Ritagli/AdobeStock_67767498-U13828526808aNn-1440x752@IlSole24Ore-Web.jpeg?r=1170x507",
+        "credit": "Il Sole 24 Ore",
+        "link": "https://www.ilsole24ore.com/art/con-gas-100-euro-mwh-l-industria-non-regge-servono-misure-immediate-AJi9CayB"
+      },
+      "quiz": [
+        {
+          "question": "Perché le aziende manifatturiere hanno lanciato l'allarme nei giorni scorsi?",
+          "options": [
+            "Perché il mercato di Amsterdam è stato chiuso definitivamente",
+            "Perché il prezzo del gas ha superato quota cento euro per megawattora",
+            "Perché è stato bloccato l'intero approvvigionamento di gas dall'estero",
+            "Perché la produzione di biometano è stata interrotta per legge"
+          ],
+          "answer": 1,
+          "explanation": "Il superamento di quota cento euro per megawattora sul mercato di Amsterdam ha fatto scattare l'allarme tra i grandi consumatori industriali per i costi invernali insostenibili."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-30-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "T-Series produrrà l'epopea storica in due parti 'The Pride of Bharat'",
+      "summary": "La casa di produzione indiana T-Series ha deciso di co-finanziare e produrre l'epopea storica in due parti intitolata \"The Pride of Bharat – Chhatrapati Shivaji Maharaj\". Il film, le cui riprese inizieranno all'inizio del 2027, vede come protagonista e co-produttore l'attore Rishab Shetty nei panni del re maratha. Il progetto racconterà le battaglie, le strategie militari e la vita del sovrintendente vissuto nel diciassettesimo secolo.",
+      "context": "Le produzioni storiche dedicate ai sovrani indiani riscuotono grande successo al botteghino e servono spesso a celebrare l'identità culturale nazionale. La figura di Shivaji Maharaj continua a ispirare il cinema contemporaneo, unendo ambizioni produttive internazionali e narrazioni patriottiche.",
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/news/ishab-shetty-shivaji-epic-pride-of-bharat-t-series-1236934634/"
+        }
+      ],
+      "image": {
+        "url": "https://variety.com/wp-content/uploads/2026/10/Rishab-Shetty-Bhushan-Kumar.jpg?w=1000&h=563&crop=1",
+        "credit": "Variety",
+        "link": "https://variety.com/2026/film/news/ishab-shetty-shivaji-epic-pride-of-bharat-t-series-1236934634/"
+      },
+      "quiz": [
+        {
+          "question": "Chi interpreterà il re maratha Shivaji Maharaj nel film?",
+          "options": [
+            "Bhushan Kumar",
+            "Riteish Deshmukh",
+            "Sandeep Singh",
+            "Rishab Shetty"
+          ],
+          "answer": 3,
+          "explanation": "L'attore Rishab Shetty è il protagonista scelto per interpretare il re maratha nella produzione di T-Series."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-30-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "WNBA, le Atlanta Dream battono le Valkyries e portano la serie a Gara 7",
+      "summary": "Le Atlanta Dream hanno battuto le Golden State Valkyries con il punteggio di 80 a 69 in Gara 6, pareggiando la serie delle finali del campionato di pallacanestro statunitense e costringendo le avversarie a una decisiva Gara 7. Sotto pressione a causa dell'eliminazione, Atlanta ha dominato il primo tempo grazie a un attacco molto efficace, guidato dai 23 punti di Allisha Gray e dalla prestazione di Angel Reese.",
+      "context": "Questa serie di finale rappresenta un momento di grande visibilità per la pallacanestro femminile statunitense. Entrambe le squadre contendono il loro primo titolo nella competizione, rendendo la decisiva settima partita un evento storico per il movimento.",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/oct/29/atlanta-dream-golden-state-valkyries-game-6-wnba-finals"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/9098b96b70dc58323d6773b557c78ec963286381/96_0_3702_2962/master/3702.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5d715cc1674fa2d445b22a3b8061da37",
+        "credit": "The Guardian Sport",
+        "link": "https://www.theguardian.com/sport/2026/oct/29/atlanta-dream-golden-state-valkyries-game-6-wnba-finals"
+      },
+      "quiz": [
+        {
+          "question": "Quale risultato ha permesso alle Atlanta Dream di forzare Gara 7 contro le Golden State Valkyries?",
+          "options": [
+            "Una vittoria all'overtime",
+            "Una vittoria per 80-69",
+            "Un pareggio nei tempi regolamentari",
+            "Una sconfitta di misura"
+          ],
+          "answer": 1,
+          "explanation": "Le Atlanta Dream hanno vinto Gara 6 con il punteggio di 80-69, portando la serie sul 3-3."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-30-7"
+    },
+    {
+      "category": "storia",
+      "tag": "30 ottobre 1938",
+      "title": "La guerra dei mondi alla radio",
+      "summary": "Nel trentotto Orson Welles diresse un adattamento radiofonico del romanzo La guerra dei mondi per la rete statunitense CBS. Il programma simulava un notiziario in tempo reale su un'invasione aliena nel New Jersey. Sebbene i giornali dell'epoca parlassero di panico di massa, le ricerche successive ridimensionarono l'effettiva portata dell'isteria collettiva.",
+      "context": "L'evento ha dimostrato la straordinaria forza persuasiva dei media di massa e ha inaugurato una riflessione duratura sull'affidabilità delle notizie. Ha cambiato il modo di fare comunicazione radiofonica e ha lasciato in eredità il mito del potere manipolatorio dei mezzi di informazione.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/The_War_of_the_Worlds_(programma_radiofonico)"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/War_of_the_Worlds_ET.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:War_of_the_Worlds_ET.jpg"
+      },
+      "quiz": [
+        {
+          "question": "In che modo fu strutturato l'adattamento radiofonico di Orson Welles?",
+          "options": [
+            "Come un notiziario in tempo reale che interrompeva la programmazione",
+            "Come un dibattito scientifico tra astronomi",
+            "Come una normale lettura letteraria con un narratore fisso",
+            "Come una commedia brillante con un pubblico in studio"
+          ],
+          "answer": 0,
+          "explanation": "Il programma simulava bollettini d'emergenza e notiziari dal vivo che interrompevano la musica per annunciare l'invasione aliena."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-30-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Arnoldo di Torroja",
+      "title": "La tomba ritrovata dell'unico Gran Maestro templare giunta fino a noi",
+      "summary": "La tomba di Arnoldo di Torroja, Gran Maestro dei cavalieri templari morto a Verona nel 1184, è stata scoperta fortuitamente nel 2016 durante alcuni lavori di manutenzione nella chiesa di San Fermo Maggiore. Per secoli il sepolcro era stato dimenticato e considerato perduto. Questa scoperta riveste una grande importanza archeologica, poiché costituisce l'unico esempio noto di tomba di un Gran Maestro templare giunta fino all'epoca contemporanea.",
+      "context": "I cavalieri templari erano un importante ordine monastico-militare nato per proteggere i pellegrini in Terra Santa durante le crociate. La scoperta della tomba a Verona offre una testimonianza materiale unica su una figura di vertice di quell'epoca storica.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Arnoldo_di_Torroja"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Sarcophagus_of_Arnau_de_Torroja_%2867500%29.jpg/1280px-Sarcophagus_of_Arnau_de_Torroja_%2867500%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Sarcophagus_of_Arnau_de_Torroja_(67500).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Perché il ritrovamento della tomba di Arnoldo di Torroja a Verona nel 2016 è di eccezionale importanza archeologica?",
+          "options": [
+            "Perché contiene il tesoro perduto dei templari",
+            "Perché è l'unico esempio di tomba di un Gran Maestro templare pervenuta fino all'epoca contemporanea",
+            "Perché ha svelato la data esatta della sua nascita",
+            "Perché ha confermato l'alleanza segreta con i re di Francia"
+          ],
+          "answer": 1,
+          "explanation": "La tomba di Arnoldo di Torroja rappresenta l'unico sepolcro di un Gran Maestro dei templari giunto fino ai giorni nostri."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-30-9"
+    }
+  ]
+}
