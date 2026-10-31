@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { afterEach, test } from 'node:test';
-import { deliver, loadSubscriptions, type PushSub } from './notify.ts';
+import { deliver, loadSubscriptions, platformOf, type PushSub } from './notify.ts';
 
 const sub = (n: number): PushSub => ({
   endpoint: `https://fcm.googleapis.com/fcm/send/device-${n}`,
@@ -23,6 +23,30 @@ test('deliver: conta gli invii, separa le subscription scadute dagli errori', as
   assert.deepEqual(result.gone, [sub(2).endpoint, sub(3).endpoint]);
   assert.equal(result.failed.length, 1);
   assert.equal(result.failed[0].status, 503);
+});
+
+test('platformOf: riconosce la piattaforma dal servizio push', () => {
+  assert.equal(platformOf('https://fcm.googleapis.com/fcm/send/abc'), 'Android/Chrome');
+  assert.equal(platformOf('https://web.push.apple.com/QAbc'), 'iPhone/Safari');
+  assert.equal(platformOf('https://updates.push.services.mozilla.com/wpush/v2/x'), 'Firefox');
+  assert.equal(platformOf('https://wns2-par02p.notify.windows.com/?token=x'), 'Windows/Edge');
+  assert.equal(platformOf('non è un url'), 'sconosciuta');
+});
+
+test("deliver: raggruppa per piattaforma e riporta il corpo dell'errore", async () => {
+  const iphone: PushSub = { ...sub(2), endpoint: 'https://web.push.apple.com/QToken' };
+  const old: PushSub = { ...sub(3), endpoint: 'https://web.push.apple.com/QVecchio' };
+  const result = await deliver([sub(1), iphone, old], 'x', async (s) => {
+    if (s.endpoint.endsWith('QToken')) {
+      throw Object.assign(new Error('Received unexpected response code'), { statusCode: 403, body: '{"reason":"BadJwtToken"}' });
+    }
+    if (s.endpoint.endsWith('QVecchio')) throw Object.assign(new Error('Gone'), { statusCode: 410 });
+  });
+  assert.deepEqual(result.byPlatform, {
+    'Android/Chrome': { total: 1, sent: 1, gone: 0, failed: 0 },
+    'iPhone/Safari': { total: 2, sent: 0, gone: 1, failed: 1 },
+  });
+  assert.match(result.failed[0].message, /BadJwtToken/);
 });
 
 test('deliver: rispetta la concorrenza massima', async () => {

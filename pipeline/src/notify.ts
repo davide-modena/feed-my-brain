@@ -60,11 +60,28 @@ export async function loadSubscriptions(env: NodeJS.ProcessEnv = process.env): P
   return { subs: [...byEndpoint.values()], remote };
 }
 
+/** Il servizio push dice da che piattaforma arriva un dispositivo: utile per leggere i log. */
+export function platformOf(endpoint: string): string {
+  let host = '';
+  try {
+    host = new URL(endpoint).hostname;
+  } catch {
+    return 'sconosciuta';
+  }
+  if (host.endsWith('fcm.googleapis.com')) return 'Android/Chrome';
+  if (host.endsWith('push.apple.com')) return 'iPhone/Safari';
+  if (host.endsWith('push.services.mozilla.com')) return 'Firefox';
+  if (host.endsWith('notify.windows.com')) return 'Windows/Edge';
+  return host;
+}
+
 export interface DeliveryResult {
   sent: number;
   /** Subscription scadute o annullate (404/410): vanno rimosse dall'elenco. */
   gone: string[];
   failed: { endpoint: string; status?: number; message: string }[];
+  /** Esito per piattaforma: quanti dispositivi, quanti avvisati, quanti scaduti, quanti in errore. */
+  byPlatform: Record<string, { total: number; sent: number; gone: number; failed: number }>;
 }
 
 /** Invia a tutti i dispositivi, a gruppi, raccogliendo l'esito di ciascuno. */
@@ -74,17 +91,27 @@ export async function deliver(
   send: (sub: PushSub, payload: string) => Promise<unknown>,
   concurrency = 5,
 ): Promise<DeliveryResult> {
-  const result: DeliveryResult = { sent: 0, gone: [], failed: [] };
+  const result: DeliveryResult = { sent: 0, gone: [], failed: [], byPlatform: {} };
   for (let i = 0; i < subs.length; i += concurrency) {
     await Promise.all(
       subs.slice(i, i + concurrency).map(async (sub) => {
+        const platform = (result.byPlatform[platformOf(sub.endpoint)] ??= { total: 0, sent: 0, gone: 0, failed: 0 });
+        platform.total++;
         try {
           await send(sub, payload);
           result.sent++;
+          platform.sent++;
         } catch (err) {
-          const status = (err as { statusCode?: number }).statusCode;
-          if (status === 404 || status === 410) result.gone.push(sub.endpoint);
-          else result.failed.push({ endpoint: sub.endpoint, status, message: (err as Error).message.slice(0, 120) });
+          const { statusCode: status, body } = err as { statusCode?: number; body?: string };
+          if (status === 404 || status === 410) {
+            result.gone.push(sub.endpoint);
+            platform.gone++;
+          } else {
+            // Il corpo della risposta spiega il perché (es. Apple: {"reason":"BadJwtToken"}).
+            const detail = [(err as Error).message, body].filter(Boolean).join(' · ');
+            result.failed.push({ endpoint: sub.endpoint, status, message: detail.replace(/\s+/g, ' ').slice(0, 200) });
+            platform.failed++;
+          }
         }
       }),
     );
@@ -136,11 +163,24 @@ async function sendWebPush(edition: Edition) {
 
   const line = `${result.sent}/${subs.length} avvisi inviati, ${result.gone.length} dispositivi scaduti rimossi, ${result.failed.length} errori`;
   console.log(`🔔 Web Push: ${line}`);
-  for (const f of result.failed) console.warn(`   ⚠️  ${new URL(f.endpoint).host}: ${f.status ?? ''} ${f.message}`);
-  summary(`### Notifiche\nWeb Push: ${line}.`);
+  const table = [
+    '| Piattaforma | Registrati | Avvisati | Scaduti | Errori |',
+    '|---|---|---|---|---|',
+    ...Object.entries(result.byPlatform).map(([name, p]) => `| ${name} | ${p.total} | ${p.sent} | ${p.gone} | ${p.failed} |`),
+  ].join('\n');
+  console.log(table);
+  for (const f of result.failed) console.warn(`   ⚠️  ${platformOf(f.endpoint)}: ${f.status ?? ''} ${f.message}`);
+  summary(`### Notifiche\nWeb Push: ${line}.\n\n${table}`);
 
   if (result.sent === 0) {
     console.error('❌ Nessun avviso consegnato: riattiva le notifiche dall\'app (impostazioni → Notifiche)');
+    process.exitCode = 1;
+  }
+  // Un errore 4xx (tranne 429) non passa da solo: il job diventa rosso e GitHub avvisa.
+  // Gli errori 5xx e 429 sono passeggeri e non fanno fallire il job.
+  const permanent = result.failed.filter((f) => f.status && f.status >= 400 && f.status < 500 && f.status !== 429);
+  if (permanent.length > 0) {
+    console.error(`❌ ${permanent.length} dispositivi rifiutati dal servizio push: vedi i dettagli sopra`);
     process.exitCode = 1;
   }
 }
