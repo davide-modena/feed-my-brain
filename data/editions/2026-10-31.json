@@ -1,0 +1,400 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T05:32:06.183Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "USA approva vendita di 500 missili Patriot all'Ucraina",
+      "summary": "Il Dipartimento di Stato americano ha annunciato l'approvazione della vendita di cinquecento missili Patriot all'Ucraina. La transazione, gestita da Lockheed Martin, non prevede fondi statunitensi; il pagamento arriverà da donazioni canadesi, tedesche e norvegesi tramite il programma JUMPSTART e da un prestito dell'Unione europea. La mossa segue tensioni recenti tra Zelensky e Trump e mira a rafforzare la difesa aerea ucraina.",
+      "context": "La vendita rafforza la capacità di difesa aerea dell'Ucraina contro gli attacchi russi, confermando il sostegno militare occidentale. È parte di un più ampio pacchetto di aiuti internazionali che includono finanziamenti europei.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ea75/live/f93e2820-d4b7-11f1-a701-fddedf244c16.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quanti missili Patriot sono stati approvati per la vendita all'Ucraina?",
+          "options": [
+            "500",
+            "300",
+            "400",
+            "600"
+          ],
+          "answer": 0,
+          "explanation": "Il comunicato del Dipartimento di Stato indica la vendita di 500 missili Patriot."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-10-31-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Parlamentari italiani tra i più ricchi: 'Paperoni' in Parlamento",
+      "summary": "I primi dati sulle dichiarazioni patrimoniali dei parlamentari italiani mostrano redditi elevati per alcuni esponenti. Il deputato di Fratelli d'Italia Andrea Di Giuseppe dichiara oltre 3,5 milioni di euro, raddoppiati rispetto all'anno precedente, gran parte dei quali percepiti negli Stati Uniti. Seguono la senatrice leghista Giulia Bongiorno con 2,6 milioni e l'ex ministro Giulio Tremonti con oltre 2 milioni. Molti altri deputati e senatori hanno già pubblicato i propri redditi, che variano da poche decine di migliaia a centinaia di migliaia di euro.",
+      "context": "La trasparenza patrimoniale dei politici è un tema centrale per la fiducia dei cittadini. Confrontare i redditi dei parlamentari con la media nazionale aiuta a valutare la distanza tra classe politica e elettori. I dati aggiornati permettono di monitorare eventuali conflitti d'interesse o cambiamenti significativi nella situazione economica dei rappresentanti.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/30/di-giuseppe-bongiorno-e-tremonti-i-paperoni-in-parlamento_c60dd174-5133-47d3-824f-df67f6bcb681.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/30/38b039688e24ffcbf5a18c30d13bced0.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/10/30/di-giuseppe-bongiorno-e-tremonti-i-paperoni-in-parlamento_c60dd174-5133-47d3-824f-df67f6bcb681.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale parlamentare ha dichiarato il reddito più alto tra quelli menzionati?",
+          "options": [
+            "Giulia Bongiorno",
+            "Andrea Di Giuseppe",
+            "Giulio Tremonti",
+            "Meinhard Durnwalder"
+          ],
+          "answer": 1,
+          "explanation": "Andrea Di Giuseppe ha dichiarato un reddito complessivo di oltre 3,5 milioni di euro, superando gli altri parlamentari citati."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-10-31-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Apple Intelligence arriva in Cina con iOS 27.3",
+      "summary": "Apple lancerà alcune funzionalità di Apple Intelligence in Cina tramite la beta di iOS 27.3, prevista per il 4 novembre, con il rilascio completo a dicembre. Saranno disponibili strumenti come riepilogo notifiche, traduzione in tempo reale e editing fotografico, ma non la nuova Siri AI. L'azienda ha collaborato con Alibaba per integrare il chatbot Qwen in determinate esperienze.",
+      "context": "L'approvazione regolatoria avvenuta a luglio segnala l'ingresso ufficiale dell'IA di Apple nel mercato cinese. L'integrazione con Alibaba riflette la strategia di localizzazione dei servizi, simile all'accordo precedente con OpenAI, adattandosi alle normative locali sui dati e sui contenuti.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+      },
+      "quiz": [
+        {
+          "question": "Quale azienda cinese ha collaborato con Apple per integrare un chatbot in iOS 27.3?",
+          "options": [
+            "Tencent",
+            "Alibaba",
+            "Baidu",
+            "Huawei"
+          ],
+          "answer": 1,
+          "explanation": "Il materiale specifica che Apple ha lavorato con Alibaba per aggiungere il supporto al chatbot Qwen."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-10-31-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Rick Ross: archiviata l'accusa di lesioni gravi nel caso di violenza domestica",
+      "summary": "Nei giorni scorsi, i pubblici ministeri hanno ritirato l'accusa di lesioni gravi per strangolamento contro il rapper Rick Ross, nell'ambito del procedimento per violenza domestica avviato a Miami. La decisione è arrivata per insufficienza di prove durante la seconda udienza del rapper. Rimangono invece in piedi le accuse minori. L'artista si è sempre dichiarato innocente rispetto alle accuse mosse dalla sua ex fidanzata in merito a un episodio avvenuto ad agosto.",
+      "context": "Le accuse di violenza domestica nei confronti di personaggi pubblici attraggono sempre una forte attenzione mediatica e comportano conseguenze legali complesse. L'archiviazione del capo d'imputazione più grave rappresenta una svolta rilevante nel percorso giudiziario dell'artista.",
+      "sources": [
+        {
+          "name": "HipHopWired",
+          "url": "https://hiphopwired.com/3068728/felony-charge-cut-from-rick-ross-domestic-assault-case-details/"
+        },
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/rick-ross-felony-battery-charge-dropped/"
+        }
+      ],
+      "image": {
+        "url": "https://hiphopwired.com/wp-content/uploads/sites/43/2026/10/17933844294628.jpg?quality=85&strip=all&w=1024&crop=0,0,100,683px",
+        "credit": "HipHopWired",
+        "link": "https://hiphopwired.com/3068728/felony-charge-cut-from-rick-ross-domestic-assault-case-details/"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo è stata ritirata l'accusa di lesioni gravi contro Rick Ross?",
+          "options": [
+            "Per insufficienza di prove",
+            "Per un errore procedurale della polizia",
+            "Per un accordo extragiudiziale",
+            "Perché la parte offesa ha ritirato la denuncia"
+          ],
+          "answer": 0,
+          "explanation": "I pubblici ministeri hanno deciso di far cadere l'accusa più grave a causa della mancanza di prove sufficienti."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-10-31-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Tesori e gioielli nascosti a Pompei: una nuova scoperta archeologica",
+      "summary": "Negli scavi di Pompei, gli archeologi hanno trovato un armadio in legno sigillato da quasi duemila anni in una casa di Via dell'Abbondanza. All'interno c'erano oggetti personali tra cui monete, attrezzi per il trucco, una boccetta per profumo e una collana infantile con ciondoli raffiguranti divinità. La presenza di oggetti di valore e denaro suggerisce che i proprietari siano dovuti fuggire rapidamente a causa dell'eruzione del Vesuvio nel settantanove dopo Cristo.",
+      "context": "Questi ritrovamenti offrono dettagli preziosi sulla vita quotidiana e sui movimenti delle persone nel mondo romano antico. Nuove esplorazioni e restauri nei siti archeologici continuano a restituire reperti utili a comprendere la storia dell'area.",
+      "sources": [
+        {
+          "name": "The Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/oct/30/perfume-bottle-child-necklace-pompeii-wardrobe"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/cbb6e50e8024e1511f3898626ebb804146ccba7e/47_0_1406_1125/master/1406.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=18db9c3d85ebfe0bfad1a5bec95b3860",
+        "credit": "The Guardian Science",
+        "link": "https://www.theguardian.com/science/2026/oct/30/perfume-bottle-child-necklace-pompeii-wardrobe"
+      },
+      "quiz": [
+        {
+          "question": "Cosa è stato scoperto all'interno di un armadio di legno sigillato a Pompei?",
+          "options": [
+            "Un gruppo di statue in marmo bianco",
+            "Oggetti personali, monete e una collana infantile",
+            "Documenti scritti sulla storia della città",
+            "Armi appartenute ai soldati romani"
+          ],
+          "answer": 1,
+          "explanation": "Nell'armadio sono stati trovati oggetti personali come monete, attrezzi per il trucco e una collana da bambino con ciondoli."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-10-31-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Tensioni tra governo e banche sul contributo alla manovra e caro energia",
+      "summary": "Il ministro dell'Economia Giancarlo Giorgetti ha ribadito che le banche devono contribuire alla manovra statale, ricordando il precedente sostegno ricevuto dallo Stato. Intanto, l'istituto nazionale di statistica ha certificato una crescita economica ferma nel terzo trimestre e un'inflazione salita al 5,4% a ottobre, spinta principalmente dai forti rincari energetici.",
+      "context": "Il confronto tra esecutivo e istituti di credito sulla partecipazione alle spese pubbliche si inserisce in un quadro di rallentamento economico e inflazione elevata. Misure fiscali mirate e interventi sulle bollette restano al centro del dibattito politico ed economico nazionale.",
+      "sources": [
+        {
+          "name": "Repubblica Economia",
+          "url": "https://www.repubblica.it/economia/2026/10/31/news/giorgetti_e_le_banche_manovra_tutti_quanti_devono_contribuire-425689013/?rss"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/30/il-caro-energia-fa-danni-vola-linflazione-e-la-crescita-si-ferma_6ea6c523-9671-4e3d-b1df-e2cfbfa1e6fd.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/10/31/013946523-677691a7-2204-41ae-9534-66729a9b0c60.jpg",
+        "credit": "Repubblica Economia",
+        "link": "https://www.repubblica.it/economia/2026/10/31/news/giorgetti_e_le_banche_manovra_tutti_quanti_devono_contribuire-425689013/?rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale richiesta ha avanzato il ministro dell'Economia Giancarlo Giorgetti nei confronti delle banche?",
+          "options": [
+            "Di contribuire alla manovra statale",
+            "Di azzerare le commissioni sui conti",
+            "Di tagliare i tassi di interesse",
+            "Di finanziare direttamente le bollette"
+          ],
+          "answer": 0,
+          "explanation": "Giorgetti ha affermato che le banche devono contribuire, ricordando che in passato hanno ricevuto aiuto dallo Stato."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-10-31-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "La Mostra del Cinema di Venezia entra nei festival con accesso diretto agli Oscar",
+      "summary": "L'organizzazione che assegna i premi Oscar ha deciso che i film vincitori della Mostra Internazionale d'Arte Cinematografica di Venezia potranno concorrere direttamente per la categoria del miglior film internazionale. La modifica al regolamento, annunciata dai vertici dell'Academy, evita ai vincitori il passaggio dai comitati di selezione nazionali. Il provvedimento riguarda anche Berlino, Busan, Cannes, Sundance e Toronto.",
+      "context": "Questo cambiamento apre nuove strade per il cinema internazionale, riducendo il controllo dei singoli Paesi sulle candidature agli Oscar. Sarà importante osservare come questa via alternativa influirà sulle dinamiche di distribuzione e sulle scelte dei festival.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/tgr/veneto/articoli/2026/10/mostra-venezia-film-vincitori-candidatura-diretta-oscar-miglior-film-internazionale-f0a4c052-6ef5-47bc-9320-a11c44cdbbe6.html"
+        },
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/10/30/i-film-vincitori-a-venezia-potranno-concorrere-direttamente-agli-oscar_0d846397-a21c-4219-85fc-2238624d4c86.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/08/08/1786184050645_Lido_di_Venezia_il_palazzo_del_Cinema.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/tgr/veneto/articoli/2026/10/mostra-venezia-film-vincitori-candidatura-diretta-oscar-miglior-film-internazionale-f0a4c052-6ef5-47bc-9320-a11c44cdbbe6.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale vantaggio introduce la nuova regola dell'Academy per i film vincitori a Venezia?",
+          "options": [
+            "Possono partecipare agli Oscar anche se sono in lingua inglese",
+            "Ricevono un finanziamento speciale per la distribuzione mondiale",
+            "Ottengono una nomination automatica alla cinquina finale degli Oscar",
+            "Possono accedere direttamente alla valutazione per il miglior film internazionale senza la selezione nazionale"
+          ],
+          "answer": 3,
+          "explanation": "La modifica permette ai film vincitori nei festival selezionati di saltare il comitato nazionale, pur dovendo rispettare gli altri requisiti."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-10-31-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "MotoGP: Alex Marquez conquista la pole a Sepang battendo il fratello Marc",
+      "summary": "Alex Marquez ha ottenuto la pole position nel Gran Premio della Malesia a Sepang, precedendo il fratello Marc. Per il pilota della Ducati Gresini si tratta della prima partenza al palo a 420 giorni di distanza dall'ultima volta, avvenuta in Catalogna nel 2025. La prima fila è stata completata da Pedro Acosta, terzo. Intanto, Jorge Martin ha dovuto rinunciare al fine settimana di gara a causa di un infortunio al polso.",
+      "context": "Le qualifiche della MotoGP a Sepang offrono indicazioni importanti per la griglia di partenza nella fase finale della stagione. La gestione delle rivalità in famiglia e il recupero degli infortunati restano nodi centrali da seguire nei prossimi appuntamenti del campionato.",
+      "sources": [
+        {
+          "name": "Sky Sport",
+          "url": "https://sport.sky.it/motogp/2026/10/31/motogp-qualifiche-pole-gp-malesia-sepang-highlights-video"
+        },
+        {
+          "name": "Sky Sport",
+          "url": "https://sport.sky.it/motogp/2026/10/31/bagnaia-rompe-culino-qualifiche-gp-malesia-video"
+        },
+        {
+          "name": "Sky Sport",
+          "url": "https://sport.sky.it/motogp/video/2026/10/31/motogp-gp-malesia-qualifiche-highlights-1136072"
+        }
+      ],
+      "image": {
+        "url": "https://sport.sky.it/assets/images/25f8da06410dac9e380d58650de5e3fcc6ef8592/skysport/it/motori/motogp/2026/10/31/motogp-qualifiche-pole-gp-malesia-sepang-highlights-video/griglia_sepang_dorna.jpg?im=Resize,width=1218",
+        "credit": "Sky Sport",
+        "link": "https://sport.sky.it/motogp/2026/10/31/motogp-qualifiche-pole-gp-malesia-sepang-highlights-video"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha conquistato la pole position nelle qualifiche della MotoGP a Sepang?",
+          "options": [
+            "Jorge Martin",
+            "Pedro Acosta",
+            "Alex Marquez",
+            "Marc Marquez"
+          ],
+          "answer": 2,
+          "explanation": "Alex Marquez ha ottenuto la pole position battendo il fratello Marc."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-10-31-7"
+    },
+    {
+      "category": "storia",
+      "tag": "31 ottobre 2008",
+      "title": "La pubblicazione del white paper di Bitcoin",
+      "summary": "Nel novembre del 2008, la persona o il gruppo noto con lo pseudonimo di Satoshi Nakamoto ha pubblicato il white paper di Bitcoin sulla Cryptography Mailing List. Questo documento ha gettato le basi per la creazione della prima criptovaluta e della relativa rete peer-to-peer basata sulla blockchain.",
+      "context": "La pubblicazione del white paper ha introdotto il concetto di valuta digitale decentralizzata, eliminando la necessità di intermediari finanziari come le banche centrali. Ha cambiato il settore finanziario globale e ha aperto la strada a un intero ecosistema di asset digitali.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Satoshi_Nakamoto"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Satoshi_Nakamoto.jpg/1280px-Satoshi_Nakamoto.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Satoshi_Nakamoto.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Dove ha pubblicato Satoshi Nakamoto il white paper di Bitcoin nel 2008?",
+          "options": [
+            "Sulla Cryptography Mailing List",
+            "Sul sito ufficiale di Newsweek",
+            "Sulla rivista The Economist",
+            "Sul blog personale di Craig Wright"
+          ],
+          "answer": 0,
+          "explanation": "Satoshi Nakamoto ha presentato il protocollo di Bitcoin pubblicando il white paper sulla Cryptography Mailing List nel novembre del 2008."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-10-31-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Agatocle",
+      "title": "Il neonato che sfidò una profezia cartaginese",
+      "summary": "Agatocle, futuro tiranno di Siracusa, nacque a Terme intorno al 360 a.C. secondo una leggenda, il padre, turbato da un oracolo di Delfi che prevedeva che il figlio sarebbe stato il flagello di Cartagine, lo consegnò pubblicamente ai Carthaginesi per farlo uccidere. La madre lo salvò, lo nascose e lo allevò, permettendo al bambino di crescere e, più tardi, di guidare la Sicilia contro Cartagine.",
+      "context": "Agatocle divenne tiranno di Siracusa nel 317 a.C. e condusse la prima invasione siciliana in Africa contro Cartagine, segnando una delle più audaci campagne militari dell’età ellenistica.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Agatocle"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Agatocle.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Agatocle.png"
+      },
+      "quiz": [
+        {
+          "question": "Secondo la leggenda, quale azione compì il padre di Agatocle dopo aver ricevuto il presagio dell’oracolo di Delfi?",
+          "options": [
+            "Lo affidò a un amico di famiglia",
+            "Lo consegnò ai Carthaginesi per farlo uccidere",
+            "Lo nascose in un tempio",
+            "Lo mandò a studiare a Atene"
+          ],
+          "answer": 1,
+          "explanation": "Il padre, temendo la profezia, affidò il neonato ai Carthaginesi sperando nella sua morte."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-10-31-9"
+    }
+  ]
+}
