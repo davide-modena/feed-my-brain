@@ -1,0 +1,388 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T05:32:37.720Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacco alla raffineria Lukoil di Kstovo",
+      "summary": "Il 1 novembre 2026 la raffineria Lukoil‑Nizhegorodnefteorgsintez di Kstovo, in Russia, è stata colpita da un attacco che ha innescato un vasto incendio. L’impianto, una delle più grandi raffinerie del Paese, ha una capacità di circa 17 milioni di tonnellate di petrolio all’anno. L’incendio ha interrotto temporaneamente le operazioni. Le autorità locali hanno avviato le operazioni di contenimento e le forze di sicurezza stanno indagando sull’origine dell’attacco.",
+      "context": "La raffineria di Kstovo è cruciale per la produzione di carburante russo; un’interruzione può influire sui volumi di esportazione e sui prezzi internazionali, mentre l’attacco evidenzia vulnerabilità delle infrastrutture energetiche.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/11/attacco-a-raffineria-di-petrolio-lukoil-nizhegorodnefteorgsintez-in-russia-video-387a4edd-e19d-4cad-8a00-a8926a2d39be.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/01/1793510267263__.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/11/attacco-a-raffineria-di-petrolio-lukoil-nizhegorodnefteorgsintez-in-russia-video-387a4edd-e19d-4cad-8a00-a8926a2d39be.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la capacità annua di lavorazione della raffineria di Kstovo colpita dall’attacco?",
+          "options": [
+            "5 milioni di tonnellate",
+            "25 milioni di tonnellate",
+            "17 milioni di tonnellate",
+            "10 milioni di tonnellate"
+          ],
+          "answer": 2,
+          "explanation": "Il testo indica una capacità di circa 17 milioni di tonnellate all’anno."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-01-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Allerta tsunami in Liguria: esercitazione di protezione civile",
+      "summary": "La Protezione civile nazionale ha annunciato un'esercitazione di allerta tsunami nel Mar Ligure per il cinque novembre. Il test, che coinvolgerà anche Toscana e Sardegna, simula un terremoto di magnitudo 6,9. Durante la prova, attiva dalle nove alle quattordici, verranno inviati messaggi di prova tramite e-mail e sms per testare i piani di emergenza e i sistemi di previsione.",
+      "context": "Le esercitazioni periodiche sono fondamentali per testare la catena di comando e l'efficacia dei sistemi di allarme rapido in caso di maremoto. Nel Mediterraneo il rischio tsunami è reale, legato all'attività sismica di faglie sottomarine complesse.",
+      "sources": [
+        {
+          "name": "Repubblica",
+          "url": "https://genova.repubblica.it/cronaca/2026/10/31/news/allerta_tsunami_in_liguria_5_novembre_protezione_civile_anci_esercitazione_ingv_mar_ligure_terremoto_maremoto-425690238/?rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/localirep/img/rep-genova/2026/10/31/184327049-1446907f-4f9f-4708-8ff3-8a25611b8f0c.jpg",
+        "credit": "Repubblica",
+        "link": "https://genova.repubblica.it/cronaca/2026/10/31/news/allerta_tsunami_in_liguria_5_novembre_protezione_civile_anci_esercitazione_ingv_mar_ligure_terremoto_maremoto-425690238/?rss"
+      },
+      "quiz": [
+        {
+          "question": "Cosa prevede l'esercitazione della Protezione civile prevista per il cinque novembre?",
+          "options": [
+            "La chiusura di tutti i porti della Liguria",
+            "Un test di evacuazione totale della Sardegna",
+            "Una simulazione di tsunami nel Mar Ligure",
+            "Un vero allarme per un terremoto in corso"
+          ],
+          "answer": 2,
+          "explanation": "L'esercitazione simula uno scenario di maremoto nel Mar Ligure innescato da un terremoto di magnitudo 6,9."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-01-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Come Joe Mazzulla usa l'intelligenza artificiale per allenare i Boston Celtics",
+      "summary": "Nei giorni scorsi, l'allenatore dei Boston Celtics Joe Mazzulla ha spiegato come utilizza quotidianamente l'intelligenza artificiale per migliorare il proprio lavoro. Durante un intervento radiofonico e dopo un allenamento, Mazzulla ha chiarito che non usa la tecnologia per scopi di gioco tradizionali, bensì per mettere alla prova i processi di squadra, organizzare le idee, analizzare gli aspetti psicologici e ottimizzare la gestione dei video e dei piani di preparazione.",
+      "context": "L'uso di strumenti digitali avanzati nel🏀 sport professionistico sta crescendo per ottimizzare la preparazione atletica e tattica. L'esperienza dei Boston Celtics mostra come gli allenatori stiano sperimentando nuove tecnologie per mettere in discussione i propri metodi tradizionali di lavoro.",
+      "sources": [
+        {
+          "name": "Celtics Wire",
+          "url": "https://celticswire.usatoday.com/story/sports/nba/celtics/2026/10/31/mazzulla-on-how-he-uses-artificial-intelligence-to-help-celtics/92529075007/"
+        },
+        {
+          "name": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/artificial-intelligence-tools-155658776.html"
+        }
+      ],
+      "image": {
+        "url": "https://celticswire.usatoday.com/gcdn/authoring/authoring-images/2026/10/31/SCEL/92529585007-20261031-t-014623-z-1931268958-mt-1-usatoday-30230805-rtrmadp-3-nbachicagobullsatbostonceltics.JPG?crop=4480,2520,x0,y0&width=3200&height=1800&format=pjpg&auto=webp",
+        "credit": "Celtics Wire",
+        "link": "https://celticswire.usatoday.com/story/sports/nba/celtics/2026/10/31/mazzulla-on-how-he-uses-artificial-intelligence-to-help-celtics/92529075007/"
+      },
+      "quiz": [
+        {
+          "question": "A cosa serve principalmente l'intelligenza artificiale per Joe Mazzulla?",
+          "options": [
+            "A definire gli schemi di gioco in tempo reale durante le partite",
+            "A scegliere i giocatori da acquistare durante il mercato",
+            "A gestire la comunicazione con la stampa e i tifosi",
+            "A mettere alla prova e migliorare i processi di allenamento e preparazione"
+          ],
+          "answer": 3,
+          "explanation": "Mazzulla usa l'intelligenza artificiale per verificare l'efficienza dei suoi metodi, organizzare le idee e migliorare la preparazione della squadra."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-01-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "LL Cool J annuncia la residency Rock the Bells a Las Vegas",
+      "summary": "Il rapper LL Cool J ha annunciato una serie di concerti intitolata \"Rock the Bells: the Residency\" al Dolby Live del Park MGM di Las Vegas, previsti per la prossima primavera ed estate. Lo spettacolo celebrerà la storia dell'hip-hop con ospiti speciali di diverse generazioni. I biglietti saranno in vendita da lunedì.",
+      "context": "Le residenze artistiche a Las Vegas offrono agli artisti stabilità e ai fan spettacoli esclusivi in contesti dedicati. Questo formato attira visitatori da tutto il mondo, confermando la città come hub globale per l'intrattenimento musicale dal vivo.",
+      "sources": [
+        {
+          "name": "Casino.org",
+          "url": "https://www.casino.org/news/vegas-music-news-park-mgm-books-ll-cool-j-doobie-brothers-make-bleau-debut-foreigner-finally-snags-a-founding-member/"
+        }
+      ],
+      "image": {
+        "url": "https://www.casino.org/news/wp-content/uploads/2026/10/OdysseyxTS3118.jpg",
+        "credit": "Casino.org",
+        "link": "https://www.casino.org/news/vegas-music-news-park-mgm-books-ll-cool-j-doobie-brothers-make-bleau-debut-foreigner-finally-snags-a-founding-member/"
+      },
+      "quiz": [
+        {
+          "question": "Dove si terrà la residency \"Rock the Bells\" di LL Cool J?",
+          "options": [
+            "Al Venetian",
+            "Al BleauLive Theater",
+            "Al Dolby Live del Park MGM",
+            "Al Fontainebleau"
+          ],
+          "answer": 2,
+          "explanation": "La residency di LL Cool J si terrà al Dolby Live del Park MGM a Las Vegas."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-01-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Ragni saltatori: confermata la fase REM",
+      "summary": "Uno studio pubblicato su PNAS conferma che i ragni saltatori (Portia fimbriata) possiedono fasi del sonno distinte, inclusa la fase REM. I ricercatori hanno utilizzato telecamere a infrarossi per registrare i movimenti notturni degli aracnidi, osservando periodi di immobilità totale interrotti da scatti incontrollati di arti e occhi, simili ai sogni umani. Questo lavoro integra e valida le osservazioni preliminari del 2022, stabilendo che anche questi animali non mammiferi attraversano cicli complessi di riposo.",
+      "context": "La scoperta amplia la comprensione dell'evoluzione del sonno, dimostrando che meccanismi complessi come la fase REM non sono esclusivi dei mammiferi. Aiuta a chiarire le origini biologiche del riposo e la sua funzione adattativa in specie molto diverse tra loro.",
+      "sources": [
+        {
+          "name": "Focus",
+          "url": "https://www.focus.it/ambiente/animali/e-ufficiale-anche-i-ragni-hanno-la-fase-rem"
+        }
+      ],
+      "image": {
+        "url": "https://www.focus.it/images/2026/10/30/portia-fimbriata-orig.png",
+        "credit": "Focus",
+        "link": "https://www.focus.it/ambiente/animali/e-ufficiale-anche-i-ragni-hanno-la-fase-rem"
+      },
+      "quiz": [
+        {
+          "question": "Come hanno i ricercatori confermato che i ragni erano effettivamente addormentati e non solo in riposo?",
+          "options": [
+            "Misurando le onde cerebrali con elettrodi",
+            "Ascoltando i suoni emessi durante la notte",
+            "Osservando la variazione della temperatura corporea",
+            "Registrando i movimenti con telecamere a infrarossi"
+          ],
+          "answer": 3,
+          "explanation": "Lo studio ha utilizzato telecamere a infrarossi per identificare la postura specifica del sonno e i movimenti incontrollati tipici della fase REM."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-01-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Italia: Pil fermo e inflazione al 5,4% nel terzo trimestre",
+      "summary": "Secondo l'Istat, il PIL italiano è rimasto fermo nel terzo trimestre 2026, con una crescita tendenziale dello 0,8%. L'inflazione è salita al 5,4% su base annua a settembre, spinta dai prezzi energetici e alimentari. Gli stipendi sono cresciuti solo del 2,5%, non tenendo il passo con i costi. Il governo aveva previsto una crescita annua dell'1%, obiettivo ora a rischio.",
+      "context": "La stagnazione economica si combina con un'inflazione elevata, riducendo il potere d'acquisto delle famiglie. Il divario tra retribuzioni e prezzi erode i redditi reali. La situazione mette a dura prova gli obiettivi di bilancio e crescita previsti dal governo per la fine dell'anno.",
+      "sources": [
+        {
+          "name": "la Repubblica",
+          "url": "https://www.repubblica.it/economia/2026/10/30/news/istat_pil_terzo_trimestre_crescita_zero-425686535/"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/10/30/101535674-e96f6776-84b8-404b-bec0-71a716bdf522.jpg",
+        "credit": "la Repubblica",
+        "link": "https://www.repubblica.it/economia/2026/10/30/news/istat_pil_terzo_trimestre_crescita_zero-425686535/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la crescita del PIL italiano nel terzo trimestre 2026?",
+          "options": [
+            "1,0%",
+            "0,8%",
+            "0,0%",
+            "-0,5%"
+          ],
+          "answer": 2,
+          "explanation": "Il testo specifica che la crescita del Pil tra giugno e settembre è stata ferma, ovvero a zero."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-01-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Il cast di Godzilla Minus Zero trionfa al Festival di Tokyo",
+      "summary": "Il cast del film Godzilla Minus Zero ha partecipato al trentanovesimo Festival Internazionale del Cinema di Tokyo. Gli attori Kamiki Ryunosuke e Hamabe Minami hanno raccontato l'accoglienza trionfale ricevuta a Los Angeles, con una lunga ovazione e fan in delirio per il regista Yamazaki Takashi. All'evento giapponese ha partecipato anche la giovane attrice Nagatani Sae, lodata dai colleghi per la sua crescita artistica e per aver recitato con battute complete.",
+      "context": "L'evento celebra il successo internazionale della saga cinematografica di Godzilla, capace di attrarre grandi pubblici sia in Giappone sia all'estero. Questo appuntamento anticipa l'uscita in sala del nuovo capitolo diretto da Yamazaki Takashi, confermando l'importanza del franchise per il cinema giapponese contemporaneo.",
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/festivals/godzilla-minus-zero-stars-relive-hollywood-ovation-tokyo-festival-1236936612/"
+        }
+      ],
+      "image": {
+        "url": "https://variety.com/wp-content/uploads/2026/10/Godzilla-Minus-Zero-stars.jpg?w=1000&h=563&crop=1",
+        "credit": "Variety",
+        "link": "https://variety.com/2026/film/festivals/godzilla-minus-zero-stars-relive-hollywood-ovation-tokyo-festival-1236936612/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa hanno raccontato gli attori Kamiki Ryunosuke e Hamabe Minami durante il festival di Tokyo?",
+          "options": [
+            "Hanno descritto la straordinaria accoglienza e l'ovazione ricevute a Los Angeles",
+            "Hanno annunciato il loro ritiro dalle scene cinematografiche",
+            "Hanno criticato il lavoro del regista Yamazaki Takashi sul set",
+            "Hanno spiegato di aver avuto problemi con la memorizzazione delle battute"
+          ],
+          "answer": 0,
+          "explanation": "Gli attori hanno condiviso l'entusiasmo e la lunga ovazione ricevuta dai fan durante l'anteprima a Los Angeles."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-01-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Boxe, Canelo Alvarez batte Mbilli e riconquista il titolo mondiale WBC dei supermedi",
+      "summary": "Il pugile messicano Saúl Alvarez ha battuto il francese Christian Mbilli per decisione unanime dei giudici a Riad, riconquistando il titolo mondiale WBC dei pesi supermedi. L'incontro si è disputato ieri sera alla Kingdom Arena in un clima di forte tensione per motivi di sicurezza legati ad attacchi missilistici nella capitale saudita. Per Mbilli si tratta della prima sconfitta in carriera.",
+      "context": "Questo successo permette ad Alvarez di rilanciarsi ai vertici della boxe mondiale dopo la recente sconfitta che gli era costata le corone. L'Arabia Saudita continua a investire massicciamente per ospitare grandi eventi sportivi internazionali nonostante le tensioni geopolitiche regionali.",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/oct/31/canelo-alvarez-christian-mbilli-wbc-world-title-riyadh-boxing"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/altrisport/2026/11/01/boxe-canelo-alvarez-batte-mbilli-e-riconquista-il-titolo-wbc-dei-supermedi_5738ef3a-76af-45a0-87e4-c0f9af5fac50.html"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/5fa6c04e82df82f5a0fc397a61526e00d153f0d7/468_0_4034_3229/master/4034.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bfb317860da4f5d9d34113ed6bf9059e",
+        "credit": "The Guardian Sport",
+        "link": "https://www.theguardian.com/sport/2026/oct/31/canelo-alvarez-christian-mbilli-wbc-world-title-riyadh-boxing"
+      },
+      "quiz": [
+        {
+          "question": "Quale titolo ha riconquistato Saúl Alvarez battendo Christian Mbilli?",
+          "options": [
+            "Il titolo europeo dei pesi supermedi",
+            "La cintura mondiale dei pesi medi",
+            "Il titolo mondiale dei pesi massimi",
+            "Il titolo mondiale WBC dei pesi supermedi"
+          ],
+          "answer": 3,
+          "explanation": "La vittoria contro Christian Mbilli ha permesso ad Alvarez di riconquistare la cintura mondiale WBC dei pesi supermedi."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-01-7"
+    },
+    {
+      "category": "storia",
+      "tag": "1 novembre 1884",
+      "title": "La conferenza di Washington sceglie il meridiano di Greenwich",
+      "summary": "Nel corso della conferenza internazionale tenuta a Washington nel 1884, venticinque nazioni decisero di adottare il meridiano che passa per l'osservatorio di Greenwich come riferimento globale per il calcolo della longitudine. L'incontro stabili inoltre le basi per un giorno universale basato sul tempo solare medio, pur non definendo direttamente le zone temporali ufficiali.",
+      "context": "La scelta di un meridiano unico ha eliminato la confusione dei precedenti riferimenti locali, agevolando la navigazione e le comunicazioni globali. Questa decisione ha posto le fondamenta per la sincronizzazione dell'ora in tutto il mondo.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Conferenza_internazionale_dei_meridiani"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Royal_observatory_greenwich.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Royal_observatory_greenwich.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale meridiano fu scelto come riferimento internazionale durante la conferenza?",
+          "options": [
+            "Il meridiano di Washington",
+            "Il meridiano di Ferro",
+            "Il meridiano di Parigi",
+            "Il meridiano di Greenwich"
+          ],
+          "answer": 3,
+          "explanation": "La conferenza stabili di adottare il meridiano che attraversa l'osservatorio di Greenwich come meridiano iniziale."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-01-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Vincent-Marie Viénot de Vaublanc",
+      "title": "Il politico che sopravvisse a ogni regime francese",
+      "summary": "Nel corso della sua lunga vita, il politico e scrittore francese Vincent-Marie Viénot de Vaublanc riuscì a sostenere quasi tutti i governi che si alternarono in Francia, servendo Luigi XVI, Napoleone, Luigi XVIII e Carlo X. Sebbene sia stato proscritto quattro volte da diversi regimi politici nel periodo turbolento tra la Rivoluzione e la Restaurazione, fu sempre ricercato ma non venne mai arrestato, riuscendo ogni volta a rientrare nelle grazie dei governanti.",
+      "context": "La parabola di Vaublanc attraversa decenni di profondi sconvolgimenti istituzionali in Francia, dalla fine della monarchia assoluta all'Impero e poi alla Restaurazione. La sua capacità di adattamento evidenzia il pragmatismo di una parte della classe dirigente dell'epoca, pronta a cambiare le proprie alleanze per sopravvivere ai mutamenti politici.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Vincent-Marie_Vi%C3%A9not_de_Vaublanc"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Comte_de_Vaublanc.JPG/1280px-Comte_de_Vaublanc.JPG",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Comte_de_Vaublanc.JPG"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu il destino politico di Vincent-Marie Viénot de Vaublanc durante i cambi di regime in Francia?",
+          "options": [
+            "Fu proscritto quattro volte ma non fu mai arrestato, servendo vari governi",
+            "Fuggì all'estero e non fece più ritorno in patria dopo la Rivoluzione",
+            "Si ritirò a vita privata rifiutando ogni incarico dopo il 1789",
+            "Venne imprigionato per molti anni sotto il regno di Napoleone"
+          ],
+          "answer": 0,
+          "explanation": "Nonostante sia stato proscritto quattro volte da diversi regimi, riuscì sempre a evitare l'arresto e a riconquistare il favore dei governanti."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-01-9"
+    }
+  ]
+}
