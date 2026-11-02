@@ -1,0 +1,370 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T05:36:26.587Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "App ucraina per raid aerei hackerata: falsi avvisi di radiazione",
+      "summary": "L'applicazione ucraina per gli allarmi aerei è stata hackerata domenica sera, generando falsi avvisi di minaccia radiologica e chimica a Kiev. L'Aeronautica ucraina ha smentito subito la minaccia, definendo l'evento un'interferenza ostile. Poche ore dopo, anche l'app russa è stata violata, con falsi allarmi nucleari inviati agli utenti. L'agenzia di intelligence ucraina ha consigliato di affidarsi ad altre fonti ufficiali.",
+      "context": "L'incidente evidenzia la crescente guerra cibernetica parallela ai combattimenti terrestri. La manipolazione delle app di allerta mira a seminare panico e disinformazione in entrambi i paesi. La sicurezza delle infrastrutture digitali è diventata un fronte critico nel conflitto.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/11/ucraina-guerra-finita-tregua-oleshky-zelensky-pronto-incontro-poutin-in-turchia-85fd93b2-6e4a-4420-a8c0-1885a24d3aaf.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3608/live/1d2513e0-d646-11f1-b441-2b33b063138f.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Cosa hanno comunicato le autorità ucraine dopo l'hack dell'app di allerta?",
+          "options": [
+            "Che c'era una vera minaccia nucleare in corso",
+            "Che gli avvisi erano un errore di sistema tecnico",
+            "Che l'app era stata soggetta a interferenza ostile e non c'era pericolo",
+            "Che l'applicazione era stata disattivata permanentemente"
+          ],
+          "answer": 2,
+          "explanation": "L'Aeronautica ucraina ha dichiarato che l'app era stata hackerata e ha rassicurato la popolazione sull'assenza di minacce reali."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-02-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Manovra 2027: tagli alla scuola e revisione stipendi magistrati",
+      "summary": "La manovra 2027 prevede la riduzione di 7.000 posti di lavoro nella scuola, tra docenti e personale amministrativo, tecnico e ausiliario. Parallelamente, l'articolo 67 riscrive il meccanismo di adeguamento degli stipendi dei magistrati, escludendo gli arretrati dal calcolo e introducendo una media ponderata basata sul numero di lavoratori. L'Associazione Nazionale Magistrati ha avvertito che la tutela retributiva è fondamentale per garantire l'indipendenza della giurisdizione.",
+      "context": "Le misure colpiscono settori sensibili come l'istruzione e la magistratura, alimentando tensioni con sindacati e ordini professionali. Il governo cerca di contenere la spesa pubblica e rispettare i vincoli di bilancio europei, ma rischia di aggravare il contenzioso amministrativo e le critiche politiche.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/01/manovra-stretta-sugli-aumenti-degli-stipendi-dei-magistrati-rivisti-i-criteri_20031262-e476-45eb-82ee-0356dd37c56f.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/11/manovra-economica-sostegni-e-tagli-la-scheda-misure-trebbi-1cfc5425-d49d-410f-89cc-ce3faff20f5c.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQVFuZVRFNDhTQjI0a095S2l6ZHhuajVCWXJaTm9Na3J4ZDBhTEVJbHlic2xNTWIybzhEQjZVUm1IbkhJc3pDdklENTlncnhTOWV0MGZEVDEyWUptOXhLYm56V3RSTTdrQ3lkWTdHWXpjMnBMNUJiZ1FhOXRYNTQ0eERZLXhmLW8?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/2/26/c68f476d77f69065013a3eb9f3837d32.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/11/01/manovra-stretta-sugli-aumenti-degli-stipendi-dei-magistrati-rivisti-i-criteri_20031262-e476-45eb-82ee-0356dd37c56f.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale modifica principale introduce la manovra 2027 agli stipendi dei magistrati?",
+          "options": [
+            "Aumento immediato del 5% per tutti i magistrati",
+            "Congelamento totale degli stipendi fino al 2030",
+            "Allineamento automatico agli stipendi dei dirigenti pubblici",
+            "Esclusione degli arretrati dal calcolo degli adeguamenti futuri"
+          ],
+          "answer": 3,
+          "explanation": "L'articolo 67 della manovra esclude gli arretrati pagati per rinnovi tardivi dal conteggio degli adeguamenti futuri, modificando il meccanismo di calcolo."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-02-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Jackery lancia Explorer 100D, la power station più piccola con batteria al litio ferro fosfato",
+      "summary": "Jackery ha presentato l'Explorer 100D, la sua power station portatile più piccola, con dimensioni 4,6 × 3,4 × 3,4 pollici e peso 1,87 lb. Monta una batteria al litio ferro fosfato da 96 Wh (30 000 mAh) con durata di otto anni e 3 000 cicli di carica. Offre due porte USB‑C da 140 W, una USB‑A da 18 W, output totale 158 W e accetta pannelli solari fino a 100 W. In vendita dal 15 novembre a 99 $ da Walmart, o in confezione doppia da 179,99 $ da Costco.",
+      "context": "Le power station portatili sono sempre più richieste per viaggi e emergenze; l'uso di batterie al litio ferro fosfato migliora sicurezza e durata, rendendo l'Explorer 100D una proposta competitiva nel segmento.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/jackery1.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la caratteristica principale della nuova Jackery Explorer 100D?",
+          "options": [
+            "Ha la più alta capacità di tutti i modelli",
+            "È la power station più piccola di Jackery",
+            "Utilizza batterie al litio tradizionali",
+            "Pesa più di 5 kg"
+          ],
+          "answer": 1,
+          "explanation": "La notizia sottolinea che l'Explorer 100D è la power station più piccola prodotta da Jackery."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-02-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Wu-Tang Clan al concerto di metà partita dei Detroit Lions",
+      "summary": "Il gruppo hip-hop Wu-Tang Clan si esibirà durante la pausa del match di football americano tra Detroit Lions e Chicago Bears, in programma il 26 novembre allo stadio Ford Field di Detroit. L'evento, trasmesso in diretta televisiva, fa parte della tradizionale partita del Giorno del Ringraziamento. La scelta degli artisti è stata curata da Eminem e dal suo manager Paul Rosenberg, che hanno selezionato il gruppo come atto principale dello spettacolo.",
+      "context": "La notizia evidenzia la collaborazione tra il mondo del football americano e la musica hip-hop, con Detroit come fulcro culturale. È interessante notare come il gruppo sia stato inserito nella Rock & Roll Hall of Fame nel 2026, sottolineando il suo status di icona musicale consolidata.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/wu-tang-clan-halftime-show-detroit-lions-thanksgiving-game-1236371793/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/11/wu-tang-clan-oct-3-2026-billboard-1800.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/wu-tang-clan-halftime-show-detroit-lions-thanksgiving-game-1236371793/"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha scelto il Wu-Tang Clan come atto principale del concerto di metà partita?",
+          "options": [
+            "Il sindaco di Detroit",
+            "I proprietari dei Detroit Lions",
+            "Eminem e il suo manager Paul Rosenberg",
+            "Il presidente della lega NFL"
+          ],
+          "answer": 2,
+          "explanation": "Eminem e Paul Rosenberg hanno agito come produttori esecutivi dello spettacolo, selezionando direttamente il gruppo per l'esibizione."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-02-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Il fossile di Nanotyrannus venduto a un privato per 47,3 milioni di dollari",
+      "summary": "Un raro fossile di Nanotyrannus, soprannominato Jodi, è stato venduto all'asta a un collezionista privato per 47,3 milioni di dollari. Questa transizione rende il reperto inaccessibile alla comunità scientifica, poiché le principali riviste accademiche rifiutano di pubblicare studi su esemplari di proprietà privata. Di conseguenza, il fossile è considerato 'perduto per la scienza', impedendo future ricerche verificabili e riducendo il suo valore per la paleontologia.",
+      "context": "La vendita evidenzia un conflitto crescente tra il mercato privato dei fossili e la ricerca accademica. Quando reperti rari passano in mani private, la scienza perde l'accesso a dati cruciali, limitando la comprensione evolutiva. Il caso solleva interrogativi su come bilanciare il valore economico dei fossili con la necessità di trasparenza e verifica nella ricerca scientifica.",
+      "sources": [
+        {
+          "name": "TecnoAndroid",
+          "url": "https://www.tecnoandroid.it/news/nanotyrannus-jodi-venduto-a-473-milioni-perduto-per-la-scienza-2004443/"
+        }
+      ],
+      "image": {
+        "url": "https://www.tecnoandroid.it/wp-content/uploads/2026/10/Rox-immagine-evidenza-2026-10-29T121425.533.jpg",
+        "credit": "TecnoAndroid",
+        "link": "https://www.tecnoandroid.it/news/nanotyrannus-jodi-venduto-a-473-milioni-perduto-per-la-scienza-2004443/"
+      },
+      "quiz": [
+        {
+          "question": "Perché il fossile di Nanotyrannus è considerato 'perduto per la scienza' dopo la vendita?",
+          "options": [
+            "Perché il prezzo di vendita era troppo alto per i musei",
+            "Perché le riviste scientifiche non pubblicano studi su esemplari privati",
+            "Perché il fossile è stato distrutto dopo l'asta",
+            "Perché è stato danneggiato durante il trasporto"
+          ],
+          "answer": 1,
+          "explanation": "Le riviste autorevoli non accettano ricerche su reperti di proprietà privata, rendendo impossibile la verifica accademica dei risultati."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-02-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Il regista Michael Mann ferito accidentalmente a una gamba con un'arma da fuoco al poligono",
+      "summary": "Il regista cinematografico Michael Mann, ottantatreenne, è stato portato in ospedale dopo essersi ferito accidentalmente a una gamba con un'arma da fuoco in un poligono di tiro a Los Angeles. Secondo quanto riferito, l'incidente è avvenuto mentre cercava di rimettere l'arma nella fondina, provocando uno sparo fortuito. La polizia ha confermato la natura accidentale dell'accaduto e il regista è stato trasportato in ospedale in condizioni stabili.",
+      "context": "Incidenti con armi da fuoco nei poligoni possono coinvolgere chiunque, sollevando spesso interrogativi sulla sicurezza nella gestione delle armi. L'evento arriva mentre il regista è impegnato nella preparazione del seguito del suo celebre film Heat.",
+      "sources": [
+        {
+          "name": "The Guardian Film",
+          "url": "https://www.theguardian.com/film/2026/nov/01/michael-mann-accidentally-shoots-himself-leg"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/9aea3e244e5b8f6508611933ef1afa3ad05ac8de/392_0_2725_2180/master/2725.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a4ec2a21d56c2b1f8a965f846d447675",
+        "credit": "The Guardian Film",
+        "link": "https://www.theguardian.com/film/2026/nov/01/michael-mann-accidentally-shoots-himself-leg"
+      },
+      "quiz": [
+        {
+          "question": "Come si è ferito Michael Mann?",
+          "options": [
+            "Mentre cercava di rimettere l'arma nella fondina al poligono",
+            "Sul set del suo ultimo film",
+            "Durante una rapina a Los Angeles",
+            "A causa di un guasto alla sua auto"
+          ],
+          "answer": 0,
+          "explanation": "L'arma è partita accidentalmente mentre il regista cercava di riporla nella fondina in un poligono di tiro."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-02-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Kimi Antonelli e il record storico in Formula 1",
+      "summary": "Il pilota italiano Kimi Antonelli ha vinto il suo primo titolo mondiale di Formula 1 alla guida della Mercedes, chiudendo al terzo posto il Gran Premio del Messico. A vent'anni, Antonelli diventa il più giovane campione del mondo nella storia della competizione e il primo italiano a riuscirci dopo Alberto Ascari nel 1953.",
+      "context": "La vittoria segna un cambio generazionale nella massima serie automobilistica ed è il primo titolo piloti per la Mercedes dall'ultimo successo di Lewis Hamilton nel 2020. Il primato di Antonelli apre una nuova era tecnica per il campionato.",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-youngest-f1-champion-mexican-gp"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/f1/2026/11/02/f1-antonelli-bezzecchi-kimi-non-vedo-lora-di-abbracciarti_95128815-52b4-4b2d-a83a-a7af9e844683.html"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/57e22d5876025b075baea7f5bf506cff165243e2/506_58_4136_3309/master/4136.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6885ecf90541df571cb6af5b0009a600",
+        "credit": "The Guardian Sport",
+        "link": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-youngest-f1-champion-mexican-gp"
+      },
+      "quiz": [
+        {
+          "question": "Quale record ha stabilito Kimi Antonelli vincendo il titolo mondiale?",
+          "options": [
+            "È il primo debuttante a vincere il mondiale",
+            "È il primo pilota a vincere con tre scuderie diverse",
+            "Ha vinto tutte le gare della stagione",
+            "È il più giovane campione del mondo di Formula 1"
+          ],
+          "answer": 3,
+          "explanation": "A vent'anni, Kimi Antonelli è diventato il più giovane pilota a conquistare il titolo mondiale nella storia della Formula 1."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-02-6"
+    },
+    {
+      "category": "storia",
+      "tag": "2 novembre 2000",
+      "title": "Il primo equipaggio arriva sulla Stazione spaziale internazionale",
+      "summary": "Nei giorni scorsi, esattamente il 2 novembre 2000, il primo equipaggio umano ha raggiunto la Stazione spaziale internazionale, dando inizio a una presenza continua nello spazio che dura ancora oggi. La struttura, gestita congiuntamente da cinque agenzie spaziali, serve come laboratorio in microgravità per la ricerca scientifica e per testare tecnologie utili all'esplorazione umana di lungo corso.",
+      "context": "La Stazione spaziale internazionale ha cambiato la storia della cooperazione internazionale nello spazio, unendo ex rivali della guerra fredda in un progetto comune. Ha aperto la strada alla ricerca di lungo periodo in assenza di peso e ponendo le basi per le future missioni commerciali e verso la Luna e Marte.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Stazione_spaziale_internazionale"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quando è arrivato il primo equipaggio sulla Stazione spaziale internazionale?",
+          "options": [
+            "Nel 2030",
+            "Nel 2021",
+            "Il 20 novembre 1998",
+            "Il 2 novembre 2000"
+          ],
+          "answer": 3,
+          "explanation": "Il primo equipaggio ha raggiunto la stazione spaziale il 2 novembre 2000, inaugurando la presenza umana stabile."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-02-7"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Operazione Bagration",
+      "title": "La più grande disfatta tedesca",
+      "summary": "Nell'estate del 1944 l'Armata Rossa sferrò l'operazione Bagration in Bielorussia, infliggendo alla Germania nazista la sua peggiore sconfitta della seconda guerra mondiale. Questa imponente offensiva terrestre, condotta con una massiccia superiorità di truppe e mezzi e pianificata nel massimo segreto, superò per perdite umane e materiali persino la famosa battaglia di Stalingrado.",
+      "context": "L'operazione si inserisce nella fase finale del fronte orientale, combattuta in contemporanea con lo sbarco in Normandia. Per la Germania rappresentò il collasso definitivo del settore centrale, aprendo la strada all'avanzata sovietica verso Berlino e segnando le sorti del conflitto.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Operazione_Bagration"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Miensk%2C_Zachara%C5%ADskaja%2C_Dom_uradu._%D0%9C%D0%B5%D0%BD%D1%81%D0%BA%2C_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B0%D1%9E%D1%81%D0%BA%D0%B0%D1%8F%2C_%D0%94%D0%BE%D0%BC_%D1%83%D1%80%D0%B0%D0%B4%D1%83_%283.07.1944%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Miensk%2C_Zachara%C5%ADskaja%2C_Dom_uradu._%D0%9C%D0%B5%D0%BD%D1%81%D0%BA%2C_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B0%D1%9E%D1%81%D0%BA%D0%B0%D1%8F%2C_%D0%94%D0%BE%D0%BC_%D1%83%D1%80%D0%B0%D0%B4%D1%83_(3.07.1944).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu il primato negativo della Germania durante l'operazione Bagration?",
+          "options": [
+            "Subì la sconfitta più grave di tutta la guerra",
+            "Perse la sua intera flotta navale nel Baltico",
+            "Fu costretta alla resa immediata senza combattere",
+            "Subì il primo bombardamento atomico della storia"
+          ],
+          "answer": 0,
+          "explanation": "L'operazione Bagration rappresentò la sconfitta più pesante e costosa subita dalla Wehrmacht tedesca durante il conflitto mondiale."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-02-8"
+    }
+  ]
+}
