@@ -1,0 +1,358 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T05:34:47.514Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacchi USA su isola iraniana nel Golfo",
+      "summary": "Gli Stati Uniti hanno lanciato attacchi limitati sull'isola iraniana di Qeshm, nello Stretto di Hormuz, in risposta al fuoco aperto da parte della Guardia Rivoluzionaria contro un aereo militare americano. L'episodio si è verificato lunedì, in vista delle elezioni di medio termine negli USA. Il presidente Trump ha dichiarato di non avere fretta di escalare, mentre Teheran afferma di essere pronta a negoziare o a reagire militarmente.",
+      "context": "L'attacco avviene su uno dei principali corridoi energetici globali, con possibili ripercussioni sui prezzi del petrolio. La tempistica coincide con le elezioni congressuali americane, influenzando la politica estera di Washington. Si attende l'esito dei colloqui diplomatici mediati dal Qatar.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRVRCUUYzN3dFNndoN3d2d2xNeVJYV3RVN0JTWnprSk0wY25RdUx0aUl0Ni14OWg5RjFDcjFmTThkZm5xNWRQOXR0VU51TzlibzF6UG93QjlrVVR6bkZDUEZoV05JNndLcEYxX3hMdXItaWsyc2R6QlQ5ZGp4TXZuY0F5cUFFdnJRbzMzMVktOUM3Z2FOQjRDaWp2d1dnU3dn?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/935d/live/479e54b0-d745-11f1-b441-2b33b063138f.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la motivazione ufficiale dichiarata dagli Stati Uniti per gli attacchi su Qeshm?",
+          "options": [
+            "Pressione per la riapertura dello Stretto di Hormuz",
+            "Prevenzione di un attacco nucleare imminente",
+            "Risposta a un cyberattacco iraniano",
+            "Rappresaglia per l'attacco iraniano a un aereo USA"
+          ],
+          "answer": 3,
+          "explanation": "Gli ufficiali USA hanno specificato che gli attacchi erano limitati e in risposta al fuoco aperto dalla Guardia Rivoluzionaria Iraniana contro un aereo statunitense."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-03-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Il partito Forza Italia propone piccoli ritocchi alle pensioni nella nuova manovra",
+      "summary": "Mentre si apre alla Camera la sessione di Bilancio sulla nuova manovra economica, Forza Italia apre alla possibilità di piccoli interventi sulle pensioni. Il leader Antonio Tajani ha incontrato i sindacati, promettendo di studiare emendamenti con la maggioranza, pur ammettendo i limiti legati alle coperture finanziarie e ai vincoli europei.",
+      "context": "La manovra finanziaria è il principale provvedimento economico con cui il governo stabilisce entrate e spese per l'anno successivo. La ricerca di coperture finanziarie adeguate è il nodo centrale per qualsiasi modifica, specialmente su temi complessi come la previdenza.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/02/nella-manovra-previsti-12-miliardi-di-tagli-agli-interventi-per-le-calamita-tornano_1ce833d8-40ac-40f4-b1d1-d3f8e388834b.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/7/9/7a1f63945d313b2a114e9bb814a46d01.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/11/02/nella-manovra-previsti-12-miliardi-di-tagli-agli-interventi-per-le-calamita-tornano_1ce833d8-40ac-40f4-b1d1-d3f8e388834b.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale partito ha proposto piccoli interventi sulle pensioni nella nuova manovra?",
+          "options": [
+            "Movimento 5 Stelle",
+            "Lega",
+            "Partito Democratico",
+            "Forza Italia"
+          ],
+          "answer": 3,
+          "explanation": "Forza Italia ha aperto a piccoli ritocchi sulle pensioni durante l'esame della nuova manovra."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-03-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Un partner Android di Google ha trasformato oltre un milione di TV box in una botnet",
+      "summary": "Google ha scoperto che un suo partner di produzione, l'azienda cinese Videostrong Technology, ha inserito una porta di servizio nascosta in oltre un milione di dispositivi Android, tra cui decoder televisivi e apparecchi per la telemedicina. Questo sistema ha trasformato i dispositivi in una rete di computer controllati a distanza per scopi illeciti, come frodi pubblicitarie e furto di dati. Google ha rimosso la minaccia e interrotto i rapporti con il produttore.",
+      "context": "Questo caso evidenzia i rischi legati alla sicurezza della catena di montaggio nel settore tecnologico. La compromissione di dispositivi smart usati nelle case dimostra come l'hardware possa essere sfruttato a fini criminali all'insaputa degli utenti, sollevando interrogativi sui controlli dei produttori.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/videostrong-android-tv-device.jpg?quality=90&strip=all&crop=12.458333333333%2C0%2C87.541666666667%2C100&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha fatto il partner di Google Videostrong Technology?",
+          "options": [
+            "Ha creato una porta di servizio nascosta per trasformare i dispositivi in una botnet",
+            "Ha sviluppato una nuova versione del sistema operativo Android TV",
+            "Ha bloccato gli attacchi informatici sui dispositivi di telemedicina",
+            "Ha migliorato la sicurezza dei decoder Android"
+          ],
+          "answer": 0,
+          "explanation": "Il produttore ha inserito un accesso nascosto nei dispositivi per creare una botnet usata per scopi illeciti come frodi pubblicitarie."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-03-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Nuovo farmaco ripara i danni al DNA e riduce l'infiammazione cerebrale nell'Alzheimer",
+      "summary": "Ricercatori del King's College di Londra hanno scoperto che un farmaco sperimentale, chiamato KCL-286 e originariamente sviluppato per i traumi al midollo spinale, è in grado di riparare i danni al DNA e ridurre l'infiammazione cerebrale in un modello animale di Alzheimer. Il medicinale, che si assume per bocca, ha già superato i test di sicurezza di fase uno sull'uomo.",
+      "context": "Questa ricerca è importante perché sposta l'attenzione dalle sole proteine tossiche tipiche dell'Alzheimer ad altri processi biologici cruciali come il danno al DNA. Il fatto che abbia già superato i primi test di sicurezza potrebbe velocizzare i futuri studi clinici.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm"
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/genetic-neuroscience-human-brain-dna-mutation-health.webp",
+        "credit": "ScienceDaily",
+        "link": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale caratteristica del farmaco KCL-286 emersa dallo studio?",
+          "options": [
+            "Elimina esclusivamente la proteina beta-amiloide",
+            "È stato creato specificamente per curare l'Alzheimer negli esseri umani",
+            "Può essere assunto per bocca e ha già superato i test di sicurezza di fase uno",
+            "Richiede iniezioni endovenose complesse"
+          ],
+          "answer": 2,
+          "explanation": "Il farmaco è una piccola molecola che si assume per bocca e ha già superato i test di sicurezza di fase uno nell'uomo durante il suo sviluppo precedente."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-03-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Crollo dei prezzi del petrolio e del gas dopo le notizie sui negoziati tra Stati Uniti e Iran",
+      "summary": "I prezzi del petrolio e del gas hanno registrato un forte calo nei mercati internazionali. Il Brent e il Wti hanno perso oltre il sette percento, toccando i livelli minimi da diverse settimane. La discesa è avvenuta in seguito alle notizie sui contatti diplomatici in corso tra Stati Uniti e Iran per trovare una soluzione negoziata al conflitto in corso, alimentando le speranze degli investitori.",
+      "context": "Il costo dell'energia incide direttamente sull'inflazione globale e sull'andamento delle borse. Riduzioni del prezzo del greggio allentano la pressione sui mercati finanziari e sui costi di indebitamento degli Stati, rendendo cruciale l'evoluzione delle tensioni geopolitiche in Medio Oriente.",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/02/il-petrolio-chiude-in-forte-calo-a-new-york-a-745_e891c664-19b8-43c9-9c9a-3bf9ae97e0f9.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/02/il-petrolio-cede-piu-del-7-e-il-gas-il-10-sui-negoziati-usa-iran_2dd9ef2f-83bb-4cdb-95eb-be4816ae612a.html"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/5aa655482ec1b18379bdd2373abb83196044c4d5/1261_325_3461_2770/master/3461.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=09658148a0329748dbe3937cb2803e88",
+        "credit": "The Guardian Business",
+        "link": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il motivo principale del crollo dei prezzi del petrolio?",
+          "options": [
+            "Le speranze di pace alimentate dai negoziati tra Stati Uniti e Iran",
+            "Un aumento imprevisto della produzione globale di greggio",
+            "La chiusura definitiva dello stretto di Hormuz",
+            "Una decisione unilaterale dell'Unione Europea"
+          ],
+          "answer": 0,
+          "explanation": "I prezzi sono scesi bruscamente a causa delle notizie sui negoziati diplomatici in corso per porre fine al conflitto tra Stati Uniti e Iran."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-03-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Il flop al botteghino spinge Taika Waititi a criticare i critici cinematografici",
+      "summary": "Il regista Taika Waititi ha criticato duramente i critici cinematografici dopo il pessimo risultato al botteghino del suo nuovo film, tratto da un romanzo di Kazuo Ishiguro. La pellicola ha incassato cifre molto basse nel primo fine settimana in Nord America e nel Regno Unito. Il regista ha definito i critici come anime tristi e obsolete, contrapponendo il giudizio negativo della stampa specializzata al gradimento del pubblico.",
+      "context": "Le tensioni tra registi e critica riflettono il divario economico e culturale nell'industria cinematografica odierna. Quando un film costoso fallisce commercialmente, le reazioni pubbliche degli autori evidenziano la pressione finanziaria e il peso dei siti di recensioni sul pubblico.",
+      "sources": [
+        {
+          "name": "The Guardian Film",
+          "url": "https://www.theguardian.com/film/2026/nov/02/taika-waititi-lambasts-critics-after-klara-and-the-sun-box-office-disaster"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/7dd54682267123f06425a1acdf1038ee9c1ca101/453_0_4528_3623/master/4528.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4dec4b0c14e84f065f18be0a02cf8348",
+        "credit": "The Guardian Film",
+        "link": "https://www.theguardian.com/film/2026/nov/02/taika-waititi-lambasts-critics-after-klara-and-the-sun-box-office-disaster"
+      },
+      "quiz": [
+        {
+          "question": "Perché il regista Taika Waititi ha criticato i critici cinematografici?",
+          "options": [
+            "Perché il budget stanziato era troppo basso",
+            "Perché non hanno capito il suo precedente film Jojo Rabbit",
+            "Perché gli attori sono stati criticati aspramente",
+            "A causa dello scarso incasso al botteghino del suo film"
+          ],
+          "answer": 3,
+          "explanation": "Waititi ha attaccato i critici dopo il disastroso andamento commerciale del suo film nel primo fine settimana."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-03-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Il cavallo dell'ex Re vince la Melbourne Cup in Australia",
+      "summary": "Il cavallo Point of Law, in precedenza di proprietà di Re Carlo e venduto a un gruppo di investitori, ha vinto la Melbourne Cup in Australia. Guidato dal fantino Ethan Brown e allenato da Ciaron Maher, il purosangue ha superato gli avversari negli ultimi metri della prestigiosa corsa ippica disputata all'ippodromo di Flemington.",
+      "context": "La Melbourne Cup è la corsa ippica più importante d'Australia, seguita da decine di migliaia di spettatori e considerata un evento di rilievo nazionale che unisce sport, mondanità e ingenti premi economici.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/horse-racing/articles/cr3wv0476z5do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6718/live/8b889960-d740-11f1-9ecd-137d429a1395.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/horse-racing/articles/cr3wv0476z5do?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha guidato alla vittoria il cavallo Point of Law nella Melbourne Cup?",
+          "options": [
+            "Chris Waller",
+            "Ciaron Maher",
+            "Chris Judd",
+            "Ethan Brown"
+          ],
+          "answer": 3,
+          "explanation": "Il fantino australiano Ethan Brown ha condotto il cavallo alla vittoria superando gli avversari nel finale."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-03-6"
+    },
+    {
+      "category": "storia",
+      "tag": "3 novembre 1973",
+      "title": "La NASA lancia la sonda Mariner 10 verso Mercurio",
+      "summary": "Il 3 novembre 1973 la NASA ha lanciato la sonda spaziale Mariner 10 nell'ambito del Programma Mariner. La missione aveva l'obiettivo di esplorare Venere e Mercurio. Il 29 marzo 1974 la sonda è diventata la prima a raggiungere Mercurio, effettuando diversi sorvoli ravvicinati e mappando circa il quaranta percento della sua superficie.",
+      "context": "Il Mariner 10 ha cambiato l'esplorazione spaziale introducendo per la prima volta l'effetto fionda gravitazionale e i sorvoli multipli planetari. Questa eredità tecnica ha aperto la strada a future missioni interplanetarie a basso costo e ad alta complessità.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Mariner_10"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mariner10.gif",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Mariner10.gif"
+      },
+      "quiz": [
+        {
+          "question": "Quale primato ha stabilito il Mariner 10 il 29 marzo 1974?",
+          "options": [
+            "È stata la prima sonda a entrare in orbita attorno al Sole",
+            "È stata la prima sonda a superare i confini del sistema solare",
+            "È stata la prima sonda spaziale a raggiungere Mercurio",
+            "È stata la prima sonda a atterrare su Venere"
+          ],
+          "answer": 2,
+          "explanation": "Il Mariner 10 è diventato la prima sonda spaziale a raggiungere Mercurio il 29 marzo 1974."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-03-7"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Stamp Act (1765)",
+      "title": "La tassa sui giornali che fece nascere l'America",
+      "summary": "Nel 1765 il parlamento britannico approvò lo Stamp Act, una legge che imponeva ai residenti delle Tredici colonie americane di pagare una tassa su ogni foglio stampato, giornale o documento legale. La norma serviva a coprire i debiti della guerra dei sette anni e a finanziare le truppe inglesi nel Nuovo Mondo. L'opposizione fu così violenta che la legge venne abrogata l'anno successivo, ma la tensione accumulata portò alla nascita della società segreta Sons of Liberty e avviò il percorso verso la Rivoluzione americana.",
+      "context": "Nel diciottesimo secolo la Gran Bretagna decise di stringere il controllo fiscale sulle colonie americane dopo anni di relativa autonomia. La resistenza a queste tasse inique alimentò il principio costituzionale secondo cui non ci può essere imposizione fiscale senza rappresentanza politica, un nodo centrale che avrebbe portato alla nascita degli Stati Uniti.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Stamp_Act_(1765)"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Parliament_Stamp_Act1765.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Parliament_Stamp_Act1765.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo la Gran Bretagna introdusse lo Stamp Act nel 1765?",
+          "options": [
+            "Per sostituire interamente la precedente tassa sulla produzione di sidro",
+            "Per finanziare la costruzione di nuove navi commerciali dirette in Europa",
+            "Per punire i coloni dopo la ribellione dei nativi americani guidati da Pontiac",
+            "Per finanziare le spese militari e risanare i debiti della guerra dei sette anni"
+          ],
+          "answer": 3,
+          "explanation": "La legge fu approvata principalmente per risanare i debiti di guerra accumulati dalla Gran Bretagna durante la guerra dei sette anni."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-03-8"
+    }
+  ]
+}
