@@ -1,0 +1,316 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T05:34:46.088Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Il ministro dei trasporti spagnolo Puente si dimette dopo l’incidente ferroviario mortale",
+      "summary": "Il ministro dei trasporti spagnolo, José Luis Puente, ha rassegnato le dimissioni nella serata di martedì, poco dopo il grave incidente ferroviario del 28 ottobre che ha causato numerose vittime. La decisione è arrivata durante una lunga seduta del Congresso, dove ha presentato nuove misure di sicurezza e ha risposto alle pressioni dell’opposizione, che lo aveva già accusato di responsabilità.",
+      "context": "Le dimissioni di Puente avvengono a pochi mesi dalle elezioni anticipate del 29 novembre, rendendo la gestione della sicurezza ferroviaria un tema cruciale per il governo socialista di Pedro Sánchez.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d61f/live/6dc1cd30-d7c6-11f1-a701-fddedf244c16.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo il ministro dei trasporti Puente ha rassegnato le dimissioni?",
+          "options": [
+            "Motivi di salute",
+            "Pressione dell'opposizione dopo l'incidente ferroviario",
+            "Desiderio di cambiare partito",
+            "Nomina a un incarico europeo"
+          ],
+          "answer": 1,
+          "explanation": "Puente ha lasciato il ruolo dopo le critiche dell'opposizione per la gestione dell'incidente ferroviario del 28 ottobre."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-04-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Maltempo in Puglia: danni ingenti in provincia di Foggia",
+      "summary": "Una violenta ondata di maltempo ha colpito la Puglia, causando gravi danni in provincia di Foggia. A Faeto, nei Monti Dauni, due giorni di pioggia hanno isolato il borgo con frane e smottamenti sulla strada provinciale 125. Anche Biccari è bloccata da blocchi di cemento. Nel Salento, trombe d'aria hanno abbattuto alberi e danneggiato infrastrutture, mentre allagamenti hanno interrotto i treni. I geologi segnalano il rischio di dissesto idrogeologico.",
+      "context": "L'evento evidenzia la vulnerabilità del territorio pugliese, specialmente nelle aree interne montane e costiere, a fronte di precipitazioni intense e prolungate. La saturazione del suolo aumenta il pericolo di frane, richiedendo interventi urgenti per la sicurezza e la viabilità.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/11/maltempo-in-capitanata-problemi-anche-alla-circolazione--046993db-e727-46dc-91fd-0700814fe4df.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/11/maltempo-frigole-tromba-aria-c4d1cc7d-b08d-4ec2-8866-a8240c56f0a7.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/03/1793715529268_Danni_maltempo_Foggia_.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/11/maltempo-in-capitanata-problemi-anche-alla-circolazione--046993db-e727-46dc-91fd-0700814fe4df.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'effetto principale del maltempo sul borgo di Faeto?",
+          "options": [
+            "L'evacuazione preventiva di tutti i residenti",
+            "L'inondazione totale del centro storico",
+            "Il crollo delle case storiche",
+            "L'isolamento a causa di frane e smottamenti"
+          ],
+          "answer": 3,
+          "explanation": "Le frane e gli smottamenti sulla strada provinciale 125 hanno isolato il borgo, rendendo complicato l'accesso."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-04-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Binance: la maxi truffa da 6,3 miliardi di dollari orchestrata con interviste fittizie e strumenti AI interni",
+      "summary": "Binance ha subito il furto di criptovalute più grande della storia, pari a 6,3 miliardi di dollari. L'attacco, attribuito a un gruppo nordcoreano, è iniziato a giugno con un installer compromesso e si è concretizzato a ottobre. Gli aggressori hanno usato interviste di lavoro fittizie per installare malware su un ingegnere e hanno sfruttato uno strumento di intelligenza artificiale interno per prendere il controllo dei portafogli digitali.",
+      "context": "L'episodio evidenzia i rischi crescenti legati all'uso di strumenti di intelligenza artificiale nelle infrastrutture finanziarie e alla vulnerabilità delle catene di approvvigionamento software. La risposta di Binance, che coprirà le perdite, potrebbe influenzare le future normative sulla sicurezza informatica nel settore delle criptovalute.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932848/acastro_STK018__02.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained"
+      },
+      "quiz": [
+        {
+          "question": "Quale strumento interno ha permesso agli aggressori di prendere il controllo dei portafogli?",
+          "options": [
+            "Un software di contabilità automatizzato",
+            "Un'applicazione di messaggistica cifrata",
+            "Un database dei clienti esposto pubblicamente",
+            "Uno strumento di intelligenza artificiale interno"
+          ],
+          "answer": 3,
+          "explanation": "Secondo il rapporto di Binance, gli attaccanti hanno utilizzato uno strumento di intelligenza artificiale interno per ottenere il controllo dei portafogli degli impiegati compromessi."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-04-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Offset annuncia la nuova data di uscita del suo prossimo album GMFU",
+      "summary": "Il rapper Offset ha annunciato la nuova data di uscita del suo prossimo album intitolato GMFU, inizialmente previsto per ottobre e ora fissato per il 13 novembre. Sulle reti sociali, l'artista ha spiegato che il disco nasce dalla volontà di chiarire la sua posizione dopo mesi di voci e malintesi sul suo conto. Insieme alla data, ha condiviso la copertina ufficiale del progetto discografico.",
+      "context": "Il nuovo lavoro arriva dopo la pubblicazione dei singoli recenti e consolida il percorso solista del rapper, noto anche per la sua carriera nel gruppo Migos. Nel panorama musicale contemporaneo, i cambi di data nei calendari delle uscite discografiche sono frequenti per ottimizzare la promozione.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/offset-gmfu-album-release-date-1236371508/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/11/offset-jesse-rodriguez-billboard-1800.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/offset-gmfu-album-release-date-1236371508/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la nuova data di uscita dell'album GMFU di Offset?",
+          "options": [
+            "13 novembre",
+            "4 novembre",
+            "16 agosto",
+            "25 dicembre"
+          ],
+          "answer": 0,
+          "explanation": "L'album GMFU ha una nuova data di uscita fissata per il 13 novembre."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-04-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Globuli rossi fossili scoperti in un dinosauro di 115 milioni di anni fa",
+      "summary": "Un gruppo di ricercatori ha scoperto presunti globuli rossi fossili e tracce di eme all'interno delle ossa della zampa posteriore di un Aratasaurus, un piccolo dinosauro carnivoro vissuto 115 milioni di anni fa nell'odierno Brasile. I resti, trovati in una miniera nel 2008, sono conservati nel Museo Nazionale del Brasile. Se confermata, la scoperta permetterebbe di studiare il metabolismo dei dinosauri.",
+      "context": "Il ritrovamento di tessuti biologici così antichi è eccezionale perché queste molecole si degradano rapidamente. La conservazione potrebbe essere legata a composti di manganese che hanno stabilizzato le cellule prima della fossilizzazione.",
+      "sources": [
+        {
+          "name": "The Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/808d3d6670b293910bf2e300b7328a07c2c4872c/432_0_4320_3456/master/4320.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bf0d99ebf21cd5bf96faa729db390914",
+        "credit": "The Guardian Science",
+        "link": "https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone"
+      },
+      "quiz": [
+        {
+          "question": "Cosa hanno scoperto i ricercatori analizzando le ossa dell'Aratasaurus?",
+          "options": [
+            "Uova intatte con embrioni",
+            "Piume perfettamente conservate",
+            "DNA completo pronto per la clonazione",
+            "Globuli rossi fossili e tracce di eme"
+          ],
+          "answer": 3,
+          "explanation": "L'analisi delle ossa della zampa ha rivelato strutture simili a globuli rossi e la presenza di eme, il composto che trasporta l'ossigeno."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-04-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Weta FX e TAICCA uniscono le forze per portare l'intelligenza artificiale nel cinema a Taiwan",
+      "summary": "La nota azienda di effetti visivi Weta FX e l'agenzia statale taiwanese TAICCA hanno siglato una collaborazione per fare di Taiwan un centro di produzione cinematografica basato sull'intelligenza artificiale in Asia. L'accordo verrà presentato ufficialmente a Taipei e si concentrerà su tre direttrici: investimenti congiunti, ricerca e sviluppo sull'intelligenza artificiale e formazione di nuovi talenti locali.",
+      "context": "Questa alleanza unisce le competenze tecnologiche e creative di Taiwan con l'esperienza internazionale nei grandi effetti visivi di Weta FX. L'obiettivo è inserire i professionisti locali nelle grandi produzioni cinematografiche globali, sfruttando le nuove tecnologie.",
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/markets-festivals/weta-fx-taicca-partner-taiwan-ai-screen-production-hub-1236938968/"
+        }
+      ],
+      "image": {
+        "url": "https://variety.com/wp-content/uploads/2024/05/Screen-Shot-2024-05-10-at-1.08.39-PM.png?w=1000&h=563&crop=1",
+        "credit": "Variety",
+        "link": "https://variety.com/2026/film/markets-festivals/weta-fx-taicca-partner-taiwan-ai-screen-production-hub-1236938968/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo principale della partnership tra Weta FX e TAICCA?",
+          "options": [
+            "Spostare la sede principale di Weta FX dalla Nuova Zelanda a Taiwan",
+            "Trasformare Taiwan in un hub di produzione cinematografica basato sull'intelligenza artificiale",
+            "Aprire una nuova sala cinematografica a Taipei",
+            "Finanziare esclusivamente la produzione di film d'animazione tradizionali"
+          ],
+          "answer": 1,
+          "explanation": "L'accordo mira a fare di Taiwan un centro di riferimento in Asia per la produzione cinematografica guidata dall'intelligenza artificiale."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-04-5"
+    },
+    {
+      "category": "storia",
+      "tag": "4 novembre 1869",
+      "title": "Pubblicato il primo numero della rivista Nature",
+      "summary": "Nei giorni scorsi è stato pubblicato il primo numero della rivista scientifica Nature. Questa pubblicazione fa parte della comunicazione scientifica ufficiale e serve come forum per presentare nuove ricerche e criticare quelle esistenti, attraverso articoli sottoposti a revisione paritaria da parte di esperti della disciplina.",
+      "context": "Nature è diventata una delle riviste accademiche più famose e autorevoli al mondo. Ha cambiato la comunicazione scientifica offrendo un punto di riferimento globale per la validazione e la diffusione delle scoperte più importanti.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Rivista_accademica"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Research_Journals.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Research_Journals.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale evento ha riguardato la rivista Nature nei giorni scorsi?",
+          "options": [
+            "Il fallimento della casa editrice",
+            "La conversione totale in un mega-journal",
+            "La chiusura definitiva delle pubblicazioni",
+            "La pubblicazione del primo numero"
+          ],
+          "answer": 3,
+          "explanation": "La notizia riguarda la pubblicazione del primo numero della rivista scientifica Nature."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-04-6"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Ines Donati",
+      "title": "La giovane attivista che aggredì un deputato",
+      "summary": "Nel febbraio del 1921, la ventenne attivista nazionalista Ines Donati aggredì e schiaffeggiò il deputato socialista Alceste Della Seta davanti a un caffè di Roma, prima che gli squadristi intervenissero a bastonarlo. L'obiettivo iniziale del suo attacco era un altro politico, ma l'azione portò comunque al suo arresto e a un mese di carcere. Nonostante la tubercolosi, partecipò anche alla marcia su Roma.",
+      "context": "L'episodio si inserisce nel clima di forte tensione e violenza politica dell'Italia del primo dopoguerra, caratterizzato dall'ascesa del movimento fascista e dagli scontri continui tra squadristi e oppositori politici prima della presa del potere.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Ines_Donati"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Ines_Donati.jpg/1280px-Ines_Donati.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Ines_Donati.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale politico aggredì Ines Donati nel 1921 a Roma?",
+          "options": [
+            "Alceste Della Seta",
+            "Nicola Bombacci",
+            "Benito Mussolini",
+            "Attilio Forlani"
+          ],
+          "answer": 0,
+          "explanation": "Ines Donati schiaffeggiò il deputato socialista Alceste Della Seta fuori da un caffè romano, sebbene il suo bersaglio iniziale fosse un altro."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-04-7"
+    }
+  ]
+}
