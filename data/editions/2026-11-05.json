@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T05:34:36.896Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Vittoria democratica alle elezioni di metà mandato 2026",
+      "summary": "Alle elezioni di metà mandato del 3 novembre 2026 i democratici hanno ottenuto una vittoria schiacciante, conquistando la maggioranza sia alla Camera dei rappresentanti (232 seggi) sia al Senato (54 seggi). Hanno strappato seggi in stati tradizionalmente repubblicani come Texas, Kansas e South Carolina, eleggendo figure come James Talarico e Adam Hamilton. La sconfitta di Donald Trump e del Partito repubblicano è stata attribuita al malcontento per il costo della vita e la guerra in Iran.",
+      "context": "La vittoria democratica ridisegna l’equilibrio di potere a Washington, consentendo al partito di guidare l’agenda legislativa e di controllare le commissioni di indagine, ma dovrà comunque confrontarsi con il presidente repubblicano che può vetoare le leggi.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/speciali/usa-midterm-2026/2026/11/04/lamerica-boccia-trump-uno-tsunami-blu-alle-midterm-_fe1d49b4-c431-4e19-826f-0b6efcdbcb77.html"
+        },
+        {
+          "name": "Internazionale",
+          "url": "https://www.internazionale.it/notizie/alessio-marchionna/2026/11/04/stati-uniti-elezioni-cosa-cambia"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/4/1944514eea83d4c86a1e845a7879dcf9.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/mondo/speciali/usa-midterm-2026/2026/11/04/lamerica-boccia-trump-uno-tsunami-blu-alle-midterm-_fe1d49b4-c431-4e19-826f-0b6efcdbcb77.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale risultato ha ottenuto il Partito democratico alle elezioni di metà mandato del 3 novembre 2026?",
+          "options": [
+            "Ha conquistato la maggioranza sia alla Camera sia al Senato",
+            "Ha vinto solo in alcuni stati del Sud",
+            "Ha mantenuto la maggioranza alla Camera ma ha perso il Senato",
+            "Ha perso entrambi i rami del Congresso"
+          ],
+          "answer": 0,
+          "explanation": "I democratici hanno ottenuto 232 seggi alla Camera e 54 al Senato, garantendosi la maggioranza in entrambi i rami."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-05-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Mattarella: protezione ambientale dovere istituzionale",
+      "summary": "Nel 60° anniversario dell'alluvione di Firenze, il presidente Sergio Mattarella ha definito la tutela dell'ambiente un dovere per le istituzioni. Ricordando il gesto di solidarietà dei giovani del 1966, ha sottolineato come la tragedia abbia reso evidente la vulnerabilità del territorio. Il capo dello Stato ha esortato a considerare la sicurezza delle comunità e la protezione degli equilibri ambientali come impegni comuni fondamentali per una società fondata sul primato della persona.",
+      "context": "L'intervento collega la memoria storica di una catastrofe naturale alla necessità di politiche preventive attuali. In un contesto di crescente frequenza di eventi meteorologici estremi, il richiamo al ruolo attivo dello Stato nella gestione del rischio idrogeologico e nella salvaguardia del patrimonio culturale e umano assume rilevanza politica e sociale.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/04/mattarella-alluvione-di-firenze-simbolo-dellunita-del-paese-nelle-emergenze_a94b94b9-8c0a-4afe-91a3-213f8d38ce2b.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/4/cea0126e27d534cc0c3768436e73da01.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/11/04/mattarella-alluvione-di-firenze-simbolo-dellunita-del-paese-nelle-emergenze_a94b94b9-8c0a-4afe-91a3-213f8d38ce2b.html"
+      },
+      "quiz": [
+        {
+          "question": "Secondo Mattarella, quale ruolo devono svolgere le istituzioni riguardo all'ambiente?",
+          "options": [
+            "Considerare la protezione ambientale un dovere comune",
+            "Limitarsi a gestire le emergenze dopo il disastro",
+            "Delegare la tutela del territorio alle sole associazioni",
+            "Ignorare le vulnerabilità per non allarmare i cittadini"
+          ],
+          "answer": 0,
+          "explanation": "Il presidente ha esplicitamente definito la protezione dell'ambiente e la sicurezza delle comunità un dovere per le istituzioni."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-05-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Marvell acquisisce la tecnologia ottica di Lumentum per 115 miliardi di dollari",
+      "summary": "Marvell Technology ha annunciato l'acquisizione della divisione di tecnologia ottica di Lumentum per 115 miliardi di dollari. L'operazione, che coinvolge due aziende della Silicon Valley, mira a rafforzare le capacità di Marvell nell'infrastruttura per l'intelligenza artificiale. Secondo quanto riportato da Bloomberg, la chiusura dell'accordo è prevista entro la prima metà del 2028.",
+      "context": "L'acquisto consolida la posizione di Marvell nel mercato dei chip per infrastrutture dati, settore cruciale per lo sviluppo dell'IA. La mossa si inserisce nella corsa tra i principali produttori di semiconduttori per controllare le tecnologie di connessione ad alta velocità necessarie ai data center moderni.",
+      "sources": [
+        {
+          "name": "la Repubblica",
+          "url": "https://www.repubblica.it/economia/2026/11/02/news/marvell_technology_acquisizione_lumentum_accordo_ia-425694123/"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/asml-vs-marvell-technology-artificial-025356702.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/11/02/164029536-0c3f4566-70ba-48f0-91e7-5b5da5c2dba9.jpg",
+        "credit": "la Repubblica",
+        "link": "https://www.repubblica.it/economia/2026/11/02/news/marvell_technology_acquisizione_lumentum_accordo_ia-425694123/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'importo dell'operazione di acquisizione annunciata da Marvell?",
+          "options": [
+            "15 miliardi di dollari",
+            "11,5 miliardi di dollari",
+            "115 milioni di dollari",
+            "115 miliardi di dollari"
+          ],
+          "answer": 3,
+          "explanation": "Il titolo e il testo specificano chiaramente che l'importo dell'acquisizione è di 115 miliardi di dollari."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-05-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "John Legend pubblica l'album 'Muse' con Pharrell",
+      "summary": "Il cantante Grammy John Legend ha pubblicato oggi il nuovo album intitolato 'Muse', interamente prodotto insieme al produttore Pharrell Williams. Legend ha dichiarato di volere il meglio da ogni progetto e di aver sperimentato nuove tecniche vocali, come nel brano 'Fireflies', su cui Pharrell lo ha spinto a parlare più che cantare. L'album segna un ulteriore passo nella sua collaborazione con la scena hip‑hop.",
+      "context": "L'uscita di 'Muse' rafforza la reputazione di John Legend come artista versatile, capace di fondere soul e hip‑hop grazie a collaborazioni con produttori di alto profilo. Osserviamo se l'album influenzerà le future produzioni di entrambi gli artisti.",
+      "sources": [
+        {
+          "name": "WSVN 7News",
+          "url": "https://wsvn.com/entertainment/deco-drive/john-legend-new-album-muse/"
+        }
+      ],
+      "image": {
+        "url": "https://wsvn.com/wp-content/uploads/sites/2/2026/11/110426-john-legend-muse-album.png",
+        "credit": "WSVN 7News",
+        "link": "https://wsvn.com/entertainment/deco-drive/john-legend-new-album-muse/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il titolo del nuovo album di John Legend uscito con la collaborazione di Pharrell?",
+          "options": [
+            "Imitation of Life",
+            "Black Woman",
+            "Fireflies",
+            "Muse"
+          ],
+          "answer": 3,
+          "explanation": "L'album si chiama 'Muse', come indicato nel comunicato."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-05-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Scienziati di SLAC confermano l'esistenza dell'altermagnetismo",
+      "summary": "Un team del laboratorio SLAC ha fornito prove sperimentali definitive dell’esistenza di una terza classe di magnetismo, denominata altermagnetismo. Studiano il tellururo di manganese, un materiale prima considerato antiferromagnetico, e hanno rilevato una chirality caratteristica. La scoperta amplia la classificazione tradizionale ferromagneti‑antiferromagneti e apre prospettive per memorie avanzate, dispositivi quantistici e data center più efficienti.",
+      "context": "La conferma di altermagnetismo rompe la dicotomia ferromagneti‑antiferromagneti, suggerendo nuovi materiali con proprietà magnetiche intermedie. Gli sviluppi potrebbero influenzare la prossima generazione di hardware informatico e di archiviazione dati.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261104012256.htm"
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/three-mirrors-proposed-forms-of-magnetism.webp",
+        "credit": "ScienceDaily",
+        "link": "https://www.sciencedaily.com/releases/2026/11/261104012256.htm"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il nome della nuova classe di magnetismo confermata dagli scienziati di SLAC?",
+          "options": [
+            "Altermagnetismo",
+            "Paramagnetismo",
+            "Ferromagnetismo",
+            "Antiferromagnetismo"
+          ],
+          "answer": 0,
+          "explanation": "Gli esperimenti hanno dimostrato l’esistenza dell’altermagnetismo, distinto da ferromagnetismo e antiferromagnetismo."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-05-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "CVS Health divide farmacie e assicurazioni",
+      "summary": "Il colosso sanitario statunitense CVS Health ha annunciato la divisione delle sue attività in due società distinte. Da una parte nascerà CVS Pharmacy, che comprenderà la catena di novemila farmacie e le cliniche nei negozi. Dall'altra, la nuova CVS Health manterrà l'assicurazione sanitaria Aetna e il gestore di farmaci Caremark. La decisione arriva in un contesto di crescenti pressioni politiche e normative contro il monopolio nel settore sanitario.",
+      "context": "La separazione segna un'inversione di tendenza rispetto alla creazione di grandi conglomerati sanitari e risponde alle critiche sull'aumento dei costi delle cure. Nei prossimi mesi sarà importante monitorare l'impatto di questa divisione sul mercato e sulle nuove normative statali e federali.",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/us-news/2026/nov/04/cvs-health-pharmacy-insurance"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/1ebcef503646c218494ed04a856037e72199a84f/447_0_5001_4000/master/5001.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=95328f1f5620f67d8009354c33deddbc",
+        "credit": "The Guardian Business",
+        "link": "https://www.theguardian.com/us-news/2026/nov/04/cvs-health-pharmacy-insurance"
+      },
+      "quiz": [
+        {
+          "question": "In quali due parti si divide CVS Health?",
+          "options": [
+            "In una società per le farmacie e una per le assicurazioni",
+            "In una società per la ricerca e una per la produzione",
+            "In una società per gli ospedali e una per le cliniche",
+            "In una società per i farmaci esteri e una per quelli interni"
+          ],
+          "answer": 0,
+          "explanation": "Il piano prevede la separazione tra la catena di farmacie e le attività legate alle assicurazioni sanitarie e ai benefici farmaceutici."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-05-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Addio a Tinto Brass, maestro del cinema erotico italiano",
+      "summary": "Tinto Brass, regista italiano di 93 anni, è morto questa mattina a Roma per una crisi cardiaca. L’annuncio è stato fatto dalla moglie Caterina Varzi e dai figli Bonifacio e Beatrice. Conosciuto per aver trasformato il cinema erotico con film come «La chiave», «Caligula» e «Salon Kitty», Brass aveva iniziato la carriera collaborando con Roberto Rossellini e aveva ricevuto un omaggio alla Biennale di Venezia lo scorso settembre.",
+      "context": "Brass è stato una figura chiave del cinema erotico italiano, influenzando la rappresentazione della sessualità e contribuendo a dibattiti culturali; il suo contributo resta oggetto di studio.",
+      "sources": [
+        {
+          "name": "Il Mattino",
+          "url": "https://www.ilmattino.it/schede/e_morto_tinto_brass_il_regista_di_la_chiave_da_stefania_sandrelli_a_serena_grandi_le_attrici_e_i_film_del_suo_cinema_erotico-9868624.html"
+        },
+        {
+          "name": "The Guardian Film",
+          "url": "https://www.theguardian.com/film/2026/nov/04/tinto-brass-director-of-caligula-erotic-cinema-dies-aged-93"
+        },
+        {
+          "name": "Corriere del Veneto",
+          "url": "https://corrieredelveneto.corriere.it/notizie/venezia-mestre/cultura-e-tempo-libero/26_novembre_04/tinto-brass-venezia-mostra-cinema-38a8fe2e-605b-4178-9745-ae8ff889bxlk.shtml"
+        }
+      ],
+      "image": {
+        "url": "https://statics.cedscdn.it/photos/MED_HIGH/2026/11/04/9868624_04133435_onecms_1uw7ruhxligjkanylyx_16wqo2586io.jpg",
+        "credit": "Il Mattino",
+        "link": "https://www.ilmattino.it/schede/e_morto_tinto_brass_il_regista_di_la_chiave_da_stefania_sandrelli_a_serena_grandi_le_attrici_e_i_film_del_suo_cinema_erotico-9868624.html"
+      },
+      "quiz": [
+        {
+          "question": "Per quale genere cinematografico Tinto Brass è maggiormente ricordato?",
+          "options": [
+            "Documentario",
+            "Cinema erotico",
+            "Commedia",
+            "Western"
+          ],
+          "answer": 1,
+          "explanation": "Brass è noto per i suoi film erotici come La chiave, Caligula e Salon Kitty."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-05-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "LIV Golf chiude i battenti dopo il ritiro degli investitori",
+      "summary": "Il circuito di golf LIV Golf ha annunciato la cessazione delle attività dopo che il nuovo investitore, BC Partners, ha ritirato il proprio sostegno. La decisione segue il fallimento del tentativo di rilancio del tour, ostacolato dall'assenza di impegni vincolanti da parte di giocatori di punta come Jon Rahm e Bryson DeChambeau. Con il precedente investitore, il fondo saudita PIF, già uscito di scena, il circuito ora procederà alla liquidazione dei beni rimanenti.",
+      "context": "La chiusura di LIV Golf segna la fine di un esperimento che per anni ha minato la stabilità del golf mondiale, attirando stelle con ingaggi milionari. La mossa del tour europeo, che ha vietato ai giocatori LIV di partecipare alle sue competizioni, ha accelerato il crollo, isolando ulteriormente il circuito ribelle.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/altrisport/2026/11/05/golf-il-nuovo-investitore-si-ritira-niente-rilancio-per-il-circuito-liv_a1993657-730c-4b84-8512-7c4d1c511354.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/241b/live/33625a90-d890-11f1-a701-fddedf244c16.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la causa principale del definitivo fallimento del rilancio di LIV Golf?",
+          "options": [
+            "Il rifiuto del fondo saudita PIF di rimborsare i debiti",
+            "Il ritiro dell'investitore BC Partners per mancanza di impegni dei giocatori",
+            "La revoca delle licenze da parte della federazione internazionale",
+            "Lo sciopero dei giocatori per i ritardi nei pagamenti"
+          ],
+          "answer": 1,
+          "explanation": "Il testo indica che BC Partners si è ritirato dopo aver faticato a convincere i giocatori di punta a impegnarsi, portando alla liquidazione."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-05-7"
+    },
+    {
+      "category": "storia",
+      "tag": "5 novembre 1605",
+      "title": "Sventata la Congiura delle Polveri",
+      "summary": "Il 5 novembre 1606, il giudice di pace Sir Thomas Knyvet ispezionò una cantina sotto il Parlamento di Londra e trovò Guy Fawkes con trentasei barili di polvere da sparo. Fawkes fu arrestato, il complotto di far esplodere la Camera dei lord fu sventato e i congiurati furono successivamente condannati a morte.",
+      "context": "Il fallimento del complotto rafforzò la sfiducia verso i cattolici in Inghilterra e diede origine alla tradizione annuale del 5 novembre, nota come notte di Guy Fawkes, per celebrare la sicurezza del regno.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Congiura_delle_polveri"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Gunpow1.jpg/1280px-Gunpow1.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Gunpow1.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Chi scoprì Guy Fawkes nella cantina sotto il Parlamento?",
+          "options": [
+            "Sir Thomas Knyvet",
+            "Robert Catesby",
+            "Re Giacomo I",
+            "Lord Monteagle"
+          ],
+          "answer": 0,
+          "explanation": "Sir Thomas Knyvet, giudice di pace, fu colui che trovò Fawkes nella cantina, sventando il complotto."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-05-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Aaron Burr",
+      "title": "Il vicepresidente che uccise un rivale e sfiorò la secessione",
+      "summary": "Aaron Burr, vicepresidente degli Stati Uniti dal 1801 al 1805, è passato alla storia per aver ucciso in duello il suo grande rivale politico Alexander Hamilton. Successivamente, Burr fu accusato di alto tradimento per un presunto piano volto a creare uno stato indipendente nei territori occidentali americani, ma fu assolto nel 1807 per mancanza di prove.",
+      "context": "Nei primi anni della repubblica statunitense, le lotte di potere tra i padri fondatori erano feroci e prive di regole condivise. Il duello tra Burr e Hamilton rappresenta il culmine di questa tensione istituzionale e personale, in un'epoca in cui l'integrità territoriale stessa del paese era ancora fragile e contesa.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Aaron_Burr"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/John_Vanderlyn_-_Official_Portrait_of_Vice_President_Aaron_Burr.jpg/1280px-John_Vanderlyn_-_Official_Portrait_of_Vice_President_Aaron_Burr.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:John_Vanderlyn_-_Official_Portrait_of_Vice_President_Aaron_Burr.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Aaron Burr fu accusato di alto tradimento nel 1807?",
+          "options": [
+            "Per aver tentato di uccidere George Washington",
+            "Per un presunto piano di secessione dei territori dell'ovest",
+            "Per aver venduto segreti militari agli inglesi durante la rivoluzione",
+            "Per aver organizzato un colpo di stato a New York"
+          ],
+          "answer": 1,
+          "explanation": "Burr fu accusato di alto tradimento a causa di un presunto piano per la secessione di alcuni territori dell'ovest, dal quale fu poi assolto per assenza di prove."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-05-9"
+    }
+  ]
+}
