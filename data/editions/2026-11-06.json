@@ -1,0 +1,400 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T05:40:05.068Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Crollo globale delle azioni tecnologiche per timori su AI dopo le elezioni di medio termine USA",
+      "summary": "Dopo le elezioni di medio termine negli Stati Uniti, i titoli tecnologici globali sono crollati per timori di un rallentamento dell’intelligenza artificiale. Il Nasdaq ha perso più del 5,5% e circa 2,5 trilioni di dollari di valore. Anche gli indici asiatici sono scesi: il Nikkei del 6%, il Kospi oltre l’8,5% e il Taiex più dell’8,3%.",
+      "context": "Il crollo riflette l’incertezza su investimenti massicci in AI e la possibilità di nuove restrizioni legislative da parte dei Democratici, ora al controllo del Congresso. Sarà importante monitorare le politiche sui data centre.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7da8/live/a5c551d0-d996-11f1-9e72-375d6b1d1f05.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'impatto principale sui mercati tecnologici dopo le elezioni di medio termine negli Stati Uniti?",
+          "options": [
+            "Aumento del valore delle azioni tecnologiche",
+            "Calò del Nasdaq di oltre il 5,5% con perdita di circa 2,5 trilioni di dollari",
+            "Stabilità dei prezzi",
+            "Crescita dei titoli energetici"
+          ],
+          "answer": 1,
+          "explanation": "Il Nasdaq è sceso di più del 5,5% e il mercato ha perso circa 2,5 trilioni di dollari, come indicato nella notizia."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-06-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Sindacati convocati a Palazzo Chigi per la Manovra 2027",
+      "summary": "Il governo ha convocato i sindacati a Palazzo Chigi per il 13 novembre per discutere la Manovra 2027. La mossa arriva in un clima di tensione: l'11 novembre è prevista la protesta dei sindacati della scuola, il 20 quello della Cgil. I nodi principali riguardano le pensioni, con la Lega che spinge per l'uscita a 64 anni, e la sanità, dove le Regioni lamentano un taglio di 4,1 miliardi rispetto alle richieste.",
+      "context": "La convocazione è un tentativo di gestire il malcontento prima della fase degli emendamenti parlamentari. Il disaccordo interno alla maggioranza su temi come le pensioni e la copertura sanitaria rischia di indebolire il governo e di alimentare le proteste sociali nei prossimi mesi.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/05/manovra-sotto-attacco.-in-piazza-i-sindacati-della-scuola-anche-la-polizia-pronta_7136b486-1b4a-422b-b16f-d6d38f61c9b5.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/11/nuovo-rinvio-tra-nodi-tecnici-e-scontro-sulle-nomine-la-lega-fa-il-pieno-insorgono-le-opposizioni-bb69aebb-bff8-43a7-a6bc-b88e84de4324.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2023/3/4/eabf8e3c8d3a0120960f50a123524e68.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/11/05/manovra-sotto-attacco.-in-piazza-i-sindacati-della-scuola-anche-la-polizia-pronta_7136b486-1b4a-422b-b16f-d6d38f61c9b5.html"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo i sindacati sono stati convocati a Palazzo Chigi?",
+          "options": [
+            "Per approvare il decreto sulle bollette",
+            "Per firmare un nuovo contratto collettivo nazionale",
+            "Per discutere le linee della Manovra 2027",
+            "Per votare la fiducia al governo"
+          ],
+          "answer": 2,
+          "explanation": "Il testo specifica che la convocazione del 13 novembre serve a discutere la Manovra 2027 in un momento di tensioni sociali."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-06-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "OpenAI elimina gli accordi di riservatezza per i progetti di data center",
+      "summary": "OpenAI ha annunciato che non utilizzerà più accordi di riservatezza con i funzionari pubblici per i suoi progetti di data center. La decisione arriva dopo le elezioni di metà mandato, in cui gli elettori hanno espresso opposizione all'espansione di queste strutture. L'azienda ha inoltre promesso di pagare i costi energetici e infrastrutturali completi e di pubblicare i dati sui posti di lavoro locali.",
+      "context": "La mossa risponde alle crescenti critiche locali contro la segretezza nello sviluppo dei centri di calcolo per l'intelligenza artificiale. Simili pressioni avevano spinto anche Amazon a rinunciare ad accordi analoghi con le agenzie governative nei mesi scorsi.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha deciso di non usare più OpenAI nei rapporti con i funzionari pubblici per i data center?",
+          "options": [
+            "Gli accordi di riservatezza",
+            "Le comunicazioni via email",
+            "I contratti di fornitura energetica",
+            "I bandi di concorso pubblico"
+          ],
+          "answer": 0,
+          "explanation": "OpenAI ha eliminato l'uso di accordi di riservatezza, noti come NDA, con i funzionari pubblici nell'ambito dei suoi progetti."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-06-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Post Malone anticipa il nuovo album 'Eternal Buzz' con un ritorno al rap",
+      "summary": "Post Malone ha pubblicato un nuovo teaser del brano \"Chrome Heartbreaker\", che segna un ritorno alle sue origini hip-hop. Il progetto, intitolato \"Eternal Buzz\", è descritto come un'opera in due dischi con 40 canzoni totali, che mescolerà generi rap e country. Dopo il successo del suo album country del 2024, l'artista ha condiviso frammenti di altre tracce non country, come \"Bad Mood\", indicando una direzione musicale variegata per il nuovo lavoro in uscita.",
+      "context": "La notizia è rilevante perché segna un cambio di rotta stilistico per un artista che ha recentemente dominato la scena country. Il progetto promette di essere uno dei più estesi della sua carriera, unendo le sue competenze in entrambi i generi. I fan attendono l'annuncio ufficiale della data di uscita, previsto probabilmente entro la fine dell'anno.",
+      "sources": [
+        {
+          "name": "Whiskey Riff",
+          "url": "https://www.whiskeyriff.com/2026/11/05/post-malone-returns-to-hip-hop-roots-in-latest-teaser-for-upcoming-album-eternal-buzz/"
+        }
+      ],
+      "image": {
+        "url": "https://www.whiskeyriff.com/wp-content/uploads/postmalone2026albums.jpg",
+        "credit": "Whiskey Riff",
+        "link": "https://www.whiskeyriff.com/2026/11/05/post-malone-returns-to-hip-hop-roots-in-latest-teaser-for-upcoming-album-eternal-buzz/"
+      },
+      "quiz": [
+        {
+          "question": "Quale caratteristica strutturale distingue il nuovo album 'Eternal Buzz'?",
+          "options": [
+            "È un album interamente dedicato al genere country",
+            "Ha una durata totale inferiore a 30 minuti",
+            "Contiene solo brani inediti scritti da altri autori",
+            "È composto da due dischi con 20 canzoni ciascuno"
+          ],
+          "answer": 3,
+          "explanation": "Il materiale specifica che l'album è formato da due dischi contenenti complessivamente 40 canzoni, unendo elementi di hip-hop e country."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-06-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "NASA valuta missioni commerciali per prolungare la vita di Hubble",
+      "summary": "NASA ha pubblicato una richiesta di informazioni il 29 ottobre per esplorare se aziende private possano intervenire sul telescopio spaziale Hubble, in orbita da oltre 35 anni. Le opzioni includono alzare la sua orbita per contrastare la perdita di quota, migliorarne le capacità o gestirne un ritiro controllato. L'obiettivo è estendere la produzione scientifica o concludere la missione in sicurezza.",
+      "context": "Hubble rischia il rientro distruttivo nei prossimi anni; l'iniziativa riflette la crescente capacità commerciale di servire satelliti in orbita. Da monitorare: eventuali proposte concrete e costi.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm"
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/hubble-space-telescope-over-earth.webp",
+        "credit": "ScienceDaily",
+        "link": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha fatto la NASA il 29 ottobre per il telescopio Hubble?",
+          "options": [
+            "Ha pubblicato una richiesta di informazioni per soluzioni commerciali",
+            "Ha annunciato il ritiro immediato",
+            "Ha venduto il telescopio a un'azienda privata",
+            "Ha lanciato una missione di riparazione"
+          ],
+          "answer": 0,
+          "explanation": "La NASA ha emesso un Request for Information per valutare tecnologie commerciali in grado di servire Hubble o alzarne l'orbita."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-06-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Crollo borse globali: timori su investimenti IA travolgono Nasdaq, Wall Street e Tokyo",
+      "summary": "Giovedì il Nasdaq ha registrato la peggior seduta in 18 mesi (-5,5%), bruciando oltre 2.000 miliardi di dollari e entrando in territorio di correzione. Il crollo, esteso a Dow Jones (-3,4%) e S&P 500 (-4,3%), è scattato dopo le vittorie democratiche alle elezioni di midterm USA, che alimentano timori di regolamenti più severi su datacenter e investimenti nell'intelligenza artificiale. Venerdì il contagio ha colpito Tokyo (Nikkei -6%) e Seul (Kospi -8%).",
+      "context": "La vendita riflette il timore che una stretta normativa rallenti l'espansione dell'IA, settore trainante dei mercati. Da monitorare: reazione delle banche centrali, evoluzione normativa USA e tenuta degli utili tech nei prossimi trimestri.",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/05/tonfo-wall-street-bruciati-3.200-miliardi-con-la-fuga-dallia_1d27144f-fe8d-4247-a1b7-88f65339fa89.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/06/borsa-tokyo-crolla-in-apertura-nikkei-51_e7ff7704-62a6-4166-aa2f-f36a2acf4c5d.html"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/3a568c8ddd6dd680b69418b3c568815a7cbbea29/261_0_3478_2784/master/3478.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fac99bf9d327d4af1ba6f307151b25bc",
+        "credit": "The Guardian Business",
+        "link": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses"
+      },
+      "quiz": [
+        {
+          "question": "Quale evento ha innescato il crollo del Nasdaq e delle borse globali giovedì 5 novembre 2026?",
+          "options": [
+            "Un improvviso rialzo dei tassi di interesse da parte della Federal Reserve",
+            "Il fallimento di un grande produttore di chip come Nvidia",
+            "La vittoria dei democratici alle elezioni di midterm, che alimenta timori di regolamenti più severi sull'IA e i datacenter",
+            "L'annuncio di nuovi dazi commerciali da parte dell'amministrazione USA"
+          ],
+          "answer": 2,
+          "explanation": "Le fonti indicano che le vittorie democratiche alle elezioni di midterm hanno generato preoccupazioni per una maggiore regolamentazione dei datacenter e degli investimenti in IA, scatenando la vendita massiccia sui titoli tecnologici."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-06-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "World AI Film Festival a Napoli: prima edizione a febbraio 2027",
+      "summary": "Il World AI Film Festival (WAIFF) debutta a Napoli a febbraio 2027 come prima tappa italiana. Organizzato da 2WATCH Group, WAIFF e Giffoni Hub, rientra in un circuito di 12 festival globali che si chiuderà ad aprile 2027 a Cannes con i film vincitori. Cinque categorie in concorso per opere brevi, lungometraggi, microserie verticali, animazione e pubblicità create con AI. Iscrizioni a 10 euro, giuria di cinque esperti da definire. Due giorni: Industry Day e cerimonia di premiazione.",
+      "context": "Primo festival italiano interamente dedicato al cinema generato da AI, segnala l'ingresso dell'Italia nel circuito globale WAIFF. Da monitorare la giuria e la qualità delle opere ibride uomo-macchina in concorso.",
+      "sources": [
+        {
+          "name": "Il Messaggero",
+          "url": "https://www.ilmessaggero.it/spettacoli/cinema/waiff_film_festival_napoli-9871379.html"
+        }
+      ],
+      "image": {
+        "url": "https://statics.cedscdn.it/photos/MED_HIGH/2026/11/05/9871379_05180110_img_6189.jpg",
+        "credit": "Il Messaggero",
+        "link": "https://www.ilmessaggero.it/spettacoli/cinema/waiff_film_festival_napoli-9871379.html"
+      },
+      "quiz": [
+        {
+          "question": "Quando e dove si terrà la prima edizione italiana del World AI Film Festival?",
+          "options": [
+            "Cannes, aprile 2027",
+            "Milano, gennaio 2027",
+            "Roma, marzo 2027",
+            "Napoli, febbraio 2027"
+          ],
+          "answer": 3,
+          "explanation": "Il festival debutta a Napoli a febbraio 2027, come prima tappa italiana del circuito globale."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-06-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Milan ko 0-2 col Ferencvaros: a rischio i playoff di Europa League",
+      "summary": "Il Milan perde 0-2 in casa contro il Ferencvaros nella quarta giornata di Europa League. Una doppietta di Joseph condanna i rossoneri, che incassano la terza sconfitta nel girone e rischiano l'esclusione dai playoff. Decisivo l'errore del portiere esordiente Torriani sul primo gol. La squadra di Amorim, reduce dal derby vinto con l'Inter, offre una prestazione deludente, fischiata dal pubblico. Il tecnico portoghese ammette: \"Non c'è spiegazione, non eravamo pronti\".",
+      "context": "La sconfitta lascia il Milan a zero punti nelle trasferte europee e con soli tre punti in casa a metà girone, rendendo quasi impossibile la qualificazione diretta e mettendo a rischio l'accesso ai playoff. Amorim deve risolvere l'alternanza di rendimento tra campionato e coppe per salvare la stagione europea.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/05/europa-league-milan-ferencvaros-0-2-_13fa6bf0-8dc3-413c-9bdb-bb0a15149b17.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/05/europa-league-amorim-non-ce-spiegazione-milan-non-puo-presentarsi-cosi_b2cb0975-903d-4362-a412-60747f1658eb.html"
+        },
+        {
+          "name": "Sky Sport",
+          "url": "https://sport.sky.it/calcio/europa-league/video/2026/11/06/milan-ferencvaros-gli-extended-highlights-1137815"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/5/a0d928967190b59969f8024da369a643.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/05/europa-league-milan-ferencvaros-0-2-_13fa6bf0-8dc3-413c-9bdb-bb0a15149b17.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale conseguenza immediata ha la sconfitta per il percorso del Milan in Europa League?",
+          "options": [
+            "La squalifica del portiere Torriani per l'errore decisivo",
+            "L'esonero immediato dell'allenatore Ruben Amorim",
+            "Il rischio concreto di uscire dai playoff con tre sconfitte a metà girone",
+            "La matematica eliminazione dalla competizione"
+          ],
+          "answer": 2,
+          "explanation": "L'articolo specifica che con tre ko a metà girone il Milan \"sarebbe fuori dai playoff\", non ancora eliminato matematicamente."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-06-7"
+    },
+    {
+      "category": "storia",
+      "tag": "6 novembre 1935",
+      "title": "Armstrong presenta la modulazione di frequenza all'Institute of Radio Engineers",
+      "summary": "Il 6 novembre 1935, a New York, l'inventore Edwin Armstrong espone alla sezione locale dell'Institute of Radio Engineers il suo sistema di modulazione di frequenza (FM), progettato per eliminare i disturbi atmosferici e le interferenze che affliggevano la modulazione di ampiezza (AM). La dimostrazione segna la prima presentazione pubblica formale della tecnologia che rivoluzionerà la radiodiffusione.",
+      "context": "La FM offriva audio ad alta fedeltà immune dal rumore, ma dovette superare l'opposizione industriale e le scelte frequenziali della FCC. Oggi è lo standard per la radio analogica e ha ispirato le moderne telecomunicazioni a banda larga.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Edwin_Howard_Armstrong"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/EdwinHowardArmstrong.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:EdwinHowardArmstrong.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale innovazione tecnica Edwin Armstrong presentò il 6 novembre 1935 all'Institute of Radio Engineers di New York?",
+          "options": [
+            "Il radar a onda continua",
+            "Il multiplexing FM",
+            "La modulazione di frequenza (FM)",
+            "Il circuito supereterodina"
+          ],
+          "answer": 2,
+          "explanation": "Armstrong illustrò il suo sistema di modulazione di frequenza per ridurre i disturbi radio, alternativa alla modulazione di ampiezza."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-06-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Fortezza di Tighina",
+      "title": "Quando il re di Svezia fu arrestato nella fortezza che gli aveva dato asilo",
+      "summary": "Dopo la disfatta di Poltava nel 1709, Carlo XII di Svezia trovò rifugio nella fortezza ottomana di Bender. Inizialmente accolto come ospite, nel 1713 fu arrestato e detenuto proprio tra quelle mura dai suoi stessi ospiti, stanchi delle sue continue pressioni per una nuova guerra contro la Russia.",
+      "context": "La fortezza di Tighina (Bender), costruita da Solimano il Magnifico su progetto di Sinān, passò di mano tra Ottomani e Russi per due secoli. L'episodio di Carlo XII illustra come l'Impero ottomano gestisse alleati scomodi: il re svedese rimase quasi cinque anni a Bender, diventando da ospite d'onore a prigioniero di fatto, prima di poter ripartire per la Svezia.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Fortezza_di_Tighina"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Bender_Fortress_sunflowers.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Bender_Fortress_sunflowers.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Perché Carlo XII di Svezia fu arrestato nella fortezza di Bender nel 1713?",
+          "options": [
+            "Gli Ottomani si stancarono delle sue pressioni per una nuova guerra",
+            "Tentò di fuggire verso la Russia",
+            "Si convertì all'Islam contro la volontà del sultano",
+            "Fu consegnato ai Russi in cambio di territori"
+          ],
+          "answer": 0,
+          "explanation": "Dopo anni di ospitalità, gli Ottomani arrestarono Carlo XII perché le sue continue insistenze per riprendere la guerra contro la Russia diventavano un peso diplomatico e militare insostenibile."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-06-9"
+    }
+  ]
+}
