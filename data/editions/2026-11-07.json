@@ -1,0 +1,388 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T05:33:23.274Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Cina: crisi del settore automobilistico e immobiliare",
+      "summary": "Nella terza parte del 2026 le case automobilistiche cinesi hanno visto i profitti crollare del 68 % rispetto all’anno precedente. Saic Motor ha perso il 76,7 % degli utili, Changan ha registrato una perdita di 760 milioni di yuan e Jianghuai ha perso 1,1 miliardi di yuan. Le vendite potrebbero scendere a 18,5 milioni di veicoli, il minimo dal 2014, a causa dell’aumento dei costi, del calo della domanda interna e di una corsa al ribasso dei prezzi, in una bolla simile a quella immobiliare.",
+      "context": "La crisi automobilistica minaccia la crescita cinese, poiché il settore è legato a investimenti locali e alle esportazioni. Osservare l’evoluzione dei prezzi e delle vendite sarà cruciale per valutare il rischio di contagio economico.",
+      "sources": [
+        {
+          "name": "Internazionale",
+          "url": "https://www.internazionale.it/notizie/alessandro-lubello/2026/11/07/cina-bolla-auto"
+        }
+      ],
+      "image": {
+        "url": "https://media.internazionale.it/images/2026/11/05/363093-hd.jpg",
+        "credit": "Internazionale",
+        "link": "https://www.internazionale.it/notizie/alessandro-lubello/2026/11/07/cina-bolla-auto"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale causa della crisi del settore automobilistico cinese descritta nella notizia?",
+          "options": [
+            "Restrizioni governative sulle esportazioni",
+            "Carenza di materie prime",
+            "Aumento dei costi e calo della domanda interna",
+            "Aumento dei salari"
+          ],
+          "answer": 2,
+          "explanation": "L'articolo indica che l'aumento dei costi e il calo della domanda interna sono i fattori chiave della crisi."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-07-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Polizia smantella rete di spaccio su Telegram",
+      "summary": "La polizia ha arrestato sei persone per traffico di stupefacenti. L'organizzazione reclutava corrieri, spesso giovani, tramite il social Telegram per distribuire droga in diverse regioni italiane. Il deposito principale era a Moncalieri, in Piemonte. Nell'operazione 'Driver' sono stati sequestrati oltre 780 chili di sostanze stupefacenti e diverse armi.",
+      "context": "L'inchiesta evidenzia come le piattaforme digitali vengano utilizzate per gestire reti criminali strutturate. Il caso mostra l'ampiezza della distribuzione, che spaziava dal Nord al Centro Italia, e l'uso di personale armato per proteggere il deposito.",
+      "sources": [
+        {
+          "name": "Repubblica",
+          "url": "https://torino.repubblica.it/cronaca/2026/11/07/news/droga_corrieri_telegram-425705612/?rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/localirep/img/rep-torino/2026/11/06/211751768-9b99a0ab-4691-415f-9f97-318c034bd77e.jpg",
+        "credit": "Repubblica",
+        "link": "https://torino.repubblica.it/cronaca/2026/11/07/news/droga_corrieri_telegram-425705612/?rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale piattaforma è stata utilizzata per reclutare i corrieri della droga?",
+          "options": [
+            "Instagram",
+            "WhatsApp",
+            "Facebook",
+            "Telegram"
+          ],
+          "answer": 3,
+          "explanation": "Il materiale specifica che i corrieri venivano reclutati su Telegram."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-07-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "OpenAI raggiunge una valutazione di 1,25 trilioni di dollari",
+      "summary": "OpenAI ha raccolto 11 miliardi di dollari in un nuovo round di finanziamenti, portando la sua valutazione a 1,25 trilioni di dollari. L'azienda aveva inizialmente sperato di raccogliere 30 miliardi a una valutazione più alta, ma ha ridotto gli obiettivi a causa del calo del settore tecnologico e del cambiamento dell'opinione pubblica. Nel frattempo, il concorrente Anthropic ha depositato la documentazione per l'offerta pubblica iniziale.",
+      "context": "Questa mossa consolida OpenAI tra le aziende più preziose al mondo, intensificando la competizione con Anthropic che si prepara a quotarsi in borsa. La decisione di ritardare la quotazione di OpenAI riflette le crescenti preoccupazioni pubbliche sulla sicurezza e l'impatto dei centri dati.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+      },
+      "quiz": [
+        {
+          "question": "Perché OpenAI ha ridotto l'importo che sperava di raccogliere nel nuovo round di finanziamenti?",
+          "options": [
+            "Perché ha esaurito i fondi per la ricerca sui modelli",
+            "Perché ha deciso di quotarsi in borsa immediatamente",
+            "A causa del calo delle azioni tecnologiche e del cambiamento dell'opinione pubblica",
+            "Perché il concorrente Anthropic ha aumentato la sua valutazione"
+          ],
+          "answer": 2,
+          "explanation": "Il materiale indica che la riduzione degli obiettivi è avvenuta dopo il calo delle azioni tech e il risvolto negativo dell'opinione pubblica verso le aziende di intelligenza artificiale."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-07-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "I B2K pubblicano ECLIPSE, il primo album in quasi ventiquattro anni",
+      "summary": "Ieri la boy band R&B statunitense B2K ha pubblicato \"ECLIPSE\", il suo primo album in studio dopo quasi ventiquattro anni. Il disco, composto da tredici brani, segna la riunione di tutti i membri originali: Omarion, J-Boog, Lil' Fizz e Raz-B. L'uscita è accompagnata dal nuovo singolo \"Co-Sign\" ed è la prima pubblicazione dell'etichetta BPC Music Group, anticipata negli scorsi mesi dai singoli \"Mileage\" e \"Lil Freak\".",
+      "context": "I B2K hanno segnato l'R&B dei primi anni Duemila prima di separarsi. Il loro ritorno discografico punta sull'effetto nostalgia, confermato dai buoni risultati radiofonici dei brani d'anteprima e dall'interesse registrato sulle piattaforme digitali statunitensi.",
+      "sources": [
+        {
+          "name": "The Garnette Report",
+          "url": "https://thegarnettereport.com/art/music/b2k-releases-first-album-in-nearly-24-years-eclipse/"
+        },
+        {
+          "name": "AOL",
+          "url": "https://www.aol.com/articles/b2k-returns-eclipse-platinum-selling-160200000.html"
+        }
+      ],
+      "image": {
+        "url": "https://thegarnettereport.com/wp-content/uploads/2026/11/Eclipse-EP_V3c_2400x2400_Album-Art_Clean.jpg",
+        "credit": "The Garnette Report",
+        "link": "https://thegarnettereport.com/art/music/b2k-releases-first-album-in-nearly-24-years-eclipse/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa rende speciale la pubblicazione di \"ECLIPSE\" per i B2K?",
+          "options": [
+            "Rappresenta la colonna sonora ufficiale realizzata per un film",
+            "È un disco dal vivo registrato durante l'ultimo concerto d'addio",
+            "Segna il debutto discografico di una formazione completamente nuova",
+            "È il primo album in studio del gruppo dopo quasi ventiquattro anni"
+          ],
+          "answer": 3,
+          "explanation": "\"ECLIPSE\" segna il ritorno discografico con brani inediti della formazione originale dei B2K a distanza di quasi 24 anni dal precedente album."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-07-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Scoperto meteorite marziano Teghaza 001, datato 4,1 miliardi di anni",
+      "summary": "Un team di ricercatori statunitensi ha identificato nel deserto del Sahara un meteorite marziano, chiamato Teghaza 001, con un’età di 4,1 miliardi di anni. L’analisi di microsonda elettronica, isotopi di ossigeno e cristalli di zircone ha rivelato alti livelli di ossido di manganese, simili a quelli del meteorite Black Beauty, suggerendo ambienti umidi antichi su Marte e fornendo nuovi spunti per future missioni.",
+      "context": "Il meteorite Teghaza 001, con i suoi 4,1 miliardi di anni, è il più antico campione marziano finora trovato, offrendo indizi su un Marte primitivo più umido e guidando la ricerca di segni di vita nelle future esplorazioni.",
+      "sources": [
+        {
+          "name": "INAF Media",
+          "url": "https://www.media.inaf.it/2026/11/06/teg-001-meteorite-marziano/"
+        }
+      ],
+      "image": {
+        "url": "https://www.media.inaf.it/wp-content/uploads/2026/11/Teghaza-1.jpg",
+        "credit": "INAF Media",
+        "link": "https://www.media.inaf.it/2026/11/06/teg-001-meteorite-marziano/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'età stimata del meteorite Teghaza 001?",
+          "options": [
+            "3,0 miliardi di anni",
+            "5,5 miliardi di anni",
+            "4,1 miliardi di anni",
+            "2,5 miliardi di anni"
+          ],
+          "answer": 2,
+          "explanation": "Le analisi di datazione uranio-piombo sui cristalli di zircone hanno indicato un’età di 4,1 miliardi di anni."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-07-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Ex Ilva: spento l'ultimo altoforno, slitta il tavolo sulla Cigs",
+      "summary": "L'ex Ilva ha disattivato l'ultimo altoforno e le cokerie, chiudendo l'intera area a caldo dopo 62 anni di attività. La decisione segue la conferma in Cassazione del divieto per inquinamento da amianto e polveri sottili. La laminazione ripartirà il 10 novembre. Al ministero del Lavoro, sindacati e azienda non hanno raggiunto un accordo sulla cassa integrazione straordinaria per 8.622 dipendenti diretti, rinviando la discussione al 10 novembre.",
+      "context": "La chiusura totale dell'area a caldo aggrava la crisi occupazionale a Taranto. Il nodo centrale è il finanziamento della cassa integrazione: l'azienda chiede che paghi l'Inps, i sindacati temono ritardi. Serve una legge speciale per gestire la fase transitoria e l'integrazione economica.",
+      "sources": [
+        {
+          "name": "Il Sole 24 Ore",
+          "url": "https://www.ilsole24ore.com/art/ex-ilva-spenta-l-area-caldo-slitta-tavolo-la-cigs-AJXAVo7B"
+        }
+      ],
+      "image": {
+        "url": "https://i2.res.24o.it/images2010/S24/Documenti/2026/11/07/Immagini/Ritagli/italyphotopress1251872-1793282698572-U74815126326tQH-1440x752@IlSole24Ore-Web.jpg?r=1170x507",
+        "credit": "Il Sole 24 Ore",
+        "link": "https://www.ilsole24ore.com/art/ex-ilva-spenta-l-area-caldo-slitta-tavolo-la-cigs-AJXAVo7B"
+      },
+      "quiz": [
+        {
+          "question": "Perché l'area a caldo dell'ex Ilva è stata completamente disattivata?",
+          "options": [
+            "Per una decisione volontaria del gruppo Marcegaglia",
+            "Per la mancanza di materie prime da parte dei fornitori",
+            "Per il divieto confermato dalla Cassazione legato all'inquinamento",
+            "Per manutenzione programmata degli impianti"
+          ],
+          "answer": 2,
+          "explanation": "La Cassazione ha confermato il decreto della Corte d'Appello di Milano che imponeva lo stop per inquinamento da amianto e polveri sottili."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-07-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Muore Sebastián Lelio, regista cileno premio Oscar",
+      "summary": "Il regista cileno Sebastián Lelio è morto a 52 anni per motivi di salute non specificati. La notizia è stata resa pubblica dalla sua compagna Amalia Kassai. Lelio era noto per il film 'Una donna fantastica', vincitore dell'Oscar come miglior film straniero nel 2018. Nato in Argentina, si è trasferito in Cile da bambino. La sua opera include anche 'Gloria' e 'Disobedience'.",
+      "context": "La sua morte segna la fine di una carriera che ha portato il cinema cileno sulla scena internazionale, esplorando temi di identità e memoria storica post-Pinochet. Il suo stile, descritto come passionale e sensuale, ha influenzato la 'Nuova onda' cinematografica cilena.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/06/cinema-muore-a-52-anni-il-regista-cileno-premio-oscar-sebastian-lelio_5bd6250a-7a8b-4c5a-a363-e5dffa424776.html"
+        },
+        {
+          "name": "The Guardian Film",
+          "url": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-film-maker"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/5/17/c57f1e872702d139d375c31a0ec6fcd3.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/06/cinema-muore-a-52-anni-il-regista-cileno-premio-oscar-sebastian-lelio_5bd6250a-7a8b-4c5a-a363-e5dffa424776.html"
+      },
+      "quiz": [
+        {
+          "question": "Per quale film Sebastián Lelio ha vinto l'Oscar come miglior film straniero?",
+          "options": [
+            "Gloria",
+            "The New Wave",
+            "Disobedience",
+            "Una donna fantastica"
+          ],
+          "answer": 3,
+          "explanation": "Il materiale specifica che Lelio ha vinto l'Oscar nel 2018 per 'Una donna fantastica'."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-07-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Formula 1, GP del Brasile: Kimi Antonelli in pista da campione del mondo",
+      "summary": "La Formula 1 fa tappa in Brasile per il ventesimo appuntamento stagionale, che si tiene da giovedì 5 a domenica 8 novembre. Per Kimi Antonelli si tratta della prima gara affrontata ufficialmente con il titolo di campione del mondo già conquistato. Il programma prevede le prove libere e le qualifiche, prima della gara di domenica alle 18.",
+      "context": "Il Gran Premio del Brasile rappresenta una tappa storica per l'automobilismo italiano grazie al successo iridato di Kimi Antonelli. Gareggiare da campioni del mondo permette ai piloti di testare soluzioni tecniche in vista della stagione successiva senza la pressione della classifica.",
+      "sources": [
+        {
+          "name": "Sky Sport",
+          "url": "https://sport.sky.it/formula-1/2026/11/06/formula-1-orari-gp-brasile-2026"
+        }
+      ],
+      "image": {
+        "url": "https://sport.sky.it/assets/images/16c93930fe8cadeb3f55721b8d5dedda4a1d453e/skysport/it/motori/formula-1/2026/11/04/f1-orari-gp-brasile-2026-interlagos/f1_locandina_brasile_sky_2026.jpg?im=Resize,width=1218",
+        "credit": "Sky Sport",
+        "link": "https://sport.sky.it/formula-1/2026/11/06/formula-1-orari-gp-brasile-2026"
+      },
+      "quiz": [
+        {
+          "question": "In quale veste Kimi Antonelli affronta il Gran Premio del Brasile?",
+          "options": [
+            "Da inseguitore in classifica",
+            "Da collaudatore",
+            "Da esordiente assoluto",
+            "Da campione del mondo"
+          ],
+          "answer": 3,
+          "explanation": "Il testo specifica che si tratta della prima gara da campione del mondo per Kimi Antonelli."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-07-7"
+    },
+    {
+      "category": "storia",
+      "tag": "7 novembre 1940",
+      "title": "Crolla il ponte di Tacoma Narrows",
+      "summary": "Nello Stato di Washington la sezione centrale del Tacoma Narrows Bridge è crollata durante una tempesta a causa di forti raffiche di vento, a soli quattro mesi dal completamento dell'opera. Il ponte ha ceduto dopo aver iniziato a oscillare e torcersi violentemente, spingendo le autorità a chiudere il transito poco prima del disastro, che non ha causato vittime umane ma ha distrutto la struttura.",
+      "context": "Il disastro ha rivoluzionato l'ingegneria civile e l'aerodinamica applicata ai ponti, dimostrando l'importanza di considerare la resistenza e le vibrazioni indotte dal vento nelle grandi strutture sospese. Oggi questo evento rappresenta un caso di studio fondamentale per ogni ingegnere.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Ponte_di_Tacoma_Narrows"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Tacoma_Narrows_Bridge_2009.jpg/1280px-Tacoma_Narrows_Bridge_2009.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Tacoma_Narrows_Bridge_2009.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la causa principale del crollo del Tacoma Narrows Bridge?",
+          "options": [
+            "Il transito contemporaneo di troppi camion pesanti",
+            "Il cedimento delle fondamenta in cemento armato",
+            "Le forti raffiche di vento che hanno causato vibrazioni e torsioni",
+            "Un terremoto di forte intensità"
+          ],
+          "answer": 2,
+          "explanation": "Il ponte è crollato a causa delle forti raffiche di vento che hanno innescato violente oscillazioni e torsioni della campata centrale."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-07-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Primo viaggio di James Cook",
+      "title": "La nave del carbone scelta per il viaggio di James Cook",
+      "summary": "Per il suo primo viaggio nel Pacifico tra il 1768 e il 1771, James Cook utilizzò una robusta carboniera precedentemente chiamata Earl of Pembroke e ribattezzata HMS Endeavour. Acquistata dall'Ammiragliato britannico per le sue caratteristiche di resistenza e per il fondo piatto che permetteva di navigare in acque basse, la nave fu modificata con l'aggiunta di un terzo ponte e magazzini per affrontare la lunga spedizione scientifica.",
+      "context": "Nel Settecento le spedizioni marittime britanniche univano interessi scientifici e mire coloniali. La scelta di una nave mercantile robusta e versatile, anziché di una tradizionale nave da guerra, fu fondamentale per superare i rischi dell'esplorazione di rotte sconosciute e fondali pericolosi come la Grande barriera corallina.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Primo_viaggio_di_James_Cook"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Captainjamescookportrait.jpg/1280px-Captainjamescookportrait.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Captainjamescookportrait.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Che tipo di imbarcazione era originariamente la nave scelta per il primo viaggio di James Cook?",
+          "options": [
+            "Una nave da guerra della Royal Navy",
+            "Una carboniera mercantile",
+            "Un galeone spagnolo catturato",
+            "Una nave baleniera veloce"
+          ],
+          "answer": 1,
+          "explanation": "La nave scelta era la Earl of Pembroke, una robusta carboniera acquistata e modificata dall'Ammiragliato."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-07-9"
+    }
+  ]
+}
