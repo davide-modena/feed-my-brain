@@ -1,0 +1,400 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T05:38:44.363Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Israele: Herzog incarica Eisenkot di formare il governo",
+      "summary": "Il presidente israeliano Isaac Herzog ha affidato a Gadi Eisenkot, leader dell'opposizione centrista, l'incarico di formare il nuovo governo. La decisione segue le elezioni in cui nessun blocco ha ottenuto la maggioranza assoluta dei 120 seggi della Knesset. Eisenkot ha 28 giorni per costruire una coalizione, con possibilità di proroga di 14 giorni. Il suo blocco ha ricevuto 67 raccomandazioni dai parlamentari, contro le 46 della coalizione uscente di Benjamin Netanyahu.",
+      "context": "La frammentazione politica israeliana rende difficile la formazione di maggioranze stabili. La mossa di Herzog punta a evitare una nuova crisi di governo o elezioni anticipate, offrendo all'opposizione la possibilità di unire forze diverse, inclusi potenzialmente partiti arabi o ultraortodossi, per creare un esecutivo di emergenza nazionale.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/07/herzog-affida-a-eisenkot-lincarico-di-formare-il-governo-in-israele_a23fdf32-f6f2-45a5-ac13-96235962585a.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/11/chi-e-eisenkot-il-generale-candidato-premier-161780b2-bdc8-4d16-8fee-5cd7397af04d.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1ff8/live/d9aea170-daf1-11f1-a701-fddedf244c16.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quante raccomandazioni ha ricevuto Eisenkot dai membri della nuova Knesset per diventare primo ministro?",
+          "options": [
+            "67",
+            "61",
+            "53",
+            "46"
+          ],
+          "answer": 0,
+          "explanation": "Le forze politiche che sostengono Eisenkot rappresentano complessivamente 67 membri del parlamento, mentre la coalizione di Netanyahu ne ha ottenuti 46."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-08-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Scade lo sconto sulle accise del gasolio",
+      "summary": "Il governo italiano non ha rinnovato la riduzione delle accise sul gasolio, che scadeva il 7 novembre. Di conseguenza, dal prezzo al litro verranno tolti 4,9 centesimi di sconto fiscale. Questo comporterà un aumento del costo del pieno da circa 2,44 euro per un serbatoio da 50 litri. Tuttavia, il rialzo potrebbe essere attenuato dal recente calo delle quotazioni internazionali del petrolio, che ha registrato una flessione del 16,2% negli ultimi giorni.",
+      "context": "La decisione impatta direttamente sul costo della vita e dei trasporti. Il governo procede comunque con il decreto per ridurre le bollette elettriche, previsto in Consiglio dei ministri lunedì. L'attenzione resta alta su come l'andamento dei mercati energetici globali influenzerà i prezzi finali alla pompa nei prossimi giorni.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/07/rischio-rincari-per-il-gasolio-da-domani-in-gu-non-ce-proroga-taglio-accise_d507854b-172b-4e83-b142-79fdc1bc11ac.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/6/58a6c516280be924f0da775a5641ddc7.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/11/07/rischio-rincari-per-il-gasolio-da-domani-in-gu-non-ce-proroga-taglio-accise_d507854b-172b-4e83-b142-79fdc1bc11ac.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la conseguenza diretta della mancata proroga delle accise sul gasolio?",
+          "options": [
+            "Lo sconto verrà esteso a benzina e metano",
+            "I prezzi resteranno invariati per altri 30 giorni",
+            "Il prezzo al litro diminuirà di circa 4,9 centesimi",
+            "Il prezzo al litro aumenterà di circa 4,9 centesimi"
+          ],
+          "answer": 3,
+          "explanation": "La scadenza del decreto elimina lo sconto fiscale di 4,9 centesimi al litro, facendo salire il prezzo finale per il consumatore."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-08-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "IA a scuola: 89% dei ragazzi la usa, ma solo un docente su quattro",
+      "summary": "Un rapporto del Cnel 2026 rileva che l'89 % degli studenti italiani tra 9 e 16 anni usa l'intelligenza artificiale generativa, posizionando l'Italia al terzo posto in Europa. Solo il 25 % dei docenti la utilizza quotidianamente, contro il 36 % della media OCSE. Gli alunni la impiegano per velocizzare compiti (57 %) e ottimizzare lo studio (45 %).",
+      "context": "Il divario tra l'alta adozione dell'IA da parte degli studenti e il basso utilizzo da parte degli insegnanti evidenzia una nuova forma di digital divide, spingendo le istituzioni a rafforzare l'alfabetizzazione critica e la formazione docente.",
+      "sources": [
+        {
+          "name": "Sky TG24",
+          "url": "https://tg24.sky.it/tecnologia/2026/11/07/intelligenza-artificiale-studenti-docenti-italia-cnel"
+        }
+      ],
+      "image": {
+        "url": "https://tg24.sky.it/assets/images/c2bd64084b84f539dca1787fb13abc5883ac3448/skytg24/it/tecnologia/2026/11/07/intelligenza-artificiale-studenti-docenti-italia-cnel/GettyImages-1134900255.jpg?im=Resize,width=1218",
+        "credit": "Sky TG24",
+        "link": "https://tg24.sky.it/tecnologia/2026/11/07/intelligenza-artificiale-studenti-docenti-italia-cnel"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la percentuale di docenti italiani che utilizza l'intelligenza artificiale nella pratica quotidiana?",
+          "options": [
+            "57 %",
+            "36 %",
+            "25 %",
+            "89 %"
+          ],
+          "answer": 2,
+          "explanation": "Il rapporto indica che solo il 25 % dei docenti usa l'IA quotidianamente."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-08-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Lil Baby lancia l'album FRESH con pop‑up American Deli ad Atlanta",
+      "summary": "Il rapper di Atlanta Lil Baby ha presentato il nuovo album FRESH con un pop‑up di American Deli nel quartiere West End. Dalle 12 alle 17, i primi 500 presenti hanno ricevuto ali di pollo WHAM gratis, mentre l’evento offriva merchandising esclusivo, vinili e un DJ che ha suonato i brani dell’album, inclusa la traccia “Dead Fresh”. Lil Baby ha indossato un grembiule, ha servito le ali e ha firmato autografi.",
+      "context": "L'evento dimostra come Lil Baby usi strategie di marketing esperienziali per promuovere FRESH, rafforzando il legame con i fan di Atlanta e creando buzz attorno al suo ritorno musicale.",
+      "sources": [
+        {
+          "name": "HipHopWired",
+          "url": "https://hiphopwired.com/3069039/lil-baby-american-deli-pop-up/"
+        },
+        {
+          "name": "HotNewHipHop",
+          "url": "https://www.hotnewhiphop.com/1015989-lil-baby-fans-split-new-album-fresh"
+        }
+      ],
+      "image": {
+        "url": "https://hiphopwired.com/wp-content/uploads/sites/43/2026/11/17940932858771.jpg?quality=85&strip=all&w=1680&crop=0,0,100,960px",
+        "credit": "HipHopWired",
+        "link": "https://hiphopwired.com/3069039/lil-baby-american-deli-pop-up/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'elemento principale dell'evento pop‑up organizzato da Lil Baby per l'uscita di FRESH?",
+          "options": [
+            "Distribuzione di ali di pollo WHAM gratuite",
+            "Concerto di un'ora con ospiti",
+            "Lancio di un videogioco mobile",
+            "Presentazione di un film documentario"
+          ],
+          "answer": 0,
+          "explanation": "Lil Baby ha distribuito gratuitamente ali di pollo WHAM ai primi 500 fan durante il pop‑up."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-08-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "AI e scienza: conferenza a Sassari su limiti e opportunità",
+      "summary": "L'Università di Sassari ospiterà mercoledì 11 novembre una conferenza intitolata \"Intelligenza artificiale e scienza: quando generare idee è facile ma verificarle è difficile\". L'evento, aperto al pubblico nell'Aula Magna, vedrà come ospite d'onore Giorgio Metta, direttore scientifico dell'Istituto Italiano di Tecnologia. Il focus sarà sul ruolo dell'AI nella ricerca, evidenziando la sfida tra la capacità dei sistemi di generare ipotesi e la necessità di verificarle con metodologie rigorose.",
+      "context": "L'incontro affronta un nodo cruciale per la futura ricerca scientifica: l'equilibrio tra la produttività algoritmica e la validazione umana. Comprendere questi limiti è essenziale per integrare l'AI nei laboratori senza compromettere l'affidabilità dei risultati scientifici.",
+      "sources": [
+        {
+          "name": "Il Foglio",
+          "url": "https://www.ilfoglio.it/search/%D8%B3%D9%83%D8%B3%2B%D9%86%D9%8A%D9%83%2B%D9%88%D8%B1%D8%B9%D8%A7%D9%86%2B%D8%AD%D9%84%D9%88%D9%8A%D9%86%2B%D8%B5%D9%8A%D9%86%D9%8A%2B%D9%85%D8%B1%D8%A7%D9%87%D9%82/model_standard/pagination_10/page_1/s"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/cultura/intelligenza-artificiale-e-scienza-una-conferenza-alluniversita-di-sassari-vi2qp68x"
+        }
+      ],
+      "image": {
+        "url": "https://immagini.unionesarda.it/version/c:NGVjMzVmN2MtMjJhNC00:Y2M5NmQ5YjQtMDk1NS00/image.webp?f=16:9",
+        "credit": "L'Unione Sarda",
+        "link": "https://www.unionesarda.it/cultura/intelligenza-artificiale-e-scienza-una-conferenza-alluniversita-di-sassari-vi2qp68x"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il tema centrale della conferenza organizzata dall'Università di Sassari?",
+          "options": [
+            "La costruzione di nuovi robot umanoidi per la logistica",
+            "La difficoltà di verificare le ipotesi generate dall'intelligenza artificiale",
+            "L'investimento nella rete stradale della Sardegna",
+            "La formazione di nuovi ingegneri elettronici"
+          ],
+          "answer": 1,
+          "explanation": "Il titolo e il programma indicano che il dibattito verte sul contrasto tra la facilità di generare idee con l'AI e la complessità di verificarle scientificamente."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-08-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Tesla dice addio al Cybertruck per puntare su taxi autonomi e robotica",
+      "summary": "Elon Musk ha annunciato che Tesla fermerà la produzione del Cybertruck verso la metà del prossimo anno nello stabilimento texano. La decisione segna la fine del tentativo di conquistare il mercato dei pick-up negli Stati Uniti, rimasto lontano dall'obiettivo di duecentomila vendite annue. L'azienda riconvertirà gli impianti per produrre il Cybercab, il suo taxi a guida autonoma, concentrando le proprie risorse su robotica e intelligenza artificiale anziché su modelli tradizionali per privati.",
+      "context": "La mossa conferma il cambio di rotta di Tesla, che punta sui veicoli autonomi e sull'intelligenza artificiale per sostenere la crescita futura, abbandonando i modelli commerciali meno redditizi dopo aver già interrotto la produzione di Model S e Model X.",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/067248f953434b6b22df921bb895b2c6f11d1011/74_41_3730_2983/master/3730.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9bb41248ef4dd4ec372dd46732ad5ef0",
+        "credit": "The Guardian Business",
+        "link": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo principale Tesla fermerà la produzione del Cybertruck?",
+          "options": [
+            "Per trasferire l'intera linea di montaggio negli stabilimenti europei",
+            "A causa dei divieti di circolazione imposti per legge negli Stati Uniti",
+            "Per convertire la fabbrica alla produzione del taxi a guida autonoma Cybercab",
+            "Per concentrare gli investimenti sul rilancio dei modelli Model S e Model X"
+          ],
+          "answer": 2,
+          "explanation": "Tesla libererà le linee dello stabilimento in Texas per produrre il Cybercab, spostando la strategia verso i taxi autonomi e l'intelligenza artificiale."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-08-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Keoghan annuncia il biopic sui Beatles con Ringo Starr",
+      "summary": "L'attore irlandese Barry Keoghan ha confermato oggi di interpretare Ringo Starr nel biopic sui Beatles, parte di un progetto di quattro film diretto da Sam Mendes. La produzione, intitolata The Beatles – A Four‑Film Cinematic Event, è attualmente in fase di riprese e prevede di raccontare la storia dei Fab Four attraverso quattro lungometraggi.",
+      "context": "Il progetto è rilevante perché è il primo biopic globale sui Beatles, coinvolge un regista di fama internazionale e assegna a Keoghan un ruolo iconico, aumentando l’interesse mediatico sul film.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/07/keoghan-rappresento-gli-uomini-anche-nella-loro-vulnerabilita_353c9e76-b654-41a9-a4a1-d9cbc665a809.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2024/2/3/08fbf931af5abd4ef878376b7e144829.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/07/keoghan-rappresento-gli-uomini-anche-nella-loro-vulnerabilita_353c9e76-b654-41a9-a4a1-d9cbc665a809.html"
+      },
+      "quiz": [
+        {
+          "question": "Chi interpreterà Ringo Starr nel biopic sui Beatles annunciato da Barry Keoghan?",
+          "options": [
+            "Leonardo DiCaprio",
+            "Tom Holland",
+            "Michael Caine",
+            "Barry Keoghan"
+          ],
+          "answer": 3,
+          "explanation": "Barry Keoghan ha confermato di interpretare Ringo Starr nel progetto."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-08-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Nottingham Forest batte Manchester City 3-1",
+      "summary": "Il Nottingham Forest ha sconfitto il Manchester City per 3-1 nella Premier League. Liam Delap ha segnato due gol, mentre il terzo è stato realizzato da Jair Cunha. È la prima vittoria casalinga della stagione per il Forest e la terza sconfitta consecutiva in campionato per il City, che aveva vinto le prime sette partite.",
+      "context": "La partita evidenzia la fragilità difensiva del Manchester City nonostante i risultati iniziali positivi. Per il Nottingham Forest, allenato da Oliver Glasner, la vittoria interrompe una serie di risultati negativi e migliora la classifica, mostrando un'efficacia offensiva superiore alle aspettative statistiche.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/football/videos/crp3gewxj77eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/07/nottingham-forest-manchester-city-premier-league-match-report"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/3af7/live/d780fef0-dae4-11f1-a701-fddedf244c16.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/videos/crp3gewxj77eo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quanti gol ha segnato Liam Delap nella vittoria del Nottingham Forest contro il Manchester City?",
+          "options": [
+            "Tre",
+            "Uno",
+            "Nessuno",
+            "Due"
+          ],
+          "answer": 3,
+          "explanation": "Liam Delap ha realizzato una doppietta, contribuendo in modo decisivo alla vittoria per 3-1."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-08-7"
+    },
+    {
+      "category": "storia",
+      "tag": "8 novembre 1895",
+      "title": "Röntgen scopre i raggi X",
+      "summary": "L'8 novembre 1895, Wilhelm Conrad Röntgen, durante esperimenti con tubi catodici, nota che uno schermo fluorescente brilla anche quando il tubo è coperto. Scopre così una radiazione invisibile in grado di penetrare la carta. Dopo aver verificato il fenomeno, ottiene la prima immagine radiografica della storia facendo passare la mano della moglie attraverso il fascio di raggi.",
+      "context": "La scoperta ha rivoluzionato la medicina consentendo di visualizzare l'interno del corpo senza interventi chirurgici. Ha aperto la strada alla fisica delle radiazioni ionizzanti e alla cristallografia. Röntgen ricevette il primo premio Nobel per la fisica nel 1901 per questo contributo.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Raggi_X"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Wilhelm_Conrad_R%C3%B6ntgen_%281845--1923%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Wilhelm_Conrad_R%C3%B6ntgen_(1845--1923).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Come si chiama la prima immagine ottenuta da Röntgen grazie alla nuova radiazione?",
+          "options": [
+            "Una fotografia a infrarossi",
+            "Una radiografia della mano",
+            "Un diagramma elettrico",
+            "Un'immagine a raggi gamma"
+          ],
+          "answer": 1,
+          "explanation": "Röntgen chiese alla moglie di mettere la mano tra il tubo e la pellicola, ottenendo la prima radiografia della storia."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-08-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Bombardamento di Yawata",
+      "title": "La prima incursione dei bombardieri giganti in Giappone",
+      "summary": "Nella notte tra il 15 e il 16 giugno 1944, settantacinque bombardieri pesanti statunitensi decollati dalla Cina attaccarono le acciaierie di Yawata, nel nord del Giappone. Si trattò della prima incursione sul suolo nipponico compiuta dai nuovi aerei a lungo raggio Boeing B-29 e della prima azione di questo tipo dopo il raid condotto da portaerei nel 1942. Nonostante i danni materiali fossero stati trascurabili, l'attacco dimostrò le lacune delle difese aeree giapponesi e incise sul morale della popolazione locale.",
+      "context": "L'uso dei bombardieri strategici a lungo raggio rappresentò una svolta nella fase finale della seconda guerra mondiale nel Pacifico. La conquista di basi avanzate e lo sviluppo di velivoli capaci di grandi autonomie permisero agli Alleati di colpire direttamente i centri industriali della nazione insulare, accelerandone il crollo economico e militare.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Bombardamento_di_Yawata"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/B-29s_June_1944.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:B-29s_June_1944.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale obiettivo principale colpì il bombardamento di Yawata del giugno 1944?",
+          "options": [
+            "Le basi navali dell'isola",
+            "I depositi petroliferi costieri",
+            "Le grandi acciaierie della zona",
+            "Le fabbriche di aeroplani militari"
+          ],
+          "answer": 2,
+          "explanation": "L'incursione aerea mirava a colpire le grandi acciaierie situate a Yawata, nel Giappone settentrionale."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-08-9"
+    }
+  ]
+}
