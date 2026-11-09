@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T05:35:46.861Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Scontro ferroviario vicino a Giza: 7 morti e 112 feriti",
+      "summary": "Il 9 novembre 2026 due treni diretti a sud si sono scontrati tra le stazioni di Kafr Ammar e Al‑Raqqa, nel governatorato di Giza. Il convoglio Giza‑Fayoum ha colpito la coda di un treno Cairo‑Assuan fermo, provocando lo deragliamento di diversi vagoni. Sono stati confermati sette morti, tra cui il macchinista, e 112 feriti, per la maggior parte con fratture e lesioni craniche. Il presidente Abdel Fattah al‑Sisi ha ordinato un’indagine e le autorità sanitarie hanno attivato i pronto soccorso.",
+      "context": "L’incidente evidenzia le persistenti criticità della rete ferroviaria egiziana, già teatro di gravi tragedie, e potrebbe aumentare la pressione politica per riforme di sicurezza e gestione.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPMG44eHM1cFZsNHotbFgzYTdGWG5mUUVxU3EwSG1fOU9mRjZ2a0RZTWxqUmZ5MU9ITl9rS1FmdFBWWS1YdnhFUEJ0VDFfQm1RZkNRb0tzZml4djIzRXZBRE5UeXBQMmtEalM1a2RUSnAteEZMQ191Z1JvdFhJN3kwdlo0Z0NGTnVaeEphOHduR21ic0tqQTFtQjc4NERiRkUzZHBHc0w2VThuUmtIZl9aMmR3SHY1c1VfREM4R3plbTdXTjZlZUdLa3ozM2Fsb3NSN0ZkWXltdXg5V2VuM0ttdGNRWEw0S1BNZ1hvQ3plRFllaUluM1RNbNIB_gFBVV95cUxOdkh5N21UTkVlV2RKcW1CQ29kRFlUV1RMQjFkS1M1TnZpYk9sNVZPWV92R2tfdDY0Vm9hR21QTnFNaWNvTzlwZDJFeWVXNnY3V1NhbmtrRFZjdmZjNFNJNkI2b3M3dTI0XzU4Z1ZWYmFqUG13aGZwbUdqelFjajh1YmNjZjhGMEg1QWFUZVA4emJ5b18zbjlmbm9XLXFtUDlRWjRwZ0R6ajlLSmI3QmRjVFRRQzRVWUkzSEc5NnZJckhacHNpbWFwbEVYbkZ0eVhYbG1sUHZrU3E2Z3RDUDBGTjhSYUl3U0xWeHE3Yy1abWpvVmFrVVJlRkNVcHRMZw?oc=5"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/11/sale-a-7-il-bilancio-delle-vittime-dello-scontro-tra-treni-in-egitto-112-i-feriti-2e01a0d4-b9a7-4c28-ab48-62d081547200.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3886/live/ab03aa70-db8a-11f1-b441-2b33b063138f.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quante persone sono morte nello scontro ferroviario avvenuto vicino a Giza il 9 novembre 2026?",
+          "options": [
+            "10",
+            "7",
+            "12",
+            "5"
+          ],
+          "answer": 1,
+          "explanation": "Le autorità hanno confermato sette vittime."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-09-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Il turismo di lusso negli alberghi italiani vale 10,4 miliardi",
+      "summary": "Secondo l'istituto Demoskopika, la spesa turistica diretta generata nel 2025 dagli alberghi di lusso in Italia ha raggiunto 10,4 miliardi di euro, il 17,3% del totale del settore alberghiero. I pernottamenti di fascia alta sono cresciuti del 111% dal 2008, superando di gran lunga la media generale. Ogni soggiorno in un hotel di lusso costa in media 702 euro, contro i 209 euro della media alberghiera. Le presenze hanno sfiorato i 14,9 milioni, con una crescita del 5,7% rispetto al 2024.",
+      "context": "Il dato evidenzia un'accelerazione del segmento high-end rispetto al mercato turistico complessivo. La concentrazione geografica del lusso e l'alto valore medio per pernottamento indicano un'offerta italiana sempre più mirata a una clientela internazionale ad alto potere d'acquisto, trainata da destinazioni come Lazio, Trentino-Alto Adige e Campania.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/canale_viaggi/notizie/news/2026/11/06/turismo-di-lusso-negli-alberghi-vale-104-miliardi-dal-2008-presenze_d5536c32-4614-4152-9069-88638f958563.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/27/0c158cd46ad7570e5547eea1f0aa590e.jpeg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/canale_viaggi/notizie/news/2026/11/06/turismo-di-lusso-negli-alberghi-vale-104-miliardi-dal-2008-presenze_d5536c32-4614-4152-9069-88638f958563.html"
+      },
+      "quiz": [
+        {
+          "question": "Quanto vale la spesa turistica diretta generata nel 2025 dagli alberghi di lusso in Italia?",
+          "options": [
+            "10,4 miliardi di euro",
+            "21,4 miliardi di euro",
+            "60 miliardi di euro",
+            "702 milioni di euro"
+          ],
+          "answer": 0,
+          "explanation": "Il testo specifica che la spesa del segmento alberghiero di lusso ammonta a 10,4 miliardi di euro, mentre 60 miliardi è il totale di tutto il settore alberghiero."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-09-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Nvidia avvia indagine su tentativi di spionaggio cinese",
+      "summary": "Il consiglio di amministrazione di Nvidia ha avviato un'indagine indipendente dopo che il CEO Jensen Huang è stato coinvolto in un tentativo di infiltrazione da parte dell'intelligence cinese. Secondo i media, Huang ha avuto una relazione con Alice Huang, una cittadina cinese identificata come spia al servizio di Pechino. Huang ha pubblicato una nota interna scusandosi per l'infedeltà e dichiarando il proprio sostegno all'inchiesta, precisando che non ci sono prove di compromissione dei segreti aziendali o della sicurezza nazionale.",
+      "context": "L'episodio si inserisce nel contesto delle tensioni tecnologiche tra Stati Uniti e Cina, dove i chip avanzati di Nvidia sono centrali per lo sviluppo dell'intelligenza artificiale. La vicenda evidenzia i rischi di sicurezza legati ai contatti commerciali con la Cina, nonostante le restrizioni esistenti sulle vendite di hardware critico.",
+      "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
+        }
+      ],
+      "image": {
+        "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-11/251119-jensen-huang-nvidia-es-42a1a0.jpg",
+        "credit": "NBC News",
+        "link": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la motivazione principale per cui il consiglio di amministrazione di Nvidia ha avviato l'indagine?",
+          "options": [
+            "Il CEO ha investito illegalmente fondi aziendali in Cina",
+            "Il CEO ha venduto segreti aziendali a concorrenti americani",
+            "Il CEO è stato il bersaglio di un tentativo di infiltrazione da parte di un'agenzia straniera",
+            "L'azienda ha violato le normative ambientali internazionali"
+          ],
+          "answer": 2,
+          "explanation": "L'indagine è stata aperta specificamente perché Jensen Huang è stato identificato come bersaglio di un'operazione di intelligence cinese."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-09-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Scoperta possibile prova di cellule del sangue fossili in un dinosauro",
+      "summary": "Alcuni ricercatori hanno individuato microstrutture ellittiche nelle ossa di un dinosauro vissuto 115 milioni di anni fa in Brasile, appartenente alla specie Aratasaurus museunacionali. Tramite analisi chimiche e di imaging, il team ha rilevato la presenza di ferro, carbonio, azoto e porfirine, elementi che indicano la probabile conservazione di tracce di molecole di sangue fossile, tra cui il gruppo eme.",
+      "context": "Questa scoperta offre una finestra sulla fisiologia degli animali estinti, permettendo di studiare metabolismo e livelli di attività. Nel quadro della paleontologia, la conservazione di molecole organiche antiche è un campo complesso che richiede rigide conferme per escludere contaminazioni.",
+      "sources": [
+        {
+          "name": "Science News",
+          "url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize"
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_CG_oldestfossil_mainsocial.jpg",
+        "credit": "Science News",
+        "link": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize"
+      },
+      "quiz": [
+        {
+          "question": "A quale animale appartengono le presunte cellule del sangue fossili scoperte di recente?",
+          "options": [
+            "Tyrannosaurus rex",
+            "Triceratops horridus",
+            "Spinosaurus aegyptiacus",
+            "Aratasaurus museunacionali"
+          ],
+          "answer": 3,
+          "explanation": "Le microstrutture sono state rinvenute nei fossili del dinosauro Aratasaurus museunacionali."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-09-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Consob approva l'offerta di Intesa per Mps",
+      "summary": "La Commissione nazionale per le società e la borsa ha approvato il documento per l'offerta pubblica di acquisto e scambio da 31,8 miliardi di euro lanciata da Intesa Sanpaolo su Monte dei Paschi di Siena. Il periodo in cui gli azionisti potranno aderire all'operazione inizierà il 24 novembre e si concluderà il 22 gennaio dell'anno successivo, con il perfezionamento previsto per il 29 gennaio.",
+      "context": "Questa operazione bancaria su scala nazionale ridisegna gli equilibri del credito in Italia e nell'Eurozona. Nei prossimi mesi sarà fondamentale seguire l'adesione degli azionisti di Monte dei Paschi di Siena e il rispetto dei piani di integrazione stabiliti.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/08/via-libera-della-consob-allofferta-di-intesa-per-mps-si-parte-il-24-novembre_15c55497-bc22-4473-aef0-930c9724f4f4.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/6/7/a092b208f28908001a471efe8339e7d2.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/11/08/via-libera-della-consob-allofferta-di-intesa-per-mps-si-parte-il-24-novembre_15c55497-bc22-4473-aef0-930c9724f4f4.html"
+      },
+      "quiz": [
+        {
+          "question": "Quando è previsto l'inizio del periodo di adesione all'offerta di Intesa per Mps?",
+          "options": [
+            "Il 24 novembre",
+            "Il 22 gennaio",
+            "Il 29 gennaio",
+            "Nei giorni scorsi"
+          ],
+          "answer": 0,
+          "explanation": "Il periodo di adesione all'offerta concordato con Borsa Italiana avrà inizio il 24 novembre."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-09-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Carlos Alcaraz vince il Paris Masters battendo Ben Shelton",
+      "summary": "Il tennista spagnolo Carlos Alcaraz ha vinto il torneo Paris Masters, battendo in finale lo statunitense Ben Shelton con il punteggio di 7-6, 7-5. Con questo successo, ottenuto ieri, Alcaraz si è preso la rivrivolta dopo la sconfitta subita contro lo stesso avversario agli ultimi US Open e ha conquistato il suo nono titolo in un torneo Masters 1000, diventando il primo spagnolo a trionfare a Parigi dopo David Ferrer nel 2012.",
+      "context": "Questa vittoria consolida la posizione di vertice di Alcaraz nel tennis mondiale e rappresenta un importante successo in vista dei prossimi appuntamenti di fine stagione, come le finali del circuito mondiale e la coppa nazionale per squadre.",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/08/carlos-alcaraz-ben-shelton-win-paris-masters-final"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/420376ca5e838e655838731bc520c72277b84412/70_192_3552_2841/master/3552.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=435e42f7ec0ac45a22e1b616eb80d41a",
+        "credit": "The Guardian Sport",
+        "link": "https://www.theguardian.com/sport/2026/nov/08/carlos-alcaraz-ben-shelton-win-paris-masters-final"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha vinto la finale del Paris Masters?",
+          "options": [
+            "Ben Shelton",
+            "Un giocatore statunitense",
+            "David Ferrer",
+            "Carlos Alcaraz"
+          ],
+          "answer": 3,
+          "explanation": "Carlos Alcaraz ha sconfitto Ben Shelton in finale vincendo il Paris Masters."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-09-5"
+    },
+    {
+      "category": "storia",
+      "tag": "9 novembre 1989",
+      "title": "Cade il Muro di Berlino",
+      "summary": "Il 9 novembre 1989, dopo settimane di proteste, il governo della Germania Est ha annunciato la riapertura delle frontiere con la Germania Ovest. Migliaia di cittadini si sono riversati sul Muro di Berlino, dividendosi tra festeggiamenti e l'abbattimento materiale della barriera in cemento armato che divideva la città dal 1961.",
+      "context": "La caduta del Muro ha posto fine alla divisione della Germania, portando alla riunificazione ufficiale nel 1990. Questo evento ha simboleggiato la fine della guerra fredda e il crollo dei regimi comunisti nell'Europa orientale, ridefinendo gli equilibri geopolitici mondiali.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Muro_di_Berlino"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Berlin_Wall_1961-11-20.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Berlin_Wall_1961-11-20.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale evento ha portato alla fine della divisione di Berlino?",
+          "options": [
+            "Un accordo di pace firmato a Jalta",
+            "La chiusura del confine decisa nel 1952",
+            "L'annuncio della riapertura delle frontiere da parte della Germania Est",
+            "L'intervento militare della NATO"
+          ],
+          "answer": 2,
+          "explanation": "Il 9 novembre 1989 il governo della Germania Est ha aperto le frontiere, permettendo ai cittadini di superare il muro."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-09-6"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Horace Walpole",
+      "title": "Il creatore del genere horror che detestava il suo nome",
+      "summary": "Horace Walpole, nato a Londra nel 1717, fu uno scrittore e politico britannico passato alla storia come il padre della letteratura gotica e dell'horror grazie al suo romanzo Il castello di Otranto. Aristocratico e figlio di un Primo Ministro, fin da bambino rifiutò il nome di battesimo Horatio perché lo considerava troppo latineggiante, preferendo farsi chiamare Horace per avere un suono più affine alla lingua inglese.",
+      "context": "Nel diciottesimo secolo la cultura britannica vive una fase di transizione tra il razionalismo dell'Illuminismo e le prime spinte del Romanticismo. L'invenzione del romanzo gotico di Walpole segna la nascita di un immaginario fatto di mistero e terrore, che influenzerà profondamente la letteratura europea successiva.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Horace_Walpole"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Horace_Walpole.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Horace_Walpole.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Horace Walpole non amava il suo nome di battesimo?",
+          "options": [
+            "Gli ricordava un periodo infelice trascorso a scuola",
+            "Era lo stesso nome di suo padre e voleva evitarne il peso",
+            "Lo riteneva troppo latineggiante e preferiva una forma inglese",
+            "Era stato scelto da un precettore che detestava"
+          ],
+          "answer": 2,
+          "explanation": "Walpole rifiutava il nome Horatio perché lo riteneva troppo latineggiante, preferendo la variante Horace per un uomo inglese."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-09-7"
+    }
+  ]
+}
