@@ -1,0 +1,408 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T05:39:25.519Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Riprendono i colloqui di pace Ucraina‑Russia a Abu Dhabi",
+      "summary": "Il 10 novembre 2026 i delegati di Russia, Ucraina e Stati Uniti si sono incontrati ad Abu Dhabi per la prima volta da febbraio in colloqui trilaterali sulla pace. Funzionari americani hanno riferito che Mosca e Kiev mostrano una lieve flessibilità privata sul controllo di Donetsk, pur mantenendo posizioni pubbliche opposte. Le discussioni includono anche una futura architettura di sicurezza, con canali di comunicazione e la possibile riattivazione del Consiglio NATO‑Russia.",
+      "context": "Il ritorno dei colloqui indica una possibile apertura verso una soluzione negoziata, nonostante le divergenze su Donetsk. Il risultato influenzerà la sicurezza europea e le relazioni tra NATO e Russia.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3d4a/live/c60a1ad0-dc88-11f1-851a-19e868620cad.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale novità dei colloqui di pace tenutisi ad Abu Dhabi il 10 novembre 2026?",
+          "options": [
+            "Mosca e Kiev hanno mostrato una lieve flessibilità privata sul controllo di Donetsk",
+            "Il Consiglio NATO‑Russia è stato definitivamente chiuso",
+            "È stato firmato un accordo definitivo sulla sovranità di Donetsk",
+            "Gli Stati Uniti hanno ritirato il loro sostegno all'Ucraina"
+          ],
+          "answer": 0,
+          "explanation": "I funzionari americani hanno indicato che le parti hanno mostrato una leggera flessibilità privata sul tema di Donetsk, pur mantenendo posizioni pubbliche opposte."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-10-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Approvato il decreto bollette: 15 euro in meno al megawattora",
+      "summary": "Il Consiglio dei ministri ha approvato il decreto bollette, che dal prossimo gennaio ridurrà le tariffe elettriche di circa 15 euro al megawattora. La misura introduce un tetto al prezzo del gas per la produzione di energia a 58,9 euro al megawattora, abbassando così il costo all'ingrosso. Il provvedimento, concordato con l'Unione europea, mira a trasferire ai consumatori i risparmi derivanti dalle energie rinnovabili e a impedire che i produttori trattengano capacità produttiva per alzare i prezzi.",
+      "context": "L'intervento è considerato tardivo e insufficiente da alcune associazioni di consumatori, ma rappresenta un passo importante per mitigare l'impatto dei costi energetici. Il meccanismo, simile a quello spagnolo, stabilizza le bollette limitando l'influenza dei prezzi del gas, sebbene restino da chiarire le modalità di finanziamento del sussidio per le aziende.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMVJ0SzZDeVlQYTVTR0lUVWFlcVMxbGU4cU9nbmN4cEZXQVFBMUJEMk9vY3ZELV9adDlSRFdTRUxfeEdEMXdzWmdSa0ctekFVdTVBcW5wT2otMkVCYllvLW41cDR2cDJ3SDdqbTdfY1NmeWhLRm9FaVZQeWlUMlpLcUpZVS1xXzlYSF9Rb1BWUVRDRDBoU2c?oc=5"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/09/dal-cdm-ok-al-decreto-bollette-15-euro-in-meno-al-megawattora_cbf74d76-2c12-4718-89af-73ab9c1e6fec.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/11/decreto-bollette-taglio-gas-15-euro-megawattora-dichiarazioni-e-punti-oscuri-marchetti-806b735c-5088-4b45-bc65-92ea71994789.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/7/6499d0d91fee8da7d44422acc3a1a3d9.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/11/09/dal-cdm-ok-al-decreto-bollette-15-euro-in-meno-al-megawattora_cbf74d76-2c12-4718-89af-73ab9c1e6fec.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il tetto massimo fissato al prezzo del gas per la produzione di elettricità dal decreto?",
+          "options": [
+            "15 euro al megawattora",
+            "313 euro al megawattora",
+            "82,2 euro al megawattora",
+            "58,9 euro al megawattora"
+          ],
+          "answer": 3,
+          "explanation": "Il decreto stabilisce un limite di 58,9 euro al megawattora per il gas utilizzato per produrre elettricità, al fine di ridurre il costo finale delle bollette."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-10-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Australia crea un nuovo regolatore per la sicurezza dell'IA",
+      "summary": "Il primo ministro australiano Anthony Albanese ha annunciato oggi a Canberra l'istituzione di un nuovo ente di regolamentazione per l'intelligenza artificiale. Il nuovo organo avrà il potere di infliggere sanzioni significative alle aziende che violano le norme. La mossa fa parte di un pacchetto di regole più rigide, che include l'obbligo per le società di IA di segnalare immediatamente qualsiasi incidente in cui i modelli si comportino in modo non previsto.",
+      "context": "L'annuncio segue un recente incidente di sicurezza che ha coinvolto OpenAI. Questa iniziativa posiziona l'Australia tra i paesi che stanno definendo quadri normativi specifici per la sicurezza dell'IA, anticipando possibili standard globali.",
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/australia-plans-new-regulator-for-artificial-intelligence-after-openai-hack"
+        }
+      ],
+      "image": {
+        "url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F8%2F5%2F3%2F13423581-1-eng-GB%2Fcf947ba82249-20261110135333092200-originalbc.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+        "credit": "Nikkei Asia",
+        "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/australia-plans-new-regulator-for-artificial-intelligence-after-openai-hack"
+      },
+      "quiz": [
+        {
+          "question": "Quale potere specifico è stato attribuito al nuovo regolatore australiano per l'IA?",
+          "options": [
+            "Obbligare le aziende a chiudere i propri laboratori di ricerca",
+            "Sequestrare i server delle aziende di intelligenza artificiale",
+            "Infliggere sanzioni significative alle aziende che violano le norme",
+            "Bloccare l'accesso a internet per le aziende sanzionate"
+          ],
+          "answer": 2,
+          "explanation": "Il testo specifica che il nuovo regolatore avrà il potere di infliggere 'sanzioni significative' alle aziende che fanno le cose sbagliate."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-10-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Ye batte il record di presenze a un concerto rap negli Stati Uniti ad Arlington",
+      "summary": "Il 7 novembre 2026, Ye ha tenuto un concerto all'AT&T Stadium di Arlington, in Texas, vendendo 83.000 biglietti e generando 18 milioni di dollari di incassi. È la terza volta che stabilisce il record per presenze a un concerto hip-hop negli USA, superando il precedente primato personale di Houston. Sul palco sono saliti gli ospiti speciali Kid Cudi e Erykah Badu, che ha eseguito alcuni dei suoi brani più noti.",
+      "context": "L'evento fa parte del tour mondiale di Ye successivo all'uscita dell'album \"Bully\". Il concerto conferma la forte domanda per i suoi live e il suo ritorno in auge dopo una pausa di quattro anni dalla moda. Il prossimo appuntamento negli Stati Uniti è previsto per il 21 novembre in Arizona.",
+      "sources": [
+        {
+          "name": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/arts-entertainment/music/article/ye-kanye-west-dallas-texas-review-kid-cudi-22473707.php"
+        },
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/ye-breaks-rap-concert-attendance-record-third-time/"
+        },
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/kanye-west-kid-cudi-dallas-reunion-show-1236378121/"
+        }
+      ],
+      "image": {
+        "url": "https://townsquare.media/site/812/files/2026/11/attachment-kanye-show.jpg?w=1200&format=natural",
+        "credit": "XXL",
+        "link": "https://www.xxlmag.com/ye-breaks-rap-concert-attendance-record-third-time/"
+      },
+      "quiz": [
+        {
+          "question": "Quanti biglietti sono stati venduti per il concerto di Ye ad Arlington?",
+          "options": [
+            "74.412",
+            "100.000",
+            "83.000",
+            "18.000"
+          ],
+          "answer": 2,
+          "explanation": "Secondo i dati riportati, il concerto ha venduto 83.000 biglietti, stabilendo un nuovo record di presenze."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-10-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Svolta medica per la sindrome della persona rigida",
+      "summary": "Un team di neurologi della Mayo Clinic ha ottenuto risultati promettenti usando la terapia CAR-T, già impiegata contro i tumori, per trattare la sindrome della persona rigida, malattia autoimmune rara che causa rigidità e spasmi muscolari. I pazienti, prima incapaci di camminare o svolgere attività quotidiane, hanno recuperato funzioni significative, tornando al lavoro e agli hobby. Lo studio è pubblicato su Jama Neurology.",
+      "context": "La terapia CAR-T riprogramma le cellule immunitarie del paziente per eliminare quelle che causano la malattia. Finora i trattamenti alleviano solo i sintomi; questa sperimentazione suggerisce una possibile remissione duratura. Da monitorare la persistenza dei benefici nel tempo.",
+      "sources": [
+        {
+          "name": "The Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/nov/09/medical-breakthrough-offers-hope-to-people-with-same-stiff-person-syndrome-as-celine-dion"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/b977ef32745f10c72ba6c3532a4afd8be410f6ef/0_0_5833_4667/master/5833.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=709ea938c47396e4d7ff7c2910bcc5ce",
+        "credit": "The Guardian Science",
+        "link": "https://www.theguardian.com/science/2026/nov/09/medical-breakthrough-offers-hope-to-people-with-same-stiff-person-syndrome-as-celine-dion"
+      },
+      "quiz": [
+        {
+          "question": "Quale risultato hanno mostrato i pazienti con sindrome della persona rigida trattati con terapia CAR-T nella sperimentazione della Mayo Clinic?",
+          "options": [
+            "Miglioramento lieve dei sintomi ma nessuna ripresa funzionale",
+            "Guarigione completa e definitiva dalla malattia",
+            "Nessun cambiamento rispetto alle terapie convenzionali",
+            "Recupero significativo della capacità di camminare, lavorare e svolgere attività quotidiane"
+          ],
+          "answer": 3,
+          "explanation": "Lo studio riporta miglioramenti drammatici, con pazienti che hanno ripreso a lavorare e a camminare senza aiuto."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-10-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Piazza Affari chiude a +2,7%, banche in rally",
+      "summary": "Piazza Affari chiude in forte rialzo: il FTSE MIB guadagna il 2,69% a 51.400 punti. Tra i 41 titoli del listino, 31 salgono. Banco BPM guida con un balzo del 10,67%, seguita da UniCredit a +6,28%. Il rally nasce dalle attese su un possibile accordo tra Banco BPM e Credit Agricole, dopo il fallimento dell'OPA di UniCredit bloccata dal governo. Stellantis è la peggiore della seduta.",
+      "context": "Il settore bancario italiano vive una fase di riassetto: saltata l'integrazione UniCredit-Banco BPM per veto politico, ora i francesi di Credit Agricole, già primo azionista, puntano alla fusione. L'esito dipende dal Golden Power e dall'assemblea Banco BPM.",
+      "sources": [
+        {
+          "name": "Money.it",
+          "url": "https://www.money.it/piazza-affari-chiude-in-rialzo-del-269-09-11-2026"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/09/su-bpm-lultimo-giro-di-risiko-il-nodo-del-governo-e-dellassemblea_03cc3439-63d4-4f03-bc8f-058798dd24f8.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/9/b184c26e0ff3dcba99c9a2cc45d5479a.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/11/09/su-bpm-lultimo-giro-di-risiko-il-nodo-del-governo-e-dellassemblea_03cc3439-63d4-4f03-bc8f-058798dd24f8.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha spinto il forte rialzo di Banco BPM in Borsa oggi?",
+          "options": [
+            "L'annuncio di un maxi-dividendo straordinario",
+            "Le attese su un accordo con Credit Agricole dopo il fallimento dell'OPA di UniCredit",
+            "La presentazione di un nuovo piano industriale con utili record",
+            "L'acquisto di una quota di controllo da parte di Intesa Sanpaolo"
+          ],
+          "answer": 1,
+          "explanation": "Il rally è legato alle speculazioni su un'integrazione con Credit Agricole, favorita dal governo come alternativa a UniCredit."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-10-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Johnny Depp torna al cinema con 'Ebenezer': prime reazioni positive",
+      "summary": "\"Ebenezer\", nuovo adattamento del \"Canto di Natale\" di Dickens diretto da Ti West, ha debuttato in anteprima con reazioni per lo più positive. Johnny Depp interpreta Scrooge in quello che viene definito un forte veicolo per il suo ritorno a Hollywood dopo le vicende legali con Amber Heard. La critica loda la performance \"magnetica\" di Depp e lo stile gotico di West, sebbene alcuni ritengano l'operazione superflua. Il film esce in Italia il 12 novembre.",
+      "context": "Il film, costato circa 40 milioni e prodotto da Paramount, segna il tentativo di rilancio commerciale di Depp. West, noto per l'horror, apporta un'estetica gotica al classico vittoriano. Da monitorare l'accoglienza del pubblico e l'incasso.",
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/news/ebenezer-first-reactions-johnny-depp-hollywood-comeback-1236941249/"
+        },
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/09/depp-torna-a-puntare-ai-grandi-incassi-con-scrooge-e-gli-spiriti-del_c17fb77a-81fd-42a3-b71c-85cac37e5d7e.html"
+        }
+      ],
+      "image": {
+        "url": "https://variety.com/wp-content/uploads/2026/11/MCDEBAC_PA002.jpg?w=1000&h=563&crop=1",
+        "credit": "Variety",
+        "link": "https://variety.com/2026/film/news/ebenezer-first-reactions-johnny-depp-hollywood-comeback-1236941249/"
+      },
+      "quiz": [
+        {
+          "question": "Quale elemento è stato maggiormente apprezzato dalla critica nelle prime reazioni a 'Ebenezer'?",
+          "options": [
+            "L'assenza di elementi horror nella narrazione",
+            "La performance di Johnny Depp e lo stile visivo gotico di Ti West",
+            "La fedeltà assoluta al testo originale di Dickens",
+            "La colonna sonora natalizia originale"
+          ],
+          "answer": 1,
+          "explanation": "Le recensioni citate lodano Depp come \"magnetico\" e \"fiendish delight\" e lo stile gotico di West che rinfresca il classico."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-10-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Manchester United verso l'esonero di Michael Carrick",
+      "summary": "Il Manchester United sta valutando l'esonero dell'allenatore Michael Carrick dopo una serie di risultati deludenti. La dirigenza, guidata dal direttore sportivo Jason Wilcox e dall'amministratore delegato Omar Berrada, aveva concesso a Carrick tre partite durante la sosta per le nazionali per risollevare la squadra. Un pareggio, una vittoria e una sconfitta, culminati nel 4-4 contro l'Aston Villa, non hanno convinto. La squadra è 18ª in Premier League con il peggior avvio da 40 anni. La decisione finale spetta al coproprietario Sir Jim Ratcliffe. Tra i possibili sostituti circolano i nomi di Mauricio Pochettino, Eddie Howe e Antonio Conte.",
+      "context": "La crisi del United riflette l'instabilità societaria e tecnica post-Ferguson. L'eventuale arrivo di Pochettino, sotto contratto con gli USA, dipende da clausole di uscita e dagli impegni della nazionale a metà novembre. La classifica preoccupa: la zona retrocessione è una novità storica per il club.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/09/manchester-united-michael-carrick-jason-wilcox-review-sacking"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/9dcf/live/306777b0-dc8e-11f1-8a0c-79d3a3fe49e0.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Perché il Manchester United sta considerando l'esonero di Michael Carrick?",
+          "options": [
+            "Per i pessimi risultati in Premier League, con la squadra in zona retrocessione dopo 10 giornate.",
+            "Per un conflitto con il direttore sportivo Jason Wilcox sulla gestione dello spogliatoio.",
+            "Perché il proprietario Sir Jim Ratcliffe vuole ingaggiare subito Mauricio Pochettino.",
+            "Per la sconfitta nella finale di Europa League contro la Roma."
+          ],
+          "answer": 0,
+          "explanation": "Il club ha il peggior avvio in campionato da 40 anni ed è 18° in classifica con una sola vittoria in 10 partite."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-10-7"
+    },
+    {
+      "category": "storia",
+      "tag": "10 novembre 1975",
+      "title": "L'Onu equipara il sionismo al razzismo",
+      "summary": "Il 10 novembre 1975 l'Assemblea generale delle Nazioni Unite approva la risoluzione 3379 con 72 voti a favore, 35 contrari e 32 astensioni. Il testo stabilisce che \"il sionismo è una forma di razzismo e di discriminazione razziale\". La misura viene sostenuta dal blocco sovietico, dai paesi arabi e da molti stati non allineati, mentre Stati Uniti e alleati occidentali votano contro definendola politica e infondata.",
+      "context": "La risoluzione legittima la delegittimazione internazionale di Israele e diventa simbolo della politicizzazione dell'Onu durante la Guerra fredda. Revocata nel 1991 con la risoluzione 46/86 dopo la fine dell'Urss e la conferenza di Madrid, resta un precedente citato ancora oggi nei dibattiti su antisemitismo e critica a Israele.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Assemblea_generale_delle_Nazioni_Unite"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Chaim_Herzog_%2800370035%29.jpg/1280px-Chaim_Herzog_%2800370035%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Chaim_Herzog_(00370035).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu l'esito finale della risoluzione 3379 dell'Onu sul sionismo?",
+          "options": [
+            "Fu confermata dal Consiglio di sicurezza nel 1980",
+            "Fu revocata dall'Assemblea generale nel 1991",
+            "Fu ignorata e cadde in disuso senza votazione formale",
+            "Fu modificata per condannare solo l'occupazione dei territori"
+          ],
+          "answer": 1,
+          "explanation": "La risoluzione 3379 fu abrogata il 16 dicembre 1991 con la risoluzione 46/86, dopo la fine della Guerra fredda e l'avvio del processo di pace di Madrid."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-10-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Guerra romano-persiana del 602-628",
+      "title": "Il genero che invase l'impero per \"salvare\" un figlio già morto",
+      "summary": "Cosroe II, re di Persia, aveva sposato una figlia dell'imperatore Maurizio, diventandone genero. Quando Maurizio fu assassinato nel 602, Cosroe invase l'Impero romano d'Oriente con il pretesto di vendicarlo e di rimettere sul trono Teodosio, figlio di Maurizio. Teodosio, però, era stato ucciso poco prima; il pretendente sostenuto dai Persiani era quasi certamente un impostore.",
+      "context": "Il conflitto durò 26 anni e dissanguò entrambi gli imperi. L'esaurimento militare ed economico di Bizantini e Sasanidi spianò la strada, pochi anni dopo, alla rapida conquista araba di Siria, Egitto e Persia.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Guerra_romano-persiana_del_602-628"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Gold_coin_with_the_image_of_Khosrau_II.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Gold_coin_with_the_image_of_Khosrau_II.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale pretesto usò Cosroe II per dichiarare guerra all'Impero romano d'Oriente nel 603?",
+          "options": [
+            "L'occupazione bizantina di una città di confine persiana",
+            "La rottura di un trattato commerciale sul commercio della seta",
+            "La conversione forzata di sudditi persiani al cristianesimo",
+            "La richiesta di aiuto di un generale ribelle che fingeva di avere con sé l'erede al trono bizantino"
+          ],
+          "answer": 3,
+          "explanation": "Cosroe II accettò la richiesta di soccorso del generale Narsete, che sosteneva di avere con sé Teodosio, figlio dell'imperatore assassinato Maurizio, offrendo al re persiano il pretesto per invadere l'impero per \"ripristinare l'erede legittimo\"."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-10-9"
+    }
+  ]
+}
