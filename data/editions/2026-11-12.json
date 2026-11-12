@@ -1,0 +1,416 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T05:36:12.868Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Witkoff e Kushner a Mosca per colloqui con Putin",
+      "summary": "I mediatori statunitensi Steve Witkoff e Jared Kushner sono arrivati a Mosca, all'aeroporto di Mosca-Vnukovo, dopo i colloqui ad Abu Dhabi. Oggi incontreranno il presidente russo Vladimir Putin per fare il punto sui negoziati di pace riguardanti il conflitto in Ucraina. La missione diplomatica punta a verificare lo stato delle trattative e a proseguire il confronto.",
+      "context": "Questi incontri diplomatici ad alto livello rientrano nei tentativi internazionali per trovare una soluzione negoziata alla guerra in Ucraina. Restano centrali i nodi territoriali e le garanzie di sicurezza, con gli alleati occidentali che monitorano ogni sviluppo.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/flash/2026/11/12/-tass-witkoff-e-kushner-arrivati-a-mosca-per-i-colloqui-_9b2b1101-6aa8-4736-91d0-73cafa59de1a.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/12/tass-witkoff-e-kushner-arrivati-a-mosca-per-i-colloqui_c8911ddf-c632-4575-b6bd-a4f99857ce4a.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/11/guerra-ucraina-abu-dhabi-negoziati-senza-svolte-accordo-prigionieri-giorgetti-firma-decreto-armi-a-kiev-81f6db9d-fae2-4105-8eeb-7e42920f7b4d.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/flash/2026/11/12/-tass-witkoff-e-kushner-arrivati-a-mosca-per-i-colloqui-_9b2b1101-6aa8-4736-91d0-73cafa59de1a.html"
+      },
+      "quiz": [
+        {
+          "question": "Quali mediatori statunitensi sono arrivati a Mosca per incontrare Vladimir Putin?",
+          "options": [
+            "Giancarlo Giorgetti e Kirill Dmitriev",
+            "Joe Biden e Antony Blinken",
+            "Steve Witkoff e Jared Kushner",
+            "Volodymyr Zelensky e Donald Trump"
+          ],
+          "answer": 2,
+          "explanation": "Gli inviati e mediatori statunitensi Steve Witkoff e Jared Kushner sono arrivati a Mosca per fare il punto sui negoziati con il presidente russo Vladimir Putin."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-12-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Allarme bomba in 6.000 scuole italiane, Meloni: strategia per il caos",
+      "summary": "Un'ondata di false mail di minaccia con l'allarme bomba ha colpito circa seimila scuole in tutta Italia, provocando evacuazioni e interruzioni delle lezioni in molte regioni. La Presidente del Consiglio Giorgia Meloni ha parlato di una strategia per generare allarme e caos, convocando i leader dell'opposizione a Palazzo Chigi. Le autorità hanno confermato che il rischio è inesistente e che si tratta di una minaccia immateriale a matrice internazionale.",
+      "context": "Gli attacchi informatici mirati alle istituzioni scolastiche sfruttano la vulnerabilità dei servizi digitali per generare panico sociale e sovraccaricare le forze dell'ordine. Simili episodi, già registrati in passato, puntano a destabilizzare la percezione di sicurezza quotidiana senza causare pericoli reali.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/11/vi-annienteremo-lallarme-bomba-in-6.000-scuole-italiane.-meloni-strategia-per-il-caos_870b0024-72d2-4b15-bab5-0c74dcc1d653.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/canale_scienza/notizie/ricerca_istituzioni/2026/11/11/nelle-scuole-un-attacco-ibrido-con-lobiettivo-di-minare-la-democrazia_ce061d76-27a4-4017-ad25-4a30fe62a17b.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/11/mail-di-minaccia-manda-in-tilt-le-scuole-italiane-corradino-eb682194-7f6d-43e5-8679-74e7fe4d0ae6.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/11/77e55bf5158f388ab7c4b80d1be2b66e.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/cronaca/2026/11/11/vi-annienteremo-lallarme-bomba-in-6.000-scuole-italiane.-meloni-strategia-per-il-caos_870b0024-72d2-4b15-bab5-0c74dcc1d653.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la natura degli allarmi bomba che hanno coinvolto migliaia di scuole italiane?",
+          "options": [
+            "Un guasto tecnico ai sistemi informatici del Ministero dell'Istruzione",
+            "Esercitazioni militari programmate dalle forze dell'ordine",
+            "False mail di minaccia inviate per generare allarme e caos",
+            "Attacchi terroristici reali con esplosivi ritrovati sul posto"
+          ],
+          "answer": 2,
+          "explanation": "Gli allarmi sono stati causati da false mail di minaccia inviate a migliaia di istituti, configurandosi come una strategia per generare caos senza pericoli concreti."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-12-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Il consiglio di Nvidia valuta la rimozione di Jensen Huang",
+      "summary": "Il consiglio di amministrazione di Nvidia sta programmando un incontro urgente per decidere se licenziare il fondatore e amministratore delegato Jensen Huang, dopo che il New York Times ha riferito di un secondo presunto tradimento con la vicepresidente Kimberly Powell. La notizia ha spinto le azioni di Nvidia a scendere di oltre sette per cento nel trading post‑mercato, mentre le autorità federali indagano sui rapporti personali del dirigente.",
+      "context": "Nvidia è il principale fornitore di chip per l’intelligenza artificiale; la sua leadership è cruciale per il settore e per i mercati finanziari. Un possibile licenziamento del CEO potrebbe destabilizzare le partnership AI e influenzare il valore delle azioni.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296993009-1024x648.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa sta valutando di fare il consiglio di amministrazione di Nvidia?",
+          "options": [
+            "Rinominare il presidente",
+            "Acquistare un concorrente",
+            "Aumentare il capitale sociale",
+            "Licenziare il CEO Jensen Huang"
+          ],
+          "answer": 3,
+          "explanation": "Il consiglio ha programmato un incontro urgente per decidere se licenziare Jensen Huang a seguito delle accuse di un secondo tradimento."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-12-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Il rapper Yella Beezy condannato per l'omicidio di MO3",
+      "summary": "Il rapper statunitense Yella Beezy, il cui vero nome e Markies Conway, e stato condannato all'ergastolo senza possibilita di liberta condizionale per aver pagato un sicario affinche uccidesse il collega MO3. La sentenza e stata emessa da una giuria di Dallas in seguito a un agguato avvenuto su un'autostrada nel novembre del 2020.",
+      "context": "La violenza legata alle dispute tra rapper e un fenomeno ricorrente negli Stati Uniti, spesso alimentato da tensioni personali e rivalita territoriali. Condanne per mandanti di omicidi su commissione rappresentano un giro di vite giudiziario su questi crimini.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/yella-beezy-guilty-murder-mo3-dallas-highway-1236379779/"
+        },
+        {
+          "name": "WTVA 9 News",
+          "url": "https://www.wtva.com/2026/11/12/rapper-yella-beezy-convicted-hiring-gunman-who-fatally-shot-rapper-mo3-busy-interstate/"
+        },
+        {
+          "name": "WECT TV6",
+          "url": "https://www.wect.com/video/2026/11/12/rapper-yella-beezy-convicted-hiring-gunman-who-fatally-shot-rapper-mo3/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/11/1168658392-e1794437102963.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/yella-beezy-guilty-murder-mo3-dallas-highway-1236379779/"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo e stato condannato il rapper Yella Beezy?",
+          "options": [
+            "Per porto d'armi abusivo",
+            "Per frode fiscale e corruzione",
+            "Per aver pagato un sicario per uccidere il rapper MO3",
+            "Per aver sparato a un passante"
+          ],
+          "answer": 2,
+          "explanation": "Yella Beezy e stato condannato per aver assoldato un sicario che ha ucciso il rapper MO3 su un'autostrada di Dallas nel 2020."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-12-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Segnale molecolare nel sangue per diagnosi precoce del cancro ovarico",
+      "summary": "Uno studio pubblicato martedì su Nature Medicine ha identificato nel sangue un RNA chiamato Tu‑Stroma, il cui livello è elevato nelle donne con lesioni precancerose delle tube di Falloppio. Misurando Tu‑Stroma, i ricercatori hanno rilevato il 92,3% dei casi e hanno escluso il 98,2% delle donne sane. Nei soggetti ad alto rischio genetico, i risultati negativi sono quasi sempre corretti, mentre i positivi sono accurati nel 72% dei casi.",
+      "context": "Il cancro ovarico viene spesso diagnosticato in fase avanzata; un marcatore sanguigno come Tu‑Stroma potrebbe permettere di individuare le lesioni precancerose e guidare decisioni di chirurgia preventiva per le donne ad alto rischio.",
+      "sources": [
+        {
+          "name": "The Guardian Science",
+          "url": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/7f0e07e9605527926783a0e215685b04c7db38ba/354_0_2365_1892/master/2365.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8654843e9b2ca2ebd5e7ab003f5423b2",
+        "credit": "The Guardian Science",
+        "link": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood"
+      },
+      "quiz": [
+        {
+          "question": "Quale molecola è stata identificata nel sangue come segnale precoce per il cancro ovarico?",
+          "options": [
+            "Tu‑Stroma",
+            "CA‑125",
+            "BRCA1",
+            "p53"
+          ],
+          "answer": 0,
+          "explanation": "Lo studio ha mostrato che l'RNA Tu‑Stroma è elevato nelle donne con lesioni precancerose, fungendo da segnale molecolare precoce."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-12-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Giorgetti firma il decreto per il 13° pacchetto di aiuti all'Ucraina",
+      "summary": "Il ministro dell'economia e delle finanze Giancarlo Giorgetti ha firmato ieri sera il decreto interministeriale relativo al tredicesimo pacchetto di aiuti per l'Ucraina. La firma è avvenuta dopo aver verificato la coerenza con gli atti di indirizzo approvati dal Parlamento e la piena compatibilità finanziaria della misura, come comunicato ufficialmente dal Ministero dell'Economia.",
+      "context": "Questo passaggio burocratico è essenziale per rendere operativi i fondi destinati a Kiev. Segna l'attuazione concreta degli impegni presi dall'Italia, permettendo il trasferimento delle risorse previste dal piano di sostegno ucraino.",
+      "sources": [
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/11/giorgetti-firma-il-decreto-sugli-aiuti-per-lucraina_b648dcea-dfe2-46ea-a32a-cd39a42789cb.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/30/536d0f4f3fe1bf2005b24ec3fff9c1d6.jpg",
+        "credit": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/11/11/giorgetti-firma-il-decreto-sugli-aiuti-per-lucraina_b648dcea-dfe2-46ea-a32a-cd39a42789cb.html"
+      },
+      "quiz": [
+        {
+          "question": "Quali verifiche ha completato il ministro Giorgetti prima di firmare il decreto?",
+          "options": [
+            "Il consenso delle altre nazioni europee e la copertura assicurativa",
+            "La verifica delle risorse militari e la logistica di trasporto",
+            "L'approvazione diretta del Parlamento e la firma del Presidente della Repubblica",
+            "La coerenza con gli atti parlamentari e la compatibilità finanziaria"
+          ],
+          "answer": 3,
+          "explanation": "Il testo specifica che la firma è avvenuta dopo aver verificato la coerenza con gli atti di indirizzo parlamentare e la compatibilità finanziaria."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-12-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Jeremy Irons e Luigi Lo Cascio premiati con l'Ulivo d'Oro alla Carriera al Festival del Cinema Europeo di Lecce",
+      "summary": "Il 12 novembre 2026 il Festival del cinema europeo di Lecce ha consegnato l'Ulivo d'Oro alla carriera a due attori. Jeremy Irons, unico interprete a possedere Oscar, Emmy e Tony, è stato omaggiato nella sala Multisala Massimo con la proiezione de Il mistero von Bülow. Lo stesso giorno Luigi Lo Cascio ha ricevuto lo stesso premio, con una retrospettiva sulla sua carriera iniziata con I cento passi e la proiezione del suo film diretto La città ideale.",
+      "context": "Il riconoscimento di due attori, uno internazionale e uno italiano, sottolinea l'impegno del Festival nel valorizzare il cinema europeo e nel collegare diverse generazioni di talenti. Seguirà l'attenzione su future progetti di Lo Cascio.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/11/jeremy-irons-al-festival-del-cinema-europeo-a-lecce-ulivo-doro-alla_afdc2e7d-8461-4d9e-ad88-ed4954f29194.html"
+        },
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/11/lo-cascio-al-festival-del-cinema-europeo-voglio-dirigere-un-secondo-film_6ea2c097-7b49-41c6-8221-151907e18c13.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/11/50be713fb05e98d37faf90a0bc5e3f45.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/11/jeremy-irons-al-festival-del-cinema-europeo-a-lecce-ulivo-doro-alla_afdc2e7d-8461-4d9e-ad88-ed4954f29194.html"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha ricevuto l'Ulivo d'Oro alla carriera al Festival del cinema europeo di Lecce il 12 novembre 2026?",
+          "options": [
+            "Luigi Lo Cascio",
+            "Nessuno",
+            "Jeremy Irons",
+            "Entrambi Jeremy Irons e Luigi Lo Cascio"
+          ],
+          "answer": 3,
+          "explanation": "La notizia indica che entrambi gli attori, Jeremy Irons e Luigi Lo Cascio, sono stati premiati nello stesso giorno."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-12-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "USA si ritira dalla Coppa del Mondo U‑17 in Qatar per motivi di sicurezza",
+      "summary": "La federazione statunitense di calcio ha annullato la partecipazione alla Coppa del Mondo FIFA Under‑17, prevista dal 19 novembre al 13 dicembre in Qatar, per motivi di sicurezza. In una lettera ai giocatori ha citato l’avviso di viaggio di livello 3 del Dipartimento di Stato, che segnala rischio di conflitto armato nella regione. La decisione arriva mentre le tensioni in Medio Oriente hanno già provocato cancellazioni e spostamenti di altri eventi sportivi.",
+      "context": "Il ritiro riduce il numero di squadre partecipanti e mette a rischio una sanzione di 20 000 franchi svizzeri da parte della FIFA, evidenziando come le crisi mediorientali stiano sempre più influenzando il calendario sportivo internazionale.",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/11/usa-u-17-world-cup-qatar-withdrawal-middle-east-conflict"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/11/calcio-gli-usa-non-andranno-in-qatar-ai-mondiali-u17-per-motivi_d83c43eb-33d0-40cd-87d1-5ea782cb3f46.html"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/6987ac7017788ecaf5e48c61ad55e3e00c026971/526_0_4393_3514/master/4393.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2159b247c9fcffc6199839a015be46a2",
+        "credit": "The Guardian Sport",
+        "link": "https://www.theguardian.com/football/2026/nov/11/usa-u-17-world-cup-qatar-withdrawal-middle-east-conflict"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il motivo principale per cui la federazione di calcio degli Stati Uniti ha deciso di ritirarsi dalla Coppa del Mondo Under‑17 in Qatar?",
+          "options": [
+            "Mancanza di fondi",
+            "Protesto contro le politiche di Qatar",
+            "Preoccupazioni per la sicurezza dei giocatori e del personale",
+            "Infortuni diffusi nella squadra"
+          ],
+          "answer": 2,
+          "explanation": "La federazione ha citato l’avviso di viaggio di livello 3 del Dipartimento di Stato e il rischio di conflitto armato nella regione."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-12-7"
+    },
+    {
+      "category": "storia",
+      "tag": "12 novembre 1990",
+      "title": "Tim Berners-Lee presenta la proposta formale per il World Wide Web",
+      "summary": "Il 12 novembre 1990, Tim Berners-Lee ha pubblicato una proposta formale per il World Wide Web presso il CERN di Ginevra. Questo documento ha definito i protocolli e gli standard necessari per collegare documenti su reti di calcolatori, gettando le basi tecniche per la creazione del primo sito web e la successiva diffusione globale della rete.",
+      "context": "Questa iniziativa ha trasformato Internet da strumento accademico a piattaforma universale, rendendo l'informazione accessibile a chiunque. L'assenza di brevetti ha garantito la crescita libera del web, influenzando profondamente l'economia digitale e la comunicazione globale contemporanea.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/World_Wide_Web"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/LS3_4919_%28cropped%29.jpg/1280px-LS3_4919_%28cropped%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:LS3_4919_(cropped).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale istituzione ospitava Tim Berners-Lee quando ha sviluppato la proposta per il World Wide Web?",
+          "options": [
+            "NASA",
+            "Stanford University",
+            "CERN",
+            "MIT"
+          ],
+          "answer": 2,
+          "explanation": "La proposta è stata sviluppata e presentata presso il CERN di Ginevra, dove Berners-Lee lavorava come ricercatore."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-12-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Deva Victrix",
+      "title": "Un edificio ellittico unico a Deva Victrix",
+      "summary": "Deva Victrix, fortezza romana nella Britannia settentrionale, ospitava un edificio ellittico unico tra le caserme legionarie dell’isola. Costruito inizialmente in legno e poi in pietra, il forte era anche il più grande della provincia, circa il 20 % più esteso della media. L’edificio ovale, probabilmente sede del governatore, è l’unico esempio di struttura di questo tipo scoperto in Gran Bretagna romana.",
+      "context": "L’unicità dell’edificio ellittico indica che Deva Victrix poteva avere funzioni amministrative o strategiche speciali, oltre al ruolo militare, e suggerisce che i Romani considerassero la città un possibile punto di partenza per campagne verso l’Irlanda.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Deva_Victrix"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/DevaMinervaPlan%28bq%29.jpg/1280px-DevaMinervaPlan%28bq%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:DevaMinervaPlan(bq).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la caratteristica architettonica che rende Deva Victrix diversa dalle altre fortezze legionarie britanniche?",
+          "options": [
+            "Un edificio ellittico",
+            "Una cava di arenaria",
+            "Un anfiteatro",
+            "Un acquedotto di pietra"
+          ],
+          "answer": 0,
+          "explanation": "L’edificio ellittico è l’unico di questo tipo trovato in una fortezza romana in Britannia."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-12-9"
+    }
+  ]
+}
