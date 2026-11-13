@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T05:36:03.011Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Zelensky chiede un inviato europeo per i colloqui con Mosca, divisione UE al summit di Dublino",
+      "summary": "Il presidente ucraino Volodymyr Zelensky, durante il vertice dell’Unione europea a Dublino, ha chiesto che un rappresentante europeo partecipi ai prossimi colloqui di pace con Mosca. Gli Stati Uniti, tramite Jared Kushner e Steve Witkoff, hanno sostenuto la proposta, ma i leader europei si sono mostrati divisi sul ruolo e sulla modalità di rappresentanza dell’UE nei negoziati.",
+      "context": "La richiesta di Zelensky mira a dare all’UE una voce concreta nei negoziati con la Russia, un tema cruciale per la sicurezza europea e per le prospettive di pace in Ucraina.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPYkY4aGlxRFdkWk05SVRmYXVuVFdkWW5LVWtIVFhJVlRiSWxUYnE2b3VQOVhfNG9sWTVUTEJxZU1PWFNQeE5LMzVmQXNkcHRCa2ZsYlNUNmNBeDlQSEp0VUFUTVR1Uy1iSmlyR0dMa2JnWm8yM0ItbFR4cTFIQVl1U2NPalVEVzBKX1l4RHNfNDJPOG85a0dmaEVTbHNHREVibEZJaFhJalR2VWV1bkZKY1hXaVQyRHkwLWpPdnEtUnBXV2Q0ejExV2tsSVRGVmJEWEYzdWRYZ293SWtzVFlwLW5TOGhDVFREaXBCS0hXNzRFX1Y0UG01WEItMzJNUHdQaUUtT1A1UzFRUkVmLVJGTUs0OTJZNHlwc0VEX3RVdVU1cmlHUE1QY3pHcEF1d9IBswJBVV95cUxNUURtTktNLVJlZ0I3aHFaVk4ydzZwUkdLM2hYZ01XY25tMHFLczJMYm03ck5TVWtOMy1hNG91WkNfLVc4c0NXT01acEg3RlRLV3hvTjFlSlhjbmw0STFKbklrbU80cml2Z0hOcVAyNnJBY2Z6MTRyeEdGQWo0MEZBRERnUmVBeGlKUUw2SE1yMGh3RUFocnZPci0zZm1FbElPZlRSUXVuWktJZFJZd2FpQjhxMDRjT2o2dWE1UUR5RURsQlJFV0xtbGR6ODRvd1BfOHd6WVcxQmxoMVF2Vzlsa1pDWXA5clQ4dTVLWXpRWmFoWXdqVDg5QnZQTWo5TlJxR2Z3X0dyM2kwQW9FZFJVM1Fsa0Q4dGdCMjNheS1tN2JFVGlNNmlCcHVqaDFJeXh6RVFZ?oc=5"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/11/guerra-ucraina-abu-dhabi-negoziati-senza-svolte-accordo-prigionieri-giorgetti-firma-decreto-armi-a-kiev-e9354c7a-6760-4df6-bc3d-4386d75fe9f0.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f44f/live/57b45570-df06-11f1-9f71-7d0084202c8a.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la principale domanda di Zelensky al summit di Dublino?",
+          "options": [
+            "Che l'UE aumenti le sanzioni contro la Russia",
+            "Che l'UE abbia un suo rappresentante nei colloqui con Mosca",
+            "Che la Russia accetti un cessate il fuoco immediato",
+            "Che gli Stati Uniti ritirino le truppe dalla zona di conflitto"
+          ],
+          "answer": 1,
+          "explanation": "Zelensky ha chiesto che un delegato europeo partecipi ai prossimi colloqui di pace con Mosca, ma i leader UE sono divisi su come organizzarne la rappresentanza."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-13-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Nuovi dati riscrivono la storia dell'eruzione del Tufo Giallo ai Campi Flegrei",
+      "summary": "Uno studio pubblicato su Earth-Science Reviews ha rivisto la storia dell'eruzione del Tufo Giallo Napoletano, avvenuta 14.000 anni fa. La ricerca, condotta da Ingv e università italiane e francesi, ha stabilito che il volume di magma emesso fu tra i 16 e i 20 chilometri cubi, meno della metà delle stime precedenti. Il magma non proveniva da una singola camera, ma da almeno quattro serbatoi sotterranei distinti che si sono svuotati in sequenza, rendendo l'evento più complesso di quanto si credesse.",
+      "context": "La revisione di questi dati geologici è cruciale per affinare gli scenari di pericolosità vulcanica nell'area dei Campi Flegrei, dove vivono circa 400.000 persone. Comprendere la dinamica passata delle eruzioni aiuta a prevedere meglio i comportamenti futuri del sistema vulcanico.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/canale_scienza/notizie/terra_poli/2026/11/12/campi-flegrei-riscritta-la-storia-delleruzione-che-formo-il-territorio-di-napoli_51d9210b-ce41-4b63-89eb-06919822dc78.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/12/302485014aa6bfb22ddebc204a5daea0.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/canale_scienza/notizie/terra_poli/2026/11/12/campi-flegrei-riscritta-la-storia-delleruzione-che-formo-il-territorio-di-napoli_51d9210b-ce41-4b63-89eb-06919822dc78.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale caratteristica fondamentale dell'eruzione del Tufo Giallo è stata corretta dalla nuova ricerca?",
+          "options": [
+            "La composizione chimica del tufo giallo",
+            "La posizione geografica del sito eruttivo",
+            "Il volume di magma emesso, risultato inferiore alle stime precedenti",
+            "L'età dell'eruzione, risalita a 20.000 anni fa"
+          ],
+          "answer": 2,
+          "explanation": "Lo studio ha determinato che il volume di magma emesso fu tra i 16 e i 20 chilometri cubi, una quantità inferiore alla metà rispetto alle precedenti stime."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-13-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "FAA amplia l'IA SMART per gestire la congestione aerea negli USA",
+      "summary": "Il governo degli Stati Uniti ha ampliato l'uso di SMART, un sistema basato su intelligenza artificiale da 875 milioni di dollari, per assistere i controllori in tutto lo spazio aereo nazionale. Dopo la prova nella regione di Washington dal 21 settembre, che ha deviato 180 voli risparmiando circa 10 minuti e 80 galloni di carburante per volo, il sistema sarà distribuito nei 22 centri di controllo. Un team di specialisti FAA verifica le raccomandazioni prima dell’invio.",
+      "context": "Espandere SMART significa introdurre l’IA nella gestione del traffico aereo su scala nazionale, con potenziali riduzioni di ritardi e consumi di carburante. Il risultato influenzerà le operazioni quotidiane e le discussioni sindacali.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-2560x1440.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l’obiettivo principale dell’estensione del sistema SMART da parte della FAA?",
+          "options": [
+            "Ridurre i ritardi e il consumo di carburante",
+            "Aumentare il numero di voli giornalieri",
+            "Limitare l’accesso allo spazio aereo",
+            "Sostituire completamente i controllori umani"
+          ],
+          "answer": 0,
+          "explanation": "Il comunicato della FAA indica che SMART serve a ridurre i ritardi e il consumo di carburante."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-13-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Annunci dei tour rap 2026",
+      "summary": "Nel 2026 rappeur hanno annunciato tour. J. Cole partecipa al The Fall-Off World Tour, che copre 15 paesi dal luglio a Charlotte fino a dicembre a Johannesburg. A Boogie Wit Da Hoodie celebra il decimo anniversario del mixtape Artist con otto date tra ottobre e dicembre. Doja Cat riprende la Ma Vie Tour negli USA dal 1 ottobre a Detroit al 1 dicembre a New York, con Latto. Trippie Redd avvia un tour da novembre a dicembre. Sono 20 tour rap in programma.",
+      "context": "I tour rap mostrano la crescente domanda di concerti live e la strategia degli artisti di promuovere nuovi album o anniversari, influenzando il mercato dei live music e le tendenze di streaming.",
+      "sources": [
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/rappers-touring-2026/"
+        }
+      ],
+      "image": {
+        "url": "https://townsquare.media/site/812/files/2026/10/attachment-rappers-tours-end-of-the-year.jpg?w=1200&format=natural",
+        "credit": "XXL",
+        "link": "https://www.xxlmag.com/rappers-touring-2026/"
+      },
+      "quiz": [
+        {
+          "question": "Quale artista ha programmato il tour più esteso in termini di paesi?",
+          "options": [
+            "A Boogie Wit Da Hoodie",
+            "Doja Cat",
+            "J. Cole",
+            "Trippie Redd"
+          ],
+          "answer": 2,
+          "explanation": "Il The Fall-Off World Tour di J. Cole copre 15 paesi, più di qualsiasi altro tour citato."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-13-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "La missione Euclid rivela 900 milioni di galassie",
+      "summary": "La missione spaziale europea Euclid ha pubblicato i suoi primi dati principali, rivelando oltre 900 milioni di galassie e circa 15.000 casi di lente gravitazionale forte. Questo primo rilascio copre il 14% del cielo mappato e include anche 60 milioni di candidati quasari. L'obiettivo è creare la più grande mappa tridimensionale dell'universo per studiare la materia e l'energia oscura, che insieme costituiscono circa il 95% del cosmo.",
+      "context": "Questa osservazione è cruciale per comprendere la natura della materia e dell'energia oscura, componenti invisibili ma dominanti dell'universo. I dati ad alta risoluzione su larga scala permetteranno di testare le teorie cosmologiche attuali e affinare i modelli sull'espansione dell'universo.",
+      "sources": [
+        {
+          "name": "The Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/f34df7d417d910669b174c3dbab3585140a694df/428_0_2700_2160/master/2700.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e0452da45b7b3a29d72547cb1e3396a5",
+        "credit": "The Guardian Science",
+        "link": "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo principale della missione Euclid?",
+          "options": [
+            "Trovare nuovi pianeti abitabili",
+            "Studiare la materia e l'energia oscura",
+            "Misurare la distanza delle stelle vicine",
+            "Mappare la superficie di Marte"
+          ],
+          "answer": 1,
+          "explanation": "La missione è progettata per creare una mappa 3D dell'universo per indagare la natura della materia oscura e dell'energia oscura."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-13-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Jensen Huang si dimette, Colette Kress CEO ad interim",
+      "summary": "Giovedì 13 novembre 2026 Jensen Huang ha rassegnato le dimissioni da amministratore delegato di Nvidia dopo la rivelazione di due relazioni extraconiugali, una con Alice Huang, sospettata di spionaggio cinese, e l'altra con Kimberly Powell, vicepresidente sanitario dell’azienda. Il consiglio ha nominato a tempo indeterminato la direttrice finanziaria Colette Kress come CEO ad interim. Le azioni sono scese del 14% all’apertura di Wall Street, per chiudere più del 4% in perdita.",
+      "context": "La partenza del fondatore di Nvidia, leader nel mercato dei chip per l’intelligenza artificiale, crea incertezza sulla continuità della strategia aziendale e può innescare effetti a catena sui titoli tecnologici, già sensibili alle notizie su intelligenza artificiale.",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+        },
+        {
+          "name": "Repubblica Economia",
+          "url": "https://www.repubblica.it/economia/2026/11/13/news/nvdia_caduta_huang_rischio_crollo_ia_intelligenza_artificiale-425719852/?rss"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/ee87aa39a5285390ddbdaa26b7ca3472a48da292/0_0_1500_1200/master/1500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=75a25d982d0b336c2b44ba022e4252f4",
+        "credit": "The Guardian Business",
+        "link": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+      },
+      "quiz": [
+        {
+          "question": "Chi è stato nominato CEO ad interim di Nvidia dopo le dimissioni di Jensen Huang?",
+          "options": [
+            "Sundar Pichai",
+            "Satya Nadella",
+            "Larry Ellison",
+            "Colette Kress"
+          ],
+          "answer": 3,
+          "explanation": "Il consiglio ha designato la direttrice finanziaria Colette Kress come amministratore delegato provvisorio."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-13-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "New Line acquista i diritti per il remake di L'Estranea",
+      "summary": "New Line Cinema ha acquisito i diritti per realizzare un remake americano di L'Estranea, thriller psicologico italiano diretto da Paolo Strippoli e interpretato da Jasmine Trinca e Valeria Bruni Tedeschi. L'accordo, raggiunto dopo una gara tra più offerenti, include anche i diritti di distribuzione in Nordamerica e in diversi Paesi asiatici. Per ora non sono stati annunciati né il regista né gli attori della nuova versione.",
+      "context": "L'operazione conferma l'interesse crescente di Hollywood per il cinema di genere italiano. Il film originale, noto all'estero come The Spiral, è stato scelto dall'Italia per concorrere all'Oscar come miglior film internazionale, aumentando la sua visibilità globale.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/12/a-new-line-i-diritti-di-un-remake-di-lestranea_0dd9f95a-d81e-4d0f-a9ef-5d147ad18261.html"
+        },
+        {
+          "name": "BadTaste",
+          "url": "https://www.badtaste.it/articoli/lestranea-conquista-hollywood-arriva-il-remake-dellhorror-italiano-che-sta-raccogliendo-grandi-consensi"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/23/6aefb6c3c73143771839de771ca4f80b.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/12/a-new-line-i-diritti-di-un-remake-di-lestranea_0dd9f95a-d81e-4d0f-a9ef-5d147ad18261.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa include l'accordo tra New Line Cinema e i produttori di L'Estranea?",
+          "options": [
+            "Solo i diritti di distribuzione in Nordamerica",
+            "I diritti per il remake e la distribuzione internazionale",
+            "La produzione di un sequel diretto da Paolo Strippoli",
+            "Solo i diritti per il remake in lingua inglese"
+          ],
+          "answer": 1,
+          "explanation": "L'accordo copre sia la realizzazione di un remake americano sia la distribuzione del film originale in vari mercati, inclusi Stati Uniti, Canada e Asia."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-13-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Nations League: l'Italia di Mancini rimonta la Francia 3-1",
+      "summary": "L'Italia ha battuto la Francia 3-1 nella quinta giornata di Nations League, disputata al Meazza di Milano. Dopo lo svantaggio iniziale e un rigore fallito da Sebastiano Esposito, gli azzurri hanno pareggiato con Pio Esposito e chiuso la partita con un gol di Frattesi e una doppietta di Pio Esposito, quest'ultimo realizzato su calcio di rigore. La vittoria porta l'Italia al primo posto nel gruppo A1.",
+      "context": "La partita è cruciale per la classifica del gruppo A1, con l'Italia ora in testa a una giornata dal termine. Il prossimo impegno degli azzurri sarà contro il Belgio a Bruxelles. La rimonta dimostra la resilienza della squadra guidata da Roberto Mancini.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/12/calcio-nations-league-italia-francia-3-1_afe877f0-a69e-47f2-85e2-94e1cad7e5b5.html"
+        },
+        {
+          "name": "Sky Sport",
+          "url": "https://sport.sky.it/calcio/nations-league/2026/11/13/nations-league-video-gol-12-novembre"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/12/nations-league-mancinice-voglia-di-riscatto-arriveremo-al-traguardo_2a254980-cabb-4f1c-ba75-1d6810e0e82a.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/12/8958c426c73dfe13d79149255737ebf9.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/12/calcio-nations-league-italia-francia-3-1_afe877f0-a69e-47f2-85e2-94e1cad7e5b5.html"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha segnato la doppietta per l'Italia nella vittoria contro la Francia?",
+          "options": [
+            "Sebastiano Esposito",
+            "Pio Esposito",
+            "Nicolò Zaniolo",
+            "Lorenzo Pellegrini"
+          ],
+          "answer": 1,
+          "explanation": "Pio Esposito ha segnato due gol: uno nel primo tempo e uno su rigore nel secondo."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-13-7"
+    },
+    {
+      "category": "storia",
+      "tag": "13 novembre 1971",
+      "title": "La sonda americana Mariner 9 raggiunge Marte",
+      "summary": "La sonda spaziale americana Mariner 9 ha raggiunto Marte, diventando la prima a entrare nell'orbita del pianeta rosso. Durante la sua missione, la sonda ha inviato alla Terra un totale di settecentotrentanove fotografie dettagliate della superficie marziana e delle sue due lune, Phobos e Deimos.",
+      "context": "Questa missione ha aperto la strada all'esplorazione moderna di Marte, rivelando per la prima volta la geologia del pianeta, compresi vulcani e canyon. Resta un punto di riferimento fondamentale per la comprensione della storia geologica marziana e la ricerca di acqua.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Mariner_9"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Mariner09.jpg/1280px-Mariner09.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Mariner09.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale traguardo ha raggiunto la sonda Mariner 9 nel 1971?",
+          "options": [
+            "Ha scoperto tracce di vita vegetale",
+            "Ha superato i confini del sistema solare",
+            "Ha completato la prima sosta sulla Luna",
+            "È stata la prima a orbitare intorno a Marte"
+          ],
+          "answer": 3,
+          "explanation": "La Mariner 9 è stata la prima sonda spaziale a entrare con successo nell'orbita di Marte."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-13-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Giovanni III Vatatze",
+      "title": "L'imperatore bizantino fatto santo che rese il suo Stato autosufficiente",
+      "summary": "Giovanni III Vatatze, imperatore di Nicea dal 1222 al 1254, fu dichiarato santo dalla Chiesa ortodossa all'inizio del XIV secolo. Nonostante fosse partito da un piccolo territorio anatolico nato dallo smembramento dell'Impero bizantino dopo la quarta crociata, riuscì a raddoppiare i suoi domini e a porre le basi per la futura riconquista di Costantinopoli. Oltre ai successi militari, migliorò la giustizia e promosse un'economia autonoma per affrancarsi dalle città italiane.",
+      "context": "Nel tredicesimo secolo l'Impero bizantino era frammentato in seguito alla quarta crociata del 1204. L'Impero di Nicea rappresentava uno dei principali Stati successori greci in esilio. In questo periodo i governanti locali cercavano di sopravvivere tra le pressioni dei Latini, dei Turchi e dei rivali regionali, puntando a ricostruire l'antica unità imperiale.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Giovanni_III_Vatatze"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/John_III_Doukas_Vatatzes.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:John_III_Doukas_Vatatzes.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu uno dei meriti economici e amministrativi di Giovanni III Vatatze?",
+          "options": [
+            "Abolire completamente le tasse commerciali",
+            "Sostituire la monetazione bizantina con quella occidentale",
+            "Affrancare lo Stato dalla supremazia economica italiana",
+            "Affidare l'amministrazione della giustizia alle repubbliche marinare"
+          ],
+          "answer": 2,
+          "explanation": "Giovanni III cercò di liberare il suo Stato dalla supremazia delle città italiane, avviando una produzione economica autosufficiente."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-13-9"
+    }
+  ]
+}
