@@ -145,7 +145,8 @@ async function sendWebPush(edition: Edition) {
 
   const result = await deliver(subs, JSON.stringify(message(edition)), (sub, payload) =>
     // Urgenza alta: senza, Android in Doze può ritardare l'avviso di ore. Scade dopo 6 ore.
-    webpush.sendNotification(sub, payload, { TTL: 6 * 3600, urgency: 'high', topic: 'daily-edition' }),
+    // Niente intestazione Topic: Apple la rifiuta (400 BadWebPushTopic) e l'iPhone non riceve nulla.
+    webpush.sendNotification(sub, payload, { TTL: 6 * 3600, urgency: 'high' }),
   );
 
   if (result.gone.length > 0 && remote) {
