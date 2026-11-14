@@ -1,0 +1,392 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T05:36:11.703Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Putin chiede la fuoriuscita della Finlandia dalla NATO",
+      "summary": "Il presidente russo Vladimir Putin, durante i colloqui trilaterali con Stati Uniti e Ucraina ad Abu Dhabi, ha avanzato richieste estremamente ampie, tra cui la rimozione della Finlandia dalla NATO. La proposta, riportata da Bild e smentita dal Cremlino, è stata citata dal politico tedesco Friedrich Merz, che ha chiesto agli USA di non sorprendere l’Europa. La Russia vuole inoltre dividere la Moldavia e controllare il Donbass, segnando una posizione massimalista che complica i negoziati di sicurezza europea.",
+      "context": "La richiesta di far uscire la Finlandia dalla NATO mette a rischio la sicurezza del Baltico e dimostra la posizione massimalista della Russia, influenzando i negoziati europei di pace e difesa.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/13/putin-vuole-helsinki-fuori-dalla-nato.-merz-agli-usa-basta_44817c41-c94b-49c5-82d4-c2480ddd3563.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/12/e65bf80a321bf1d0286cb457347770e0.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/13/putin-vuole-helsinki-fuori-dalla-nato.-merz-agli-usa-basta_44817c41-c94b-49c5-82d4-c2480ddd3563.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale domanda russa riguardo alla Finlandia nella proposta di sicurezza europea?",
+          "options": [
+            "Far entrare la Finlandia nell'UE",
+            "Mantenere la Finlandia neutrale",
+            "Far uscire la Finlandia dalla NATO",
+            "Mantenere la Finlandia nella NATO"
+          ],
+          "answer": 2,
+          "explanation": "La Russia ha chiesto che la Finlandia lasci la NATO, come indicato nella notizia."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-14-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "S&P conferma rating Italia, crescita oltre le stime",
+      "summary": "Standard and Poor's ha confermato il rating di credito dell'Italia a BBB+ con outlook positivo. L'agenzia prevede che la crescita economica supererà le stime precedenti grazie a un contesto esterno favorevole e agli stimoli del piano europeo di ripresa. Il ministro dell'Economia Giorgetti ha definito la decisione una conferma della strada giusta. I mercati hanno reagito con calma, mantenendo lo spread tra titoli di stato italiani e tedeschi invariato.",
+      "context": "La conferma del rating è cruciale per il costo del debito pubblico italiano. L'outlook positivo indica che un ulteriore rialzo è possibile se verranno rispettate le condizioni su debito e deficit. Il contesto resta complesso a causa dell'aumento dei prezzi dell'energia e della stagnazione della crescita nel terzo trimestre.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/13/sp-conferma-il-rating-sullitalia-la-crescita-superera-le-stime.-giorgetti-e-la-strada-giusta_968a7f83-4609-47b6-b8c7-0b1ab287d3a7.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2023/9/25/105622cfdd8648b00ebf1637920aaa36.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/11/13/sp-conferma-il-rating-sullitalia-la-crescita-superera-le-stime.-giorgetti-e-la-strada-giusta_968a7f83-4609-47b6-b8c7-0b1ab287d3a7.html"
+      },
+      "quiz": [
+        {
+          "question": "Perché Standard and Poor's prevede una crescita economica italiana superiore alle stime?",
+          "options": [
+            "Perché il debito pubblico è sceso sotto il 150% delle entrate",
+            "A seguito di un calo immediato dello spread tra Btp e Bund",
+            "Grazie a un contesto esterno favorevole e agli stimoli del piano europeo",
+            "A causa di un forte aumento delle importazioni energetiche"
+          ],
+          "answer": 2,
+          "explanation": "L'agenzia cita un contesto esterno favorevole per le esportazioni e il perdurare degli stimoli legati al programma europeo di ripresa come fattori trainanti della crescita."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-14-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "OpenAI lancia ChatGPT Wallet per acquisti autonomi degli agenti AI",
+      "summary": "OpenAI ha lanciato ChatGPT Wallet, un servizio che permette agli agenti AI della piattaforma Dots di effettuare acquisti per conto degli utenti. Il servizio è disponibile oggi negli Stati Uniti per gli abbonati Pro maggiorenni con carte di credito specifiche. Ogni transazione richiede la verifica biometrica dell'utente e l'approvazione manuale prima del pagamento, sostituendo i dati della carta con un token di sicurezza per proteggere le informazioni bancarie.",
+      "context": "L'iniziativa segna un passo verso l'autonomia commerciale degli assistenti virtuali, riducendo l'attrito nelle transazioni digitali. Tuttavia, la sua adozione su larga scala dipenderà dalla capacità dei siti web e dei sistemi di pagamento di riconoscere e accettare le richieste generate dagli agenti AI senza bloccarle.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+      },
+      "quiz": [
+        {
+          "question": "Come funziona la sicurezza dei pagamenti con ChatGPT Wallet al momento dell'acquisto?",
+          "options": [
+            "L'agente AI memorizza i dati completi della carta per velocizzare il checkout",
+            "L'utente deve inserire manualmente il codice CVV per ogni singola transazione",
+            "Il pagamento avviene tramite bonifico istantaneo autorizzato una sola volta",
+            "I dati della carta vengono sostituiti da un token e serve la verifica biometrica"
+          ],
+          "answer": 3,
+          "explanation": "Il materiale specifica che i dettagli della carta sono sostituiti da un token di pagamento e che ogni acquisto richiede una verifica biometrica come Face ID o impronta digitale."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-14-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "BigXthaPlug al primo posto nella classifica rap di Billboard",
+      "summary": "BigXthaPlug, rapper di Dallas, ha conquistato il primo posto nella classifica rap di Billboard con l'album Better Over Time, pubblicato il 30 ottobre. Nella settimana di monitoraggio l'album ha totalizzato 35.000 unità equivalenti, di cui 29.000 da streaming (29,1 milioni di riproduzioni) e 6.000 da vendite fisiche. È anche al secondo posto nella classifica R&B/Hip‑Hop e al settimo nella classifica generale Billboard 200.",
+      "context": "Il risultato segna il primo numero uno rap per BigXthaPlug, confermando la sua crescita dopo precedenti posizioni vicine al vertice e indicando una maggiore visibilità per la scena rap di Dallas.",
+      "sources": [
+        {
+          "name": "AllHipHop",
+          "url": "https://allhiphop.com/news/bigxthaplug-lands-his-first-no-1-rap-album/"
+        }
+      ],
+      "image": {
+        "url": "https://allhiphop.com/wp-content/uploads/2026/11/bigxthaplug-instar55351029-1200x800-1.jpg",
+        "credit": "AllHipHop",
+        "link": "https://allhiphop.com/news/bigxthaplug-lands-his-first-no-1-rap-album/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la posizione raggiunta da \"Better Over Time\" nella classifica rap di Billboard?",
+          "options": [
+            "Numero 1",
+            "Numero 2",
+            "Numero 5",
+            "Numero 3"
+          ],
+          "answer": 0,
+          "explanation": "L'album è stato indicato come primo nella classifica rap di Billboard nella data del 14 novembre."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-14-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "SpaceX: stanotte il doppio recupero di Starship alla torre",
+      "summary": "La SpaceX tenterà stanotte, durante il Flight 15, il primo recupero completo di un sistema di lancio orbitale. Il piano prevede che il booster Super Heavy torni alla torre di Starbase in Texas per essere agganciato dai bracci meccanici pochi minuti dopo il decollo. Successivamente, la navicella Starship effettuerà un atterraggio simile. L'obiettivo è dimostrare la piena riutilizzabilità del razzo, riutilizzando tutti i componenti tranne il propellente.",
+      "context": "Questo evento segna un passaggio cruciale verso la riduzione dei costi per i lanci spaziali. Il successo del doppio recupero alla torre validerebbe la tecnologia che permetterà futuri voli abitati e missioni su Marte. È il culmine di anni di test e fallimenti parziali precedenti.",
+      "sources": [
+        {
+          "name": "Focus",
+          "url": "https://www.focus.it/scienza/spazio/starship-stanotte-tentativo-storico-di-spacex-recuperare-sia-il-booster-sia-la-navicella-nella-stessa-missione"
+        }
+      ],
+      "image": {
+        "url": "https://www.focus.it/images/2026/11/13/starship-spacex-orig.jpg",
+        "credit": "Focus",
+        "link": "https://www.focus.it/scienza/spazio/starship-stanotte-tentativo-storico-di-spacex-recuperare-sia-il-booster-sia-la-navicella-nella-stessa-missione"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo principale del doppio recupero durante il Flight 15?",
+          "options": [
+            "Portare astronauti sulla Luna",
+            "Rilasciare satelliti per le telecomunicazioni",
+            "Dimostrare la piena riutilizzabilità del sistema di lancio",
+            "Testare nuovi motori a combustione"
+          ],
+          "answer": 2,
+          "explanation": "Il testo specifica che l'obiettivo è riportare a terra entrambi gli stadi per riutilizzare tutto tranne il propellente, rendendo il sistema pienamente riutilizzabile."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-14-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Costi del gas quadruplicati e fornaci italiane in crisi",
+      "summary": "Il costo del gas è quadruplicato rispetto al 2019, mettendo a rischio la sopravvivenza delle fornaci italiane. Il presidente di Verallia Italia, Ravasi, chiede al governo di intervenire contro le speculazioni. Nonostante i prezzi elevati, il gas sul mercato europeo di Amsterdam è sceso ieri del 3,4% a 89,2 euro al Megawattora.",
+      "context": "L'aumento dei costi energetici colpisce duramente le industrie ad alta intensità energetica come la produzione del vetro. La situazione evidenzia la vulnerabilità del settore manifatturiero italiano alle fluttuazioni dei mercati globali dell'energia.",
+      "sources": [
+        {
+          "name": "Repubblica Economia",
+          "url": "https://www.repubblica.it/economia/2026/11/14/news/energia_gas_elettricita_rincari_crisi_industriale_vetro_bottiglie_bollette-425722444/?rss"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/13/il-gas-in-calo-3-a-89-euro-al-megawattora_329fd1bb-baf4-4b4f-b477-455694ed149a.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/11/13/230049901-2d0bfae8-e472-4f2e-b68b-f862d753203d.jpg",
+        "credit": "Repubblica Economia",
+        "link": "https://www.repubblica.it/economia/2026/11/14/news/energia_gas_elettricita_rincari_crisi_industriale_vetro_bottiglie_bollette-425722444/?rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale richiesta specifica ha fatto il presidente di Verallia Italia al governo?",
+          "options": [
+            "Un sussidio diretto alle imprese",
+            "Che venga colpita ogni forma di speculazione",
+            "L'aumento dei dazi sulle importazioni",
+            "La riduzione delle tasse sul gas"
+          ],
+          "answer": 1,
+          "explanation": "Ravasi ha chiesto al governo di intervenire contro le speculazioni sui prezzi dell'energia."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-14-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Esce al cinema 'Il rumore delle cose nuove', il nuovo film di Paolo Genovese",
+      "summary": "È uscito giovedì 12 novembre nelle sale italiane 'Il rumore delle cose nuove', nuovo film di Paolo Genovese tratto dal suo omonimo romanzo. La pellicola, distribuita da 01 Distribution e film d'apertura della Festa del Cinema di Roma, intreccia le storie di tre coppie sconosciute tra loro, le cui vite vengono stravolte da un evento inatteso che costringe i protagonisti a confrontarsi con bugie, paure e desideri taciuti. Nel cast Emanuela Fanelli, Claudia Pandolfi, Vittoria Puccini, Stefano Accorsi, Lino Musella, Edoardo Pesce e Claudio Santamaria.",
+      "context": "Genovese torna a indagare le relazioni sentimentali con un cast corale, spostando l'attenzione sui 'segreti dell'anima' e le fragilità degli equilibri di coppia. Da seguire l'accoglienza del pubblico per un'opera nata come letteraria e pensata per il grande schermo.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/13/paolo-genovese-nel-mio-film-racconto-i-segreti-dellanima_73af5a64-e430-4c39-a583-698ef1a3b284.html"
+        },
+        {
+          "name": "Il Mattino",
+          "url": "https://www.ilmattino.it/spettacoli/cinema/il_rumore_delle_cose_nuove_di_paolo_genovese_al_cinema_nel_mio_film_racconto_i_segreti_dell_anima-9888161.html"
+        },
+        {
+          "name": "Gazzetta",
+          "url": "https://www.gazzetta.it/spettacolo-tv-gossip/storie/12-11-2026/il-rumore-delle-cose-nuove-al-cinema-il-nuovo-film-di-paolo-genovese/il-sapore-delle-cose-nuove-al-cinema.shtml"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/10/13/2a5b8dfd25b379167d2bd6b951876639.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/13/paolo-genovese-nel-mio-film-racconto-i-segreti-dellanima_73af5a64-e430-4c39-a583-698ef1a3b284.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'elemento scatenante che intreccia le vite delle tre coppie nel film 'Il rumore delle cose nuove'?",
+          "options": [
+            "L'incontro casuale tra i protagonisti",
+            "Un'eredità inaspettata",
+            "Un viaggio improvviso all'estero",
+            "Un evento inatteso che costringe a confrontarsi con bugie e segreti"
+          ],
+          "answer": 3,
+          "explanation": "La trama ruota attorno a un evento inatteso che stravolge le vite delle tre coppie costringendole a fare i conti con verità nascoste."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-14-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Nations League: Germania e Olanda vincono, Grecia fuori dal gruppo",
+      "summary": "Ieri, nella Nations League, la Germania ha battuto la Serbia 3-1, mentre i Paesi Bassi hanno travolto la Grecia 7-0. Con questi risultati, i Paesi Bassi hanno chiuso al primo posto del Gruppo 2 di Lega A con 11 punti, la Germania è seconda con 8 punti, la Grecia è fuori dal girone con 8 punti ma inferiore differenza reti, la Serbia resta a zero.",
+      "context": "Il risultato definisce la classifica finale del Gruppo 2 di Lega A, decidendo quali squadre giocheranno la fase finale e quali retrocederanno, e mostra la forza dei Paesi Bassi nella competizione.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/13/nations-league-successi-per-la-germania-e-lolanda_d11338a4-0886-4053-acbd-87304a78e151.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/13/604f777a987b630db6d747ddd854f754.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/13/nations-league-successi-per-la-germania-e-lolanda_d11338a4-0886-4053-acbd-87304a78e151.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale squadra ha concluso al primo posto del Gruppo 2 di Lega A?",
+          "options": [
+            "Paesi Bassi",
+            "Germania",
+            "Grecia",
+            "Serbia"
+          ],
+          "answer": 0,
+          "explanation": "I Paesi Bassi hanno vinto 7-0 contro la Grecia e hanno totalizzato 11 punti, il punteggio più alto del gruppo."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-14-7"
+    },
+    {
+      "category": "storia",
+      "tag": "14 novembre 1971",
+      "title": "La sonda Mariner 9 raggiunge e orbita attorno a Marte",
+      "summary": "La sonda spaziale Mariner 9, parte del programma dell'agenzia spaziale statunitense NASA, ha raggiunto Marte ed è entrata nella sua orbita. Si tratta del primo mezzo costruito dall'uomo ad orbitare attorno a un altro pianeta nella storia dell'esplorazione spaziale.",
+      "context": "Questa missione ha aperto la strada all'osservazione scientifica prolungata dei pianeti, superando i semplici passaggi ravvicinati. Ha migliorato le capacità tecniche per i voli interplanetari di lunga durata, ponendo le basi per le future missioni di esplorazione marziana.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Programma_Mariner"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Mariner09.jpg/1280px-Mariner09.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Mariner09.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale primato ha stabilito il Mariner 9 nel novembre del 1971?",
+          "options": [
+            "È stato il primo satellite artificiale lanciato in orbita terrestre",
+            "È stata la prima sonda a superare i confini del sistema solare",
+            "È stato il primo mezzo spaziale ad orbitare attorno a un altro pianeta",
+            "È stato il primo veicolo a toccare la superficie di Venere"
+          ],
+          "answer": 2,
+          "explanation": "Il Mariner 9 è diventato il primo veicolo spaziale nella storia ad entrare in orbita attorno a un pianeta diverso dalla Terra."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-14-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Bovillae",
+      "title": "Quando Bovillae ereditò i riti sacri di Alba Longa",
+      "summary": "Dopo la distruzione di Alba Longa per mano di Roma (668 a.C.), gli Albani Longani superstiti si rifugiarono a Bovillae portando con sé le istituzioni religiose più sacre del mondo latino: le Virgines Albanae, i Pontifices Albani e i Salii Albani. Per secoli questa modesta stazione sull'Appia custodì i riti centrali della Lega Latina, mentre i suoi abitanti si firmavano ancora «Albani Longani Bovillenses» nelle iscrizioni ufficiali.",
+      "context": "La continuità cultuale servì a Roma per legittimare il proprio dominio sui Latini: assorbire i riti della capitale sconfitta significava ereditane l'autorità spirituale. In età imperiale i Giulio-Claudi, che vantavano discendenza da Alba, rafforzarono il legame: Tiberio vi istituì i Sodales Augustales e i Ludi Augustales. Il grande circo riportato alla luce nel 1823-25 testimonia l'antica rilevanza della città, oggi quasi dimenticata.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Bovillae"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Campagna_Marinese_vicino_l%27antica_Bovillae.JPG/1280px-Campagna_Marinese_vicino_l%27antica_Bovillae.JPG",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Campagna_Marinese_vicino_l'antica_Bovillae.JPG"
+      },
+      "quiz": [
+        {
+          "question": "Quali istituzioni religiose latine furono trasferite a Bovillae dopo la caduta di Alba Longa?",
+          "options": [
+            "Auguri, Pontefici, Quindecemviri",
+            "Luperci, Salii Palatini, Fetiali",
+            "Vestali, Flamini, Arvali",
+            "Virgines Albanae, Pontifices Albani, Salii Albani"
+          ],
+          "answer": 3,
+          "explanation": "Il testo cita esplicitamente le Virgines Albanae, i Pontifices Albani e i Salii Albani come istituzioni rifondate a Bovillae dagli Albani Longani in fuga."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-14-9"
+    }
+  ]
+}
