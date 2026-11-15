@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T05:34:09.860Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "USA propone a Kiev l'adesione alla NATO in cambio del Donbass",
+      "summary": "Il presidente ucraino Volodymyr Zelensky ha rivelato che i negoziatori statunitensi hanno proposto per la prima volta l'ingresso dell'Ucraina nella NATO in cambio del ritiro delle forze ucraine dal Donbass. Zelensky ha dichiarato che accetterebbe di sottoporre l'accordo a referendum solo se il pacchetto includesse garanzie di sicurezza vincolanti, libertà di armamento e fondi per la ricostruzione. La Casa Bianca ha confermato che si stanno discutendo varie idee, ma che qualsiasi intesa finale richiede l'accordo di entrambe le parti.",
+      "context": "La proposta segna un possibile cambiamento nella strategia diplomatica americana per porre fine alla guerra iniziata nel 2022. Tuttavia, l'adesione alla NATO richiede l'unanimità dei membri e Mosca si oppone fermamente alla presenza dell'alleanza ai suoi confini, rendendo l'accordo estremamente complesso da realizzare.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/11/la-proposta-usa-a-kiev-nella-nato-in-cambio-del-donbass-e76760e0-8515-4edc-8cb7-f10f4974d96a.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/14/ucraina-zelensky-gli-usa-ci-propongono-la-nato-in-cambio-del-donbass_48c4f0d9-c61c-4d79-8523-64805b2f303f.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/fc82/live/f8afbeb0-e087-11f1-b780-31cc9daf154a.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "In quale condizione Zelensky ha detto che sottoporrebbe l'accordo al popolo ucraino?",
+          "options": [
+            "Se il pacchetto includesse garanzie di sicurezza, libertà militare e fondi per la ricostruzione",
+            "Se la Russia accettasse immediatamente un cessate il fuoco",
+            "Se l'Unione Europea garantisse la neutralità permanente dell'Ucraina",
+            "Se la Turchia revocasse il veto sull'adesione alla NATO"
+          ],
+          "answer": 0,
+          "explanation": "Zelensky ha specificato che un referendum si terrà solo se il piano americano includerà garanzie di sicurezza specifiche, un esercito forte senza limiti e finanziamenti per la ricostruzione."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-15-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Italia multa Meta per 805 milioni di euro",
+      "summary": "Il Garante per la protezione dei dati personali italiano ha inflitto a Meta una sanzione di 805 milioni di euro. L'azienda ha violato la privacy di circa 20 milioni di utenti Android accedendo alle loro foto e video senza consenso specifico. La funzione in questione, attiva di default, utilizzava la galleria del telefono per suggerire contenuti da pubblicare su Facebook. Meta ha 60 giorni per disattivare la funzione e ha annunciato il ricorso contro la decisione.",
+      "context": "La sanzione è tra le più elevate mai imposte da un'autorità italiana a un colosso tecnologico. Il caso evidenzia i rischi legati all'accesso generalizzato ai dati degli smartphone e si inserisce in un contesto di crescente pressione normativa globale sulle pratiche di raccolta dati delle piattaforme social.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Repubblica",
+          "url": "https://www.repubblica.it/cronaca/2026/11/14/news/sanzione_multa_meta_garante_privacy_galleria_foto-425723784/?rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo specifico il Garante italiano ha multato Meta?",
+          "options": [
+            "Per aver ignorato le richieste di cancellazione dei profili",
+            "Per aver venduto i dati degli utenti a terzi",
+            "Per aver acceduto alle foto degli utenti senza consenso specifico",
+            "Per aver bloccato gli account di giornalisti"
+          ],
+          "answer": 2,
+          "explanation": "La multa è stata comminata perché Meta accedeva alle gallerie fotografiche di circa 20 milioni di utenti Android senza aver ottenuto un consenso specifico e trasparente per tale utilizzo."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-15-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "SpaceX cattura per la prima volta Starship con i bracci “chopstick”",
+      "summary": "SpaceX ha catturato per la prima volta la fase superiore del veicolo Starship con il sistema di bracci a forma di bacchette, soprannominato “Mechazilla”, durante il volo di prova di sabato a Starbase, Texas. L’operazione, chiamata “chopstick catch”, è riuscita nonostante il booster non sia stato recuperato. L’evento dimostra un passo decisivo verso la riutilizzabilità rapida del razzo, e Musk ha indicato che la prossima missione dovrebbe riuscire a recuperare l’intero veicolo.",
+      "context": "Il recupero con i bracci “chopstick” è cruciale per rendere Starship un lanciatore totalmente riutilizzabile, riducendo i costi di accesso allo spazio e accelerando i piani di SpaceX per missioni lunari e marziane.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0%2C13.419374014038%2C100%2C73.161251971924&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato il risultato principale del volo di prova di Starship di sabato a Starbase?",
+          "options": [
+            "Atterraggio del booster sul mare",
+            "Recupero completo del razzo su drone ship",
+            "Primo lancio orbitale di Starship",
+            "Cattura della fase superiore di Starship con i bracci “chopstick”"
+          ],
+          "answer": 3,
+          "explanation": "Il video mostra Starship afferrato dal torre Mechazilla, la prima volta che il metodo “chopstick” è riuscito su Starship."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-15-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Rick Ross promuove l'album Set In Stone",
+      "summary": "Il 6 novembre 2026, Rick Ross ha pubblicato un video del brano \"Pots and Pans\" per promuovere il suo dodicesimo album, \"Set In Stone\", definendo il proprio catalogo tra i più grandi del rap meridionale. L'uscita dell'album, avvenuta a luglio, è stata segnata da vendite iniziali di circa 19.000 copie, che lo hanno portato al 39° posto della classifica Billboard 200. Il rapper ha attribuito i risultati modesti a \"propaganda e numeri falsi\", ignorando le critiche di 50 Cent.",
+      "context": "La promozione avviene in un momento di forte competizione nel mercato del rap, dove le vendite digitali e lo streaming determinano la visibilità. Il caso evidenzia come le dispute pubbliche tra artisti influenti possano amplificare l'attenzione mediatica su album con performance commerciale sotto la media, influenzando la percezione del pubblico.",
+      "sources": [
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/entertainment/music/new-albums/articles/rick-ross-says-one-greatest-203429098.html"
+        }
+      ],
+      "image": {
+        "url": "https://s.yimg.com/lo/mysterio/api/e77bffb97ac7bc9849e6f35c9cbc587fdfb877f247bf661e8d22f545a74f97bf/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2Fe836102568d165ec58cded469cb39e3f.jpg",
+        "credit": "Yahoo",
+        "link": "https://www.yahoo.com/entertainment/music/new-albums/articles/rick-ross-says-one-greatest-203429098.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la posizione di debutto di \"Set In Stone\" nella classifica Billboard 200?",
+          "options": [
+            "50° posto",
+            "22° posto",
+            "39° posto",
+            "1° posto"
+          ],
+          "answer": 2,
+          "explanation": "L'album ha debuttato al 39° posto, un calo rispetto al 22° posto raggiunto dal suo precedente lavoro solista."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-15-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "L'intelligenza artificiale decifra i manoscritti inediti di Kurt Gödel",
+      "summary": "Un modello di intelligenza artificiale ha permesso di decifrare in pochi giorni oltre mille pagine di manoscritti inediti del logico Kurt Gödel. I testi, scritti in una grafia stenografica tedesca ormai in disuso e studiati da un gruppo di ricerca guidato da Jan von Plato all'Università di Helsinki, contengono centinaia di teoremi sconosciuti e anticipazioni scientifiche.",
+      "context": "I manoscritti inediti di Gödel aiutano gli storici a comprendere l'evoluzione del pensiero di uno dei matematici più importanti del Novecento. L'uso di sistemi di intelligenza artificiale per trascrivere testi storici complessi apre nuove prospettive per la ricerca archivistica.",
+      "sources": [
+        {
+          "name": "The Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=334efc63d7472a97d72be0ffd23af8bb",
+        "credit": "The Guardian Science",
+        "link": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha permesso di decifrare rapidamente i manoscritti di Kurt Gödel?",
+          "options": [
+            "Un modello di intelligenza artificiale",
+            "I diari personali di Albert Einstein",
+            "Un nuovo gruppo di storici tedeschi",
+            "Un software di traduzione automatica dal latino"
+          ],
+          "answer": 0,
+          "explanation": "L'utilizzo del modello di intelligenza artificiale Claude ha consentito di analizzare rapidamente oltre mille pagine di appunti scritti in stenografia."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-15-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Tensioni sulla manovra economica tra governo, imprese e sindacati",
+      "summary": "Nei giorni scorsi si sono registrate forti tensioni politiche e sociali sulla legge di Bilancio. Imprese e sindacati hanno criticato duramente la manovra durante le audizioni, sollevando dubbi anche sulla costituzionalità dei contributi richiesti al settore finanziario. Il governo ha promesso modifiche su diversi punti, tra cui il superbonus, i fondi per la sanità e le pensioni, mantenendo però invariati i saldi di bilancio.",
+      "context": "La legge di Bilancio è il principale documento economico con cui il governo programma le entrate e le spese dello Stato. Il confronto con categorie produttive e istituzioni serve a trovare un equilibrio tra rigore dei conti pubblici e richieste di sostegno all'economia.",
+      "sources": [
+        {
+          "name": "HuffPost Italia",
+          "url": "https://www.huffingtonpost.it/economia/2026/11/13/news/una_manovra_da_rifare_con_giorgetti_lasciato_solo_davanti_al_plotone_di_imprese_e_sindacati-23157634/"
+        },
+        {
+          "name": "Repubblica Economia",
+          "url": "https://www.repubblica.it/economia/2026/11/15/news/conte_schlein_orsini_manovra-425724455/?rss"
+        },
+        {
+          "name": "ItaliaOggi",
+          "url": "https://www.italiaoggi.it/economia-e-politica/muri-portanti-e-tramezzi-cosa-cambiera-e-cosa-no-nella-legge-di-bilancio-blgor3vm"
+        }
+      ],
+      "image": {
+        "url": "https://www.gedistatic.it/content/gedi/img/huffingtonpost/2026/11/13/183735191-5aaa6468-e28c-4c19-8171-aeb6ca70f34c.jpg",
+        "credit": "HuffPost Italia",
+        "link": "https://www.huffingtonpost.it/economia/2026/11/13/news/una_manovra_da_rifare_con_giorgetti_lasciato_solo_davanti_al_plotone_di_imprese_e_sindacati-23157634/"
+      },
+      "quiz": [
+        {
+          "question": "Quali soggetti hanno espresso critiche nei confronti della legge di Bilancio durante le audizioni?",
+          "options": [
+            "Solo i partiti di opposizione",
+            "Unicamente le associazioni dei consumatori",
+            "Solamente la Banca d'Italia",
+            "Imprese, sindacati e diverse istituzioni"
+          ],
+          "answer": 3,
+          "explanation": "Le audizioni hanno evidenziato critiche da parte di Confindustria, sindacati, banche e istituzioni come Bankitalia."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-15-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Amanda Seyfried condurrà per la prima volta il Saturday Night Live",
+      "summary": "L'attrice Amanda Seyfried farà il suo esordio come conduttrice del programma televisivo statunitense Saturday Night Live nella puntata del 5 dicembre. La notizia è stata confermata durante la trasmissione precedente. Nel corso della stessa puntata, il cantante ospite musicale sarà il rapper Don Toliver. La presenza dell'attrice arriva mentre è protagonista del film documentario su Elizabeth Holmes intitolato You Can See Everything.",
+      "context": "Condurre il Saturday Night Live rappresenta una tappa di grande visibilità nella carriera di un attore ed è spesso associata alla promozione di importanti progetti cinematografici o televisivi del momento. Nei prossimi mesi sarà utile osservare l'accoglienza del pubblico per questa nuova prova televisiva.",
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/tv/news/amanda-seyfried-snl-host-debut-december-don-toliver-1236947942/"
+        }
+      ],
+      "image": {
+        "url": "https://variety.com/wp-content/uploads/2026/11/P108ULUA.jpg?w=1000&h=563&crop=1",
+        "credit": "Variety",
+        "link": "https://variety.com/2026/tv/news/amanda-seyfried-snl-host-debut-december-don-toliver-1236947942/"
+      },
+      "quiz": [
+        {
+          "question": "In quale data Amanda Seyfried condurrà per la prima volta il Saturday Night Live?",
+          "options": [
+            "Il 5 dicembre",
+            "Il 14 novembre",
+            "Il 15 novembre",
+            "A gennaio"
+          ],
+          "answer": 0,
+          "explanation": "L'articolo indica che l'esordio di Amanda Seyfried come conduttrice del programma è previsto per il 5 dicembre."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-15-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Rugby, il Galles batte la Nuova Zelanda dopo 73 anni",
+      "summary": "La nazionale di rugby del Galles ha sconfitto la Nuova Zelanda al Principality Stadium di Cardiff, interrompendo una serie negativa durata ben settantatré anni. La squadra guidata da Steve Tandy si è imposta grazie a una straordinaria prova difensiva nel secondo tempo, resistendo agli attacchi avversari e interrompendo un digiuno di vittorie che durava dal millenovecentocinquantatré.",
+      "context": "Questa vittoria epica interrompe una serie di trentaquattro sconfitte consecutive contro la Nuova Zelanda. Nel rugby internazionale, battere gli All Blacks rappresenta una delle imprese più difficili e ambite, capace di cambiare la storia sportiva di un'intera nazione.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmkg57rz2re9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5668/live/7585ebc0-e05c-11f1-9e26-b3b65586122f.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmkg57rz2re9o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quanto tempo è durato il digiuno di vittorie del Galles contro la Nuova Zelanda?",
+          "options": [
+            "50 anni",
+            "73 anni",
+            "34 anni",
+            "100 anni"
+          ],
+          "answer": 1,
+          "explanation": "Il Galles ha battuto la Nuova Zelanda ponendo fine a un'attesa durata 73 anni."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-15-7"
+    },
+    {
+      "category": "storia",
+      "tag": "15 novembre 1884",
+      "title": "Apre a Berlino la Conferenza sul Congo",
+      "summary": "Si apre a Berlino la conferenza internazionale fortemente voluta dal cancelliere tedesco Otto von Bismarck e dalla Francia. L'incontro riunisce le potenze europee per definire le regole commerciali e di navigazione nei fiumi Congo e Niger, dando inoltre il via formale al riconoscimento dello Stato Libero del Congo sotto il controllo di Leopoldo Secondo del Belgio.",
+      "context": "L'accordo ha dato il via alla corsa per l'Africa, accelerando la spartizione coloniale del continente senza alcuna consultazione delle popolazioni locali. Questo assetto ha disegnato confini arbitrari che hanno lasciato in eredità profonde tensioni politiche e sociali irrisolte.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Conferenza_di_Berlino_(1884)"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Afrikakonferenz.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Afrikakonferenz.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu uno dei principali obiettivi della Conferenza di Berlino del 1884?",
+          "options": [
+            "Abolire immediatamente tutte le colonie esistenti in Asia",
+            "Costituire un governo unitario per l'intero continente africano",
+            "Regolare il commercio e la navigazione nei fiumi Congo e Niger",
+            "Garantire l'indipendenza politica delle popolazioni locali"
+          ],
+          "answer": 2,
+          "explanation": "La conferenza fu convocata principalmente per stabilire regole condivise sulla libertà di commercio e navigazione nei bacini dei fiumi Congo e Niger."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-15-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Milone di Plancy",
+      "title": "Il nobile francese che rifiutò di aprire le porte ai profughi",
+      "summary": "Negli anni settanta del dodicesimo secolo, il nobile francese Milone di Plancy divenne una delle figure più potenti del regno crociato di Gerusalemme grazie all'appoggio di re Amalrico primo. Nominato comandante della fortezza di Gaza, si rifiutò di far entrare i cittadini disarmati durante un attacco arabo, provocandone il massacro. Questo episodio, unito alla sua rapida ascesa e a un matrimonio vantaggioso, lo rese estremamente impopolare tra i baroni locali. Poco dopo, nel mille cent settantaquattro, fu ucciso in un agguato a San Giovanni d'Acri.",
+      "context": "Nel dodicesimo secolo il regno crociato di Gerusalemme era lacerato da forti tensioni politiche tra i monarchi, che cercavano di accentrare il potere, e i baroni locali gelosi dei propri feudi. In questo contesto instabile, l'ascesa di stranieri favoriti dal re generava faide sanguinose.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Milone_di_Plancy"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Couronnement_de_Baudouin_IV.png/1280px-Couronnement_de_Baudouin_IV.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Couronnement_de_Baudouin_IV.png"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Milone di Plancy si attirò l'odio dei baroni locali?",
+          "options": [
+            "Per la sua rapida ascesa al potere e l'opposizione all'aristocrazia locale",
+            "Per aver usurpato illegalmente il titolo di re di Gerusalemme",
+            "Per aver tradito Gerusalemme alleandosi direttamente con Saladino",
+            "Per aver perso il controllo di tutte le terre d'Oltregiordano"
+          ],
+          "answer": 0,
+          "explanation": "Milone divenne molto potente grazie all'appoggio del re e a un ricco matrimonio, inimicandosi i magnati che si opposero alla sua reggenza."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-15-9"
+    }
+  ]
+}
