@@ -1,0 +1,396 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T05:40:42.450Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "L'Iran colpisce una base USA in Bahrein con sei droni",
+      "summary": "L'Iran ha lanciato un attacco con sei droni contro una struttura radar della difesa aerea statunitense nella base di al-Riffa, in Bahrein. Le forze armate locali hanno dichiarato di aver intercettato e distrutto i velivoli prima che raggiungessero l'obiettivo. Si tratta del secondo attacco in pochi giorni, dopo una pausa iniziata a settembre. Teheran ha avvertito di una risposta più dura a eventuali nuove aggressioni, mentre i negoziati con gli Stati Uniti restano in stallo.",
+      "context": "L'attacco segna una ripresa delle ostilità dirette contro un alleato degli Stati Uniti, aumentando il rischio di un conflitto regionale più ampio. La chiusura dello Stretto di Hormuz e l'affondamento di petroliere indicano che l'Iran sta usando la leva energetica per esercitare pressione, complicando la diplomazia internazionale.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/15/iran-torna-a-colpire-in-bahrain-monito-dal-golfo-no-a-escalation_d5b5e247-124f-4bc5-9d47-5cb043b816c3.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVzNzMk92Y1Jmb3RWTWZtQll4RHBBbWtObFhSVnJmdmlyenpJdTY4Ukk4cjdEZU1jQ2tyS3pKbm1rcEl3eXR4SW9tVktGMmRyMW9ldGN5MG1BMW1EVVVfMUpCa09LOVRQYkh2V2hRQWRLV1hPM0Uwa09qdFRNMm5WbTQ1bmUtM0tvTXMwWXFQbHlJQVpsWjd6TUNsNVhXY282ZTZGVGluLWhldDZZSEhqZGFVaTdtMjFHdkZmR2hsWU8zTE9TQzFrVWg1Wms1V0p4UUR4YTVyS1VRNW9iNHllVm5BX0tjOWVyOG0wTtIB8gFBVV95cUxQZDZqWm5Gbk5DSnVNbDNTSzNnTHp2MEVoMHFkOVhNYkhNSU05NC1MM0JPWXhfNVFXaUpETlpSOGNDbFk3N0xIcW9iYzZxTkUxbHJOMkc5TEtqSlQtb3ZaMHFSTGF1ZW1KZGZJV202RmJXOWcta0g1U0pyMnhKOTNxNnd2NlQwSDZMaE50ckl5Q180bWJ1QkxHS1I1MlZ5amdMSnl4N2JlTGYwdTk4aUd0RktqR0U2cE5OSXREMGR4Q2NSb3FOVDZtOEFBdHpCQnNqZDF4YkdxN1VOS19aTkE5U3dZQWZXZnItQU5VTmxaUUFnUQ?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/9/17a697f5995fa34753fd576cc40b5f9b.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/15/iran-torna-a-colpire-in-bahrain-monito-dal-golfo-no-a-escalation_d5b5e247-124f-4bc5-9d47-5cb043b816c3.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale obiettivo specifico ha colpito l'attacco iraniano in Bahrein?",
+          "options": [
+            "Il quartier generale del governo",
+            "Un magazzino di munizioni",
+            "Una struttura radar della difesa aerea",
+            "Un porto commerciale"
+          ],
+          "answer": 2,
+          "explanation": "Il materiale specifica che l'obiettivo era una struttura radar della difesa aerea statunitense situata presso la base di al-Riffa."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-16-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Ciclone Charles minaccia la costiera amalfitana, allerta meteo gialla in 10 regioni",
+      "summary": "Il ciclone Charles, una massa d'aria umida e mite proveniente dal Mediterraneo, sta colpendo l'Italia con venti di libeccio intensi, piogge fino a 200 mm e mareggiate. La costiera amalfitana è stata particolarmente colpita, con frane che hanno chiuso la statale 163. Oggi, 16 novembre 2026, la Protezione civile ha emesso un'allerta meteo gialla per dieci regioni: Abruzzo, Basilicata, Calabria, Campania, Emilia‑Romagna, Lazio, Marche, Molise, Toscana e Umbria.",
+      "context": "L’allerta evidenzia il rischio di alluvioni, frane e danni alla viabilità lungo la costa tirrenica, in un periodo di clima più instabile per l’Italia settentrionale e meridionale.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/11/meteo-litalia-nel-mirino-del-ciclone-charles-costiera-amalfitana-flagellata--ad183e6c-8ec4-4dad-87fd-a01870b2c346.html"
+        },
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/11/meteo-maltempo-e-allerta-gialla-su-10-regioni-danni-ad-eboli-e-costiera-amalfitana-clima-6642f807-6d56-49a7-b503-6e5a7c6c8713.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/15/1794758488804_vlcsnaphms.png",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/articoli/2026/11/meteo-litalia-nel-mirino-del-ciclone-charles-costiera-amalfitana-flagellata--ad183e6c-8ec4-4dad-87fd-a01870b2c346.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale fenomeno meteorologico ha causato l'allerta gialla in dieci regioni italiane?",
+          "options": [
+            "Siccità",
+            "Nevicata",
+            "Terremoto",
+            "Ciclone Charles"
+          ],
+          "answer": 3,
+          "explanation": "L'allerta è stata attivata a causa del ciclone Charles, che porta forti venti, piogge intense e mareggiate."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-16-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Apple avvia studio sull'uso dell'IA nella salute",
+      "summary": "Apple ha annunciato oggi uno studio per analizzare come le persone usano gli strumenti di intelligenza artificiale conversazionale nella salute e quanto siano utili le risposte. In collaborazione con OpenEvidence, i partecipanti (fino a 200.000, 21 anni, USA, iPhone 15 Pro con iOS 26) useranno un’app iOS per porre domande mediche, valutare accuratezza, dettaglio e rilevanza, e potranno condividere dati HealthKit. I dati rimarranno riservati e non serviranno ad addestrare modelli IA.",
+      "context": "Con l’aumento degli assistenti IA in ambito sanitario, Apple vuole garantire che le risposte siano accurate e comprensibili, rafforzando la fiducia degli utenti nel contesto digitale.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo principale dello studio lanciato da Apple?",
+          "options": [
+            "Sviluppare un assistente vocale",
+            "Raccogliere dati per pubblicità",
+            "Valutare l'efficacia degli strumenti IA per la salute",
+            "Testare nuovi dispositivi hardware"
+          ],
+          "answer": 2,
+          "explanation": "Lo studio mira a capire come gli utenti interagiscono con gli strumenti IA per la salute e a migliorarne l'efficacia."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-16-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Young Thug respinge la riconciliazione con Gunna",
+      "summary": "Venerdì scorso Offset ha difeso Gunna al podcast Popcast del New York Times, sostenendo che non ha fatto da informatore nel processo YSL RICO e chiedendo unità ad Atlanta. Quavo ha rilanciato su Instagram esortando Young Thug a riconciliarsi con Gunna. Thug ha risposto secco: «Come faccio a riparare una cosa che non ho rotto io?».",
+      "context": "La scena rap di Atlanta è frammentata dal 2022, quando Gunna ha patteggiato nel caso YSL RICO. Offset e Quavo dei Migos spingono per ricomporre il gruppo, ma Young Thug respinge la responsabilità della rottura.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/young-thug-quavo-gunna-offset-reconciliation-ysl-trial-1236382064/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/11/2243541366-e1794607232923.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/young-thug-quavo-gunna-offset-reconciliation-ysl-trial-1236382064/"
+      },
+      "quiz": [
+        {
+          "question": "Perché Young Thug rifiuta di riconciliarsi con Gunna su richiesta di Quavo?",
+          "options": [
+            "Perché non vuole tornare ad Atlanta",
+            "Perché Offset non lo ha consultato",
+            "Perché ritiene di non aver rotto lui il rapporto",
+            "Perché Gunna ha confessato crimini gravi"
+          ],
+          "answer": 2,
+          "explanation": "Thug ha risposto a Quavo chiedendo come possa riparare qualcosa che non ha rotto lui."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-16-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Parata planetaria all'alba: Mercurio, Venere, Marte e Giove allineati a novembre",
+      "summary": "Per tutto novembre quattro pianeti – Mercurio, Venere, Marte e Giove – sono visibili a occhio nudo nel cielo pre-alba, da sud-est a est. Il 15-16 novembre Marte e Giove si trovano in congiunzione strettissima (1,2 gradi). Dal 24 novembre una superluna, prima di una serie di quattro, si aggiunge allo spettacolo. Mercurio è il più difficile da scorgere, Venere il più luminoso. Con binocolo si vedono anche Urano, Saturno e Nettuno.",
+      "context": "Un allineamento multiplo visibile senza strumenti è un'occasione rara per l'osservazione amatoriale. La congiunzione Marte-Giove offre un riferimento facile per orientarsi. La serie di superlune da fine mese prolunga l'interesse per il cielo mattutino.",
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_weather/1200/cpsprodpb/a1a4/live/8fa21860-daa5-11f1-9da2-b11e4d68c08e.jpg",
+        "credit": "BBC Science",
+        "link": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale evento astronomico è particolarmente visibile il 16 novembre 2026?",
+          "options": [
+            "Eclissi solare parziale",
+            "Passaggio di una cometa brillante",
+            "Congiunzione stretta tra Marte e Giove",
+            "Prima superluna dell'anno"
+          ],
+          "answer": 2,
+          "explanation": "Il 16 novembre Marte e Giove appaiono separati da soli 1,2 gradi, circa la larghezza di un dito a braccio teso."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-16-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "USA e alleati firmano l'accordo Pax Silica per proteggere chip e IA dalla Cina",
+      "summary": "Gli Stati Uniti e diversi alleati, tra cui Italia, Giappone e Regno Unito, hanno firmato nei giorni scorsi la «Dichiarazione di San Francisco» nell'ambito del progetto Pax Silica. L'accordo crea un elenco condiviso di tecnologie sensibili — chip, terre rare, energia — e infrastrutture critiche da proteggere, stabilendo che la loro sicurezza è una responsabilità comune. Germania, Svezia, Paesi Bassi e Unione europea aderiranno la prossima settimana. L'intesa precede l'incontro tra Donald Trump e Xi Jinping al forum Apec di Shenzhen.",
+      "context": "Segna un passo concreto nella strategia occidentale per blindare la filiera dei semiconduttori e dell'IA contro l'accesso cinese, trasformando la sicurezza economica in pilastro della sicurezza nazionale in vista del vertice Trump-Xi.",
+      "sources": [
+        {
+          "name": "Repubblica Economia",
+          "url": "https://www.repubblica.it/economia/2026/11/16/news/intelligenza_artificiale_accordo_usa_alleati_per_proteggere_chip_tecnologie_cina_pax_silica-425726177/?rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/11/16/031858334-08cf1ef4-f08d-4eeb-8e30-87f130f3e8a9.jpg",
+        "credit": "Repubblica Economia",
+        "link": "https://www.repubblica.it/economia/2026/11/16/news/intelligenza_artificiale_accordo_usa_alleati_per_proteggere_chip_tecnologie_cina_pax_silica-425726177/?rss"
+      },
+      "quiz": [
+        {
+          "question": "Cosa stabilisce principalmente la Dichiarazione di San Francisco nell'ambito di Pax Silica?",
+          "options": [
+            "Nuovi dazi immediati sulle terre rare cinesi",
+            "La creazione di un'agenzia NATO per il controllo dell'intelligenza artificiale",
+            "Un elenco condiviso di tecnologie sensibili e infrastrutture critiche la cui sicurezza è considerata responsabilità comune",
+            "Un embargo totale sulle esportazioni di chip verso la Cina"
+          ],
+          "answer": 2,
+          "explanation": "L'accordo definisce un elenco comune di tecnologie sensibili e infrastrutture critiche, considerandone la sicurezza una responsabilità condivisa tra i firmatari."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-16-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Camembert vince il Monte-Carlo Film Festival de la Comédie",
+      "summary": "Sabato 14 novembre si è conclusa la 23ª edizione del Monte-Carlo Film Festival de la Comédie a Monaco. La giuria presieduta da Fausto Brizzi ha assegnato il premio per il miglior film alla commedia francese \"Camembert\" di Matthieu Rumani e Nicolas Slomka, con Kristin Scott Thomas. Miglior regia all'italiano Niccolò Gentili per \"Dov'è la fiesta?\". Doppio riconoscimento (Giuria e Pubblico) alla tedesca \"Agnes & Amir\", premiati anche i suoi interpreti. Tra i cortometraggi ha vinto il francese \"Serenade\".",
+      "context": "Il festival, ideato da Ezio Greggio sotto l'Alto Patronato del Principe Alberto II, conferma il ruolo di vetrina per la commedia europea. Da seguire la distribuzione italiana dei film vincitori.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/15/il-film-francese-camembert-vince-il-monte-carlo-film-festival-de-la-comedie_b4853162-7106-4b5e-b9ef-4561d0653d4d.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/15/b35bdbc3be568d470e2ed780edbfd19b.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/15/il-film-francese-camembert-vince-il-monte-carlo-film-festival-de-la-comedie_b4853162-7106-4b5e-b9ef-4561d0653d4d.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale film ha vinto il premio per il miglior film alla 23ª edizione del Monte-Carlo Film Festival de la Comédie?",
+          "options": [
+            "Dov'è la fiesta?",
+            "Camembert",
+            "Serenade",
+            "Agnes & Amir"
+          ],
+          "answer": 1,
+          "explanation": "Il premio per il miglior film è andato alla commedia francese \"Camembert\" come riportato nel riassunto."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-16-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Inghilterra batte Spagna 3-2 e interrompe imbattibilità di 43 partite",
+      "summary": "L'Inghilterra ha sconfitto la Spagna 3-2 a Madrid nell'ultima giornata del girone di Nations League, ponendo fine a una striscia di 43 gare senza sconfitte delle Furie Rosse. Gli inglesi hanno dominato portandosi sul 3-0 con Kane (rigore), Konsa e White. L'espulsione di Anderson al 65' ha riaperto il match: Oyarzabal e Nico Williams hanno accorciato, ma il portiere Trafford ha salvato il risultato con parate decisive. L'Inghilterra chiude prima nel girone e accede ai quarti.",
+      "context": "Vittoria storica per Tuchel che risponde alle critiche post-Mondiale. La Spagna non perdeva nei tempi regolamentari dal 2023. L'Inghilterra dimostra carattere mantenendo il vantaggio, a differenza del passato recente. Da monitorare la gestione della porta con Trafford titolare al posto di Pickford.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c933ge310n33o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/15/nations-league-la-spagna-perde-limbattibilita-con-linghilterra-francia-prima_bb5d6a57-896f-4da8-9433-a07b59203d6c.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b361/live/48cfe320-e146-11f1-93e1-3b657b665bcf.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c933ge310n33o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale risultato ha interrotto la serie di 43 partite senza sconfitte della Spagna?",
+          "options": [
+            "Sconfitta ai rigori contro il Portogallo",
+            "Pareggio 1-1 in Nations League",
+            "Sconfitta 3-2 contro l'Inghilterra a Madrid",
+            "Vittoria 2-1 contro la Francia"
+          ],
+          "answer": 2,
+          "explanation": "L'Inghilterra ha battuto la Spagna 3-2 a Madrid, ponendo fine all'imbattibilità che durava dal 2023 (esclusa la sconfitta ai rigori col Portogallo nel 2025)."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-16-7"
+    },
+    {
+      "category": "storia",
+      "tag": "16 novembre 1849",
+      "title": "Condanna a morte per Dostoevskij, poi graziato all'ultimo istante",
+      "summary": "Il 16 novembre 1849 una corte russa condanna Fëdor Dostoevskij a morte per la sua partecipazione al circolo Petraševskij, gruppo intellettuale considerato sovversivo. Lo scrittore viene portato sul patibolo il 22 dicembre, ma all'ultimo momento lo zar Nicola I commuta la pena in lavori forzati in Siberia. L'esecuzione simulata segna profondamente Dostoevskij, influenzando la sua opera e la sua ferma opposizione alla pena capitale.",
+      "context": "L'evento trasforma Dostoevskij: la finta esecuzione aggrava l'epilessia, ispira pagine cruciali su morte e redenzione (Delitto e castigo, L'idiota) e genera Memorie dalla casa dei morti, testimonianza unica sul sistema carcerario zarista.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/F%C3%ABdor_Dostoevskij"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Dostoevskij_1872.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Dostoevskij_1872.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa accadde a Fëdor Dostoevskij il 16 novembre 1849?",
+          "options": [
+            "Fu arrestato per la prima volta",
+            "Fu condannato a morte per attività anti-governative",
+            "Pubblicò il suo primo romanzo",
+            "Fu graziato e mandato in Siberia"
+          ],
+          "answer": 1,
+          "explanation": "Il 16 novembre 1849 la corte lo condannò a morte per la partecipazione al circolo Petraševskij; la grazia arrivò solo un mese dopo sul patibolo."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-16-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Ḫattuša",
+      "title": "La capitale sul confine: perché Ḫattuša stava dove non ti aspetteresti",
+      "summary": "Ḫattuša, capitale dell'impero ittita, si trovava in posizione eccentrica rispetto al cuore della civiltà e all'espansione territoriale, che si dirigevano a sud e sud-est. La città restò sempre esposta a nord agli attacchi dei Kaska, popolazioni montane mai sottomesse, pur non essendo loro la causa del crollo finale intorno al 1200 a.C. durante il collasso dell'età del bronzo.",
+      "context": "L'impero ittita dominò l'Anatolia e la Siria settentrionale tra il XVII e il XII secolo a.C. La scelta di mantenere la capitale in una zona montuosa, fredda e vulnerabile a nord, lontana dalle ricche pianure agricole e dalle rotte commerciali principali verso sud, riflette forse origini dinastiche o religiose legate al culto locale. Il sito, abitato ininterrottamente fino al villaggio turco odierno di Boğazkale, ha restituito oltre 30.000 tavolette cuneiformi, tra cui una copia del trattato di pace itto-egiziano del 1259 a.C.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/%E1%B8%AAattu%C5%A1a"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Lion_Gate%2C_Hattusa_13_%28cropped%29.jpg/1280px-Lion_Gate%2C_Hattusa_13_%28cropped%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Lion_Gate%2C_Hattusa_13_(cropped).jpg"
+      },
+      "quiz": [
+        {
+          "question": "In che posizione si trovava Ḫattuša rispetto al territorio controllato dall'impero ittita?",
+          "options": [
+            "Sulla costa del Mar Nero",
+            "Al centro esatto dell'impero",
+            "In posizione eccentrica a nord, esposta ai Kaska",
+            "Nella regione più fertile a sud-est"
+          ],
+          "answer": 2,
+          "explanation": "La capitale restò sempre geograficamente decentrata a nord, mentre l'impero si estendeva soprattutto a sud-est e sud-ovest, lasciando la città esposta alle incursioni dei Kaska delle montagne settentrionali."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-16-9"
+    }
+  ]
+}
