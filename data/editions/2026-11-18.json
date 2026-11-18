@@ -1,0 +1,412 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T05:36:37.305Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacco alla Crimea: crolla parte del ponte",
+      "summary": "L'Ucraina ha danneggiato gravemente il Ponte della Crimea, un'infrastruttura strategica che collega la Russia alla penisola occupata. Dopo settimane di attacchi preparatori ai sistemi di difesa aerea, missili e droni ucraini hanno provocato il crollo di una sezione di circa 200 metri della carreggiata stradale. Il presidente Zelensky ha definito l'operazione senza precedenti, mentre il Cremlino ha promesso di ricostruire la struttura. Il traffico ferroviario è stato parzialmente ripristinato, ma la parte stradale è interrotta.",
+      "context": "L'attacco aumenta il costo politico ed economico della guerra per la Russia, proprio in vista di incontri diplomatici di Putin. Il ponte, costruito dopo l'annessione del 2014, è un simbolo dell'occupazione. La sua distruzione parziale complica la logistica militare russa e potrebbe influenzare le future strategie di difesa di Mosca.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/222d/live/db8315b0-e278-11f1-99a1-253766e7ad8b.png",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale componente strutturale del ponte è crollata a causa dell'attacco?",
+          "options": [
+            "La sezione ferroviaria",
+            "L'arco della carreggiata stradale",
+            "I piloni di sostegno in cemento armato",
+            "L'intera struttura del ponte"
+          ],
+          "answer": 1,
+          "explanation": "L'attacco ha causato il crollo dell'arco principale che sosteneva la carreggiata stradale, mentre la sezione ferroviaria parallela è rimasta in piedi."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-18-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Inchiesta su Revolut: conti sospetti e commissariamento",
+      "summary": "Un'inchiesta giudiziaria ha acceso i riflettori su Revolut per un sistema di conti sospetti intestati a prestanomi. Secondo i giudici, questi conti milionari venivano utilizzati per movimentare ingenti somme in un click e operare cambi di valuta per poi essere subito svuotati. Il provvedimento di commissariamento della società apre ora interrogativi sulla gestione dei circa sei milioni di conti italiani.",
+      "context": "Il caso mette in luce i rischi e le falle nei controlli antiriciclaggio delle piattaforme digitali. L'intervento delle autorità punta a chiarire le responsabilità nella vigilanza e ad assicurare la tutela dei milioni di utenti che utilizzano il servizio.",
+      "sources": [
+        {
+          "name": "Repubblica",
+          "url": "https://milano.repubblica.it/cronaca/2026/11/18/news/multe_precedenti_revolut_italia_altri_paesi-425730880/?rss"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQQTZvWUpGempRM0Z4VmpzVzNkWHVWMVVoR19FcTZLWXVGTWVMLTV0SnpwQ3N6WVR0em1aNmh2ckpFWDEyb2xUMlZ2al9xWExoVVZjLUNSdFI2WGp3Nkk4cVNwY3BvUEphTWttaE90MUx3QXlBUG92ekJnMl9JZjZrVHQtYWdmTWVhRk9OWWxsZlNiT0dtSEd1Zm1yOHpTOEpFaDJlZmJmUUxiOTAyUko0UldxR3NQMFJOZVFtak9qenEzQWduNl9mazlPNkU5aDJ2VjliTVhUWGVwVDN0dW15c3cxaVQzel9BMEY5OFRPWEFhTHU4VGptcjFyaTNYenPSAYQCQVVfeXFMTUhQMzZPZ3Nfc2FaeGk4LXZJd1d1UmhEUklsak1YOWtBbTBKUDY1QW9EZzJ6OWxUWVJPdlk0SU5PUkhsZnU1ZkVBa3NTZV9hNkxDTEZjdVJHN1UyRXEtZjlRejBEdlJPc2R2a244by05Yy1HcjY2eWdCdDhkSGxWVjNDTnJVRUI5a29IMWNzdEtZUFNod3Yza2RSVVVZMGpzV0lkVHJwME5lZHNaNWJaa2FVbWhuM2lWX25ycVc0SlVMVnlfN3dFQ0Y1NTU2MUh2Q1c1aEY4cGlQbkZrUm5JZmlxRDdvZjVoUFNsRE9jbm1rMlNoanRzRGxjb25jbVdFWnlVVmU?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/localirep/img/rep-milano/2026/11/17/220514245-7ffdb904-cf6d-411e-8239-8a10704a5ff6.jpg",
+        "credit": "Repubblica",
+        "link": "https://milano.repubblica.it/cronaca/2026/11/18/news/multe_precedenti_revolut_italia_altri_paesi-425730880/?rss"
+      },
+      "quiz": [
+        {
+          "question": "Cosa hanno evidenziato i giudici in merito all'inchiesta su Revolut?",
+          "options": [
+            "Che la piattaforma impediva qualsiasi operazione di cambio valuta",
+            "Che i conti milionari venivano intestati a prestanomi e svuotati rapidamente",
+            "Che i fondatori hanno deciso di chiudere spontaneamente l'applicazione",
+            "Che l'indagine ha riguardato solo una decina di clienti al di fuori dell'Italia"
+          ],
+          "answer": 1,
+          "explanation": "I magistrati hanno rilevato l'esistenza di conti sospetti milionari aperti tramite prestanomi, che venivano svuotati subito dopo i cambi di valuta."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-18-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Microsoft integra Office in Copilot e lo trasforma in hub di lavoro",
+      "summary": "Microsoft ha presentato Copilot Workspaces, trasformando il proprio assistente digitale in una piattaforma di lavoro collaborativo in cui le applicazioni di Office operano direttamente al suo interno. L'amministratore delegato Satya Nadella ha spiegato che l'ambiente unisce persone e agenti verso obiettivi comuni. Nadella ha chiarito che i modelli non sono intrinsecamente affidabili, richiedendo rigidi controlli umani sulle loro autorizzazioni e la possibilità di bloccarli.",
+      "context": "Il passaggio sposta l'intelligenza artificiale da semplice supporto a vero e proprio sistema operativo aziendale. Con l'accelerazione degli assistenti autonomi, la capacità di garantire controlli di sicurezza e supervisione umana diventa cruciale per convincere le grandi aziende ad adottarli.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception.png",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/"
+      },
+      "quiz": [
+        {
+          "question": "In che modo Microsoft affronta il problema dell'inaffidabilità dei modelli di intelligenza artificiale nei nuovi spazi di lavoro?",
+          "options": [
+            "Eliminando ogni forma di supervisione umana per rendere i processi più rapidi",
+            "Impedendo l'integrazione di strumenti esterni come la suite Office",
+            "Riconoscendo diritti legali e uno status morale ai singoli modelli",
+            "Limitando e controllando le autorizzazioni concesse a ciascun agente autonomo"
+          ],
+          "answer": 3,
+          "explanation": "Microsoft ha scelto di non fidarsi ciecamente dei modelli, ma di separare le loro capacità dal potere decisionale, consentendo agli amministratori di limitare o bloccare gli agenti."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-18-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Lil Baby in vetta alle classifiche rap tra le vendite in calo del genere",
+      "summary": "Il nuovo album di Lil Baby, FRESH, ha debuttato al primo posto della classifica hip-hop statunitense e al secondo della Billboard 200 con 59.000 unità equivalenti. Il dato segna una flessione rispetto alle 140.000 copie d'esordio del precedente disco WHAM. Il rapper ha respinto le voci su una crisi personale, sostenendo che l'intero movimento rap registra numeri inferiori rispetto al 2020, penalizzato anche dalla diffusione di tematiche troppo cupe e violente.",
+      "context": "Negli ultimi anni l'industria discografica statunitense ha registrato un rallentamento nei consumi dell'hip-hop rispetto al picco storico del 2020. Molti artisti del settore faticano a replicare le vendite del passato, confrontandosi con algoritmi e tendenze in continuo cambiamento.",
+      "sources": [
+        {
+          "name": "AllHipHop",
+          "url": "https://allhiphop.com/news/lil-baby-tops-hip-hop-albums-chart-as-fresh-opens-with-59000-units/"
+        },
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/entertainment/music/articles/lil-baby-points-hip-hop-044137432.html"
+        }
+      ],
+      "image": {
+        "url": "https://allhiphop.com/wp-content/uploads/2024/12/Lil-Baby-1.png",
+        "credit": "AllHipHop",
+        "link": "https://allhiphop.com/news/lil-baby-tops-hip-hop-albums-chart-as-fresh-opens-with-59000-units/"
+      },
+      "quiz": [
+        {
+          "question": "Secondo Lil Baby, qual è la causa principale dei risultati commerciali inferiori del suo album?",
+          "options": [
+            "Una controversia legale che ha bloccato lo streaming dei singoli principali",
+            "La scelta di pubblicare un disco interamente solista senza collaborazioni",
+            "Un calo generale di vendite e ascolti che interessa l'intero panorama hip-hop",
+            "Il rifiuto categorico di promuovere le proprie canzoni sulle piattaforme digitali"
+          ],
+          "answer": 2,
+          "explanation": "Lil Baby ha chiarito che la flessione non riguarda solo lui, ma l'intero genere hip-hop, che non raggiunge più i numeri del 2020."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-18-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Un segnale radio ogni otto minuti da una coppia stellare insolita",
+      "summary": "Gli astronomi hanno individuato un segnale radio periodico proveniente da un sistema stellare situato a circa cinquemila anni luce dalla Terra. La sorgente emette un impulso ogni otto minuti ed è composta da una nana bianca in rotazione attorno a una stella simile al Sole. È la prima volta che una simile emissione radio viene osservata in una coppia di questo tipo, dove solitamente la compagna della nana bianca è una fredda nana rossa.",
+      "context": "Pubblicato su Nature Astronomy, lo studio consente di tracciare con precisione l'orbita e i meccanismi fisici delle nane bianche nei sistemi binari. La scoperta offre inoltre nuovi indizi sull'evoluzione a lungo termine dei sistemi stellari simili a quello solare.",
+      "sources": [
+        {
+          "name": "INAF Media",
+          "url": "https://www.media.inaf.it/2026/11/17/una-piroetta-radio-ogni-otto-minuti/"
+        }
+      ],
+      "image": {
+        "url": "https://www.media.inaf.it/wp-content/uploads/2026/11/im3_binary.jpeg",
+        "credit": "INAF Media",
+        "link": "https://www.media.inaf.it/2026/11/17/una-piroetta-radio-ogni-otto-minuti/"
+      },
+      "quiz": [
+        {
+          "question": "Quale caratteristica rende inedito il sistema stellare da cui proviene il segnale radio?",
+          "options": [
+            "La presenza di un buco nero supermassiccio in rotta di collisione",
+            "La rotazione sincronizzata di due stelle identiche al nostro Sole",
+            "Il fatto che sia il primo segnale radio rilevato al di fuori della nostra galassia",
+            "La presenza di una nana bianca che orbita attorno a una stella simile al Sole"
+          ],
+          "answer": 3,
+          "explanation": "In precedenza questo tipo di emissione periodica era stato registrato solo in sistemi in cui la nana bianca orbita attorno a una nana rossa, non a una stella simile al Sole."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-18-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Nvidia raddoppia i ricavi ma il consiglio esclude il ritorno di Jensen Huang",
+      "summary": "Ieri il consiglio di amministrazione di Nvidia ha escluso il reintegro del fondatore Jensen Huang come amministratore delegato, nonostante la sua disponibilità a rientrare. Huang era stato allontanato nei giorni scorsi per accuse su relazioni extraconiugali, tra cui una con una presunta spia cinese. Nel frattempo, l'azienda guidata ad interim da Colette Kress ha annunciato ricavi trimestrali record per 115,8 miliardi di dollari, più che raddoppiati rispetto all'anno precedente e superiori alle previsioni.",
+      "context": "Nvidia controlla circa il novanta per cento del mercato dei chip per l'intelligenza artificiale. L'addio di Huang e i sospetti legami con la Cina aprono forti incertezze sulla sicurezza nazionale e sulla gestione aziendale, pur con una domanda tecnologica ancora in forte espansione.",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/17/mr-invidia-pronto-a-tornare.-ma-il-board-non-prevede-di-reintegrare-jensen-huang_ca04ab2c-2e9b-4bb7-b6ba-1d6938cb2d6e.html"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/18/borsa-tokyo-apertura-in-lieve-rialzo-025_004051c6-0e8f-4a17-8349-2f99f58d6f13.html"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/8113a55d4f67088521e43617481262c2f4f3358a/366_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=799fa5411235fb864a88b0b38e5f2c1d",
+        "credit": "The Guardian Business",
+        "link": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang"
+      },
+      "quiz": [
+        {
+          "question": "Quale posizione ha espresso il consiglio di amministrazione di Nvidia su Jensen Huang?",
+          "options": [
+            "Ha approvato la sua richiesta di tornare subito alla guida del gruppo",
+            "Ha escluso la possibilità di reintegrarlo come amministratore delegato",
+            "Lo ha confermato a capo della divisione tecnologica",
+            "Ha subordinato la decisione all'esito dei conti trimestrali"
+          ],
+          "answer": 1,
+          "explanation": "Nonostante Huang si sia detto pronto a rientrare, il presidente del consiglio di amministrazione ha confermato che non c'è alcuna intenzione di reintegrarlo."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-18-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Il Festival di Cannes condanna la nuova condanna a Jafar Panahi",
+      "summary": "Il Festival di Cannes ha denunciato le recenti misure giudiziarie contro il regista iraniano Jafar Panahi, chiedendo la revoca di ogni sanzione e invitando la comunità internazionale a mobilitarsi per evitarne l'arresto. Panahi è stato condannato dal tribunale rivoluzionario di Teheran a cinque anni e un mese di carcere, alla confisca dei beni e al divieto biennale di espatrio e uso dei social network. È inoltre aperto un terzo procedimento a suo carico.",
+      "context": "Panahi subisce da anni restrizioni da parte delle autorità iraniane a causa del suo lavoro cinematografico. Già condannato a un anno di reclusione nel 2025, la sua situazione riflette le continue pressioni del regime sulla libertà di espressione degli artisti.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/17/il-festival-di-cannes-denuncia-le-nuove-sanzioni-contro-jafar-panahi-in-iran_74e9ff29-19db-4896-9877-f1c55a342770.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/2/26/0467b1a59a1affbe03ed6c2f699fefbc.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/17/il-festival-di-cannes-denuncia-le-nuove-sanzioni-contro-jafar-panahi-in-iran_74e9ff29-19db-4896-9877-f1c55a342770.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale pena è stata recentemente inflitta al regista Jafar Panahi dal tribunale di Teheran?",
+          "options": [
+            "Due anni di lavori socialmente utili all'interno dell'industria cinematografica di Stato",
+            "L'esilio forzato immediato dal Paese senza possibilità di rientro",
+            "Oltre cinque anni di reclusione, confisca dei beni e divieto di espatrio e social network",
+            "Una sola sanzione pecuniaria senza limitazioni alla libertà personale o all'uso del web"
+          ],
+          "answer": 2,
+          "explanation": "Il tribunale rivoluzionario ha inflitto a Panahi cinque anni e un mese di carcere, la confisca dei beni e due anni di divieto di lasciare l'Iran e usare i social."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-18-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Nations League: Haaland trascina la Norvegia, Portogallo primo",
+      "summary": "Ieri sera nell'ultima giornata dei gironi di Nations League, la Norvegia ha battuto la Danimarca per 3-2 a Copenaghen grazie a una doppietta di Erling Haaland e a una rete di Martin Odegaard, rimontando due gol di svantaggio e qualificandosi ai quarti di finale. Il girone è stato vinto dal Portogallo, che ha superato il Galles per 3-2 a Cardiff con il gol decisivo di Carlos Forbs, nonostante l'espulsione di Pedro Neto.",
+      "context": "Il successo regala alla Norvegia l'accesso ai quarti e condanna la Danimarca agli spareggi salvezza. Il Portogallo vince il gruppo dopo una recente sconfitta, mentre il Galles chiude ultimo e dovrà affrontare i playout a marzo.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/17/nations-league-haaland-ribalta-la-danimarca-il-portogallo-passa-da-primo_a27b768e-76ce-48f9-8d69-ce77a3af89dd.html"
+        },
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmn507wn6gg3o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/14/e09d2fb8d7a1b460103edacaa74808fe.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/11/17/nations-league-haaland-ribalta-la-danimarca-il-portogallo-passa-da-primo_a27b768e-76ce-48f9-8d69-ce77a3af89dd.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale risultato ha permesso alla Norvegia di accedere ai quarti di finale del torneo?",
+          "options": [
+            "Il successo ottenuto a tavolino contro la Danimarca",
+            "La vittoria in rimonta per 3-2 in Danimarca",
+            "La vittoria di misura sul Portogallo già qualificato",
+            "Il pareggio conquistato in trasferta contro il Galles"
+          ],
+          "answer": 1,
+          "explanation": "La Norvegia ha ribaltato il doppio svantaggio iniziale a Copenaghen vincendo 3-2 grazie alla doppietta di Haaland e al gol di Odegaard."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-18-7"
+    },
+    {
+      "category": "storia",
+      "tag": "18 novembre 1883",
+      "title": "L'introduzione dei fusi orari per i treni nordamericani",
+      "summary": "Il 18 novembre 1883 le compagnie ferroviarie di Stati Uniti e Canada introdussero cinque fusi orari continentali standard, ponendo fine al caos generato da migliaia di ore locali diverse. Fino a quel momento, ogni città regolava gli orologi sulla propria ora solare. Con lo sviluppo della rete ferroviaria, questa frammentazione rendeva estremamente difficile coordinare gli orari e aumentava il rischio di incidenti. La nuova suddivisione garantì puntualità e sicurezza nei trasporti.",
+      "context": "L'iniziativa dimostrò l'importanza di coordinare il tempo nell'era industriale. Il successo del modello ferroviario accelerò l'adozione dell'ora standard a livello politico e pose le basi per la conferenza internazionale che l'anno seguente definì il sistema globale dei fusi orari.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Fuso_orario"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/World_Time_Zones_Map.png/1280px-World_Time_Zones_Map.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:World_Time_Zones_Map.png"
+      },
+      "quiz": [
+        {
+          "question": "Perché le ferrovie nordamericane introdussero i fusi orari standard nel 1883?",
+          "options": [
+            "Per allineare gli orari dei treni con l'ora ufficiale di Londra",
+            "Per rispettare una legge federale approvata da Stati Uniti e Canada",
+            "Per superare la confusione provocata dalle migliaia di ore solari locali",
+            "Per sperimentare l'ora legale durante la stagione invernale"
+          ],
+          "answer": 2,
+          "explanation": "Prima dei fusi orari ogni località utilizzava la propria ora solare, rendendo caotica e rischiosa la gestione delle linee ferroviarie."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-18-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Impero di Vijayanagara",
+      "title": "La fuga con 550 elefanti che segnò la fine di Vijayanagara",
+      "summary": "Nel 1565 la battaglia di Talikota segnò la rovina improvvisa di Vijayanagara, una delle capitali più ricche dell'India. Dopo la morte del reggente in uno scontro che sembrava già vinto, l'esercito imperiale cadde nel caos. L'unico comandante superstite, Tirumala Raya, fuggì portando con sé le ricchezze imperiali caricate su 550 elefanti. La metropoli venne occupata, saccheggiata e mai più ricostruita: oggi ne restano solo le imponenti rovine archeologiche di Hampi.",
+      "context": "Nato nel quattordicesimo secolo per arginare l'espansione musulmana nel Deccan, l'Impero di Vijayanagara unificò a lungo il sud dell'India, promuovendo la cultura indù e monumentali opere architettoniche. La sua caduta frantumò l'equilibrio della penisola, aprendo la strada ai sultanati rivali.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Impero_di_Vijayanagara"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Vijayanagara_1450s.png/1280px-Vijayanagara_1450s.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Vijayanagara_1450s.png"
+      },
+      "quiz": [
+        {
+          "question": "Cosa accadde alla capitale Vijayanagara dopo la battaglia del 1565?",
+          "options": [
+            "Divenne la nuova capitale stabile dei Sultanati del Deccan",
+            "Fu subito ricostruita dall'unico generale superstite",
+            "Respinse l'assedio grazie alla carica di centinaia di elefanti",
+            "Fu saccheggiata dai vincitori e abbandonata per sempre"
+          ],
+          "answer": 3,
+          "explanation": "Dopo la sconfitta di Talikota, la città venne saccheggiata e rasa al suolo dai sultanati del Deccan, senza essere mai più ricostruita."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-18-9"
+    }
+  ]
+}
