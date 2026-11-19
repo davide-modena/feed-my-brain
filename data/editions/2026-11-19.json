@@ -1,0 +1,396 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T05:35:52.561Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Xi e Trump si incontrano a Shenzhen, segno di un nuovo allineamento geopolitico",
+      "summary": "Il 19 novembre 2026 il presidente cinese Xi Jinping ha accolto personalmente Donald Trump all’aeroporto di Shenzhen, abbracciandolo sul tappeto rosso. L’incontro fa parte di un vertice trilaterale con il presidente russo Vladimir Putin, segnando un allineamento geopolitico in cui Pechino assume un ruolo centrale nella diplomazia globale. Il gesto, raro nella tradizione diplomatica cinese, è stato interpretato come segnale di maggiore apertura verso Washington.",
+      "context": "L’incontro indica che la Cina vuole guidare la nuova architettura internazionale, avvicinandosi sia agli Stati Uniti sia alla Russia, e potrebbe influenzare le dinamiche di sicurezza e commercio globale.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/18/xi-accoglie-trump-allaeroporto-di-shenzhen-e-lo-abbraccia_17e71e32-b3bf-40a2-8db8-97caa2c1d4c1.html"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/18/xi-rinsalda-lasse-con-putin-poi-labbraccio-con-trump_9e7135eb-3e7b-4851-bfab-d2fbdb0e6829.html"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/18/afbee1804ca848ad1bfc84793a5dce77.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/18/xi-accoglie-trump-allaeroporto-di-shenzhen-e-lo-abbraccia_17e71e32-b3bf-40a2-8db8-97caa2c1d4c1.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale gesto ha compiuto Xi Jinping verso Donald Trump all’aeroporto di Shenzhen?",
+          "options": [
+            "Gli ha consegnato un dono",
+            "Non ha fatto alcun gesto",
+            "Lo ha abbracciato",
+            "Ha firmato un trattato"
+          ],
+          "answer": 2,
+          "explanation": "Xi ha salutato Trump con un abbraccio, gesto raro nella diplomazia cinese."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-19-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Crosetto chiede 5.000 specialisti cyber e 6 miliardi di investimenti",
+      "summary": "Il ministro della Difesa Guido Crosetto ha informato il Parlamento della necessità di creare un'arma cyber civile e militare. L'obiettivo è raggiungere 5.000 specialisti, partendo da un nucleo iniziale di 1.200-1.500 unità. Per far fronte alla guerra ibrida e cognitiva, sono programmati oltre 6 miliardi di euro di investimenti nei prossimi anni, in aumento rispetto ai 557 milioni stanziati nel 2025.",
+      "context": "La mossa risponde all'escalation degli attacchi informatici e alla manipolazione dell'opinione pubblica. Il governo cerca di rafforzare la resilienza nazionale contro minacce che colpiscono non solo infrastrutture, ma anche la percezione della realtà da parte dei cittadini.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/18/crosetto-contro-la-guerra-ibrida-risorse-per-6-miliardi-nei-prossimi-anni_c8b81495-423d-42a6-aab7-030b0af8f27d.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/18/04ed94d575995760f0b42e34789464c5.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/crosetto-contro-la-guerra-ibrida-risorse-per-6-miliardi-nei-prossimi-anni_c8b81495-423d-42a6-aab7-030b0af8f27d.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo numerico fissato da Crosetto per gli specialisti cyber?",
+          "options": [
+            "5.000 unità",
+            "10.000 unità",
+            "1.200 unità",
+            "3.000 unità"
+          ],
+          "answer": 0,
+          "explanation": "Il ministro ha dichiarato la necessità di arrivare nel tempo almeno a 5.000 specialisti cyber."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-19-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Anthropic debutta in borsa con una valutazione da 1,5 trilioni di dollari",
+      "summary": "Anthropic, la società sviluppatrice dell'intelligenza artificiale Claude, ha fissato il prezzo della sua offerta pubblica iniziale a 83 dollari per azione. Questa decisione assegna alla compagnia una valutazione complessiva di 1,5 trilioni di dollari. Il debutto sulle borse di Wall Street è avvenuto giovedì, nonostante le preoccupazioni degli investitori per la volatilità di mercato e i potenziali rischi legati alla regolamentazione politica.",
+      "context": "L'operazione segna l'ingresso di un gigante dell'intelligenza artificiale nel mercato azionario, testando l'appetito degli investitori per il settore. È un indicatore chiave della capitalizzazione raggiunta dalle aziende di AI e delle dinamiche di mercato attuali.",
+      "sources": [
+        {
+          "name": "Boston Herald",
+          "url": "https://www.bostonherald.com/2026/11/18/anthropic-ipo-value/"
+        }
+      ],
+      "image": {
+        "url": "https://www.bostonherald.com/wp-content/uploads/2026/11/AI_Hacks_Legal_Accountability_38983_1c37a5.jpg?w=2000&h=1334",
+        "credit": "Boston Herald",
+        "link": "https://www.bostonherald.com/2026/11/18/anthropic-ipo-value/"
+      },
+      "quiz": [
+        {
+          "question": "Quale valutazione complessiva è stata assegnata ad Anthropic con il fissaggio del prezzo dell'IPO?",
+          "options": [
+            "83 miliardi di dollari",
+            "1,5 trilioni di dollari",
+            "83 trilioni di dollari",
+            "1,5 miliardi di dollari"
+          ],
+          "answer": 1,
+          "explanation": "Il prezzo di 83 dollari per azione ha portato la valutazione totale della società a 1,5 trilioni di dollari."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-19-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Travis Scott e la WNBA chiudono la disputa sul marchio Houston Comets",
+      "summary": "Il 29 ottobre 2026 la società di Travis Scott, TSTM Holdings, ha rinunciato alla domanda di registrazione del marchio 'Houston Comets' presentata nel maggio 2024. L'Ufficio brevetti statunitense ha annullato la domanda il 30 ottobre 2026, dopo che la WNBA aveva presentato opposizione nel novembre 2024. La disputa è terminata senza confermare un accordo, mentre la lega sta preparando il ritorno della squadra Houston Comets con il trasferimento dei Connecticut Sun.",
+      "context": "Chiudere la disputa libera il nome Houston Comets per la nuova squadra della WNBA a Houston, mostrando l’importanza dei diritti di marchio nel mondo sportivo e musicale.",
+      "sources": [
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/travis-scott-wnba-trademark-houston-comets/"
+        }
+      ],
+      "image": {
+        "url": "https://townsquare.media/site/812/files/2026/11/attachment-travis-scott-trademark-houston-comets-name.jpg?w=1200&format=natural",
+        "credit": "XXL",
+        "link": "https://www.xxlmag.com/travis-scott-wnba-trademark-houston-comets/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa è accaduto alla domanda di marchio 'Houston Comets' presentata da Travis Scott?",
+          "options": [
+            "È stata trasferita alla WNBA",
+            "È stata approvata dalla USPTO",
+            "È stata respinta nel 2024",
+            "È stata abbandonata da TSTM Holdings nel 2026"
+          ],
+          "answer": 3,
+          "explanation": "TSTM Holdings ha rinunciato alla domanda il 29 ottobre 2026 e l'USPTO l'ha annullata il 30 ottobre 2026."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-19-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Nuovi studi italiani svelano meccanismi inattesi dei venti dei buchi neri",
+      "summary": "Due studi italiani guidati dall'Università di Roma Tor Vergata e dall'INAF hanno rilevato venti di materia provenienti da buchi neri supermassicci con velocità superiori a 60 000 km/s, cioè circa un quinto della luce. Analizzando dati X‑ray di Iras 13224‑3809, hanno misurato un'accelerazione media di 50 m/s² e hanno suggerito che i campi magnetici, in modo analogo alle espulsioni di massa coronale solare, possano guidare questi venti, il cui impatto sulle galassie avverrà su scala di milioni di anni.",
+      "context": "La scoperta evidenzia come i buchi neri possano influenzare l'evoluzione delle galassie tramite venti magneticamente accelerati, un aspetto ancora poco compreso nei modelli di feedback cosmico.",
+      "sources": [
+        {
+          "name": "INAF Media",
+          "url": "https://www.media.inaf.it/2026/11/18/paradosso-venti-buchi-neri/"
+        }
+      ],
+      "image": {
+        "url": "https://www.media.inaf.it/wp-content/uploads/2026/11/Figura1_.png",
+        "credit": "INAF Media",
+        "link": "https://www.media.inaf.it/2026/11/18/paradosso-venti-buchi-neri/"
+      },
+      "quiz": [
+        {
+          "question": "Quale meccanismo è stato proposto per spiegare l'accelerazione dei venti emessi dai buchi neri osservati negli studi italiani?",
+          "options": [
+            "Effetto Doppler",
+            "Forza di gravità",
+            "Campi magnetici",
+            "Radiazione termica"
+          ],
+          "answer": 2,
+          "explanation": "I ricercatori hanno indicato i campi magnetici come fattore chiave nell'accelerazione dei venti."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-19-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Anthropic debutta a Wall Street con una valutazione da 94 miliardi",
+      "summary": "Anthropic, azienda specializzata in intelligenza artificiale, ha avviato la quotazione delle sue azioni alla Borsa di New York. Il prezzo di debutto è stato fissato a 83 dollari per azione. Con questa operazione, la società raccoglie circa 94 miliardi di dollari, portando la sua valutazione complessiva oltre i 1.400 miliardi di dollari.",
+      "context": "L'ingresso in borsa di un leader dell'IA segna un momento cruciale per il settore tecnologico. Questa mossa offre agli investitori retail l'accesso diretto a una delle aziende più influenti nell'innovazione artificiale, influenzando le dinamiche di mercato e le aspettative di crescita futura.",
+      "sources": [
+        {
+          "name": "Repubblica Economia",
+          "url": "https://www.repubblica.it/economia/2026/11/19/news/anthropic_azioni_a_83_dollari_quotazione_a_wall_street-425733567/?rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/11/18/231258469-d7a08d3b-411c-42a4-8a40-bc15288ede44.jpg",
+        "credit": "Repubblica Economia",
+        "link": "https://www.repubblica.it/economia/2026/11/19/news/anthropic_azioni_a_83_dollari_quotazione_a_wall_street-425733567/?rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale importo ha raccolto Anthropic con la sua quotazione iniziale?",
+          "options": [
+            "1.400 miliardi di dollari",
+            "94 miliardi di dollari",
+            "108 miliardi di dollari",
+            "83 miliardi di dollari"
+          ],
+          "answer": 1,
+          "explanation": "Il materiale specifica che con il prezzo di 83 dollari per azione, la società raccoglie circa 94 miliardi di dollari."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-19-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Blade Runner 2099: la saga di Ridley Scott diventa serie TV su Prime Video",
+      "summary": "La serie Blade Runner 2099, creata da Silka Luisa, debutterà su Prime Video il 25 novembre. Ambientata cinquant'anni dopo Blade Runner 2049, la storia segue Cora, interpretata da Hunter Schafer, che assume l'identità di una Blade Runner. Per smettere di fuggire, collabora con Olwen, un Replicante interpretato da Michelle Yeoh, per catturare un fuggitivo che minaccia la stabilità della rinata Los Angeles.",
+      "context": "Il progetto estende l'universo narrativo creato da Ridley Scott, esplorando le conseguenze a lungo termine della coesistenza tra umani e replicanti. L'arrivo della serie segna un nuovo capitolo per la saga, ormai diventata un pilastro della fantascienza contemporanea.",
+      "sources": [
+        {
+          "name": "la Repubblica",
+          "url": "https://www.repubblica.it/spettacoli/tv-radio/2026/11/18/video/blade_runner_2099_la_saga_di_ridley_scott_diventa_una_serie_tv_con_michelle_yeoh_e_hunter_schafer-425732182/"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/11/18/133746584-51ebb06d-add7-46ad-9f53-e80ba0b62404.jpg",
+        "credit": "la Repubblica",
+        "link": "https://www.repubblica.it/spettacoli/tv-radio/2026/11/18/video/blade_runner_2099_la_saga_di_ridley_scott_diventa_una_serie_tv_con_michelle_yeoh_e_hunter_schafer-425732182/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è il ruolo della protagonista Cora nella serie Blade Runner 2099?",
+          "options": [
+            "È una detective umana che caccia i replicanti",
+            "È il fuggitivo che nasconde la verità sulla città",
+            "Assume l'identità di una Blade Runner per smettere di fuggire",
+            "È una scienziata che studia i replicanti"
+          ],
+          "answer": 2,
+          "explanation": "Nel materiale si specifica che Cora, una fuggitiva, assume l'ultima identità di una Blade Runner in un tentativo estremo di smettere di scappare."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-19-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Cobolli eliminato dalle ATP Finals da Tiafoe",
+      "summary": "Il 18 novembre 2026, al torneo ATP Finals di Torino, Flavio Cobolli è stato sconfitto da Frances Tiafoe per 7‑6 (6) e 6‑0 in un'ora e trentuno minuti. La sconfitta ha chiuso la sua avventura al primo turno, rendendo impossibile la qualificazione alle semifinali. Cobolli, visibilmente commosso, ha definito la partita la più triste della sua carriera, attribuendo il risultato a una preparazione limitata, a un infortunio non ancora superato e alle caratteristiche del campo.",
+      "context": "L'eliminazione di Cobolli chiude la sua stagione alle ATP Finals, dove sperava di entrare nelle semifinali e migliorare il ranking. Il risultato evidenzia le difficoltà di un giovane italiano ancora in fase di recupero.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/tennis/2026/11/18/atp-finals-cobolli-in-lacrime-e-la-partita-che-mi-rende-piu-triste-della_b686c3d1-6276-40f8-8718-be6e7d67a8b0.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/tennis/2026/11/18/atp-finals-cobolli-crolla-con-tiafoe-niente-semifinali_82feb108-152c-4516-9439-9e75841cebe1.html"
+        },
+        {
+          "name": "Sky Sport",
+          "url": "https://sport.sky.it/tennis/video/2026/11/19/cobolli-lacrime-atp-finals-conferenza-1140966"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/18/92438caa79eba6e11b228c9051670f29.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/tennis/2026/11/18/atp-finals-cobolli-in-lacrime-e-la-partita-che-mi-rende-piu-triste-della_b686c3d1-6276-40f8-8718-be6e7d67a8b0.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato il risultato della partita di Flavio Cobolli contro Frances Tiafoe alle ATP Finals di Torino?",
+          "options": [
+            "Vittoria per Cobolli 7‑6 6‑0",
+            "Sconfitta per Cobolli 6‑4 6‑3",
+            "Sconfitta per Cobolli 7‑6 6‑0",
+            "Vittoria per Cobolli 6‑4 6‑3"
+          ],
+          "answer": 2,
+          "explanation": "Cobolli ha perso 7‑6 (6) 6‑0, quindi la sconfitta è l'opzione corretta."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-19-7"
+    },
+    {
+      "category": "storia",
+      "tag": "19 novembre 1863",
+      "title": "Lincoln pronuncia il Discorso di Gettysburg",
+      "summary": "Il 19 novembre 1863, durante la cerimonia di inaugurazione del cimitero militare di Gettysburg, il presidente Abraham Lincoln ha pronunciato un breve discorso. In poche frasi, ha definito la guerra civile come una lotta per la rinascita della libertà e l'uguaglianza, richiamandosi alla Dichiarazione di Indipendenza. L'intervento, molto più corto di quello dell'oratore principale Edward Everett, ha ridefinito lo scopo della nazione americana.",
+      "context": "Il discorso ha trasformato la memoria della battaglia in un simbolo nazionale, legando la democrazia all'uguaglianza. Ha influenzato profondamente la retorica politica americana e il concetto di identità nazionale, diventando un riferimento fondamentale per i diritti civili e l'unità degli Stati Uniti.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Discorso_di_Gettysburg"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/1280px-Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale concetto centrale Lincoln ha associato alla guerra civile nel suo discorso?",
+          "options": [
+            "La divisione degli stati del Sud",
+            "La fine immediata della schiavitù",
+            "La conquista di nuovi territori",
+            "La rinascita della libertà e l'uguaglianza"
+          ],
+          "answer": 3,
+          "explanation": "Lincoln ha descritto la guerra come una lotta per la 'rinascita della libertà' che avrebbe reso tutti uguali all'interno di un'unica nazione unita."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-19-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Baldassarre Castiglione",
+      "title": "Il diplomatico che rischio la vita per aver cambiato signore",
+      "summary": "Baldassarre Castiglione, celebre umanista e diplomatico del Rinascimento, passo dal servizio dei Gonzaga di Mantova a quello del Ducato d'Urbino nel sedicesimo secolo. Questo trasferimento non fu gradito dal marchese Francesco II Gonzaga, che arrivo a compiere veri e propri tentativi di attentato contro di lui. Castiglione si salo solo grazie all'intervento protettivo dei suoi familiari e del nuovo duca.",
+      "context": "Nel Rinascimento italiano le corti erano centri di potere in forte competizione. I servigi dei cortigiani, intellettuali e militari legavano gli uomini di lettere ai principi con vincoli di fedeltà stretti, simili a un patto di vassallaggio.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Baldassarre_Castiglione"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Baldassare_Castiglione%2C_by_Raffaello_Sanzio%2C_from_C2RMF_retouched.jpg/1280px-Baldassare_Castiglione%2C_by_Raffaello_Sanzio%2C_from_C2RMF_retouched.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Baldassare_Castiglione%2C_by_Raffaello_Sanzio%2C_from_C2RMF_retouched.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Perche il marchese di Mantova tento di fare del male a Baldassarre Castiglione?",
+          "options": [
+            "Perche aveva tradito lo Stato della Chiesa",
+            "Perche aveva perso una importante battaglia militare",
+            "Perche aveva lasciato Mantova per servire il duca d'Urbino",
+            "Perche aveva scritto un libro offensivo contro la famiglia Gonzaga"
+          ],
+          "answer": 2,
+          "explanation": "Il passaggio di Castiglione al servizio della corte di Urbino irrito il marchese di Mantova, spingendolo a compiere tentativi di attentato contro di lui."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-19-9"
+    }
+  ]
+}
