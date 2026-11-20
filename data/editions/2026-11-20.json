@@ -1,0 +1,388 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T05:35:45.471Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "UK e UE concordano su nuovo programma di mobilità giovanile",
+      "summary": "Il Regno Unito e l'Unione Europea hanno concordato un nuovo schema di mobilità giovanile, previsto per venerdì al vertice di Bruxelles. Il programma consentirà a fino a 100 000 giovani dell'UE di viaggiare, studiare o lavorare nel Regno Unito all'anno, e lo stesso numero di giovani britannici potrà recarsi in Europa. Le trattative hanno incluso richieste su limiti numerici, pari trattamento delle tasse universitarie e un possibile piano d'azione congiunto sull'immigrazione.",
+      "context": "Il programma segna un passo verso una più stretta cooperazione post‑Brexit, facilitando scambi giovanili, riducendo barriere all'occupazione e potenzialmente migliorando le relazioni commerciali tra Regno Unito e UE.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/e07f/live/98894190-e498-11f1-9cd2-85bef55939bc.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quanti giovani all'anno potranno partecipare al nuovo schema di mobilità tra Regno Unito ed UE?",
+          "options": [
+            "50.000",
+            "100.000",
+            "200.000",
+            "150.000"
+          ],
+          "answer": 1,
+          "explanation": "Il testo indica un tetto di 100.000 giovani per ciascuna parte ogni anno."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-20-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Meloni convoca vertice di maggioranza su pensioni e sanità",
+      "summary": "Giorgia Meloni ha convocato un vertice in videocall con i leader di centrodestra per affrontare le coperture della manovra, con focus su sanità e rivalutazione delle pensioni. La premier ha chiesto unità e ha evitato scontri, mentre Matteo Salvini ha proposto di attingere risorse da banche, assicurazioni e gioco d'azzardo online. Il gruppo cerca ancora soluzioni per finanziare gli interventi necessari senza dividere la coalizione.",
+      "context": "La stabilità della maggioranza è cruciale per l'approvazione della legge di bilancio. La ricerca di nuove coperture fiscali, come il gioco online, segna un punto di tensione tra i partiti alleati, che devono bilanciare le proprie priorità elettorali con la coesione politica.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/19/focus-su-pensioni-e-sanita-al-vertice-di-maggioranza-meloni-chiede-basta-divisioni_f14af22e-5fa1-4851-b2a1-60f52ce6bb6e.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/1/ef073fac10466d3072db3f71800e776e.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/11/19/focus-su-pensioni-e-sanita-al-vertice-di-maggioranza-meloni-chiede-basta-divisioni_f14af22e-5fa1-4851-b2a1-60f52ce6bb6e.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale fonte di finanziamento per la manovra ha proposto Matteo Salvini?",
+          "options": [
+            "Incassi da gioco d'azzardo online e banche",
+            "Vendita di partecipazioni statali",
+            "Aumento delle tasse sul reddito",
+            "Riduzione delle spese militari"
+          ],
+          "answer": 0,
+          "explanation": "Salvini ha indicato esplicitamente il mondo delle banche, delle assicurazioni e del gioco, anche online, come possibili fonti per incassare di più."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-20-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Apple recluta ingegneri per il proprio agente AI autonomo",
+      "summary": "Apple sta cercando un ingegnere per sviluppare un assistente AI autonomo capace di navigare sul web, scrivere codice e gestire compiti multi-step tra diverse applicazioni. La mossa, emersa da un annuncio di lavoro, segna un passo avanti rispetto alla Siri potenziata di settembre, puntando a un'intelligenza che agisca in autonomia. Il nuovo sistema collaborerà con i team di Siri e dei modelli di base, integrandosi anche con l'aggiornamento iOS 27.3 per estendere le funzioni a tutte le app.",
+      "context": "La notizia posiziona Apple in diretta competizione con i grandi player del settore, come Google, OpenAI e Meta, che stanno già rilasciando agenti capaci di controllare computer e browser. È un segnale che l'azienda sta accelerando la transizione da un assistente reattivo a uno proattivo.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+        }
+      ],
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0%2C10.628272251309%2C100%2C78.743455497382&w=1200",
+        "credit": "The Verge",
+        "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la funzione principale dell'agente AI che Apple sta sviluppando?",
+          "options": [
+            "Monitorare la salute dell'utente tramite sensori biometrici",
+            "Eseguire compiti autonomi multi-step tra app, browser e codice",
+            "Generare immagini artistiche su richiesta dell'utente",
+            "Sostituire completamente l'interfaccia grafica dell'iPhone"
+          ],
+          "answer": 1,
+          "explanation": "L'annuncio di lavoro specifica che l'agente pianifica ed esegue compiti in più fasi attraverso app, browser, riga di comando e API."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-20-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Don Toliver annuncia l'album \"Nitrous\" in uscita il 4 dicembre",
+      "summary": "Il rapper texano Don Toliver ha annunciato il suo sesto album, intitolato 'Nitrous', che uscirà il 4 dicembre 2026 tramite Cactus Jack, Donnway & Co e Atlantic Records. L'album è stato interamente registrato, prodotto e mixato dallo stesso artista. La notizia è stata comunicata sui social con un video che lo mostra in un laboratorio musicale futuristico. Il disco includerà il singolo 'Party With the Boys', uscito lo scorso venerdì con video di Tyler Ross.",
+      "context": "L'uscita di 'Nitrous' segna il ritorno di Don Toliver dopo il successo di 'Octane' e le recenti nomination ai Grammy, dimostrando la sua capacità di gestire interamente la produzione. Attenzione alle date del tour e al debutto su Saturday Night Live.",
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/music/news/don-toliver-announces-sixth-album-nitrous-release-date-1236951108/"
+        }
+      ],
+      "image": {
+        "url": "https://variety.com/wp-content/uploads/2026/11/DON-TOLIVER-LEAD-PRESS-IMG.png?w=1000&h=563&crop=1",
+        "credit": "Variety",
+        "link": "https://variety.com/2026/music/news/don-toliver-announces-sixth-album-nitrous-release-date-1236951108/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la data di uscita dell'album \"Nitrous\" di Don Toliver?",
+          "options": [
+            "1 gennaio 2027",
+            "5 dicembre 2026",
+            "15 novembre 2026",
+            "4 dicembre 2026"
+          ],
+          "answer": 3,
+          "explanation": "L'album è previsto per il 4 dicembre 2026, come indicato nell'annuncio."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-20-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "ESA sceglie la missione Plasma Observatory, guidata dall'Italia",
+      "summary": "Gli stati membri dell'Agenzia spaziale europea hanno selezionato oggi la missione Plasma Observatory come prossima missione di classe media, con lancio previsto per il 2038. La missione, a leadership italiana grazie al contributo dell'Agenzia spaziale italiana e dell'Istituto nazionale di astrofisica, prevede il lancio di sette satelliti identici. Questi opereranno su un'orbita ellittica per tracciare per la prima volta come l'energia del Sole si trasferisce attraverso lo scudo magnetico terrestre su diverse scale.",
+      "context": "La missione estende le capacità della precedente Cluster, permettendo di studiare simultaneamente più scale spaziali e temporali. Questo approccio è cruciale per comprendere meglio le tempeste geomagnetiche che minacciano le infrastrutture elettriche e i satelliti, offrendo inoltre insight sulla fisica del plasma in tutto il Sistema solare.",
+      "sources": [
+        {
+          "name": "INAF Media",
+          "url": "https://www.media.inaf.it/2026/11/19/selezione-plasma-observatory/"
+        }
+      ],
+      "image": {
+        "url": "https://www.media.inaf.it/wp-content/uploads/2026/06/team-plasma-observatory-2.jpg",
+        "credit": "INAF Media",
+        "link": "https://www.media.inaf.it/2026/11/19/selezione-plasma-observatory/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo principale della missione Plasma Observatory?",
+          "options": [
+            "Tracciare il trasferimento di energia solare attraverso la magnetosfera terrestre",
+            "Mappare la superficie della Luna",
+            "Osservare la formazione di nuove galassie",
+            "Raccogliere campioni di roccia da Marte"
+          ],
+          "answer": 0,
+          "explanation": "La missione è progettata per studiare come l'energia del Sole interagisce con il campo magnetico della Terra, un aspetto che la precedente missione Cluster non poteva analizzare simultaneamente su diverse scale."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-20-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Manovra 2027: la premier striglia gli alleati, ma manca l'intesa sulle coperture",
+      "summary": "La presidente del Consiglio ha convocato un vertice con gli alleati per chiudere la manovra di bilancio 2027. Ha espresso urgenza e fermezza, alzando i toni sulla sanità e mostrando cautela sul condono edilizio. Il leader della Lega ha chiesto nuovi contributi da banche e giochi. Al termine dell'incontro non è stata raggiunta un'intesa definitiva sulle coperture finanziarie.",
+      "context": "La manovra è lo strumento chiave per definire le spese e le entrate dello Stato. Le tensioni tra i partiti di maggioranza rischiano di ritardare l'approvazione, con possibili ripercussioni sul debito pubblico e sulla stabilità economica del Paese.",
+      "sources": [
+        {
+          "name": "Repubblica Economia",
+          "url": "https://www.repubblica.it/economia/2026/11/20/news/manovra_vertice_coperture_condono-425736572/?rss"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/11/19/224228286-d704c9ff-9cd1-4ee5-94f6-e89b5f00c772.jpg",
+        "credit": "Repubblica Economia",
+        "link": "https://www.repubblica.it/economia/2026/11/20/news/manovra_vertice_coperture_condono-425736572/?rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato l'esito del vertice tra la premier e gli alleati sulla manovra 2027?",
+          "options": [
+            "Manca ancora l'intesa sulle coperture finanziarie",
+            "È stata raggiunta un'intesa definitiva sulle coperture",
+            "Le banche hanno accettato di pagare il contributo richiesto",
+            "Il condono edilizio è stato approvato all'unanimità"
+          ],
+          "answer": 0,
+          "explanation": "Il materiale specifica che, nonostante la pressione della premier, al vertice non c'è stata intesa sulle coperture."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-20-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Ficarra e Picone al cinema con \"La notte delle fragole\"",
+      "summary": "Il duo comico Ficarra e Picone torna sul grande schermo con la commedia romantica \"La notte delle fragole\", diretta da Alessandro Genovesi. La pellicola, ambientata interamente in un appartamento romano ricostruito a Cinecittà, è in programmazione dal 26 novembre in 500 sale Medusa e al Torino Film Festival. La trama segue Valentino, Elena, la figlia Carolina e l’arrivo di Salvo, ex marito di Elena, che sconvolge la vita ordinata dei protagonisti.",
+      "context": "Il film segna il ritorno di Ficarra e Picone al cinema dopo anni di successi televisivi, mostrando una loro sperimentazione in una commedia più sentimentale che potrebbe influenzare le future produzioni italiane di genere.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/19/ficarra-e-picone-la-notte-delle-fragole-e-un-ring-di-sentimenti_7e4e3e8a-86d7-4381-a27f-149fdb92a17f.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/19/abc17d499f305e02885cfff92c0aa444.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/19/ficarra-e-picone-la-notte-delle-fragole-e-un-ring-di-sentimenti_7e4e3e8a-86d7-4381-a27f-149fdb92a17f.html"
+      },
+      "quiz": [
+        {
+          "question": "Quando è iniziata la distribuzione in sala di \"La notte delle fragole\"?",
+          "options": [
+            "26 novembre 2026",
+            "15 novembre 2026",
+            "20 novembre 2026",
+            "1 dicembre 2026"
+          ],
+          "answer": 0,
+          "explanation": "La notizia indica che il film è in programmazione dal 26 novembre."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-20-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "F1 Las Vegas: Russell in testa alle prove libere sotto la pioggia",
+      "summary": "George Russell ha chiuso in testa la seconda sessione di prove libere del Gran Premio di Las Vegas, disputata su pista bagnata. Il pilota Mercedes ha preceduto Pierre Gasly e Charles Leclerc. Max Verstappen ha accusato problemi tecnici ed è arrivato tredicesimo. Oscar Piastri partirà con una penalità di dieci posizioni a causa del cambio motore.",
+      "context": "La gara è la ventunesima di ventitré stagionali. Russell e Verstappen si contendono il secondo posto in campionato. Le penalità per i cambi motore influenzeranno la griglia di partenza di domenica, alterando le strategie delle scuderie.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/c9gklmdmnzydo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Sky Sport",
+          "url": "https://sport.sky.it/formula-1/2026/11/20/prove-libere-f1-oggi-gp-las-vegas-risultati"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/f1/2026/11/20/gp-las-vegas-f1-nessun-tempo-alle-prove-libere-per-la-pioggia-intensa_2fcc9dbf-17e0-4b5d-a28a-3f43bbb4aeaf.html"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2e67/live/29186180-e4a0-11f1-a01e-f1ba573bc781.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/formula1/articles/c9gklmdmnzydo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Perché Oscar Piastri partirà con una penalità di dieci posizioni?",
+          "options": [
+            "Per un incidente nelle prove",
+            "Per una squalifica in gara",
+            "Per un problema di affidabilità",
+            "Per aver superato il limite di componenti motore"
+          ],
+          "answer": 3,
+          "explanation": "Piastri ha dovuto montare un quinto motore stagionale a causa di un guasto in Messico, superando il limite consentito di quattro unità."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-20-7"
+    },
+    {
+      "category": "storia",
+      "tag": "20 novembre 1945",
+      "title": "Inizia il Processo di Norimberga",
+      "summary": "Nel Palazzo di Giustizia di Norimberga si apre il processo contro i principali criminali di guerra nazisti della seconda guerra mondiale. I rappresentanti di Stati Uniti, Unione Sovietica, Regno Unito e Francia istituiscono il Tribunale militare internazionale per giudicare i vertici del regime accusati di crimini contro la pace, crimini di guerra e crimini contro l'umanità.",
+      "context": "Il processo di Norimberga ha cambiato la storia giuridica internazionale, introducendo per la prima volta il concetto di crimine contro l'umanità e stabilendo che l'obbedienza a ordini superiori non esime dalle responsabilità personali. Ha posto le basi per la nascita della giustizia penale internazionale moderna e dei successivi tribunali internazionali.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Processo_di_Norimberga"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Defendants_in_the_dock_at_the_Nuremberg_Trials.jpg/1280px-Defendants_in_the_dock_at_the_Nuremberg_Trials.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Defendants_in_the_dock_at_the_Nuremberg_Trials.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale tribunale ha giudicato i principali criminali di guerra nazisti a Norimberga?",
+          "options": [
+            "La Corte penale internazionale",
+            "Il Tribunale militare internazionale",
+            "La Corte suprema di Berlino",
+            "Il Consiglio di controllo alleato"
+          ],
+          "answer": 1,
+          "explanation": "Il processo principale si tenne davanti al Tribunale militare internazionale, istituito dalle potenze vincitrici."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-20-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Hans von Seeckt",
+      "title": "Il generale che odiava le scuole militari e amava la letteratura inglese",
+      "summary": "Hans von Seeckt, generale tedesco che guidò la riorganizzazione dell'esercito tra le due guerre mondiali, si distinse profondamente dai suoi coetanei prussiani. A differenza della quasi totalità degli ufficiali del suo tempo, non frequentò una scuola per cadetti, ma studiò in un ginnasio civile e coltivò una vasta cultura letteraria, leggendo autori inglesi e viaggiando molto prima di intraprendere la carriera militare.",
+      "context": "Negli anni della Repubblica di Weimar, la Germania cercò di aggirare le rigide restrizioni del trattato di Versailles sull'esercito. Figure come von Seeckt posero le basi dottrinali per una forza armata moderna, efficiente e altamente professionale, che avrebbe poi influenzato le campagne della seconda guerra mondiale.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Hans_von_Seeckt"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/General_von_Seeckt.jpg/1280px-General_von_Seeckt.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:General_von_Seeckt.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale percorso di studi ha seguito Hans von Seeckt prima di arruolarsi?",
+          "options": [
+            "Nessun percorso scolastico formale",
+            "Una scuola navale internazionale",
+            "Un ginnasio civile, a differenza dei suoi coetanei",
+            "Un tradizionale collegio militare prussiano"
+          ],
+          "answer": 2,
+          "explanation": "A differenza della maggior parte dei suoi coetanei destinati alla carriera militare, von Seeckt frequentò un ginnasio civile anziché una scuola per cadetti."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-20-9"
+    }
+  ]
+}
