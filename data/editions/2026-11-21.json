@@ -1,0 +1,408 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T05:34:02.780Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Scandalo Nvidia: il 'profeta' inascoltato e le polemiche sul colosso tech",
+      "summary": "L'investitore Chris Lamarco, tramite la sua Culper Research, ha pubblicato a maggio 2026 un rapporto accusando la Nvidia di traffico illegale di processori in Cina nonostante i divieti USA. Lamarco sosteneva che il 20% del fatturato derivasse da Pechino tramite intermediari asiatici, citando il ruolo di Alice Huang, manager sospettata di spionaggio e amante di Jensen Huang. Le sue allerte, ignorate all'epoca, sono tornate centrali dopo l'ammissione della relazione da parte di Huang a novembre, nel contesto di uno scandalo che coinvolge l'amministrazione Trump.",
+      "context": "Il caso evidenzia i rischi degli short seller, spesso ignorati prima che le accuse si rivelino vere. Collega la geopolitica dei semiconduttori alle dinamiche interne di Nvidia, mostrando come le violazioni delle sanzioni possano nascondersi dietro reti complesse. Osservare come la finanza reagisce a queste rivelazioni è cruciale per capire la fiducia nel mercato tech.",
+      "sources": [
+        {
+          "name": "Internazionale",
+          "url": "https://www.internazionale.it/notizie/alessandro-lubello/2026/11/21/nvidia-chris-lamarco"
+        }
+      ],
+      "image": {
+        "url": "https://media.internazionale.it/images/2026/11/18/364103-hd.jpg",
+        "credit": "Internazionale",
+        "link": "https://www.internazionale.it/notizie/alessandro-lubello/2026/11/21/nvidia-chris-lamarco"
+      },
+      "quiz": [
+        {
+          "question": "Quale motivo principale ha portato Chris Lamarco a vendere allo scoperto le azioni Nvidia nel maggio 2026?",
+          "options": [
+            "Le difficoltà finanziarie dichiarate dall'azienda",
+            "La perdita di contratti con i grandi cloud provider",
+            "La previsione di un calo generale del mercato tecnologico",
+            "Il sospetto di traffici illegali di processori in Cina"
+          ],
+          "answer": 3,
+          "explanation": "Lamarco ha accusato Nvidia di continuare a generare fatturato in Cina tramite traffico illegale, violando le restrizioni statunitensi."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-21-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Sciopero generale e cortei contro la manovra: più di un milione in piazza",
+      "summary": "In Italia si è svolto uno sciopero generale indetto dalla Cgil contro la manovra economica del governo Meloni. Il leader sindacale Maurizio Landini ha dichiarato che oltre un milione di persone hanno partecipato ai cortei in più di cento città, con oltre 50mila manifestanti a Roma. La protesta contesta la legge di Bilancio, chiedendo aumenti di stipendi e pensioni, più risorse per la sanità pubblica e un fisco progressivo. Il governo ha contestato i dati di adesione, parlando di un'astensione inferiore al 12% nel pubblico impiego.",
+      "context": "La mobilitazione si inserisce in un ciclo di cinque scioperi consecutivi contro le politiche economiche del governo. Il disaccordo riguarda l'impatto della manovra sui salari e sui servizi pubblici. La tensione è alta, con scontri a Bologna tra collettivi studenteschi e forze dell'ordine, mentre la Cgil minaccia presidi al Parlamento se la legge non verrà modificata.",
+      "sources": [
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUmM0U2F3VjZiNl9uOENWLXpJcFJxM2pDQ0YtWWVBbFhDMkNTNkEtVHRES1RwTFdpVUZSOGxQU1BocC1UYk9aaElQdUM4WnNtUHk3ajFfQ0RwLXhkT3FVTjhMWHdSWXdIcldKX0wwcVgwVm1QWUZUTHFLZXVZVVk1MTRDV3lGWDlGcEpNWWlpZlBqMHlTQ1BRVkpPLXNJaThuQWUxMEtOaFdlbm1JMmdjTUYwOUJKMFg5TTRzZ3I3ZFpGMTNmS1pvbHNaWTU5UV9MQlVieDNzNGc2emY4MFU2N1F1U012SnFqaWtIemMtTdIB9AFBVV95cUxOVDhzRmdVbWctenBNUmV4REtlTmNBcFBjS1kzTXF1SnlTNDJ4MHFtb1FwMUMwcGtlZzBBbThCc3pFUkZlY18wWjFQWV9ZOEhmU3JCWkt6eFhnY2swalhYY1YtMktuMVpmcEtHblFXcjN4bGhab0ZvRTBJcVhybVBQNHp0SzNBbmRkM0tzeU1QT1R2VDRFNzBIYVpQNzdZZ25ENG1td1JTTGhUQnhuc1k2Y09QZ1BHZXEzcHpqVWx6LVJRSUVmTjF2QVh5ZU5GWkVwazF5aG5YMS1ybkcyUWpydzZIbFd4ZzRZMjhIRzVPTHd6T0t2?oc=5"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/20/cgil-in-100-piazze-siamo-un-milione-e-mezzo-il-governo-confuso_86e7ce84-b2a8-45ce-9c08-87380ca1759d.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbTkxaU5kdkotakwyaU9XRl9lUGNDbGtVeWFuZll2TGxDTTA5SVpJYWZ5Y0lQdnNjYWlXQ281OUljSFpVRlVjU1NFM0hJckVyLUdiZUgzVVkwcEh0a2JqU0VmZTQ1VEpWdUpKaXZiMzc0MnFyT0NoZTVtVW0zUGZDQndFQ1RTajZZc0g2R01sdjA?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/20/e08418c06f547ecd12cb3f56f6086bf6.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/cronaca/2026/11/20/cgil-in-100-piazze-siamo-un-milione-e-mezzo-il-governo-confuso_86e7ce84-b2a8-45ce-9c08-87380ca1759d.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la principale richiesta della Cgil durante lo sciopero?",
+          "options": [
+            "Il blocco immediato delle importazioni dall'estero",
+            "La riduzione delle tasse per le imprese",
+            "Aumenti di stipendi e pensioni e più risorse per la sanità",
+            "L'abolizione del diritto di sciopero"
+          ],
+          "answer": 2,
+          "explanation": "La Cgil ha chiesto esplicitamente stipendi e pensioni più alti, un fisco progressivo e risorse per la sanità pubblica, definendo queste rivendicazioni fondamentali."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-21-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Google cambia la homepage di Search: cronologia chat IA e nessun pulsante di ricerca",
+      "summary": "Google ha lanciato una nuova versione della homepage di ricerca per desktop, rendendo visibili subito le funzioni di intelligenza artificiale. Sotto la barra di ricerca sono presenti pulsanti per generare immagini, analizzare file e avviare una conversazione con Gemini, mentre il pulsante “Google Search” è stato rimosso. La cronologia delle chat IA è ora integrata nella pagina.",
+      "context": "La modifica segna un ulteriore passo di Google verso un motore di ricerca basato sull’IA, riducendo elementi tradizionali per favorire interazioni rapide con gli assistenti virtuali.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
+        },
+        {
+          "name": "The Seattle Times",
+          "url": "https://www.seattletimes.com/business/google-is-disrupting-itself-with-its-embrace-of-artificial-intelligence/"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Google_Search_screenshot_in_2026_%28EN%29.png/1280px-Google_Search_screenshot_in_2026_%28EN%29.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Google_Search_screenshot_in_2026_(EN).png"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale novità della nuova homepage di Google Search?",
+          "options": [
+            "Integrazione della cronologia delle chat IA e rimozione del pulsante di ricerca",
+            "Eliminazione della barra di ricerca",
+            "Aggiunta di un pulsante “Google Search” più grande",
+            "Introduzione di un nuovo layout a tre colonne"
+          ],
+          "answer": 0,
+          "explanation": "La pagina ora mostra la cronologia delle chat IA e il pulsante di ricerca è stato eliminato."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-21-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Danimarca: arrestati due uomini e espulso un diplomatico russo per complotto contro rapper ucraino",
+      "summary": "Le autorità danesi hanno arrestato due uomini e hanno espulso l’attaccante della difesa russo dopo averli collegati a un complotto per uccidere il rapper italo‑ucraino con doppia cittadinanza, Kyivstoner. L’attacco, previsto per un concerto a nord di Copenaghen il 25 settembre, è stato sventato quando la polizia ha trovato pistole e coltelli. Il ministro degli Esteri Lars Lokke Rasmussen ha definito l’azione una grave violazione.",
+      "context": "Il caso indica una possibile operazione di intelligence russa sul suolo europeo, in linea con le accuse di attività ibrida dopo l’invasione dell’Ucraina. La risposta diplomatica della Danimarca segnala un avvertimento a Mosca.",
+      "sources": [
+        {
+          "name": "UPI on MSN",
+          "url": "https://www.msn.com/en-us/news/other/denmark-arrests-2-expels-russian-diplomat-in-plot-to-kill-ukrainian-rapper/ar-AA2hSC5E"
+        },
+        {
+          "name": "The Wall Street Journal",
+          "url": "https://www.wsj.com/world/europe/denmark-accuses-russia-of-trying-to-kill-ukrainian-rapper-a3a5e34c"
+        },
+        {
+          "name": "NewsNation",
+          "url": "https://www.newsnationnow.com/world/russia-at-war/russia-kyivstoner-rapper-assassination-plot-stopped-denmark-says/"
+        }
+      ],
+      "image": {
+        "url": "https://www.newsnationnow.com/wp-content/uploads/sites/108/2026/11/kyivstoner.jpg?w=1280",
+        "credit": "NewsNation",
+        "link": "https://www.newsnationnow.com/world/russia-at-war/russia-kyivstoner-rapper-assassination-plot-stopped-denmark-says/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la risposta del governo danese al complotto di assassinio?",
+          "options": [
+            "Ha arrestato due uomini e ha espulso un diplomatico russo",
+            "Ha ignorato il caso",
+            "Ha chiuso l'ambasciata russa",
+            "Ha imposto sanzioni economiche"
+          ],
+          "answer": 0,
+          "explanation": "Il governo ha arrestato i due sospetti e ha espulso l’attaccante della difesa russo, come indicato nella notizia."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-21-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Voyager 1 a un giorno luce dalla Terra",
+      "summary": "Il 18 novembre 2026, la sonda Voyager 1 ha raggiunto la distanza di un giorno luce dalla Terra, pari a circa 25,9 miliardi di chilometri. Dopo 49 anni di viaggio, il segnale radio impiega 24 ore per arrivare al veicolo e altre 24 ore per tornare, rendendo ogni scambio di dati due giorni interi.",
+      "context": "Il record dimostra la capacità di Voyager 1 di viaggiare oltre il confine del Sistema solare, fornendo dati sull’ambiente interstellare e ponendo sfide operative per le comunicazioni a distanze così estreme.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm"
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/nasa-voyager-spacecraft-radio-signal.webp",
+        "credit": "ScienceDaily",
+        "link": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm"
+      },
+      "quiz": [
+        {
+          "question": "Quanto tempo impiega la luce per raggiungere Voyager 1 dopo il record del 18 novembre 2026?",
+          "options": [
+            "Una settimana",
+            "12 ore",
+            "24 ore",
+            "48 ore"
+          ],
+          "answer": 2,
+          "explanation": "Il segnale impiega 24 ore perché la sonda è a una distanza di un giorno luce dalla Terra."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-21-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Confindustria: crescita ferma e inflazione in aumento, si salva solo il turismo",
+      "summary": "Il Centro studi di Confindustria ha pubblicato un rapporto che segnala una stagnazione della crescita economica italiana. I costi elevati di petrolio e gas stanno frenando l'industria e i consumi delle famiglie. L'unico settore che mostra segnali positivi è il turismo, che riesce a reggere la pressione inflattiva e la debolezza della domanda interna.",
+      "context": "La situazione evidenzia un rischio di stagnazione per l'economia italiana. L'aumento dei costi energetici erode i margini delle imprese e il potere d'acquisto dei cittadini, rendendo il turismo un pilastro cruciale per evitare un calo più ampio dell'attività economica.",
+      "sources": [
+        {
+          "name": "la Repubblica",
+          "url": "https://www.repubblica.it/economia/2026/11/19/news/congiuntura_flash_confindustria_novembre_pil_inflazione_consum-425734830/"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/11/19/115820002-9a3c46f5-e438-4234-a0f2-e39d8781cc69.jpg",
+        "credit": "la Repubblica",
+        "link": "https://www.repubblica.it/economia/2026/11/19/news/congiuntura_flash_confindustria_novembre_pil_inflazione_consum-425734830/"
+      },
+      "quiz": [
+        {
+          "question": "Secondo il rapporto di Confindustria, quale settore dell'economia italiana sta resistendo meglio alla crisi?",
+          "options": [
+            "I consumi delle famiglie",
+            "Il settore turistico",
+            "L'industria manifatturiera",
+            "L'agricoltura"
+          ],
+          "answer": 1,
+          "explanation": "Il testo specifica che, mentre industria e consumi faticano a causa dei costi energetici, il turismo è l'unico settore che si salva."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-21-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Depardieu e Houellebecq indagati per stupro sul set",
+      "summary": "La polizia francese indaga Gérard Depardieu e Michel Houellebecq per presunti stupri e aggressioni commessi nel dicembre 2018 durante le riprese del film Thalasso. Una compagna di set, identificata con lo pseudonimo Alexandra, ha denunciato di essere stata immobilizzata e violentata dai due mentre le telecamere giravano. Anche il regista Guillaume Nicloux è accusato di complicità. Depardieu, già condannato per altri abusi, ha ritirato l'appello contro la sentenza del 2025.",
+      "context": "Il caso segna un nuovo capitolo nel movimento #MeToo in Francia, dopo la storica condanna di Depardieu. L'indagine evidenzia le dinamiche di potere e le violenze sistemiche nell'industria cinematografica, sollevando interrogativi sulla responsabilità dei registi e sulla tutela delle vittime sul set.",
+      "sources": [
+        {
+          "name": "The Guardian Film",
+          "url": "https://www.theguardian.com/film/2026/nov/20/gerard-depardieu-michel-houellebecq-investigated-allegations"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/5c3066330bc9c281dfef1ddc318e76b9397de16d/1501_0_2999_2400/master/2999.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7ca18ae71054a775ebf160949f7e2c7d",
+        "credit": "The Guardian Film",
+        "link": "https://www.theguardian.com/film/2026/nov/20/gerard-depardieu-michel-houellebecq-investigated-allegations"
+      },
+      "quiz": [
+        {
+          "question": "Quando si sarebbero verificati i fatti oggetto dell'indagine?",
+          "options": [
+            "Nel 2021, durante le riprese di Les Volets Verts",
+            "Nel 2025, al momento della denuncia",
+            "Nel dicembre 2018, durante le riprese di Thalasso",
+            "Nel 2019, durante la promozione del film"
+          ],
+          "answer": 2,
+          "explanation": "Le fonti indicano che l'aggressione denunciata è avvenuta nel dicembre 2018, durante le riprese del film Thalasso."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-21-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "GP Las Vegas: Antonelli il più veloce ma la pole va a Verstappen",
+      "summary": "Nelle qualifiche del Gran Premio di Las Vegas di Formula 1, il pilota della Mercedes Kimi Antonelli ha ottenuto il tempo più veloce sfruttando la scia. Tuttavia, a causa di una penalità in griglia di cinque posizioni per aver superato il limite di componenti del motore, partirà sesto. La pole position ufficiale passa così a Max Verstappen, mentre il compagno di squadra di Antonelli, George Russell, partirà in prima fila accanto all'olandese.",
+      "context": "Le penalità per la sostituzione dei componenti del motore incidono regolarmente sulle griglie di partenza della Formula 1. Sfruttare la scia sul lungo rettifilo di Las Vegas è fondamentale per guadagnare velocità, ma richiede una gestione precisa dei tempi in qualifica.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/cqlyj4yg366wo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Sky Sport",
+          "url": "https://sport.sky.it/formula-1/2026/11/21/verstappen-investigato-episodi-russell-colapinto-libere-gp-las-vegas"
+        },
+        {
+          "name": "Sky Sport",
+          "url": "https://sport.sky.it/formula-1/2026/11/21/f1-gp-las-vegas-2026-qualifiche-piloti-eliminati"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/f05e/live/fd064790-e569-11f1-995c-a7e93706c082.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/formula1/articles/cqlyj4yg366wo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Perché Kimi Antonelli non partirà in pole position nonostante il miglior tempo in qualifica?",
+          "options": [
+            "Perché è stato penalizzato per aver ostacolato un avversario",
+            "Per un'infrazione commessa durante le prove libere con George Russell",
+            "Per un errore commesso nel superare il traguardo prima della bandiera a scacchi",
+            "A causa di una penalità in griglia per aver usato troppi componenti del motore"
+          ],
+          "answer": 3,
+          "explanation": "Antonelli ha ricevuto una penalità di cinque posizioni in griglia per aver superato il numero consentito di componenti del motore."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-21-7"
+    },
+    {
+      "category": "storia",
+      "tag": "21 novembre 1995",
+      "title": "Firma dell'Accordo di Dayton",
+      "summary": "Il 21 novembre 1995 a Dayton, Ohio, venne firmato l'Accordo di Dayton, che pose fine alla guerra in Bosnia ed Erzegovina. Le parti serba, croata e bosniaca accettarono la pace e la costituzione di uno Stato unico suddiviso in due entità: la Repubblica Serba e la Federazione croato‑bosniaca. L'accordo entrò in vigore il 14 dicembre 1995.",
+      "context": "L'accordo chiuse il conflitto più sanguinoso delle guerre jugoslave, creando una Bosnia ed Erzegovina sovrana ma divisa in due entità etniche, un assetto che ha semplificato la pace ma ha lasciato una struttura politica complessa e tensioni persistenti.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Accordo_di_Dayton"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/DaytonAgreement.jpg/1280px-DaytonAgreement.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:DaytonAgreement.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale fu la principale conseguenza dell'Accordo di Dayton firmato il 21 novembre 1995?",
+          "options": [
+            "Creazione di due entità interne alla Bosnia ed Erzegovina",
+            "Unificazione della Bosnia con la Serbia",
+            "Creazione di una zona demilitarizzata in Kosovo",
+            "Indipendenza della Croazia"
+          ],
+          "answer": 0,
+          "explanation": "L'accordo istituì la Bosnia ed Erzegovina come Stato unico suddiviso in due entità: la Repubblica Serba e la Federazione croato‑bosniaca."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-21-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "La zattera della Medusa",
+      "title": "Il modello della zattera costruito da Géricault",
+      "summary": "Per dipingere 'La zattera della Medusa', Théodore Géricault ha costruito un modellino in scala della zattera di fortuna. L'artista ha lavorato a fianco dei sopravvissuti e del falegname della nave originale per replicare fedelmente le dimensioni e la struttura dell'imbarcazione. Questo approccio meticoloso gli ha permesso di studiare la luce e le pose dei corpi in modo realistico, creando un'opera che ha segnato la rottura con il Neoclassicismo e l'avvento del Romanticismo in pittura.",
+      "context": "Il naufragio della fregata Méduse nel 1816 fu uno scandalo politico in Francia, dovuto alla negligenza del comandante. Géricault scelse questo tema per lanciare la sua carriera. Il dipinto, esposto al Salon del 1819, fu inizialmente criticato ma poi riconosciuto come un capolavoro che influenzò artisti come Delacroix e Manet.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/La_zattera_della_Medusa"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/1280px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre%2C_1818-19).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Come ha preparato Géricault la scena della zattera per il suo dipinto?",
+          "options": [
+            "Ha costruito un modellino in scala con i sopravvissuti",
+            "Ha visitato l'obitorio per studiare i morti",
+            "Ha dipinto direttamente sul luogo del naufragio",
+            "Ha navigato sulla fregata Méduse prima del naufragio"
+          ],
+          "answer": 0,
+          "explanation": "Géricault ha costruito un modello dettagliato della zattera insieme ai sopravvissuti e al falegname originale per garantire accuratezza storica e visiva."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-21-9"
+    }
+  ]
+}
