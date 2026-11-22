@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T05:33:29.601Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Attacco a nave russa nel Golfo di Finlandia",
+      "summary": "Sabato mattina, la nave cargo russa Sparta II è stata colpita da droni nel Golfo di Finlandia, a circa 50 chilometri a ovest dell'isola di Suursaari. Il mercantile, in rotta da San Pietroburgo verso Kaliningrad, ha preso fuoco ed è entrato nelle acque finlandesi. Helsinki attribuisce l'attacco con alta probabilità all'Ucraina, mentre Kiev non ha ancora commentato. L'incidente ha causato restrizioni temporanee al traffico aereo e marittimo nella zona.",
+      "context": "L'episodio segnala l'estensione del conflitto ucraino-russo alle acque baltiche, avvicinando le ostilità ai confini della Finlandia, membro della NATO. La tensione nel Mar Baltico aumenta le preoccupazioni per la sicurezza regionale e la stabilità delle rotte commerciali nel nord Europa.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/maratona/2026/11/guerra-russia-ucraina-il-fronte-dei-mari-mosca-e-kiev-attaccano-le-navi-cargo-maratona-bbb11997-543b-4be3-9692-448b9e84a742.html"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/21/alta-tensione-nel-mar-baltico-colpita-una-nave-cargo-russa-_6c554c1c-64b6-45fd-915b-a300479d2bbc.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/22/1795307161002_DDZR.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/maratona/2026/11/guerra-russia-ucraina-il-fronte-dei-mari-mosca-e-kiev-attaccano-le-navi-cargo-maratona-bbb11997-543b-4be3-9692-448b9e84a742.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale autorità ha attribuito con alta probabilità l'attacco alla nave Sparta II all'Ucraina?",
+          "options": [
+            "Le autorità ucraine",
+            "Le autorità finlandesi",
+            "Le autorità russe",
+            "Le autorità statunitensi"
+          ],
+          "answer": 1,
+          "explanation": "Le autorità di difesa finlandesi hanno dichiarato che è probabile che l'Ucraina sia dietro l'attacco, mentre Kiev non ha ancora commentato ufficialmente."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-22-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Fdi propone sospensione borse di studio per indagati in manifestazioni",
+      "summary": "Il deputato di Fratelli d'Italia Andrea Delmastro ha proposto emendamenti al decreto sicurezza. La norma prevede la sospensione delle borse di studio per studenti indagati per reati commessi in manifestazioni, fino alla conclusione del processo. In caso di condanna, il beneficio viene revocato. Sono previste anche responsabilità solidali per gli organizzatori di occupazioni scolastiche e la possibilità di marcare i manifestanti violenti con vernice colorata.",
+      "context": "La proposta inquadra il dissenso giovanile come una questione di ordine pubblico da reprimere, generando forti polemiche tra le opposizioni. Si tratta di un tentativo di estendere le restrizioni ai diritti economici degli studenti, collegando la sfera accademica a quella penale in modo diretto.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/21/stretta-di-fdi-su-studenti-e-cortei-agli-indagati-via-le-borse-di-studio_f2ff1955-8465-47a7-a924-b8ab597b2323.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/17/006cd89e6d87d4d9c1e04ca7cf17473e.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/11/21/stretta-di-fdi-su-studenti-e-cortei-agli-indagati-via-le-borse-di-studio_f2ff1955-8465-47a7-a924-b8ab597b2323.html"
+      },
+      "quiz": [
+        {
+          "question": "In quale fase del procedimento penale viene sospesa la borsa di studio secondo la proposta di Fdi?",
+          "options": [
+            "Durante le indagini preliminari",
+            "Solo dopo la condanna definitiva",
+            "Solo se lo studente è già stato arrestato",
+            "Dopo la sentenza di primo grado"
+          ],
+          "answer": 0,
+          "explanation": "La proposta prevede la sospensione del beneficio se lo studente è sottoposto a indagini preliminari, indipendentemente dall'esito finale del processo."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-22-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Tesla ottiene l'approvazione per la guida assistita in Italia",
+      "summary": "Il Ministero dei Trasporti italiano ha autorizzato l'uso di Tesla Assisted Driving, un sistema di guida assistita basato sull'intelligenza artificiale. La decisione, presa dopo verifiche tecniche di fattibilità, rende l'Italia il primo grande Paese europeo ad approvare la tecnologia, anticipando il processo di riconoscimento comunitario ancora in fase di definizione. Il ministro Matteo Salvini ha definito la mossa un passo verso la mobilità del futuro.",
+      "context": "L'approvazione nazionale precede la normativa europea, che è ancora in fase di definizione. Questo evento segna un precedente significativo per l'adozione di tecnologie di guida autonoma in Europa e mette in luce il ruolo regolatorio dei singoli Stati membri prima dell'armonizzazione comunitaria.",
+      "sources": [
+        {
+          "name": "HuffPost Italia",
+          "url": "https://www.huffingtonpost.it/economia/2026/11/20/news/tesla_ottiene_lok_alla_guida_assistita_in_italia_prima_dellok_ue_salvini_verso_la_mobilita_del_futuro-23288670/"
+        }
+      ],
+      "image": {
+        "url": "https://www.gedistatic.it/content/gedi/img/huffingtonpost/2026/11/20/135317888-35e238be-0cae-4166-af25-ae2c95550a1b.jpg",
+        "credit": "HuffPost Italia",
+        "link": "https://www.huffingtonpost.it/economia/2026/11/20/news/tesla_ottiene_lok_alla_guida_assistita_in_italia_prima_dellok_ue_salvini_verso_la_mobilita_del_futuro-23288670/"
+      },
+      "quiz": [
+        {
+          "question": "Perché l'Italia ha approvato la guida assistita di Tesla prima dell'Unione Europea?",
+          "options": [
+            "Perché l'Unione Europea ha vietato l'uso di questa tecnologia in altri Paesi.",
+            "Perché il governo italiano ha agito in autonomia, anticipando la normativa comunitaria ancora in fase di definizione.",
+            "Perché Tesla ha chiesto un'approvazione esclusiva solo per il mercato italiano.",
+            "Perché la tecnologia non è stata ancora testata a livello europeo."
+          ],
+          "answer": 1,
+          "explanation": "Il testo specifica che il via libera italiano anticipa il processo di riconoscimento comunitario, che è attualmente in fase di definizione."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-22-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Doja Cat accusa Rockstar Games per l'esclusione della sua musica da GTA 6",
+      "summary": "La cantante Doja Cat ha espresso su X il suo forte disappunto per l'esclusione della sua musica dal videogioco Grand Theft Auto VI, uscito nei giorni scorsi. La rapper ha criticato apertamente la software house Rockstar Games nei messaggi pubblicati online, lamentando di non essere stata inclusa nella colonna sonora del titolo, che vede la partecipazione di numerosi altri artisti famosi.",
+      "context": "Le colonne sonore di Grand Theft Auto sono elementi centrali della cultura pop e vetrine ambite per gli artisti musicali. Nonostante l'esclusione al lancio, in passato Rockstar Games ha spesso aggiunto nuovi brani e stazioni radio tramite aggiornamenti successivi.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/doja-cat-slams-rockstar-games-grand-theft-auto-6-music-1236385746/"
+        },
+        {
+          "name": "HipHopWired",
+          "url": "https://hiphopwired.com/3069599/doja-cat-salty-over-exclusion-from-gta-6/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/06/2274527236-e1782310914377.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/doja-cat-slams-rockstar-games-grand-theft-auto-6-music-1236385746/"
+      },
+      "quiz": [
+        {
+          "question": "Perché Doja Cat ha criticato Rockstar Games?",
+          "options": [
+            "Perché il videogioco è uscito con troppo ritardo",
+            "Perché il suo concerto nel gioco è stato cancellato",
+            "Perché la sua musica è stata esclusa da Grand Theft Auto VI",
+            "Perché i server del gioco non funzionavano"
+          ],
+          "answer": 2,
+          "explanation": "Doja Cat si è detta amareggiata sui social media perché i suoi brani non sono stati inclusi nella colonna sonora di Grand Theft Auto VI."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-22-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Coltivare patate sulla Luna",
+      "summary": "Un gruppo di ricerca dell'Universita dell'Oregon ha dimostrato che e possibile coltivare patate nel terreno lunare simulato, arricchendolo con materia organica come il vermicompost. La regolite della Luna e infatti povera di sostanze nutritive e ostile alle piante. Aggiungendo questo fertilizzante naturale, i ricercatori sono riusciti a ottenere tuberi con dimensioni e rese paragonabili a quelle delle coltivazioni terrestri, un passo avanti per l'alimentazione degli astronauti nelle future missioni spaziali.",
+      "context": "Produrre cibo nello spazio riduce la dipendenza dai costosi rifornimenti dalla Terra. Lo studio, sostenuto dalla Nasa, affronta una delle maggiori sfide per la presenza umana stabile sulla Luna e per le future missioni verso Marte.",
+      "sources": [
+        {
+          "name": "INAF Media",
+          "url": "https://www.media.inaf.it/2026/11/20/patate-coltivate-nella-regolite-lunare/"
+        }
+      ],
+      "image": {
+        "url": "https://www.media.inaf.it/wp-content/uploads/2026/11/55258362670_afecaa97a7_c-1.jpg",
+        "credit": "INAF Media",
+        "link": "https://www.media.inaf.it/2026/11/20/patate-coltivate-nella-regolite-lunare/"
+      },
+      "quiz": [
+        {
+          "question": "Come hanno reso coltivabile la regolite lunare simulata i ricercatori?",
+          "options": [
+            "Eliminando tutti i metalli pesanti",
+            "Arricchendola con vermicompost",
+            "Aggiungendo acqua distillata",
+            "Riscaldandola con speciali lampade"
+          ],
+          "answer": 1,
+          "explanation": "I ricercatori hanno aggiunto vermicompost, un fertilizzante naturale ricco di nutrienti, per superare la mancanza di materia organica nel terreno lunare simulato."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-22-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Nasdaq perde tutti i guadagni del 2026 dopo il crollo dei titoli AI",
+      "summary": "Il Nasdaq Composite ha cancellato tutti i guadagni accumulati nel 2026, chiudendo in calo del 5% rispetto al valore di inizio anno. Il crollo è stato guidato dal sell-off globale di titoli legati all'intelligenza artificiale, nonostante il record dell'offerta pubblica iniziale di Anthropic. Le azioni di Anthropic, dietro il chatbot Claude, sono scese del 9% venerdì, avvicinandosi al prezzo di lancio. Anche Nvidia e altri produttori di chip hanno registrato forti perdite, spingendo i mercati asiatici ed europei verso i minimi storici.",
+      "context": "L'evento segnala una forte correzione nel settore tecnologico, dove l'euforia iniziale per l'IA si scontra con la realtà dei mercati. La volatilità impatta non solo i singoli titoli, ma l'intero ecosistema dei semiconduttori e degli investimenti globali, richiedendo una rivalutazione delle strategie di portafoglio.",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+        },
+        {
+          "name": "Money.it",
+          "url": "https://www.money.it/cosa-succede-a-un-portafoglio-quando-crollano-i-titoli-ai-gli-strumenti-alternativi-che-possono-fare-la-differenza"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0",
+        "credit": "The Guardian Business",
+        "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+      },
+      "quiz": [
+        {
+          "question": "Cosa è successo al Nasdaq Composite venerdì scorso?",
+          "options": [
+            "Ha cancellato tutti i guadagni del 2026",
+            "Ha registrato un guadagno del 5%",
+            "Ha raggiunto un nuovo massimo storico",
+            "È rimasto stabile rispetto a inizio anno"
+          ],
+          "answer": 0,
+          "explanation": "Il testo specifica che il Nasdaq ha cancellato tutti i guadagni del 2026, chiudendo in calo del 5% rispetto al valore del 1 gennaio."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-22-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Brad Pitt torna Cliff Booth nel sequel di Tarantino diretto da Fincher",
+      "summary": "Brad Pitt riprende il ruolo di Cliff Booth in 'Le nuove disavventure di Cliff Booth', sequel di 'C'era una volta a... Hollywood'. Scritto da Quentin Tarantino e diretto da David Fincher, il film è ambientato a Los Angeles nel 1977. Booth, ora un risolvente di problemi illegali, aiuta un attore coinvolto in una vicenda criminale violenta. Il film esce nelle sale il 26 novembre 2026 e su Netflix il 23 dicembre.",
+      "context": "La pellicola unisce la scrittura dialogica di Tarantino alla regia noir di Fincher, esplorando l'evoluzione del personaggio creato nel film premiato con l'Oscar. Il progetto segna un'inedita collaborazione tra i due registi e introduce un tono più cupo e violento rispetto al capitolo precedente.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/21/brad-pitt-torna-cliff-booth-luomo-senza-morale-di-tarantino_ef4322ec-4600-4d49-b372-a87d38135e27.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/21/8424e97483446f9e8504dba98cf6e121.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/21/brad-pitt-torna-cliff-booth-luomo-senza-morale-di-tarantino_ef4322ec-4600-4d49-b372-a87d38135e27.html"
+      },
+      "quiz": [
+        {
+          "question": "Chi dirige il nuovo film 'Le nuove disavventure di Cliff Booth'?",
+          "options": [
+            "Martin Scorsese",
+            "Quentin Tarantino",
+            "David Fincher",
+            "Leonardo DiCaprio"
+          ],
+          "answer": 2,
+          "explanation": "Il film è diretto da David Fincher, mentre la sceneggiatura è di Quentin Tarantino."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-22-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Tennis, ATP Finals: Alcaraz e Zverev si contendono il titolo a Torino",
+      "summary": "Alle ATP Finals di Torino, Carlos Alcaraz ha sconfitto Ben Shelton in tre set guadagnandosi l'accesso alla finale. Nell'atto conclusivo del torneo, lo spagnolo affronterà Alexander Zverev, che ha superato in semifinale Daniil Medvedev senza perdere un set. Per Alcaraz si tratta di un importante progresso sui campi indoor, storicamente ostici per via delle condizioni veloci che esaltano i grandi battitori.",
+      "context": "Le ATP Finals chiudono la stagione del tennis maschile riunendo i migliori otto giocatori dell'anno. La sfida tra Alcaraz e Zverev mette di fronte due dei protagonisti assoluti del circuito, offrendo indicazioni importanti in vista dei prossimi appuntamenti del grande slam.",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/21/carlos-alcaraz-holds-off-ben-shelton-to-book-his-place-in-the-atp-finals"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/tennis/2026/11/21/atp-finals-zverev-per-come-sta-giocando-alcaraz-e-forse-il-piu_d0839cd0-3026-4c50-bd1e-5765ee504016.html"
+        },
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/tennis/2026/11/21/atp-finals-medvedev-finale-interessante-alcaraz-sa-rispondere-bene_d591accc-b383-4661-a16f-0f692d741575.html"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/e9b9d23305a7d630fb0ca7f3b4264b90894b6fa4/511_0_5112_4089/master/5112.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=edf0e0b5327cc33e29f179121022e6b3",
+        "credit": "The Guardian Sport",
+        "link": "https://www.theguardian.com/sport/2026/nov/21/carlos-alcaraz-holds-off-ben-shelton-to-book-his-place-in-the-atp-finals"
+      },
+      "quiz": [
+        {
+          "question": "Chi si sfiderà nella finale del torneo di Torino?",
+          "options": [
+            "Ben Shelton e Daniil Medvedev",
+            "Carlos Alcaraz e Alexander Zverev",
+            "Alexander Zverev e Daniil Medvedev",
+            "Carlos Alcaraz e Ben Shelton"
+          ],
+          "answer": 1,
+          "explanation": "Alcaraz ha battuto Shelton in semifinale e Zverev ha superato Medvedev, conquistando entrambi l'accesso alla finale di Torino."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-22-7"
+    },
+    {
+      "category": "storia",
+      "tag": "22 novembre 1995",
+      "title": "Toy Story esce nelle sale statunitensi",
+      "summary": "Il 22 novembre 1995 il film d'animazione Toy Story è uscito nelle sale statunitensi. Diretto da John Lasseter e prodotto da Pixar, è stato il primo lungometraggio interamente realizzato in computer grafica (CGI). Il cast vocale include Tom Hanks e Tim Allen. Il film ha incassato oltre 373 milioni di dollari, ha ricevuto l'Oscar Special Achievement per l'innovazione tecnica e ha ottenuto il 100% su Rotten Tomatoes.",
+      "context": "Toy Story ha rivoluzionato l'animazione introducendo la CGI a livello di lungometraggio, aprendo la strada a numerosi film Pixar e cambiando gli standard di produzione cinematografica.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Toy_Story_-_Il_mondo_dei_giocattoli"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/e6/Toy_Story_Woody_e_Buzz.png/1280px-Toy_Story_Woody_e_Buzz.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Toy_Story_Woody_e_Buzz.png"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stata la principale innovazione tecnica di Toy Story?",
+          "options": [
+            "Ha introdotto il personaggio di Buzz Lightyear",
+            "Ha vinto l'Oscar per la miglior colonna sonora",
+            "È stato il primo film prodotto da Pixar",
+            "È stato il primo film d'animazione interamente in CGI"
+          ],
+          "answer": 3,
+          "explanation": "Il film è riconosciuto come il primo lungometraggio realizzato completamente con computer grafica (CGI)."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-22-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Gregor Brück",
+      "title": "Il giurista che salvò Lutero dalla forca",
+      "summary": "Gregor Brück, cancelliere della Sassonia, usò la sua expertise legale per proteggere Martin Lutero dopo la Dieta di Worms nel 1521. Evitando la cattura da parte delle autorità imperiali, permise al riformatore di continuare la sua opera. Brück fu anche coautore della Confessione augustana e promotore della Lega di Smalcalda, guidando la politica protestante per venticinque anni.",
+      "context": "Durante la Riforma, i giuristi erano spesso visti con sospetto dai teologi. Brück dimostrò come il diritto potesse essere uno strumento fondamentale per consolidare la nuova fede, creando alleanze politiche e strutture ecclesiastiche stabili nei territori tedeschi.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Gregor_Br%C3%BCck"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/1533_Cranach_Kanzler_Dr._Gregor_Br%C3%BCck_anagoria.JPG/1280px-1533_Cranach_Kanzler_Dr._Gregor_Br%C3%BCck_anagoria.JPG",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:1533_Cranach_Kanzler_Dr._Gregor_Br%C3%BCck_anagoria.JPG"
+      },
+      "quiz": [
+        {
+          "question": "Quale ruolo chiave svolse Gregor Brück per Martin Lutero nel 1521?",
+          "options": [
+            "Lo tradusse in latino per la Dieta",
+            "Lo sostituì come predicatore a Wittenberg",
+            "Lo protesse legalmente dalla cattura imperiale",
+            "Lo finanziò per la stampa della Bibbia"
+          ],
+          "answer": 2,
+          "explanation": "Brück fornì consulenza giuridica a Lutero per evitarne la cattura da parte delle autorità imperiali dopo la Dieta di Worms."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-22-9"
+    }
+  ]
+}
