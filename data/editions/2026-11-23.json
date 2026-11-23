@@ -1,0 +1,400 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T05:34:31.550Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "COP31 si chiude senza accordo",
+      "summary": "I negoziati della COP31 ad Antalya, in Turchia, si sono conclusi domenica senza alcun accordo, diventando la conferenza climatica più lunga della storia. Le divisioni tra paesi ricchi e poveri su finanziamenti e tra stati produttori di petrolio e l’Unione europea sul ruolo dei combustibili fossili hanno impedito un testo accettabile. L’ONU e l’Australia hanno espresso delusione.",
+      "context": "L’assenza di un accordo alla COP31 rallenta gli sforzi globali per ridurre le emissioni, evidenzia l’influenza delle lobby dei combustibili fossili e mette a rischio gli impegni finanziari per i paesi più vulnerabili.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPTGg4TmszcXRBUXlrdXk1N2V4U3ZPSU1PaHcwWU9PWmhFXy1lalVYaVVmVkN2c1ZrTWhXd0JMUGN0UGdYejRKRFJCc3ZVUzg5T3BWakpOazRCYkI4d2ozaXRnLV9SajNMN1U1Ri1rMi1abmtUel9abFIwY0R1ZExBSU1sYTBXV2szeGdPbUFRVHR6Mm15dDBQZkRncTNZS09lYktUZEpNRjI1Q05aazROaVdfeWY5LWd3R3FmUG9uTFFfMkdlRG8xZnNNRlhBVGQtTFZGeEt6enQ0dEtwQTlFZW82eFA4X1ZlT1pUN1pnZkJvQlVBUEdoemVPZUM0QW8wMWUtWl81cUg3dFhBVUJvWXlleEpMSHl5em81ekpKV1NZOG1tanRKOXFnRnVidTJCSDk0ZEhxRXVLWHBjbUHSAcMCQVVfeXFMTi01QUkzSUVkemxJWFEtNXB5NTBoLVpzaHFFem1sZ2lVelZHZDFRRGdKR096ZEhlOEs0UDN1MHp4MjRvc1VXVjZVOGdXb0tSRUNPa1ZSdDc3RndGUjl6VlpKYldPa0dPX2Uya2tYclBuQ1lvN0NJLUpPTXIwMUVaNmE1LWhtcm14c0hvdWNtYThSN191MEdYMGxteFFSRmVSb0Q1Y3lUeUJkSVQ3dmdXNXBfQ0tnV2RyQlptX2JqWFRuLUZZc0UzajNHS1FvQjVseEUyUVhYdWdLU2lVXy1hWGxYTmtLRTM0RVpSWU12YVJjeXNnT1pmRWZ4SVhXWmQ3el94ZkRNQmRoWEJNY1NsMWdvVC1xUkN0WEw1ZEk2TXVXdXVpMnF5cVMzaTY5M0F0SS1tbUd1aTVjamVtWnFkUG1nRDA?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ffb0/live/d31e6e50-e6fc-11f1-9d32-695d6c00481f.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Perché l'Unione europea e altri paesi hanno respinto il testo finale della COP31?",
+          "options": [
+            "Perché destinava troppi fondi all'adattamento",
+            "Perché prevedeva la chiusura immediata del carbone",
+            "Perché non menzionava i combustibili fossili",
+            "Perché imponeva multe elevate alle aziende inquinanti"
+          ],
+          "answer": 2,
+          "explanation": "Il testo finale non citava i combustibili fossili, elemento ritenuto indispensabile dall'UE per un accordo ambizioso."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-23-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Grillo avverte di riprendere il Movimento se il giudice lo riconosce",
+      "summary": "Durante la puntata di 'Che Tempo che fa', Beppe Grillo ha dichiarato che, se un giudice dovesse stabilire che il Movimento Cinque Stelle è di sua proprietà, lo riprenderà e lo metterà a disposizione dei giovani sotto i 25 anni. Ha inoltre criticato l’attuale classe politica, proposto riforme amministrative e mostrato disponibilità a sostenere ex esponenti del partito.",
+      "context": "Il discorso di Grillo riaccende il dibattito sulla proprietà del Movimento Cinque Stelle e sulla possibilità di una sua rinascita guidata da giovani, elemento rilevante per l’equilibrio politico italiano.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/22/grillo-show-e-avvisa-se-il-giudice-dice-che-il-movimento-e-mio-me-lo-riprendo_d85903d4-9afa-4b58-b602-96ed3ea730be.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/22/c1b4f69569c1e052da4b4bc8f0e3e99d.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/11/22/grillo-show-e-avvisa-se-il-giudice-dice-che-il-movimento-e-mio-me-lo-riprendo_d85903d4-9afa-4b58-b602-96ed3ea730be.html"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha promesso Beppe Grillo di fare se un giudice stabilisse che il Movimento è suo?",
+          "options": [
+            "Riprenderlo e cederlo ai giovani sotto i 25 anni",
+            "Dissolverlo",
+            "Ignorare la decisione",
+            "Vendere il movimento"
+          ],
+          "answer": 0,
+          "explanation": "Grillo ha detto che lo riprenderà e lo darà in uso ai minori di 25 anni."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-23-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Nvidia: ricavi in forte crescita e guida al rialzo nonostante la crisi di leadership",
+      "summary": "Nvidia ha chiuso il terzo trimestre fiscale 2027 con ricavi da 115,8 miliardi di dollari, raddoppiati rispetto all'anno precedente. La crescita è trainata dalla domanda di chip per data center, in particolare la piattaforma Vera Rubin. L'azienda ha alzato le previsioni di crescita dei ricavi per il 2028 al 75%. I risultati arrivano mentre l'azienda cerca un nuovo amministratore delegato dopo le dimissioni di Jensen Huang.",
+      "context": "La notizia conferma la forte domanda di infrastrutture per l'intelligenza artificiale. Il cambio al vertice di Nvidia genera incertezza tra gli investitori, ma i dati finanziari suggeriscono che il business resti solido. Si osserva anche l'impatto positivo su fornitori chiave come ASML e TSMC.",
+      "sources": [
+        {
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/22/nvidia-just-delivered-incredible-results-buy-this-artificial-intelligence-ai-stock-instead-if-you-re-still-worried-about-the-semiconductor-giant-s-future/"
+        },
+        {
+          "name": "AOL",
+          "url": "https://www.aol.com/articles/worried-nvidia-buy-fantastic-artificial-032002000.html"
+        }
+      ],
+      "image": {
+        "url": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2F966654df6c64eda08853ff4d4d9fa7116dc69b7b-2560x1920.jpg&w=1200&op=resize",
+        "credit": "The Motley Fool",
+        "link": "https://www.fool.com/investing/2026/11/22/nvidia-just-delivered-incredible-results-buy-this-artificial-intelligence-ai-stock-instead-if-you-re-still-worried-about-the-semiconductor-giant-s-future/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale causa della crescita dei ricavi di Nvidia nel trimestre?",
+          "options": [
+            "Le vendite di console per videogiochi",
+            "L'aumento dei prezzi al dettaglio",
+            "La forte domanda di chip per data center",
+            "La vendita di smartphone"
+          ],
+          "answer": 2,
+          "explanation": "Il testo specifica che la crescita è guidata da un aumento del 110% dei ricavi da data center, trainato dalla piattaforma Vera Rubin."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-23-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "GTA 6 supera il record di incassi di Avengers: Endgame",
+      "summary": "Il videogioco Grand Theft Auto VI ha registrato incassi stimati per 3,79 miliardi di dollari grazie a 32,5 milioni di copie vendute prima e durante il lancio avvenuto nei giorni scorsi. Cifre che superano i 2,94 miliardi del film Avengers: Endgame e rendono il titolo di Rockstar Games il maggiore lancio nella storia dell'intrattenimento.",
+      "context": "Il successo commerciale di Grand Theft Auto VI conferma la centralità economica dei videogiochi rispetto al cinema hollywoodiano. Nel frattempo, il lancio ha generato discussioni online anche per le critiche rivolte ai giocatori adulti dal rapper Waka Flocka Flame.",
+      "sources": [
+        {
+          "name": "HipHopWired",
+          "url": "https://hiphopwired.com/3069627/it-only-took-24-hours-for-gta-6-to-beat-avengers-endgames-lifetime-box-office/"
+        },
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/waka-flocka-flame-gta-6-men-over-35/"
+        },
+        {
+          "name": "HipHopWired",
+          "url": "https://hiphopwired.com/3069615/waka-flocka-slammed-hating-adult-men-playing-gta-6-reactions/"
+        }
+      ],
+      "image": {
+        "url": "https://hiphopwired.com/wp-content/uploads/sites/43/2026/11/17939052712807.jpg?quality=85&strip=all&w=1680&crop=0,0,100,960px",
+        "credit": "HipHopWired",
+        "link": "https://hiphopwired.com/3069627/it-only-took-24-hours-for-gta-6-to-beat-avengers-endgames-lifetime-box-office/"
+      },
+      "quiz": [
+        {
+          "question": "Quanto ha incassato GTA 6 al momento del lancio?",
+          "options": [
+            "11 milioni di dollari",
+            "800 milioni di dollari",
+            "2,94 miliardi di dollari",
+            "Circa 3,79 miliardi di dollari"
+          ],
+          "answer": 3,
+          "explanation": "Il gioco ha incassato circa 3,79 miliardi di dollari, superando il record di Avengers: Endgame."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-23-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "COP31: fallisce l'accordo sul clima a Istanbul",
+      "summary": "I negoziati della COP31, la conferenza delle Nazioni Unite sul clima, si sono conclusi senza un accordo finale. L'evento si è tenuto a Istanbul, in Turchia. La mancanza di un'intesa comune tra i delegati ha lasciato irrisolte le questioni chiave sulla riduzione delle emissioni e sul supporto finanziario ai paesi in via di sviluppo, come riportato dai media internazionali.",
+      "context": "Il fallimento di un summit climatico globale è un evento raro e preoccupante, poiché rallenta gli sforzi per raggiungere gli obiettivi di Parigi. La mancanza di un accordo può indebolire la cooperazione internazionale e complicare le politiche energetiche future a livello nazionale.",
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/videos/cx987g7q019go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/0084/live/3dd7fdf0-e69f-11f1-a094-5fdc692f3e33.jpg",
+        "credit": "BBC Science",
+        "link": "https://www.bbc.co.uk/news/videos/cx987g7q019go?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'esito principale dei negoziati della COP31 a Istanbul?",
+          "options": [
+            "Sono state approvate nuove sanzioni climatiche",
+            "La conferenza è stata annullata per conflitti",
+            "I negoziati si sono conclusi senza un accordo",
+            "È stato raggiunto un nuovo patto vincolante"
+          ],
+          "answer": 2,
+          "explanation": "Le fonti indicano chiaramente che non è stato raggiunto alcun accordo durante la conferenza."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-23-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Il maxi risarcimento di Bayer per il diserbante Roundup",
+      "summary": "Nei giorni scorsi un giudice del Missouri ha approvato un accordo transattivo da sette miliardi e duecentocinquantacinque milioni di dollari proposto dalla societa tedesca Bayer. L'accordo serve a chiudere circa sessantacinquemila cause legali negli Stati Uniti, intentate da persone che sostengono di essersi ammalate di cancro dopo aver usato il diserbante Roundup.",
+      "context": "Questa decisione rappresenta un passaggio fondamentale per la societa tedesca, gravata da anni di contenziosi legali legati all'acquisto di Monsanto. Resta da monitorare l'impatto finanziario complessivo e l'evoluzione delle future cause giudiziarie.",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/efbc188d676f119c98b60ce20d212a75264e7757/483_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5edeaf13f200c4f950da4fc630d80c08",
+        "credit": "The Guardian Business",
+        "link": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation"
+      },
+      "quiz": [
+        {
+          "question": "Quanto vale l'accordo transattivo approvato dal giudice del Missouri per le cause sul Roundup?",
+          "options": [
+            "Sessantacinque miliardi di dollari",
+            "Un miliardo e duecentocinquantacinque milioni di dollari",
+            "Sette miliardi e duecentocinquantacinque milioni di dollari",
+            "Dieci miliardi e novecento milioni di dollari"
+          ],
+          "answer": 2,
+          "explanation": "Il giudice ha approvato un accordo da sette miliardi e duecentocinquantacinque milioni di dollari per chiudere le cause sul diserbante."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-23-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Il box office USA premia 'Hunger Games' con un esordio da 120 milioni",
+      "summary": "Il film 'Hunger Games: L'alba sulla mietitura' ha debuttato al botteghino nordamericano con 120 milioni di dollari nel fine settimana. Il titolo ha aggiunto 105 milioni all'estero, raggiungendo un totale mondiale di 225 milioni. Si tratta del secondo miglior esordio di sempre per un prequel e del quinto film dell'anno a superare i 100 milioni nel primo weekend negli Stati Uniti.",
+      "context": "L'ottimo risultato rilancia la popolare saga cinematografica e conferma la forza commerciale dei grandi franchise al botteghino. Incassi simili nel primo fine settimana sono indicatori chiave per valutare la salute economica delle sale cinematografiche.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/22/box-office-usa-hunger-games-domina-con-120-milioni-di-dollari_f2930705-978e-4482-b8a7-6112e9f9ed47.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/22/5f04033bb42dbb6d675b0ef20712cb41.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/22/box-office-usa-hunger-games-domina-con-120-milioni-di-dollari_f2930705-978e-4482-b8a7-6112e9f9ed47.html"
+      },
+      "quiz": [
+        {
+          "question": "Quanto ha incassato 'Hunger Games: L'alba sulla mietitura' nel suo debutto negli Stati Uniti?",
+          "options": [
+            "105 milioni di dollari",
+            "10 milioni di dollari",
+            "120 milioni di dollari",
+            "225 milioni di dollari"
+          ],
+          "answer": 2,
+          "explanation": "Il film ha esaurito il fine settimana d'esordio in Nord America con un incasso pari a 120 milioni di dollari."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-23-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "I New York Mets ingaggiano Tarik Skubal con un contratto record da 450 milioni di dollari",
+      "summary": "La squadra di baseball dei New York Mets ha ingaggiato il lanciatore Tarik Skubal con un contratto di nove anni del valore di 450 milioni di dollari. Si tratta del contratto più ricco mai firmato da un lanciatore nella storia della lega professionistica nordamericana. Skubal, vincitore per due volte del premio come miglior lanciatore della stagione, era uno dei giocatori più ambiti sul mercato.",
+      "context": "Questo accordo conferma la strategia di ingaggi faraonici portata avanti dalla proprietà dei Mets. Investimenti di tale portata economica alimentano il dibattito sui tetti salariali e sulle regole finanziarie del campionato in vista delle future trattative tra club e giocatori.",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/22/tarik-skubal-new-york-mets-reported-deal-contract"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/43179824af3ae4d1651ab19890a048d52a810d7e/512_0_6130_4904/master/6130.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9fa3ccb5187958c7f5c281172c3d21bd",
+        "credit": "The Guardian Sport",
+        "link": "https://www.theguardian.com/sport/2026/nov/22/tarik-skubal-new-york-mets-reported-deal-contract"
+      },
+      "quiz": [
+        {
+          "question": "A quanto ammonta il contratto firmato da Tarik Skubal con i New York Mets?",
+          "options": [
+            "765 milioni di dollari",
+            "325 milioni di dollari per dodici anni",
+            "95 milioni di dollari per otto anni",
+            "450 milioni di dollari per nove anni"
+          ],
+          "answer": 3,
+          "explanation": "Il contratto di Tarik Skubal con i Mets è di 450 milioni di dollari per nove anni, stabilendo il record per un lanciatore."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-23-7"
+    },
+    {
+      "category": "storia",
+      "tag": "23 novembre 1644",
+      "title": "John Milton pubblica gli Areopagitica",
+      "summary": "Nei giorni scorsi del 1644, lo scrittore John Milton ha pubblicato il trattato polemico intitolato Areopagitica. L'opera è un discorso rivolto al Parlamento inglese per chiedere l'abolizione della censura preventiva sulla stampa, introdotta nel 1443 con un editto che imponeva controlli e autorizzazioni prima di poter stampare qualsiasi libro.",
+      "context": "Il testo ha posto le basi filosofiche moderne per la libertà di espressione e di stampa, dimostrando che il confronto aperto delle idee è essenziale per la ricerca della verità e la crescita democratica della società.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Areopagitica"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/John_Milton_Christ%27s_College.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:John_Milton_Christ's_College.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa chiedeva John Milton nel trattato Areopagitica pubblicato nel 1644?",
+          "options": [
+            "L'abolizione della censura preventiva sulla stampa",
+            "L'aumento delle tasse per gli stampatori",
+            "La chiusura del Parlamento inglese",
+            "La traduzione delle opere in latino"
+          ],
+          "answer": 0,
+          "explanation": "Milton ha scritto il trattato per opporsi all'editto che imponeva il controllo preventivo e la censura sulle pubblicazioni."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-23-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Janet Jagan",
+      "title": "Dalla lotta comunista alla presidenza: la straordinaria vita di Janet Jagan",
+      "summary": "Nata a Chicago in una famiglia ebraica, Janet Rosenberg perse la cittadinanza americana a causa del matrimonio con l'attivista guyanese Cheddi Jagan e della sua militanza comunista. Trasferitasi nella Guyana britannica negli anni quaranta, divenne una figura chiave della decolonizzazione e del movimento socialista locale. Dopo la morte del marito, salì al potere nel millenovecentonovantasette, diventando la prima donna presidente del Paese.",
+      "context": "Janet Jagan si inserisce nel quadro storico della Guerra Fredda e della decolonizzazione sudamericana, dove i movimenti anti-coloniali spesso assumevano tinte marxiste, attirando la forte ostilità degli Stati Uniti. La sua presidenza rappresenta un raro caso di leader nativa americana capace di guidare un Paese estero.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Janet_Jagan"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Janet_Jagan.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Janet_Jagan.png"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Janet Jagan perse la cittadinanza statunitense?",
+          "options": [
+            "Per aver criticato pubblicamente il presidente degli Stati Uniti",
+            "A causa del matrimonio con Cheddi Jagan e della sua affiliazione al comunismo",
+            "Per aver vissuto troppo a lungo fuori dai confini nazionali",
+            "Per aver cambiato legalmente il proprio cognome in gioventù"
+          ],
+          "answer": 1,
+          "explanation": "Il matrimonio con un cittadino straniero e il forte impegno nel partito comunista portarono Janet a perdere la cittadinanza degli Stati Uniti."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-23-9"
+    }
+  ]
+}
