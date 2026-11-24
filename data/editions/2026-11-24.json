@@ -1,0 +1,392 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T05:35:03.849Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Giappone riarma coinvolgendo i fornitori auto",
+      "summary": "Il governo giapponese, guidato dal Primo Ministro Sanae Takaichi, sta promuovendo un riarmo nazionale coinvolgendo i fornitori dell’industria automobilistica. Aziende come Aster, tradizionalmente produttrici di componenti per Toyota, stanno passando alla produzione di tecnologie per la difesa, tra cui motori elettrici per droni. L’iniziativa, sostenuta dagli Stati Uniti e dall’Agenzia per Acquisizioni, Tecnologia e Logistica, mira a rafforzare le difese contro le minacce di Cina, Russia e Corea del Nord e a diversificare un settore automobilistico in calo.",
+      "context": "Il riarmo con i fornitori auto segna una svolta nella strategia di sicurezza giapponese, collegandosi alla pressione americana e alla concorrenza cinese. Da monitorare l’espansione della difesa industriale.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/video/2026/11/il-giappone-si-riarma-e-coinvolge-i-fornitori-dellindustria-automobilistica-la-conversione-militare-d7d8b049-f4c5-4962-8321-4e9ea33af8eb.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/24/1795497435365_Cattura.PNG",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/video/2026/11/il-giappone-si-riarma-e-coinvolge-i-fornitori-dellindustria-automobilistica-la-conversione-militare-d7d8b049-f4c5-4962-8321-4e9ea33af8eb.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è l'obiettivo principale del governo giapponese nel coinvolgere i fornitori dell'industria automobilistica?",
+          "options": [
+            "Creare posti di lavoro nel turismo",
+            "Aumentare le esportazioni di auto",
+            "Rafforzare le capacità di difesa",
+            "Ridurre le emissioni di CO2"
+          ],
+          "answer": 2,
+          "explanation": "Il governo vuole rafforzare le difese nazionali usando le competenze dei fornitori auto."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-24-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Mattarella chiede un fisco più progressivo e contributivo",
+      "summary": "Il presidente Sergio Mattarella ha incontrato a Roma i nuovi magistrati tributari in tirocinio. Ha ribadito l'importanza di un sistema fiscale più leggero ma basato sulla progressività e sulla partecipazione di tutti. Ha citato la Costituzione per sottolineare che pagare le tasse è un dovere di solidarietà sociale, essenziale per garantire i servizi pubblici e la coesione nazionale, contrastando così l'evasione fiscale.",
+      "context": "L'intervento arriva mentre si discute la legge di Bilancio. Il richiamo del capo dello Stato mette in luce il legame tra equità fiscale e tenuta dello Stato sociale, invitando a una maggiore trasparenza e rispetto delle regole per tutti i cittadini.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/23/mattarella-per-un-fisco-piu-leggero-contribuiscano-tutti-serve-progressivita_b77f620d-611d-4e8e-b64a-0b31f44c9803.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/23/b03d6c80496642e469b0ac185f4d1d1b.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/11/23/mattarella-per-un-fisco-piu-leggero-contribuiscano-tutti-serve-progressivita_b77f620d-611d-4e8e-b64a-0b31f44c9803.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale principio fiscale ha sottolineato Mattarella come fondamentale per garantire l'uguaglianza?",
+          "options": [
+            "L'aumento delle aliquote per i ricchi",
+            "La flat tax per tutti",
+            "La progressività delle imposte",
+            "L'esenzione totale per i redditi bassi"
+          ],
+          "answer": 2,
+          "explanation": "Mattarella ha citato la Costituzione per affermare che le imposte devono essere proporzionali alle disponibilità economiche, garantendo così il principio di eguaglianza."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-24-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Azioni legali contro SpaceX per i contenuti generati da Grok",
+      "summary": "I procuratori generali della Virginia e dell'Oregon hanno citato in giudizio SpaceX. L'accusa sostiene che il sistema di intelligenza artificiale Grok, integrato nella piattaforma social X, continui a generare immagini intime non consenzienti e materiale di abusi sessuali su minori. Le autorità statali affermano che le misure di sicurezza promesse dall'azienda siano inefficaci e che i vertici abbiano ignorato i rischi per proteggere il business.",
+      "context": "La diffusione di immagini sintetiche illecite tramite intelligenza artificiale generativa rappresenta una crescente emergenza legale. I contenziosi contro le grandi aziende tecnologiche servono a stabilire le responsabilità legali per i contenuti prodotti dai loro algoritmi.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
+      },
+      "quiz": [
+        {
+          "question": "Quali Stati hanno citato in giudizio SpaceX a causa dei contenuti di Grok?",
+          "options": [
+            "Virginia e Oregon",
+            "Texas e Florida",
+            "California e New York",
+            "Washington e Nevada"
+          ],
+          "answer": 0,
+          "explanation": "Virginia e Oregon sono i primi Stati ad aver avviato un'azione legale contro SpaceX per i contenuti generati da Grok."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-24-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Don Toliver rinvia i concerti a Londra dopo l'evacuazione a Manchester",
+      "summary": "Il rapper Don Toliver ha rinviato i concerti previsti a Londra dopo che il suo spettacolo di domenica a Manchester è stato interrotto e dodicimila persone sono state evacuate a causa di una sostanza sconosciuta rilasciata tra la folla. Decine di spettatori hanno accusato sintomi respiratori e bruciori agli occhi, e una persona è stata ricoverata in ospedale. La polizia ha avviato un'indagine per identificare la sostanza e accertare eventuali responsabilità.",
+      "context": "Gli eventi di massa richiedono rigorosi controlli di sicurezza per prevenire l'introduzione di sostanze pericolose. Incidenti simili mettono in luce la vulnerabilità dei grandi spazi chiusi e la necessità di gestire rapidamente le emergenze sanitarie e di ordine pubblico.",
+      "sources": [
+        {
+          "name": "Los Angeles Times",
+          "url": "https://www.latimes.com/entertainment-arts/music/story/2026-11-23/don-toliver-postpones-london-concert-after-manchester-evacuation"
+        },
+        {
+          "name": "KCRA Channel 3",
+          "url": "https://www.kcra.com/article/audience-evacuated-don-toliver-concert-unknown-substance/74504442"
+        },
+        {
+          "name": "Yahoo",
+          "url": "https://www.yahoo.com/news/world/articles/us-rapper-postpones-o2-arena-142122562.html"
+        }
+      ],
+      "image": {
+        "url": "https://kubrick.htvapps.com/htv-prod/images/141eeedd-e846-4604-ae1b-1f88a260c23a.jpg?crop=1.00xw%3A0.846xh%3B0%2C0&resize=1200%3A*",
+        "credit": "KCRA Channel 3",
+        "link": "https://www.kcra.com/article/audience-evacuated-don-toliver-concert-unknown-substance/74504442"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Don Toliver ha rinviato i concerti a Londra?",
+          "options": [
+            "Per un guasto tecnico al palco",
+            "A causa dell'evacuazione del suo concerto a Manchester per una sostanza sconosciuta",
+            "Per una forte influenza",
+            "Per problemi con i biglietti"
+          ],
+          "answer": 1,
+          "explanation": "Il rinvio è stato deciso dopo che il concerto di Manchester è stato interrotto per il rilascio di una sostanza sconosciuta tra il pubblico."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-24-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Ipotesi di Riemann: risolta la congettura con l'intelligenza artificiale",
+      "summary": "Nei giorni scorsi il matematico Levent Alpöge ha pubblicato una dimostrazione dell'ipotesi di Riemann, uno dei problemi irrisolti più importanti della matematica, risalente al diciottesimo secolo. Il risultato è stato ottenuto lavorando insieme allo strumento di intelligenza artificiale Claude dell'azienda Anthropic. Altri matematici indipendenti hanno confermato la correttezza del lavoro, che svela i segreti dei numeri primi.",
+      "context": "La dimostrazione dell'ipotesi di Riemann rappresenta un traguardo storico per la matematica. L'uso di sistemi automatici per verificare passaggi logici complessi apre nuove prospettive nella ricerca scientifica e nella collaborazione tra intelligenza artificiale e studiosi umani.",
+      "sources": [
+        {
+          "name": "Science News",
+          "url": "https://www.sciencenews.org/article/riemann-hypothesis-solved-math-ai"
+        }
+      ],
+      "image": {
+        "url": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112326_KHEC_Riemann_main.jpg",
+        "credit": "Science News",
+        "link": "https://www.sciencenews.org/article/riemann-hypothesis-solved-math-ai"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha pubblicato la dimostrazione dell'ipotesi di Riemann?",
+          "options": [
+            "Bryna Kra",
+            "Un gruppo di ricerca autonomo senza umani",
+            "Ken Ono",
+            "Levent Alpöge"
+          ],
+          "answer": 3,
+          "explanation": "La dimostrazione è stata pubblicata dal matematico Levent Alpöge con il supporto dell'intelligenza artificiale Claude."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-24-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Mercato auto in rallentamento a ottobre: frenano Stellantis, Volkswagen e Renault, crescono le cinesi",
+      "summary": "Nel mese di ottobre le immatricolazioni di auto in Europa hanno registrato un rallentamento della crescita, pur restando in territorio positivo. I grandi gruppi tradizionali come Stellantis, Volkswagen e Renault hanno segnato cali significativi nelle vendite. Al contrario, le case automobilistiche cinesi hanno continuato a espandersi rapidamente nel continente, spinte soprattutto dalle auto completamente elettriche.",
+      "context": "Il mercato europeo affronta una fase di transizione e competizione intensa, con i costruttori tradizionali sotto pressione per la transizione ecologica e l'avanzata dei marchi cinesi. Da seguire l'evoluzione delle normative sulle emissioni e l'impatto dei nuovi dazi.",
+      "sources": [
+        {
+          "name": "Il Sole 24 Ore",
+          "url": "https://www.ilsole24ore.com/art/auto-mercato-auto-rallenta-mese-negativo-stellantis-volkswagen-e-renault-AJYiqhQC"
+        },
+        {
+          "name": "ANSA Economia",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/24/in-europa-le-immatricolazioni-di-auto-34-a-ottobre-6-da-inizio-anno_d7adf797-5a83-4c29-958d-701d78fa4a96.html"
+        }
+      ],
+      "image": {
+        "url": "https://i2.res.24o.it/images2010/S24/Documenti/2026/11/24/Immagini/Ritagli/AdobeStock_864066630-U20632322786epW-1440x752@IlSole24Ore-Web.jpeg?r=1170x507",
+        "credit": "Il Sole 24 Ore",
+        "link": "https://www.ilsole24ore.com/art/auto-mercato-auto-rallenta-mese-negativo-stellantis-volkswagen-e-renault-AJYiqhQC"
+      },
+      "quiz": [
+        {
+          "question": "Quale andamento ha caratterizzato i grandi gruppi automobilistici tradizionali a ottobre?",
+          "options": [
+            "Un calo delle immatricolazioni",
+            "Una crescita record delle vendite",
+            "Il blocco totale della produzione",
+            "La stabilità totale dei volumi"
+          ],
+          "answer": 0,
+          "explanation": "A ottobre i grandi gruppi come Stellantis, Volkswagen e Renault hanno registrato cali delle nuove immatricolazioni."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-24-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Steven Spielberg e Paul Thomas Anderson lavorano insieme a un western",
+      "summary": "Il regista Steven Spielberg e lo sceneggiatore Paul Thomas Anderson collaborano per la prima volta a un film western. Il progetto è un adattamento del romanzo del duemilaventiquattro The Heart in Winter di Kevin Barry, ambientato negli anni novanta dell'ottocento. I protagonisti della storia, incentrata su due fuggitivi, saranno gli attori Jessie Buckley, Cillian Murphy e Mark Rylance. L'uscita del film è prevista per il duemilaventotto.",
+      "context": "Questa collaborazione unisce due dei registi più importanti del cinema contemporaneo. Per Paul Thomas Anderson si tratta della prima sceneggiatura scritta interamente per un altro regista, segnando un momento rilevante per il cinema d'autore statunitense.",
+      "sources": [
+        {
+          "name": "The Guardian Film",
+          "url": "https://www.theguardian.com/film/2026/nov/23/spielberg-western-paul-thomas-anderson-heart-in-winter"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/e1f49c81d555e4febe4fdd970d1f485ba0014e13/328_331_2849_2279/master/2849.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=00e751fcc1fc3ef2004960afbc45a4b3",
+        "credit": "The Guardian Film",
+        "link": "https://www.theguardian.com/film/2026/nov/23/spielberg-western-paul-thomas-anderson-heart-in-winter"
+      },
+      "quiz": [
+        {
+          "question": "Su quale libro si basa il nuovo film western di Steven Spielberg?",
+          "options": [
+            "Killers of the Flower Moon",
+            "The Heart in Winter di Kevin Barry",
+            "Oppenheimer",
+            "Hamnet"
+          ],
+          "answer": 1,
+          "explanation": "Il film è l'adattamento cinematografico del romanzo The Heart in Winter scritto da Kevin Barry nel duemilaventiquattro."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-24-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Il Regno Unito ospitera i Mondiali di calcio femminile del 2035",
+      "summary": "Il Regno Unito e stato confermato come paese ospitante dei Mondiali di calcio femminile del 2035. La candidatura congiunta delle federazioni di Inghilterra, Scozia, Galles e Irlanda del Nord e stata approvata per acclamazione durante un congresso virtuale della federazione internazionale di calcio. Si tratta della prima competizione globale nel paese dal mondiale maschile del 1966.",
+      "context": "Ospitare un evento di questa portata richiede ingenti investimenti infrastrutturali e organizzativi. Per il Regno Unito rappresenta un banco di prova fondamentale per la crescita ulteriore del movimento calcistico femminile e per l'indotto turistico ed economico.",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/23/uk-confirmed-hosts-2035-womens-world-cup-fifa"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/7c4861cd8a907734c43964a01fcdaa9422aa3568/0_0_6830_5464/master/6830.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=522ed07bf7fb22fe059d1aee4c527519",
+        "credit": "The Guardian Sport",
+        "link": "https://www.theguardian.com/football/2026/nov/23/uk-confirmed-hosts-2035-womens-world-cup-fifa"
+      },
+      "quiz": [
+        {
+          "question": "Chi ha ospitato l'assegnazione dei Mondiali di calcio femminile del 2035?",
+          "options": [
+            "Una riunione congiunta a Manchester",
+            "Una cerimonia in presenza a Londra",
+            "Un vertice straordinario a Zurigo",
+            "Un congresso virtuale della federazione internazionale"
+          ],
+          "answer": 3,
+          "explanation": "La candidatura e stata approvata per acclamazione durante un congresso straordinario della federazione internazionale condotto in modalita virtuale."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-24-7"
+    },
+    {
+      "category": "storia",
+      "tag": "24 novembre 1859",
+      "title": "La pubblicazione de L'origine delle specie di Charles Darwin",
+      "summary": "Il naturalista britannico Charles Darwin pubblica il libro L'origine delle specie, un'opera in cui sostiene che gli organismi non sono stati creati da un ente superiore, ma si sono evoluti gradualmente attraverso la selezione naturale. La prima edizione, composta da millenuecentocinquanta copie prenotate, viene esaurita interamente il giorno stesso dell'uscita.",
+      "context": "Il libro ha rivoluzionato la biologia cancellando l'idea di specie immutabili e introducendo il concetto di evoluzione naturale. Ha lasciato in eredità il metodo scientifico applicato alla comprensione della vita e resta il fondamento della moderna biologia evolutiva.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/L%27origine_delle_specie"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Charles_Darwin_1880.jpg/1280px-Charles_Darwin_1880.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Charles_Darwin_1880.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Quale teoria principale sostiene Charles Darwin nell'opera L'origine delle specie?",
+          "options": [
+            "Le specie sono state create da un ente superiore e sono immutabili",
+            "Tutte le specie derivano direttamente dalle varietà domestiche",
+            "L'evoluzione delle specie è guidata esclusivamente da fattori casuali",
+            "Gli organismi si sono evoluti gradualmente attraverso la selezione naturale"
+          ],
+          "answer": 3,
+          "explanation": "Il libro dimostra che gli organismi si evolvono gradualmente nel tempo tramite il meccanismo della selezione naturale."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-24-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Vitoldo",
+      "title": "Il sovrano che rifiutò la corona per prudenza",
+      "summary": "Nel 1421 Vitoldo il Grande, granduca di Lituania, decise di rifiutare la corona del Regno di Boemia offertagli dagli ussiti. Il sovrano temeva infatti che le difficili condizioni geopolitiche del momento avrebbero finito per sfavorirlo. Nonostante le ambizioni e una successiva offerta di incoronazione ricevuta nel 1430, anno della sua morte, Vitoldo non riuscì mai a fregiarsi ufficialmente del titolo di re.",
+      "context": "Nel quindicesimo secolo l'Europa orientale era attraversata da profondi conflitti religiosi e territoriali, tra cui le guerre hussite in Boemia e la pressione dei Cavalieri teutonici. In questo scenario la Lituania cercava di affermare la propria sovranità e modernizzarsi.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Vitoldo"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Vita%C5%ADt_Vialiki._%D0%92%D1%96%D1%82%D0%B0%D1%9E%D1%82_%D0%92%D1%8F%D0%BB%D1%96%D0%BA%D1%96_%28XVIII%29.jpg/1280px-Vita%C5%ADt_Vialiki._%D0%92%D1%96%D1%82%D0%B0%D1%9E%D1%82_%D0%92%D1%8F%D0%BB%D1%96%D0%BA%D1%96_%28XVIII%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Vita%C5%ADt_Vialiki._%D0%92%D1%96%D1%82%D0%B0%D1%9E%D1%82_%D0%92%D1%8F%D0%BB%D1%96%D0%BA%D1%96_(XVIII).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo Vitoldo rifiutò la corona di Boemia nel 1421?",
+          "options": [
+            "Preferiva restare fedele al paganesimo",
+            "Temeva le avverse condizioni geopolitiche",
+            "Non parlava la lingua locale",
+            "Era impegnato in una guerra contro la Polonia"
+          ],
+          "answer": 1,
+          "explanation": "Vitoldo rifiutò la proposta degli ussiti per il timore che il contesto geopolitico potesse rivelarsi troppo sfavorevole."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-24-9"
+    }
+  ]
+}
