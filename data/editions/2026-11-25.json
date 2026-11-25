@@ -1,0 +1,392 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T05:32:24.075Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Sentenza ONU su genocidio in Birmania: impatti su Gaza",
+      "summary": "La Corte internazionale di giustizia ha riconosciuto il genocidio commesso dal governo della Birmania contro la minoranza rohingya, prima sentenza di questo tipo contro uno Stato. La decisione, pubblicata lo stesso giorno di un incontro tra le potenze mondiali, potrebbe influenzare il procedimento in corso contro Israele per le azioni a Gaza, indebolendo la difesa israeliana sulla mancanza di intenzionalità genocida.",
+      "context": "La sentenza segna un precedente giuridico sul genocidio e potrebbe servire da riferimento per il caso di Gaza, dove le accuse di genocidio sono al centro del dibattito internazionale.",
+      "sources": [
+        {
+          "name": "Internazionale",
+          "url": "https://www.internazionale.it/opinione/anthony-samrani/2026/11/25/gaza-sentenza-genocidio-birmania"
+        }
+      ],
+      "image": {
+        "url": "https://media.internazionale.it/images/2026/11/24/364642-hd.jpg",
+        "credit": "Internazionale",
+        "link": "https://www.internazionale.it/opinione/anthony-samrani/2026/11/25/gaza-sentenza-genocidio-birmania"
+      },
+      "quiz": [
+        {
+          "question": "Quale effetto ha la sentenza della Corte internazionale di giustizia sul caso del genocidio in Birmania per la questione di Gaza?",
+          "options": [
+            "Non ha alcuna rilevanza legale",
+            "Annulla le sanzioni contro Israele",
+            "Indebolisce la difesa israeliana sulla mancanza di intenzionalità genocida",
+            "Stabilisce che anche Gaza è genocidio"
+          ],
+          "answer": 2,
+          "explanation": "La sentenza fornisce un precedente che indebolisce la difesa israeliana sostenendo che l'intenzionalità genocida è presente in Gaza."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-25-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Commissione Bilancio riammette emendamento FdI sull'exit tax",
+      "summary": "La commissione Bilancio della Camera ha riammesso l'emendamento di Fratelli d'Italia a prima firma Lucaselli, che modifica la tassa sull'uscita dall'Italia (exit tax). La nuova proposta prevede che l'imposta si applichi solo a chi trasferisce la residenza fiscale all'estero avendo redditi di almeno due milioni di euro, tenendo conto della fiscalità del Paese di destinazione. Il provvedimento è stato riaccettato dopo chiarimenti del proponente, mentre è stato respinto l'emendamento della Lega che prevedeva un aumento dell'imposta sulle società per finanziare il fondo pensioni.",
+      "context": "La modifica dell'exit tax è un nodo cruciale della manovra economica, poiché incide sulla mobilità dei contribuenti ad alto reddito. Il riammettimento dell'emendamento indica una volontà politica di alleggerire il carico fiscale per una fascia ristretta di contribuenti, bilanciando le entrate statali con criteri di equità internazionale.",
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/24/pressing-di-salvini-sul-condono.-alt-dei-sindaci-non-ricada-tutto_afb633f3-0b1a-4acd-8a7c-858433efc830.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/24/a39eac754659c069819aa38314eb3fc5.jpg",
+        "credit": "ANSA",
+        "link": "https://www.ansa.it/sito/notizie/politica/2026/11/24/pressing-di-salvini-sul-condono.-alt-dei-sindaci-non-ricada-tutto_afb633f3-0b1a-4acd-8a7c-858433efc830.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale condizione specifica introduce l'emendamento riammesso per l'applicazione dell'exit tax?",
+          "options": [
+            "Si applica a tutti i cittadini che trasferiscono la residenza all'estero",
+            "Si applica solo a chi ha redditi di almeno due milioni di euro",
+            "Si applica solo a chi trasferisce la residenza in Paesi a fiscalità privilegiata",
+            "Viene abolita completamente per i trasferimenti temporanei"
+          ],
+          "answer": 1,
+          "explanation": "L'emendamento prevede che la tassa si applichi a chi trasferisce la residenza fiscale fuori dall'Italia avendo almeno due milioni di euro di redditi."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-25-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Perseverance e Odyssey fuori linea: crisi nella flotta marziana NASA",
+      "summary": "Due delle quattro missioni NASA su Marte, il rover Perseverance e l'orbiter Odyssey, hanno sospeso le operazioni scientifiche a causa di guasti tecnici. Perseverance ha problemi ai radio UHF, ora usa il collegamento diretto X-band a bassa velocità. Odyssey sta consumando rapidamente il carburante residuo. Entrambi i veicoli operano oltre la loro vita utile prevista. La NASA sta indagando per ripristinare i sistemi, sperando in un ritorno alle normali attività entro fine novembre.",
+      "context": "La situazione evidenzia la vulnerabilità delle missioni spaziali che superano la loro durata di progetto. Perseverance è cruciale per il ritorno di campioni marziani sulla Terra, mentre Odyssey è la missione marziana più longeva della storia. Il malfunzionamento simultaneo riduce la capacità di raccolta dati e comunicazione della NASA sul pianeta rosso.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/PIA26752-1152x648-1795552223.jpg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/"
+      },
+      "quiz": [
+        {
+          "question": "Perché il rover Perseverance ha ridotto drasticamente la velocità di trasmissione dei dati?",
+          "options": [
+            "Perché il rover è in modalità di sicurezza permanente",
+            "Per risparmiare energia per il riscaldamento notturno",
+            "Perché i radio UHF sono guasti e usa il collegamento diretto X-band",
+            "Perché la Terra non riceve più segnali a causa del sole"
+          ],
+          "answer": 2,
+          "explanation": "I radio UHF ad alta velocità sono inattivi o difettosi, quindi il rover usa il sistema X-band per comunicare direttamente con la Terra, che ha una velocità di trasferimento dati molto inferiore."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-25-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Il rapper 2 Chainz ferito in un incidente stradale",
+      "summary": "Nei giorni scorsi il rapper 2 Chainz è rimasto coinvolto in un grave incidente stradale ad Atlanta, a bordo della sua Tesla Cybertruck. L'artista ha riportato la rottura di alcune costole dopo che un altro veicolo lo ha tamponato frontalmente. L'altro conducente avrebbe perso il controllo nel tentativo di evitare un opossum sulla strada.",
+      "context": "Gli incidenti stradali che coinvolgono veicoli di grandi dimensioni o con nuove tecnologie attirano grande attenzione mediatica, soprattutto quando riguardano personaggi famosi. Resta da monitorare la ripresa del musicista in vista dei suoi prossimi impegni discografici.",
+      "sources": [
+        {
+          "name": "People on MSN",
+          "url": "https://www.msn.com/en-ca/entertainment/general/2-chainz-breaks-ribs-in-car-crash-after-other-driver-dodged-a-possum-and-hit-the-rapper-s-vehicle-head-on/ar-AA2i9RrL"
+        },
+        {
+          "name": "XXL",
+          "url": "https://www.xxlmag.com/2-chainz-car-accident-cybertruck-details/"
+        },
+        {
+          "name": "EntertainmentNow",
+          "url": "https://entertainmentnow.com/music/2-chainz-car-crash-broken-ribs/"
+        }
+      ],
+      "image": {
+        "url": "https://townsquare.media/site/812/files/2026/11/attachment-2-chainz-car-accident-1.jpg?w=1200&format=natural",
+        "credit": "XXL",
+        "link": "https://www.xxlmag.com/2-chainz-car-accident-cybertruck-details/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha causato l'incidente stradale in cui è rimasto coinvolto 2 Chainz?",
+          "options": [
+            "Un altro conducente che ha sterzato per evitare un opossum",
+            "Un guasto meccanico della Tesla Cybertruck",
+            "La guida in stato di ebbrezza del rapper",
+            "Una distrazione dovuta all'uso dell'autopilota"
+          ],
+          "answer": 0,
+          "explanation": "Il rapper ha spiegato sui social che l'impatto frontale è avvenuto perché un altro automobilista ha cercato di schivare un opossum."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-25-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Un astronauta pakistano a bordo della missione cinese Shenzhou-24",
+      "summary": "La Cina ha lanciato la missione spaziale Shenzhou-24 con tre astronauti a bordo, diretta verso la stazione spaziale Tiangong. Tra loro c'è Muhammad Zeeshan Ali, il primo cittadino straniero a partecipare a una missione spaziale con equipaggio cinese e il primo pakistano nello spazio. Il volo segna un momento di cooperazione diplomatica e scientifica tra Pechino e Islamabad.",
+      "context": "Questa missione mostra la volontà della Cina di aprire la propria stazione spaziale a partner internazionali, posizionandosi come potenza spaziale alternativa agli Stati Uniti e rafforzando i legami geopolitici con il Pakistan.",
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/523e/live/04d6a820-e88f-11f1-99a1-253766e7ad8b.jpg",
+        "credit": "BBC Science",
+        "link": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quale importante traguardo ha segnato la missione Shenzhou-24 per il Pakistan?",
+          "options": [
+            "Ha portato il primo astronauta pakistano nello spazio",
+            "Ha lanciato il primo satellite pakistano indipendente",
+            "Ha stabilito una nuova base spaziale in territorio pakistano",
+            "Ha formato il primo equipaggio interamente pakistano"
+          ],
+          "answer": 0,
+          "explanation": "Muhammad Zeeshan Ali è il primo cittadino pakistano e il primo straniero a prendere parte a una missione con equipaggio cinese."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-25-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Borse europee in rosso per i timori di nuovi dazi americani",
+      "summary": "Le Borse europee e Piazza Affari hanno chiuso la seduta in territorio negativo. A pesare sui mercati sono state le indiscrezioni riguardanti la possibile introduzione di nuovi dazi da parte degli Stati Uniti sulle merci provenienti da Cina, Corea del Sud e Unione europea. Il calo ha colpito in particolare il settore tecnologico, estendendosi alle principali piazze finanziarie del continente.",
+      "context": "Le tensioni commerciali e le politiche tariffarie statunitensi influenzano direttamente l'andamento dei mercati finanziari globali. Gli investitori monitorano costantemente le mosse della Casa Bianca per valutare l'impatto sui titoli industriali e tecnologici europei ed asiatici.",
+      "sources": [
+        {
+          "name": "la Repubblica",
+          "url": "https://www.repubblica.it/economia/2026/11/24/diretta/le_borse_di_oggi_24_novembre_mercati_in_rialzo_con_ritorno_huang-425745545/"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/11/24/150136298-4469a945-67e9-4416-9d8f-ab5fe1fe68d2.jpg",
+        "credit": "la Repubblica",
+        "link": "https://www.repubblica.it/economia/2026/11/24/diretta/le_borse_di_oggi_24_novembre_mercati_in_rialzo_con_ritorno_huang-425745545/"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo le Borse europee hanno chiuso in rosso?",
+          "options": [
+            "Per l'aumento dei tassi di interesse deciso dalla banca centrale",
+            "Per un crollo improvviso del prezzo del petrolio",
+            "Per i timori legati a possibili nuovi dazi doganali americani",
+            "Per una crisi politica interna all'Unione europea"
+          ],
+          "answer": 2,
+          "explanation": "Il calo delle Borse europee è stato causato dai timori per i possibili nuovi dazi annunciati dalla Casa Bianca."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-25-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Deborah Ann Woll nella serie TV di God of War",
+      "summary": "L'attrice Deborah Ann Woll interpreterà Faye nella serie televisiva live-action di God of War prodotta da Prime Video. Si tratta di un ritorno per l'interprete, che aveva già prestato il volto e la voce al personaggio nei videogiochi. Woll si unisce a un cast che include Dave Bautista nel ruolo di Kratos e Callum Vinson in quello di Atreus.",
+      "context": "Gli adattamenti di videogiochi di successo in serie televisive sono una tendenza in crescita per le piattaforme di streaming. Il successo di queste produzioni dipende dalla fedeltà ai materiali originali e dalla capacità di coinvolgere il pubblico degli appassionati.",
+      "sources": [
+        {
+          "name": "Sky TG24",
+          "url": "https://tg24.sky.it/spettacolo/serie-tv/2026/11/24/god-of-war-deborah-ann-woll"
+        },
+        {
+          "name": "SpazioGames on MSN",
+          "url": "https://www.msn.com/it-it/notizie/other/god-of-war-deborah-ann-woll-sar%C3%A0-faye-nella-serie-tv-di-amazon/ar-AA2i4FkW"
+        }
+      ],
+      "image": {
+        "url": "https://tg24.sky.it/assets/images/20c2084aabe807441d919d05b77756941386cfcc/skytg24/it/spettacolo/serie-tv/2026/11/24/god-of-war-deborah-ann-woll/deborah-GettyImages-2267621396.jpg?im=Resize,width=1218",
+        "credit": "Sky TG24",
+        "link": "https://tg24.sky.it/spettacolo/serie-tv/2026/11/24/god-of-war-deborah-ann-woll"
+      },
+      "quiz": [
+        {
+          "question": "Quale ruolo interpreterà Deborah Ann Woll nella serie TV di God of War?",
+          "options": [
+            "Freya",
+            "Faye",
+            "Thrud",
+            "Sif"
+          ],
+          "answer": 1,
+          "explanation": "Deborah Ann Woll riprenderà il ruolo di Faye, personaggio che aveva già interpretato nei videogiochi della serie."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-25-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Il record straordinario del quindicenne Vaibhav Sooryavanshi nel cricket",
+      "summary": "Il quindicenne indiano Vaibhav Sooryavanshi ha stabilito un record mondiale nel cricket durante la competizione Asia Cup Rising Stars a Doha. Giocando per la selezione giovanile indiana contro gli Emirati Arabi Uniti, ha segnato 204 punti in appena 53 palle, colpendo 28 sei e battendo il precedente primato per il doppio secolo più veloce in partite ufficiali di un giorno.",
+      "context": "Questa prestazione straordinaria conferma l'ascesa di uno dei talenti più precoci nella storia di questo sport. Le partite ufficiali di un giorno, note come List A, misurano il cricket professionistico a 50 overs, rendendo l'impresa del giovane battitore un evento senza precedenti per rapidità di punteggio.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/c6y9709xx4qwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/f124/live/9f6b8b40-e802-11f1-95bb-3f37d3e026b0.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/c6y9709xx4qwo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Quanti punti ha segnato Vaibhav Sooryavanshi in sole 53 palle?",
+          "options": [
+            "150",
+            "204",
+            "250",
+            "366"
+          ],
+          "answer": 1,
+          "explanation": "Il quindicenne ha realizzato ben 204 punti in 53 palle durante la partita a Doha."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-25-7"
+    },
+    {
+      "category": "storia",
+      "tag": "25 novembre 1915",
+      "title": "Albert Einstein annota le equazioni di campo della relatività generale",
+      "summary": "Albert Einstein annota sul suo taccuino la formula fondamentale della teoria della relatività generale. Questa equazione descrive la curvatura dello spaziotempo in funzione della densità di materia, dell'energia e della pressione, fornendo le basi matematiche per comprendere la struttura e l'evoluzione dell'intero universo.",
+      "context": "Questa formulazione ha rivoluzionato la fisica moderna, sostituendo la gravità di Newton con l'idea che la massa deformi lo spaziotempo. Ha aperto la strada alla cosmologia moderna e alla previsione di fenomeni come i buchi neri e le onde gravitazionali.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Equazione_di_campo_di_Einstein"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/1280px-Albert_Einstein_Head_cleaned.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa descrive l'equazione di campo annotata da Albert Einstein?",
+          "options": [
+            "La massa di ripartizione delle particelle subatomiche",
+            "L'energia cinetica degli elettroni nell'atomo",
+            "La velocità della luce nel vuoto assoluto",
+            "La curvatura dello spaziotempo in funzione di materia ed energia"
+          ],
+          "answer": 3,
+          "explanation": "L'equazione fondamentale della relatività generale descrive proprio come la materia e l'energia curvano lo spaziotempo."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-25-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Incidenti di Spalato",
+      "title": "Le famiglie spalatine divise tra Italia e Jugoslavia dopo il Trattato di Rapallo",
+      "summary": "Dopo il Trattato di Rapallo del 1920, i residenti italiani di Spalato poterono scegliere la cittadinanza italiana o jugoslava. Molte famiglie si divisero: i fratelli Tartaglia optarono per cittadinanze opposte, così come i Morpurgo, i Bettiza e altri. Questa scissione interna mostrò quanto fossero profonde le tensioni nazionali, con membri della stessa famiglia che si schierarono su fronti diversi.",
+      "context": "Nel dopoguerra la Dalmazia fu teatro di scontri tra l'irredentismo italiano e il nazionalismo jugoslavo, culminati negli incidenti di Spalato (1918‑1920) e nella difficile definizione delle identità cittadine.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Incidenti_di_Spalato"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Split_split.hr_2024.svg/1280px-Flag_of_Split_split.hr_2024.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Flag_of_Split_split.hr_2024.svg"
+      },
+      "quiz": [
+        {
+          "question": "Quale fenomeno si verificò tra le famiglie italiane di Spalato dopo il Trattato di Rapallo del 1920?",
+          "options": [
+            "Alcuni fratelli scelsero cittadinanze diverse",
+            "La popolazione italiana divenne maggioranza",
+            "Nessuna famiglia cambiò cittadinanza",
+            "Tutte emigrarono in Italia"
+          ],
+          "answer": 0,
+          "explanation": "Alcuni fratelli, come i Tartaglia, i Morpurgo e i Bettiza, scelsero cittadinanze diverse, evidenziando la divisione interna."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-25-9"
+    }
+  ]
+}
