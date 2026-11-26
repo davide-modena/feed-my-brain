@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T05:34:02.224Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "USA annuncia nuove tariffe su Cina, UE e altri paesi",
+      "summary": "Il governo degli Stati Uniti, guidato dal presidente Donald Trump, ha presentato un nuovo pacchetto di dazi su importazioni provenienti da una ventina di partner commerciali, tra cui Cina, Unione europea, Giappone, Corea del Sud e Taiwan. Per la Cina la tassa massima è prevista fino al 40 % di valore, mentre per altri paesi varia tra il 15 % e il 35 %. Le misure entreranno in vigore l'anno prossimo, previa consultazione pubblica.",
+      "context": "Le nuove tariffe mirano a correggere pratiche commerciali ritenute sleali e a ridurre il deficit commerciale americano, ma rischiano di aumentare i prezzi per i consumatori e di rallentare il commercio globale.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPbFcyS0k2Z2x1dzdpVzdYTXBaRFllMTZ4RkNNMmotc2dVZUtKaUdFX1RkTlJJSEZpdDc0S0Q1RnIwcGRYbHk4eTlyNS1Fd3U3aE9VU1pSRzhYM202X3NmU3o3MjNWSlJxWm9yYVhvSGdRdTZxYWpqMlg5N2RVbEtKSlJMR3JpdVh0cHpEbEo5dWxVeWp2c2k0cm1feDlEaW9rbk43YVMtYUpyQ3BRczVqUk1fdFo1d1lHZW9hWkFnWGRMczVPcGFnZERTak9LTTRGRUZXdm5pcWpJTkpKZG90M05hTGxTUFU3a3R0ZmY5emZtdlgxY3U2Z1M1dnNCbUIyX09ob3NkYVJsRGtpcFZMTEhoSkpVeUZuX0R4bDRKRE8xYm13MDRzX3RsUUQ3aGVxbzFHZE5pNNIBvAJBVV95cUxPMmptTEdmU294NU1MMWk0NU9qcWJZYnR1SmN1bVE4VGVqQzVZZmZLWTZadS1XXzRDaTFJWlZtSDhNTlVUOWEyS3hpN3dJN3cwSzJ4Z3hGLVRhN3MyemlzT3lRTC1CY0hHYnZJaDFFSDJ1RVFSaTAwbVlBVmd5TUVROGptRnR5SnY1clVBMTNrZjJsekZ6eE5DSkdWeWE1c05UT0JqNC1aY1FIbm1udUF4VURHYkJzVmVYV2JtMlNEdmVHc3NTTTRKU25saWZ3TUotWW44UXQzajlUYUVJdTlYOEJmUXNLc2xUUThQYnh6cENKSzExWWFaSEVma1RZa1hRc2FtRkdxY0dodlp3UzNnX1pMRG5jOGVPakdmVDAyc04xVnhFTUl6eGhkUFExTVFYLXB5bnh5VEpOX3Az?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la tariffa massima annunciata dagli Stati Uniti per le importazioni cinesi?",
+          "options": [
+            "40 %",
+            "20 %",
+            "15 %",
+            "35 %"
+          ],
+          "answer": 0,
+          "explanation": "Il comunicato della US Trade Representative indica una tassa fino al 40 % per la Cina."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-26-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "De Gennaro: la lettera-testamento prima del suicidio",
+      "summary": "Gianni De Gennaro, ex capo della Polizia, ha lasciato una lettera di otto pagine scritta a mano poco prima del suicidio. Nel documento, definito 'testamento morale', nega di aver tradito la Patria e spiega le ragioni per cui ha custodito un hard disk cercato dai carabinieri. La lettera, indirizzata al procuratore De Luca, è stata resa pubblica dal Corriere della Sera.",
+      "context": "Il caso riguarda le indagini della Procura di Caltanissetta su documenti ritenuti compromettenti. La lettera offre una versione dei fatti diretta dall'ex poliziotto, contestando le accuse di occultamento e difendendo la propria onestà professionale.",
+      "sources": [
+        {
+          "name": "Repubblica",
+          "url": "https://www.repubblica.it/cronaca/2026/11/26/news/de_gennaro_ultima_lettera_non_sono_un_traditore-425750862/?rss"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNaDNBdXllbjJOWjhXaHNjaHJQWlV3amN4YkI0VnB3THdBNlVhbFdBNVRnZ3FmOUNqUFphTVdSNC1ZSFAyT21TVVd2RWozSkdzX0RibHVPYmpBUDVpYWI3U0gtQTJSektuZVA0Tk1ieU9QQWZKaGZVQ19EejlmaGVFYXFodWlrNEZUemRpcGZOR3dJVjlZZ19YbEwzeE5Pa3N5WVNmTzVnTmpOWll2eDFjLXF5NlBoVGpKanNxMDVELVprajdQWE9kYUk4NHBIcndwSWRyWUNMZ0ZWRHFMWWVyWDM4UQ?oc=5"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/26/la-lettera-di-de-gennaro-sul-corriere-io-condannato-a-morte_8d506c3b-6d62-4d78-a4a7-2c6bed64af4a.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/11/26/021534158-93769228-f04a-4fda-9585-8bc711644564.jpg",
+        "credit": "Repubblica",
+        "link": "https://www.repubblica.it/cronaca/2026/11/26/news/de_gennaro_ultima_lettera_non_sono_un_traditore-425750862/?rss"
+      },
+      "quiz": [
+        {
+          "question": "Perché De Gennaro afferma di aver nascosto l'hard disk?",
+          "options": [
+            "Per nascondere prove di un omicidio",
+            "Per ricattare i politici citati",
+            "Per evitare che fosse acquisito da chi non sapeva valutarlo",
+            "Per proteggere segreti di Stato"
+          ],
+          "answer": 2,
+          "explanation": "Nella lettera scrive di aver evitato di dare il disco a chi non era in grado di valutarne il contenuto."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-26-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "La FCC autorizza a SpaceX il lancio di 1 milione di satelliti",
+      "summary": "La Federal Communications Commission (FCC) ha autorizzato SpaceX a lanciare un milione di satelliti per il progetto Starmind. L'ente ha respinto le preoccupazioni ambientali sollevate da circa 1.500 commentatori pubblici e da organizzazioni come la Società Astronomica Americana, definendole speculative o fuori dalla sua giurisdizione. La decisione si basa su un cambio di politica di ottobre che esclude le attività spaziali dalla revisione ambientale federale. SpaceX dovrà comunque ottenere un'esenzione specifica per i satelliti non destinati a rientrare in atmosfera.",
+      "context": "L'autorizzazione segna un precedente significativo nella regolamentazione spaziale, riducendo gli ostacoli burocratici per le costellazioni massive. Il dibattito riguarda l'impatto cumulativo dei detriti orbitali e l'inquinamento atmosferico da rientri, temi che la FCC ha scelto di non approfondire in questa fase.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/starmind-1152x648.jpeg",
+        "credit": "Ars Technica",
+        "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
+      },
+      "quiz": [
+        {
+          "question": "Perché la FCC ha respinto le preoccupazioni ambientali sollevate da varie organizzazioni?",
+          "options": [
+            "Perché le preoccupazioni riguardavano solo il costo dei lanci",
+            "Perché i satelliti non causeranno detriti orbitali",
+            "Perché ha stabilito che le attività spaziali non richiedono revisione ambientale federale",
+            "Perché SpaceX ha fornito prove insufficienti sull'efficacia dei metodi di smaltimento"
+          ],
+          "answer": 2,
+          "explanation": "La FCC ha citato una modifica politica di ottobre secondo cui le attività spaziali, avvenendo al di fuori del territorio USA, non rientrano negli obblighi di revisione ambientale."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-26-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Drake gira scene non autorizzate al Moody Center della Rice University",
+      "summary": "Nei giorni scorsi il cantante Drake ha girato alcune scene del video musicale del brano \"Ya Hit\" di Future presso l'installazione d'arte pubblica della Rice University, in Texas, senza ottenere i permessi necessari dalla direzione. La sicurezza del campus e l'università non erano a conoscenza delle riprese. L'ateneo ha comunque chiarito che non intende prendere provvedimenti contro l'artista e che le porte della struttura restano aperte per le sue future visite.",
+      "context": "Questo episodio evidenzia come la gestione degli spazi universitari e dei luoghi d'arte debba bilanciare le regole sui permessi commerciali con la pubblicità gratuita generata dalla presenza di celebrità, un tema rilevante per la tutela del patrimonio artistico.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/drake-ya-hit-video-film-rice-university-without-permission-1236389498/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/11/drake-ya-hit-video-youtube-1800.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/drake-ya-hit-video-film-rice-university-without-permission-1236389498/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa è successo al Moody Center della Rice University con Drake?",
+          "options": [
+            "Ha tenuto un concerto gratuito non autorizzato",
+            "Ha girato scene per un video musicale senza permessi",
+            "Ha danneggiato alcune opere d'arte del campus",
+            "Ha acquistato l'installazione artistica"
+          ],
+          "answer": 1,
+          "explanation": "Drake ha girato scene per il video musicale del brano \"Ya Hit\" senza l'autorizzazione dell'università."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-26-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Nuove foto della sonda Hera rivelano il cratere su Dimorphos",
+      "summary": "Le prime immagini ravvicinate scattate dalla sonda europea Hera mostrano il cratere lasciato dall'impatto della sonda americana DART sulla superficie dell'asteroide Dimorphos. L'urto, avvenuto nel settembre del 2022 per testare una tecnica di difesa planetaria, ha creato una vasta cavità grande circa quanto l'emisfero colpito e ha modificato l'orbita dell'asteroide.",
+      "context": "Questo studio fa parte della missione internazionale di difesa planetaria per capire se sia possibile deviare asteroidi pericolosi per la Terra. I dati raccolti da Hera serviranno a verificare l'efficacia di questa tecnologia.",
+      "sources": [
+        {
+          "name": "Galileo",
+          "url": "https://www.galileonet.it/difendere-terra-asteroide-dart-cratere/"
+        },
+        {
+          "name": "The Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/nov/25/dimorphos-asteroid-spacecraft-crash-closeup-images"
+        }
+      ],
+      "image": {
+        "url": "https://www.galileonet.it/wp-content/uploads/2026/11/55661213297_094e0b1d1b_c.jpg",
+        "credit": "Galileo",
+        "link": "https://www.galileonet.it/difendere-terra-asteroide-dart-cratere/"
+      },
+      "quiz": [
+        {
+          "question": "Cosa mostrano le nuove immagini della sonda Hera su Dimorphos?",
+          "options": [
+            "Il cratere causato dall'impatto della sonda DART",
+            "Il passaggio ravvicinato della Terra",
+            "La distruzione totale dell'asteroide Didymos",
+            "La nascita di una nuova luna in orbita"
+          ],
+          "answer": 0,
+          "explanation": "Le immagini ravvicinate inviate dalla sonda Hera mostrano il grande cratere scavato sulla superficie di Dimorphos dalla collisione con la sonda DART."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-26-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "Germania supera il limite di deficit ma UE non avvia la procedura",
+      "summary": "La Commissione europea ha valutato che, nonostante il deficit della Germania per il 2026 sia previsto al 4,1 % del Pil (4,4 % nel 2027) e superi il limite del 3 %, la parte eccedente è in gran parte dovuta alla clausola di difesa, che consente spese fino all’1,5 % del Pil. Per questo motivo, per ora non avvierà la procedura di deficit eccessivo, rimandandola al ciclo di primavera 2027.",
+      "context": "Il caso evidenzia le tensioni tra le regole fiscali dell’Unione europea e le esigenze di difesa dei paesi membri, mostrando come la flessibilità temporanea possa influenzare l’applicazione del patto di stabilità.",
+      "sources": [
+        {
+          "name": "HuffPost Italia",
+          "url": "https://www.huffingtonpost.it/economia/2026/11/24/news/germania_deficit_procedura-23360704/"
+        }
+      ],
+      "image": {
+        "url": "https://www.gedistatic.it/content/gedi/img/huffingtonpost/2026/11/24/175342169-37857edb-ff2b-4cd9-bdf5-4420a2e971d3.jpg",
+        "credit": "HuffPost Italia",
+        "link": "https://www.huffingtonpost.it/economia/2026/11/24/news/germania_deficit_procedura-23360704/"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la decisione della Commissione europea sul deficit tedesco previsto per il 2026?",
+          "options": [
+            "Aumentare il limite del deficit",
+            "Aprire una procedura di deficit eccessivo",
+            "Non aprire alcuna procedura",
+            "Ridurre la clausola di difesa"
+          ],
+          "answer": 2,
+          "explanation": "La Commissione ha ritenuto che l’eccesso sia dovuto principalmente alla clausola di difesa e ha quindi deciso di non avviare la procedura di deficit eccessivo."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-26-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "Due film italiani tra gli ammessi ai Golden Globe",
+      "summary": "I film italiani \"L'Estranea\" di Paolo Strippoli e \"Il Vangelo di Giuda\" di Giulio Bose sono stati ammessi tra i 42 titoli non in lingua inglese eleggibili all'84ª edizione dei Golden Globe. Con l'avvio delle votazioni, i giurati hanno ricevuto le liste dei concorrenti ammessi nelle diverse categorie. Le candidature ufficiali saranno annunciate il 7 dicembre, mentre la cerimonia di premiazione si svolgerà il 10 gennaio a Beverly Hills.",
+      "context": "I Golden Globe aprono tradizionalmente la stagione dei premi cinematografici statunitensi. \"L'Estranea\" rappresenta anche la scelta ufficiale dell'Italia per gli Oscar, rendendo questo passaggio preliminare un importante banco di prova per la visibilità internazionale del nostro cinema.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/25/golden-globe-in-lizza-fra-88-titoli-lestranea-di-strippoli-e-il-vangelo-di-giuda_508bc502-7976-4fa3-9bfd-0704b5526a8c.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/9/7/b154380276f3807d302f4a0e89d0a184.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/25/golden-globe-in-lizza-fra-88-titoli-lestranea-di-strippoli-e-il-vangelo-di-giuda_508bc502-7976-4fa3-9bfd-0704b5526a8c.html"
+      },
+      "quiz": [
+        {
+          "question": "In quale categoria dei Golden Globe sono stati inclusi i due film italiani?",
+          "options": [
+            "Miglior film non in lingua inglese",
+            "Miglior film drammatico",
+            "Miglior film d'animazione",
+            "Miglior commedia o musical"
+          ],
+          "answer": 0,
+          "explanation": "Entrambe le pellicole italiane figurano nell'elenco ufficiale dei 42 titoli eleggibili per i film non in lingua inglese."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-26-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Pochettino: Manchester United 'punito' nel caos del pareggio con lo Sporting",
+      "summary": "Mauricio Pochettino ha definito ingiuste le decisioni arbitrali durante il pareggio 2-2 dello Sporting Lisbona contro il Manchester United in Champions League. Il tecnico argentino ha criticato l'annullamento di un gol di Amad Diallo e le espulsioni subite dalla sua squadra. Il match si è concluso in parità dopo un errore decisivo del portiere Senne Lammens, che ha concesso il pareggio agli avversari nonostante il vantaggio iniziale dei Red Devils.",
+      "context": "L'inizio di Pochettino a Manchester è segnato da due sconfitte o pareggi e da una forte instabilità difensiva, con diverse espulsioni. Le polemiche arbitrali evidenziano le difficoltà della squadra nel gestire le partite chiave e la pressione mediatica sul nuovo allenatore.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6vg24l724l4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/25/mauricio-pochettino-officials-punished-manchester-united-sporting"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/football/videos/c6ly5145gg1do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7aff/live/89296710-e930-11f1-99a1-253766e7ad8b.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c6vg24l724l4o?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Secondo Pochettino, qual è stata la principale critica riguardo all'arbitraggio nella partita contro lo Sporting?",
+          "options": [
+            "Il portiere avversario ha simulato un fallo",
+            "Il VAR ha funzionato in modo errato su tutti i gol",
+            "La squadra è stata punita in modo sproporzionato in azioni chiave",
+            "L'arbitro ha ignorato un rigore netto per il Manchester United"
+          ],
+          "answer": 2,
+          "explanation": "Pochettino ha dichiarato che è difficile trovare una partita in cui si viene puniti così tanto in una sola gara, riferendosi alle decisioni su gol annullati e cartellini."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-26-7"
+    },
+    {
+      "category": "storia",
+      "tag": "26 novembre 1922",
+      "title": "La scoperta della tomba di Tutankhamon",
+      "summary": "Il 26 novembre 1922, nella Valle dei Re in Egitto, l'archeologo britannico Howard Carter e il suo mecenate Lord Carnarvon aprirono un varco nella porta sigillata della tomba del faraone Tutankhamon. Dopo aver individuato la scalinata all'inizio del mese, i due guardarono per la prima volta all'interno. Scoprirono così un corredo straordinario, rimasto intatto e inviolato per oltre tremila anni.",
+      "context": "È stata la prima tomba faraonica scoperta pressoché intatta. Il ritrovamento ha rivoluzionato l'egittologia e la catalogazione scientifica dei suoi oltre duemila reperti ha fissato nuovi standard per l'archeologia moderna.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Howard_Carter"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Howard_carter.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Howard_carter.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo la scoperta della tomba di Tutankhamon fu considerata straordinaria?",
+          "options": [
+            "Ha permesso di decifrare per la prima volta la scrittura geroglifica",
+            "Custodiva la prima mummia mai rinvenuta nella Valle dei Re",
+            "Era la prima tomba di un faraone a essere ritrovata intatta",
+            "Era l'unico sepolcro mai documentato nell'antico Egitto"
+          ],
+          "answer": 2,
+          "explanation": "La tomba ha conservato l'intero corredo funerario intatto e protetto da profanazioni per più di tre millenni."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-26-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Norah Borges",
+      "title": "La critica d'arte nascosta dietro il nome di Manuel Pinedo",
+      "summary": "Leonor Fanny Borges, nota come Norah Borges, è stata una protagonista delle avanguardie artistiche del Novecento, a lungo oscurata dalla fama del fratello Jorge Luis e del marito Guillermo de Torre. Artista prolifica ed esperta incisore, illustrò circa ottanta opere letterarie dei maggiori autori sudamericani. Per farsi spazio nel mondo intellettuale dell'epoca, tra il 1946 e il 1948 scelse di pubblicare i propri articoli di critica d'arte con uno pseudonimo maschile: Manuel Pinedo.",
+      "context": "All'inizio del Novecento le donne attive nelle avanguardie artistiche e letterarie venivano spesso relegate a ruoli secondari. L'opera di Norah Borges è stata riscoperta e pienamente rivalutata solo negli anni Novanta grazie a mostre e ricerche sull'ultraismo ispanoamericano.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Norah_Borges"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Norah_Borges_y_Guillermo_de_Torre.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Norah_Borges_y_Guillermo_de_Torre.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Con quale pseudonimo maschile Norah Borges pubblicò recensioni e articoli di critica d'arte?",
+          "options": [
+            "Manuel Pinedo",
+            "Maurice Sarkisoff",
+            "Arnaldo Bossi",
+            "Guillermo de Torre"
+          ],
+          "answer": 0,
+          "explanation": "Tra il 1946 e il 1948 Norah Borges scrisse articoli di critica d'arte per gli Anales de Buenos Aires sotto lo pseudonimo di Manuel Pinedo."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-26-9"
+    }
+  ]
+}
