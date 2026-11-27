@@ -1,0 +1,384 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T05:32:05.047Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Zelensky accusa gli USA di trascurare la Russia",
+      "summary": "Il presidente ucraino Volodymyr Zelensky ha dichiarato alla BBC che gli Stati Uniti stanno ritardando la consegna di sistemi difensivi contro missili balistici e si concentrano troppo sul Medio Oriente, perciò non esercitano pressione sufficiente su Mosca nei negoziati di pace. Ha inoltre criticato la foto di Donald Trump con Vladimir Putin, definendola inaccettabile.",
+      "context": "La denuncia di Zelensky evidenzia una tensione tra Kiev e Washington sulla priorità degli aiuti militari e la strategia diplomatica verso la Russia, elementi chiave per l'evoluzione del conflitto e delle trattative di pace.",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/20f7/live/d0e75f10-e9e6-11f1-ab41-f1f84c0c758a.jpg",
+        "credit": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Qual è la principale accusa di Zelensky verso gli Stati Uniti?",
+          "options": [
+            "Che ignorano le richieste di aiuti economici",
+            "Che sostengono apertamente Donald Trump",
+            "Che forniscono troppe armi difensive all'Ucraina",
+            "Che si concentrano sul Medio Oriente e non spingono abbastanza la Russia"
+          ],
+          "answer": 3,
+          "explanation": "Zelensky ha detto che gli USA sono troppo focalizzati sul Medio Oriente e non stanno facendo pressione sufficiente su Mosca nei negoziati di pace."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-27-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Governo avvia lavori su condono edilizio e terzo mandato",
+      "summary": "Il governo italiano sta preparando una norma nella legge di bilancio per sbloccare le pratiche edilizie ferme entro il 2027, utilizzando il meccanismo del silenzio-assenso. Il ministro Salvini ha confermato l'intenzione di rilanciare il Piano Casa non appena la Corte dei Conti sbloccerà il fascicolo. Parallelamente, il ministro Zangrillo ha annunciato l'apertura di un confronto per estendere il terzo mandato consecutivo ai sindaci di tutti i comuni, superando l'attuale limite di 15mila abitanti.",
+      "context": "Queste misure cercano di rispondere alle criticità degli enti locali, tra burocrazia edilizia e vincoli istituzionali. L'approvazione dipenderà dall'intesa all'interno della maggioranza politica e dalle verifiche tecniche della Corte dei Conti.",
+      "sources": [
+        {
+          "name": "Rai News",
+          "url": "https://www.rainews.it/articoli/2026/11/terzo-mandato-condono-e-piano-casa-il-governo-apre-il-cantiere-degli-enti-locali-b2f3d52b-63ad-42d7-af72-fd74d9c1d06e.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTnZ0dXA5amFzTlVoUkFEUkZ5UmRWcW54dHFfd0hRdnRWek9ScGNIN2hNd1J1VjFhWkhhMzQ2dTdqcjFkeVVSQzJWV2pGdjQzOXhiS295My1zX2dRbG5RS3VzUnFPUzZ5NGxFRFpXZjE2MlBzc3BlWGhDTXdYVnhGc3otWjEyWXJGanI5MlhDS3dyb0VNMjdncHZ0S3Q5U09KbGcxWDNibGRHSzlma1dMRzAwSmlEVXAzZlZOazExdGhiNUdnQzE4NVN6VlVjM3BwUmZZazR3UDBJTUc4N005ZUtFYkFzMFM3aERNTXRMM0lKU05mV3NhV3pOSGtJQdIBgwJBVV95cUxPTmM5eTJKQlFhYmdUckx1TU9ZR0FvTDA0a1VNTHRlVWw3Q25pZDAxQ01ZSUNpRWdJcEZYTUluQ1MwckN1cTk5bVZUbEFMZjlEQVFBNEN5VmhSd3gxdUlYeW1NRGdQSVJwbW5pZ2pwd2dLRklzU3pxQVAwRUxnNk5Wb3gtWEtBRVpLV1Jid1NLaEF4Z1o3VXVhdHJ4TXljbXdrSHBPb0tWUTFzSElRSEpkQVpRcXIxanZCbGljSWdVVEpDSGJQbHVZVFhWOHhYYTZNWGM2YzFNQzFQdUU2TVhkc2k4dXBrWXphMlNTM3lpMnJSN3hPY2ZQczdtQmt2MDEtS2I4?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2022/12/18/1671389837824_rainewsbcabefbaebe.jpg",
+        "credit": "Rai News",
+        "link": "https://www.rainews.it/articoli/2026/11/terzo-mandato-condono-e-piano-casa-il-governo-apre-il-cantiere-degli-enti-locali-b2f3d52b-63ad-42d7-af72-fd74d9c1d06e.html"
+      },
+      "quiz": [
+        {
+          "question": "Quale meccanismo viene introdotto per sbloccare le pratiche edilizie ferme?",
+          "options": [
+            "Il silenzio-assenso",
+            "La revoca automatica",
+            "Il blocco totale",
+            "La proroga di cinque anni"
+          ],
+          "answer": 0,
+          "explanation": "Il testo specifica che l'intervento si baserà su un meccanismo di silenzio-assenso introdotto tramite emendamento."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-27-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "New York vieta i giocattoli con chatbot AI per 5 anni",
+      "summary": "La governatrice di New York, Kathy Hochul, ha firmato una legge che vieta per cinque anni la vendita di giocattoli con chatbot di intelligenza artificiale integrati. La norma copre peluche parlanti, bambole e robot che usano internet per conversare con i bambini. L'obiettivo è proteggere i minori da conversazioni inappropriati, manipolazioni emotive e rischi per la privacy. Il divieto entrerà in vigore 90 giorni dopo la firma, quindi non sarà attivo durante le festività natalizie di quest'anno.",
+      "context": "La mossa di New York segna un passo significativo nella regolamentazione dell'IA destinata ai minori negli Stati Uniti. Il provvedimento riflette crescenti preoccupazioni sulla sicurezza digitale dei bambini e potrebbe ispirare altre giurisdizioni a legiferare in modo simile.",
+      "sources": [
+        {
+          "name": "The Baltimore Sun",
+          "url": "https://www.baltimoresun.com/2026/11/25/new-york-governor-signs-five-year-ban-on-artificial-intelligence-chatbot-toys/"
+        }
+      ],
+      "image": {
+        "url": "https://www.baltimoresun.com/wp-content/uploads/2026/07/Prediction_Markets_Lawsuit_9622_.jpg?w=3600&h=2400",
+        "credit": "The Baltimore Sun",
+        "link": "https://www.baltimoresun.com/2026/11/25/new-york-governor-signs-five-year-ban-on-artificial-intelligence-chatbot-toys/"
+      },
+      "quiz": [
+        {
+          "question": "Quando entrerà in vigore il divieto sui giocattoli con chatbot AI a New York?",
+          "options": [
+            "Immediatamente dopo la firma",
+            "90 giorni dopo la firma",
+            "Dopo un anno dalla firma",
+            "Solo dopo le elezioni del 2027"
+          ],
+          "answer": 1,
+          "explanation": "La legge specifica che le restrizioni diventeranno operative 90 giorni dopo la firma del provvedimento."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-27-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Wu-Tang Clan e Chad Smith al halftime dei Detroit Lions",
+      "summary": "Ieri, durante la partita di football americano dei Detroit Lions per il Giorno del Ringraziamento, il Wu-Tang Clan ha eseguito il medley di chiusura del tour d'addio. La formazione, accompagnata dal batterista dei Red Hot Chili Peppers Chad Smith, ha suonato per quasi sette minuti al Ford Field, chiudendo la serie di concerti 'Wu-Tang Forever: The Final Chamber'.",
+      "context": "L'evento segna la fine ufficiale della carriera live del gruppo hip-hop, di recente inserito nella Rock and Roll Hall of Fame. La collaborazione con Chad Smith, originario di Detroit, sottolinea i legami personali e culturali tra la band e la città ospite.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/lists/wu-tang-clan-thanksgiving-halftime-detroit-lions-nfl-game/"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/11/NFL-Wu-Tang-Clan-Chicago-Bears-vs.-Detroit-Lions-Getty-Billboard-1548.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/lists/wu-tang-clan-thanksgiving-halftime-detroit-lions-nfl-game/"
+      },
+      "quiz": [
+        {
+          "question": "Quale funzione aveva la performance del Wu-Tang Clan al Ford Field?",
+          "options": [
+            "Era un tributo a Ol' Dirty Bastard",
+            "Era una celebrazione per l'ingresso nella Hall of Fame",
+            "Era la chiusura del tour d'addio del gruppo",
+            "Era il concerto inaugurale del nuovo album"
+          ],
+          "answer": 2,
+          "explanation": "Il testo specifica che il medley è stato annunciato come 'the wrap-up' (la chiusura) del tour d'addio 'Wu-Tang Forever: The Final Chamber'."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-27-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Un microchip a luce ultravioletta per computer quantistici più piccoli",
+      "summary": "Un gruppo di ricerca guidato dall'Universita di Harvard ha realizzato un dispositivo microscopico in niobato di litio sottile capace di produrre luce ultravioletta direttamente sul chip, superando i problemi di perdita di potenza. Il sistema trasforma la luce rossa in luce ultravioletta tramite la conversione di frequenza, generando una potenza di gran lunga superiore rispetto ai precedenti dispositivi simili e aprendo la strada a computer quantistici piu compatti.",
+      "context": "La miniaturizzazione delle fonti di luce ultravioletta e fondamentale per sviluppare computer quantistici avanzati e orologi atomici precisi. L'uso del niobato di litio dimostra come materiali tradizionalmente impiegati per altre lunghezze d'onda possano essere adattati per nuove applicazioni tecnologiche.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261126063333.htm"
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/sidewall-poled-lithium-niobate-device.webp",
+        "credit": "ScienceDaily",
+        "link": "https://www.sciencedaily.com/releases/2026/11/261126063333.htm"
+      },
+      "quiz": [
+        {
+          "question": "Come viene generata la luce ultravioletta nel nuovo dispositivo sviluppato a Harvard?",
+          "options": [
+            "Convertendo la luce rossa direttamente all'interno del chip",
+            "Riscaldando il niobato di litio ad altissime temperature",
+            "Utilizzando fasci di luce solare concentrata",
+            "Sfruttando segnali provenienti dalle telecomunicazioni"
+          ],
+          "answer": 0,
+          "explanation": "Il dispositivo trasforma la luce rossa in luce ultravioletta combinando due fotoni grazie a un processo di conversione di frequenza nel niobato di litio."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-27-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Economia",
+      "title": "La Cina avverte gli Stati Uniti contro le nuove tariffe commerciali",
+      "summary": "La Cina ha annunciato di riservarsi il diritto di prendere misure necessarie dopo che il governo degli Stati Uniti ha proposto nuove tariffe commerciali sui prodotti cinesi e di altri partner. Pechino rischia una delle aliquote massime più alte, fino al 20% che in alcuni casi può salire al 45% sommata ad altre tasse. Il ministero del Commercio cinese ha invitato Washington a correggere le proprie pratiche e a risolvere i problemi tramite il dialogo.",
+      "context": "Le tensioni commerciali tra Stati Uniti e Cina influenzano i mercati globali e le catene di approvvigionamento. Misure protezionistiche di questa portata rischiano di innescare ritorsioni reciproche, rallentare la crescita economica internazionale e ridefinire i rapporti economici globali.",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/2368ea981f5660064edcacf6ff595f03bb38028d/139_0_1390_1112/master/1390.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7bd177a609f3fd201c7b0cc7f40d507c",
+        "credit": "The Guardian Business",
+        "link": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+      },
+      "quiz": [
+        {
+          "question": "Come ha reagito la Cina alle nuove proposte tariffarie degli Stati Uniti?",
+          "options": [
+            "Ha bloccato immediatamente ogni esportazione verso l'Occidente",
+            "Ha annunciato di riservarsi il diritto di prendere misure necessarie",
+            "Ha deciso di azzerare i dazi sui prodotti americani",
+            "Ha accettato subito tutte le condizioni"
+          ],
+          "answer": 1,
+          "explanation": "La Cina ha dichiarato di riservarsi il diritto di adottare misure necessarie per difendere i propri interessi dopo l'annuncio dei dazi."
+        }
+      ],
+      "topic": "economia",
+      "section": "economia",
+      "id": "2026-11-27-5"
+    },
+    {
+      "category": "interessi",
+      "tag": "Cinema e serie TV",
+      "title": "David Fincher difende l'uso dell'intelligenza artificiale nel suo film su Cliff Booth",
+      "summary": "Il regista David Fincher ha confermato di aver usato l'intelligenza artificiale nella post-produzione del film su Cliff Booth per sincronizzare la voce e le performance degli attori. Intervistato nel podcast The Big Picture, ha spiegato che la tecnologia ha modificato i movimenti delle labbra per unire la migliore recitazione visiva e sonora. Fincher ha definito il metodo liberatorio, riducendo i tempi di ridoppiaggio e permettendo agli umani di concentrarsi su altri aspetti creativi.",
+      "context": "L'uso dell'intelligenza artificiale nel cinema è un tema molto dibattuto tra preoccupazioni per i posti di lavoro e nuove opportunità tecniche. La gestione di questi strumenti da parte dei registi resta centrale nel dibattito sul futuro della produzione audiovisiva.",
+      "sources": [
+        {
+          "name": "ANSA Cinema",
+          "url": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/26/david-fincher-ammette-luso-dellia-nel-film-su-cliff-booth_403cada8-e50b-4a32-9b59-5ee950a57c27.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2026/11/17/fde1f169ca9ce45d962f9e0e771b7a44.jpg",
+        "credit": "ANSA Cinema",
+        "link": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/26/david-fincher-ammette-luso-dellia-nel-film-su-cliff-booth_403cada8-e50b-4a32-9b59-5ee950a57c27.html"
+      },
+      "quiz": [
+        {
+          "question": "Per quale motivo David Fincher ha utilizzato l'intelligenza artificiale nel film?",
+          "options": [
+            "Per scrivere automaticamente la sceneggiatura del film",
+            "Per sostituire completamente gli attori principali con controfigure digitali",
+            "Per generare interamente le scenografie e gli sfondi digitali",
+            "Per sincronizzare la migliore interpretazione vocale con la migliore performance visiva"
+          ],
+          "answer": 3,
+          "explanation": "Fincher ha spiegato di aver usato l'IA per unire la migliore battuta registrata alla migliore performance visiva quando non coincidevano."
+        }
+      ],
+      "topic": "cinema",
+      "section": "cinema",
+      "id": "2026-11-27-6"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Basket: l'Italia batte la Turchia 86-72 nelle qualificazioni mondiali davanti al Presidente Mattarella",
+      "summary": "La nazionale italiana di basket ha battuto la Turchia per 86-72 al PalaEur nelle qualificazioni per i Mondiali del 2027. La partita si è giocata alla presenza del presidente della Repubblica Sergio Mattarella. Tra i migliori in campo per gli azzurri ci sono stati Mannion e Diouf, entrambi autori di 17 punti. Con questo successo la squadra allenata da Luca Banchi ottiene la sesta vittoria nel girone.",
+      "context": "Questa vittoria permette all'Italia di rialzarsi dopo i passi falsi contro Bosnia e Serbia nel girone di qualificazione. Mantenere una buona posizione in classifica è fondamentale per accedere alla fase finale del campionato del mondo.",
+      "sources": [
+        {
+          "name": "ANSA Sport",
+          "url": "https://www.ansa.it/sito/notizie/sport/basket/2026/11/26/basket-italia-turchia-86-72-gli-azzurri-vincono-davanti-a-mattarella_25c7e8e0-5cbb-4729-9520-33c9b86af92d.html"
+        }
+      ],
+      "image": {
+        "url": "https://www.ansa.it/webimages/img_1280x720/2025/4/4/cb86facf72a977dda9a4bcd3409949b1.jpg",
+        "credit": "ANSA Sport",
+        "link": "https://www.ansa.it/sito/notizie/sport/basket/2026/11/26/basket-italia-turchia-86-72-gli-azzurri-vincono-davanti-a-mattarella_25c7e8e0-5cbb-4729-9520-33c9b86af92d.html"
+      },
+      "quiz": [
+        {
+          "question": "Qual è stato il risultato finale della partita tra Italia e Turchia?",
+          "options": [
+            "86-72 per la Turchia",
+            "90-80 per l'Italia",
+            "72-86 per la Turchia",
+            "86-72 per l'Italia"
+          ],
+          "answer": 3,
+          "explanation": "L'Italia ha battuto la Turchia con il punteggio di 86-72."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-27-7"
+    },
+    {
+      "category": "storia",
+      "tag": "27 novembre 1895",
+      "title": "Alfred Nobel firma il testamento che istituisce i premi",
+      "summary": "Il chimico e inventore svedese Alfred Nobel ha sottoscritto il proprio testamento ufficiale. Con questo documento, l'inventore della dinamite ha destinato la gran parte del suo immenso patrimonio alla creazione di riconoscimenti annuali per chi si distingue nei campi della fisica, della chimica, della medicina, della letteratura e della pace. La decisione è maturata anche dopo aver letto per errore il proprio necrologio, che lo definiva un mercante di morte.",
+      "context": "Il testamento ha trasformato l'eredità di un industriale degli esplosivi nel massimo riconoscimento culturale e scientifico mondiale. Ha cambiato il modo in cui la scienza e la pace vengono premiate globalmente e ancora oggi i Premi Nobel rappresentano l'eccellenza internazionale.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Alfred_Nobel"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/AlfredNobel2.jpg/1280px-AlfredNobel2.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:AlfredNobel2.jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha stabilito Alfred Nobel con il testamento firmato nel novembre del 1895?",
+          "options": [
+            "L'istituzione dei Premi Nobel",
+            "La chiusura di tutte le sue fabbriche di esplosivi",
+            "La costruzione di una nuova villa a Sanremo",
+            "La donazione di tutta la sua fortuna alla famiglia"
+          ],
+          "answer": 0,
+          "explanation": "Nel testamento del 1895, Nobel ha destinato la sua eredità alla creazione dei riconoscimenti mondiali oggi noti come Premi Nobel."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-27-8"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Porcellana Ginori a Doccia",
+      "title": "Il marchese alchimista che fondò la porcellana Ginori",
+      "summary": "Nel 1737 il marchese Carlo Ginori fondò a Doccia, vicino a Sesto Fiorentino, una delle manifatture di porcellana più importanti d'Europa. Appassionato di alchimia e chimica, il nobile diresse personalmente le ricerche sugli impasti e sui forni, redigendo manuali tecnici. Per finanziare la difficile produzione della porcellana, avviò inizialmente la vendita di maioliche, trasformando i contadini della sua fattoria in esperti artigiani.",
+      "context": "La nascita della manifattura si inserisce nella Toscana del Settecento, durante il passaggio dalla dinastia dei Medici ai Lorena. In quell'epoca la porcellana era uno status symbol costosissimo e segreto, e sovrani e nobili europei investivano ingenti somme per carpirne i segreti produttivi.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Porcellana_Ginori_a_Doccia"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Ginori_1735_-_logo_%28Italy%29.svg/1280px-Ginori_1735_-_logo_%28Italy%29.svg.png",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Ginori_1735_-_logo_(Italy).svg"
+      },
+      "quiz": [
+        {
+          "question": "Chi fu il fondatore della manifattura di porcellana di Doccia?",
+          "options": [
+            "Il pittore Johann Carl Anreiter",
+            "Il granduca Francesco Stefano",
+            "Il marchese Carlo Ginori",
+            "Lo scultore Gaspero Bruschi"
+          ],
+          "answer": 2,
+          "explanation": "La manifattura fu fondata nel 1737 per volere del marchese Carlo Ginori, che ne diresse direttamente la produzione e le sperimentazioni alchemiche."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-27-9"
+    }
+  ]
+}
