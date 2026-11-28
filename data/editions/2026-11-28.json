@@ -1,0 +1,324 @@
+{
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T05:35:14.206Z",
+  "topics": [
+    {
+      "id": "tech",
+      "label": "Tech e AI",
+      "description": "tecnologia e intelligenza artificiale in generale (prodotti, ricerca, aziende grandi e piccole, regole, impatto sulla società), senza privilegiare un'azienda o un prodotto",
+      "default": true
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip hop",
+      "description": "hip hop americano in generale (artisti affermati ed emergenti, album, singoli, tour, classifiche, industria), non un singolo artista",
+      "default": true
+    },
+    {
+      "id": "scienza",
+      "label": "Scienza",
+      "description": "scienza in generale (fisica, biologia, medicina, clima, spazio, archeologia…), variando le discipline",
+      "default": false
+    },
+    {
+      "id": "economia",
+      "label": "Economia",
+      "description": "economia in generale (mercati, lavoro, imprese, prezzi, politiche economiche)",
+      "default": false
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema e serie TV",
+      "description": "cinema e serie TV in generale (uscite, produzioni, festival, premi, industria)",
+      "default": false
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "description": "sport in generale, variando le discipline, con priorità ai risultati e agli eventi più rilevanti",
+      "default": false
+    }
+  ],
+  "cards": [
+    {
+      "category": "attualita",
+      "tag": "Mondo",
+      "title": "Finlandia: record di fallimenti e procedura UE per deficit",
+      "summary": "In Finlandia, 4.092 aziende hanno dichiarato fallimento nell'ultimo anno, il dato più alto dal 2000. La disoccupazione è al 10,3%, la più alta nell'Unione Europea. Il governo affronta un debito pubblico in crescita e tagli alla spesa sociale. L'UE ha aperto una procedura per deficit eccessivo dopo i disavanzi del 2024 e 2025.",
+      "context": "La crisi riflette un'indipendenza economica mai pienamente recuperata dopo il 2008 e il crollo di Nokia. Il problema evidenzia le sfide demografiche e fiscali di un'economia avanzata sotto pressione europea.",
+      "sources": [
+        {
+          "name": "Internazionale",
+          "url": "https://www.internazionale.it/notizie/alessandro-lubello/2026/11/28/finlandia-conti-pubblici-stato-sociale"
+        }
+      ],
+      "image": {
+        "url": "https://media.internazionale.it/images/2026/11/26/364888-hd.jpg",
+        "credit": "Internazionale",
+        "link": "https://www.internazionale.it/notizie/alessandro-lubello/2026/11/28/finlandia-conti-pubblici-stato-sociale"
+      },
+      "quiz": [
+        {
+          "question": "Perché l'Unione Europea ha aperto una procedura contro la Finlandia?",
+          "options": [
+            "Perché il governo ha rifiutato di tagliare la spesa per la sanità",
+            "Perché il paese ha registrato disavanzi di bilancio superiori ai limiti previsti",
+            "Perché la disoccupazione è la più alta dell'area euro",
+            "Perché troppe aziende del settore tecnologico hanno fallito"
+          ],
+          "answer": 1,
+          "explanation": "La procedura è stata avviata a causa dei disavanzi di bilancio del 2024 e 2025, che superavano i parametri di stabilità."
+        }
+      ],
+      "section": "mondo",
+      "id": "2026-11-28-0"
+    },
+    {
+      "category": "attualita",
+      "tag": "Italia",
+      "title": "Due tecnici italiani uccisi in attacco con droni in Kuwait",
+      "summary": "Due tecnici italiani, Antonio Saccoccio e Emanuele Lo Russo, sono stati uccisi in Kuwait da un attacco con droni mentre eseguivano la manutenzione dei radar del sistema di difesa antiaerea Skyguard, prodotto da Rheinmetall Italia. Le autorità kuwaitiane accusano l'Iran, che ha smentito categoricamente il coinvolgimento. La procura di Roma ha aperto un'inchiesta. L'attacco ha ferito anche un kuwaitiano e un pachistano.",
+      "context": "L'incidente avviene in un contesto di tensione regionale dopo il conflitto tra Stati Uniti e Iran. Il Kuwait, ospitando basi americane, è diventato un bersaglio. L'episodio potrebbe influenzare le relazioni diplomatiche tra Italia, Iran e Paesi del Golfo.",
+      "sources": [
+        {
+          "name": "Repubblica",
+          "url": "https://www.repubblica.it/cronaca/2026/11/28/news/tecnici_italiani_uccisi_in_kuwait_la_pista_delle_milizie_irachene-425755690/?rss"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/26/due-tecnici-italiani-della-rheinmetall-morti-in-un-attacco-in-kuwait_060489c8-4e35-4f04-9c6a-ade4a80acda4.html"
+        },
+        {
+          "name": "Google News Italia",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdGJOMUxQNUd5OE02c0FTdkF0V2VNdGhLd2JBQVY0eGI4cEpJYjhaTmI0NDBNVnQ2Tkgtc05OSXVubXlIQkVXUHFGUXU1aW5leVpvVkFESTZUR3l2MHZGMldNdXVyMmtqN0hCWmZOU1B4c2g1ZFFRUTJVMG91aDFOT0U3RjloczlMZWkwMko4bnJwcFkyckVBZDVZRVU3Szl2d2xSVFp3dUkxV0pwSXRaYnNlVmJMUGJNc2o1OHVlOTNmSk0?oc=5"
+        }
+      ],
+      "image": {
+        "url": "https://www.repstatic.it/content/nazionale/img/2026/11/27/222615686-0c94358f-2233-42f0-8d6e-ed8718e25883.jpg",
+        "credit": "Repubblica",
+        "link": "https://www.repubblica.it/cronaca/2026/11/28/news/tecnici_italiani_uccisi_in_kuwait_la_pista_delle_milizie_irachene-425755690/?rss"
+      },
+      "quiz": [
+        {
+          "question": "Perché i due tecnici italiani si trovavano in Kuwait?",
+          "options": [
+            "Per gestire il contingente militare italiano",
+            "Per indagare su precedenti attacchi",
+            "Per mantenere i sistemi di difesa antiaerea Skyguard",
+            "Per addestrare le forze armate locali"
+          ],
+          "answer": 2,
+          "explanation": "Lavoravano per Rheinmetall Italia per la manutenzione dei radar del sistema Skyguard."
+        }
+      ],
+      "section": "italia",
+      "id": "2026-11-28-1"
+    },
+    {
+      "category": "interessi",
+      "tag": "Tech e AI",
+      "title": "Manchester University riceve 5 milioni per l'IA nell'istruzione superiore",
+      "summary": "Manchester University ha ricevuto un finanziamento di 5 milioni di dollari dalla Lilly Endowment per sviluppare e implementare l'intelligenza artificiale nell'istruzione superiore. Il progetto prevede tre aree: successo studentesco e alfabetizzazione AI, sviluppo docente e integrazione curricolare, e miglioramenti operativi e infrastrutture dati. Un precedente finanziamento di 125 mila dollari era stato concesso nel dicembre 2025 per la fase di pianificazione.",
+      "context": "Il finanziamento aiuta Manchester University a integrare l'IA nella didattica, nella ricerca e nella gestione, rispondendo alla crescente domanda di competenze digitali nelle università dell'Indiana e preparando gli studenti al mercato del lavoro.",
+      "sources": [
+        {
+          "name": "InkFreeNews.com",
+          "url": "https://www.inkfreenews.com/2026/11/27/manchester-university-receives-5-million-artificial-intelligence-in-higher-education-grant/"
+        }
+      ],
+      "image": {
+        "url": "https://www.inkfreenews.com/wp-content/uploads/2025/04/Manchester-University-Sign.jpg",
+        "credit": "InkFreeNews.com",
+        "link": "https://www.inkfreenews.com/2026/11/27/manchester-university-receives-5-million-artificial-intelligence-in-higher-education-grant/"
+      },
+      "quiz": [
+        {
+          "question": "Quanto ammonta il finanziamento ricevuto da Manchester University per l'intelligenza artificiale?",
+          "options": [
+            "2 milioni di dollari",
+            "5 milioni di dollari",
+            "125 mila dollari",
+            "10 milioni di dollari"
+          ],
+          "answer": 1,
+          "explanation": "Il comunicato indica un finanziamento di 5 milioni di dollari."
+        }
+      ],
+      "topic": "tech",
+      "section": "tech",
+      "id": "2026-11-28-2"
+    },
+    {
+      "category": "interessi",
+      "tag": "Hip hop",
+      "title": "Sostanza sconosciuta al concerto di Don Toliver a Manchester",
+      "summary": "Durante il concerto di Don Toliver al Co-op Live di Manchester, svoltosi la domenica 22 novembre, è stata rilasciata una sostanza sconosciuta tra il pubblico. L'evento è stato evacuato e circa 80 persone sono state curate per sintomi respiratori e oculari. La polizia di Greater Manchester ha dichiarato che il rilascio potrebbe essere collegato a nove furti di gioielli avvenuti durante lo show, ipotizzando un'operazione criminale organizzata.",
+      "context": "Il caso evidenzia un nuovo metodo criminale che sfrutta il caos creato da agenti chimici per facilitare furti nei grandi eventi. Le autorità stanno collaborando con partner europei per indagare su episodi simili riportati in altre città, segnalando una possibile rete transnazionale di reati legati ai concerti.",
+      "sources": [
+        {
+          "name": "Billboard",
+          "url": "https://www.billboard.com/music/rb-hip-hop/don-toliver-concert-jewelry-thefts-1236389403/"
+        },
+        {
+          "name": "Metro on MSN",
+          "url": "https://www.msn.com/en-us/news/other/police-give-update-after-unknown-substance-released-at-rapper-s-manchester-gig/ar-AA2inD6h"
+        }
+      ],
+      "image": {
+        "url": "https://www.billboard.com/wp-content/uploads/2026/11/P1186HZF-e1795427157414.jpg?w=1024",
+        "credit": "Billboard",
+        "link": "https://www.billboard.com/music/rb-hip-hop/don-toliver-concert-jewelry-thefts-1236389403/"
+      },
+      "quiz": [
+        {
+          "question": "Secondo la polizia, qual è il possibile legame tra il rilascio della sostanza e i furti?",
+          "options": [
+            "La sostanza è stata rilasciata accidentalmente da un tecnico del suono",
+            "I furti sono avvenuti prima dell'arrivo dell'artista",
+            "I ladri hanno rubato la sostanza dal palco durante il concerto",
+            "La sostanza è stata usata per distrarre il pubblico e facilitare i furti"
+          ],
+          "answer": 3,
+          "explanation": "La polizia ha dichiarato che il rilascio della sostanza potrebbe essere collegato ai furti, suggerendo che sia stata usata per creare confusione e permettere ai criminali di agire."
+        }
+      ],
+      "topic": "hiphop",
+      "section": "hiphop",
+      "id": "2026-11-28-3"
+    },
+    {
+      "category": "interessi",
+      "tag": "Scienza",
+      "title": "Supernova vicina: gli astronomi studiano l'esplosione stellare di novembre",
+      "summary": "Il 2 novembre 2026 è stata scoperta la supernova SN 2026ahvu nella galassia NGC 1433, a circa 50 milioni di anni luce da Terra. Classificata come tipo Ia, è considerata rara per la sua vicinanza. Gli astronomi la osservano con telescopi come Gemini South per capire cosa ha innescato l'esplosione di una nana bianca, dato che di solito questi eventi avvengono troppo lontani per essere studiati nei dettagli.",
+      "context": "Le supernove di tipo Ia servono come candele standard per misurare le distanze cosmiche e studiare l'espansione dell'universo. Osservarne una così vicina offre l'opportunità unica di identificare il meccanismo fisico che porta una nana bianca a esplodere, risolvendo un dibattito aperto tra i fisici.",
+      "sources": [
+        {
+          "name": "Science News",
+          "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+        }
+      ],
+      "image": {
+        "url": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112326_MB_supernova_main.jpg",
+        "credit": "Science News",
+        "link": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+      },
+      "quiz": [
+        {
+          "question": "Perché la supernova SN 2026ahvu è considerata particolarmente importante per la ricerca?",
+          "options": [
+            "Ha una luminosità decine di volte superiore alla media",
+            "Si trova nel nostro stesso sistema solare",
+            "È molto vicina alla Terra, permettendo di studiare il meccanismo dell'esplosione",
+            "È la prima supernova mai osservata nella storia"
+          ],
+          "answer": 2,
+          "explanation": "La vicinanza (circa 50 milioni di anni luce) è rara per questo tipo di evento e permette di analizzare i dettagli dell'esplosione della nana bianca, cosa impossibile per le supernove più lontane."
+        }
+      ],
+      "topic": "scienza",
+      "section": "scienza",
+      "id": "2026-11-28-4"
+    },
+    {
+      "category": "interessi",
+      "tag": "Sport",
+      "title": "Rugby: l'Irlanda batte l'Australia nell'autunno internazionale",
+      "summary": "L'Irlanda ha battuto l'Australia per trentotto a quattordici a Londra, chiudendo imbattuta il mese di novembre con quattro vittorie su quattro. Nonostante un avvio lento e il vantaggio iniziale degli avversari, la squadra allenata da Andy Farrell ha preso il controllo della partita grazie a cinque mete complessive, conquistando il quinto posto nel torneo inaugurale del Nations Championship.",
+      "context": "Questa vittoria chiude l'anno solare per l'Irlanda con dieci successi in dodici partite, confermando la nazionale tra le migliori al mondo. Mantenere la continuità di rendimento nei test match autunnali è fondamentale in vista delle prossime competizioni internazionali e del ranking mondiale.",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw987l0ej11mo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/fad8/live/3e7ca7a0-eaab-11f1-9d2d-dd9286f639a6.jpg",
+        "credit": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cw987l0ej11mo?at_medium=RSS&at_campaign=rss"
+      },
+      "quiz": [
+        {
+          "question": "Con quale punteggio l'Irlanda ha sconfitto l'Australia nell'ultima partita di novembre?",
+          "options": [
+            "Quattordici a dieci",
+            "Trentotto a sette",
+            "Venti a diciassette",
+            "Trentotto a quattordici"
+          ],
+          "answer": 3,
+          "explanation": "L'Irlanda ha vinto l'incontro con il punteggio di trentotto a quattordici."
+        }
+      ],
+      "topic": "sport",
+      "section": "sport",
+      "id": "2026-11-28-5"
+    },
+    {
+      "category": "storia",
+      "tag": "28 novembre 1989",
+      "title": "Cecoslovacchia, i comunisti rinunciano al potere",
+      "summary": "Il 28 novembre 1989, di fronte alle imponenti manifestazioni di protesta della popolazione e degli studenti, il Partito Comunista della Cecoslovacchia ha annunciato che avrebbe rinunciato al monopolio del potere politico. Questa decisione ha segnato una svolta decisiva nella cosiddetta rivoluzione di velluto, aprendo la strada alla transizione pacifica del paese verso una repubblica parlamentare e alla fine del regime monopartitico iniziato nel 1948.",
+      "context": "La fine del monopolio comunista in Cecoslovacchia ha spazzato via decenni di dittatura e censura, traghettando il paese verso la democrazia con le prime libere elezioni del 1990. Questa transizione ha lasciato in eredità il valore del dissenso pacifico e ha ridisegnato la mappa geopolitica dell'Europa centrale, portando nel 1993 alla nascita pacifica di due Stati separati: Repubblica Ceca e Slovacchia.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Rivoluzione_di_velluto"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Praha_1989-11-25%2C_Letn%C3%A1%2C_dav_%2801%29.jpg/1280px-Praha_1989-11-25%2C_Letn%C3%A1%2C_dav_%2801%29.jpg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:Praha_1989-11-25%2C_Letn%C3%A1%2C_dav_(01).jpg"
+      },
+      "quiz": [
+        {
+          "question": "Cosa ha annunciato il Partito Comunista della Cecoslovacchia il 28 novembre 1989?",
+          "options": [
+            "Di trasferire la capitale del paese a Bratislava",
+            "Di sciogliere immediatamente tutte le forze di polizia",
+            "Di rinunciare al monopolio del potere politico di fronte ai manifestanti",
+            "Di voler indire nuove elezioni con la partecipazione di Mosca"
+          ],
+          "answer": 2,
+          "explanation": "Di fronte alle proteste della rivoluzione di velluto, il partito ha annunciato la rinuncia al monopolio del potere."
+        }
+      ],
+      "section": "storia",
+      "id": "2026-11-28-6"
+    },
+    {
+      "category": "curiosita",
+      "tag": "Operazione Deny Flight",
+      "title": "Quando la NATO bloccò i cieli della Bosnia",
+      "summary": "Il 12 aprile 1993 la NATO avviò l'operazione Deny Flight per imporre una zona di interdizione al volo sui cieli della Bosnia ed Erzegovina, sconvolta dalla guerra. La missione, nata per bloccare i velivoli non autorizzati, fu poi ampliata per difendere le truppe ONU sul terreno. Tuttavia, la complessa catena di comando e i contrasti politici tra gli alleati resero difficile l'uso dei raid aerei, fallendo la protezione delle zone di sicurezza come Srebrenica.",
+      "context": "L'operazione Deny Flight si inserisce nel complesso intervento della comunità internazionale durante le guerre jugoslave degli anni novanta. Le difficoltà di coordinamento tra organizzazioni diverse e i timori di ritorsioni evidenziarono i limiti della deterrenza aerea senza una chiara volontà politica comune.",
+      "sources": [
+        {
+          "name": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/Operazione_Deny_Flight"
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/F-15C_53FS_36FW_Aviano_1993.jpeg/1280px-F-15C_53FS_36FW_Aviano_1993.jpeg",
+        "credit": "Wikipedia",
+        "link": "https://it.wikipedia.org/wiki/File:F-15C_53FS_36FW_Aviano_1993.jpeg"
+      },
+      "quiz": [
+        {
+          "question": "Qual era l'obiettivo principale dell'operazione Deny Flight avviata nel 1993?",
+          "options": [
+            "Gestire direttamente gli aiuti umanitari con truppe di terra",
+            "Monitorare l'embargo navale nel mare Adriatico",
+            "Bombardare la capitale Belgrado per fermare il conflitto",
+            "Imporre una zona di interdizione al volo sulla Bosnia ed Erzegovina"
+          ],
+          "answer": 3,
+          "explanation": "L'operazione nacque in attuazione della risoluzione ONU per istituire una zona di interdizione al volo sull'intera Bosnia ed Erzegovina."
+        }
+      ],
+      "section": "curiosita",
+      "id": "2026-11-28-7"
+    }
+  ]
+}
